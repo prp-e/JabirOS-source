@@ -25,7 +25,7 @@
 
 #ifndef lint
 static const char rcsid[] =
-  "$FreeBSD: release/10.0.0/sbin/ifconfig/ifgroup.c 189864 2009-03-15 22:33:18Z jamie $";
+  "$FreeBSD: stable/10/sbin/ifconfig/ifgroup.c 262556 2014-02-27 13:08:43Z des $";
 #endif /* not lint */
 
 #include <sys/types.h>
@@ -57,7 +57,7 @@ setifgroup(const char *group_name, int d, int s, const struct afswtch *rafp)
 
 	if (strlcpy(ifgr.ifgr_group, group_name, IFNAMSIZ) >= IFNAMSIZ)
 		errx(1, "setifgroup: group name too long");
-	if (ioctl(s, SIOCAIFGROUP, (caddr_t)&ifgr) == -1)
+	if (ioctl(s, SIOCAIFGROUP, (caddr_t)&ifgr) == -1 && errno != EEXIST)
 		err(1," SIOCAIFGROUP");
 }
 
@@ -75,7 +75,7 @@ unsetifgroup(const char *group_name, int d, int s, const struct afswtch *rafp)
 
 	if (strlcpy(ifgr.ifgr_group, group_name, IFNAMSIZ) >= IFNAMSIZ)
 		errx(1, "unsetifgroup: group name too long");
-	if (ioctl(s, SIOCDIFGROUP, (caddr_t)&ifgr) == -1)
+	if (ioctl(s, SIOCDIFGROUP, (caddr_t)&ifgr) == -1 && errno != ENOENT)
 		err(1, "SIOCDIFGROUP");
 }
 

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/cddl/compat/opensolaris/sys/time.h 255437 2013-09-10 01:46:47Z delphij $
+ * $FreeBSD: stable/10/sys/cddl/compat/opensolaris/sys/time.h 265679 2014-05-08 13:31:01Z mav $
  */
 
 #ifndef _OPENSOLARIS_SYS_TIME_H_
@@ -71,19 +71,9 @@ gethrtime(void) {
 
 extern int nsec_per_tick;	/* nanoseconds per clock tick */
 
-static __inline int64_t
-ddi_get_lbolt64(void)
-{
-
-	return (gethrtime() / nsec_per_tick);
-}
-
-static __inline clock_t
-ddi_get_lbolt(void)
-{
-
-	return (ddi_get_lbolt64());
-}
+#define ddi_get_lbolt64()				\
+    (int64_t)(((getsbinuptime() >> 16) * hz) >> 16)
+#define ddi_get_lbolt()		(clock_t)ddi_get_lbolt64()
 
 #else
 

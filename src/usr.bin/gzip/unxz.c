@@ -29,7 +29,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/gzip/unxz.c 226418 2011-10-16 07:35:26Z delphij $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/gzip/unxz.c 226418 2011-10-16 07:35:26Z delphij $");
 
 #include <stdarg.h>
 #include <errno.h>

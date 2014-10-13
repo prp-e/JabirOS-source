@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/nandsim/nandsim_cfgparse.c 249744 2013-04-21 22:47:24Z ed $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/nandsim/nandsim_cfgparse.c 249744 2013-04-21 22:47:24Z ed $");
 
 #include <sys/errno.h>
 #include <sys/ioctl.h>

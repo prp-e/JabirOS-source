@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/ti/ti_mmchs.h 252863 2013-07-06 04:18:34Z rpaulo $
+ * $FreeBSD: stable/10/sys/arm/ti/ti_mmchs.h 252863 2013-07-06 04:18:34Z rpaulo $
  */
 #ifndef _TI_MMCHS_H_
 #define _TI_MMCHS_H_

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sbin/devfs/Makefile 203916 2010-02-15 14:07:40Z uqs $
+# $FreeBSD: stable/10/sbin/devfs/Makefile 203916 2010-02-15 14:07:40Z uqs $
 
 PROG=	devfs
 SRCS=	devfs.c rule.c

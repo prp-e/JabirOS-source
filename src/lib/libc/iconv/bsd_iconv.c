@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/lib/libc/iconv/bsd_iconv.c 258750 2013-11-29 19:44:30Z gjb $ */
+/* $FreeBSD: stable/10/lib/libc/iconv/bsd_iconv.c 267665 2014-06-20 07:32:03Z tijl $ */
 /* $NetBSD: iconv.c,v 1.11 2009/03/03 16:22:33 explorer Exp $ */
 
 /*-
@@ -83,6 +83,7 @@ __bsd___iconv_open(const char *out, const char *in, struct _citrus_iconv *handle
 	}
 
 	handle->cv_shared->ci_discard_ilseq = strcasestr(out, "//IGNORE");
+	handle->cv_shared->ci_ilseq_invalid = false;
 	handle->cv_shared->ci_hooks = NULL;
 
 	return ((iconv_t)(void *)handle);
@@ -223,7 +224,7 @@ __bsd_iconvlist(int (*do_one) (unsigned int, const char * const *,
 			return;
 		}
 		strlcpy(curkey, list[i], slashpos - list[i] + 1);
-		names[j++] = strdup(curkey);
+		names[j++] = curkey;
 		for (; (i < sz) && (memcmp(curkey, list[i], strlen(curkey)) == 0); i++) {
 			slashpos = strchr(list[i], '/');
 			curitem = (char *)malloc(strlen(slashpos) + 1);
@@ -235,7 +236,7 @@ __bsd_iconvlist(int (*do_one) (unsigned int, const char * const *,
 			if (strcmp(curkey, curitem) == 0) {
 				continue;
 			}
-			names[j++] = strdup(curitem);
+			names[j++] = curitem;
 		}
 		np = (const char * const *)names;
 		do_one(j, np, data);

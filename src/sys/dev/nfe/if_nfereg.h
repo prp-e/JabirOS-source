@@ -15,7 +15,7 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/nfe/if_nfereg.h 215132 2010-11-11 18:08:50Z yongari $
+ * $FreeBSD: stable/10/sys/dev/nfe/if_nfereg.h 264442 2014-04-14 04:51:59Z yongari $
  */
 
 #define	NFE_RX_RING_COUNT	256
@@ -40,7 +40,7 @@
 	(NFE_JUMBO_FRAMELEN - NFE_RX_HEADERS)
 #define	NFE_MIN_FRAMELEN	(ETHER_MIN_LEN - ETHER_CRC_LEN)
 
-#define	NFE_MAX_SCATTER		32
+#define	NFE_MAX_SCATTER		35
 #define	NFE_TSO_MAXSGSIZE	4096
 #define	NFE_TSO_MAXSIZE		(65535 + sizeof(struct ether_vlan_header))
 

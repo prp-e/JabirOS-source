@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/sed/process.c 192732 2009-05-25 06:45:33Z brian $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/sed/process.c 269837 2014-08-11 20:38:52Z jlh $");
 
 #ifndef lint
 static const char sccsid[] = "@(#)process.c	8.6 (Berkeley) 4/20/94";
@@ -288,24 +288,32 @@ applies(struct s_command *cp)
 		r = 1;
 	else if (cp->a2)
 		if (cp->startline > 0) {
-			if (MATCH(cp->a2)) {
-				cp->startline = 0;
-				lastaddr = 1;
-				r = 1;
-			} else if (linenum - cp->startline <= cp->a2->u.l)
-				r = 1;
-			else if ((cp->a2->type == AT_LINE &&
-				   linenum > cp->a2->u.l) ||
-				   (cp->a2->type == AT_RELLINE &&
-				   linenum - cp->startline > cp->a2->u.l)) {
-				/*
-				 * We missed the 2nd address due to a branch,
-				 * so just close the range and return false.
-				 */
-				cp->startline = 0;
-				r = 0;
-			} else
-				r = 1;
+                        switch (cp->a2->type) {
+                        case AT_RELLINE:
+                                if (linenum - cp->startline <= cp->a2->u.l)
+                                        r = 1;
+                                else {
+				        cp->startline = 0;
+				        r = 0;
+                                }
+                                break;
+                        default:
+                                if (MATCH(cp->a2)) {
+                                        cp->startline = 0;
+                                        lastaddr = 1;
+                                        r = 1;
+                                } else if (cp->a2->type == AT_LINE &&
+                                            linenum > cp->a2->u.l) {
+                                        /*
+                                         * We missed the 2nd address due to a
+                                         * branch, so just close the range and
+                                         * return false.
+                                         */
+                                        cp->startline = 0;
+                                        r = 0;
+                                } else
+                                        r = 1;
+                        }
 		} else if (MATCH(cp->a1)) {
 			/*
 			 * If the second address is a number less than or

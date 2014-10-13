@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/fs/nfsclient/nfsmount.h 244042 2012-12-08 22:52:39Z rmacklem $
+ * $FreeBSD: stable/10/sys/fs/nfsclient/nfsmount.h 244042 2012-12-08 22:52:39Z rmacklem $
  */
 
 #ifndef _NFSCLIENT_NFSMOUNT_H_

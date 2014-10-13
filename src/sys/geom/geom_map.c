@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/geom/geom_map.c 237875 2012-07-01 05:22:13Z imp $");
+__FBSDID("$FreeBSD: stable/10/sys/geom/geom_map.c 237875 2012-07-01 05:22:13Z imp $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

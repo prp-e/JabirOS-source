@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: release/10.0.0/etc/rc.d/sysctl 248620 2013-03-22 20:12:25Z jilles $
+# $FreeBSD: stable/10/etc/rc.d/sysctl 261153 2014-01-25 10:43:47Z demon $
 #
 
 # PROVIDE: sysctl
@@ -27,7 +27,9 @@ sysctl_start()
 	esac
 
 	for _f in /etc/sysctl.conf /etc/sysctl.conf.local; do
-		[ -r ${_f} ] && ${command} ${command_args} ${_f} > /dev/null
+		if [ -r ${_f} ]; then
+			${command} ${command_args} ${_f} > /dev/null
+		fi
 	done
 }
 

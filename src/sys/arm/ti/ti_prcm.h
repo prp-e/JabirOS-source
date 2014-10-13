@@ -29,7 +29,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/ti/ti_prcm.h 254592 2013-08-21 04:20:17Z ian $
+ * $FreeBSD: stable/10/sys/arm/ti/ti_prcm.h 266338 2014-05-17 19:06:46Z loos $
  */
 
 
@@ -161,6 +161,8 @@ typedef enum {
 	SPINLOCK0_CLK = 1600,
 
 	PRUSS_CLK = 1700,
+
+	TSC_ADC_CLK = 1800,
 
 	INVALID_CLK_IDENT
 

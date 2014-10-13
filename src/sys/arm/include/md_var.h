@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	from: FreeBSD: src/sys/i386/include/md_var.h,v 1.40 2001/07/12
- * $FreeBSD: release/10.0.0/sys/arm/include/md_var.h 239268 2012-08-15 03:03:03Z gonzo $
+ * $FreeBSD: stable/10/sys/arm/include/md_var.h 266311 2014-05-17 13:53:38Z ian $
  */
 
 #ifndef	_MACHINE_MD_VAR_H_
@@ -50,20 +50,13 @@ extern int _min_bzero_size;
 
 enum cpu_class {
 	CPU_CLASS_NONE,
-	CPU_CLASS_ARM2,
-	CPU_CLASS_ARM2AS,
-	CPU_CLASS_ARM3,
-	CPU_CLASS_ARM6,
-	CPU_CLASS_ARM7,
-	CPU_CLASS_ARM7TDMI,
-	CPU_CLASS_ARM8,
 	CPU_CLASS_ARM9TDMI,
 	CPU_CLASS_ARM9ES,
 	CPU_CLASS_ARM9EJS,
 	CPU_CLASS_ARM10E,
 	CPU_CLASS_ARM10EJ,
 	CPU_CLASS_CORTEXA,
-	CPU_CLASS_SA1,
+	CPU_CLASS_KRAIT,
 	CPU_CLASS_XSCALE,
 	CPU_CLASS_ARM11J,
 	CPU_CLASS_MARVELL

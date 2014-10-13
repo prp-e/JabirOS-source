@@ -43,7 +43,7 @@
 #include <machine/asm.h>
 #include <machine/setjmp.h>
 
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/arm/gen/setjmp.S 251514 2013-06-07 22:01:06Z andrew $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/arm/gen/setjmp.S 271337 2014-09-09 22:24:01Z ian $");
 
 /*
  * C library -- setjmp, longjmp
@@ -101,7 +101,7 @@ ENTRY(setjmp)
 .Lfpu_present:
 	.word	PIC_SYM(_libc_arm_fpu_present, GOTOFF)
 #endif /* __ARM_EABI__ */
-
+END(setjmp)
 
 .weak _C_LABEL(longjmp)
 .set _C_LABEL(longjmp), _C_LABEL(__longjmp)
@@ -150,3 +150,4 @@ ENTRY(__longjmp)
 	bl	PIC_SYM(_C_LABEL(longjmperror), PLT)
 	bl	PIC_SYM(_C_LABEL(abort), PLT)
 	b	. - 8		/* Cannot get here */
+END(__longjmp)

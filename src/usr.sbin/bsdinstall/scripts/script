@@ -25,7 +25,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/usr.sbin/bsdinstall/scripts/script 258421 2013-11-21 03:40:52Z dteske $
+# $FreeBSD: stable/10/usr.sbin/bsdinstall/scripts/script 264472 2014-04-14 21:04:58Z dteske $
 #
 ############################################################ INCLUDES
 
@@ -74,7 +74,7 @@ trap error EXIT
 SCRIPT="$1"
 shift
 
-f_dprintf "Began Instalation at %s" "$( date )"
+f_dprintf "Began Installation at %s" "$( date )"
 rm -rf $BSDINSTALL_TMPETC
 mkdir $BSDINSTALL_TMPETC
 
@@ -95,7 +95,11 @@ fi
 # Make partitions
 rm -f $PATH_FSTAB
 touch $PATH_FSTAB
-bsdinstall scriptedpart "$PARTITIONS"
+if [ "$ZFSBOOT_DISKS" ]; then
+	bsdinstall zfsboot
+else
+	bsdinstall scriptedpart "$PARTITIONS"
+fi
 bsdinstall mount
 
 # Unpack distributions

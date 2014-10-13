@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/broadcom/bcm2835/bcm2835_systimer.c 255816 2013-09-23 14:00:18Z loos $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/broadcom/bcm2835/bcm2835_systimer.c 266207 2014-05-16 02:21:51Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -40,7 +40,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/broadcom/bcm2835/bcm2835_systimer.c 2
 #include <sys/watchdog.h>
 #include <machine/bus.h>
 #include <machine/cpu.h>
-#include <machine/frame.h>
 #include <machine/intr.h>
 
 #include <dev/fdt/fdt_common.h>
@@ -187,6 +186,9 @@ static int
 bcm_systimer_probe(device_t dev)
 {
 
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
+
 	if (ofw_bus_is_compatible(dev, "broadcom,bcm2835-system-timer")) {
 		device_set_desc(dev, "BCM2835 System Timer");
 		return (BUS_PROBE_DEFAULT);
@@ -274,12 +276,6 @@ static driver_t bcm_systimer_driver = {
 static devclass_t bcm_systimer_devclass;
 
 DRIVER_MODULE(bcm_systimer, simplebus, bcm_systimer_driver, bcm_systimer_devclass, 0, 0);
-
-void
-cpu_initclocks(void)
-{
-	cpu_initclocks_bsp();
-}
 
 void
 DELAY(int usec)

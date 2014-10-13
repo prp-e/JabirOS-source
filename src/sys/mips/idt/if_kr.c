@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/idt/if_kr.c 243882 2012-12-05 08:04:20Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/idt/if_kr.c 243882 2012-12-05 08:04:20Z glebius $");
 
 /*
  * RC32434 Ethernet interface driver

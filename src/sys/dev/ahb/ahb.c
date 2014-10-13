@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/ahb/ahb.c 246713 2013-02-12 16:57:20Z kib $
+ * $FreeBSD: stable/10/sys/dev/ahb/ahb.c 246713 2013-02-12 16:57:20Z kib $
  */
 
 #include <sys/param.h>

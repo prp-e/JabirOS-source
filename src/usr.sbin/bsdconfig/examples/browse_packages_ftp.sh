@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/usr.sbin/bsdconfig/examples/browse_packages_ftp.sh 255818 2013-09-23 16:47:52Z dteske $
+# $FreeBSD: stable/10/usr.sbin/bsdconfig/examples/browse_packages_ftp.sh 266290 2014-05-17 03:28:43Z dteske $
 #
 # This sample downloads the package INDEX file from FTP to /tmp (if it doesn't
 # already exist) and then displays the package configuration/management screen
@@ -18,7 +18,7 @@ if [ ! -e "$TMPDIR/packages/INDEX" ]; then
 	mediaSetFTP
 	mediaOpen
 	f_show_info "Downloading packages/INDEX from\n %s" "$_ftpPath" 
-	f_device_get media packages/INDEX > $TMPDIR/packages/INDEX
+	f_device_get device_media packages/INDEX > $TMPDIR/packages/INDEX
 fi
 _directoryPath=$TMPDIR
 mediaSetDirectory

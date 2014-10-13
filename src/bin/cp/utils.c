@@ -33,7 +33,7 @@ static char sccsid[] = "@(#)utils.c	8.3 (Berkeley) 4/1/94";
 #endif
 #endif /* not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/bin/cp/utils.c 245960 2013-01-27 05:59:28Z markj $");
+__FBSDID("$FreeBSD: stable/10/bin/cp/utils.c 245960 2013-01-27 05:59:28Z markj $");
 
 #include <sys/types.h>
 #include <sys/acl.h>

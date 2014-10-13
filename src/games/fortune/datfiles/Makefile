@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.2 (Berkeley) 4/19/94
-# $FreeBSD: release/10.0.0/games/fortune/datfiles/Makefile 248200 2013-03-12 12:35:02Z jhb $
+# $FreeBSD: stable/10/games/fortune/datfiles/Makefile 248200 2013-03-12 12:35:02Z jhb $
 
 DB=	fortunes freebsd-tips murphy startrek zippy
 

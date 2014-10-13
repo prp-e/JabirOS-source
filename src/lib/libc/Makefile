@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.2 (Berkeley) 2/3/94
-# $FreeBSD: release/10.0.0/lib/libc/Makefile 258750 2013-11-29 19:44:30Z gjb $
+# $FreeBSD: stable/10/lib/libc/Makefile 270837 2014-08-30 09:55:38Z ume $
 
 SHLIBDIR?= /lib
 
@@ -47,6 +47,7 @@ LDFLAGS+= -nodefaultlibs
 LDADD+= -lgcc
 
 .if ${MK_SSP} != "no"
+DPADD+= ${LIBSSP_NONSHARED}
 LDADD+= -lssp_nonshared
 .endif
 
@@ -73,6 +74,7 @@ NOASM=
 .include "${.CURDIR}/inet/Makefile.inc"
 .include "${.CURDIR}/isc/Makefile.inc"
 .include "${.CURDIR}/locale/Makefile.inc"
+.include "${.CURDIR}/md/Makefile.inc"
 .include "${.CURDIR}/nameser/Makefile.inc"
 .include "${.CURDIR}/net/Makefile.inc"
 .include "${.CURDIR}/nls/Makefile.inc"

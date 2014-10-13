@@ -1,9 +1,9 @@
-# $FreeBSD: release/10.0.0/lib/libiconv_modules/mapper_parallel/Makefile 219019 2011-02-25 00:04:39Z gabor $
+# $FreeBSD: stable/10/lib/libiconv_modules/mapper_parallel/Makefile 260497 2014-01-09 23:08:56Z dim $
 
 .PATH: ${.CURDIR}/../mapper_serial
 
 SHLIB=	mapper_parallel
 SRCS+=	citrus_mapper_serial.c
-CFLAGS+= --param max-inline-insns-single=32
+CFLAGS.gcc+= --param max-inline-insns-single=32
 
 .include <bsd.lib.mk>

@@ -36,7 +36,7 @@ static char sccsid[] = "@(#)eval.c	8.9 (Berkeley) 6/8/95";
 #endif
 #endif /* not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/bin/sh/eval.c 255215 2013-09-04 22:10:16Z jilles $");
+__FBSDID("$FreeBSD: stable/10/bin/sh/eval.c 262951 2014-03-09 17:04:31Z jmmv $");
 
 #include <paths.h>
 #include <signal.h>
@@ -750,6 +750,45 @@ isdeclarationcmd(struct narg *arg)
 		(have_command || !isfunc("local"))));
 }
 
+static void
+xtracecommand(struct arglist *varlist, struct arglist *arglist)
+{
+	struct strlist *sp;
+	char sep = 0;
+	const char *p, *ps4;
+
+	ps4 = expandstr(ps4val());
+	out2str(ps4 != NULL ? ps4 : ps4val());
+	for (sp = varlist->list ; sp ; sp = sp->next) {
+		if (sep != 0)
+			out2c(' ');
+		p = strchr(sp->text, '=');
+		if (p != NULL) {
+			p++;
+			outbin(sp->text, p - sp->text, out2);
+			out2qstr(p);
+		} else
+			out2qstr(sp->text);
+		sep = ' ';
+	}
+	for (sp = arglist->list ; sp ; sp = sp->next) {
+		if (sep != 0)
+			out2c(' ');
+		/* Disambiguate command looking like assignment. */
+		if (sp == arglist->list &&
+				strchr(sp->text, '=') != NULL &&
+				strchr(sp->text, '\'') == NULL) {
+			out2c('\'');
+			out2str(sp->text);
+			out2c('\'');
+		} else
+			out2qstr(sp->text);
+		sep = ' ';
+	}
+	out2c('\n');
+	flushout(&errout);
+}
+
 /*
  * Check if a builtin can safely be executed in the same process,
  * even though it should be in a subshell (command substitution).
@@ -847,40 +886,8 @@ evalcommand(union node *cmd, int flags, struct backcmd *backcmd)
 	argv -= argc;
 
 	/* Print the command if xflag is set. */
-	if (xflag) {
-		char sep = 0;
-		const char *p, *ps4;
-		ps4 = expandstr(ps4val());
-		out2str(ps4 != NULL ? ps4 : ps4val());
-		for (sp = varlist.list ; sp ; sp = sp->next) {
-			if (sep != 0)
-				out2c(' ');
-			p = strchr(sp->text, '=');
-			if (p != NULL) {
-				p++;
-				outbin(sp->text, p - sp->text, out2);
-				out2qstr(p);
-			} else
-				out2qstr(sp->text);
-			sep = ' ';
-		}
-		for (sp = arglist.list ; sp ; sp = sp->next) {
-			if (sep != 0)
-				out2c(' ');
-			/* Disambiguate command looking like assignment. */
-			if (sp == arglist.list &&
-					strchr(sp->text, '=') != NULL &&
-					strchr(sp->text, '\'') == NULL) {
-				out2c('\'');
-				out2str(sp->text);
-				out2c('\'');
-			} else
-				out2qstr(sp->text);
-			sep = ' ';
-		}
-		out2c('\n');
-		flushout(&errout);
-	}
+	if (xflag)
+		xtracecommand(&varlist, &arglist);
 
 	/* Now locate the command. */
 	if (argc == 0) {

@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)domain.h	8.1 (Berkeley) 6/2/93
- * $FreeBSD: release/10.0.0/sys/sys/domain.h 248534 2013-03-19 20:58:17Z jilles $
+ * $FreeBSD: stable/10/sys/sys/domain.h 248534 2013-03-19 20:58:17Z jilles $
  */
 
 #ifndef _SYS_DOMAIN_H_

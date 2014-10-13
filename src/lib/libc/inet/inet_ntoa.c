@@ -29,10 +29,10 @@
 
 #if defined(LIBC_SCCS) && !defined(lint)
 static const char sccsid[] = "@(#)inet_ntoa.c	8.1 (Berkeley) 6/4/93";
-static const char rcsid[] = "$Id: inet_ntoa.c,v 1.1.352.1 2005/04/27 05:00:54 sra Exp $";
+static const char rcsid[] = "$Id: inet_ntoa.c,v 1.2 2005/04/27 04:56:21 sra Exp $";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/inet/inet_ntoa.c 170715 2007-06-14 07:13:28Z delphij $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/inet/inet_ntoa.c 270838 2014-08-30 10:16:25Z ume $");
 
 #include "port_before.h"
 

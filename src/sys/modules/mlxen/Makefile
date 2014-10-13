@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/mlxen/Makefile 234183 2012-04-12 14:01:06Z jhb $
+# $FreeBSD: stable/10/sys/modules/mlxen/Makefile 271127 2014-09-04 20:12:36Z hselasky $
 .PATH:  ${.CURDIR}/../../ofed/drivers/net/mlx4
 
 .include <bsd.own.mk>
@@ -10,6 +10,7 @@ SRCS	+= en_rx.c en_tx.c
 SRCS	+= opt_inet.h opt_inet6.h
 CFLAGS+= -I${.CURDIR}/../../ofed/drivers/net/mlx4
 CFLAGS+= -I${.CURDIR}/../../ofed/include/
+CFLAGS+= -fms-extensions
 
 .if !defined(KERNBUILDDIR)
 .if ${MK_INET_SUPPORT} != "no"
@@ -25,4 +26,4 @@ opt_inet6.h:
 
 .include <bsd.kmod.mk>
 
-CFLAGS+= -Wno-cast-qual -Wno-pointer-arith -fms-extensions
+CFLAGS+= -Wno-cast-qual -Wno-pointer-arith ${GCC_MS_EXTENSIONS}

@@ -42,7 +42,7 @@
 #include "opt_compat.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/compat/linprocfs/linprocfs.c 251423 2013-06-05 17:00:10Z alc $");
+__FBSDID("$FreeBSD: stable/10/sys/compat/linprocfs/linprocfs.c 263101 2014-03-13 03:42:00Z eadler $");
 
 #include <sys/param.h>
 #include <sys/queue.h>
@@ -72,6 +72,7 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/compat/linprocfs/linprocfs.c 251423 2013-
 #include <sys/time.h>
 #include <sys/tty.h>
 #include <sys/user.h>
+#include <sys/uuid.h>
 #include <sys/vmmeter.h>
 #include <sys/vnode.h>
 #include <sys/bus.h>
@@ -1336,6 +1337,22 @@ linprocfs_dofdescfs(PFS_FILL_ARGS)
 	return (0);
 }
 
+
+/*
+ * Filler function for proc/sys/kernel/random/uuid
+ */
+static int
+linprocfs_douuid(PFS_FILL_ARGS)
+{
+	struct uuid uuid;
+
+	kern_uuidgen(&uuid, 1);
+	sbuf_printf_uuid(sb, &uuid);
+	sbuf_printf(sb, "\n");
+	return(0);
+}
+
+
 /*
  * Constructor
  */
@@ -1433,6 +1450,11 @@ linprocfs_init(PFS_INIT_ARGS)
 	pfs_create_file(dir, "pid_max", &linprocfs_dopid_max,
 	    NULL, NULL, NULL, PFS_RD);
 	pfs_create_file(dir, "sem", &linprocfs_dosem,
+	    NULL, NULL, NULL, PFS_RD);
+
+	/* /proc/sys/kernel/random/... */
+	dir = pfs_create_dir(dir, "random", NULL, NULL, NULL, 0);
+	pfs_create_file(dir, "uuid", &linprocfs_douuid,
 	    NULL, NULL, NULL, PFS_RD);
 
 	return (0);

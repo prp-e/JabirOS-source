@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/boot/i386/libi386/vidconsole.c 232309 2012-02-29 18:11:33Z jkim $");
+__FBSDID("$FreeBSD: stable/10/sys/boot/i386/libi386/vidconsole.c 232309 2012-02-29 18:11:33Z jkim $");
 
 #include <stand.h>
 #include <bootstrap.h>

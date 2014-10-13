@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/usr.bin/sort/sort.h 251245 2013-06-02 09:43:48Z gabor $	*/
+/*	$FreeBSD: stable/10/usr.bin/sort/sort.h 265160 2014-04-30 20:39:08Z pfg $	*/
 
 /*-
  * Copyright (C) 2009 Gabor Kovesdan <gabor@FreeBSD.org>
@@ -28,7 +28,7 @@
  */
 
 #if !defined(__BSD_SORT_H__)
-#define __BSD_SORT_H__
+#define	__BSD_SORT_H__
 
 #include <errno.h>
 #include <stdbool.h>
@@ -53,7 +53,7 @@ extern nl_catd catalog;
 extern const char *nlsstr[];
 
 #if defined(SORT_THREADS)
-#define MT_SORT_THRESHOLD (10000)
+#define	MT_SORT_THRESHOLD (10000)
 extern unsigned int ncpu;
 extern size_t nthreads;
 #endif

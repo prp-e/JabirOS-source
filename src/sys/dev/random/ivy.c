@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/random/ivy.c 257491 2013-11-01 06:26:37Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/random/ivy.c 268519 2014-07-11 00:26:57Z delphij $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>
@@ -56,7 +56,7 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/dev/random/ivy.c 257491 2013-11-01 06:26:
 static int random_ivy_read(void *, int);
 
 static struct random_hardware_source random_ivy = {
-	.ident = "Hardware, Intel IvyBridge+ RNG",
+	.ident = "Hardware, Intel Secure Key RNG",
 	.source = RANDOM_PURE_RDRAND,
 	.read = random_ivy_read
 };

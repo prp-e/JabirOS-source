@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/nlm/dev/sec/nlmseclib.c 233541 2012-03-27 11:43:46Z jchandra $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/nlm/dev/sec/nlmseclib.c 233541 2012-03-27 11:43:46Z jchandra $");
 
 #include <sys/param.h>
 #include <sys/types.h>

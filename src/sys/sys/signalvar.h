@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)signalvar.h	8.6 (Berkeley) 2/19/95
- * $FreeBSD: release/10.0.0/sys/sys/signalvar.h 248470 2013-03-18 17:23:58Z jhb $
+ * $FreeBSD: stable/10/sys/sys/signalvar.h 270092 2014-08-17 07:20:37Z mjg $
  */
 
 #ifndef _SYS_SIGNALVAR_H_
@@ -63,7 +63,7 @@ struct sigacts {
 	sigset_t ps_osigset;		/* Signals using <= 3.x osigset_t. */
 	sigset_t ps_usertramp;		/* SunOS compat; libc sigtramp. XXX */
 	int	ps_flag;
-	int	ps_refcnt;
+	u_int	ps_refcnt;
 	struct mtx ps_mtx;
 };
 

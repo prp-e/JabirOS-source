@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/fsck_ffs/ea.c 247212 2013-02-24 06:44:29Z mckusick $");
+__FBSDID("$FreeBSD: stable/10/sbin/fsck_ffs/ea.c 259223 2013-12-11 19:25:17Z pfg $");
 
 #include <sys/param.h>
 #include <sys/time.h>
@@ -65,7 +65,7 @@ eascan(struct inodesc *idesc, struct ufs2_dinode *dp)
 	char dbuf[DIRBLKSIZ];
 
 	printf("Inode %ju extsize %ju\n",
-	   (intmax_t)idesc->id_number, (intmax_t)dp->di_extsize);
+	   (intmax_t)idesc->id_number, (uintmax_t)dp->di_extsize);
 	if (dp->di_extsize == 0)
 		return 0;
 	if (dp->di_extsize <= sblock.fs_fsize)

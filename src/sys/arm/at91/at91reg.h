@@ -24,7 +24,7 @@
  */
 
 /*
- * $FreeBSD: release/10.0.0/sys/arm/at91/at91reg.h 238331 2012-07-10 02:39:03Z imp $
+ * $FreeBSD: stable/10/sys/arm/at91/at91reg.h 238331 2012-07-10 02:39:03Z imp $
  */
 
 #ifndef _AT91REG_H_

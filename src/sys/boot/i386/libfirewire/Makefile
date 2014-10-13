@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/boot/i386/libfirewire/Makefile 211677 2010-08-23 01:42:09Z imp $
+# $FreeBSD: stable/10/sys/boot/i386/libfirewire/Makefile 211677 2010-08-23 01:42:09Z imp $
 
 LIB=		firewire
 INTERNALLIB=

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/kerberos5/usr.bin/kinit/Makefile 233294 2012-03-22 08:48:42Z stas $
+# $FreeBSD: stable/10/kerberos5/usr.bin/kinit/Makefile 233294 2012-03-22 08:48:42Z stas $
 
 PROG=	kinit
 CFLAGS+=-I${KRB5DIR}/lib/roken

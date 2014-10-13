@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/kldxref/ef_amd64.c 251439 2013-06-05 21:55:20Z delphij $
+ * $FreeBSD: stable/10/usr.sbin/kldxref/ef_amd64.c 251439 2013-06-05 21:55:20Z delphij $
  */
 
 #include <sys/types.h>

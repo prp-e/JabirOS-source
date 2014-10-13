@@ -26,9 +26,9 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/services_mkdb/extern.h 241778 2012-10-20 10:34:55Z ed $
+ * $FreeBSD: stable/10/usr.sbin/services_mkdb/extern.h 263028 2014-03-11 15:28:41Z jhb $
  */
 
-extern const HASHINFO hinfo;
+extern HASHINFO hinfo;
 
 void uniq(const char *);

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/ubser/Makefile 198041 2009-10-13 18:07:56Z jhb $
+# $FreeBSD: stable/10/sys/modules/ubser/Makefile 198041 2009-10-13 18:07:56Z jhb $
 
 S=	${.CURDIR}/../..
 .PATH: $S/dev/usb/serial

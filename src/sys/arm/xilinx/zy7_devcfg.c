@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/xilinx/zy7_devcfg.c 250015 2013-04-28 07:00:36Z wkoszek $
+ * $FreeBSD: stable/10/sys/arm/xilinx/zy7_devcfg.c 266379 2014-05-17 23:25:20Z ian $
  */
 
 /* 
@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/xilinx/zy7_devcfg.c 250015 2013-04-28 07:00:36Z wkoszek $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/xilinx/zy7_devcfg.c 266379 2014-05-17 23:25:20Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -267,24 +267,35 @@ zy7_devcfg_reset_pl(struct zy7_devcfg_softc *sc)
 
 	devcfg_ctl = RD4(sc, ZY7_DEVCFG_CTRL);
 
+	/* Clear sticky bits and set up INIT signal positive edge interrupt. */
+	WR4(sc, ZY7_DEVCFG_INT_STATUS, ZY7_DEVCFG_INT_ALL);
+	WR4(sc, ZY7_DEVCFG_INT_MASK, ~ZY7_DEVCFG_INT_PCFG_INIT_PE);
+
 	/* Deassert PROG_B (active low). */
 	devcfg_ctl |= ZY7_DEVCFG_CTRL_PCFG_PROG_B;
 	WR4(sc, ZY7_DEVCFG_CTRL, devcfg_ctl);
 
-	/* Wait for INIT_B deasserted (active low). */
-	tries = 0;
-	while ((RD4(sc, ZY7_DEVCFG_STATUS) &
-		ZY7_DEVCFG_STATUS_PCFG_INIT) == 0) {
-		if (++tries >= 100)
-			return (EIO);
-		DELAY(5);
+	/*
+	 * Wait for INIT to assert.  If it is already asserted, we may not get
+	 * an edge interrupt so cancel it and continue.
+	 */
+	if ((RD4(sc, ZY7_DEVCFG_STATUS) &
+	     ZY7_DEVCFG_STATUS_PCFG_INIT) != 0) {
+		/* Already asserted.  Cancel interrupt. */
+		WR4(sc, ZY7_DEVCFG_INT_MASK, ~0);
 	}
-
-	/* Reassert PROG_B. */
+	else {
+		/* Wait for positive edge interrupt. */
+		err = mtx_sleep(sc, &sc->sc_mtx, PCATCH, "zy7i1", hz);
+		if (err != 0)
+			return (err);
+	}
+	
+	/* Reassert PROG_B (active low). */
 	devcfg_ctl &= ~ZY7_DEVCFG_CTRL_PCFG_PROG_B;
 	WR4(sc, ZY7_DEVCFG_CTRL, devcfg_ctl);
 
-	/* Wait for INIT_B asserted. */
+	/* Wait for INIT deasserted.  This happens almost instantly. */
 	tries = 0;
 	while ((RD4(sc, ZY7_DEVCFG_STATUS) &
 		ZY7_DEVCFG_STATUS_PCFG_INIT) != 0) {
@@ -293,7 +304,7 @@ zy7_devcfg_reset_pl(struct zy7_devcfg_softc *sc)
 		DELAY(5);
 	}
 
-	/* Clear sticky bits and set up INIT_B positive edge interrupt. */
+	/* Clear sticky bits and set up INIT positive edge interrupt. */
 	WR4(sc, ZY7_DEVCFG_INT_STATUS, ZY7_DEVCFG_INT_ALL);
 	WR4(sc, ZY7_DEVCFG_INT_MASK, ~ZY7_DEVCFG_INT_PCFG_INIT_PE);
 
@@ -301,11 +312,11 @@ zy7_devcfg_reset_pl(struct zy7_devcfg_softc *sc)
 	devcfg_ctl |= ZY7_DEVCFG_CTRL_PCFG_PROG_B;
 	WR4(sc, ZY7_DEVCFG_CTRL, devcfg_ctl);
 
-	/* Wait for INIT_B deasserted indicating FPGA internal initialization
-	 * is complete.  This takes much longer than the previous waits for
-	 * INIT_B transition (on the order of 700us).
+	/*
+	 * Wait for INIT asserted indicating FPGA internal initialization
+	 * is complete.
 	 */
-	err = mtx_sleep(sc, &sc->sc_mtx, PCATCH, "zy7in", hz);
+	err = mtx_sleep(sc, &sc->sc_mtx, PCATCH, "zy7i2", hz);
 	if (err != 0)
 		return (err);
 
@@ -404,7 +415,9 @@ zy7_devcfg_write(struct cdev *dev, struct uio *uio, int ioflag)
 
 		/* uiomove the data from user buffer to our dma map. */
 		segsz = MIN(PAGE_SIZE, uio->uio_resid);
+		DEVCFG_SC_UNLOCK(sc);
 		err = uiomove(dma_mem, segsz, uio);
+		DEVCFG_SC_LOCK(sc);
 		if (err != 0)
 			break;
 
@@ -519,6 +532,10 @@ zy7_devcfg_sysctl_pl_done(SYSCTL_HANDLER_ARGS)
 static int
 zy7_devcfg_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
+
 	if (!ofw_bus_is_compatible(dev, "xlnx,zy7_devcfg"))
 		return (ENXIO);
 

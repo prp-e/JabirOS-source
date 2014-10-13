@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/crypto/sha2/sha2.h 253119 2013-07-09 22:04:35Z delphij $	*/
+/*	$FreeBSD: stable/10/sys/crypto/sha2/sha2.h 253119 2013-07-09 22:04:35Z delphij $	*/
 /*	$KAME: sha2.h,v 1.5 2007/06/14 12:09:41 itojun Exp $	*/
 
 /*

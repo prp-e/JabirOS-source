@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: release/10.0.0/tools/tools/net80211/wlanstats/main.c 237129 2012-06-15 08:37:46Z adrian $
+ * $FreeBSD: stable/10/tools/tools/net80211/wlanstats/main.c 237129 2012-06-15 08:37:46Z adrian $
  */
 
 /*

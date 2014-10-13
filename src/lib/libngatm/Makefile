@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libngatm/Makefile 201381 2010-01-02 09:58:07Z ed $
+# $FreeBSD: stable/10/lib/libngatm/Makefile 201381 2010-01-02 09:58:07Z ed $
 #
 # Author: Harti Brandt <harti@freebsd.org>
 #

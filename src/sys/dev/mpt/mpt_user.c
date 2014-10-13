@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/mpt/mpt_user.c 251187 2013-05-31 17:27:44Z delphij $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/mpt/mpt_user.c 251187 2013-05-31 17:27:44Z delphij $");
 
 #include <sys/param.h>
 #include <sys/conf.h>

@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)stdlib.h	8.5 (Berkeley) 5/19/95
- * $FreeBSD: release/10.0.0/include/stdlib.h 254151 2013-08-09 17:24:23Z jilles $
+ * $FreeBSD: stable/10/include/stdlib.h 264496 2014-04-15 09:41:52Z tijl $
  */
 
 #ifndef _STDLIB_H_
@@ -51,7 +51,7 @@ typedef	__size_t	size_t;
 
 #ifndef	__cplusplus
 #ifndef _WCHAR_T_DECLARED
-typedef	__wchar_t	wchar_t;
+typedef	___wchar_t	wchar_t;
 #define	_WCHAR_T_DECLARED
 #endif
 #endif

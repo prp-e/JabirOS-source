@@ -1,7 +1,7 @@
 #
 # Internet protocols
 #
-# $FreeBSD: release/10.0.0/etc/protocols 250453 2013-05-10 13:57:44Z eadler $
+# $FreeBSD: stable/10/etc/protocols 250453 2013-05-10 13:57:44Z eadler $
 #	from: @(#)protocols	5.1 (Berkeley) 4/17/89
 #
 # See also http://www.iana.org/assignments/protocol-numbers

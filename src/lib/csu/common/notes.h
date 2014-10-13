@@ -22,7 +22,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/csu/common/notes.h 255874 2013-09-26 07:53:18Z andrew $
+ * $FreeBSD: stable/10/lib/csu/common/notes.h 255874 2013-09-26 07:53:18Z andrew $
  */
 
 #ifndef	CSU_COMMON_NOTES_H

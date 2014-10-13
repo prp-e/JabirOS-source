@@ -1,4 +1,6 @@
-# $FreeBSD: release/10.0.0/usr.bin/ncal/Makefile 204706 2010-03-04 12:18:24Z edwin $
+# $FreeBSD: stable/10/usr.bin/ncal/Makefile 264996 2014-04-27 01:15:10Z jmmv $
+
+.include <bsd.own.mk>
 
 PROG=	ncal
 
@@ -7,5 +9,9 @@ LDADD=	-lcalendar -ltermcap
 
 LINKS=	${BINDIR}/ncal ${BINDIR}/cal
 MLINKS=	ncal.1 cal.1
+
+.if ${MK_TESTS} != "no"
+SUBDIR+= tests
+.endif
 
 .include <bsd.prog.mk>

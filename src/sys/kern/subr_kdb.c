@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/subr_kdb.c 257576 2013-11-03 16:04:36Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/subr_kdb.c 257576 2013-11-03 16:04:36Z kib $");
 
 #include "opt_kdb.h"
 #include "opt_stack.h"

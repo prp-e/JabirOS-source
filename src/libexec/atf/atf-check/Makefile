@@ -23,23 +23,27 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/libexec/atf/atf-check/Makefile 241823 2012-10-22 01:18:41Z marcel $
+# $FreeBSD: stable/10/libexec/atf/atf-check/Makefile 271298 2014-09-09 04:00:30Z ngie $
 
 .include <bsd.init.mk>
 
+ATF=		${.CURDIR:H:H:H}/contrib/atf
 .PATH:		${ATF}/atf-sh
 
-BINDIR=		/usr/libexec
 PROG_CXX=	atf-check
 SRCS=		atf-check.cpp
 MAN=		atf-check.1
 
 CFLAGS+=	-I${ATF}
 
-DPADD+=		${LIBATF_CXX} ${LIBATF_C}
-
 LDFLAGS+=	-L${.OBJDIR}/../../../lib/atf/libatf-c++
 LDFLAGS+=	-L${.OBJDIR}/../../../lib/atf/libatf-c
+DPADD+=		${LIBATF_CXX} ${LIBATF_C}
 LDADD+=		-latf-c++ -latf-c
+USEPRIVATELIB=	atf-c++ atf-c
+
+.if ${MK_TESTS} != "no"
+SUBDIR+=	tests
+.endif
 
 .include <bsd.prog.mk>

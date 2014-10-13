@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/boot/zfs/libzfs.h 241293 2012-10-06 19:47:24Z avg $
+ * $FreeBSD: stable/10/sys/boot/zfs/libzfs.h 241293 2012-10-06 19:47:24Z avg $
  */
 
 #ifndef _BOOT_LIBZFS_H_

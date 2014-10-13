@@ -1,5 +1,7 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/6/93
-# $FreeBSD: release/10.0.0/usr.bin/calendar/Makefile 255715 2013-09-19 20:17:50Z db $
+# $FreeBSD: stable/10/usr.bin/calendar/Makefile 264996 2014-04-27 01:15:10Z jmmv $
+
+.include <bsd.own.mk>
 
 PROG=	calendar
 SRCS=	calendar.c locale.c events.c dates.c parsedata.c io.c day.c \
@@ -30,5 +32,9 @@ beforeinstall:
 	rm -rf ${DESTDIR}${SHAREDIR}/calendar/${link}
 	ln -s fr_FR.ISO8859-1 ${DESTDIR}${SHAREDIR}/calendar/${link}
 .endfor
+
+.if ${MK_TESTS} != "no"
+SUBDIR+= tests
+.endif
 
 .include <bsd.prog.mk>

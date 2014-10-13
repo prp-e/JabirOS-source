@@ -25,7 +25,7 @@
  */
 
 #include <sys/types.h>
-__FBSDID("$FreeBSD: release/10.0.0/tools/regression/filemon/filemontest.c 251368 2013-06-04 06:38:01Z obrien $");
+__FBSDID("$FreeBSD: stable/10/tools/regression/filemon/filemontest.c 251368 2013-06-04 06:38:01Z obrien $");
 
 #include <sys/wait.h>
 #include <sys/ioctl.h>

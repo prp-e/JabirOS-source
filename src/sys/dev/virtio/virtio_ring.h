@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/virtio/virtio_ring.h 238360 2012-07-11 02:57:19Z grehan $
+ * $FreeBSD: stable/10/sys/dev/virtio/virtio_ring.h 238360 2012-07-11 02:57:19Z grehan $
  */
 
 #ifndef VIRTIO_RING_H

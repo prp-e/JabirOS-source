@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/sys_generic.c 258324 2013-11-18 22:37:01Z pjd $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/sys_generic.c 268338 2014-07-06 22:54:17Z mjg $");
 
 #include "opt_capsicum.h"
 #include "opt_compat.h"
@@ -1458,7 +1458,7 @@ pollscan(td, fds, nfd)
 
 	FILEDESC_SLOCK(fdp);
 	for (i = 0; i < nfd; i++, fds++) {
-		if (fds->fd >= fdp->fd_nfiles) {
+		if (fds->fd > fdp->fd_lastfile) {
 			fds->revents = POLLNVAL;
 			n++;
 		} else if (fds->fd < 0) {

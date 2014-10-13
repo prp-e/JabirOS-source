@@ -18,7 +18,7 @@
  * WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
  * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
  *
- * $FreeBSD: release/10.0.0/contrib/tcpdump/print-ip.c 241235 2012-10-05 20:19:28Z delphij $
+ * $FreeBSD: stable/10/contrib/tcpdump/print-ip.c 263086 2014-03-12 10:45:58Z glebius $
  */
 
 #ifndef lint
@@ -483,9 +483,11 @@ again:
 		pgm_print(ipds->cp, ipds->len, (const u_char *)ipds->ip);
 		break;
 
+#if defined(HAVE_NET_PFVAR_H)
 	case IPPROTO_PFSYNC:
 		pfsync_ip_print(ipds->cp, ipds->len);
 		break;
+#endif
 
 	default:
 		if (ndo->ndo_nflag==0 && (proto = getprotobynumber(ipds->nh)) != NULL)

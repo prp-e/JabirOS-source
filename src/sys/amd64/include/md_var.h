@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/amd64/include/md_var.h 253747 2013-07-28 17:54:42Z avg $
+ * $FreeBSD: stable/10/sys/amd64/include/md_var.h 262981 2014-03-10 20:47:24Z jkim $
  */
 
 #ifndef _MACHINE_MD_VAR_H_
@@ -89,7 +89,6 @@ void	*alloc_fpusave(int flags);
 void	amd64_syscall(struct thread *td, int traced);
 void	busdma_swi(void);
 void	cpu_setregs(void);
-void	ctx_fpusave(void *);
 void	doreti_iret(void) __asm(__STRING(doreti_iret));
 void	doreti_iret_fault(void) __asm(__STRING(doreti_iret_fault));
 void	ld_ds(void) __asm(__STRING(ld_ds));

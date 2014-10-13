@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/iicbus/iic.c 242947 2012-11-13 05:58:52Z kevlo $
+ * $FreeBSD: stable/10/sys/dev/iicbus/iic.c 270241 2014-08-20 19:12:19Z loos $
  *
  */
 #include <sys/param.h>
@@ -322,6 +322,12 @@ iicioctl(struct cdev *dev, u_long cmd, caddr_t data, int flags, struct thread *t
 
 	case I2CRSTCARD:
 		error = iicbus_reset(parent, IIC_UNKNOWN, 0, NULL);
+		/*
+		 * Ignore IIC_ENOADDR as it only means we have a master-only
+		 * controller.
+		 */
+		if (error == IIC_ENOADDR)
+			error = 0;
 		break;
 
 	case I2CWRITE:

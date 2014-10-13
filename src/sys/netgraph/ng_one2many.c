@@ -37,7 +37,7 @@
  *
  * Author: Archie Cobbs <archie@freebsd.org>
  *
- * $FreeBSD: release/10.0.0/sys/netgraph/ng_one2many.c 243882 2012-12-05 08:04:20Z glebius $
+ * $FreeBSD: stable/10/sys/netgraph/ng_one2many.c 243882 2012-12-05 08:04:20Z glebius $
  */
 
 /*

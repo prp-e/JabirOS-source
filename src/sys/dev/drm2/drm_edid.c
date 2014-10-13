@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/drm_edid.c 259755 2013-12-22 23:52:11Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm_edid.c 259745 2013-12-22 21:53:08Z dumbbell $");
 
 #include <dev/drm2/drmP.h>
 #include <dev/drm2/drm_edid.h>

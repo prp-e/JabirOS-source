@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/cam/scsi/scsi_enc_safte.c 239213 2012-08-12 17:01:07Z mjacob $");
+__FBSDID("$FreeBSD: stable/10/sys/cam/scsi/scsi_enc_safte.c 260387 2014-01-07 01:51:48Z scottl $");
 
 #include <sys/param.h>
 
@@ -243,12 +243,12 @@ safte_fill_read_buf_io(enc_softc_t *enc, struct enc_fsm_state *state,
 
 	if (enc->enc_type == ENC_SEMB_SAFT) {
 		semb_read_buffer(&ccb->ataio, /*retries*/5,
-				enc_done, MSG_SIMPLE_Q_TAG,
+				NULL, MSG_SIMPLE_Q_TAG,
 				state->page_code, buf, state->buf_size,
 				state->timeout);
 	} else {
 		scsi_read_buffer(&ccb->csio, /*retries*/5,
-				enc_done, MSG_SIMPLE_Q_TAG, 1,
+				NULL, MSG_SIMPLE_Q_TAG, 1,
 				state->page_code, 0, buf, state->buf_size,
 				SSD_FULL_SIZE, state->timeout);
 	}
@@ -942,11 +942,11 @@ safte_fill_control_request(enc_softc_t *enc, struct enc_fsm_state *state,
 
 	if (enc->enc_type == ENC_SEMB_SAFT) {
 		semb_write_buffer(&ccb->ataio, /*retries*/5,
-				enc_done, MSG_SIMPLE_Q_TAG,
+				NULL, MSG_SIMPLE_Q_TAG,
 				buf, xfer_len, state->timeout);
 	} else {
 		scsi_write_buffer(&ccb->csio, /*retries*/5,
-				enc_done, MSG_SIMPLE_Q_TAG, 1,
+				NULL, MSG_SIMPLE_Q_TAG, 1,
 				0, 0, buf, xfer_len,
 				SSD_FULL_SIZE, state->timeout);
 	}

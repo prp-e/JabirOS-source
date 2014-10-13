@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/tools/tools/bootparttest/Makefile 239070 2012-08-05 15:40:16Z ae $
+# $FreeBSD: stable/10/tools/tools/bootparttest/Makefile 239070 2012-08-05 15:40:16Z ae $
 
 .PATH:		${.CURDIR}/../../../sys/boot/common
 

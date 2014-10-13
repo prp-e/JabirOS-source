@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.5 (Berkeley) 3/31/94
-# $FreeBSD: release/10.0.0/sbin/Makefile 249083 2013-04-04 07:12:24Z mav $
+# $FreeBSD: stable/10/sbin/Makefile 264996 2014-04-27 01:15:10Z jmmv $
 
 .include <bsd.own.mk>
 
@@ -114,8 +114,14 @@ SUBDIR+=	quotacheck
 SUBDIR+=	routed
 .endif
 
+.if ${MK_TESTS} != "no"
+SUBDIR+=	tests
+.endif
+
 .include <bsd.arch.inc.mk>
 
 SUBDIR:=	${SUBDIR:O}
+
+SUBDIR_PARALLEL=
 
 .include <bsd.subdir.mk>

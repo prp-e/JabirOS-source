@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/cam/cam_queue.h 253958 2013-08-05 11:48:40Z mav $
+ * $FreeBSD: stable/10/sys/cam/cam_queue.h 260387 2014-01-07 01:51:48Z scottl $
  */
 
 #ifndef _CAM_CAM_QUEUE_H
@@ -33,6 +33,8 @@
 
 #ifdef _KERNEL
 
+#include <sys/lock.h>
+#include <sys/mutex.h>
 #include <sys/queue.h>
 #include <cam/cam.h>
 
@@ -59,8 +61,8 @@ struct cam_ccbq {
 	struct	camq queue;
 	struct ccb_hdr_tailq	queue_extra_head;
 	int	queue_extra_entries;
+	int	total_openings;
 	int	devq_openings;
-	int	devq_allocating;
 	int	dev_openings;
 	int	dev_active;
 	int	held;
@@ -69,9 +71,10 @@ struct cam_ccbq {
 struct cam_ed;
 
 struct cam_devq {
-	struct	camq send_queue;
-	int	send_openings;
-	int	send_active;
+	struct mtx	 send_mtx;
+	struct camq	 send_queue;
+	int		 send_openings;
+	int		 send_active;
 };
 
 

@@ -20,10 +20,10 @@
  */
 
 #if !defined(LINT) && !defined(CODECENTER)
-static const char rcsid[] = "$Id: ev_streams.c,v 1.4.18.1 2005/04/27 05:01:06 sra Exp $";
+static const char rcsid[] = "$Id: ev_streams.c,v 1.5 2005/04/27 04:56:36 sra Exp $";
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/isc/ev_streams.c 170244 2007-06-03 17:20:27Z ume $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/isc/ev_streams.c 270838 2014-08-30 10:16:25Z ume $");
 
 #include "port_before.h"
 #ifndef _LIBC

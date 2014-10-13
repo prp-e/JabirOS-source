@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/net/sourcefilter.c 235640 2012-05-19 02:39:43Z marcel $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/net/sourcefilter.c 269480 2014-08-03 18:03:00Z pfg $");
 
 #include "namespace.h"
 
@@ -337,7 +337,8 @@ getsourcefilter(int s, uint32_t interface, struct sockaddr *group,
 {
 	struct __msfilterreq	 msfr;
 	sockunion_t		*psu;
-	int			 err, level, nsrcs, optlen, optname;
+	socklen_t		 optlen;
+	int			 err, level, nsrcs, optname;
 
 	if (interface == 0 || group == NULL || numsrc == NULL ||
 	    fmode == NULL) {

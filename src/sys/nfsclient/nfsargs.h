@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)nfs.h	8.4 (Berkeley) 5/1/95
- * $FreeBSD: release/10.0.0/sys/nfsclient/nfsargs.h 244042 2012-12-08 22:52:39Z rmacklem $
+ * $FreeBSD: stable/10/sys/nfsclient/nfsargs.h 260107 2013-12-30 21:17:20Z rmacklem $
  */
 
 #ifndef _NFSCLIENT_NFSARGS_H_
@@ -99,5 +99,6 @@ struct nfs_args {
 #define	NFSMNT_STRICT3530	0x10000000 /* Adhere strictly to RFC3530 */
 #define	NFSMNT_NOCTO		0x20000000 /* Don't flush attrcache on open */
 #define	NFSMNT_PNFS		0x40000000 /* Enable pNFS support */
+#define	NFSMNT_NONCONTIGWR	0x80000000 /* Enable non-contiguous writes */
 
 #endif

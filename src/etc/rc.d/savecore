@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: release/10.0.0/etc/rc.d/savecore 254992 2013-08-28 15:12:15Z gavin $
+# $FreeBSD: stable/10/etc/rc.d/savecore 254992 2013-08-28 15:12:15Z gavin $
 #
 
 # PROVIDE: savecore

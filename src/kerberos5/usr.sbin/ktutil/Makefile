@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/kerberos5/usr.sbin/ktutil/Makefile 236422 2012-06-01 21:26:28Z obrien $
+# $FreeBSD: stable/10/kerberos5/usr.sbin/ktutil/Makefile 236422 2012-06-01 21:26:28Z obrien $
 
 PROG=	ktutil
 MAN=	ktutil.8

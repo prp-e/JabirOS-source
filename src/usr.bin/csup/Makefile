@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/csup/Makefile 228857 2011-12-24 12:16:38Z marius $
+# $FreeBSD: stable/10/usr.bin/csup/Makefile 228857 2011-12-24 12:16:38Z marius $
 
 PROG=	csup
 SRCS=	attrstack.c \

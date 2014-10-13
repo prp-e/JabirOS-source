@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/security/audit/audit_bsm_klib.c 255240 2013-09-05 11:58:12Z pjd $");
+__FBSDID("$FreeBSD: stable/10/sys/security/audit/audit_bsm_klib.c 263960 2014-03-31 02:24:29Z mjg $");
 
 #include <sys/param.h>
 #include <sys/fcntl.h>
@@ -273,7 +273,6 @@ audit_ctlname_to_sysctlevent(int name[], uint64_t valid_arg)
 	case KERN_USRSTACK:
 	case KERN_LOGSIGEXIT:
 	case KERN_IOV_MAX:
-	case KERN_MAXID:
 		return ((valid_arg & ARG_VALUE) ?
 		    AUE_SYSCTL : AUE_SYSCTL_NONADMIN);
 
@@ -498,6 +497,7 @@ audit_canon_path(struct thread *td, int dirfd, char *path, char *cpath)
 			/* XXX: fgetvp() that vhold()s vnode instead of vref()ing it would be better */
 			error = fgetvp(td, dirfd, NULL, &cvnp);
 			if (error) {
+				FILEDESC_SUNLOCK(fdp);
 				cpath[0] = '\0';
 				if (rvnp != NULL)
 					vdrop(rvnp);

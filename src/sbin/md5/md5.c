@@ -18,7 +18,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/md5/md5.c 238964 2012-08-01 00:36:12Z delphij $");
+__FBSDID("$FreeBSD: stable/10/sbin/md5/md5.c 238964 2012-08-01 00:36:12Z delphij $");
 
 #include <sys/types.h>
 #include <sys/time.h>

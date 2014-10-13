@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/null/null.c 242439 2012-11-01 17:01:05Z alfred $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/null/null.c 242439 2012-11-01 17:01:05Z alfred $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

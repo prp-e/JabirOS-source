@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/cadence/if_cgem.c 250015 2013-04-28 07:00:36Z wkoszek $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/cadence/if_cgem.c 250015 2013-04-28 07:00:36Z wkoszek $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

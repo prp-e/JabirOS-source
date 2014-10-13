@@ -67,7 +67,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netinet6/ip6_id.c 253970 2013-08-05 20:13:02Z hrs $");
+__FBSDID("$FreeBSD: stable/10/sys/netinet6/ip6_id.c 253970 2013-08-05 20:13:02Z hrs $");
 
 /*
  * seed = random (bits - 1) bit

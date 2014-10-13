@@ -1,6 +1,6 @@
 #!/bin/sh -
 #
-# $FreeBSD: release/10.0.0/usr.sbin/periodic/periodic.sh 255178 2013-09-03 13:40:24Z jlh $
+# $FreeBSD: stable/10/usr.sbin/periodic/periodic.sh 255178 2013-09-03 13:40:24Z jlh $
 #
 # Run nightly periodic scripts
 #

@@ -1,6 +1,9 @@
-# $FreeBSD: release/10.0.0/share/man/man4/man4.arm/Makefile 249999 2013-04-27 23:07:49Z wkoszek $
+# $FreeBSD: stable/10/share/man/man4/man4.arm/Makefile 266338 2014-05-17 19:06:46Z loos $
 
-MAN=	mge.4 npe.4 devcfg.4
+MAN=	devcfg.4 \
+	mge.4 \
+	npe.4 \
+	ti_adc.4
 
 MLINKS= mge.4 if_mge.4
 MLINKS+=npe.4 if_npe.4

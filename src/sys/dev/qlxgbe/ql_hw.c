@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/qlxgbe/ql_hw.c 258457 2013-11-22 00:26:21Z davidcs $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/qlxgbe/ql_hw.c 258457 2013-11-22 00:26:21Z davidcs $");
 
 #include "ql_os.h"
 #include "ql_hw.h"

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/tools/regression/sockets/unix_cmsg/unix_cmsg.c 246670 2013-02-11 12:56:23Z pluknet $");
+__FBSDID("$FreeBSD: stable/10/tools/regression/sockets/unix_cmsg/unix_cmsg.c 246670 2013-02-11 12:56:23Z pluknet $");
 
 #include <sys/param.h>
 #include <sys/resource.h>

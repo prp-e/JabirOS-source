@@ -36,7 +36,7 @@
  * Costa Mesa, CA 92626
  */
 
-/* $FreeBSD: release/10.0.0/sys/dev/oce/oce_hw.c 257187 2013-10-26 19:02:39Z delphij $ */
+/* $FreeBSD: stable/10/sys/dev/oce/oce_hw.c 268046 2014-06-30 16:23:31Z delphij $ */
 
 
 #include "oce_if.h"
@@ -487,11 +487,7 @@ oce_hw_start(POCE_SOFTC sc)
 		if_link_state_change(sc->ifp, LINK_STATE_DOWN);
 	}
 
-	if (link.mac_speed > 0 && link.mac_speed < 5)
-		sc->link_speed = link.mac_speed;
-	else
-		sc->link_speed = 0;
-
+	sc->link_speed = link.phys_port_speed;
 	sc->qos_link_speed = (uint32_t )link.qos_link_speed * 10;
 
 	rc = oce_start_mq(sc->mq);

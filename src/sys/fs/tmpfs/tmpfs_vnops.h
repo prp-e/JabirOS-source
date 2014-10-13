@@ -29,7 +29,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/fs/tmpfs/tmpfs_vnops.h 182739 2008-09-03 18:53:48Z delphij $
+ * $FreeBSD: stable/10/sys/fs/tmpfs/tmpfs_vnops.h 269164 2014-07-28 00:43:42Z kib $
  */
 
 #ifndef _FS_TMPFS_TMPFS_VNOPS_H_
@@ -38,8 +38,6 @@
 #if !defined(_KERNEL)
 #error not supposed to be exposed to userland.
 #endif
-
-/* --------------------------------------------------------------------- */
 
 /*
  * Declarations for tmpfs_vnops.c.
@@ -51,7 +49,5 @@ vop_access_t	tmpfs_access;
 vop_getattr_t	tmpfs_getattr;
 vop_setattr_t	tmpfs_setattr;
 vop_reclaim_t	tmpfs_reclaim;
-
-/* --------------------------------------------------------------------- */
 
 #endif /* _FS_TMPFS_TMPFS_VNOPS_H_ */

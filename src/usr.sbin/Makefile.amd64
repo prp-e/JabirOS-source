@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/Makefile.amd64 252356 2013-06-28 21:00:08Z davide $
+# $FreeBSD: stable/10/usr.sbin/Makefile.amd64 272152 2014-09-26 03:03:58Z gjb $
 
 # kgzip: builds, but missing support files
 # mptable: broken (not 64 bit clean)

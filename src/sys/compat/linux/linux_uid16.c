@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/compat/linux/linux_uid16.c 255971 2013-10-01 15:40:27Z markj $");
+__FBSDID("$FreeBSD: stable/10/sys/compat/linux/linux_uid16.c 255971 2013-10-01 15:40:27Z markj $");
 
 #include "opt_compat.h"
 #include "opt_kdtrace.h"

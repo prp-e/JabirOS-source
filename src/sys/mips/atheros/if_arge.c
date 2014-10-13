@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/atheros/if_arge.c 255300 2013-09-06 12:47:14Z loos $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/atheros/if_arge.c 265999 2014-05-14 01:35:43Z ian $");
 
 /*
  * AR71XX gigabit ethernet driver
@@ -260,7 +260,7 @@ arge_probe(device_t dev)
 {
 
 	device_set_desc(dev, "Atheros AR71xx built-in ethernet interface");
-	return (0);
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 static void

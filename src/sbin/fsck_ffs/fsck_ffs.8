@@ -27,7 +27,7 @@
 .\" SUCH DAMAGE.
 .\"
 .\"	@(#)fsck.8	8.4 (Berkeley) 5/9/95
-.\" $FreeBSD: release/10.0.0/sbin/fsck_ffs/fsck_ffs.8 253828 2013-07-31 04:51:12Z scottl $
+.\" $FreeBSD: stable/10/sbin/fsck_ffs/fsck_ffs.8 260178 2014-01-02 01:44:14Z scottl $
 .\"
 .Dd July 30, 2013
 .Dt FSCK_FFS 8
@@ -38,7 +38,7 @@
 .Nd file system consistency check and interactive repair
 .Sh SYNOPSIS
 .Nm
-.Op Fl BEFfnpryZ
+.Op Fl BEFfnpRryZ
 .Op Fl b Ar block
 .Op Fl c Ar level
 .Op Fl m Ar mode
@@ -266,6 +266,11 @@ which is assumed to be affirmative;
 do not open the file system for writing.
 .It Fl p
 Preen file systems (see above).
+.It Fl R
+Instruct fsck_ffs to restart itself if it encounters certain errors that
+warrant another run.  It will limit itself to a maximum of 10 restarts
+in a given run in order to avoid an endless loop with extremely corrupted
+filesystems.
 .It Fl r
 Free up excess unused inodes.
 Decreasing the number of preallocated inodes reduces the

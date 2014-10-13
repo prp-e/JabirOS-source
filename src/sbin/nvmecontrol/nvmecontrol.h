@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sbin/nvmecontrol/nvmecontrol.h 253116 2013-07-09 21:33:12Z jimharris $
+ * $FreeBSD: stable/10/sbin/nvmecontrol/nvmecontrol.h 253116 2013-07-09 21:33:12Z jimharris $
  */
 
 #ifndef __NVMECONTROL_H__

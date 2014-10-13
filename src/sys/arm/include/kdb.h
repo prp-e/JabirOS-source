@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/include/kdb.h 253762 2013-07-29 08:07:35Z cognet $
+ * $FreeBSD: stable/10/sys/arm/include/kdb.h 266373 2014-05-17 22:50:16Z ian $
  */
 
 #ifndef _MACHINE_KDB_H_
@@ -49,14 +49,12 @@ static __inline void
 kdb_cpu_sync_icache(unsigned char *addr, size_t size)
 {
 
-	cpu_icache_sync_all();
+	cpu_icache_sync_range((vm_offset_t)addr, size);
 }
 
 static __inline void
 kdb_cpu_trap(int type, int code)
 {
-
-	cpu_idcache_wbinv_all();
 }
 
 #endif /* _MACHINE_KDB_H_ */

@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/ath/if_ath_rx_edma.c 252385 2013-06-29 19:57:57Z adrian $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/ath/if_ath_rx_edma.c 252385 2013-06-29 19:57:57Z adrian $");
 
 /*
  * Driver for the Atheros Wireless LAN controller.

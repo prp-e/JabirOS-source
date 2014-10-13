@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/usr.sbin/ypserv/ypinit.sh 201051 2009-12-27 16:00:17Z marck $
+# $FreeBSD: stable/10/usr.sbin/ypserv/ypinit.sh 201051 2009-12-27 16:00:17Z marck $
 #
 # ypinit.sh - setup a master or slave server.
 # (Taken from OpenBSD and modified for FreeBSD.)

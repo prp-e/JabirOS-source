@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/dev/usb/usb_lookup.c 246194 2013-02-01 07:05:43Z hselasky $ */
+/* $FreeBSD: stable/10/sys/dev/usb/usb_lookup.c 246194 2013-02-01 07:05:43Z hselasky $ */
 /*-
  * Copyright (c) 2008 Hans Petter Selasky. All rights reserved.
  *

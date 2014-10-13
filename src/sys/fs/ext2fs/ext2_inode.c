@@ -33,7 +33,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)ffs_inode.c	8.5 (Berkeley) 12/30/93
- * $FreeBSD: release/10.0.0/sys/fs/ext2fs/ext2_inode.c 254283 2013-08-13 15:40:43Z pfg $
+ * $FreeBSD: stable/10/sys/fs/ext2fs/ext2_inode.c 262723 2014-03-04 03:10:31Z pfg $
  */
 
 #include <sys/param.h>
@@ -248,7 +248,7 @@ ext2_truncate(struct vnode *vp, off_t length, int flags, struct ucred *cred,
 	if (error && (allerror == 0))
 		allerror = error;
 	vnode_pager_setsize(ovp, length);
-	
+
 	/*
 	 * Indirect blocks first.
 	 */

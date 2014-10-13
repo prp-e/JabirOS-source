@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/contrib/ipfilter/netinet/ip_auth.c 255332 2013-09-06 23:11:19Z cy $	*/
+/*	$FreeBSD: stable/10/sys/contrib/ipfilter/netinet/ip_auth.c 266829 2014-05-29 02:55:07Z cy $	*/
 
 /*
  * Copyright (C) 2012 by Darren Reed.
@@ -126,36 +126,9 @@ extern struct ifqueue   ipintrq;		/* ip packet input queue */
 /* END OF INCLUDES */
 
 #if !defined(lint)
-static const char rcsid[] = "@(#)$FreeBSD: release/10.0.0/sys/contrib/ipfilter/netinet/ip_auth.c 255332 2013-09-06 23:11:19Z cy $";
+static const char rcsid[] = "@(#)$FreeBSD: stable/10/sys/contrib/ipfilter/netinet/ip_auth.c 266829 2014-05-29 02:55:07Z cy $";
 /* static const char rcsid[] = "@(#)$Id: ip_auth.c,v 2.73.2.24 2007/09/09 11:32:04 darrenr Exp $"; */
 #endif
-
-
-
-typedef	struct ipf_auth_softc_s {
-#if SOLARIS && defined(_KERNEL)
-	kcondvar_t	ipf_auth_wait;
-#endif /* SOLARIS */
-#if defined(linux) && defined(_KERNEL)
-	wait_queue_head_t ipf_auth_next_linux;
-#endif
-	ipfrwlock_t	ipf_authlk;
-	ipfmutex_t	ipf_auth_mx;
-	int		ipf_auth_size;
-	int		ipf_auth_used;
-	int		ipf_auth_replies;
-	int		ipf_auth_defaultage;
-	int		ipf_auth_lock;
-	ipf_authstat_t	ipf_auth_stats;
-	frauth_t	*ipf_auth;
-	mb_t		**ipf_auth_pkts;
-	int		ipf_auth_start;
-	int		ipf_auth_end;
-	int		ipf_auth_next;
-	frauthent_t	*ipf_auth_entries;
-	frentry_t	*ipf_auth_ip;
-	frentry_t	*ipf_auth_rules;
-} ipf_auth_softc_t;
 
 
 static void ipf_auth_deref __P((frauthent_t **));

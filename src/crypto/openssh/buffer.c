@@ -1,5 +1,5 @@
-/* $OpenBSD: buffer.c,v 1.33 2013/05/17 00:13:13 djm Exp $ */
-/* $FreeBSD: release/10.0.0/crypto/openssh/buffer.c 255767 2013-09-21 21:36:09Z des $ */
+/* $OpenBSD: buffer.c,v 1.35 2014/02/02 03:44:31 djm Exp $ */
+/* $FreeBSD: stable/10/crypto/openssh/buffer.c 264377 2014-04-12 20:22:59Z des $ */
 /*
  * Author: Tatu Ylonen <ylo@cs.hut.fi>
  * Copyright (c) 1995 Tatu Ylonen <ylo@cs.hut.fi>, Espoo, Finland
@@ -20,6 +20,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdarg.h>
+#include <stdlib.h>
 
 #include "xmalloc.h"
 #include "buffer.h"
@@ -49,7 +50,7 @@ void
 buffer_free(Buffer *buffer)
 {
 	if (buffer->alloc > 0) {
-		memset(buffer->buf, 0, buffer->alloc);
+		explicit_bzero(buffer->buf, buffer->alloc);
 		buffer->alloc = 0;
 		free(buffer->buf);
 	}

@@ -1,6 +1,11 @@
-# $FreeBSD: release/10.0.0/lib/ncurses/Makefile 167359 2007-03-09 12:11:58Z rafan $
+# $FreeBSD: stable/10/lib/ncurses/Makefile 262643 2014-03-01 03:09:16Z brooks $
 
-SUBDIR=	ncurses form menu panel \
-	ncursesw formw menuw panelw
+.include <bsd.own.mk>
+
+SUBDIR=	ncurses form menu panel
+
+.if ${MK_NCURSESW} != "no"
+SUBDIR+=	ncursesw formw menuw panelw
+.endif
 
 .include <bsd.subdir.mk>

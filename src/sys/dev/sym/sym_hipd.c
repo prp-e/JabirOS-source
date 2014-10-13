@@ -56,7 +56,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/sym/sym_hipd.c 254263 2013-08-12 23:30:01Z scottl $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/sym/sym_hipd.c 259987 2013-12-28 01:47:19Z dim $");
 
 #define SYM_DRIVER_NAME	"sym-1.6.5-20000902"
 
@@ -154,16 +154,6 @@ typedef struct sym_quehead {
 	(ptr)->flink = (ptr); (ptr)->blink = (ptr); \
 } while (0)
 
-static __inline struct sym_quehead *sym_que_first(struct sym_quehead *head)
-{
-	return (head->flink == head) ? NULL : head->flink;
-}
-
-static __inline struct sym_quehead *sym_que_last(struct sym_quehead *head)
-{
-	return (head->blink == head) ? NULL : head->blink;
-}
-
 static __inline void __sym_que_add(struct sym_quehead * new,
 	struct sym_quehead * blink,
 	struct sym_quehead * flink)
@@ -224,17 +214,6 @@ static __inline struct sym_quehead *sym_remque_head(struct sym_quehead *head)
 }
 
 #define sym_insque_tail(new, head)	__sym_que_add(new, (head)->blink, head)
-
-static __inline struct sym_quehead *sym_remque_tail(struct sym_quehead *head)
-{
-	struct sym_quehead *elem = head->blink;
-
-	if (elem != head)
-		__sym_que_del(elem->blink, head);
-	else
-		elem = NULL;
-	return elem;
-}
 
 /*
  *  This one may be useful.

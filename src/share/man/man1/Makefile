@@ -1,11 +1,11 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/5/93
-# $FreeBSD: release/10.0.0/share/man/man1/Makefile 241823 2012-10-22 01:18:41Z marcel $
+# $FreeBSD: stable/10/share/man/man1/Makefile 260013 2013-12-28 20:05:31Z jmmv $
 
 .include <bsd.own.mk>
 
 MAN=	builtin.1 intro.1
 
-.if ${MK_ATF} != "no"
+.if ${MK_TESTS} != "no"
 ATF=	${.CURDIR}/../../../contrib/atf
 .PATH:	${ATF}/doc
 MAN+=	atf-test-program.1

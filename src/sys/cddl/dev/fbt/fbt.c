@@ -20,7 +20,7 @@
  *
  * Portions Copyright 2006-2008 John Birrell jb@freebsd.org
  *
- * $FreeBSD: release/10.0.0/sys/cddl/dev/fbt/fbt.c 254713 2013-08-23 14:41:27Z avg $
+ * $FreeBSD: stable/10/sys/cddl/dev/fbt/fbt.c 254713 2013-08-23 14:41:27Z avg $
  *
  */
 

@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/daemon/daemon.c 255707 2013-09-19 18:00:05Z trociny $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/daemon/daemon.c 265781 2014-05-09 15:55:45Z jh $");
 
 #include <sys/param.h>
 #include <sys/mman.h>
@@ -139,7 +139,7 @@ main(int argc, char *argv[])
 	 * get SIGCHLD eventually.
 	 */
 	pid = -1;
-	if (pidfile != NULL || restart) {
+	if (pidfile != NULL || ppidfile != NULL || restart) {
 		/*
 		 * Restore default action for SIGTERM in case the
 		 * parent process decided to ignore it.

@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/ufs/ufs/ufs_bmap.c 239359 2012-08-17 17:45:27Z mjg $");
+__FBSDID("$FreeBSD: stable/10/sys/ufs/ufs/ufs_bmap.c 239359 2012-08-17 17:45:27Z mjg $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

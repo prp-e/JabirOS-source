@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/ip6_mroute_mod/Makefile 254985 2013-08-28 07:48:44Z uqs $
+# $FreeBSD: stable/10/sys/modules/ip6_mroute_mod/Makefile 254985 2013-08-28 07:48:44Z uqs $
 
 .include <bsd.own.mk>
 

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/tools/tools/crypto/ipsecstats.c 253767 2013-07-29 12:49:32Z ae $
+ * $FreeBSD: stable/10/tools/tools/crypto/ipsecstats.c 253767 2013-07-29 12:49:32Z ae $
  */
 #include <sys/types.h>
 #include <netipsec/ipsec.h>

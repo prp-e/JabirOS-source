@@ -30,7 +30,7 @@
   POSSIBILITY OF SUCH DAMAGE.
 
 ******************************************************************************/
-/*$FreeBSD: release/10.0.0/sys/dev/e1000/e1000_nvm.h 247064 2013-02-21 00:25:45Z jfv $*/
+/*$FreeBSD: stable/10/sys/dev/e1000/e1000_nvm.h 247064 2013-02-21 00:25:45Z jfv $*/
 
 #ifndef _E1000_NVM_H_
 #define _E1000_NVM_H_

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/cpuctl/Makefile 181430 2008-08-08 16:26:53Z stas $
+# $FreeBSD: stable/10/sys/modules/cpuctl/Makefile 181430 2008-08-08 16:26:53Z stas $
 
 .PATH: ${.CURDIR}/../../dev/cpuctl
 

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/kldstat/kldstat.c 215248 2010-11-13 16:49:07Z kib $");
+__FBSDID("$FreeBSD: stable/10/sbin/kldstat/kldstat.c 268903 2014-07-20 00:34:54Z bapt $");
 
 #include <err.h>
 #include <stdio.h>
@@ -78,7 +78,7 @@ printfile(int fileid, int verbose)
 static void
 usage(void)
 {
-    fprintf(stderr, "usage: kldstat [-v] [-i id] [-n filename]\n");
+    fprintf(stderr, "usage: kldstat [-q] [-v] [-i id] [-n filename]\n");
     fprintf(stderr, "       kldstat [-q] [-m modname]\n");
     exit(1);
 }
@@ -146,8 +146,13 @@ main(int argc, char** argv)
     }
 
     if (filename != NULL) {
-	if ((fileid = kldfind(filename)) < 0)
-	    err(1, "can't find file %s", filename);
+	if ((fileid = kldfind(filename)) < 0) {
+	    if (!quiet)
+		warn("can't find file %s", filename);
+	    return 1;
+	} else if (quiet) {
+	    return 0;
+	}
     }
 
     printf("Id Refs Address%*c Size     Name\n", POINTER_WIDTH - 7, ' ');

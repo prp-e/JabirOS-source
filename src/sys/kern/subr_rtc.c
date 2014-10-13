@@ -53,7 +53,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/subr_rtc.c 227723 2011-11-19 14:10:16Z lstewart $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/subr_rtc.c 227723 2011-11-19 14:10:16Z lstewart $");
 
 #include "opt_ffclock.h"
 

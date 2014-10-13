@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/amd64/amd64/elf_machdep.c 239123 2012-08-07 05:46:36Z pluknet $");
+__FBSDID("$FreeBSD: stable/10/sys/amd64/amd64/elf_machdep.c 239123 2012-08-07 05:46:36Z pluknet $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

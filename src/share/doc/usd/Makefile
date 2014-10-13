@@ -1,5 +1,5 @@
 #	From: @(#)Makefile	8.2 (Berkeley) 4/20/94
-# $FreeBSD: release/10.0.0/share/doc/usd/Makefile 202843 2010-01-22 23:19:48Z delphij $
+# $FreeBSD: stable/10/share/doc/usd/Makefile 202843 2010-01-22 23:19:48Z delphij $
 
 # The following modules are not provided:
 # 14.jove

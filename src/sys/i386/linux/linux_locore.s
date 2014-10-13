@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/i386/linux/linux_locore.s 187948 2009-01-31 11:37:21Z obrien $ */
+/* $FreeBSD: stable/10/sys/i386/linux/linux_locore.s 187948 2009-01-31 11:37:21Z obrien $ */
 
 #include "linux_assym.h"			/* system definitions */
 #include <machine/asmacros.h>			/* miscellaneous asm macros */

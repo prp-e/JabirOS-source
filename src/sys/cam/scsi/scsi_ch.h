@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/cam/scsi/scsi_ch.h 249658 2013-04-19 20:03:51Z ken $ */
+/* $FreeBSD: stable/10/sys/cam/scsi/scsi_ch.h 249658 2013-04-19 20:03:51Z ken $ */
 /*	$NetBSD: scsi_changer.h,v 1.11 1998/02/13 08:28:32 enami Exp $	*/
 
 /*-

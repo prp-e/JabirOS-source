@@ -32,7 +32,7 @@
 __COPYRIGHT(
 "@(#) Copyright (c) 1999\
  The NetBSD Foundation, Inc.  All rights reserved.");
-__RCSID("$FreeBSD: release/10.0.0/usr.bin/nl/nl.c 226362 2011-10-14 07:28:39Z ed $");
+__RCSID("$FreeBSD: stable/10/usr.bin/nl/nl.c 226362 2011-10-14 07:28:39Z ed $");
 #endif    
 
 #define	_WITH_GETLINE

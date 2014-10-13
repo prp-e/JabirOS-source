@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/i386/linux/linux_dummy.c 255675 2013-09-18 18:48:33Z rdivacky $");
+__FBSDID("$FreeBSD: stable/10/sys/i386/linux/linux_dummy.c 255675 2013-09-18 18:48:33Z rdivacky $");
 
 #include "opt_compat.h"
 #include "opt_kdtrace.h"

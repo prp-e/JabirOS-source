@@ -28,7 +28,7 @@
  */ 
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libproc/proc_rtld.c 246035 2013-01-28 15:48:31Z jhb $");
+__FBSDID("$FreeBSD: stable/10/lib/libproc/proc_rtld.c 270731 2014-08-27 19:51:42Z markj $");
 
 #include <stdio.h>
 #include <string.h>
@@ -49,6 +49,9 @@ map_iter(const rd_loadobj_t *lop, void *arg)
 		if (phdl->rdobjs == NULL)
 			return (-1);
 	}
+	if (strcmp(lop->rdl_path, phdl->execname) == 0 &&
+	    (lop->rdl_prot & RD_RDL_X) != 0)
+		phdl->rdexec = &phdl->rdobjs[phdl->nobjs];
 	memcpy(&phdl->rdobjs[phdl->nobjs++], lop, sizeof(*lop));
 
 	return (0);

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: release/10.0.0/tools/regression/geom_uzip/test-2.sh 150734 2005-09-29 22:41:20Z fjoe $
+# $FreeBSD: stable/10/tools/regression/geom_uzip/test-2.sh 150734 2005-09-29 22:41:20Z fjoe $
 #
 
 #

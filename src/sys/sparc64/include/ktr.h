@@ -26,7 +26,7 @@
  * SUCH DAMAGE.
  *
  *	from BSDI $Id: ktr.h,v 1.10.2.7 2000/03/16 21:44:42 cp Exp $
- * $FreeBSD: release/10.0.0/sys/sparc64/include/ktr.h 243046 2012-11-15 00:51:57Z jeff $
+ * $FreeBSD: stable/10/sys/sparc64/include/ktr.h 243046 2012-11-15 00:51:57Z jeff $
  */
 
 #ifndef _MACHINE_KTR_H_

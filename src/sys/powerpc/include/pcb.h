@@ -29,7 +29,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  *	$NetBSD: pcb.h,v 1.4 2000/06/04 11:57:17 tsubai Exp $
- * $FreeBSD: release/10.0.0/sys/powerpc/include/pcb.h 240860 2012-09-23 17:33:16Z nwhitehorn $
+ * $FreeBSD: stable/10/sys/powerpc/include/pcb.h 266004 2014-05-14 04:42:38Z ian $
  */
 
 #ifndef _MACHINE_PCB_H_
@@ -47,8 +47,9 @@ struct pcb {
 	faultbuf	*pcb_onfault;		/* For use during
 						    copyin/copyout */
 	int		pcb_flags;
-#define	PCB_FPU		1	/* Process had FPU initialized */
-#define	PCB_VEC		2	/* Process had Altivec initialized */
+#define	PCB_FPU		1	/* Process uses FPU */
+#define	PCB_FPREGS	2	/* Process had FPU registers initialized */
+#define	PCB_VEC		4	/* Process had Altivec initialized */
 	struct fpu {
 		double	fpr[32];
 		double	fpscr;	/* FPSCR stored as double for easier access */
@@ -70,8 +71,6 @@ struct pcb {
 			register_t	usr_vsid;	/* USER_SR segment */
 		} aim;
 		struct {
-			register_t	ctr;
-			register_t	xer;
 			register_t	dbcr0;
 		} booke;
 	} pcb_cpu;

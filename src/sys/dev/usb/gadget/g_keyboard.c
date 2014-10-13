@@ -28,7 +28,7 @@
  */
 
 #include <sys/param.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/usb/gadget/g_keyboard.c 253618 2013-07-24 18:32:15Z obrien $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/usb/gadget/g_keyboard.c 253618 2013-07-24 18:32:15Z obrien $");
 
 #include <sys/stdint.h>
 #include <sys/stddef.h>

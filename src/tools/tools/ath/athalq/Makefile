@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/tools/tools/ath/athalq/Makefile 250266 2013-05-05 09:38:25Z adrian $
+# $FreeBSD: stable/10/tools/tools/ath/athalq/Makefile 250266 2013-05-05 09:38:25Z adrian $
 
 PROG=	athalq
 NOMAN=	yes

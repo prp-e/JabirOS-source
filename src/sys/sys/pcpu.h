@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/sys/pcpu.h 249265 2013-04-08 19:19:10Z glebius $
+ * $FreeBSD: stable/10/sys/sys/pcpu.h 262739 2014-03-04 14:46:30Z glebius $
  */
 
 #ifndef _SYS_PCPU_H_
@@ -208,6 +208,13 @@ zpcpu_get(void *base)
 {
 
 	return ((char *)(base) + sizeof(struct pcpu) * curcpu);
+}
+
+static inline void *
+zpcpu_get_cpu(void *base, int cpu)
+{
+
+	return ((char *)(base) + sizeof(struct pcpu) * cpu);
 }
 
 /*

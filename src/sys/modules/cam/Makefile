@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/cam/Makefile 255174 2013-09-03 12:08:08Z uqs $
+# $FreeBSD: stable/10/sys/modules/cam/Makefile 255174 2013-09-03 12:08:08Z uqs $
 
 S=	${.CURDIR}/../..
 

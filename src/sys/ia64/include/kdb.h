@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/ia64/include/kdb.h 200207 2009-12-07 06:41:27Z marcel $
+ * $FreeBSD: stable/10/sys/ia64/include/kdb.h 268199 2014-07-02 23:37:14Z marcel $
  */
 
 #ifndef _MACHINE_KDB_H_
@@ -34,6 +34,8 @@
 #include <machine/ia64_cpu.h>
 
 #define	KDB_STOPPEDPCB(pc)	(&(pc)->pc_md.pcb)
+
+void kdb_cpu_trap(int, int);
 
 static __inline void
 kdb_cpu_clear_singlestep(void)
@@ -60,16 +62,6 @@ kdb_cpu_sync_icache(unsigned char *addr, size_t size)
 		cacheline += 32;
 		size -= 32;
 	}
-}
-
-static __inline void
-kdb_cpu_trap(int vector, int _)
-{
-	__asm __volatile("flushrs;;");
-
-	if (vector == IA64_VEC_BREAK &&
-	    kdb_frame->tf_special.ifa == IA64_FIXED_BREAK)
-                kdb_frame->tf_special.psr += IA64_PSR_RI_1;
 }
 
 #endif /* _MACHINE_KDB_H_ */

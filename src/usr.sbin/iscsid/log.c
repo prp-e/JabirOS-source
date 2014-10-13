@@ -26,8 +26,10 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/iscsid/log.c 255570 2013-09-14 15:29:06Z trasz $
  */
+
+#include <sys/cdefs.h>
+__FBSDID("$FreeBSD: stable/10/usr.sbin/iscsid/log.c 270888 2014-08-31 20:21:08Z trasz $");
 
 #include <errno.h>
 #include <stdarg.h>

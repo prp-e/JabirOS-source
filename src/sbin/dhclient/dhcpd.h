@@ -38,7 +38,7 @@
  * see ``http://www.vix.com/isc''.  To learn more about Vixie
  * Enterprises, see ``http://www.vix.com''.
  *
- * $FreeBSD: release/10.0.0/sbin/dhclient/dhcpd.h 252626 2013-07-03 22:12:54Z pjd $
+ * $FreeBSD: stable/10/sbin/dhclient/dhcpd.h 252626 2013-07-03 22:12:54Z pjd $
  */
 
 #include <sys/param.h>

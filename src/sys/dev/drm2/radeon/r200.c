@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/radeon/r200.c 254885 2013-08-25 19:37:15Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/r200.c 261455 2014-02-04 03:36:42Z eadler $");
 
 #include <dev/drm2/drmP.h>
 #include <dev/drm2/radeon/radeon_drm.h>
@@ -116,7 +116,7 @@ int r200_copy_dma(struct radeon_device *rdev,
 		radeon_ring_write(ring, PACKET0(0x720, 2));
 		radeon_ring_write(ring, src_offset);
 		radeon_ring_write(ring, dst_offset);
-		radeon_ring_write(ring, cur_size | (1 << 31) | (1 << 30));
+		radeon_ring_write(ring, cur_size | (1U << 31) | (1 << 30));
 		src_offset += cur_size;
 		dst_offset += cur_size;
 	}

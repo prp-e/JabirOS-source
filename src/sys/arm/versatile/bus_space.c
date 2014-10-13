@@ -1,6 +1,8 @@
 /*-
- * Copyright (C) 2012 FreeBSD Foundation
+ * Copyright (C) 2008 MARVELL INTERNATIONAL LTD.
  * All rights reserved.
+ *
+ * Developed by Semihalf.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
@@ -28,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/versatile/bus_space.c 244197 2012-12-13 23:19:13Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/versatile/bus_space.c 266084 2014-05-14 19:18:58Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

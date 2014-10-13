@@ -3,7 +3,7 @@
 #
 # modified for PC-9801/PC-9821
 #
-# $FreeBSD: release/10.0.0/sys/conf/files.pc98 255675 2013-09-18 18:48:33Z rdivacky $
+# $FreeBSD: stable/10/sys/conf/files.pc98 272020 2014-09-23 07:50:04Z bz $
 #
 # The long compile-with and dependency lines are required because of
 # limitations in config: backslash-newline doesn't work in strings, and
@@ -55,6 +55,7 @@ compat/linux/linux_socket.c	optional compat_linux
 compat/linux/linux_stats.c	optional compat_linux
 compat/linux/linux_sysctl.c	optional compat_linux
 compat/linux/linux_time.c	optional compat_linux
+compat/linux/linux_timer.c	optional compat_linux
 compat/linux/linux_uid16.c	optional compat_linux
 compat/linux/linux_util.c	optional compat_linux
 compat/svr4/imgact_svr4.c	optional compat_svr4
@@ -247,6 +248,7 @@ x86/isa/atpic.c			optional atpic
 x86/isa/clock.c			standard
 x86/isa/isa.c			optional isa
 x86/pci/pci_bus.c		optional pci
+x86/x86/busdma_bounce.c		standard
 x86/x86/busdma_machdep.c	standard
 x86/x86/dump_machdep.c		standard
 x86/x86/intr_machdep.c		standard

@@ -28,7 +28,7 @@
  * SUCH DAMAGE.
  *
  * $Id: ng_btsocket_hci_raw.c,v 1.14 2003/09/14 23:29:06 max Exp $
- * $FreeBSD: release/10.0.0/sys/netgraph/bluetooth/socket/ng_btsocket_hci_raw.c 243882 2012-12-05 08:04:20Z glebius $
+ * $FreeBSD: stable/10/sys/netgraph/bluetooth/socket/ng_btsocket_hci_raw.c 268061 2014-06-30 19:46:17Z trociny $
  */
 
 #include <sys/param.h>
@@ -51,6 +51,9 @@
 #include <sys/socketvar.h>
 #include <sys/sysctl.h>
 #include <sys/taskqueue.h>
+
+#include <net/vnet.h>
+
 #include <netgraph/ng_message.h>
 #include <netgraph/netgraph.h>
 #include <netgraph/bluetooth/include/ng_bluetooth.h>
@@ -727,6 +730,10 @@ ng_btsocket_hci_raw_init(void)
 {
 	bitstr_t	*f = NULL;
 	int		 error = 0;
+
+	/* Skip initialization of globals for non-default instances. */
+	if (!IS_DEFAULT_VNET(curvnet))
+		return;
 
 	ng_btsocket_hci_raw_node = NULL;
 	ng_btsocket_hci_raw_debug_level = NG_BTSOCKET_WARN_LEVEL;

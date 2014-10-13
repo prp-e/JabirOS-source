@@ -22,7 +22,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/contrib/libarchive/tar/bsdtar_platform.h 232153 2012-02-25 10:58:02Z mm $
+ * $FreeBSD: stable/10/contrib/libarchive/tar/bsdtar_platform.h 232153 2012-02-25 10:58:02Z mm $
  */
 
 /*

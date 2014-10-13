@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: release/10.0.0/lib/libc/stdlib/Symbol.map 234370 2012-04-17 07:22:14Z jasone $
+ * $FreeBSD: stable/10/lib/libc/stdlib/Symbol.map 234370 2012-04-17 07:22:14Z jasone $
  */
 
 FBSD_1.0 {

@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/devinfo/devinfo.c 227252 2011-11-06 19:01:48Z ed $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/devinfo/devinfo.c 227252 2011-11-06 19:01:48Z ed $");
 
 #include <sys/types.h>
 #include <err.h>

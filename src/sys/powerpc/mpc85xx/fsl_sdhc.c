@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/mpc85xx/fsl_sdhc.c 236121 2012-05-26 21:07:15Z raj $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/mpc85xx/fsl_sdhc.c 261077 2014-01-23 12:02:04Z loos $");
 
 #include <sys/param.h>
 #include <sys/bus.h>
@@ -64,8 +64,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/mpc85xx/fsl_sdhc.c 236121 2012-05
 
 #include "fsl_sdhc.h"
 
-#define DEBUG
-#undef DEBUG
 #ifdef DEBUG
 #define	DPRINTF(fmt, arg...)	printf("DEBUG %s(): " fmt, __FUNCTION__, ##arg)
 #else

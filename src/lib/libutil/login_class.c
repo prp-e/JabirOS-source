@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libutil/login_class.c 231306 2012-02-09 21:06:47Z eadler $");
+__FBSDID("$FreeBSD: stable/10/lib/libutil/login_class.c 231306 2012-02-09 21:06:47Z eadler $");
 
 #include <sys/param.h>
 #include <sys/cpuset.h>

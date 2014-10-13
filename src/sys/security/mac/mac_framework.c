@@ -70,7 +70,7 @@
 #include "opt_mac.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/security/mac/mac_framework.c 255971 2013-10-01 15:40:27Z markj $");
+__FBSDID("$FreeBSD: stable/10/sys/security/mac/mac_framework.c 270045 2014-08-16 13:11:59Z bz $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -94,11 +94,11 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/security/mac/mac_framework.c 255971 2013-
 SDT_PROVIDER_DEFINE(mac);
 SDT_PROVIDER_DEFINE(mac_framework);
 
-SDT_PROBE_DEFINE2(mac, kernel, policy, modevent, modevent, "int",
+SDT_PROBE_DEFINE2(mac, kernel, policy, modevent, "int",
     "struct mac_policy_conf *");
-SDT_PROBE_DEFINE1(mac, kernel, policy, register, register,
+SDT_PROBE_DEFINE1(mac, kernel, policy, register,
     "struct mac_policy_conf *");
-SDT_PROBE_DEFINE1(mac, kernel, policy, unregister, unregister,
+SDT_PROBE_DEFINE1(mac, kernel, policy, unregister,
     "struct mac_policy_conf *");
 
 /*
@@ -587,8 +587,7 @@ int
 mac_check_structmac_consistent(struct mac *mac)
 {
 
-	if (mac->m_buflen < 0 ||
-	    mac->m_buflen > MAC_MAX_LABEL_BUF_LEN)
+	if (mac->m_buflen > MAC_MAX_LABEL_BUF_LEN)
 		return (EINVAL);
 
 	return (0);

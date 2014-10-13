@@ -30,7 +30,7 @@
 
 #
 #	@(#)vnode_if.sh	8.1 (Berkeley) 6/10/93
-# $FreeBSD: release/10.0.0/sys/tools/vnode_if.awk 247116 2013-02-21 19:02:50Z jhb $
+# $FreeBSD: stable/10/sys/tools/vnode_if.awk 260817 2014-01-17 10:58:59Z avg $
 #
 # Script to produce VFS front-end sugar.
 #
@@ -142,7 +142,7 @@ common_head = \
     " * This file is produced automatically.\n" \
     " * Do not modify anything in here by hand.\n" \
     " *\n" \
-    " * Created from $FreeBSD: release/10.0.0/sys/tools/vnode_if.awk 247116 2013-02-21 19:02:50Z jhb $\n" \
+    " * Created from $FreeBSD: stable/10/sys/tools/vnode_if.awk 260817 2014-01-17 10:58:59Z avg $\n" \
     " */\n" \
     "\n";
 
@@ -342,8 +342,8 @@ while ((getline < srcfile) > 0) {
 		printc("};");
 
 		printc("\n");
-		printc("SDT_PROBE_DEFINE2(vfs, vop, " name ", entry, entry, \"struct vnode *\", \"struct " name "_args *\");\n");
-		printc("SDT_PROBE_DEFINE3(vfs, vop, " name ", return, return, \"struct vnode *\", \"struct " name "_args *\", \"int\");\n");
+		printc("SDT_PROBE_DEFINE2(vfs, vop, " name ", entry, \"struct vnode *\", \"struct " name "_args *\");\n");
+		printc("SDT_PROBE_DEFINE3(vfs, vop, " name ", return, \"struct vnode *\", \"struct " name "_args *\", \"int\");\n");
 
 		# Print out function.
 		printc("\nint\n" uname "_AP(struct " name "_args *a)");

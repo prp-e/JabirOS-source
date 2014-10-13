@@ -1,8 +1,9 @@
-# $FreeBSD: release/10.0.0/sys/boot/Makefile.powerpc 223539 2011-06-25 16:01:45Z marius $
+# $FreeBSD: stable/10/sys/boot/Makefile.powerpc 271130 2014-09-04 20:35:53Z emaste $
 
 .if ${MK_FDT} != "no"
 SUBDIR+=		fdt
 .endif
 
+SUBDIR+=		libstand32
 SUBDIR+=		ofw
 SUBDIR+=		uboot

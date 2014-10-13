@@ -23,13 +23,15 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/lib/atf/libatf-c/Makefile 241823 2012-10-22 01:18:41Z marcel $
+# $FreeBSD: stable/10/lib/atf/libatf-c/Makefile 270905 2014-08-31 23:09:23Z ngie $
 
 .include <bsd.init.mk>
 
 LIB=		atf-c
-SHLIB_MAJOR=	1
+PRIVATELIB=	true
+SHLIB_MAJOR=	0
 
+ATF=		${.CURDIR:H:H:H}/contrib/atf
 .PATH:		${ATF}
 .PATH:		${ATF}/atf-c
 .PATH:		${ATF}/atf-c/detail
@@ -73,4 +75,9 @@ INCSDIR_atf-c.h= ${INCLUDEDIR}
 
 MAN=		atf-c-api.3
 
+.if ${MK_TESTS} != "no"
+SUBDIR=		tests
+.endif
+
+.include "../common.mk"
 .include <bsd.lib.mk>

@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/fs/nfs/nfsport.h 254337 2013-08-14 21:11:26Z rmacklem $
+ * $FreeBSD: stable/10/sys/fs/nfs/nfsport.h 269398 2014-08-01 21:10:41Z rmacklem $
  */
 
 #ifndef _NFS_NFSPORT_H_
@@ -637,6 +637,9 @@ void nfsrvd_rcv(struct socket *, void *, int);
 #define	NFSUNLOCKSOCKREQ(r)	mtx_unlock(&((r)->nr_mtx))
 #define	NFSLOCKDS(d)		mtx_lock(&((d)->nfsclds_mtx))
 #define	NFSUNLOCKDS(d)		mtx_unlock(&((d)->nfsclds_mtx))
+#define	NFSSESSIONMUTEXPTR(s)	(&((s)->mtx))
+#define	NFSLOCKSESSION(s)	mtx_lock(&((s)->mtx))
+#define	NFSUNLOCKSESSION(s)	mtx_unlock(&((s)->mtx))
 
 /*
  * Use these macros to initialize/free a mutex.
@@ -732,6 +735,7 @@ MALLOC_DECLARE(M_NEWNFSDEVINFO);
 MALLOC_DECLARE(M_NEWNFSSOCKREQ);
 MALLOC_DECLARE(M_NEWNFSCLDS);
 MALLOC_DECLARE(M_NEWNFSLAYRECALL);
+MALLOC_DECLARE(M_NEWNFSDSESSION);
 #define	M_NFSRVCACHE	M_NEWNFSRVCACHE
 #define	M_NFSDCLIENT	M_NEWNFSDCLIENT
 #define	M_NFSDSTATE	M_NEWNFSDSTATE
@@ -757,6 +761,7 @@ MALLOC_DECLARE(M_NEWNFSLAYRECALL);
 #define	M_NFSSOCKREQ	M_NEWNFSSOCKREQ
 #define	M_NFSCLDS	M_NEWNFSCLDS
 #define	M_NFSLAYRECALL	M_NEWNFSLAYRECALL
+#define	M_NFSDSESSION	M_NEWNFSDSESSION
 
 #define	NFSINT_SIGMASK(set) 						\
 	(SIGISMEMBER(set, SIGINT) || SIGISMEMBER(set, SIGTERM) ||	\

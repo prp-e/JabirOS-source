@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)libkern.h	8.1 (Berkeley) 6/10/93
- * $FreeBSD: release/10.0.0/sys/sys/libkern.h 253719 2013-07-27 20:47:01Z alfred $
+ * $FreeBSD: stable/10/sys/sys/libkern.h 270892 2014-08-31 21:18:23Z trasz $
  */
 
 #ifndef _SYS_LIBKERN_H_
@@ -117,6 +117,7 @@ int	 strcmp(const char *, const char *);
 char	*strcpy(char * __restrict, const char * __restrict);
 size_t	 strcspn(const char * __restrict, const char * __restrict) __pure;
 char	*strdup(const char *__restrict, struct malloc_type *);
+char	*strndup(const char *__restrict, size_t, struct malloc_type *);
 size_t	 strlcat(char *, const char *, size_t);
 size_t	 strlcpy(char *, const char *, size_t);
 size_t	 strlen(const char *);

@@ -31,7 +31,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/fwcontrol/fwdv.c 216948 2011-01-04 02:52:22Z emaste $
+ * $FreeBSD: stable/10/usr.sbin/fwcontrol/fwdv.c 216948 2011-01-04 02:52:22Z emaste $
  */
 #include <sys/param.h>
 #include <sys/ioctl.h>

@@ -27,7 +27,7 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
  * DEALINGS IN THE SOFTWARE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/xen/blkfront/block.h 255040 2013-08-29 19:52:18Z gibbs $
+ * $FreeBSD: stable/10/sys/dev/xen/blkfront/block.h 255040 2013-08-29 19:52:18Z gibbs $
  */
 
 #ifndef __XEN_BLKFRONT_BLOCK_H__

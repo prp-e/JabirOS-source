@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/powerpc/wii/wii_exireg.h 239478 2012-08-21 06:31:26Z adrian $
+ * $FreeBSD: stable/10/sys/powerpc/wii/wii_exireg.h 239478 2012-08-21 06:31:26Z adrian $
  */
 
 #ifndef	_POWERPC_WII_WII_EXIREG_H

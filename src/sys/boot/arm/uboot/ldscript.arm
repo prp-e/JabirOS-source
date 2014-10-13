@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/boot/arm/uboot/ldscript.arm 236159 2012-05-27 16:27:04Z kientzle $ */
+/* $FreeBSD: stable/10/sys/boot/arm/uboot/ldscript.arm 236159 2012-05-27 16:27:04Z kientzle $ */
 
 OUTPUT_ARCH(arm)
 ENTRY(_start)

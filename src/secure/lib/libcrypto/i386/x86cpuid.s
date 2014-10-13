@@ -1,4 +1,4 @@
-	# $FreeBSD: release/10.0.0/secure/lib/libcrypto/i386/x86cpuid.s 238405 2012-07-12 19:30:53Z jkim $
+	# $FreeBSD: stable/10/secure/lib/libcrypto/i386/x86cpuid.s 264331 2014-04-10 22:39:22Z jkim $
 .file	"x86cpuid.s"
 .text
 .globl	OPENSSL_ia32_cpuid
@@ -62,6 +62,7 @@ OPENSSL_ia32_cpuid:
 	movzbl	%cl,%esi
 	incl	%esi
 	movl	$1,%eax
+	xorl	%ecx,%ecx
 	.byte	0x0f,0xa2
 	btl	$28,%edx
 	jnc	.L002generic
@@ -83,6 +84,7 @@ OPENSSL_ia32_cpuid:
 	andl	$4095,%edi
 .L003nocacheinfo:
 	movl	$1,%eax
+	xorl	%ecx,%ecx
 	.byte	0x0f,0xa2
 	andl	$3220176895,%edx
 	cmpl	$0,%ebp

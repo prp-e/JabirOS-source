@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/share/examples/kld/random_adaptor/random_adaptor_example.c 256381 2013-10-12 15:31:36Z markm $");
+__FBSDID("$FreeBSD: stable/10/share/examples/kld/random_adaptor/random_adaptor_example.c 256381 2013-10-12 15:31:36Z markm $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

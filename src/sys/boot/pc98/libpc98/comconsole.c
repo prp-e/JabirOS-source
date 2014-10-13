@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/boot/pc98/libpc98/comconsole.c 251223 2013-06-01 12:27:48Z nyan $");
+__FBSDID("$FreeBSD: stable/10/sys/boot/pc98/libpc98/comconsole.c 261573 2014-02-07 04:09:15Z mav $");
 
 #include <stand.h>
 #include <bootstrap.h>
@@ -181,8 +181,7 @@ comc_speed_set(struct env_var *ev, int flags, const void *value)
 	return (CMD_ERROR);
     }
 
-    if ((comconsole.c_flags & (C_ACTIVEIN | C_ACTIVEOUT)) != 0 &&
-	comc_curspeed != speed)
+    if (comc_curspeed != speed)
 	comc_setup(speed, comc_port);
 
     env_setenv(ev->ev_name, flags | EV_NOHOOK, value, NULL, NULL);
@@ -200,8 +199,7 @@ comc_port_set(struct env_var *ev, int flags, const void *value)
 	return (CMD_ERROR);
     }
 
-    if ((comconsole.c_flags & (C_ACTIVEIN | C_ACTIVEOUT)) != 0 &&
-	comc_port != port)
+    if (comc_port != port)
 	comc_setup(comc_curspeed, port);
 
     env_setenv(ev->ev_name, flags | EV_NOHOOK, value, NULL, NULL);
@@ -309,6 +307,8 @@ comc_setup(int speed, int port)
     unsetenv("hw.uart.console");
     comc_curspeed = speed;
     comc_port = port;
+    if ((comconsole.c_flags & (C_ACTIVEIN | C_ACTIVEOUT)) == 0)
+	return;
 
     outb(comc_port + com_cfcr, CFCR_DLAB | COMC_FMT);
     outb(comc_port + com_dlbl, COMC_BPS(speed) & 0xff);

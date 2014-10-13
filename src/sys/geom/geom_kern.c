@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/geom/geom_kern.c 255860 2013-09-24 20:05:16Z des $");
+__FBSDID("$FreeBSD: stable/10/sys/geom/geom_kern.c 260385 2014-01-07 01:32:23Z scottl $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -122,6 +122,13 @@ g_event_procbody(void *arg)
 	thread_unlock(g_event_td);
 	g_run_events();
 	/* NOTREACHED */
+}
+
+int
+g_is_geom_thread(struct thread *td)
+{
+
+	return (td == g_up_td || td == g_down_td || td == g_event_td);
 }
 
 static void

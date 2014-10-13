@@ -1,5 +1,5 @@
 #	from: @(#)bsd.lib.mk	5.26 (Berkeley) 5/2/91
-# $FreeBSD: release/10.0.0/share/mk/bsd.lib.mk 255384 2013-09-08 09:40:23Z des $
+# $FreeBSD: stable/10/share/mk/bsd.lib.mk 270484 2014-08-24 14:25:44Z des $
 #
 
 .include <bsd.init.mk>
@@ -117,7 +117,8 @@ PO_FLAG=-pg
 	${CC} ${PICFLAG} -DPIC ${CFLAGS} ${ACFLAGS} -c ${.IMPSRC} -o ${.TARGET}
 	${CTFCONVERT_CMD}
 
-all: objwarn
+all: beforebuild .WAIT
+beforebuild: objwarn
 
 .if defined(PRIVATELIB)
 _LIBDIR:=${LIBPRIVATEDIR}
@@ -172,7 +173,7 @@ lib${LIB}.a: ${OBJS} ${STATICOBJS}
 .else
 	@${AR} ${ARFLAGS} ${.TARGET} `NM='${NM}' lorder ${OBJS} ${STATICOBJS} | tsort -q` ${ARADD}
 .endif
-	${RANLIB} ${.TARGET}
+	${RANLIB} ${RANLIBFLAGS} ${.TARGET}
 .endif
 
 .if !defined(INTERNALLIB)
@@ -189,7 +190,7 @@ lib${LIB}_p.a: ${POBJS}
 .else
 	@${AR} ${ARFLAGS} ${.TARGET} `NM='${NM}' lorder ${POBJS} | tsort -q` ${ARADD}
 .endif
-	${RANLIB} ${.TARGET}
+	${RANLIB} ${RANLIBFLAGS} ${.TARGET}
 .endif
 
 .if defined(SHLIB_NAME) || \
@@ -246,7 +247,7 @@ lib${LIB}_pic.a: ${SOBJS}
 	@${ECHO} building special pic ${LIB} library
 	@rm -f ${.TARGET}
 	@${AR} ${ARFLAGS} ${.TARGET} ${SOBJS} ${ARADD}
-	${RANLIB} ${.TARGET}
+	${RANLIB} ${RANLIBFLAGS} ${.TARGET}
 .endif
 
 .if defined(WANT_LINT) && !defined(NO_LINT) && defined(LIB) && !empty(LIB)

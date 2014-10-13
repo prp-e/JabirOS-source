@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netinet6/ip6_ipsec.c 249294 2013-04-09 07:11:22Z ae $");
+__FBSDID("$FreeBSD: stable/10/sys/netinet6/ip6_ipsec.c 263478 2014-03-21 15:15:30Z glebius $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"
@@ -369,9 +369,7 @@ ip6_ipsec_mtu(struct mbuf *m)
 		    sp->req->sav->sah != NULL) {
 			ro = &sp->req->sav->sah->route_cache.sa_route;
 			if (ro->ro_rt && ro->ro_rt->rt_ifp) {
-				mtu =
-				    ro->ro_rt->rt_rmx.rmx_mtu ?
-				    ro->ro_rt->rt_rmx.rmx_mtu :
+				mtu = ro->ro_rt->rt_mtu ? ro->ro_rt->rt_mtu :
 				    ro->ro_rt->rt_ifp->if_mtu;
 				mtu -= ipsechdr;
 			}

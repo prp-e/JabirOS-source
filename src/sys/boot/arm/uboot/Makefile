@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/boot/arm/uboot/Makefile 253714 2013-07-27 18:18:46Z kientzle $
+# $FreeBSD: stable/10/sys/boot/arm/uboot/Makefile 265064 2014-04-28 23:46:04Z ian $
 
 .include <bsd.own.mk>
 
@@ -90,7 +90,7 @@ CFLAGS+=	-I.
 
 CLEANFILES+=	vers.c loader.help
 
-CFLAGS+=	-ffreestanding
+CFLAGS+=	-ffreestanding -msoft-float
 
 LDFLAGS=	-nostdlib -static
 LDFLAGS+=	-T ldscript.generated

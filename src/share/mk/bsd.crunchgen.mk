@@ -25,7 +25,7 @@
 # If CRUNCH_GENERATE_LINKS is set to no, no links will be generated.
 #
 
-# $FreeBSD: release/10.0.0/share/mk/bsd.crunchgen.mk 251512 2013-06-07 21:40:02Z emaste $
+# $FreeBSD: stable/10/share/mk/bsd.crunchgen.mk 270291 2014-08-21 19:32:54Z emaste $
 
 ##################################################################
 #  The following is pretty nearly a generic crunchgen-handling makefile
@@ -48,7 +48,7 @@ CRUNCH_GENERATE_LINKS?=	yes
 CLEANFILES+= $(CONF) *.o *.lo *.c *.mk *.cache *.a *.h
 
 # Don't try to extract debug info from ${PROG}.
-NO_DEBUG_FILES=
+MK_DEBUG_FILES=no
 
 # Program names and their aliases contribute hardlinks to 'rescue' executable,
 # except for those that get suppressed.

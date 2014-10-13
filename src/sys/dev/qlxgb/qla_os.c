@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/qlxgb/qla_os.c 250375 2013-05-08 18:25:46Z davidcs $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/qlxgb/qla_os.c 261864 2014-02-14 02:48:14Z davidcs $");
 
 #include "qla_os.h"
 #include "qla_reg.h"
@@ -1063,10 +1063,7 @@ qla_send(qla_host_t *ha, struct mbuf **m_headp)
 	ret = bus_dmamap_load_mbuf_sg(ha->tx_tag, map, m_head, segs, &nsegs,
 			BUS_DMA_NOWAIT);
 
-	if ((ret == EFBIG) ||
-		((nsegs > Q8_TX_MAX_SEGMENTS) &&
-		 (((m_head->m_pkthdr.csum_flags & CSUM_TSO) == 0) ||
-			(m_head->m_pkthdr.len <= ha->max_frame_size)))) {
+	if (ret == EFBIG) {
 
 		struct mbuf *m;
 

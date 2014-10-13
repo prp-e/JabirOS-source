@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/lib/libiconv_modules/EUCTW/citrus_euctw.c 252583 2013-07-03 18:27:45Z peter $ */
+/* $FreeBSD: stable/10/lib/libiconv_modules/EUCTW/citrus_euctw.c 264497 2014-04-15 09:49:44Z tijl $ */
 /*	$NetBSD: citrus_euctw.c,v 1.11 2008/06/14 16:01:07 tnozaki Exp $	*/
 
 /*-
@@ -119,7 +119,7 @@ _citrus_EUCTW_count(int cs)
 	case 1:
 		/*FALLTHROUGH*/
 	case 2:
-		return (2^cs);
+		return (1 << cs);
 	case 3:
 		abort();
 		/*NOTREACHED*/
@@ -136,6 +136,7 @@ _citrus_EUCTW_init_state(_EUCTWEncodingInfo * __restrict ei __unused,
 	memset(s, 0, sizeof(*s));
 }
 
+#if 0
 static __inline void
 /*ARGSUSED*/
 _citrus_EUCTW_pack_state(_EUCTWEncodingInfo * __restrict ei __unused,
@@ -153,6 +154,7 @@ _citrus_EUCTW_unpack_state(_EUCTWEncodingInfo * __restrict ei __unused,
 
 	memcpy((void *)s, pspriv, sizeof(*s));
 }
+#endif
 
 static int
 /*ARGSUSED*/

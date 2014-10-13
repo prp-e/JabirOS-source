@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/bin/kenv/kenv.c 250666 2013-05-15 18:38:28Z delphij $");
+__FBSDID("$FreeBSD: stable/10/bin/kenv/kenv.c 250666 2013-05-15 18:38:28Z delphij $");
 
 #include <sys/types.h>
 #include <sys/sysctl.h>

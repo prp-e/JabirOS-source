@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/siba_bwn/Makefile 203319 2010-01-31 21:18:22Z weongyo $
+# $FreeBSD: stable/10/sys/modules/siba_bwn/Makefile 203319 2010-01-31 21:18:22Z weongyo $
 
 .PATH: ${.CURDIR}/../../dev/siba
 

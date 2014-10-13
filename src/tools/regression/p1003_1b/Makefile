@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/tools/regression/p1003_1b/Makefile 139103 2004-12-21 08:47:35Z ru $
+# $FreeBSD: stable/10/tools/regression/p1003_1b/Makefile 139103 2004-12-21 08:47:35Z ru $
 
 PROG=p1003_1b
 

@@ -32,7 +32,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)vm_pager.h	8.4 (Berkeley) 1/12/94
- * $FreeBSD: release/10.0.0/sys/vm/vm_pager.h 252330 2013-06-28 03:51:20Z jeff $
+ * $FreeBSD: stable/10/sys/vm/vm_pager.h 269915 2014-08-13 06:58:42Z kib $
  */
 
 /*
@@ -187,7 +187,7 @@ static __inline void
 vm_pager_page_unswapped(vm_page_t m)
 {
 
-	VM_OBJECT_ASSERT_WLOCKED(m->object);
+	VM_OBJECT_ASSERT_LOCKED(m->object);
 	if (pagertab[m->object->type]->pgo_pageunswapped)
 		(*pagertab[m->object->type]->pgo_pageunswapped)(m);
 }

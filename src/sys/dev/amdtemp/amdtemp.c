@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/amdtemp/amdtemp.c 254924 2013-08-26 17:38:36Z jmg $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/amdtemp/amdtemp.c 263869 2014-03-28 08:55:34Z brueffer $");
 
 #include <sys/param.h>
 #include <sys/bus.h>
@@ -79,6 +79,7 @@ struct amdtemp_softc {
 #define	DEVICEID_AMD_MISC12	0x1403
 #define	DEVICEID_AMD_MISC14	0x1703
 #define	DEVICEID_AMD_MISC15	0x1603
+#define	DEVICEID_AMD_MISC16	0x1533
 
 static struct amdtemp_product {
 	uint16_t	amdtemp_vendorid;
@@ -90,6 +91,7 @@ static struct amdtemp_product {
 	{ VENDORID_AMD,	DEVICEID_AMD_MISC12 },
 	{ VENDORID_AMD,	DEVICEID_AMD_MISC14 },
 	{ VENDORID_AMD,	DEVICEID_AMD_MISC15 },
+	{ VENDORID_AMD,	DEVICEID_AMD_MISC16 },
 	{ 0, 0 }
 };
 
@@ -204,6 +206,7 @@ amdtemp_probe(device_t dev)
 	case 0x12:
 	case 0x14:
 	case 0x15:
+	case 0x16:
 		break;
 	default:
 		return (ENXIO);
@@ -327,6 +330,7 @@ amdtemp_attach(device_t dev)
 	case 0x12:
 	case 0x14:
 	case 0x15:
+	case 0x16:
 		/*
 		 * There is only one sensor per package.
 		 */

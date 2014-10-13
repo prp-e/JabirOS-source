@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/cam/scsi/scsi_enc_internal.h 244014 2012-12-08 04:03:04Z ken $
+ * $FreeBSD: stable/10/sys/cam/scsi/scsi_enc_internal.h 260387 2014-01-07 01:51:48Z scottl $
  */
 
 /*
@@ -192,7 +192,6 @@ struct ses_mgmt_mode_page {
 /* Enclosure core interface for sub-drivers */
 int  enc_runcmd(struct enc_softc *, char *, int, char *, int *);
 void enc_log(struct enc_softc *, const char *, ...);
-void enc_done(struct cam_periph *, union ccb *);
 int  enc_error(union ccb *, uint32_t, uint32_t);
 void enc_update_request(enc_softc_t *, uint32_t);
 

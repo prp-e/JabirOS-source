@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libyaml/Makefile 256998 2013-10-23 18:07:07Z bdrewery $
+# $FreeBSD: stable/10/lib/libyaml/Makefile 256998 2013-10-23 18:07:07Z bdrewery $
 
 LIBYAML=	${.CURDIR}/../../contrib/libyaml
 

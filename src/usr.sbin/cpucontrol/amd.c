@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/cpucontrol/amd.c 236504 2012-06-03 08:30:00Z avg $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/cpucontrol/amd.c 236504 2012-06-03 08:30:00Z avg $");
 
 #include <assert.h>
 #include <stdio.h>

@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/xscale/pxa/pxa_smi.c 241885 2012-10-22 13:06:09Z eadler $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/xscale/pxa/pxa_smi.c 241885 2012-10-22 13:06:09Z eadler $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

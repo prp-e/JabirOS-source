@@ -28,7 +28,7 @@
  * NETLOGIC_BSD */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/nlm/intr_machdep.c 233563 2012-03-27 15:39:55Z jchandra $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/nlm/intr_machdep.c 233563 2012-03-27 15:39:55Z jchandra $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

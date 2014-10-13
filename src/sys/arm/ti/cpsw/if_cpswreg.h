@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/ti/cpsw/if_cpswreg.h 246276 2013-02-03 01:08:01Z kientzle $
+ * $FreeBSD: stable/10/sys/arm/ti/cpsw/if_cpswreg.h 246276 2013-02-03 01:08:01Z kientzle $
  */
 
 #ifndef	_IF_CPSWREG_H

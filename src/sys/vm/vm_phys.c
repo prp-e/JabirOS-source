@@ -37,7 +37,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/vm/vm_phys.c 256275 2013-10-10 16:11:45Z alc $");
+__FBSDID("$FreeBSD: stable/10/sys/vm/vm_phys.c 265435 2014-05-06 12:20:07Z kib $");
 
 #include "opt_ddb.h"
 #include "opt_vm.h"
@@ -552,7 +552,9 @@ vm_phys_fictitious_reg_range(vm_paddr_t start, vm_paddr_t end,
 
 #ifdef VM_PHYSSEG_DENSE
 	pi = atop(start);
-	if (pi >= first_page && atop(end) < vm_page_array_size) {
+	if (pi >= first_page && pi < vm_page_array_size + first_page) {
+		if (atop(end) >= vm_page_array_size + first_page)
+			return (EINVAL);
 		fp = &vm_page_array[pi - first_page];
 		malloced = FALSE;
 	} else

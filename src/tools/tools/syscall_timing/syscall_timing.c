@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/tools/tools/syscall_timing/syscall_timing.c 236690 2012-06-06 17:26:52Z kib $
+ * $FreeBSD: stable/10/tools/tools/syscall_timing/syscall_timing.c 260627 2014-01-14 14:03:28Z pluknet $
  */
 
 #include <sys/types.h>
@@ -192,7 +192,8 @@ test_pipe(uintmax_t num, uintmax_t int_arg, const char *path)
 uintmax_t
 test_socket_stream(uintmax_t num, uintmax_t int_arg, const char *path)
 {
-	uintmax_t i, so;
+	uintmax_t i;
+	int so;
 
 	so = socket(int_arg, SOCK_STREAM, 0);
 	if (so < 0)
@@ -214,7 +215,8 @@ test_socket_stream(uintmax_t num, uintmax_t int_arg, const char *path)
 uintmax_t
 test_socket_dgram(uintmax_t num, uintmax_t int_arg, const char *path)
 {
-	uintmax_t i, so;
+	uintmax_t i;
+	int so;
 
 	so = socket(int_arg, SOCK_DGRAM, 0);
 	if (so < 0)
@@ -408,7 +410,8 @@ test_dup(uintmax_t num, uintmax_t int_arg, const char *path)
 uintmax_t
 test_shmfd(uintmax_t num, uintmax_t int_arg, const char *path)
 {
-	uintmax_t i, shmfd;
+	uintmax_t i;
+	int shmfd;
 
 	shmfd = shm_open(SHM_ANON, O_CREAT | O_RDWR, 0600);
 	if (shmfd < 0)
@@ -431,7 +434,8 @@ uintmax_t
 test_fstat_shmfd(uintmax_t num, uintmax_t int_arg, const char *path)
 {
 	struct stat sb;
-	uintmax_t i, shmfd;
+	uintmax_t i;
+	int shmfd;
 
 	shmfd = shm_open(SHM_ANON, O_CREAT | O_RDWR, 0600);
 	if (shmfd < 0)
@@ -785,7 +789,7 @@ main(int argc, char *argv[])
 			    path);
 			timespecsub(&ts_end, &ts_start);
 			printf("%s\t%d\t", the_test->t_name, k);
-			printf("%ju.%09ju\t%d\t", (uintmax_t)ts_end.tv_sec,
+			printf("%ju.%09ju\t%ju\t", (uintmax_t)ts_end.tv_sec,
 			    (uintmax_t)ts_end.tv_nsec, calls);
 
 		/*

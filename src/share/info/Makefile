@@ -1,5 +1,5 @@
 #       @(#)Makefile    8.1 (Berkeley) 6/5/93
-# $FreeBSD: release/10.0.0/share/info/Makefile 245753 2013-01-21 22:54:43Z brooks $
+# $FreeBSD: stable/10/share/info/Makefile 245753 2013-01-21 22:54:43Z brooks $
 
 NO_OBJ=
 

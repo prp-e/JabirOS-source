@@ -28,7 +28,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sbin/camcontrol/progress.h 237285 2012-06-20 04:11:34Z scottl $
+ * $FreeBSD: stable/10/sbin/camcontrol/progress.h 237285 2012-06-20 04:11:34Z scottl $
  */
 
 #ifndef PROGRESS_H_

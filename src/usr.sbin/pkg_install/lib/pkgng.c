@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/pkg_install/lib/pkgng.c 245837 2013-01-23 07:22:33Z jasone $
+ * $FreeBSD: stable/10/usr.sbin/pkg_install/lib/pkgng.c 245837 2013-01-23 07:22:33Z jasone $
  */
 
 #include <sys/cdefs.h>

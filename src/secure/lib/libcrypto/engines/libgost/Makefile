@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/secure/lib/libcrypto/engines/libgost/Makefile 238405 2012-07-12 19:30:53Z jkim $
+# $FreeBSD: stable/10/secure/lib/libcrypto/engines/libgost/Makefile 238405 2012-07-12 19:30:53Z jkim $
 
 SHLIB_NAME?= libgost.so
 SRCS=	gost2001.c gost2001_keyx.c gost89.c gost94_keyx.c gost_ameth.c \

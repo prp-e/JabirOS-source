@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/powermac/windtunnel.c 230035 2012-01-12 22:21:20Z jhibbits $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/powermac/windtunnel.c 230035 2012-01-12 22:21:20Z jhibbits $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

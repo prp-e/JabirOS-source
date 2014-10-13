@@ -39,7 +39,7 @@
  *
  *	from: hp300: @(#)pmap.h	7.2 (Berkeley) 12/16/90
  *	from: @(#)pmap.h	7.4 (Berkeley) 5/12/91
- * $FreeBSD: release/10.0.0/sys/amd64/include/pmap.h 256072 2013-10-05 21:22:35Z neel $
+ * $FreeBSD: stable/10/sys/amd64/include/pmap.h 266339 2014-05-17 19:11:08Z jhb $
  */
 
 #ifndef _MACHINE_PMAP_H_
@@ -312,9 +312,10 @@ struct pmap {
 };
 
 /* flags */
-#define	PMAP_PDE_SUPERPAGE	(1 << 0)	/* supports 2MB superpages */
-#define	PMAP_EMULATE_AD_BITS	(1 << 1)	/* needs A/D bits emulation */
-#define	PMAP_SUPPORTS_EXEC_ONLY	(1 << 2)	/* execute only mappings ok */
+#define	PMAP_NESTED_IPIMASK	0xff
+#define	PMAP_PDE_SUPERPAGE	(1 << 8)	/* supports 2MB superpages */
+#define	PMAP_EMULATE_AD_BITS	(1 << 9)	/* needs A/D bits emulation */
+#define	PMAP_SUPPORTS_EXEC_ONLY	(1 << 10)	/* execute only mappings ok */
 
 typedef struct pmap	*pmap_t;
 
@@ -368,6 +369,7 @@ extern vm_paddr_t phys_avail[];
 extern vm_paddr_t dump_avail[];
 extern vm_offset_t virtual_avail;
 extern vm_offset_t virtual_end;
+extern vm_paddr_t dmaplimit;
 
 #define	pmap_page_get_memattr(m)	((vm_memattr_t)(m)->md.pat_mode)
 #define	pmap_page_is_write_mapped(m)	(((m)->aflags & PGA_WRITEABLE) != 0)

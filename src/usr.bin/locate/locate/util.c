@@ -34,7 +34,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.bin/locate/locate/util.c 229655 2012-01-05 21:36:45Z uqs $
+ * $FreeBSD: stable/10/usr.bin/locate/locate/util.c 229655 2012-01-05 21:36:45Z uqs $
  */
 
 

@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sbin/hastd/synch.h 236919 2012-06-11 20:27:52Z hselasky $
+ * $FreeBSD: stable/10/sbin/hastd/synch.h 236919 2012-06-11 20:27:52Z hselasky $
  */
 
 #ifndef	_SYNCH_H_

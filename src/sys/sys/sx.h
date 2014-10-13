@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
  * DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/sys/sx.h 247787 2013-03-04 12:48:41Z davide $
+ * $FreeBSD: stable/10/sys/sys/sx.h 247787 2013-03-04 12:48:41Z davide $
  */
 
 #ifndef	_SYS_SX_H_

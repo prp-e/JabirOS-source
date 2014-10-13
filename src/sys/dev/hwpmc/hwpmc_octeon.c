@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/hwpmc/hwpmc_octeon.c 233334 2012-03-23 00:09:27Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/hwpmc/hwpmc_octeon.c 233334 2012-03-23 00:09:27Z gonzo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

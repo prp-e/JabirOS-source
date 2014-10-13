@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/libthr/thread/thr_cond.c 239206 2012-08-12 00:56:56Z davidxu $
+ * $FreeBSD: stable/10/lib/libthr/thread/thr_cond.c 239206 2012-08-12 00:56:56Z davidxu $
  */
 
 #include "namespace.h"

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/nandtool/nandtool.h 235537 2012-05-17 10:11:18Z gber $
+ * $FreeBSD: stable/10/usr.sbin/nandtool/nandtool.h 235537 2012-05-17 10:11:18Z gber $
  */
 
 #ifndef	__UTILS_H

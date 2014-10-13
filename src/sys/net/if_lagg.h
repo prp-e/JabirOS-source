@@ -15,7 +15,7 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * $FreeBSD: release/10.0.0/sys/net/if_lagg.h 255038 2013-08-29 19:35:14Z adrian $
+ * $FreeBSD: stable/10/sys/net/if_lagg.h 270136 2014-08-18 15:54:35Z mav $
  */
 
 #ifndef _NET_LAGG_H
@@ -174,6 +174,7 @@ struct lagg_lb {
 };
 
 struct lagg_mc {
+	struct sockaddr_dl	mc_addr;
 	struct ifmultiaddr      *mc_ifma;
 	SLIST_ENTRY(lagg_mc)	mc_entries;
 };
@@ -231,6 +232,7 @@ struct lagg_softc {
 	struct sysctl_ctx_list		ctx;		/* sysctl variables */
 	struct sysctl_oid		*sc_oid;	/* sysctl tree oid */
 	int				use_flowid;	/* use M_FLOWID */
+	int				flowid_shift;	/* shift the flowid */
 };
 
 struct lagg_port {

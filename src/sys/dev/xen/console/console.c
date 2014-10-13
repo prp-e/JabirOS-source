@@ -1,5 +1,5 @@
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/xen/console/console.c 255040 2013-08-29 19:52:18Z gibbs $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/xen/console/console.c 265999 2014-05-14 01:35:43Z ian $");
 
 #include <sys/param.h>
 #include <sys/module.h>
@@ -226,7 +226,7 @@ static int
 xc_probe(device_t dev)
 {
 
-	return (0);
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 static int
@@ -356,6 +356,7 @@ xcclose(struct tty *tp)
 	xen_console_up = 0;
 }
 
+#if 0
 static inline int 
 __xencons_put_char(int ch)
 {
@@ -365,6 +366,7 @@ __xencons_put_char(int ch)
 	wbuf[WBUF_MASK(wp++)] = _ch;
 	return 1;
 }
+#endif
 
 
 static void

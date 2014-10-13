@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/tools/tools/bootparttest/bootparttest.c 253986 2013-08-06 10:35:05Z ae $");
+__FBSDID("$FreeBSD: stable/10/tools/tools/bootparttest/bootparttest.c 253986 2013-08-06 10:35:05Z ae $");
 
 #include <sys/types.h>
 #include <sys/stat.h>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/tools/regression/netipx/ipxsocket/ipxsocket.c 157146 2006-03-26 15:49:35Z rwatson $
+ * $FreeBSD: stable/10/tools/regression/netipx/ipxsocket/ipxsocket.c 157146 2006-03-26 15:49:35Z rwatson $
  */
 
 /*

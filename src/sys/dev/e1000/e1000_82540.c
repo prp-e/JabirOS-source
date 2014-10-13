@@ -30,7 +30,7 @@
   POSSIBILITY OF SUCH DAMAGE.
 
 ******************************************************************************/
-/*$FreeBSD: release/10.0.0/sys/dev/e1000/e1000_82540.c 228386 2011-12-10 06:55:02Z jfv $*/
+/*$FreeBSD: stable/10/sys/dev/e1000/e1000_82540.c 228386 2011-12-10 06:55:02Z jfv $*/
 
 /*
  * 82540EM Gigabit Ethernet Controller

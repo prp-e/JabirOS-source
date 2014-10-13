@@ -22,7 +22,7 @@
  * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
  * USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/powerpc/include/ofw_machdep.h 255910 2013-09-27 13:12:47Z nwhitehorn $
+ * $FreeBSD: stable/10/sys/powerpc/include/ofw_machdep.h 266020 2014-05-14 14:17:51Z ian $
  */
 
 #ifndef _MACHINE_OFW_MACHDEP_H_
@@ -45,7 +45,8 @@ boolean_t OF_bootstrap(void);
 
 void OF_reboot(void);
 
-void ofw_mem_regions(struct mem_region **, int *, struct mem_region **, int *);
+void ofw_mem_regions(struct mem_region *, int *, struct mem_region *, int *);
 void ofw_quiesce(void); /* Must be called before VM is up! */
+void ofw_save_trap_vec(char *);
 
 #endif /* _MACHINE_OFW_MACHDEP_H_ */

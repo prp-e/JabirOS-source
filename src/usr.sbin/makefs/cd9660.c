@@ -96,7 +96,7 @@
   */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/makefs/cd9660.c 253707 2013-07-27 15:28:31Z marius $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/makefs/cd9660.c 253707 2013-07-27 15:28:31Z marius $");
 
 #include <string.h>
 #include <ctype.h>

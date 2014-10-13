@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/tools/tools/net80211/w00t/expand/expand.c 195848 2009-07-24 15:31:22Z sam $
+ * $FreeBSD: stable/10/tools/tools/net80211/w00t/expand/expand.c 262007 2014-02-17 01:36:53Z kevlo $
  */
 #include <sys/time.h>
 #include <sys/types.h>
@@ -99,7 +99,7 @@ int wanted(struct params *p, struct ieee80211_frame *wh, int len)
 	if (memcmp(bssid, p->ap, 6) != 0)
 		return 0;
 
-	if (!(wh->i_fc[1] & IEEE80211_FC1_WEP)) {
+	if (!(wh->i_fc[1] & IEEE80211_FC1_PROTECTED)) {
 		printf("Got non WEP packet...\n");
 		return 0;
 	}
@@ -197,7 +197,7 @@ void send_mcast(struct params *p, unsigned char x)
 	wh->i_fc[0] |= IEEE80211_FC0_TYPE_DATA;
 	wh->i_fc[0] |= IEEE80211_FC0_SUBTYPE_DATA;
 	wh->i_fc[1] |= IEEE80211_FC1_DIR_TODS;
-	wh->i_fc[1] |= IEEE80211_FC1_WEP;
+	wh->i_fc[1] |= IEEE80211_FC1_PROTECTED;
 	
 	wh->i_dur[0] = 0x69;
 	

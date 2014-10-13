@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/libdwarf/dwarf.h 239872 2012-08-29 18:49:41Z dim $
+ * $FreeBSD: stable/10/lib/libdwarf/dwarf.h 239872 2012-08-29 18:49:41Z dim $
  */
 
 #ifndef	_DWARF_H_

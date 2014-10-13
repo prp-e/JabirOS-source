@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/security/audit/bsm_domain.c 244267 2012-12-15 15:21:09Z rwatson $");
+__FBSDID("$FreeBSD: stable/10/sys/security/audit/bsm_domain.c 244267 2012-12-15 15:21:09Z rwatson $");
 
 #include <sys/param.h>
 #include <sys/socket.h>

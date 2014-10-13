@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/drm2/i915kms/Makefile 239375 2012-08-18 18:26:25Z kib $
+# $FreeBSD: stable/10/sys/modules/drm2/i915kms/Makefile 271816 2014-09-18 20:32:40Z dumbbell $
 
 .PATH:	${.CURDIR}/../../../dev/drm2/i915
 KMOD	= i915kms
@@ -7,6 +7,7 @@ SRCS	= \
 	i915_dma.c \
 	i915_drv.c \
 	i915_gem.c \
+	i915_gem_context.c \
 	i915_gem_execbuffer.c \
 	i915_gem_evict.c \
 	i915_gem_gtt.c \
@@ -34,7 +35,12 @@ SRCS	= \
 SRCS	+= i915_ioc32.c
 .endif
 
-SRCS	+= device_if.h bus_if.h pci_if.h iicbus_if.h iicbb_if.h opt_drm.h \
-	 opt_compat.h
+SRCS	+= device_if.h fb_if.h bus_if.h pci_if.h iicbus_if.h iicbb_if.h \
+	 opt_drm.h opt_compat.h opt_syscons.h
 
 .include <bsd.kmod.mk>
+
+CWARNFLAGS.i915_debug.c=	-Wno-unused-function
+CWARNFLAGS.intel_lvds.c=	-Wno-unused
+CWARNFLAGS.intel_tv.c=		-Wno-unused
+CWARNFLAGS+=			${CWARNFLAGS.${.IMPSRC:T}}

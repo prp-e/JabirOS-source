@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/carp/Makefile 228576 2011-12-16 14:28:34Z glebius $
+# $FreeBSD: stable/10/sys/modules/carp/Makefile 228576 2011-12-16 14:28:34Z glebius $
 
 .PATH: ${.CURDIR}/../../netinet
 .PATH: ${.CURDIR}/../../crypto

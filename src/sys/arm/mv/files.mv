@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/arm/mv/files.mv 239371 2012-08-18 12:37:07Z hrs $
+# $FreeBSD: stable/10/sys/arm/mv/files.mv 266311 2014-05-17 13:53:38Z ian $
 #
 # The Marvell CPU cores
 # - Compliant with V5TE architecture
@@ -20,11 +20,10 @@ arm/arm/cpufunc_asm_armv5_ec.S	standard
 arm/arm/cpufunc_asm_armv7.S	standard
 arm/arm/cpufunc_asm_sheeva.S	standard
 arm/arm/cpufunc_asm_pj4b.S	standard
-arm/arm/irq_dispatch.S		standard
 
 arm/mv/bus_space.c		standard
-arm/mv/common.c			standard
 arm/mv/gpio.c			standard
+arm/mv/mv_common.c		standard
 arm/mv/mv_localbus.c		standard
 arm/mv/mv_machdep.c		standard
 arm/mv/mv_pci.c			optional	pci

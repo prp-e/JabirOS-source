@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/protect/protect.c 255708 2013-09-19 18:53:42Z jhb $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/protect/protect.c 255708 2013-09-19 18:53:42Z jhb $");
 
 #include <sys/procctl.h>
 #include <sys/types.h>

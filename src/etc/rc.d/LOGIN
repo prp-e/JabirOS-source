@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: release/10.0.0/etc/rc.d/LOGIN 231549 2012-02-12 07:45:48Z ed $
+# $FreeBSD: stable/10/etc/rc.d/LOGIN 231549 2012-02-12 07:45:48Z ed $
 #
 
 # PROVIDE: LOGIN

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/cesa/cesa.h 250291 2013-05-06 13:34:36Z gber $
+ * $FreeBSD: stable/10/sys/dev/cesa/cesa.h 261455 2014-02-04 03:36:42Z eadler $
  */
 
 #ifndef _DEV_CESA_H_
@@ -297,8 +297,8 @@ struct cesa_chain_info {
 #define CESA_CSH_AES_KLEN_MASK		(3 << 24)
 
 #define CESA_CSHD_FRAG_FIRST		(1 << 30)
-#define CESA_CSHD_FRAG_LAST		(2 << 30)
-#define CESA_CSHD_FRAG_MIDDLE		(3 << 30)
+#define CESA_CSHD_FRAG_LAST		(2U << 30)
+#define CESA_CSHD_FRAG_MIDDLE		(3U << 30)
 
 /* CESA registers definitions */
 #define CESA_ICR			0xDE20

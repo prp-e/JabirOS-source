@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/lib/libiconv_modules/UTF8/citrus_utf8.c 252583 2013-07-03 18:27:45Z peter $ */
+/* $FreeBSD: stable/10/lib/libiconv_modules/UTF8/citrus_utf8.c 260264 2014-01-04 17:27:43Z dim $ */
 /*	$NetBSD: citrus_utf8.c,v 1.17 2008/06/14 16:01:08 tnozaki Exp $	*/
 
 /*-
@@ -156,6 +156,7 @@ _citrus_UTF8_init_state(_UTF8EncodingInfo *ei __unused, _UTF8State *s)
 	s->chlen = 0;
 }
 
+#if 0
 static __inline void
 /*ARGSUSED*/
 _citrus_UTF8_pack_state(_UTF8EncodingInfo *ei __unused, void *pspriv,
@@ -173,6 +174,7 @@ _citrus_UTF8_unpack_state(_UTF8EncodingInfo *ei __unused, _UTF8State *s,
 
 	memcpy((void *)s, pspriv, sizeof(*s));
 }
+#endif
 
 static int
 _citrus_UTF8_mbrtowc_priv(_UTF8EncodingInfo *ei, wchar_t *pwc, const char **s,

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/authpf/Makefile 253138 2013-07-10 07:40:30Z des $
+# $FreeBSD: stable/10/usr.sbin/authpf/Makefile 253138 2013-07-10 07:40:30Z des $
 
 .PATH:	${.CURDIR}/../../contrib/pf/authpf
 

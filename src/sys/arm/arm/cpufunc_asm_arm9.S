@@ -32,7 +32,7 @@
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/arm/cpufunc_asm_arm9.S 248361 2013-03-16 02:48:49Z andrew $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/arm/cpufunc_asm_arm9.S 269796 2014-08-11 01:29:28Z ian $");
 
 /*
  * Functions to set the MMU Translation Table Base register
@@ -197,7 +197,7 @@ ENTRY_NP(arm9_idcache_wbinv_all)
 	mcr	p15, 0, r0, c7, c5, 0	/* Flush I cache */
 	/* Fall through */
 
-ENTRY(arm9_dcache_wbinv_all)
+EENTRY(arm9_dcache_wbinv_all)
 .Larm9_dcache_wbinv_all:
 	ldr	ip, .Larm9_cache_data
 	ldmia	ip, {s_max, i_max, s_inc, i_inc}
@@ -210,8 +210,8 @@ ENTRY(arm9_dcache_wbinv_all)
 	subs	s_max, s_max, s_inc
 	bhs	.Lnext_set_inv		/* Next set */
 	mov	pc, lr
+EEND(arm9_dcache_wbinv_all)
 END(arm9_idcache_wbinv_all)
-END(arm9_dcache_wbinv_all)
 
 .Larm9_cache_data:
 	.word	_C_LABEL(arm9_dcache_sets_max)

@@ -24,7 +24,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/powerpc/include/tlb.h 236141 2012-05-27 10:25:20Z raj $
+ * $FreeBSD: stable/10/sys/powerpc/include/tlb.h 265996 2014-05-14 00:51:26Z ian $
  */
 
 #ifndef	_MACHINE_TLB_H_
@@ -126,6 +126,9 @@
 
 #if !defined(LOCORE)
 typedef struct tlb_entry {
+	vm_paddr_t phys;
+	vm_offset_t virt;
+	vm_size_t size;
 	uint32_t mas1;
 	uint32_t mas2;
 	uint32_t mas3;
@@ -134,7 +137,7 @@ typedef struct tlb_entry {
 void tlb0_print_tlbentries(void);
 
 void tlb1_inval_entry(unsigned int);
-void tlb1_init(vm_offset_t);
+void tlb1_init(void);
 void tlb1_print_entries(void);
 void tlb1_print_tlbentries(void);
 #endif /* !LOCORE */

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/kern/subr_unit.c 255057 2013-08-30 07:37:45Z kib $
+ * $FreeBSD: stable/10/sys/kern/subr_unit.c 255057 2013-08-30 07:37:45Z kib $
  *
  *
  * Unit number allocation functions.

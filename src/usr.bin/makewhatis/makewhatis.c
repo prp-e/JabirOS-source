@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/makewhatis/makewhatis.c 237348 2012-06-20 23:53:36Z delphij $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/makewhatis/makewhatis.c 263104 2014-03-13 04:25:59Z eadler $");
 
 #include <sys/types.h>
 #include <sys/stat.h>

@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netinet/ip_icmp.c 253084 2013-07-09 09:50:15Z ae $");
+__FBSDID("$FreeBSD: stable/10/sys/netinet/ip_icmp.c 264221 2014-04-07 12:50:08Z ae $");
 
 #include "opt_inet.h"
 #include "opt_ipsec.h"
@@ -347,6 +347,7 @@ stdreply:	icmpelen = max(8, min(V_icmp_quotelen, ntohs(oip->ip_len) - oiphlen));
 	nip->ip_hl = 5;
 	nip->ip_p = IPPROTO_ICMP;
 	nip->ip_tos = 0;
+	nip->ip_off = 0;
 	icmp_reflect(m);
 
 freeit:

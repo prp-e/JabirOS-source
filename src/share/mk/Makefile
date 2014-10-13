@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/share/mk/Makefile 245269 2013-01-10 22:44:19Z des $
+# $FreeBSD: stable/10/share/mk/Makefile 269946 2014-08-13 16:11:57Z rpaulo $
 #	@(#)Makefile	8.1 (Berkeley) 6/8/93
 
 .include <bsd.own.mk>
@@ -11,7 +11,6 @@ FILES=	\
 	bsd.crunchgen.mk \
 	bsd.dep.mk \
 	bsd.doc.mk \
-	bsd.dtrace.mk \
 	bsd.endian.mk \
 	bsd.files.mk \
 	bsd.incs.mk \
@@ -43,8 +42,11 @@ FILES=	\
 NO_OBJ=
 FILESDIR=	${BINDIR}/mk
 
-.if ${MK_ATF} != "no"
+.if ${MK_TESTS} != "no"
 FILES+=	atf.test.mk
+FILES+=	plain.test.mk
+FILES+=	suite.test.mk
+FILES+=	tap.test.mk
 .endif
 
 .include <bsd.prog.mk>

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/kerberos5/lib/libhdb/Makefile 236422 2012-06-01 21:26:28Z obrien $
+# $FreeBSD: stable/10/kerberos5/lib/libhdb/Makefile 262254 2014-02-20 20:51:27Z peter $
 
 LIB=	hdb
 LDFLAGS=	-Wl,--no-undefined
@@ -84,6 +84,7 @@ GEN=	asn1_Salt.x \
 CLEANFILES=	${GEN} ${GEN:S/.x$/.c/:S/.hx$/.h/} hdb_asn1_files \
 		hdb_asn1-template.[ch]*
 
+.ORDER: ${GEN}
 ${GEN}: hdb.asn1
 	${ASN1_COMPILE} ${.ALLSRC:M*.asn1} hdb_asn1
 

@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/usr.bin/lex/initparse.h 250881 2013-05-21 19:32:35Z jkim $ */
+/* $FreeBSD: stable/10/usr.bin/lex/initparse.h 250881 2013-05-21 19:32:35Z jkim $ */
 #define CHAR 257
 #define NUMBER 258
 #define SECTEND 259

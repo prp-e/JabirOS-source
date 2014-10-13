@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netinet/libalias/alias_db.c 248158 2013-03-11 12:22:44Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sys/netinet/libalias/alias_db.c 248158 2013-03-11 12:22:44Z glebius $");
 
 /*
     Alias_db.c encapsulates all data structures used for storing

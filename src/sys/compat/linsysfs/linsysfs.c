@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/compat/linsysfs/linsysfs.c 232278 2012-02-29 00:30:18Z mm $");
+__FBSDID("$FreeBSD: stable/10/sys/compat/linsysfs/linsysfs.c 232278 2012-02-29 00:30:18Z mm $");
 
 #include <sys/param.h>
 #include <sys/queue.h>

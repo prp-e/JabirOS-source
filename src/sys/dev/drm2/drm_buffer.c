@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/drm_buffer.c 254794 2013-08-24 16:14:20Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm_buffer.c 254794 2013-08-24 16:14:20Z dumbbell $");
 
 #include <dev/drm2/drm_buffer.h>
 

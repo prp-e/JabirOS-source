@@ -18,7 +18,7 @@
  * WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
  * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
  *
- * $FreeBSD: release/10.0.0/contrib/tcpdump/print-ether.c 251158 2013-05-30 20:51:22Z delphij $
+ * $FreeBSD: stable/10/contrib/tcpdump/print-ether.c 251158 2013-05-30 20:51:22Z delphij $
  */
 #ifndef lint
 static const char rcsid[] _U_ =

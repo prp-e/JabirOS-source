@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/drm/Makefile 230972 2012-02-04 00:54:43Z rmh $
+# $FreeBSD: stable/10/sys/modules/drm/Makefile 230972 2012-02-04 00:54:43Z rmh $
 
 .include <bsd.own.mk>
 

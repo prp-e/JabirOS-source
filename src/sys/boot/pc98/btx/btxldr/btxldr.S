@@ -12,7 +12,7 @@
  * warranties of merchantability and fitness for a particular
  * purpose.
  *
- * $FreeBSD: release/10.0.0/sys/boot/pc98/btx/btxldr/btxldr.S 239064 2012-08-05 14:11:07Z nyan $
+ * $FreeBSD: stable/10/sys/boot/pc98/btx/btxldr/btxldr.S 239064 2012-08-05 14:11:07Z nyan $
  */
 
 #include <bootargs.h>

@@ -42,7 +42,7 @@
 #include <stdio.h>
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/makefs/cd9660/iso9660_rrip.c 253707 2013-07-27 15:28:31Z marius $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/makefs/cd9660/iso9660_rrip.c 264936 2014-04-25 21:20:22Z marius $");
 
 static void cd9660_rrip_initialize_inode(cd9660node *);
 static int cd9660_susp_handle_continuation(cd9660node *);
@@ -634,7 +634,7 @@ cd9660_createSL(cd9660node *node)
 int
 cd9660node_rrip_px(struct ISO_SUSP_ATTRIBUTES *v, fsnode *pxinfo)
 {
-	v->attr.rr_entry.PX.h.length[0] = 36;
+	v->attr.rr_entry.PX.h.length[0] = 44;
 	v->attr.rr_entry.PX.h.version[0] = 1;
 	cd9660_bothendian_dword(pxinfo->inode->st.st_mode,
 	    v->attr.rr_entry.PX.mode);
@@ -644,8 +644,9 @@ cd9660node_rrip_px(struct ISO_SUSP_ATTRIBUTES *v, fsnode *pxinfo)
 	    v->attr.rr_entry.PX.uid);
 	cd9660_bothendian_dword(pxinfo->inode->st.st_gid,
 	    v->attr.rr_entry.PX.gid);
+	cd9660_bothendian_dword(pxinfo->inode->st.st_ino,
+	    v->attr.rr_entry.PX.serial);
 
-	/* Ignoring the serial number for now */
 	return 1;
 }
 

@@ -25,7 +25,7 @@
  *
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/broadcom/bcm2835/bcm2835_fb.c 253006 2013-07-07 21:23:58Z rpaulo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/broadcom/bcm2835/bcm2835_fb.c 266160 2014-05-15 17:30:16Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -53,7 +53,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/broadcom/bcm2835/bcm2835_fb.c 253006 
 #include <machine/cpu.h>
 #include <machine/cpufunc.h>
 #include <machine/resource.h>
-#include <machine/frame.h>
 #include <machine/intr.h>
 
 #include <dev/fdt/fdt_common.h>
@@ -362,7 +361,7 @@ static driver_t bcm_fb_driver = {
 	sizeof(struct bcmsc_softc),
 };
 
-DRIVER_MODULE(bcm2835fb, fdtbus, bcm_fb_driver, bcm_fb_devclass, 0, 0);
+DRIVER_MODULE(bcm2835fb, ofwbus, bcm_fb_driver, bcm_fb_devclass, 0, 0);
 
 /*
  * Video driver routines and glue.

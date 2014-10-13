@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/include/arpa/Makefile 245911 2013-01-25 17:40:10Z brooks $
+# $FreeBSD: stable/10/include/arpa/Makefile 245911 2013-01-25 17:40:10Z brooks $
 
 .include <bsd.own.mk>
 

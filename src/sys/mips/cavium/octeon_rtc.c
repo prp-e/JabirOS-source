@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/mips/cavium/octeon_rtc.c 210311 2010-07-20 19:25:11Z jmallett $
+ * $FreeBSD: stable/10/sys/mips/cavium/octeon_rtc.c 265999 2014-05-14 01:35:43Z ian $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/cavium/octeon_rtc.c 210311 2010-07-20 19:25:11Z jmallett $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/cavium/octeon_rtc.c 265999 2014-05-14 01:35:43Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -81,7 +81,7 @@ octeon_rtc_probe(device_t dev)
 		return (ENXIO);
 
 	device_set_desc(dev, "Cavium Octeon Realtime Clock");
-	return (0);
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 static int

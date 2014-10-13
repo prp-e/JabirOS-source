@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/fs/pseudofs/pseudofs_vnops.c 232541 2012-03-05 11:38:02Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/fs/pseudofs/pseudofs_vnops.c 259506 2013-12-17 13:10:28Z kib $");
 
 #include "opt_pseudofs.h"
 
@@ -616,8 +616,7 @@ pfs_read(struct vop_read_args *va)
 	struct proc *proc;
 	struct sbuf *sb = NULL;
 	int error, locked;
-	off_t offset;
-	ssize_t buflen, resid;
+	off_t buflen;
 
 	PFS_TRACE(("%s", pn->pn_name));
 	pfs_assert_not_owned(pn);
@@ -654,14 +653,12 @@ pfs_read(struct vop_read_args *va)
 		goto ret;
 	}
 
-	/* beaucoup sanity checks so we don't ask for bogus allocation */
-	if (uio->uio_offset < 0 || uio->uio_resid < 0 ||
-	    (offset = uio->uio_offset) != uio->uio_offset ||
-	    (resid = uio->uio_resid) != uio->uio_resid ||
-	    (buflen = offset + resid) < offset || buflen >= INT_MAX) {
+	if (uio->uio_resid < 0 || uio->uio_offset < 0 ||
+	    uio->uio_resid > OFF_MAX - uio->uio_offset) {
 		error = EINVAL;
 		goto ret;
 	}
+	buflen = uio->uio_offset + uio->uio_resid;
 	if (buflen > MAXPHYS)
 		buflen = MAXPHYS;
 

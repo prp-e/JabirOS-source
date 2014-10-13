@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/ipdivert/Makefile 231838 2012-02-16 21:57:50Z uqs $
+# $FreeBSD: stable/10/sys/modules/ipdivert/Makefile 231838 2012-02-16 21:57:50Z uqs $
 
 .include <bsd.own.mk>
 

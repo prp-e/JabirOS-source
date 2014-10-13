@@ -58,7 +58,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netpfil/pf/if_pfsync.c 253769 2013-07-29 13:17:18Z ae $");
+__FBSDID("$FreeBSD: stable/10/sys/netpfil/pf/if_pfsync.c 270328 2014-08-22 13:39:56Z glebius $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"
@@ -400,6 +400,10 @@ static int
 pfsync_state_import(struct pfsync_state *sp, u_int8_t flags)
 {
 	struct pfsync_softc *sc = V_pfsyncif;
+#ifndef	__NO_STRICT_ALIGNMENT
+	struct pfsync_state_key key[2];
+#endif
+	struct pfsync_state_key *kw, *ks;
 	struct pf_state	*st = NULL;
 	struct pf_state_key *skw = NULL, *sks = NULL;
 	struct pf_rule *r = NULL;
@@ -436,7 +440,8 @@ pfsync_state_import(struct pfsync_state *sp, u_int8_t flags)
 	else
 		r = &V_pf_default_rule;
 
-	if ((r->max_states && r->states_cur >= r->max_states))
+	if ((r->max_states &&
+	    counter_u64_fetch(r->states_cur) >= r->max_states))
 		goto cleanup;
 
 	/*
@@ -448,12 +453,19 @@ pfsync_state_import(struct pfsync_state *sp, u_int8_t flags)
 	if ((skw = uma_zalloc(V_pf_state_key_z, M_NOWAIT)) == NULL)
 		goto cleanup;
 
-	if (PF_ANEQ(&sp->key[PF_SK_WIRE].addr[0],
-	    &sp->key[PF_SK_STACK].addr[0], sp->af) ||
-	    PF_ANEQ(&sp->key[PF_SK_WIRE].addr[1],
-	    &sp->key[PF_SK_STACK].addr[1], sp->af) ||
-	    sp->key[PF_SK_WIRE].port[0] != sp->key[PF_SK_STACK].port[0] ||
-	    sp->key[PF_SK_WIRE].port[1] != sp->key[PF_SK_STACK].port[1]) {
+#ifndef	__NO_STRICT_ALIGNMENT
+	bcopy(&sp->key, key, sizeof(struct pfsync_state_key) * 2);
+	kw = &key[PF_SK_WIRE];
+	ks = &key[PF_SK_STACK];
+#else
+	kw = &sp->key[PF_SK_WIRE];
+	ks = &sp->key[PF_SK_STACK];
+#endif
+
+	if (PF_ANEQ(&kw->addr[0], &ks->addr[0], sp->af) ||
+	    PF_ANEQ(&kw->addr[1], &ks->addr[1], sp->af) ||
+	    kw->port[0] != ks->port[0] ||
+	    kw->port[1] != ks->port[1]) {
 		sks = uma_zalloc(V_pf_state_key_z, M_NOWAIT);
 		if (sks == NULL)
 			goto cleanup;
@@ -465,18 +477,18 @@ pfsync_state_import(struct pfsync_state *sp, u_int8_t flags)
 	    pfsync_alloc_scrub_memory(&sp->dst, &st->dst))
 		goto cleanup;
 
-	/* copy to state key(s) */
-	skw->addr[0] = sp->key[PF_SK_WIRE].addr[0];
-	skw->addr[1] = sp->key[PF_SK_WIRE].addr[1];
-	skw->port[0] = sp->key[PF_SK_WIRE].port[0];
-	skw->port[1] = sp->key[PF_SK_WIRE].port[1];
+	/* Copy to state key(s). */
+	skw->addr[0] = kw->addr[0];
+	skw->addr[1] = kw->addr[1];
+	skw->port[0] = kw->port[0];
+	skw->port[1] = kw->port[1];
 	skw->proto = sp->proto;
 	skw->af = sp->af;
 	if (sks != skw) {
-		sks->addr[0] = sp->key[PF_SK_STACK].addr[0];
-		sks->addr[1] = sp->key[PF_SK_STACK].addr[1];
-		sks->port[0] = sp->key[PF_SK_STACK].port[0];
-		sks->port[1] = sp->key[PF_SK_STACK].port[1];
+		sks->addr[0] = ks->addr[0];
+		sks->addr[1] = ks->addr[1];
+		sks->port[0] = ks->port[0];
+		sks->port[1] = ks->port[1];
 		sks->proto = sp->proto;
 		sks->af = sp->af;
 	}
@@ -514,18 +526,15 @@ pfsync_state_import(struct pfsync_state *sp, u_int8_t flags)
 	st->pfsync_time = time_uptime;
 	st->sync_state = PFSYNC_S_NONE;
 
-	/* XXX when we have nat_rule/anchors, use STATE_INC_COUNTERS */
-	r->states_cur++;
-	r->states_tot++;
-
 	if (!(flags & PFSYNC_SI_IOCTL))
 		st->state_flags |= PFSTATE_NOSYNC;
 
-	if ((error = pf_state_insert(kif, skw, sks, st)) != 0) {
-		/* XXX when we have nat_rule/anchors, use STATE_DEC_COUNTERS */
-		r->states_cur--;
+	if ((error = pf_state_insert(kif, skw, sks, st)) != 0)
 		goto cleanup_state;
-	}
+
+	/* XXX when we have nat_rule/anchors, use STATE_INC_COUNTERS */
+	counter_u64_add(r->states_cur, 1);
+	counter_u64_add(r->states_tot, 1);
 
 	if (!(flags & PFSYNC_SI_IOCTL)) {
 		st->state_flags &= ~PFSTATE_NOSYNC;

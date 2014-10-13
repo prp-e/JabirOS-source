@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/mips/sys_machdep.c 232767 2012-03-10 06:31:28Z jmallett $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/mips/sys_machdep.c 232767 2012-03-10 06:31:28Z jmallett $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

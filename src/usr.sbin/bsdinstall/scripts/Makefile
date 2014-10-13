@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/bsdinstall/scripts/Makefile 256361 2013-10-11 23:12:05Z dteske $
+# $FreeBSD: stable/10/usr.sbin/bsdinstall/scripts/Makefile 256361 2013-10-11 23:12:05Z dteske $
 
 SCRIPTS= auto adduser checksum config docsinstall entropy hostname jail \
 	 keymap mirrorselect mount netconfig netconfig_ipv4 netconfig_ipv6 \

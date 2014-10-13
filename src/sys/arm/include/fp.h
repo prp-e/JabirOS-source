@@ -42,7 +42,7 @@
  *
  * Created      : 10/10/95
  *
- * $FreeBSD: release/10.0.0/sys/arm/include/fp.h 254452 2013-08-17 14:53:53Z andrew $
+ * $FreeBSD: stable/10/sys/arm/include/fp.h 266341 2014-05-17 19:37:04Z ian $
  */
 
 #ifndef _MACHINE_FP_H
@@ -69,6 +69,9 @@ typedef struct fp_extended_precision fp_reg_t;
 struct vfp_state {
 	u_int64_t reg[32];
 	u_int32_t fpscr;
+	u_int32_t fpexec;
+	u_int32_t fpinst;
+	u_int32_t fpinst2;
 };
 
 /*

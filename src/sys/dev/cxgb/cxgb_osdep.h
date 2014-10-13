@@ -26,7 +26,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 
 
-$FreeBSD: release/10.0.0/sys/dev/cxgb/cxgb_osdep.h 240680 2012-09-18 22:04:59Z gavin $
+$FreeBSD: stable/10/sys/dev/cxgb/cxgb_osdep.h 271127 2014-09-04 20:12:36Z hselasky $
 
 ***************************************************************************/
 
@@ -90,8 +90,6 @@ struct t3_mbuf_hdr {
   #error "unknown compiler"
 #endif
 #endif
-
-#define __read_mostly __attribute__((__section__(".data.read_mostly")))
 
 /*
  * Workaround for weird Chelsio issue

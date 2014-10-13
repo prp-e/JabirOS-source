@@ -38,7 +38,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/an/if_an_pccard.c 199756 2009-11-24 16:54:54Z jhb $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/an/if_an_pccard.c 265614 2014-05-07 21:38:33Z gavin $");
 
 #include "opt_inet.h"
 
@@ -140,8 +140,6 @@ an_pccard_attach(device_t dev)
 		goto fail;
 
 	an_alloc_irq(dev, sc->irq_rid, 0);
-
-	sc->an_dev = dev;
 
 	error = an_attach(sc, flags);
 	if (error)

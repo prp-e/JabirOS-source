@@ -1,4 +1,4 @@
-#	$FreeBSD: release/10.0.0/tools/regression/net80211/tkip/Makefile 138578 2004-12-08 17:45:53Z sam $
+#	$FreeBSD: stable/10/tools/regression/net80211/tkip/Makefile 138578 2004-12-08 17:45:53Z sam $
 
 .PATH:	${.CURDIR}/../../../../sys/net80211
 

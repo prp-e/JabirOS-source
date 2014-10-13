@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_mib.c 259515 2013-12-17 14:55:23Z nwhitehorn $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_mib.c 269446 2014-08-02 20:58:46Z hselasky $");
 
 #include "opt_compat.h"
 #include "opt_posix.h"
@@ -55,35 +55,35 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_mib.c 259515 2013-12-17 14:55:2
 #include <sys/sx.h>
 #include <sys/unistd.h>
 
-SYSCTL_NODE(, 0,	  sysctl, CTLFLAG_RW, 0,
+SYSCTL_ROOT_NODE(0,	  sysctl, CTLFLAG_RW, 0,
 	"Sysctl internal magic");
-SYSCTL_NODE(, CTL_KERN,	  kern,   CTLFLAG_RW|CTLFLAG_CAPRD, 0,
+SYSCTL_ROOT_NODE(CTL_KERN,	  kern,   CTLFLAG_RW|CTLFLAG_CAPRD, 0,
 	"High kernel, proc, limits &c");
-SYSCTL_NODE(, CTL_VM,	  vm,     CTLFLAG_RW, 0,
+SYSCTL_ROOT_NODE(CTL_VM,	  vm,     CTLFLAG_RW, 0,
 	"Virtual memory");
-SYSCTL_NODE(, CTL_VFS,	  vfs,     CTLFLAG_RW, 0,
+SYSCTL_ROOT_NODE(CTL_VFS,	  vfs,     CTLFLAG_RW, 0,
 	"File system");
-SYSCTL_NODE(, CTL_NET,	  net,    CTLFLAG_RW, 0,
+SYSCTL_ROOT_NODE(CTL_NET,	  net,    CTLFLAG_RW, 0,
 	"Network, (see socket.h)");
-SYSCTL_NODE(, CTL_DEBUG,  debug,  CTLFLAG_RW, 0,
+SYSCTL_ROOT_NODE(CTL_DEBUG,  debug,  CTLFLAG_RW, 0,
 	"Debugging");
 SYSCTL_NODE(_debug, OID_AUTO,  sizeof,  CTLFLAG_RW, 0,
 	"Sizeof various things");
-SYSCTL_NODE(, CTL_HW,	  hw,     CTLFLAG_RW, 0,
+SYSCTL_ROOT_NODE(CTL_HW,	  hw,     CTLFLAG_RW, 0,
 	"hardware");
-SYSCTL_NODE(, CTL_MACHDEP, machdep, CTLFLAG_RW, 0,
+SYSCTL_ROOT_NODE(CTL_MACHDEP, machdep, CTLFLAG_RW, 0,
 	"machine dependent");
-SYSCTL_NODE(, CTL_USER,	  user,   CTLFLAG_RW, 0,
+SYSCTL_ROOT_NODE(CTL_USER,	  user,   CTLFLAG_RW, 0,
 	"user-level");
-SYSCTL_NODE(, CTL_P1003_1B,  p1003_1b,   CTLFLAG_RW, 0,
+SYSCTL_ROOT_NODE(CTL_P1003_1B,  p1003_1b,   CTLFLAG_RW, 0,
 	"p1003_1b, (see p1003_1b.h)");
 
-SYSCTL_NODE(, OID_AUTO,  compat, CTLFLAG_RW, 0,
+SYSCTL_ROOT_NODE(OID_AUTO,  compat, CTLFLAG_RW, 0,
 	"Compatibility code");
-SYSCTL_NODE(, OID_AUTO, security, CTLFLAG_RW, 0, 
+SYSCTL_ROOT_NODE(OID_AUTO, security, CTLFLAG_RW, 0, 
      	"Security");
 #ifdef REGRESSION
-SYSCTL_NODE(, OID_AUTO, regression, CTLFLAG_RW, 0,
+SYSCTL_ROOT_NODE(OID_AUTO, regression, CTLFLAG_RW, 0,
      "Regression test MIB");
 #endif
 

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/tcpdump/tcpdump/Makefile 251160 2013-05-30 21:24:33Z delphij $
+# $FreeBSD: stable/10/usr.sbin/tcpdump/tcpdump/Makefile 263086 2014-03-12 10:45:58Z glebius $
 
 .include <bsd.own.mk>
 
@@ -89,7 +89,6 @@ SRCS=	addrtoname.c \
 	print-olsr.c \
 	print-ospf.c \
 	print-otv.c \
-	print-pfsync.c \
 	print-pgm.c \
 	print-pim.c \
 	print-ppi.c \
@@ -171,7 +170,8 @@ CFLAGS+= -DHAVE_LIBCRYPTO -DHAVE_OPENSSL_EVP_H
 .endif
 
 .if ${MK_PF} != "no"
-SRCS+=	print-pflog.c
+SRCS+=	print-pflog.c \
+	print-pfsync.c
 CFLAGS+= -DHAVE_NET_PFVAR_H
 .endif
 

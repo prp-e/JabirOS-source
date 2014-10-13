@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/arm/dump_machdep.c 236991 2012-06-13 04:59:55Z imp $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/arm/dump_machdep.c 266373 2014-05-17 22:50:16Z ian $");
 
 #include "opt_watchdog.h"
 
@@ -174,8 +174,14 @@ cb_dumpdata(struct md_pa *mdp, int seqnr, void *arg)
 	printf("  chunk %d: %dMB (%d pages)", seqnr, pgs * PAGE_SIZE / (
 	    1024*1024), pgs);
 
-	/* Make sure we write coherent datas. */
+	/*
+	 * Make sure we write coherent data.  Note that in the SMP case this
+	 * only operates on the L1 cache of the current CPU, but all other CPUs
+	 * have already been stopped, and their flush/invalidate was done as
+	 * part of stopping.
+	 */
 	cpu_idcache_wbinv_all();
+	cpu_l2cache_wbinv_all();
 #ifdef __XSCALE__
 	xscale_cache_clean_minidata();
 #endif

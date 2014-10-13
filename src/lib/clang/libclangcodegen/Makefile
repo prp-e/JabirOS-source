@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/libclangcodegen/Makefile 249423 2013-04-12 17:57:40Z dim $
+# $FreeBSD: stable/10/lib/clang/libclangcodegen/Makefile 263508 2014-03-21 17:53:59Z dim $
 
 .include <bsd.own.mk>
 
@@ -36,6 +36,7 @@ SRCS=	BackendUtil.cpp \
 	CGStmt.cpp \
 	CGVTT.cpp \
 	CGVTables.cpp \
+	CodeGenABITypes.cpp \
 	CodeGenAction.cpp \
 	CodeGenFunction.cpp \
 	CodeGenModule.cpp \
@@ -43,6 +44,7 @@ SRCS=	BackendUtil.cpp \
 	CodeGenTypes.cpp \
 	ItaniumCXXABI.cpp \
 	MicrosoftCXXABI.cpp \
+	MicrosoftVBTables.cpp \
 	ModuleBuilder.cpp \
 	TargetInfo.cpp
 
@@ -53,6 +55,7 @@ TGHDRS=	AttrList \
 	DeclNodes \
 	DiagnosticCommonKinds \
 	DiagnosticFrontendKinds \
+	DiagnosticSemaKinds \
 	Intrinsics \
 	StmtNodes \
 	arm_neon

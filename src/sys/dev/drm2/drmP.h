@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/drmP.h 258706 2013-11-28 09:30:05Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drmP.h 262861 2014-03-06 18:30:56Z jhb $");
 
 #ifndef _DRM_P_H_
 #define _DRM_P_H_
@@ -113,6 +113,7 @@ struct drm_device;
 
 #include "opt_compat.h"
 #include "opt_drm.h"
+#include "opt_syscons.h"
 #ifdef DRM_DEBUG
 #undef DRM_DEBUG
 #define DRM_DEBUG_DEFAULT_ON 1

@@ -26,7 +26,7 @@
  * Bridge MIB implementation for SNMPd.
  * Bridge ports.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/bsnmpd/modules/snmp_bridge/bridge_port.c 228990 2011-12-30 10:58:14Z uqs $
+ * $FreeBSD: stable/10/usr.sbin/bsnmpd/modules/snmp_bridge/bridge_port.c 228990 2011-12-30 10:58:14Z uqs $
  */
 
 #include <sys/queue.h>

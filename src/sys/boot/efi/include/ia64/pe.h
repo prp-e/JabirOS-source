@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/boot/efi/include/ia64/pe.h 163898 2006-11-02 02:42:48Z marcel $ */
+/* $FreeBSD: stable/10/sys/boot/efi/include/ia64/pe.h 163898 2006-11-02 02:42:48Z marcel $ */
 /* 
     PE32+ header file
  */

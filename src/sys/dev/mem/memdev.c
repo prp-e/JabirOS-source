@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/mem/memdev.c 252841 2013-07-05 21:31:16Z jamie $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/mem/memdev.c 252841 2013-07-05 21:31:16Z jamie $");
 
 #include <sys/param.h>
 #include <sys/conf.h>

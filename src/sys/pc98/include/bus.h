@@ -28,7 +28,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/pc98/include/bus.h 242866 2012-11-10 13:24:33Z nyan $
+ * $FreeBSD: stable/10/sys/pc98/include/bus.h 242866 2012-11-10 13:24:33Z nyan $
  */
 
 /*	$NecBSD: busio.h,v 3.25.4.2.2.1 2000/06/12 03:53:08 honda Exp $	*/

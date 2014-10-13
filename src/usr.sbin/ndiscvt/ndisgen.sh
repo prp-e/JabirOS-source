@@ -30,7 +30,7 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
 # THE POSSIBILITY OF SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/usr.sbin/ndiscvt/ndisgen.sh 178213 2008-04-15 04:17:13Z thompsa $
+# $FreeBSD: stable/10/usr.sbin/ndiscvt/ndisgen.sh 261021 2014-01-22 10:35:30Z glebius $
 #
 
 header () {
@@ -493,7 +493,7 @@ convert_driver () {
 	return
 }
 
-ICONVPATH=/usr/local/bin/iconv
+ICONVPATH=/usr/bin/iconv
 NDISCVT=/usr/sbin/ndiscvt
 STUBPATH=/usr/share/misc
 STUBFILE=windrv_stub.c

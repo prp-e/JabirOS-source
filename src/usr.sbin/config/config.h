@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)config.h	8.1 (Berkeley) 6/6/93
- * $FreeBSD: release/10.0.0/usr.sbin/config/config.h 235789 2012-05-22 16:33:10Z bapt $
+ * $FreeBSD: stable/10/usr.sbin/config/config.h 264325 2014-04-10 19:51:33Z asomers $
  */
 
 /*
@@ -143,6 +143,13 @@ struct hint {
 };
 
 STAILQ_HEAD(hint_head, hint) hints;
+
+struct includepath {
+	char	*path;
+	SLIST_ENTRY(includepath) path_next;
+};
+
+SLIST_HEAD(, includepath) includepath;
 
 /*
  * Tag present in the kernelconf.tmlp template file. It's mandatory for those

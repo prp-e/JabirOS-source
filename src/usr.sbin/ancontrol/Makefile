@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/ancontrol/Makefile 132901 2004-07-30 21:43:21Z njl $
+# $FreeBSD: stable/10/usr.sbin/ancontrol/Makefile 132901 2004-07-30 21:43:21Z njl $
 
 PROG=	ancontrol
 MAN=	ancontrol.8

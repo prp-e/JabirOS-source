@@ -34,7 +34,7 @@
 #if 0
 __FBSDID("FreeBSD: src/lib/libc/string/strxfrm.c,v 1.15 2002/09/06 11:24:06 tjr Exp ");
 #endif
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/string/wcsxfrm.c 227753 2011-11-20 14:45:42Z theraven $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/string/wcsxfrm.c 227753 2011-11-20 14:45:42Z theraven $");
 
 #include <stdlib.h>
 #include <string.h>

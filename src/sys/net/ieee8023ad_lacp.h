@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/net/ieee8023ad_lacp.h 253687 2013-07-26 19:41:13Z adrian $
+ * $FreeBSD: stable/10/sys/net/ieee8023ad_lacp.h 253687 2013-07-26 19:41:13Z adrian $
  */
 
 /*

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/sys/dtrace_bsd.h 238366 2012-07-11 16:27:02Z gnn $
+ * $FreeBSD: stable/10/sys/sys/dtrace_bsd.h 269752 2014-08-09 14:05:01Z markj $
  *
  * This file contains BSD shims for Sun's DTrace code.
  */
@@ -61,17 +61,17 @@ int	dtrace_trap(struct trapframe *, u_int);
 
 extern dtrace_trap_func_t	dtrace_trap_func;
 
-/* Used by the machine dependent trap() code. */
+/*
+ * A hook which removes active FBT probes before executing the double fault
+ * handler. We want to ensure that DTrace doesn't trigger another trap, which
+ * would result in a reset.
+ */
 typedef	int (*dtrace_invop_func_t)(uintptr_t, uintptr_t *, uintptr_t);
 typedef void (*dtrace_doubletrap_func_t)(void);
-
-/* Global variables in trap.c */
 extern	dtrace_invop_func_t	dtrace_invop_func;
 extern	dtrace_doubletrap_func_t	dtrace_doubletrap_func;
 
 /* Pid provider hooks */
-typedef int (*dtrace_fasttrap_probe_ptr_t)(struct reg *);
-extern	dtrace_fasttrap_probe_ptr_t	dtrace_fasttrap_probe_ptr;
 typedef int (*dtrace_pid_probe_ptr_t)(struct reg *);
 extern	dtrace_pid_probe_ptr_t	dtrace_pid_probe_ptr;
 typedef int (*dtrace_return_probe_ptr_t)(struct reg *);

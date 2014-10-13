@@ -1,4 +1,6 @@
-# $FreeBSD: release/10.0.0/lib/libmp/Makefile 201381 2010-01-02 09:58:07Z ed $
+# $FreeBSD: stable/10/lib/libmp/Makefile 270285 2014-08-21 17:32:38Z ngie $
+
+.include <bsd.own.mk>
 
 LIB=		mp
 SHLIB_MAJOR=	7
@@ -12,5 +14,9 @@ CFLAGS+=	-I${.CURDIR}/../../crypto
 
 VERSION_DEF=	${.CURDIR}/../libc/Versions.def
 SYMBOL_MAPS=	${.CURDIR}/Symbol.map
+
+.if ${MK_TESTS} != "no"
+SUBDIR+=	tests
+.endif
 
 .include <bsd.lib.mk>

@@ -28,7 +28,7 @@
  * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/libthr/thread/thr_syscalls.c 250154 2013-05-01 20:10:21Z jilles $
+ * $FreeBSD: stable/10/lib/libthr/thread/thr_syscalls.c 250154 2013-05-01 20:10:21Z jilles $
  */
 
 /*

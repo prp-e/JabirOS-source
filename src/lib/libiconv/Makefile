@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libiconv/Makefile 222772 2011-06-06 20:24:17Z ed $
+# $FreeBSD: stable/10/lib/libiconv/Makefile 260497 2014-01-09 23:08:56Z dim $
 
 .PATH: ${.CURDIR}/../libc/iconv
 
@@ -19,6 +19,7 @@ SRCS=	citrus_bcs.c citrus_bcs_strtol.c citrus_bcs_strtoul.c \
 	citrus_module.c citrus_none.c citrus_pivot_factory.c \
 	citrus_prop.c citrus_stdenc.c iconv.c
 
-CFLAGS+= --param max-inline-insns-single=128 -I ${.CURDIR}/../../include -I${.CURDIR}/../libc/include
+CFLAGS.gcc+= --param max-inline-insns-single=128
+CFLAGS+= -I ${.CURDIR}/../../include -I${.CURDIR}/../libc/include
 
 .include <bsd.lib.mk>

@@ -7,7 +7,7 @@
 **
 *******************************************************************/
 
-/* $FreeBSD: release/10.0.0/sys/boot/ficl/arm/sysdep.c 161454 2006-08-18 21:41:43Z imp $ */
+/* $FreeBSD: stable/10/sys/boot/ficl/arm/sysdep.c 161454 2006-08-18 21:41:43Z imp $ */
 
 #ifdef TESTMAIN
 #include <stdio.h>

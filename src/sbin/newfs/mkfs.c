@@ -42,7 +42,7 @@ static char sccsid[] = "@(#)mkfs.c	8.11 (Berkeley) 5/3/95";
 #endif /* not lint */
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/newfs/mkfs.c 248623 2013-03-22 21:45:28Z mckusick $");
+__FBSDID("$FreeBSD: stable/10/sbin/newfs/mkfs.c 261963 2014-02-16 10:16:07Z brueffer $");
 
 #include <sys/param.h>
 #include <sys/disklabel.h>
@@ -546,7 +546,7 @@ restart:
 	 * Now build the cylinders group blocks and
 	 * then print out indices of cylinder groups.
 	 */
-	printf("super-block backups (for fsck -b #) at:\n");
+	printf("super-block backups (for fsck_ffs -b #) at:\n");
 	i = 0;
 	width = charsperline();
 	/*

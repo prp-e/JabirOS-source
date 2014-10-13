@@ -28,7 +28,7 @@
 # SUCH DAMAGE.
 #
 
-# $FreeBSD: release/10.0.0/sys/boot/pc98/cdboot/cdboot.S 239069 2012-08-05 14:48:55Z nyan $
+# $FreeBSD: stable/10/sys/boot/pc98/cdboot/cdboot.S 239069 2012-08-05 14:48:55Z nyan $
 
 #
 # Basically, we first create a set of boot arguments to pass to the loaded

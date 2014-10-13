@@ -28,7 +28,7 @@
  * POSSIBILITY OF SUCH DAMAGES.
  *
  * $Id: //depot/users/kenm/FreeBSD-test2/sys/cam/ctl/ctl_error.h#1 $
- * $FreeBSD: release/10.0.0/sys/cam/ctl/ctl_error.h 230334 2012-01-19 18:42:03Z ken $
+ * $FreeBSD: stable/10/sys/cam/ctl/ctl_error.h 268697 2014-07-15 17:18:50Z mav $
  */
 /*
  * Function definitions for various error reporting routines used both
@@ -80,6 +80,7 @@ void ctl_set_data_phase_error(struct ctl_scsiio *ctsio);
 void ctl_set_reservation_conflict(struct ctl_scsiio *ctsio);
 void ctl_set_queue_full(struct ctl_scsiio *ctsio);
 void ctl_set_busy(struct ctl_scsiio *ctsio);
+void ctl_set_task_aborted(struct ctl_scsiio *ctsio);
 void ctl_set_success(struct ctl_scsiio *ctsio);
 
 #endif	/* _CTL_ERROR_H_ */

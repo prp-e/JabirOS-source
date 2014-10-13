@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/svn/Makefile.inc 252003 2013-06-19 19:44:57Z truckman $
+# $FreeBSD: stable/10/usr.bin/svn/Makefile.inc 252003 2013-06-19 19:44:57Z truckman $
 
 .include <bsd.own.mk>
 

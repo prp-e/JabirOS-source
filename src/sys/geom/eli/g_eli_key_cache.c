@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/geom/eli/g_eli_key_cache.c 239184 2012-08-10 18:43:29Z pjd $");
+__FBSDID("$FreeBSD: stable/10/sys/geom/eli/g_eli_key_cache.c 239184 2012-08-10 18:43:29Z pjd $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

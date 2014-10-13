@@ -30,7 +30,7 @@
  *      Jesse Barnes <jesse.barnes@intel.com>
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/drm_crtc.c 258062 2013-11-12 19:10:28Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm_crtc.c 258062 2013-11-12 19:10:28Z dumbbell $");
 
 #include <dev/drm2/drm.h>
 #include <dev/drm2/drmP.h>

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_et.c 248230 2013-03-13 06:42:01Z mav $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_et.c 266347 2014-05-17 20:10:12Z ian $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>
@@ -33,6 +33,8 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_et.c 248230 2013-03-13 06:42:01
 #include <sys/systm.h>
 #include <sys/queue.h>
 #include <sys/timeet.h>
+
+#include "opt_timer.h"
 
 SLIST_HEAD(et_eventtimers_list, eventtimer);
 static struct et_eventtimers_list eventtimers = SLIST_HEAD_INITIALIZER(et_eventtimers);
@@ -110,6 +112,20 @@ et_deregister(struct eventtimer *et)
 	ET_UNLOCK();
 	sysctl_remove_oid(et->et_sysctl, 1, 1);
 	return (0);
+}
+
+/*
+ * Change the frequency of the given timer.  If it is the active timer,
+ * reconfigure it on all CPUs (reschedules all current events based on the new
+ * timer frequency).
+ */
+void
+et_change_frequency(struct eventtimer *et, uint64_t newfreq)
+{
+
+#ifndef NO_EVENTTIMERS
+	cpu_et_frequency(et, newfreq);
+#endif
 }
 
 /*

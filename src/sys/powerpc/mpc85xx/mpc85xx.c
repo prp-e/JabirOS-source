@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/mpc85xx/mpc85xx.c 235934 2012-05-24 21:07:10Z marcel $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/mpc85xx/mpc85xx.c 265996 2014-05-14 00:51:26Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -40,6 +40,8 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/mpc85xx/mpc85xx.c 235934 2012-05-
 #include <machine/cpufunc.h>
 #include <machine/pio.h>
 #include <machine/spr.h>
+
+#include <dev/fdt/fdt_common.h>
 
 #include <powerpc/mpc85xx/mpc85xx.h>
 

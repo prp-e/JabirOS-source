@@ -23,9 +23,10 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/pw/pw.h 242349 2012-10-30 08:00:53Z bapt $
+ * $FreeBSD: stable/10/usr.sbin/pw/pw.h 268346 2014-07-06 23:24:06Z bapt $
  */
 
+#define _WITH_GETLINE
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

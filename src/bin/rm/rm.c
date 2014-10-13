@@ -39,7 +39,7 @@ static char sccsid[] = "@(#)rm.c	8.5 (Berkeley) 4/18/94";
 #endif /* not lint */
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/bin/rm/rm.c 249950 2013-04-26 17:56:35Z eadler $");
+__FBSDID("$FreeBSD: stable/10/bin/rm/rm.c 249950 2013-04-26 17:56:35Z eadler $");
 
 #include <sys/stat.h>
 #include <sys/param.h>

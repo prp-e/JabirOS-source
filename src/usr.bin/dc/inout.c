@@ -1,4 +1,4 @@
-/*	$OpenBSD: inout.c,v 1.15 2009/10/27 23:59:37 deraadt Exp $	*/
+/*	$OpenBSD: inout.c,v 1.17 2012/11/07 11:06:14 otto Exp $	*/
 
 /*
  * Copyright (c) 2003, Otto Moerbeek <otto@drijf.net>
@@ -17,7 +17,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/dc/inout.c 244861 2012-12-30 15:20:27Z kevlo $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/dc/inout.c 265533 2014-05-07 08:06:54Z delphij $");
 
 #include <openssl/ssl.h>
 #include <ctype.h>

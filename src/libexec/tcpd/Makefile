@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/libexec/tcpd/Makefile 201380 2010-01-02 09:50:19Z ed $
+# $FreeBSD: stable/10/libexec/tcpd/Makefile 201380 2010-01-02 09:50:19Z ed $
 
 .include <bsd.own.mk>
 

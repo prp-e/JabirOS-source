@@ -25,7 +25,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-/* $FreeBSD: release/10.0.0/usr.sbin/bluetooth/btpand/client.c 241699 2012-10-18 16:34:00Z emax $ */
+/* $FreeBSD: stable/10/usr.sbin/bluetooth/btpand/client.c 241699 2012-10-18 16:34:00Z emax $ */
 
 #include <sys/cdefs.h>
 __RCSID("$NetBSD: client.c,v 1.2 2008/12/06 20:01:14 plunky Exp $");

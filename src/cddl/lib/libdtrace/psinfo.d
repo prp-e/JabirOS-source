@@ -21,7 +21,7 @@
  *
  * Portions Copyright 2006 John Birrell jb@freebsd.org
  *
- * $FreeBSD: release/10.0.0/cddl/lib/libdtrace/psinfo.d 239972 2012-09-01 08:14:21Z rpaulo $
+ * $FreeBSD: stable/10/cddl/lib/libdtrace/psinfo.d 269520 2014-08-04 15:36:22Z markj $
  */
 /*
  * Copyright 2004 Sun Microsystems, Inc.  All rights reserved.
@@ -57,7 +57,8 @@ translator psinfo_t < struct proc *T > {
 	pr_gid = T->p_ucred->cr_rgid;
 	pr_egid = T->p_ucred->cr_groups[0];
 	pr_addr = 0;
-	pr_psargs = stringof(T->p_args->ar_args);
+	pr_psargs = (T->p_args->ar_args == 0) ? "" :
+	    memstr(T->p_args->ar_args, ' ', T->p_args->ar_length);
 	pr_arglen = T->p_args->ar_length;
 	pr_jailid = T->p_ucred->cr_prison->pr_id;
 };

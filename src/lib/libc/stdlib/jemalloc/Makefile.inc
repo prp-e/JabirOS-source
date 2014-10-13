@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libc/stdlib/jemalloc/Makefile.inc 234370 2012-04-17 07:22:14Z jasone $
+# $FreeBSD: stable/10/lib/libc/stdlib/jemalloc/Makefile.inc 234370 2012-04-17 07:22:14Z jasone $
 
 .PATH: ${.CURDIR}/stdlib/jemalloc
 

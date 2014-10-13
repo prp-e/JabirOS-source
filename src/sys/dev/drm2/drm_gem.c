@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/drm_gem.c 254880 2013-08-25 15:38:16Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm_gem.c 254880 2013-08-25 15:38:16Z dumbbell $");
 
 #include "opt_vm.h"
 

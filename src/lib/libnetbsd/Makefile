@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libnetbsd/Makefile 244557 2012-12-21 20:37:38Z brooks $
+# $FreeBSD: stable/10/lib/libnetbsd/Makefile 244557 2012-12-21 20:37:38Z brooks $
 
 .include <bsd.own.mk>
 

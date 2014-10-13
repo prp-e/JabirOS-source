@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/ed/if_ed_3c503.c 154924 2006-01-27 19:10:13Z imp $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/ed/if_ed_3c503.c 264942 2014-04-25 21:32:34Z marius $");
 
 #include "opt_ed.h"
 
@@ -216,7 +216,11 @@ ed_probe_3Com(device_t dev, int port_rid, int flags)
 	/*
 	 * select page 0 registers
 	 */
-	ed_nic_outb(sc, ED_P0_CR, ED_CR_RD2 | ED_CR_STP);
+	ed_nic_barrier(sc, ED_P0_CR, 1,
+	    BUS_SPACE_BARRIER_READ | BUS_SPACE_BARRIER_WRITE);
+	ed_nic_outb(sc, ED_P0_CR, ED_CR_PAGE_0 | ED_CR_RD2 | ED_CR_STP);
+	ed_nic_barrier(sc, ED_P0_CR, 1,
+	    BUS_SPACE_BARRIER_READ | BUS_SPACE_BARRIER_WRITE);
 
 	/*
 	 * Attempt to clear WTS bit. If it doesn't clear, then this is a 16bit
@@ -227,7 +231,11 @@ ed_probe_3Com(device_t dev, int port_rid, int flags)
 	/*
 	 * select page 2 registers
 	 */
+	ed_nic_barrier(sc, ED_P0_CR, 1,
+	    BUS_SPACE_BARRIER_READ | BUS_SPACE_BARRIER_WRITE);
 	ed_nic_outb(sc, ED_P0_CR, ED_CR_PAGE_2 | ED_CR_RD2 | ED_CR_STP);
+	ed_nic_barrier(sc, ED_P0_CR, 1,
+	    BUS_SPACE_BARRIER_READ | BUS_SPACE_BARRIER_WRITE);
 
 	/*
 	 * The 3c503 forces the WTS bit to a one if this is a 16bit board

@@ -21,7 +21,7 @@
  *	netatalk@itd.umich.edu
  */
 
-/* $FreeBSD: release/10.0.0/sys/netatalk/ddp_output.c 243882 2012-12-05 08:04:20Z glebius $ */
+/* $FreeBSD: stable/10/sys/netatalk/ddp_output.c 263478 2014-03-21 15:15:30Z glebius $ */
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -221,7 +221,7 @@ ddp_route(struct mbuf *m, struct route *ro)
 		elh->el_type = ELAP_DDPEXTEND;
 		elh->el_dnode = gate.sat_addr.s_node;
 	}
-	ro->ro_rt->rt_use++;
+	counter_u64_add(ro->ro_rt->rt_pksent, 1);
 
 #ifdef NETATALK_DEBUG
 	printf ("ddp_route: from %d.%d to %d.%d, via %d.%d (%s)\n",

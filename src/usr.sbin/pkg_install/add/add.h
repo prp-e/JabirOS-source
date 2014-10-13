@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/usr.sbin/pkg_install/add/add.h 240476 2012-09-14 00:19:06Z jkim $ */
+/* $FreeBSD: stable/10/usr.sbin/pkg_install/add/add.h 240476 2012-09-14 00:19:06Z jkim $ */
 
 /*
  * FreeBSD install - a package for the installation and maintenance

@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/fs/nfsclient/nfsnode.h 244042 2012-12-08 22:52:39Z rmacklem $
+ * $FreeBSD: stable/10/sys/fs/nfsclient/nfsnode.h 260107 2013-12-30 21:17:20Z rmacklem $
  */
 
 #ifndef _NFSCLIENT_NFSNODE_H_
@@ -157,6 +157,7 @@ struct nfsnode {
 #define	NLOCKWANT	0x00010000  /* Want the sleep lock */
 #define	NNOLAYOUT	0x00020000  /* Can't get a layout for this file */
 #define	NWRITEOPENED	0x00040000  /* Has been opened for writing */
+#define	NHASBEENLOCKED	0x00080000  /* Has been file locked. */
 
 /*
  * Convert between nfsnode pointers and vnode pointers

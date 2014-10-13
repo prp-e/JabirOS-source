@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/sound/pcm/mixer.h 246454 2013-02-07 08:20:03Z hselasky $
+ * $FreeBSD: stable/10/sys/dev/sound/pcm/mixer.h 246454 2013-02-07 08:20:03Z hselasky $
  */
 
 #ifndef _PCM_MIXER_H_

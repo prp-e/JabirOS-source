@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libbsnmp/libbsnmp/Makefile 244931 2013-01-01 18:29:25Z antoine $
+# $FreeBSD: stable/10/lib/libbsnmp/libbsnmp/Makefile 244931 2013-01-01 18:29:25Z antoine $
 #
 # Author: Harti Brandt <harti@freebsd.org>
 

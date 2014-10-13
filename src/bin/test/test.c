@@ -15,7 +15,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/bin/test/test.c 251208 2013-05-31 22:54:20Z jilles $");
+__FBSDID("$FreeBSD: stable/10/bin/test/test.c 251208 2013-05-31 22:54:20Z jilles $");
 
 #include <sys/types.h>
 #include <sys/stat.h>

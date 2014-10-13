@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_mbuf.c 256274 2013-10-10 16:11:34Z jhb $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_mbuf.c 256274 2013-10-10 16:11:34Z jhb $");
 
 #include "opt_param.h"
 

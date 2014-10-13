@@ -38,7 +38,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/an/if_an.c 243857 2012-12-04 09:32:43Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/an/if_an.c 265614 2014-05-07 21:38:33Z gavin $");
 
 /*
  * The Aironet 4500/4800 series cards come in PCMCIA, ISA and PCI form.
@@ -357,6 +357,7 @@ an_probe(device_t dev)
 	CSR_WRITE_2(sc, AN_INT_EN(sc->mpi350), 0);
 	CSR_WRITE_2(sc, AN_EVENT_ACK(sc->mpi350), 0xFFFF);
 
+	sc->an_dev = dev;
 	mtx_init(&sc->an_mtx, device_get_nameunit(dev), MTX_NETWORK_LOCK,
 	    MTX_DEF);
 	AN_LOCK(sc);
@@ -685,6 +686,9 @@ an_attach(struct an_softc *sc, int flags)
 		device_printf(sc->an_dev, "can not if_alloc()\n");
 		goto fail;
 	}
+	ifp->if_softc = sc;
+	if_initname(ifp, device_get_name(sc->an_dev),
+	    device_get_unit(sc->an_dev));
 
 	sc->an_gone = 0;
 	sc->an_associated = 0;
@@ -758,9 +762,6 @@ an_attach(struct an_softc *sc, int flags)
 #endif
 	AN_UNLOCK(sc);
 
-	ifp->if_softc = sc;
-	if_initname(ifp, device_get_name(sc->an_dev),
-	    device_get_unit(sc->an_dev));
 	ifp->if_flags = IFF_BROADCAST | IFF_SIMPLEX | IFF_MULTICAST;
 	ifp->if_ioctl = an_ioctl;
 	ifp->if_start = an_start;
@@ -1387,7 +1388,7 @@ an_reset(struct an_softc *sc)
 	an_cmd(sc, AN_CMD_NOOP2, 0);
 
 	if (an_cmd(sc, AN_CMD_FORCE_SYNCLOSS, 0) == ETIMEDOUT)
-		if_printf(sc->an_ifp, "reset failed\n");
+		device_printf(sc->an_dev, "reset failed\n");
 
 	an_cmd(sc, AN_CMD_DISABLE, 0);
 

@@ -18,7 +18,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: release/10.0.0/cddl/lib/libdtrace/tcp.d 255993 2013-10-02 17:14:12Z markj $
+ * $FreeBSD: stable/10/cddl/lib/libdtrace/tcp.d 255993 2013-10-02 17:14:12Z markj $
  */
 /*
  * Copyright (c) 2010, Oracle and/or its affiliates. All rights reserved.

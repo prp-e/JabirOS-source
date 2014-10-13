@@ -25,7 +25,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/usr.sbin/bsdinstall/scripts/config 259652 2013-12-20 15:46:24Z dteske $
+# $FreeBSD: stable/10/usr.sbin/bsdinstall/scripts/config 259621 2013-12-19 18:52:41Z dteske $
 #
 ############################################################ MAIN
 

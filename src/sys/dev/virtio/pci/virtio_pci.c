@@ -27,7 +27,7 @@
 /* Driver for the VirtIO PCI interface. */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/virtio/pci/virtio_pci.c 255110 2013-09-01 04:20:23Z bryanv $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/virtio/pci/virtio_pci.c 268010 2014-06-29 00:37:59Z bryanv $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -168,6 +168,9 @@ static void	vtpci_vq_intr(void *);
 static void	vtpci_config_intr(void *);
 
 #define vtpci_setup_msi_interrupt vtpci_setup_legacy_interrupt
+
+#define VIRTIO_PCI_CONFIG(_sc) \
+    VIRTIO_PCI_CONFIG_OFF((((_sc)->vtpci_flags & VTPCI_FLAG_MSIX)) != 0)
 
 /*
  * I/O port read/write wrappers.

@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF 
  * SUCH DAMAGE. 
  *
- * $FreeBSD: release/10.0.0/lib/librtld_db/rtld_db.h 210678 2010-07-31 14:26:10Z rpaulo $
+ * $FreeBSD: stable/10/lib/librtld_db/rtld_db.h 269720 2014-08-08 14:53:01Z markj $
  */ 
 
 #ifndef _RTLD_DB_H_
@@ -51,7 +51,9 @@ typedef enum {
 
 typedef struct rd_agent {
 	struct proc_handle *rda_php;
-	uintptr_t rda_addr;		/* address of r_debug_state */
+	uintptr_t rda_dlactivity_addr;
+	uintptr_t rda_preinit_addr;
+	uintptr_t rda_postinit_addr;
 } rd_agent_t;
 
 typedef struct rd_loadobj {

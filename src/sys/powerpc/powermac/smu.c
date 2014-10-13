@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/powermac/smu.c 250290 2013-05-05 22:42:10Z nwhitehorn $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/powermac/smu.c 266160 2014-05-15 17:30:16Z ian $");
 
 #include <sys/param.h>
 #include <sys/bus.h>
@@ -210,7 +210,7 @@ static driver_t smu_driver = {
 
 static devclass_t smu_devclass;
 
-DRIVER_MODULE(smu, nexus, smu_driver, smu_devclass, 0, 0);
+DRIVER_MODULE(smu, ofwbus, smu_driver, smu_devclass, 0, 0);
 static MALLOC_DEFINE(M_SMU, "smu", "SMU Sensor Information");
 
 #define SMU_MAILBOX		0x8000860c

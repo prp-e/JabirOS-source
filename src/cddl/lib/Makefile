@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/cddl/lib/Makefile 248571 2013-03-21 08:38:03Z mm $
+# $FreeBSD: stable/10/cddl/lib/Makefile 265037 2014-04-28 04:20:14Z jmmv $
 
 .include <bsd.own.mk>
 
@@ -11,7 +11,12 @@ SUBDIR=	${_drti} \
 	libuutil \
 	${_libzfs_core} \
 	${_libzfs} \
-	${_libzpool}
+	${_libzpool} \
+	${_tests}
+
+.if ${MK_TESTS} != "no"
+_tests=		tests
+.endif
 
 .if ${MK_ZFS} != "no"
 _libzfs_core=	libzfs_core

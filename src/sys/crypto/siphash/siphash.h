@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/crypto/siphash/siphash.h 253208 2013-07-11 14:18:38Z andre $
+ * $FreeBSD: stable/10/sys/crypto/siphash/siphash.h 253208 2013-07-11 14:18:38Z andre $
  */
 
 /*

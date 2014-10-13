@@ -11,7 +11,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/msun/src/s_asinh.c 251599 2013-06-10 06:04:58Z das $");
+__FBSDID("$FreeBSD: stable/10/lib/msun/src/s_asinh.c 251599 2013-06-10 06:04:58Z das $");
 
 /* asinh(x)
  * Method :

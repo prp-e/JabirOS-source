@@ -52,7 +52,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/hyperv/stordisengage/hv_ata_pci_disengage.c 256758 2013-10-18 23:19:27Z gibbs $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/hyperv/stordisengage/hv_ata_pci_disengage.c 256758 2013-10-18 23:19:27Z gibbs $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

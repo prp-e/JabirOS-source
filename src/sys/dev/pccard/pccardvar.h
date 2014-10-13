@@ -1,5 +1,5 @@
 /*	$NetBSD: pcmciavar.h,v 1.12 2000/02/08 12:51:31 enami Exp $	*/
-/* $FreeBSD: release/10.0.0/sys/dev/pccard/pccardvar.h 228471 2011-12-13 14:06:01Z ed $ */
+/* $FreeBSD: stable/10/sys/dev/pccard/pccardvar.h 228471 2011-12-13 14:06:01Z ed $ */
 
 /*-
  * Copyright (c) 1997 Marc Horowitz.  All rights reserved.

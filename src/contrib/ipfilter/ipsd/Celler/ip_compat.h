@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/contrib/ipfilter/ipsd/Celler/ip_compat.h 145519 2005-04-25 18:20:15Z darrenr $	*/
+/*	$FreeBSD: stable/10/contrib/ipfilter/ipsd/Celler/ip_compat.h 145519 2005-04-25 18:20:15Z darrenr $	*/
 
 /*
  * (C)opyright 1995 by Darren Reed.

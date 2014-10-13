@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/subr_taskqueue.c 254787 2013-08-24 14:41:49Z mav $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/subr_taskqueue.c 262065 2014-02-17 15:32:08Z avg $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -285,6 +285,15 @@ taskqueue_enqueue_timeout(struct taskqueue *queue,
 	return (res);
 }
 
+static void
+taskqueue_drain_running(struct taskqueue *queue)
+{
+
+	while (!TAILQ_EMPTY(&queue->tq_active))
+		TQ_SLEEP(queue, &queue->tq_active, &queue->tq_mutex,
+		    PWAIT, "-", 0);
+}
+
 void
 taskqueue_block(struct taskqueue *queue)
 {
@@ -337,6 +346,8 @@ taskqueue_run_locked(struct taskqueue *queue)
 		wakeup(task);
 	}
 	TAILQ_REMOVE(&queue->tq_active, &tb, tb_link);
+	if (TAILQ_EMPTY(&queue->tq_active))
+		wakeup(&queue->tq_active);
 }
 
 void
@@ -377,11 +388,9 @@ taskqueue_cancel_locked(struct taskqueue *queue, struct task *task,
 int
 taskqueue_cancel(struct taskqueue *queue, struct task *task, u_int *pendp)
 {
-	u_int pending;
 	int error;
 
 	TQ_LOCK(queue);
-	pending = task->ta_pending;
 	error = taskqueue_cancel_locked(queue, task, pendp);
 	TQ_UNLOCK(queue);
 
@@ -419,6 +428,25 @@ taskqueue_drain(struct taskqueue *queue, struct task *task)
 	TQ_LOCK(queue);
 	while (task->ta_pending != 0 || task_is_running(queue, task))
 		TQ_SLEEP(queue, task, &queue->tq_mutex, PWAIT, "-", 0);
+	TQ_UNLOCK(queue);
+}
+
+void
+taskqueue_drain_all(struct taskqueue *queue)
+{
+	struct task *task;
+
+	if (!queue->tq_spin)
+		WITNESS_WARN(WARN_GIANTOK | WARN_SLEEPOK, NULL, __func__);
+
+	TQ_LOCK(queue);
+	task = STAILQ_LAST(&queue->tq_queue, task, ta_link);
+	if (task != NULL)
+		while (task->ta_pending != 0)
+			TQ_SLEEP(queue, task, &queue->tq_mutex, PWAIT, "-", 0);
+	taskqueue_drain_running(queue);
+	KASSERT(STAILQ_EMPTY(&queue->tq_queue),
+	    ("taskqueue queue is not empty after draining"));
 	TQ_UNLOCK(queue);
 }
 

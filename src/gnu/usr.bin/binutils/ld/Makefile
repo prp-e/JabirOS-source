@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/gnu/usr.bin/binutils/ld/Makefile 257662 2013-11-04 23:36:49Z brooks $
+# $FreeBSD: stable/10/gnu/usr.bin/binutils/ld/Makefile 257662 2013-11-04 23:36:49Z brooks $
 
 .include "../Makefile.inc0"
 .include <bsd.own.mk>

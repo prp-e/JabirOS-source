@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/libkern/arm/ldivmod_helper.c 245548 2013-01-17 09:37:42Z andrew $");
+__FBSDID("$FreeBSD: stable/10/sys/libkern/arm/ldivmod_helper.c 245548 2013-01-17 09:37:42Z andrew $");
 
 #ifdef __ARM_EABI__
 #include <libkern/quad.h>

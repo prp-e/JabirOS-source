@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/fs/msdosfs/msdosfsmount.h 246921 2013-02-17 20:35:54Z kib $ */
+/* $FreeBSD: stable/10/sys/fs/msdosfs/msdosfsmount.h 246921 2013-02-17 20:35:54Z kib $ */
 /*	$NetBSD: msdosfsmount.h,v 1.17 1997/11/17 15:37:07 ws Exp $	*/
 
 /*-

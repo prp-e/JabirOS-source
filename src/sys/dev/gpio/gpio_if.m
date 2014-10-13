@@ -23,13 +23,39 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/sys/dev/gpio/gpio_if.m 213237 2010-09-28 03:24:53Z gonzo $
+# $FreeBSD: stable/10/sys/dev/gpio/gpio_if.m 266135 2014-05-15 15:15:23Z loos $
 #
 
 #include <sys/bus.h>
 #include <sys/gpio.h>
 
 INTERFACE gpio;
+
+CODE {
+	static gpio_map_gpios_t gpio_default_map_gpios;
+
+	int
+	gpio_default_map_gpios(device_t bus, phandle_t dev,
+	    phandle_t gparent, int gcells, pcell_t *gpios, uint32_t *pin,
+	    uint32_t *flags)
+	{
+		/* Propagate up the bus hierarchy until someone handles it. */  
+		if (device_get_parent(bus) != NULL)
+			return (GPIO_MAP_GPIOS(device_get_parent(bus), dev,
+			    gparent, gcells, gpios, pin, flags));
+
+		/* If that fails, then assume the FreeBSD defaults. */
+		*pin = gpios[0];
+		if (gcells == 2 || gcells == 3)
+			*flags = gpios[gcells - 1];
+
+		return (0);
+	}
+};
+
+HEADER {
+	#include <dev/ofw/openfirm.h>
+};
 
 #
 # Get total number of pins
@@ -100,3 +126,16 @@ METHOD int pin_setflags {
 	uint32_t pin_num;
 	uint32_t flags;
 };
+
+#
+# Allow the GPIO controller to map the gpio-specifier on its own.
+#
+METHOD int map_gpios {
+        device_t bus;
+        phandle_t dev;
+        phandle_t gparent;
+        int gcells;
+        pcell_t *gpios;
+        uint32_t *pin;
+        uint32_t *flags;
+} DEFAULT gpio_default_map_gpios;

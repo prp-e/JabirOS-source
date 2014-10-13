@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libarchive/test/Makefile 248616 2013-03-22 13:36:03Z mm $
+# $FreeBSD: stable/10/lib/libarchive/test/Makefile 248616 2013-03-22 13:36:03Z mm $
 
 LIBARCHIVEDIR=	${.CURDIR}/../../../contrib/libarchive
 

@@ -31,7 +31,7 @@
  */
 /* Crude resource management */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/cxgbe/iw_cxgbe/resource.c 256694 2013-10-17 18:37:25Z np $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/cxgbe/iw_cxgbe/resource.c 256694 2013-10-17 18:37:25Z np $");
 
 #include "opt_inet.h"
 

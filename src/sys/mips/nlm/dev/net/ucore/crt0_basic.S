@@ -25,7 +25,7 @@
  * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
  * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/mips/nlm/dev/net/ucore/crt0_basic.S 233545 2012-03-27 14:05:12Z jchandra $
+ * $FreeBSD: stable/10/sys/mips/nlm/dev/net/ucore/crt0_basic.S 233545 2012-03-27 14:05:12Z jchandra $
  */
 
 #include <machine/asm.h>

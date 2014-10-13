@@ -28,7 +28,7 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
  * IN THE SOFTWARE.
  *
- * $FreeBSD: release/10.0.0/sys/xen/xen_intr.h 255331 2013-09-06 22:17:02Z gibbs $
+ * $FreeBSD: stable/10/sys/xen/xen_intr.h 255331 2013-09-06 22:17:02Z gibbs $
  */
 #ifndef _XEN_INTR_H_
 #define _XEN_INTR_H_

@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/mips/pm_machdep.c 232896 2012-03-12 21:25:32Z jmallett $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/mips/pm_machdep.c 232896 2012-03-12 21:25:32Z jmallett $");
 
 #include "opt_compat.h"
 

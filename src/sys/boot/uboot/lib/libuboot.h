@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/boot/uboot/lib/libuboot.h 240272 2012-09-09 11:30:45Z ae $
+ * $FreeBSD: stable/10/sys/boot/uboot/lib/libuboot.h 265071 2014-04-29 00:45:42Z ian $
  */
 
 struct uboot_devdesc
@@ -32,9 +32,9 @@ struct uboot_devdesc
 	struct devsw	*d_dev;
 	int		d_type;
 	int		d_unit;
+	void		*d_opendata;
 	union {
 		struct {
-			void	*data;
 			int	slice;
 			int	partition;
 			off_t	offset;
@@ -69,3 +69,11 @@ struct file_format;
 extern struct file_format uboot_elf;
 
 void reboot(void);
+
+int uboot_diskgetunit(int type, int type_unit);
+
+#if defined(LOADER_FDT_SUPPORT)
+extern int fdt_setup_fdtp();
+extern int fdt_copy(vm_offset_t);
+#endif
+

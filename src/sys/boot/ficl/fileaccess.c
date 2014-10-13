@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/boot/ficl/fileaccess.c 231042 2012-02-05 20:00:39Z rpaulo $ */
+/* $FreeBSD: stable/10/sys/boot/ficl/fileaccess.c 231042 2012-02-05 20:00:39Z rpaulo $ */
 
 #include <errno.h>
 #include <stdlib.h>

@@ -38,7 +38,7 @@
  *
  *	from: hp300: @(#)pmap.h	7.2 (Berkeley) 12/16/90
  *	from: @(#)pmap.h	7.4 (Berkeley) 5/12/91
- * $FreeBSD: release/10.0.0/sys/i386/include/pmap.h 255040 2013-08-29 19:52:18Z gibbs $
+ * $FreeBSD: stable/10/sys/i386/include/pmap.h 267964 2014-06-27 17:22:18Z jhb $
  */
 
 #ifndef _MACHINE_PMAP_H_
@@ -420,8 +420,8 @@ struct pv_chunk {
 
 #ifdef	_KERNEL
 
-extern caddr_t	CADDR1;
-extern pt_entry_t *CMAP1;
+extern caddr_t	CADDR3;
+extern pt_entry_t *CMAP3;
 extern vm_paddr_t phys_avail[];
 extern vm_paddr_t dump_avail[];
 extern int pseflag;

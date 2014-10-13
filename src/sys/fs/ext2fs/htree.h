@@ -24,22 +24,22 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/fs/ext2fs/htree.h 252890 2013-07-06 18:28:06Z pfg $
+ * $FreeBSD: stable/10/sys/fs/ext2fs/htree.h 262723 2014-03-04 03:10:31Z pfg $
  */
 
 #ifndef _FS_EXT2FS_HTREE_H_
-#define _FS_EXT2FS_HTREE_H_
+#define	_FS_EXT2FS_HTREE_H_
 
 /* EXT3 HTree directory indexing */
 
-#define EXT2_HTREE_LEGACY		0
-#define EXT2_HTREE_HALF_MD4		1
-#define EXT2_HTREE_TEA			2
-#define EXT2_HTREE_LEGACY_UNSIGNED	3
-#define EXT2_HTREE_HALF_MD4_UNSIGNED	4
-#define EXT2_HTREE_TEA_UNSIGNED		5
+#define	EXT2_HTREE_LEGACY		0
+#define	EXT2_HTREE_HALF_MD4		1
+#define	EXT2_HTREE_TEA			2
+#define	EXT2_HTREE_LEGACY_UNSIGNED	3
+#define	EXT2_HTREE_HALF_MD4_UNSIGNED	4
+#define	EXT2_HTREE_TEA_UNSIGNED		5
 
-#define EXT2_HTREE_EOF 0x7FFFFFFF
+#define	EXT2_HTREE_EOF 0x7FFFFFFF
 
 struct ext2fs_fake_direct {
 	uint32_t e2d_ino;	/* inode number of entry */

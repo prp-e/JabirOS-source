@@ -38,7 +38,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/net/ether_addr.c 254700 2013-08-23 13:59:47Z jilles $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/net/ether_addr.c 264592 2014-04-17 11:49:19Z jmmv $");
 
 #include <sys/types.h>
 #include <sys/param.h>
@@ -72,11 +72,13 @@ ether_line(const char *l, struct ether_addr *e, char *hostname)
 
 	i = sscanf(l, "%x:%x:%x:%x:%x:%x %s", &o[0], &o[1], &o[2], &o[3],
 	    &o[4], &o[5], hostname);
-	if (i != 7)
-		return (i);
-	for (i=0; i<6; i++)
-		e->octet[i] = o[i];
-	return (0);
+	if (i == 7) {
+		for (i = 0; i < 6; i++)
+			e->octet[i] = o[i];
+		return (0);
+	} else {
+		return (-1);
+	}
 }
 
 /*

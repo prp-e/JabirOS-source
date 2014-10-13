@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/msun/i387/fenv.c 226594 2011-10-21 06:25:31Z das $
+ * $FreeBSD: stable/10/lib/msun/i387/fenv.c 226594 2011-10-21 06:25:31Z das $
  */
 
 #include <sys/cdefs.h>

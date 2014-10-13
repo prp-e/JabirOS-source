@@ -25,7 +25,7 @@
  */
 
 /*
- * $FreeBSD: release/10.0.0/sys/netpfil/ipfw/ip_dn_glue.c 243882 2012-12-05 08:04:20Z glebius $
+ * $FreeBSD: stable/10/sys/netpfil/ipfw/ip_dn_glue.c 243882 2012-12-05 08:04:20Z glebius $
  *
  * Binary compatibility support for /sbin/ipfw RELENG_7 and RELENG_8
  */

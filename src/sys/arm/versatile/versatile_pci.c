@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/versatile/versatile_pci.c 256292 2013-10-10 19:48:43Z dim $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/versatile/versatile_pci.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -37,7 +37,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/versatile/versatile_pci.c 256292 2013
 #include <sys/watchdog.h>
 #include <machine/bus.h>
 #include <machine/cpu.h>
-#include <machine/frame.h>
 #include <machine/intr.h>
 
 #include <dev/pci/pcivar.h>
@@ -144,6 +143,9 @@ static struct resource_spec versatile_pci_mem_spec[] = {
 static int
 versatile_pci_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (ofw_bus_is_compatible(dev, "versatile,pci")) {
 		device_set_desc(dev, "Versatile PCI controller");

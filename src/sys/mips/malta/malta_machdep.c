@@ -23,10 +23,10 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/mips/malta/malta_machdep.c 255088 2013-08-31 01:24:05Z gonzo $
+ * $FreeBSD: stable/10/sys/mips/malta/malta_machdep.c 255088 2013-08-31 01:24:05Z gonzo $
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/malta/malta_machdep.c 255088 2013-08-31 01:24:05Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/malta/malta_machdep.c 255088 2013-08-31 01:24:05Z gonzo $");
 
 #include "opt_ddb.h"
 

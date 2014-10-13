@@ -1,8 +1,7 @@
-# $FreeBSD: release/10.0.0/sys/arm/xscale/i8134x/files.i81342 177943 2008-04-05 21:51:11Z cognet $
+# $FreeBSD: stable/10/sys/arm/xscale/i8134x/files.i81342 266311 2014-05-17 13:53:38Z ian $
 arm/arm/bus_space_generic.c		standard
 arm/arm/cpufunc_asm_xscale.S		standard
 arm/arm/cpufunc_asm_xscale_c3.S		standard
-arm/arm/irq_dispatch.S			standard
 arm/xscale/i80321/i80321_timer.c	standard
 arm/xscale/i80321/i80321_wdog.c		optional	iopwdog
 arm/xscale/i8134x/i81342.c		standard

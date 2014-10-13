@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/jme/if_jme.c 254803 2013-08-24 19:38:36Z andre $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/jme/if_jme.c 254803 2013-08-24 19:38:36Z andre $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

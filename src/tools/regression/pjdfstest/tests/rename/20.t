@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/tools/regression/pjdfstest/tests/rename/20.t 211186 2010-08-11 17:34:58Z pjd $
+# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/rename/20.t 211186 2010-08-11 17:34:58Z pjd $
 
 desc="rename returns EEXIST or ENOTEMPTY if the 'to' argument is a directory and is not empty"
 

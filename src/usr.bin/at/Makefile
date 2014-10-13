@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/at/Makefile 226420 2011-10-16 07:57:01Z ed $
+# $FreeBSD: stable/10/usr.bin/at/Makefile 226420 2011-10-16 07:57:01Z ed $
 
 .include "${.CURDIR}/Makefile.inc"
 

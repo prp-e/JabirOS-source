@@ -38,7 +38,7 @@ static const char copyright[] =
 static char sccsid[] = "@(#)timedc.c	8.1 (Berkeley) 6/6/93";
 #endif
 static const char rcsid[] =
-  "$FreeBSD: release/10.0.0/usr.sbin/timed/timedc/timedc.c 246209 2013-02-01 14:26:54Z charnier $";
+  "$FreeBSD: stable/10/usr.sbin/timed/timedc/timedc.c 246209 2013-02-01 14:26:54Z charnier $";
 #endif /* not lint */
 
 #include "timedc.h"

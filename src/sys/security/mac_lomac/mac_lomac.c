@@ -35,7 +35,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/security/mac_lomac/mac_lomac.c 231378 2012-02-10 12:35:57Z ed $
+ * $FreeBSD: stable/10/sys/security/mac_lomac/mac_lomac.c 231378 2012-02-10 12:35:57Z ed $
  */
 
 /*

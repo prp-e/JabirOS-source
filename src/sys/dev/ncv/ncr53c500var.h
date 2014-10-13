@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/dev/ncv/ncr53c500var.h 240325 2012-09-10 18:49:49Z jhb $	*/
+/*	$FreeBSD: stable/10/sys/dev/ncv/ncr53c500var.h 240325 2012-09-10 18:49:49Z jhb $	*/
 /*	$NecBSD: ncr53c500var.h,v 1.11.18.1 2001/06/08 06:27:45 honda Exp $	*/
 /*	$NetBSD$	*/
 

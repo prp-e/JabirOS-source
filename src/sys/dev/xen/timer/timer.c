@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/xen/timer/timer.c 256073 2013-10-05 23:11:01Z gibbs $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/xen/timer/timer.c 265999 2014-05-14 01:35:43Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -142,7 +142,7 @@ xentimer_probe(device_t dev)
 	           "VCPUOPs interface unavailable\n");
 #undef XTREQUIRES
 	device_set_desc(dev, "Xen PV Clock");
-	return (0);
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 /*

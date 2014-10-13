@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/contrib/ipfilter/netinet/ip_fil_freebsd.c 259128 2013-12-09 13:44:07Z gjb $	*/
+/*	$FreeBSD: stable/10/sys/contrib/ipfilter/netinet/ip_fil_freebsd.c 267868 2014-06-25 13:33:31Z cy $	*/
 
 /*
  * Copyright (C) 2012 by Darren Reed.
@@ -787,7 +787,7 @@ ipf_fastroute(m0, mpp, fin, fdp)
 		dst->sin_addr = fdp->fd_ip;
 
 	dst->sin_len = sizeof(*dst);
-	in_rtalloc(ro, 0);
+	in_rtalloc(ro, M_GETFIB(m0));
 
 	if ((ifp == NULL) && (ro->ro_rt != NULL))
 		ifp = ro->ro_rt->rt_ifp;
@@ -802,7 +802,7 @@ ipf_fastroute(m0, mpp, fin, fdp)
 	if (ro->ro_rt->rt_flags & RTF_GATEWAY)
 		dst = (struct sockaddr_in *)ro->ro_rt->rt_gateway;
 	if (ro->ro_rt)
-		ro->ro_rt->rt_use++;
+		counter_u64_add(ro->ro_rt->rt_pksent, 1);
 
 	/*
 	 * For input packets which are being "fastrouted", they won't

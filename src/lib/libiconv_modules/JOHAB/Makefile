@@ -1,7 +1,7 @@
-# $FreeBSD: release/10.0.0/lib/libiconv_modules/JOHAB/Makefile 219019 2011-02-25 00:04:39Z gabor $
+# $FreeBSD: stable/10/lib/libiconv_modules/JOHAB/Makefile 260497 2014-01-09 23:08:56Z dim $
 
 SHLIB=	JOHAB
 SRCS+=	citrus_johab.c
-CFLAGS+= --param max-inline-insns-single=16
+CFLAGS.gcc+= --param max-inline-insns-single=16
 
 .include <bsd.lib.mk>

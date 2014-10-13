@@ -29,7 +29,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  *	$NetBSD: cpu.h,v 1.11 2000/05/26 21:19:53 thorpej Exp $
- * $FreeBSD: release/10.0.0/sys/powerpc/include/cpu.h 253750 2013-07-28 18:44:17Z avg $
+ * $FreeBSD: stable/10/sys/powerpc/include/cpu.h 262675 2014-03-02 02:35:46Z jhibbits $
  */
 
 #ifndef _MACHINE_CPU_H_
@@ -95,6 +95,8 @@ extern char etext[];
 
 void	cpu_halt(void);
 void	cpu_reset(void);
+void	cpu_sleep(void);
+void	flush_disable_caches(void);
 void	fork_trampoline(void);
 void	swi_vm(void *);
 

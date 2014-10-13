@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/powerpc/wii/wii_gpioreg.h 250788 2013-05-18 19:30:42Z rpaulo $
+ * $FreeBSD: stable/10/sys/powerpc/wii/wii_gpioreg.h 250788 2013-05-18 19:30:42Z rpaulo $
  */
 
 #ifndef	_POWERPC_WII_WII_GPIOREG_H

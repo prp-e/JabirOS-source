@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/libthr/thread/thr_umtx.c 233134 2012-03-19 00:07:10Z davidxu $
+ * $FreeBSD: stable/10/lib/libthr/thread/thr_umtx.c 233134 2012-03-19 00:07:10Z davidxu $
  *
  */
 

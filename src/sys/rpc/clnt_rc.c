@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/rpc/clnt_rc.c 248255 2013-03-13 21:06:03Z jhb $");
+__FBSDID("$FreeBSD: stable/10/sys/rpc/clnt_rc.c 248255 2013-03-13 21:06:03Z jhb $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

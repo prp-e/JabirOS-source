@@ -1,10 +1,12 @@
 #	@(#)Makefile	8.8 (Berkeley) 6/21/2000
 #
 # $TSHeader: src/sbin/growfs/Makefile,v 1.4 2000/12/05 19:45:24 tomsoft Exp $
-# $FreeBSD: release/10.0.0/sbin/growfs/Makefile 234846 2012-04-30 16:08:02Z trasz $
+# $FreeBSD: stable/10/sbin/growfs/Makefile 264996 2014-04-27 01:15:10Z jmmv $
 #
 
 #GFSDBG=
+
+.include <bsd.own.mk>
 
 .PATH:	${.CURDIR}/../mount
 
@@ -19,5 +21,9 @@ SRCS+=  debug.c
 
 DPADD=	${LIBUTIL}
 LDADD=	-lutil
+
+.if ${MK_TESTS} != "no"
+SUBDIR+=    tests
+.endif
 
 .include <bsd.prog.mk>      

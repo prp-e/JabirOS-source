@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/sound/driver/hdspe/Makefile 232337 2012-03-01 13:10:18Z mav $
+# $FreeBSD: stable/10/sys/modules/sound/driver/hdspe/Makefile 232337 2012-03-01 13:10:18Z mav $
 
 .PATH: ${.CURDIR}/../../../../dev/sound/pci
 

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/broadcom/bcm2835/bcm2835_vcbus.h 247204 2013-02-23 22:46:26Z gonzo $
+ * $FreeBSD: stable/10/sys/arm/broadcom/bcm2835/bcm2835_vcbus.h 247204 2013-02-23 22:46:26Z gonzo $
  */
 
 /*

@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/gnu/usr.bin/gdb/kgdb/kgdb.h 246893 2013-02-17 02:15:19Z marcel $
+ * $FreeBSD: stable/10/gnu/usr.bin/gdb/kgdb/kgdb.h 246893 2013-02-17 02:15:19Z marcel $
  */
 
 #ifndef _KGDB_H_

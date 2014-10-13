@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/conf/options.i386 254624 2013-08-21 22:43:29Z obrien $
+# $FreeBSD: stable/10/sys/conf/options.i386 266272 2014-05-16 21:56:33Z sbruno $
 # Options specific to the i386 platform kernels
 
 AUTO_EOI_1		opt_auto_eoi.h
@@ -26,6 +26,7 @@ IBCS2			opt_dontuse.h
 COMPAT_LINUX		opt_dontuse.h
 COMPAT_SVR4		opt_dontuse.h
 DEBUG_SVR4		opt_svr4.h
+IMAGACT_BINMISC		opt_binmisc.h
 LINPROCFS		opt_dontuse.h
 LINSYSFS		opt_dontuse.h
 NDISAPI			opt_dontuse.h

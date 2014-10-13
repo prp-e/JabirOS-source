@@ -1,8 +1,10 @@
 #	$OpenBSD: Makefile,v 1.10 2002/04/26 13:13:41 espie Exp $
-# $FreeBSD: release/10.0.0/usr.bin/m4/Makefile 249657 2013-04-19 19:45:00Z ed $
+# $FreeBSD: stable/10/usr.bin/m4/Makefile 264996 2014-04-27 01:15:10Z jmmv $
 
 # -DEXTENDED 
 # 	if you want the paste & spaste macros.
+
+.include <bsd.own.mk>
 
 PROG=	m4
 CFLAGS+=-DEXTENDED -I${.CURDIR} -I${.CURDIR}/lib
@@ -21,5 +23,9 @@ SRCS+=	ohash_create_entry.c ohash_delete.c ohash_do.c ohash_entries.c \
 tokenizer.o: parser.h
 
 CLEANFILES+=	parser.c parser.h tokenizer.o
+
+.if ${MK_TESTS} != "no"
+SUBDIR+= tests
+.endif
 
 .include <bsd.prog.mk>

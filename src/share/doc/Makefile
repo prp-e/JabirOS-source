@@ -1,5 +1,5 @@
 #	From: @(#)Makefile	8.1 (Berkeley) 6/5/93
-# $FreeBSD: release/10.0.0/share/doc/Makefile 255949 2013-09-30 17:23:45Z des $
+# $FreeBSD: stable/10/share/doc/Makefile 260013 2013-12-28 20:05:31Z jmmv $
 
 .include <bsd.own.mk>
 
@@ -9,7 +9,7 @@ SUBDIR=	${_IPv6} \
 	${_llvm} \
 	${_roffdocs}
 
-.if ${MK_ATF} != "no"
+.if ${MK_TESTS} != "no"
 _atf= atf
 .endif
 

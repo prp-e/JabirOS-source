@@ -1,8 +1,4 @@
-# $FreeBSD: release/10.0.0/tools/regression/lib/libc/string/Makefile 189140 2009-02-28 06:34:04Z das $
-
-CFLAGS+=	-I/usr/local/include 
-LDFLAGS+=	-L/usr/local/lib
-LDLIBS=		-ltap
+# $FreeBSD: stable/10/tools/regression/lib/libc/string/Makefile 264457 2014-04-14 13:30:08Z jmmv $
 
 TESTS=	test-stpncpy test-strerror test-wcscasecmp test-wcsnlen
 

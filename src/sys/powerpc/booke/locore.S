@@ -23,7 +23,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/powerpc/booke/locore.S 242526 2012-11-03 22:02:12Z marcel $
+ * $FreeBSD: stable/10/sys/powerpc/booke/locore.S 266001 2014-05-14 03:09:37Z ian $
  */
 
 #include "assym.s"
@@ -158,7 +158,7 @@ __start:
 	mtspr	SPR_MAS0, %r3
 	isync
 
-	li	%r3, (TLB_SIZE_16M << MAS1_TSIZE_SHIFT)@l
+	li	%r3, (TLB_SIZE_64M << MAS1_TSIZE_SHIFT)@l
 	oris	%r3, %r3, (MAS1_VALID | MAS1_IPROT)@h
 	mtspr	SPR_MAS1, %r3		/* note TS was not filled, so it's TS=0 */
 	isync
@@ -738,8 +738,7 @@ ENTRY(icache_enable)
 setfault:
 	mflr	%r0
 	mfsprg0	%r4
-	lwz	%r4, PC_CURTHREAD(%r4)
-	lwz	%r4, TD_PCB(%r4)
+	lwz	%r4, TD_PCB(%r2)
 	stw	%r3, PCB_ONFAULT(%r4)
 	mfcr	%r10
 	mfctr	%r11

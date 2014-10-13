@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/xen/balloon/balloon.c 258997 2013-12-05 18:09:48Z royger $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/xen/balloon/balloon.c 258997 2013-12-05 18:09:48Z royger $");
 
 #include <sys/param.h>
 #include <sys/lock.h>

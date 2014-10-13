@@ -48,7 +48,7 @@ static char sccsid[] = "@(#)pr.c	8.2 (Berkeley) 4/16/94";
 #endif
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/pr/pr.c 228992 2011-12-30 11:02:40Z uqs $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/pr/pr.c 228992 2011-12-30 11:02:40Z uqs $");
 
 #include <sys/types.h>
 #include <sys/time.h>

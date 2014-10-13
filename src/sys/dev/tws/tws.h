@@ -31,7 +31,7 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/tws/tws.h 250936 2013-05-23 16:37:43Z kib $
+ * $FreeBSD: stable/10/sys/dev/tws/tws.h 263125 2014-03-14 00:57:32Z delphij $
  */
 
 #include <sys/param.h>        /* defines used in kernel.h */
@@ -248,7 +248,6 @@ struct tws_softc {
     struct mtx io_lock;                   /* IO  lock */
     struct tws_ioctl_lock ioctl_lock;     /* ioctl lock */ 
     u_int32_t seq_id;                     /* Sequence id */
-    void *chan;                           /* IOCTL req wait channel */
     struct tws_circular_q aen_q;          /* aen q */
     struct tws_circular_q trace_q;        /* trace q */
     struct tws_stats stats;               /* I/O stats */

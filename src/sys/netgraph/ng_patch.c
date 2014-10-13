@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netgraph/ng_patch.c 234574 2012-04-22 17:00:52Z melifaro $");
+__FBSDID("$FreeBSD: stable/10/sys/netgraph/ng_patch.c 234574 2012-04-22 17:00:52Z melifaro $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

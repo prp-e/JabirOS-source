@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/netgraph/atm/atm/Makefile 193744 2009-06-08 19:57:35Z bz $
+# $FreeBSD: stable/10/sys/modules/netgraph/atm/atm/Makefile 193744 2009-06-08 19:57:35Z bz $
 #
 # Author: Harti Brandt <harti@freebsd.org>
 #

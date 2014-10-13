@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/boot/common/bootstrap.h 247250 2013-02-25 01:50:04Z kientzle $
+ * $FreeBSD: stable/10/sys/boot/common/bootstrap.h 265068 2014-04-29 00:31:32Z ian $
  */
 
 #ifndef _BOOTSTRAP_H_
@@ -233,6 +233,7 @@ int			mod_loadkld(const char *name, int argc, char *argv[]);
 struct preloaded_file *file_alloc(void);
 struct preloaded_file *file_findfile(char *name, char *type);
 struct file_metadata *file_findmetadata(struct preloaded_file *fp, int type);
+struct preloaded_file *file_loadraw(char *name, char *type);
 void file_discard(struct preloaded_file *fp);
 void file_addmetadata(struct preloaded_file *fp, int type, size_t size, void *p);
 int  file_addmodule(struct preloaded_file *fp, char *modname, int version,

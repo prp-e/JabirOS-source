@@ -46,7 +46,7 @@
 .L_min_memcpy_size:
 	.word	_C_LABEL(_min_memcpy_size)
 
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/arm/bcopyinout.S 248361 2013-03-16 02:48:49Z andrew $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/arm/bcopyinout.S 266159 2014-05-15 16:59:47Z ian $");
 #ifdef _ARM_ARCH_5E
 #include <arm/arm/bcopyinout_xscale.S>
 #else
@@ -57,7 +57,7 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/arm/bcopyinout.S 248361 2013-03-16 02
 #ifdef _ARM_ARCH_6
 #define GET_PCB(tmp) \
 	mrc p15, 0, tmp, c13, c0, 4; \
-	add	tmp, tmp, #(PC_CURPCB)
+	add	tmp, tmp, #(TD_PCB)
 #else
 .Lcurpcb:
 	.word	_C_LABEL(__pcpu) + PC_CURPCB

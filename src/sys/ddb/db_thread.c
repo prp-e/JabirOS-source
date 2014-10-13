@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/ddb/db_thread.c 228568 2011-12-16 11:42:50Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/ddb/db_thread.c 228568 2011-12-16 11:42:50Z kib $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

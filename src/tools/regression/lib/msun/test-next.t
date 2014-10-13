@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/tools/regression/lib/msun/test-next.t 143231 2005-03-07 05:03:46Z das $
+# $FreeBSD: stable/10/tools/regression/lib/msun/test-next.t 143231 2005-03-07 05:03:46Z das $
 
 cd `dirname $0`
 

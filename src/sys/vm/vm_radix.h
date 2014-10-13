@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/vm/vm_radix.h 254719 2013-08-23 17:27:12Z alc $
+ * $FreeBSD: stable/10/sys/vm/vm_radix.h 266591 2014-05-23 17:47:49Z alc $
  */
 
 #ifndef _VM_RADIX_H_
@@ -43,8 +43,7 @@ vm_page_t	vm_radix_lookup_ge(struct vm_radix *rtree, vm_pindex_t index);
 vm_page_t	vm_radix_lookup_le(struct vm_radix *rtree, vm_pindex_t index);
 void		vm_radix_reclaim_allnodes(struct vm_radix *rtree);
 void		vm_radix_remove(struct vm_radix *rtree, vm_pindex_t index);
-vm_page_t	vm_radix_replace(struct vm_radix *rtree, vm_page_t newpage,
-		    vm_pindex_t index);
+vm_page_t	vm_radix_replace(struct vm_radix *rtree, vm_page_t newpage);
 
 #endif /* _KERNEL */
 #endif /* !_VM_RADIX_H_ */

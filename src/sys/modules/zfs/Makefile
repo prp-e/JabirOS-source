@@ -1,8 +1,14 @@
-# $FreeBSD: release/10.0.0/sys/modules/zfs/Makefile 253996 2013-08-06 15:51:56Z avg $
+# $FreeBSD: stable/10/sys/modules/zfs/Makefile 262058 2014-02-17 14:47:52Z avg $
 
 KMOD=	zfs
 
 SRCS=	bus_if.h device_if.h vnode_if.h
+
+.if !defined(KERNBUILDDIR)
+SRCS+=	opt_kdtrace.h
+opt_kdtrace.h:
+	echo "" > ${.TARGET}
+.endif
 
 SUNW=	${.CURDIR}/../../cddl/contrib/opensolaris
 

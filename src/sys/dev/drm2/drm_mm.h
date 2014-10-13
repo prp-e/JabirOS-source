@@ -27,7 +27,7 @@
  **************************************************************************/
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/drm_mm.h 247833 2013-03-05 09:07:58Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm_mm.h 247833 2013-03-05 09:07:58Z kib $");
 
 /*
  * Authors:

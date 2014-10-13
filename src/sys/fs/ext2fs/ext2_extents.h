@@ -23,18 +23,18 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/fs/ext2fs/ext2_extents.h 254260 2013-08-12 21:34:48Z pfg $
+ * $FreeBSD: stable/10/sys/fs/ext2fs/ext2_extents.h 262723 2014-03-04 03:10:31Z pfg $
  */
 #ifndef _FS_EXT2FS_EXT2_EXTENTS_H_
-#define _FS_EXT2FS_EXT2_EXTENTS_H_
+#define	_FS_EXT2FS_EXT2_EXTENTS_H_
 
 #include <sys/types.h>
 
-#define EXT4_EXT_MAGIC  0xf30a
+#define	EXT4_EXT_MAGIC  0xf30a
 
-#define EXT4_EXT_CACHE_NO	0
-#define EXT4_EXT_CACHE_GAP	1
-#define EXT4_EXT_CACHE_IN	2
+#define	EXT4_EXT_CACHE_NO	0
+#define	EXT4_EXT_CACHE_GAP	1
+#define	EXT4_EXT_CACHE_IN	2
 
 /*
  * Ext4 file system extent on disk.

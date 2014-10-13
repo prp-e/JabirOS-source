@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/ti_edma3.c 239553 2012-08-22 05:14:59Z kientzle $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/ti/ti_edma3.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -142,6 +142,10 @@ static struct {
 static int
 ti_edma3_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
+
 	if (!ofw_bus_is_compatible(dev, "ti,edma3"))
 		return (ENXIO);
 

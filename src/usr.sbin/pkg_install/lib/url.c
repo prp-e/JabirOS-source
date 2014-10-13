@@ -19,7 +19,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/pkg_install/lib/url.c 236333 2012-05-30 21:01:06Z jpaetzel $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/pkg_install/lib/url.c 236333 2012-05-30 21:01:06Z jpaetzel $");
 
 #include "lib.h"
 #include <err.h>

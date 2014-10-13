@@ -48,7 +48,7 @@
 #include "opt_ddb.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/arm/undefined.c 254461 2013-08-17 18:51:38Z andrew $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/arm/undefined.c 266277 2014-05-17 00:53:12Z ian $");
 
 #include <sys/param.h>
 #include <sys/malloc.h>
@@ -166,7 +166,7 @@ undefined_init()
 
 
 void
-undefinedinstruction(trapframe_t *frame)
+undefinedinstruction(struct trapframe *frame)
 {
 	struct thread *td;
 	u_int fault_pc;
@@ -183,7 +183,6 @@ undefinedinstruction(trapframe_t *frame)
 	if (!(frame->tf_spsr & I32_bit))
 		enable_interrupts(I32_bit|F32_bit);
 
-	frame->tf_pc -= INSN_SIZE;
 	PCPU_INC(cnt.v_trap);
 
 	fault_pc = frame->tf_pc;

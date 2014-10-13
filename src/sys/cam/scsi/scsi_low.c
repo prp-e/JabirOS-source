@@ -2,7 +2,7 @@
 /*	$NetBSD$	*/
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/cam/scsi/scsi_low.c 240325 2012-09-10 18:49:49Z jhb $");
+__FBSDID("$FreeBSD: stable/10/sys/cam/scsi/scsi_low.c 265632 2014-05-08 06:55:48Z mav $");
 
 #define	SCSI_LOW_STATICS
 #define	SCSI_LOW_DEBUG
@@ -4232,7 +4232,7 @@ scsi_low_print(slp, ti)
 	if (ti != NULL)
 	{
 		u_int flags = 0, maxnqio = 0, nqio = 0;
-		int lun = -1;
+		int lun = CAM_LUN_WILDCARD;
 
 		if (li != NULL)
 		{

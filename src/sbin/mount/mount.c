@@ -37,7 +37,7 @@ static char sccsid[] = "@(#)mount.c	8.25 (Berkeley) 5/8/95";
 #endif /* not lint */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/mount/mount.c 253372 2013-07-15 21:57:21Z rmh $");
+__FBSDID("$FreeBSD: stable/10/sbin/mount/mount.c 270892 2014-08-31 21:18:23Z trasz $");
 
 #include <sys/param.h>
 #include <sys/mount.h>
@@ -114,6 +114,7 @@ static struct opt {
 	{ MNT_ACLS,		"acls" },
 	{ MNT_NFS4ACLS,		"nfsv4acls" },
 	{ MNT_GJOURNAL,		"gjournal" },
+	{ MNT_AUTOMOUNTED,	"automounted" },
 	{ 0, NULL }
 };
 

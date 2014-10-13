@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_conf.c 244584 2012-12-22 13:33:28Z jh $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_conf.c 260356 2014-01-05 23:02:03Z mav $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>
@@ -193,7 +193,7 @@ dev_refthread(struct cdev *dev, int *ref)
 	if (csw != NULL) {
 		cdp = cdev2priv(dev);
 		if ((cdp->cdp_flags & CDP_SCHED_DTR) == 0)
-			dev->si_threadcount++;
+			atomic_add_long(&dev->si_threadcount, 1);
 		else
 			csw = NULL;
 	}
@@ -234,7 +234,7 @@ devvn_refthread(struct vnode *vp, struct cdev **devp, int *ref)
 	if ((cdp->cdp_flags & CDP_SCHED_DTR) == 0) {
 		csw = dev->si_devsw;
 		if (csw != NULL)
-			dev->si_threadcount++;
+			atomic_add_long(&dev->si_threadcount, 1);
 	}
 	dev_unlock();
 	if (csw != NULL) {
@@ -251,11 +251,9 @@ dev_relthread(struct cdev *dev, int ref)
 	mtx_assert(&devmtx, MA_NOTOWNED);
 	if (!ref)
 		return;
-	dev_lock();
 	KASSERT(dev->si_threadcount > 0,
 	    ("%s threadcount is wrong", dev->si_name));
-	dev->si_threadcount--;
-	dev_unlock();
+	atomic_subtract_rel_long(&dev->si_threadcount, 1);
 }
 
 int

@@ -1,7 +1,7 @@
 #
 # Custom kernel for Freescale MPC85XX development boards like the CDS etc.
 #
-# $FreeBSD: release/10.0.0/sys/powerpc/conf/MPC85XX 253845 2013-07-31 17:21:18Z obrien $
+# $FreeBSD: stable/10/sys/powerpc/conf/MPC85XX 266331 2014-05-17 17:34:37Z ian $
 #
 
 cpu		BOOKE
@@ -48,8 +48,10 @@ options 	NFSCL
 options 	NFSLOCKD
 options 	PROCFS
 options 	PSEUDOFS
-options 	SCHED_4BSD
-options		SMP
+options 	SCHED_ULE
+options 	CAPABILITIES
+options 	CAPABILITY_MODE
+options 	SMP
 options 	SYSVMSG
 options 	SYSVSEM
 options 	SYSVSHM
@@ -64,6 +66,7 @@ device		cryptodev
 device		da
 device		ds1553
 device		em
+device		alc
 device		ether
 device		fxp
 device		iic

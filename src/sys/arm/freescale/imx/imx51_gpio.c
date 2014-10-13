@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/freescale/imx/imx51_gpio.c 255130 2013-09-01 20:15:35Z rpaulo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/freescale/imx/imx51_gpio.c 269104 2014-07-25 23:36:39Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -355,7 +355,7 @@ imx51_gpio_intr(void *arg)
 	sc = arg;
 	input = READ4(sc, IMX_GPIO_ISR_REG);
 	value = input & READ4(sc, IMX_GPIO_IMR_REG);
-	WRITE4(sc, IMX_GPIO_DR_REG, input);
+	WRITE4(sc, IMX_GPIO_ISR_REG, input);
 
 	if (!value)
 		goto intr_done;
@@ -369,6 +369,9 @@ intr_done:
 static int
 imx51_gpio_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (ofw_bus_is_compatible(dev, "fsl,imx51-gpio") ||
 	    ofw_bus_is_compatible(dev, "fsl,imx53-gpio")) {

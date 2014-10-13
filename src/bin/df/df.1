@@ -27,9 +27,9 @@
 .\" SUCH DAMAGE.
 .\"
 .\"     @(#)df.1	8.3 (Berkeley) 5/8/95
-.\" $FreeBSD: release/10.0.0/bin/df/df.1 257989 2013-11-11 14:04:26Z brueffer $
+.\" $FreeBSD: stable/10/bin/df/df.1 260947 2014-01-20 23:23:29Z wblock $
 .\"
-.Dd January 24, 2013
+.Dd January 16, 2014
 .Dt DF 1
 .Os
 .Sh NAME
@@ -83,13 +83,13 @@ Use 1073741824 byte (1 Gibibyte) blocks rather than the default.
 This overrides any
 .Ev BLOCKSIZE
 specification from the environment.
-.It Fl H
+.It Fl h
 .Dq Human-readable
 output.
 Use unit suffixes: Byte, Kibibyte, Mebibyte, Gibibyte, Tebibyte and
 Pebibyte (based on powers of 1024) in order to reduce the number of
 digits to four or fewer.
-.It Fl h
+.It Fl H
 .Dq Human-readable
 output.
 Use unit suffixes: Byte, Kilobyte, Megabyte,

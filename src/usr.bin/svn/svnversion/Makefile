@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/svn/svnversion/Makefile 251886 2013-06-18 02:53:45Z peter $
+# $FreeBSD: stable/10/usr.bin/svn/svnversion/Makefile 251886 2013-06-18 02:53:45Z peter $
 
 NO_MAN=	svnversion.1
 

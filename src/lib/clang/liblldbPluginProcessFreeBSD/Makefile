@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/liblldbPluginProcessFreeBSD/Makefile 255722 2013-09-20 01:52:02Z emaste $
+# $FreeBSD: stable/10/lib/clang/liblldbPluginProcessFreeBSD/Makefile 263368 2014-03-19 13:19:56Z emaste $
 
 .include <bsd.own.mk>
 
@@ -9,7 +9,8 @@ CFLAGS+=-I${.CURDIR}/../../../contrib/llvm/tools/lldb/source/Plugins/Process/Fre
 CFLAGS+=-I${.CURDIR}/../../../contrib/llvm/tools/lldb/source/Plugins/Process/POSIX
 
 SRCDIR=	tools/lldb/source/Plugins/Process/FreeBSD
-SRCS=	ProcessFreeBSD.cpp \
+SRCS=	FreeBSDThread.cpp \
+	ProcessFreeBSD.cpp \
 	ProcessMonitor.cpp
 
 TGHDRS=	DiagnosticCommonKinds \

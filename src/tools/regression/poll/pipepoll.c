@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/tools/regression/poll/pipepoll.c 211940 2010-08-28 17:38:40Z kib $ */
+/* $FreeBSD: stable/10/tools/regression/poll/pipepoll.c 211940 2010-08-28 17:38:40Z kib $ */
 
 #include <sys/poll.h>
 #include <sys/socket.h>

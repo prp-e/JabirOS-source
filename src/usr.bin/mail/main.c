@@ -39,7 +39,7 @@ static char sccsid[] = "@(#)main.c	8.2 (Berkeley) 4/20/95";
 #endif
 #endif /* not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/mail/main.c 229655 2012-01-05 21:36:45Z uqs $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/mail/main.c 229655 2012-01-05 21:36:45Z uqs $");
 
 #include "rcv.h"
 #include <fcntl.h>

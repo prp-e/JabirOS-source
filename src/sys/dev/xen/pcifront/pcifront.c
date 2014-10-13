@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/xen/pcifront/pcifront.c 227843 2011-11-22 21:28:20Z marius $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/xen/pcifront/pcifront.c 265999 2014-05-14 01:35:43Z ian $");
 
 #include <sys/param.h>
 #include <sys/module.h>
@@ -441,7 +441,7 @@ xpcife_probe(device_t dev)
 	struct pcifront_device *pdev = (struct pcifront_device *)device_get_ivars(dev);
 	DPRINTF("xpcife probe (unit=%d)\n", pdev->unit);
 #endif
-	return 0;
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 /* Newbus xpcife device driver attach */

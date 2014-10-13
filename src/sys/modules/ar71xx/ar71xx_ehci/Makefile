@@ -26,7 +26,7 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
 # THE POSSIBILITY OF SUCH DAMAGES.
 #
-# $FreeBSD: release/10.0.0/sys/modules/ar71xx/ar71xx_ehci/Makefile 230151 2012-01-15 19:42:55Z adrian $
+# $FreeBSD: stable/10/sys/modules/ar71xx/ar71xx_ehci/Makefile 230151 2012-01-15 19:42:55Z adrian $
 #
 
 .PATH:	${.CURDIR}/../../../mips/atheros/

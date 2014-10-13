@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/fs/msdosfs/msdosfs_denode.c 254627 2013-08-21 23:04:48Z ken $ */
+/* $FreeBSD: stable/10/sys/fs/msdosfs/msdosfs_denode.c 254627 2013-08-21 23:04:48Z ken $ */
 /*	$NetBSD: msdosfs_denode.c,v 1.28 1998/02/10 14:10:00 mrg Exp $	*/
 
 /*-

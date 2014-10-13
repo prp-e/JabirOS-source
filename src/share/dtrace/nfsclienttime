@@ -27,7 +27,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/share/dtrace/nfsclienttime 235614 2012-05-18 16:47:15Z gnn $
+# $FreeBSD: stable/10/share/dtrace/nfsclienttime 235614 2012-05-18 16:47:15Z gnn $
 #
 # This script measures all time spent waiting on RPC replies for each
 # system call, and then generates a histogram of those times sorted by

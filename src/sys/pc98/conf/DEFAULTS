@@ -1,7 +1,7 @@
 #
 # DEFAULTS -- Default kernel configuration file for FreeBSD/pc98
 #
-# $FreeBSD: release/10.0.0/sys/pc98/conf/DEFAULTS 232619 2012-03-06 20:01:25Z attilio $
+# $FreeBSD: stable/10/sys/pc98/conf/DEFAULTS 232619 2012-03-06 20:01:25Z attilio $
 
 machine		pc98 i386
 options 	PC98

@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sbin/mdconfig/mdconfig.c 253833 2013-07-31 07:06:58Z delphij $
+ * $FreeBSD: stable/10/sbin/mdconfig/mdconfig.c 253833 2013-07-31 07:06:58Z delphij $
  */
 
 #include <sys/param.h>

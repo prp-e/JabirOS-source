@@ -19,7 +19,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: release/10.0.0/sys/cddl/dev/dtrace/i386/dtrace_subr.c 238552 2012-07-17 14:36:40Z gnn $
+ * $FreeBSD: stable/10/sys/cddl/dev/dtrace/i386/dtrace_subr.c 238552 2012-07-17 14:36:40Z gnn $
  *
  */
 /*

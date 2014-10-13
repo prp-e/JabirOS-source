@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/fs/smbfs/smbfs_vnops.c 254627 2013-08-21 23:04:48Z ken $
+ * $FreeBSD: stable/10/sys/fs/smbfs/smbfs_vnops.c 254627 2013-08-21 23:04:48Z ken $
  */
 #include <sys/param.h>
 #include <sys/systm.h>

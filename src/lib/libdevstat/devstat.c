@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libdevstat/devstat.c 244270 2012-12-15 18:19:48Z trociny $");
+__FBSDID("$FreeBSD: stable/10/lib/libdevstat/devstat.c 244270 2012-12-15 18:19:48Z trociny $");
 
 #include <sys/types.h>
 #include <sys/sysctl.h>

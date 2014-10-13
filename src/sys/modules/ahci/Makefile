@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/ahci/Makefile 238805 2012-07-26 13:44:48Z mav $
+# $FreeBSD: stable/10/sys/modules/ahci/Makefile 238805 2012-07-26 13:44:48Z mav $
 
 .PATH: ${.CURDIR}/../../dev/ahci
 

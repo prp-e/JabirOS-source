@@ -1,5 +1,5 @@
-/*	$NetBSD: queue.c,v 1.2 2011/02/16 01:31:33 joerg Exp $	*/
-/*	$FreeBSD: release/10.0.0/usr.bin/grep/queue.c 220422 2011-04-07 13:03:35Z gabor $	*/
+/*	$NetBSD: queue.c,v 1.5 2011/08/31 16:24:57 plunky Exp $	*/
+/*	$FreeBSD: stable/10/usr.bin/grep/queue.c 268966 2014-07-21 22:59:40Z pfg $	*/
 
 /*-
  * Copyright (c) 1999 James Howard and Dag-Erling Coïdan Smørgrav
@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/grep/queue.c 220422 2011-04-07 13:03:35Z gabor $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/grep/queue.c 268966 2014-07-21 22:59:40Z pfg $");
 
 #include <sys/param.h>
 #include <sys/queue.h>
@@ -68,8 +68,11 @@ enqueue(struct str *x)
 
 	STAILQ_INSERT_TAIL(&queue, item, list);
 
-	if (++count > Bflag)
-		free(dequeue());
+	if (++count > Bflag) {
+		item = dequeue();
+		free(item->data.dat);
+		free(item);
+	}
 }
 
 static struct qentry *
@@ -92,7 +95,8 @@ printqueue(void)
 	struct qentry *item;
 
 	while ((item = dequeue()) != NULL) {
-		printline(&item->data, '-', (regmatch_t *)NULL, 0);
+		printline(&item->data, '-', NULL, 0);
+		free(item->data.dat);
 		free(item);
 	}
 }
@@ -102,6 +106,8 @@ clearqueue(void)
 {
 	struct qentry *item;
 
-	while ((item = dequeue()) != NULL)
+	while ((item = dequeue()) != NULL) {
+		free(item->data.dat);
 		free(item);
+	}
 }

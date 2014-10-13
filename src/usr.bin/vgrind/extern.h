@@ -28,7 +28,7 @@
  * SUCH DAMAGE.
  *
  *      @(#)extern.h	8.1 (Berkeley) 6/6/93
- * $FreeBSD: release/10.0.0/usr.bin/vgrind/extern.h 228992 2011-12-30 11:02:40Z uqs $
+ * $FreeBSD: stable/10/usr.bin/vgrind/extern.h 228992 2011-12-30 11:02:40Z uqs $
  */
 
 typedef int boolean;

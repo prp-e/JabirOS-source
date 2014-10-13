@@ -52,7 +52,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/fs/fuse/fuse_node.h 242727 2012-11-08 00:32:49Z attilio $
+ * $FreeBSD: stable/10/sys/fs/fuse/fuse_node.h 242727 2012-11-08 00:32:49Z attilio $
  */
 
 #ifndef _FUSE_NODE_H_

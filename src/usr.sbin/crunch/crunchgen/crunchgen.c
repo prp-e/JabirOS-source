@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/crunch/crunchgen/crunchgen.c 246346 2013-02-05 02:57:59Z pfg $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/crunch/crunchgen/crunchgen.c 246346 2013-02-05 02:57:59Z pfg $");
 
 #include <sys/param.h>
 #include <sys/stat.h>

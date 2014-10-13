@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: release/10.0.0/lib/libc/i386/Symbol.map 240152 2012-09-05 21:41:05Z jilles $
+ * $FreeBSD: stable/10/lib/libc/i386/Symbol.map 240152 2012-09-05 21:41:05Z jilles $
  */
 
 /*

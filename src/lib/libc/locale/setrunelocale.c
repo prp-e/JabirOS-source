@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/locale/setrunelocale.c 244126 2012-12-11 22:52:56Z jilles $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/locale/setrunelocale.c 244126 2012-12-11 22:52:56Z jilles $");
 
 #define __RUNETYPE_INTERNAL 1
 

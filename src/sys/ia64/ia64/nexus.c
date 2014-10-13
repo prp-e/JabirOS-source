@@ -26,7 +26,7 @@
  * OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/ia64/ia64/nexus.c 235041 2012-05-04 23:16:29Z marcel $
+ * $FreeBSD: stable/10/sys/ia64/ia64/nexus.c 270296 2014-08-21 19:51:07Z emaste $
  */
 
 /*
@@ -44,6 +44,7 @@
 #include <sys/systm.h>
 #include <sys/bus.h>
 #include <sys/clock.h>
+#include <sys/efi.h>
 #include <sys/kernel.h>
 #include <sys/malloc.h>
 #include <sys/module.h>
@@ -55,7 +56,6 @@
 #include <vm/vm.h>
 #include <vm/pmap.h>
 
-#include <machine/efi.h>
 #include <machine/intr.h>
 #include <machine/pmap.h>
 #include <machine/resource.h>

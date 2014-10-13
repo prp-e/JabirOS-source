@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/share/doc/papers/jail/Makefile 136910 2004-10-24 15:33:08Z ru $
+# $FreeBSD: stable/10/share/doc/papers/jail/Makefile 136910 2004-10-24 15:33:08Z ru $
 
 VOLUME=		papers
 DOC=		jail

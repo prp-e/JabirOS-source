@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/libthr/thread/thr_barrier.c 233022 2012-03-16 04:35:52Z davidxu $
+ * $FreeBSD: stable/10/lib/libthr/thread/thr_barrier.c 233022 2012-03-16 04:35:52Z davidxu $
  */
 
 #include "namespace.h"

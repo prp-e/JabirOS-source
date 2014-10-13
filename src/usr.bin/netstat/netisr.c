@@ -29,7 +29,7 @@
 
 #include <sys/cdefs.h>
 
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/netstat/netisr.c 246988 2013-02-19 13:17:16Z charnier $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/netstat/netisr.c 246988 2013-02-19 13:17:16Z charnier $");
 
 #include <sys/param.h>
 #include <sys/sysctl.h>

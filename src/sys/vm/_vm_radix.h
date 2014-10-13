@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/vm/_vm_radix.h 254141 2013-08-09 11:28:55Z attilio $
+ * $FreeBSD: stable/10/sys/vm/_vm_radix.h 254141 2013-08-09 11:28:55Z attilio $
  */
 
 #ifndef __VM_RADIX_H_

@@ -42,7 +42,7 @@
 #include "opt_no_adaptive_sx.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_sx.c 255788 2013-09-22 14:09:07Z davide $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_sx.c 255788 2013-09-22 14:09:07Z davide $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -41,7 +41,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/nfs/bootp_subr.c 253847 2013-07-31 19:14:00Z ian $");
+__FBSDID("$FreeBSD: stable/10/sys/nfs/bootp_subr.c 263478 2014-03-21 15:15:30Z glebius $");
 
 #include "opt_bootp.h"
 #include "opt_nfs.h"
@@ -342,7 +342,7 @@ bootpboot_p_rtentry(struct rtentry *rt)
 	bootpboot_p_sa(rt->rt_gateway, NULL);
 	printf(" ");
 	printf("flags %x", (unsigned short) rt->rt_flags);
-	printf(" %d", (int) rt->rt_rmx.rmx_expire);
+	printf(" %d", (int) rt->rt_expire);
 	printf(" %s\n", rt->rt_ifp->if_xname);
 }
 

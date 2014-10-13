@@ -28,7 +28,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/tools/regression/net80211/wep/test_wep.c 241394 2012-10-10 08:36:38Z kevlo $
+ * $FreeBSD: stable/10/tools/regression/net80211/wep/test_wep.c 269738 2014-08-08 19:39:40Z delphij $
  */
 
 /*
@@ -242,7 +242,7 @@ runtest(struct ieee80211com *ic, struct ciphertest *t)
 	} else if (memcmp(mtod(m, const void *), t->plaintext, t->plaintext_len)) {
 		printf("FAIL: decap botch; data does not compare\n");
 		cmpfail(mtod(m, const void *), m->m_pkthdr.len,
-			t->plaintext, sizeof(t->plaintext));
+			t->plaintext, t->plaintext_len);
 		goto bad;
 	}
 

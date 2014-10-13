@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/cm/Makefile 89099 2002-01-08 20:03:13Z fjoe $
+# $FreeBSD: stable/10/sys/modules/cm/Makefile 89099 2002-01-08 20:03:13Z fjoe $
 
 .PATH: ${.CURDIR}/../../dev/cm
 

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/liblldbPluginObjectContainerBSDArchive/Makefile 255722 2013-09-20 01:52:02Z emaste $
+# $FreeBSD: stable/10/lib/clang/liblldbPluginObjectContainerBSDArchive/Makefile 255722 2013-09-20 01:52:02Z emaste $
 
 .include <bsd.own.mk>
 

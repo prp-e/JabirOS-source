@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sbin/mount_fusefs/Makefile 241519 2012-10-13 23:54:26Z attilio $
+# $FreeBSD: stable/10/sbin/mount_fusefs/Makefile 241519 2012-10-13 23:54:26Z attilio $
 
 .if defined(DEBUG)
 DEBUG_FLAGS+= -D_DEBUG -g

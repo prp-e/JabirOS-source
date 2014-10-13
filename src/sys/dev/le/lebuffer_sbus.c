@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/le/lebuffer_sbus.c 225931 2011-10-02 23:22:38Z marius $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/le/lebuffer_sbus.c 225931 2011-10-02 23:22:38Z marius $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/arm/include/smp.h 253768 2013-07-29 12:55:37Z cognet $ */
+/* $FreeBSD: stable/10/sys/arm/include/smp.h 266374 2014-05-17 23:03:04Z ian $ */
 
 #ifndef _MACHINE_SMP_H_
 #define _MACHINE_SMP_H_
@@ -10,11 +10,12 @@
 #define IPI_PREEMPT	2
 #define IPI_RENDEZVOUS	3
 #define IPI_STOP	4
-#define IPI_STOP_HARD	5
+#define IPI_STOP_HARD	4
 #define IPI_HARDCLOCK	6
 #define IPI_TLB		7
 
 void	init_secondary(int cpu);
+void	mpentry(void);
 
 void	ipi_all_but_self(u_int ipi);
 void	ipi_cpu(int cpu, u_int ipi);

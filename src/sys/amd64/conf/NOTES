@@ -4,7 +4,7 @@
 # This file contains machine dependent kernel configuration notes.  For
 # machine independent notes, look in /sys/conf/NOTES.
 #
-# $FreeBSD: release/10.0.0/sys/amd64/conf/NOTES 259637 2013-12-20 00:09:14Z glebius $
+# $FreeBSD: stable/10/sys/amd64/conf/NOTES 268933 2014-07-21 00:21:56Z jhb $
 #
 
 #
@@ -187,7 +187,7 @@ options 	VESA_DEBUG
 device		dpms		# DPMS suspend & resume via VESA BIOS
 
 # x86 real mode BIOS emulator, required by atkbdc/dpms/vesa
-options		X86BIOS
+options 	X86BIOS
 
 #
 # Optional devices:
@@ -442,7 +442,7 @@ device		ips
 #
 # Intel C600 (Patsburg) integrated SAS controller
 device		isci
-options		ISCI_LOGGING	# enable debugging in isci HAL
+options 	ISCI_LOGGING	# enable debugging in isci HAL
 
 #
 # NVM Express (NVMe) support
@@ -472,6 +472,7 @@ device		vtnet		# VirtIO Ethernet device
 device		virtio_blk	# VirtIO Block device
 device		virtio_scsi	# VirtIO SCSI device
 device		virtio_balloon	# VirtIO Memory Balloon device
+device		virtio_random	# VirtIO Entropy device
 
 device 		hyperv		# HyperV drivers
 
@@ -650,3 +651,6 @@ device		ndis
 
 # Linux-specific pseudo devices support
 device		lindev
+
+# Module to enable execution of application via emulators like QEMU
+options         IMAGACT_BINMISC

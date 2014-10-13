@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/mandoc/Makefile 241754 2012-10-19 22:21:01Z uqs $
+# $FreeBSD: stable/10/usr.bin/mandoc/Makefile 241754 2012-10-19 22:21:01Z uqs $
 
 MDOCMLDIR=	${.CURDIR}/../../contrib/mdocml
 LIBMANDOC=	${.OBJDIR}/../../lib/libmandoc/libmandoc.a

@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/dev/iir/iir.h 255871 2013-09-25 17:16:21Z scottl $ */
+/* $FreeBSD: stable/10/sys/dev/iir/iir.h 255871 2013-09-25 17:16:21Z scottl $ */
 /*-
  *       Copyright (c) 2000-04 ICP vortex GmbH
  *       Copyright (c) 2002-04 Intel Corporation

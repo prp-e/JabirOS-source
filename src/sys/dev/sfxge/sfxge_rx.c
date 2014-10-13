@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/sfxge/sfxge_rx.c 254800 2013-08-24 17:14:14Z andre $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/sfxge/sfxge_rx.c 254800 2013-08-24 17:14:14Z andre $");
 
 #include <sys/types.h>
 #include <sys/mbuf.h>

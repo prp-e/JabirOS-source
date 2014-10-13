@@ -26,8 +26,8 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- *	$NetBSD: filecomplete.h,v 1.9 2009/12/30 22:37:40 christos Exp $
- * $FreeBSD: release/10.0.0/lib/libedit/filecomplete.h 209219 2010-06-15 21:34:57Z jilles $
+ *	$NetBSD: filecomplete.h,v 1.8 2009/02/16 00:15:45 christos Exp $
+ * $FreeBSD: stable/10/lib/libedit/filecomplete.h 268782 2014-07-17 02:14:25Z pfg $
  */
 #ifndef _FILECOMPLETE_H_
 #define _FILECOMPLETE_H_

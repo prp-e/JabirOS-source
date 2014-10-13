@@ -1,5 +1,5 @@
-/* $OpenBSD: misc.c,v 1.91 2013/07/12 00:43:50 djm Exp $ */
-/* $FreeBSD: release/10.0.0/crypto/openssh/misc.c 255767 2013-09-21 21:36:09Z des $ */
+/* $OpenBSD: misc.c,v 1.92 2013/10/14 23:28:23 djm Exp $ */
+/* $FreeBSD: stable/10/crypto/openssh/misc.c 262566 2014-02-27 17:29:02Z des $ */
 /*
  * Copyright (c) 2000 Markus Friedl.  All rights reserved.
  * Copyright (c) 2005,2006 Damien Miller.  All rights reserved.
@@ -44,6 +44,7 @@
 #include <netinet/ip.h>
 #include <netinet/tcp.h>
 
+#include <ctype.h>
 #include <errno.h>
 #include <fcntl.h>
 #include <netdb.h>
@@ -1017,6 +1018,13 @@ iptos2str(int iptos)
 	}
 	snprintf(iptos_str, sizeof iptos_str, "0x%02x", iptos);
 	return iptos_str;
+}
+
+void
+lowercase(char *s)
+{
+	for (; *s; s++)
+		*s = tolower((u_char)*s);
 }
 void
 sock_set_v6only(int s)

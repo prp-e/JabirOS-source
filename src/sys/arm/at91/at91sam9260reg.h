@@ -23,7 +23,7 @@
  * SUCH DAMAGE.
  */
 
-/* $FreeBSD: release/10.0.0/sys/arm/at91/at91sam9260reg.h 238332 2012-07-10 02:44:15Z imp $ */
+/* $FreeBSD: stable/10/sys/arm/at91/at91sam9260reg.h 266110 2014-05-15 02:41:23Z ian $ */
 
 #ifndef AT91SAM9260REG_H_
 #define AT91SAM9260REG_H_
@@ -251,12 +251,12 @@
  * other * soc's so phyical and vm address
  * mapping are unique. XXX
  */
-#define AT91SAM9260_OHCI_BASE	  0xdfc00000
-#define AT91SAM9260_OHCI_PA_BASE  0x00500000
+#define AT91SAM9260_OHCI_VA_BASE  0xdfc00000
+#define AT91SAM9260_OHCI_BASE     0x00500000
 #define AT91SAM9260_OHCI_SIZE	  0x00100000
 
-#define AT91SAM9260_NAND_BASE     0xe0000000
-#define AT91SAM9260_NAND_PA_BASE  0x40000000
+#define AT91SAM9260_NAND_VA_BASE  0xe0000000
+#define AT91SAM9260_NAND_BASE     0x40000000
 #define AT91SAM9260_NAND_SIZE     0x10000000
 
 

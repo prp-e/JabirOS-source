@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: release/10.0.0/sys/dev/lmc/if_lmc.c 255471 2013-09-11 09:19:44Z glebius $
+ * $FreeBSD: stable/10/sys/dev/lmc/if_lmc.c 255471 2013-09-11 09:19:44Z glebius $
  *
  * Copyright (c) 2002-2004 David Boggs. <boggs@boggs.palo-alto.ca.us>
  * All rights reserved.

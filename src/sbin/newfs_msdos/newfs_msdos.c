@@ -27,7 +27,7 @@
 
 #ifndef lint
 static const char rcsid[] =
-  "$FreeBSD: release/10.0.0/sbin/newfs_msdos/newfs_msdos.c 255339 2013-09-07 03:10:12Z pfg $";
+  "$FreeBSD: stable/10/sbin/newfs_msdos/newfs_msdos.c 270034 2014-08-16 01:06:23Z pfg $";
 #endif /* not lint */
 
 #include <sys/param.h>
@@ -689,7 +689,7 @@ main(int argc, char *argv[])
 			 ((u_int)tm->tm_hour << 8 |
 			  (u_int)tm->tm_min));
 		mk4(bsx->exVolumeID, x);
-		mklabel(bsx->exVolumeLabel, opt_L ? opt_L : "NO_NAME");
+		mklabel(bsx->exVolumeLabel, opt_L ? opt_L : "NO NAME");
 		sprintf(buf, "FAT%u", fat);
 		setstr(bsx->exFileSysType, buf, sizeof(bsx->exFileSysType));
 		if (!opt_B) {

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/ia64/include/acpica_machdep.h 254300 2013-08-13 21:34:03Z jkim $
+ * $FreeBSD: stable/10/sys/ia64/include/acpica_machdep.h 254300 2013-08-13 21:34:03Z jkim $
  */
 
 /******************************************************************************

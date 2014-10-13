@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)err.h	8.1 (Berkeley) 6/2/93
- * $FreeBSD: release/10.0.0/include/err.h 203964 2010-02-16 19:39:50Z imp $
+ * $FreeBSD: stable/10/include/err.h 203964 2010-02-16 19:39:50Z imp $
  */
 
 #ifndef _ERR_H_

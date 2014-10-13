@@ -23,7 +23,7 @@
  * SUCH DAMAGE.
  */
 
-/* $FreeBSD: release/10.0.0/sys/arm/at91/at91_piovar.h 249232 2013-04-07 13:03:57Z hselasky $ */
+/* $FreeBSD: stable/10/sys/arm/at91/at91_piovar.h 249232 2013-04-07 13:03:57Z hselasky $ */
 
 #ifndef ARM_AT91_AT91_PIOVAR_H
 #define	ARM_AT91_AT91_PIOVAR_H

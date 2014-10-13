@@ -1,5 +1,5 @@
 #
-# $FreeBSD: release/10.0.0/etc/etc.ia64/ttys 220154 2011-03-30 08:22:29Z ed $
+# $FreeBSD: stable/10/etc/etc.ia64/ttys 269432 2014-08-02 15:05:23Z marcel $
 #	@(#)ttys	5.1 (Berkeley) 4/17/89
 #
 # This file specifies various information about terminals on the system.
@@ -41,8 +41,8 @@ ttyv7	"/usr/libexec/getty Pc"		xterm	off secure
 ttyv8	"/usr/local/bin/xdm -nodaemon"	xterm	off secure
 # Serial terminals. The 'dialup' keyword identifies dialin lines to login,
 # fingerd etc.
-ttyu0	"/usr/libexec/getty std.9600"	vt100	on  secure
-ttyu1	"/usr/libexec/getty std.9600"	dialup	off secure
+ttyu0	"/usr/libexec/getty std.9600"	vt100	onifconsole secure
+ttyu1	"/usr/libexec/getty std.9600"	vt100	onifconsole secure
 ttyu2	"/usr/libexec/getty std.9600"	dialup	off secure
 ttyu3	"/usr/libexec/getty std.9600"	dialup	off secure
 # Dumb console

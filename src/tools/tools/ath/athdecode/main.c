@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: release/10.0.0/tools/tools/ath/athdecode/main.c 244962 2013-01-02 18:09:30Z adrian $
+ * $FreeBSD: stable/10/tools/tools/ath/athdecode/main.c 244962 2013-01-02 18:09:30Z adrian $
  */
 #include "diag.h"
 

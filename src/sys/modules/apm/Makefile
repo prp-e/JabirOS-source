@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/apm/Makefile 145326 2005-04-20 12:28:20Z nyan $
+# $FreeBSD: stable/10/sys/modules/apm/Makefile 145326 2005-04-20 12:28:20Z nyan $
 
 .PATH: ${.CURDIR}/../../i386/bios
 .if ${MACHINE} == "pc98"

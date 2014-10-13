@@ -1,5 +1,5 @@
 #
-# $FreeBSD: release/10.0.0/tools/tools/usbtest/Makefile 254159 2013-08-09 20:08:42Z hselasky $
+# $FreeBSD: stable/10/tools/tools/usbtest/Makefile 254159 2013-08-09 20:08:42Z hselasky $
 #
 # Copyright (c) 2013 Hans Petter Selasky. All rights reserved.
 #

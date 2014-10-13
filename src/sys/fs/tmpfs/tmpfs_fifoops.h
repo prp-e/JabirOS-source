@@ -29,7 +29,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/fs/tmpfs/tmpfs_fifoops.h 182739 2008-09-03 18:53:48Z delphij $
+ * $FreeBSD: stable/10/sys/fs/tmpfs/tmpfs_fifoops.h 269164 2014-07-28 00:43:42Z kib $
  */
 
 #ifndef _FS_TMPFS_TMPFS_FIFOOPS_H_
@@ -41,13 +41,10 @@
 
 #include <fs/tmpfs/tmpfs_vnops.h>
 
-/* --------------------------------------------------------------------- */
-
 /*
  * Declarations for tmpfs_fifoops.c.
  */
 
 extern struct vop_vector tmpfs_fifoop_entries;
 
-/* --------------------------------------------------------------------- */
 #endif /* _FS_TMPFS_TMPFS_FIFOOPS_H_ */

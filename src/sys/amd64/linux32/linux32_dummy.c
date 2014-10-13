@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/amd64/linux32/linux32_dummy.c 255675 2013-09-18 18:48:33Z rdivacky $");
+__FBSDID("$FreeBSD: stable/10/sys/amd64/linux32/linux32_dummy.c 272020 2014-09-23 07:50:04Z bz $");
 
 #include "opt_compat.h"
 #include "opt_kdtrace.h"
@@ -74,11 +74,6 @@ DUMMY(epoll_create);
 DUMMY(epoll_ctl);
 DUMMY(epoll_wait);
 DUMMY(remap_file_pages);
-DUMMY(timer_create);
-DUMMY(timer_settime);
-DUMMY(timer_gettime);
-DUMMY(timer_getoverrun);
-DUMMY(timer_delete);
 DUMMY(fstatfs64);
 DUMMY(mbind);
 DUMMY(get_mempolicy);

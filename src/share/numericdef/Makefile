@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/share/numericdef/Makefile 245889 2013-01-24 17:00:11Z brooks $
+# $FreeBSD: stable/10/share/numericdef/Makefile 245889 2013-01-24 17:00:11Z brooks $
 
 LOCALES=	af_ZA.ISO8859-1 \
 		am_ET.UTF-8 \

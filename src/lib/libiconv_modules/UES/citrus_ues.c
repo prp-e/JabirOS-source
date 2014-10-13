@@ -1,5 +1,5 @@
-/* $FreeBSD: release/10.0.0/lib/libiconv_modules/UES/citrus_ues.c 252583 2013-07-03 18:27:45Z peter $ */
-/* $NetBSD: citrus_ues.c,v 1.1 2006/11/13 15:16:31 tnozaki Exp $ */
+/* $FreeBSD: stable/10/lib/libiconv_modules/UES/citrus_ues.c 264497 2014-04-15 09:49:44Z tijl $ */
+/* $NetBSD: citrus_ues.c,v 1.3 2012/02/12 13:51:29 wiz Exp $ */
 
 /*-
  * Copyright (c)2006 Citrus Project,
@@ -75,6 +75,7 @@ _citrus_UES_init_state(_UESEncodingInfo * __restrict ei __unused,
 	psenc->chlen = 0;
 }
 
+#if 0
 static __inline void
 /*ARGSUSED*/
 _citrus_UES_pack_state(_UESEncodingInfo * __restrict ei __unused,
@@ -92,6 +93,7 @@ _citrus_UES_unpack_state(_UESEncodingInfo * __restrict ei __unused,
 
 	memcpy((void *)psenc, pspriv, sizeof(*psenc));
 }
+#endif
 
 static __inline int
 to_int(int ch)

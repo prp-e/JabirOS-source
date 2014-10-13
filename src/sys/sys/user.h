@@ -29,7 +29,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)user.h	8.2 (Berkeley) 9/23/93
- * $FreeBSD: release/10.0.0/sys/sys/user.h 260406 2014-01-07 20:12:02Z pjd $
+ * $FreeBSD: stable/10/sys/sys/user.h 262228 2014-02-19 19:11:14Z jhb $
  */
 
 #ifndef _SYS_USER_H_
@@ -414,6 +414,7 @@ struct kinfo_file {
 #define	KVME_TYPE_PHYS		5
 #define	KVME_TYPE_DEAD		6
 #define	KVME_TYPE_SG		7
+#define	KVME_TYPE_MGTDEVICE	8
 #define	KVME_TYPE_UNKNOWN	255
 
 #define	KVME_PROT_READ		0x00000001

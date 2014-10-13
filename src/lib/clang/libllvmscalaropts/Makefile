@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/libllvmscalaropts/Makefile 249423 2013-04-12 17:57:40Z dim $
+# $FreeBSD: stable/10/lib/clang/libllvmscalaropts/Makefile 263508 2014-03-21 17:53:59Z dim $
 
 .include <bsd.own.mk>
 
@@ -6,42 +6,41 @@ LIB=	llvmscalaropts
 
 SRCDIR=	lib/Transforms/Scalar
 SRCS=	ADCE.cpp \
-	BasicBlockPlacement.cpp \
 	CodeGenPrepare.cpp \
 	ConstantProp.cpp \
 	CorrelatedValuePropagation.cpp \
 	DCE.cpp \
 	DeadStoreElimination.cpp \
 	EarlyCSE.cpp \
-	GlobalMerge.cpp \
+	FlattenCFGPass.cpp \
 	GVN.cpp \
+	GlobalMerge.cpp \
 	IndVarSimplify.cpp \
 	JumpThreading.cpp \
 	LICM.cpp \
 	LoopDeletion.cpp \
 	LoopIdiomRecognize.cpp \
-	LoopInstSimplify.cpp \
+	LoopRerollPass.cpp \
 	LoopRotation.cpp \
 	LoopStrengthReduce.cpp \
 	LoopUnrollPass.cpp \
 	LoopUnswitch.cpp \
 	LowerAtomic.cpp \
 	MemCpyOptimizer.cpp \
+	PartiallyInlineLibCalls.cpp \
 	Reassociate.cpp \
 	Reg2Mem.cpp \
 	SCCP.cpp \
 	SROA.cpp \
-	Scalar.cpp \
+	SampleProfile.cpp \
 	ScalarReplAggregates.cpp \
 	SimplifyCFGPass.cpp \
-	SimplifyLibCalls.cpp \
 	Sink.cpp \
+	StructurizeCFG.cpp \
 	TailRecursionElimination.cpp
 
 .if ${MK_CLANG_EXTRAS} != "no"
 SRCS+=	LoopInstSimplify.cpp \
-	LowerAtomic.cpp \
-	Reg2Mem.cpp \
 	Scalar.cpp
 .endif
 

@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netinet/sctp_auth.h 258454 2013-11-21 23:00:09Z tuexen $");
+__FBSDID("$FreeBSD: stable/10/sys/netinet/sctp_auth.h 271750 2014-09-18 09:49:49Z tuexen $");
 
 #ifndef _NETINET_SCTP_AUTH_H_
 #define _NETINET_SCTP_AUTH_H_
@@ -112,7 +112,6 @@ extern sctp_auth_chklist_t *sctp_copy_chunklist(sctp_auth_chklist_t * chklist);
 extern int sctp_auth_add_chunk(uint8_t chunk, sctp_auth_chklist_t * list);
 extern int sctp_auth_delete_chunk(uint8_t chunk, sctp_auth_chklist_t * list);
 extern size_t sctp_auth_get_chklist_size(const sctp_auth_chklist_t * list);
-extern void sctp_auth_set_default_chunks(sctp_auth_chklist_t * list);
 extern int 
 sctp_serialize_auth_chunks(const sctp_auth_chklist_t * list,
     uint8_t * ptr);
@@ -155,7 +154,7 @@ sctp_auth_key_release(struct sctp_tcb *stcb, uint16_t keyid,
 
 
 /* hmac list handling */
-extern sctp_hmaclist_t *sctp_alloc_hmaclist(uint8_t num_hmacs);
+extern sctp_hmaclist_t *sctp_alloc_hmaclist(uint16_t num_hmacs);
 extern void sctp_free_hmaclist(sctp_hmaclist_t * list);
 extern int sctp_auth_add_hmacid(sctp_hmaclist_t * list, uint16_t hmac_id);
 extern sctp_hmaclist_t *sctp_copy_hmaclist(sctp_hmaclist_t * list);

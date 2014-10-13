@@ -36,7 +36,7 @@
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/arm/string/memcpy_xscale.S 135683 2004-09-23 23:11:32Z cognet $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/arm/string/memcpy_xscale.S 271337 2014-09-09 22:24:01Z ian $");
 
 /* LINTSTUB: Func: void *memcpy(void *dst, const void *src, size_t len) */
 ENTRY(memcpy)
@@ -1781,3 +1781,4 @@ ENTRY(memcpy)
 	strb	r1, [r0, #0x0b]
 	bx	lr
 #endif	/* !_STANDALONE */
+END(memcpy)

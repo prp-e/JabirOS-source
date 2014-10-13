@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: release/10.0.0/etc/rc.d/kfd 235107 2012-05-06 20:46:04Z stas $
+# $FreeBSD: stable/10/etc/rc.d/kfd 235107 2012-05-06 20:46:04Z stas $
 #
 
 # PROVIDE: kfd

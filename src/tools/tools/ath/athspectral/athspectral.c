@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/tools/tools/ath/athspectral/athspectral.c 251737 2013-06-14 08:11:45Z adrian $
+ * $FreeBSD: stable/10/tools/tools/ath/athspectral/athspectral.c 251737 2013-06-14 08:11:45Z adrian $
  */
 
 #include "diag.h"

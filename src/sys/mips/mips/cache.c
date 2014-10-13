@@ -68,7 +68,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/mips/cache.c 232896 2012-03-12 21:25:32Z jmallett $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/mips/cache.c 261277 2014-01-29 22:01:42Z brooks $");
 
 #include <sys/types.h>
 #include <sys/systm.h>
@@ -116,11 +116,9 @@ mips_config_cache(struct mips_cpuinfo * cpuinfo)
 
 #ifdef MIPS_DISABLE_L1_CACHE
 	case 0:
-		mips_cache_ops.mco_icache_sync_all = cache_noop;
-		mips_cache_ops.mco_icache_sync_range =
-		    (void (*)(vaddr_t, vsize_t))cache_noop;
-		mips_cache_ops.mco_icache_sync_range_index =
-		    (void (*)(vaddr_t, vsize_t))cache_noop;
+		mips_cache_ops.mco_icache_sync_all = (void (*)(void))cache_noop;
+		mips_cache_ops.mco_icache_sync_range = cache_noop;
+		mips_cache_ops.mco_icache_sync_range_index = cache_noop;
 		break;
 #endif
 	default:
@@ -193,20 +191,16 @@ mips_config_cache(struct mips_cpuinfo * cpuinfo)
 #endif		
 #ifdef MIPS_DISABLE_L1_CACHE
 	case 0:
-		mips_cache_ops.mco_pdcache_wbinv_all = cache_noop;
-		mips_cache_ops.mco_intern_pdcache_wbinv_all = cache_noop;
-		mips_cache_ops.mco_pdcache_wbinv_range =
-		    (void (*)(vaddr_t, vsize_t))cache_noop;
-		mips_cache_ops.mco_pdcache_wbinv_range_index =
-		    (void (*)(vaddr_t, vsize_t))cache_noop;
+		mips_cache_ops.mco_pdcache_wbinv_all =
+		    mips_cache_ops.mco_intern_pdcache_wbinv_all =
+		    (void (*)(void))cache_noop;
+		mips_cache_ops.mco_pdcache_wbinv_range = cache_noop;
+		mips_cache_ops.mco_pdcache_wbinv_range_index = cache_noop;
 		mips_cache_ops.mco_intern_pdcache_wbinv_range_index =
-		    (void (*)(vaddr_t, vsize_t))cache_noop;
-		mips_cache_ops.mco_pdcache_inv_range =
-		    (void (*)(vaddr_t, vsize_t))cache_noop;
-		mips_cache_ops.mco_pdcache_wb_range =
-		    (void (*)(vaddr_t, vsize_t))cache_noop;
-		mips_cache_ops.mco_intern_pdcache_wb_range =
-		    (void (*)(vaddr_t, vsize_t))cache_noop;
+		    cache_noop;
+		mips_cache_ops.mco_pdcache_inv_range = cache_noop;
+		mips_cache_ops.mco_pdcache_wb_range = cache_noop;
+		mips_cache_ops.mco_intern_pdcache_wb_range = cache_noop;
 		break;
 #endif
 	default:
@@ -222,26 +216,22 @@ mips_config_cache(struct mips_cpuinfo * cpuinfo)
 #ifdef CACHE_DEBUG
 		printf("  Dcache is coherent\n");
 #endif
-		mips_cache_ops.mco_pdcache_wbinv_all = cache_noop;
-		mips_cache_ops.mco_pdcache_wbinv_range =
-		    (void (*)(vaddr_t, vsize_t))cache_noop;
-		mips_cache_ops.mco_pdcache_wbinv_range_index =
-		    (void (*)(vaddr_t, vsize_t))cache_noop;
-		mips_cache_ops.mco_pdcache_inv_range =
-		    (void (*)(vaddr_t, vsize_t))cache_noop;
-		mips_cache_ops.mco_pdcache_wb_range =
-		    (void (*)(vaddr_t, vsize_t))cache_noop;
+		mips_cache_ops.mco_pdcache_wbinv_all = 
+		    (void (*)(void))cache_noop;
+		mips_cache_ops.mco_pdcache_wbinv_range = cache_noop;
+		mips_cache_ops.mco_pdcache_wbinv_range_index = cache_noop;
+		mips_cache_ops.mco_pdcache_inv_range = cache_noop;
+		mips_cache_ops.mco_pdcache_wb_range = cache_noop;
 	}
 	if (mips_cpu_flags & CPU_MIPS_I_D_CACHE_COHERENT) {
 #ifdef CACHE_DEBUG
 		printf("  Icache is coherent against Dcache\n");
 #endif
 		mips_cache_ops.mco_intern_pdcache_wbinv_all =
-		    cache_noop;
+		    (void (*)(void))cache_noop;
 		mips_cache_ops.mco_intern_pdcache_wbinv_range_index =
-		    (void (*)(vaddr_t, vsize_t))cache_noop;
-		mips_cache_ops.mco_intern_pdcache_wb_range =
-		    (void (*)(vaddr_t, vsize_t))cache_noop;
+		    cache_noop;
+		mips_cache_ops.mco_intern_pdcache_wb_range = cache_noop;
 	}
 #endif
 

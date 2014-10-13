@@ -41,7 +41,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/malta/obio.c 202175 2010-01-12 21:36:08Z imp $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/malta/obio.c 202175 2010-01-12 21:36:08Z imp $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

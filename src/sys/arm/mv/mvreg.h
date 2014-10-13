@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/mv/mvreg.h 251371 2013-06-04 09:33:03Z gber $
+ * $FreeBSD: stable/10/sys/arm/mv/mvreg.h 266277 2014-05-17 00:53:12Z ian $
  */
 
 #ifndef _MVREG_H_
@@ -142,7 +142,11 @@
 /*
  * Power Control
  */
+#if defined(SOC_MV_KIRKWOOD)
+#define CPU_PM_CTRL		0x18
+#else
 #define CPU_PM_CTRL		0x1C
+#endif
 #define CPU_PM_CTRL_NONE	0
 #define CPU_PM_CTRL_ALL		~0x0
 

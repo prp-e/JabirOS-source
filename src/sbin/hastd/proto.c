@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/hastd/proto.c 229945 2012-01-10 22:39:07Z pjd $");
+__FBSDID("$FreeBSD: stable/10/sbin/hastd/proto.c 260006 2013-12-28 19:21:22Z trociny $");
 
 #include <sys/types.h>
 #include <sys/queue.h>
@@ -298,8 +298,8 @@ proto_connection_send(const struct proto_conn *conn, struct proto_conn *mconn)
 	protoname = mconn->pc_proto->prt_name;
 	PJDLOG_ASSERT(protoname != NULL);
 
-	ret = conn->pc_proto->prt_send(conn->pc_ctx, protoname,
-	    strlen(protoname) + 1, fd);
+	ret = conn->pc_proto->prt_send(conn->pc_ctx,
+	    (const unsigned char *)protoname, strlen(protoname) + 1, fd);
 	proto_close(mconn);
 	if (ret != 0) {
 		errno = ret;
@@ -325,7 +325,7 @@ proto_connection_recv(const struct proto_conn *conn, bool client,
 
 	bzero(protoname, sizeof(protoname));
 
-	ret = conn->pc_proto->prt_recv(conn->pc_ctx, protoname,
+	ret = conn->pc_proto->prt_recv(conn->pc_ctx, (unsigned char *)protoname,
 	    sizeof(protoname) - 1, &fd);
 	if (ret != 0) {
 		errno = ret;

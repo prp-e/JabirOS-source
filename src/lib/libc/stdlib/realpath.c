@@ -30,7 +30,7 @@
 static char sccsid[] = "@(#)realpath.c	8.1 (Berkeley) 2/16/94";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/stdlib/realpath.c 249582 2013-04-17 11:40:10Z gabor $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/stdlib/realpath.c 267161 2014-06-06 13:37:40Z jilles $");
 
 #include "namespace.h"
 #include <sys/param.h>
@@ -132,26 +132,7 @@ realpath(const char * __restrict path, char * __restrict resolved)
 			resolved[resolved_len] = '\0';
 		}
 		if (next_token[0] == '\0') {
-			/*
-			 * Handle consequential slashes.  The path
-			 * before slash shall point to a directory.
-			 *
-			 * Only the trailing slashes are not covered
-			 * by other checks in the loop, but we verify
-			 * the prefix for any (rare) "//" or "/\0"
-			 * occurrence to not implement lookahead.
-			 */
-			if (lstat(resolved, &sb) != 0) {
-				if (m)
-					free(resolved);
-				return (NULL);
-			}
-			if (!S_ISDIR(sb.st_mode)) {
-				if (m)
-					free(resolved);
-				errno = ENOTDIR;
-				return (NULL);
-			}
+			/* Handle consequential slashes. */
 			continue;
 		}
 		else if (strcmp(next_token, ".") == 0)
@@ -236,6 +217,11 @@ realpath(const char * __restrict path, char * __restrict resolved)
 				}
 			}
 			left_len = strlcpy(left, symlink, sizeof(left));
+		} else if (!S_ISDIR(sb.st_mode) && p != NULL) {
+			if (m)
+				free(resolved);
+			errno = ENOTDIR;
+			return (NULL);
 		}
 	}
 

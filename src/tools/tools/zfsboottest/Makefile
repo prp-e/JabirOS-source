@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/tools/tools/zfsboottest/Makefile 253605 2013-07-24 09:50:44Z avg $
+# $FreeBSD: stable/10/tools/tools/zfsboottest/Makefile 260735 2014-01-16 14:24:33Z avg $
 
 .PATH:		${.CURDIR}/../../../sys/boot/zfs ${.CURDIR}/../../../sys/cddl/boot/zfs
 
@@ -16,7 +16,7 @@ CFLAGS=	-O1 \
 	-I. \
 	-fdiagnostics-show-option \
 	-W -Wextra -Wno-sign-compare -Wno-unused-parameter
-LDFLAGS+=-lmd
+LDADD+=	-lmd
 
 .if ${MACHINE_CPUARCH} == "amd64"
 beforedepend zfsboottest.o: machine

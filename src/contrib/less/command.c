@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/contrib/less/command.c 238730 2012-07-24 01:09:11Z delphij $ */
+/* $FreeBSD: stable/10/contrib/less/command.c 238730 2012-07-24 01:09:11Z delphij $ */
 /*
  * Copyright (C) 1984-2012  Mark Nudelman
  *

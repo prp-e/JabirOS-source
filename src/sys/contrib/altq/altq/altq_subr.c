@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/contrib/altq/altq/altq_subr.c 240233 2012-09-08 06:41:54Z glebius $	*/
+/*	$FreeBSD: stable/10/sys/contrib/altq/altq/altq_subr.c 263086 2014-03-12 10:45:58Z glebius $	*/
 /*	$KAME: altq_subr.c,v 1.21 2003/11/06 06:32:53 kjc Exp $	*/
 
 /*
@@ -49,6 +49,7 @@
 #include <sys/queue.h>
 
 #include <net/if.h>
+#include <net/if_var.h>
 #include <net/if_dl.h>
 #include <net/if_types.h>
 #ifdef __FreeBSD__
@@ -64,7 +65,8 @@
 #include <netinet/tcp.h>
 #include <netinet/udp.h>
 
-#include <net/pfvar.h>
+#include <netpfil/pf/pf.h>
+#include <netpfil/pf/pf_altq.h>
 #include <altq/altq.h>
 #ifdef ALTQ3_COMPAT
 #include <altq/altq_conf.h>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/geom/nop/g_nop.h 249440 2013-04-13 19:02:58Z jmg $
+ * $FreeBSD: stable/10/sys/geom/nop/g_nop.h 260385 2014-01-07 01:32:23Z scottl $
  */
 
 #ifndef	_G_NOP_H_
@@ -65,6 +65,7 @@ struct g_nop_softc {
 	uintmax_t	sc_writes;
 	uintmax_t	sc_readbytes;
 	uintmax_t	sc_wrotebytes;
+	struct mtx	sc_lock;
 };
 #endif	/* _KERNEL */
 

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/boot/i386/efi/exec.c 243875 2012-12-05 04:22:53Z rpaulo $");
+__FBSDID("$FreeBSD: stable/10/sys/boot/i386/efi/exec.c 243875 2012-12-05 04:22:53Z rpaulo $");
 
 #include <stand.h>
 #include <machine/elf.h>

@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/lib/clang/include/llvm/Config/llvm-config.h 251662 2013-06-12 18:48:53Z dim $ */
+/* $FreeBSD: stable/10/lib/clang/include/llvm/Config/llvm-config.h 266715 2014-05-26 20:45:44Z dim $ */
 /* include/llvm/Config/llvm-config.h.  Generated from llvm-config.h.in by configure.  */
 /*===-- llvm/config/llvm-config.h - llvm configure variable -------*- C -*-===*/
 /*                                                                            */
@@ -50,9 +50,6 @@
 
 /* Installation directory for .info files */
 /* #undef LLVM_INFODIR */
-
-/* Installation directory for libraries */
-/* #undef LLVM_LIBDIR */
 
 /* Installation directory for man pages */
 /* #undef LLVM_MANDIR */
@@ -112,7 +109,7 @@
 /* #undef LLVM_PATH_XDOT_PY */
 
 /* Installation prefix directory */
-#define LLVM_PREFIX ""
+#define LLVM_PREFIX "/usr"
 
 /* Define if we have the Intel JIT API runtime support library */
 #define LLVM_USE_INTEL_JITEVENTS 0
@@ -124,6 +121,6 @@
 #define LLVM_VERSION_MAJOR 3
 
 /* Minor version of the LLVM API */
-#define LLVM_VERSION_MINOR 3
+#define LLVM_VERSION_MINOR 4
 
 #endif

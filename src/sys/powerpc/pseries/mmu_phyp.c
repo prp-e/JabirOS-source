@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/pseries/mmu_phyp.c 255909 2013-09-27 13:11:20Z nwhitehorn $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/pseries/mmu_phyp.c 259227 2013-12-11 20:56:23Z andreast $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>
@@ -165,6 +165,11 @@ mphyp_bootstrap(mmu_t mmup, vm_offset_t kernelstart, vm_offset_t kernelend)
 				nptlp--;
 			}
 		}
+
+		/* For now we allow shift only to be <= 0x18. */
+		if (shift >= 0x18)
+		    shift = 0x18;
+
 		moea64_large_page_shift = shift;
 		moea64_large_page_size = 1 << shift;
 	}

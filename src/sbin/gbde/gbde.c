@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sbin/gbde/gbde.c 209052 2010-06-11 17:03:04Z uqs $
+ * $FreeBSD: stable/10/sbin/gbde/gbde.c 264808 2014-04-23 09:22:24Z brueffer $
  *
  * XXX: Future stuff
  *
@@ -805,6 +805,7 @@ main(int argc, char **argv)
 			break;
 		case 'i':
 			i_opt = !i_opt;
+			break;
 		case 'k':
 			k_opt = optarg;
 			break;

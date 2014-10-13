@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/fs/ext2fs/ext2_hash.c 254104 2013-08-08 22:07:59Z pfg $
+ * $FreeBSD: stable/10/sys/fs/ext2fs/ext2_hash.c 259904 2013-12-26 01:12:35Z pfg $
  */
 
 /*
@@ -289,8 +289,8 @@ ext2_htree_hash(const char *name, int len,
 			len -= 32;
 			name += 32;
 		}
-		major = hash[0];
-		minor = hash[1];
+		major = hash[1];
+		minor = hash[2];
 		break;
 	default:
 		goto error;

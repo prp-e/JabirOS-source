@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.bin/dtc/checking.cc 251934 2013-06-18 10:26:22Z theraven $
+ * $FreeBSD: stable/10/usr.bin/dtc/checking.cc 251934 2013-06-18 10:26:22Z theraven $
  */
 
 #include "checking.hh"

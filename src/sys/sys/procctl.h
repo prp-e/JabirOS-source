@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/sys/procctl.h 255708 2013-09-19 18:53:42Z jhb $
+ * $FreeBSD: stable/10/sys/sys/procctl.h 255708 2013-09-19 18:53:42Z jhb $
  */
 
 #ifndef	_SYS_PROCCTL_H_

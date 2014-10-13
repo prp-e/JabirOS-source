@@ -26,8 +26,10 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/iscsid/discovery.c 256194 2013-10-09 13:48:08Z trasz $
  */
+
+#include <sys/cdefs.h>
+__FBSDID("$FreeBSD: stable/10/usr.sbin/iscsid/discovery.c 270888 2014-08-31 20:21:08Z trasz $");
 
 #include <sys/types.h>
 #include <sys/ioctl.h>
@@ -62,8 +64,6 @@ text_receive(struct connection *conn)
 	 */
 	if ((bhstr->bhstr_flags & BHSTR_FLAGS_CONTINUE) != 0)
 		log_errx(1, "received Text PDU with unsupported \"C\" flag");
-	if (response->pdu_data_len == 0)
-		log_errx(1, "received Text PDU with empty data segment");
 	if (ntohl(bhstr->bhstr_statsn) != conn->conn_statsn + 1) {
 		log_errx(1, "received Text PDU with wrong StatSN: "
 		    "is %d, should be %d", ntohl(bhstr->bhstr_statsn),

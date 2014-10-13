@@ -42,7 +42,7 @@
  *
  * Created      : 30/09/94
  *
- * $FreeBSD: release/10.0.0/sys/arm/include/frame.h 253968 2013-08-05 19:06:28Z andrew $
+ * $FreeBSD: stable/10/sys/arm/include/frame.h 259329 2013-12-13 20:43:11Z ian $
  *
  */
 
@@ -59,7 +59,7 @@
  * Trap frame.  Pushed onto the kernel stack on a trap (synchronous exception).
  */
 
-typedef struct trapframe {
+struct trapframe {
 	register_t tf_spsr; /* Zero on arm26 */
 	register_t tf_r0;
 	register_t tf_r1;
@@ -80,7 +80,7 @@ typedef struct trapframe {
 	register_t tf_svc_lr; /* Not used on arm26 */
 	register_t tf_pc;
 	register_t tf_pad;
-} trapframe_t;
+};
 
 /* Register numbers */
 #define tf_r13 tf_usr_sp

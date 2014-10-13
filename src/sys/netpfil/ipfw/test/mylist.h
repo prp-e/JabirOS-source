@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: release/10.0.0/sys/netpfil/ipfw/test/mylist.h 204735 2010-03-04 21:01:59Z luigi $
+ * $FreeBSD: stable/10/sys/netpfil/ipfw/test/mylist.h 204735 2010-03-04 21:01:59Z luigi $
  *
  * linux-like bidirectional lists
  */

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/libllvmx86instprinter/Makefile 246259 2013-02-02 22:28:29Z dim $
+# $FreeBSD: stable/10/lib/clang/libllvmx86instprinter/Makefile 246259 2013-02-02 22:28:29Z dim $
 
 .include <bsd.own.mk>
 

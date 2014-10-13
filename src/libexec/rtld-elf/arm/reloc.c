@@ -1,7 +1,7 @@
 /*	$NetBSD: mdreloc.c,v 1.23 2003/07/26 15:04:38 mrg Exp $	*/
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/libexec/rtld-elf/arm/reloc.c 239269 2012-08-15 03:07:41Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/libexec/rtld-elf/arm/reloc.c 271469 2014-09-12 16:22:01Z kib $");
 #include <sys/param.h>
 #include <sys/mman.h>
 
@@ -324,6 +324,10 @@ reloc_non_plt(Obj_Entry *obj, Obj_Entry *obj_rtld, int flags,
 	/* The relocation for the dynamic loader has already been done. */
 	if (obj == obj_rtld)
 		return (0);
+	if ((flags & SYMLOOK_IFUNC) != 0)
+		/* XXX not implemented */
+		return (0);
+
 	/*
  	 * The dynamic loader may be called from a thread, we have
 	 * limited amounts of stack available so we cannot use alloca().

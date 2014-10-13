@@ -26,7 +26,7 @@
 
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/versatile/versatile_sic.c 252393 2013-06-29 23:40:44Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/versatile/versatile_sic.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -73,6 +73,10 @@ struct versatile_sic_softc {
 static int
 versatile_sic_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
+
 	if (!ofw_bus_is_compatible(dev, "arm,versatile-sic"))
 		return (ENXIO);
 	device_set_desc(dev, "ARM Versatile SIC");

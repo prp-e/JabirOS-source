@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/nand/Makefile 237605 2012-06-26 18:08:03Z takawata $
+# $FreeBSD: stable/10/sys/modules/nand/Makefile 237605 2012-06-26 18:08:03Z takawata $
 
 .PATH: ${.CURDIR}/../../dev/nand
 

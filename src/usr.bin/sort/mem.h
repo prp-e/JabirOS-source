@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/usr.bin/sort/mem.h 251245 2013-06-02 09:43:48Z gabor $	*/
+/*	$FreeBSD: stable/10/usr.bin/sort/mem.h 265160 2014-04-30 20:39:08Z pfg $	*/
 
 /*-
  * Copyright (C) 2009 Gabor Kovesdan <gabor@FreeBSD.org>
@@ -28,7 +28,7 @@
  */
 
 #if !defined(__SORT_MEM_H__)
-#define __SORT_MEM_H__
+#define	__SORT_MEM_H__
 
 #include <errno.h>
 #include <stdbool.h>

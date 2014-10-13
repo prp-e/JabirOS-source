@@ -26,7 +26,7 @@
  * SUCH DAMAGE.
  *
  *	 $SourceForge: ng_netflow.h,v 1.26 2004/09/04 15:44:55 glebius Exp $
- *	 $FreeBSD: release/10.0.0/sys/netgraph/netflow/ng_netflow.h 255202 2013-09-04 10:17:50Z glebius $
+ *	 $FreeBSD: stable/10/sys/netgraph/netflow/ng_netflow.h 255202 2013-09-04 10:17:50Z glebius $
  */
 
 #ifndef	_NG_NETFLOW_H_

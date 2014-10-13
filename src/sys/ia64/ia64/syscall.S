@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/ia64/ia64/syscall.S 246890 2013-02-17 00:51:34Z marcel $
+ * $FreeBSD: stable/10/sys/ia64/ia64/syscall.S 270573 2014-08-25 15:15:59Z marcel $
  */
 
 #include <sys/syscall.h>
@@ -296,7 +296,7 @@ ENTRY_NOPROFILE(epc_syscall, 8)
 {	.mmi
 	st8		[r30]=r19,16		// rnat
 	st8		[r31]=r0,16		// __spare
-	nop		0
+	dep		r11=-1,r11,44,1		// Set psr.bn=1
 	;;
 }
 {	.mmi

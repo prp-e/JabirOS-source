@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/nvmecontrol/devlist.c 253476 2013-07-19 21:40:57Z jimharris $");
+__FBSDID("$FreeBSD: stable/10/sbin/nvmecontrol/devlist.c 265568 2014-05-07 16:53:42Z jimharris $");
 
 #include <sys/param.h>
 
@@ -99,11 +99,11 @@ devlist(int argc, char *argv[])
 			sprintf(name, "%s%d%s%d", NVME_CTRLR_PREFIX, ctrlr,
 			    NVME_NS_PREFIX, i+1);
 			read_namespace_data(fd, i+1, &nsdata);
-			printf("  %10s (%lldGB)\n",
+			printf("  %10s (%lldMB)\n",
 				name,
 				nsdata.nsze *
 				(long long)ns_get_sector_size(&nsdata) /
-				1024 / 1024 / 1024);
+				1024 / 1024);
 		}
 
 		close(fd);

@@ -1,5 +1,5 @@
 #	From: @(#)Makefile	8.1 (Berkeley) 6/5/93
-# $FreeBSD: release/10.0.0/sbin/ifconfig/Makefile 231642 2012-02-14 07:14:42Z rmh $
+# $FreeBSD: stable/10/sbin/ifconfig/Makefile 263086 2014-03-12 10:45:58Z glebius $
 
 .include <bsd.own.mk>
 
@@ -40,7 +40,9 @@ LDADD+=	-lbsdxml -lsbuf
 
 SRCS+=	carp.c			# SIOC[GS]VH support
 SRCS+=	ifgroup.c		# ...
+.if ${MK_PF} != "no"
 SRCS+=	ifpfsync.c		# pfsync(4) support
+.endif
 
 SRCS+=	ifbridge.c		# bridge support
 SRCS+=	iflagg.c		# lagg support

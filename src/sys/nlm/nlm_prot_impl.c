@@ -28,7 +28,7 @@
 #include "opt_inet6.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/nlm/nlm_prot_impl.c 255333 2013-09-06 23:14:31Z rmacklem $");
+__FBSDID("$FreeBSD: stable/10/sys/nlm/nlm_prot_impl.c 263781 2014-03-26 23:57:09Z delphij $");
 
 #include <sys/param.h>
 #include <sys/fail.h>
@@ -1072,7 +1072,7 @@ nlm_find_host_by_addr(const struct sockaddr *addr, int vers)
 		break;
 #endif
 	default:
-		strcmp(tmp, "<unknown>");
+		strlcpy(tmp, "<unknown>", sizeof(tmp));
 	}
 
 

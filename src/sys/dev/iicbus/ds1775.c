@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/iicbus/ds1775.c 239399 2012-08-19 19:34:10Z andreast $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/iicbus/ds1775.c 260673 2014-01-15 05:52:06Z jhibbits $");
 
 #include <sys/param.h>
 #include <sys/bus.h>
@@ -257,7 +257,7 @@ ds1775_sensor_sysctl(SYSCTL_HANDLER_ARGS)
 	device_t dev;
 	struct ds1775_softc *sc;
 	int error;
-	unsigned int temp;
+	int temp;
 
 	dev = arg1;
 	sc = device_get_softc(dev);

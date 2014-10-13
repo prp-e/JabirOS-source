@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/samsung/exynos/exynos5_mp.c 252391 2013-06-29 23:39:05Z ray $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/samsung/exynos/exynos5_mp.c 266203 2014-05-16 00:14:50Z ian $");
 #include <sys/param.h>
 #include <sys/systm.h>
 #include <sys/bus.h>
@@ -38,9 +38,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/samsung/exynos/exynos5_mp.c 252391 20
 #include <machine/intr.h>
 
 #define	EXYNOS_SYSRAM			0x02020000
-
-void mpentry(void);
-void mptramp(void);
 
 void
 platform_mp_init_secondary(void)

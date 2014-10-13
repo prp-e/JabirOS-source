@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: release/10.0.0/etc/rc.d/initrandom 256381 2013-10-12 15:31:36Z markm $
+# $FreeBSD: stable/10/etc/rc.d/initrandom 256381 2013-10-12 15:31:36Z markm $
 #
 
 # PROVIDE: initrandom

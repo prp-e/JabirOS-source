@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/etherswitch/etherswitch.c 250381 2013-05-08 20:46:54Z adrian $
+ * $FreeBSD: stable/10/sys/dev/etherswitch/etherswitch.c 250381 2013-05-08 20:46:54Z adrian $
  */
 
 #include <sys/param.h>

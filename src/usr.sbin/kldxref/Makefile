@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/kldxref/Makefile 211934 2010-08-28 15:03:11Z nwhitehorn $
+# $FreeBSD: stable/10/usr.sbin/kldxref/Makefile 211934 2010-08-28 15:03:11Z nwhitehorn $
 
 PROG=	kldxref
 MAN=	kldxref.8

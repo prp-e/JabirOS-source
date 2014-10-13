@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: release/10.0.0/contrib/top/top.h 244180 2012-12-13 06:45:45Z rpaulo $
+ * $FreeBSD: stable/10/contrib/top/top.h 244180 2012-12-13 06:45:45Z rpaulo $
  */
 /*
  *  Top - a top users display for Berkeley Unix

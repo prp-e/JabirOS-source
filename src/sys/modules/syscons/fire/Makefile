@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/syscons/fire/Makefile 106762 2002-11-11 10:11:59Z mux $
+# $FreeBSD: stable/10/sys/modules/syscons/fire/Makefile 106762 2002-11-11 10:11:59Z mux $
 
 .PATH:	${.CURDIR}/../../../dev/syscons/fire
 

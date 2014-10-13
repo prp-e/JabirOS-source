@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/usb/controller/ohci_atmelarm.c 239531 2012-08-21 20:10:59Z hselasky $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/usb/controller/ohci_atmelarm.c 266170 2014-05-15 18:38:19Z ian $");
 
 #include <sys/stdint.h>
 #include <sys/stddef.h>
@@ -131,13 +131,8 @@ ohci_atmelarm_attach(device_t dev)
 
 	strlcpy(sc->sc_ohci.sc_vendor, "Atmel", sizeof(sc->sc_ohci.sc_vendor));
 
-#if (__FreeBSD_version >= 700031)
 	err = bus_setup_intr(dev, sc->sc_ohci.sc_irq_res, INTR_TYPE_BIO | INTR_MPSAFE,
 	    NULL, (driver_intr_t *)ohci_interrupt, sc, &sc->sc_ohci.sc_intr_hdl);
-#else
-	err = bus_setup_intr(dev, sc->sc_ohci.sc_irq_res, INTR_TYPE_BIO | INTR_MPSAFE,
-	    (driver_intr_t *)ohci_interrupt, sc, &sc->sc_ohci.sc_intr_hdl);
-#endif
 	if (err) {
 		sc->sc_ohci.sc_intr_hdl = NULL;
 		goto error;

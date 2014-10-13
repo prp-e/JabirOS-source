@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: release/10.0.0/etc/rc.d/auditdistd 244181 2012-12-13 09:41:32Z pjd $
+# $FreeBSD: stable/10/etc/rc.d/auditdistd 244181 2012-12-13 09:41:32Z pjd $
 #
 
 # PROVIDE: auditdistd

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/cpsw/Makefile 239281 2012-08-15 06:31:32Z gonzo $
+# $FreeBSD: stable/10/sys/modules/cpsw/Makefile 239281 2012-08-15 06:31:32Z gonzo $
 
 .PATH: ${.CURDIR}/../../arm/ti/cpsw
 

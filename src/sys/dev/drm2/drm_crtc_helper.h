@@ -22,7 +22,7 @@
  * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  * OTHER DEALINGS IN THE SOFTWARE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/drm2/drm_crtc_helper.h 254797 2013-08-24 16:50:47Z dumbbell $
+ * $FreeBSD: stable/10/sys/dev/drm2/drm_crtc_helper.h 254797 2013-08-24 16:50:47Z dumbbell $
  */
 
 /*

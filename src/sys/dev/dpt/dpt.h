@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/dpt/dpt.h 249348 2013-04-10 23:20:09Z sbruno $
+ * $FreeBSD: stable/10/sys/dev/dpt/dpt.h 249348 2013-04-10 23:20:09Z sbruno $
  */
 
 /*

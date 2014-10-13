@@ -1,5 +1,5 @@
 #	From: @(#)Makefile	8.1 (Berkeley) 6/8/93
-# $FreeBSD: release/10.0.0/share/doc/psd/Makefile 256198 2013-10-09 17:07:20Z gjb $
+# $FreeBSD: stable/10/share/doc/psd/Makefile 256198 2013-10-09 17:07:20Z gjb $
 
 # The following modules do not build/install:
 # 10.gdb

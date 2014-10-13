@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/teken/teken.c 223574 2011-06-26 18:25:10Z ed $
+ * $FreeBSD: stable/10/sys/teken/teken.c 262861 2014-03-06 18:30:56Z jhb $
  */
 
 #include <sys/cdefs.h>
@@ -338,12 +338,37 @@ teken_get_winsize(teken_t *t)
 	return (&t->t_winsize);
 }
 
+static void
+teken_trim_cursor_pos(teken_t *t, const teken_pos_t *new)
+{
+	const teken_pos_t *cur;
+
+	cur = &t->t_winsize;
+
+	if (cur->tp_row < new->tp_row || cur->tp_col < new->tp_col)
+		return;
+	if (t->t_cursor.tp_row >= new->tp_row)
+		t->t_cursor.tp_row = new->tp_row - 1;
+	if (t->t_cursor.tp_col >= new->tp_col)
+		t->t_cursor.tp_col = new->tp_col - 1;
+}
+
 void
 teken_set_winsize(teken_t *t, const teken_pos_t *p)
 {
 
+	teken_trim_cursor_pos(t, p);
 	t->t_winsize = *p;
 	teken_subr_do_reset(t);
+}
+
+void
+teken_set_winsize_noreset(teken_t *t, const teken_pos_t *p)
+{
+
+	teken_trim_cursor_pos(t, p);
+	t->t_winsize = *p;
+	teken_subr_do_resize(t);
 }
 
 void

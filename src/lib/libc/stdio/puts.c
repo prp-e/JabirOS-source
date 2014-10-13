@@ -34,7 +34,7 @@
 static char sccsid[] = "@(#)puts.c	8.1 (Berkeley) 6/4/93";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/stdio/puts.c 249810 2013-04-23 14:36:44Z emaste $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/stdio/puts.c 269085 2014-07-25 03:24:00Z pfg $");
 
 #include "namespace.h"
 #include <stdio.h>
@@ -51,12 +51,12 @@ int
 puts(char const *s)
 {
 	int retval;
-	size_t c = strlen(s);
+	size_t c;
 	struct __suio uio;
 	struct __siov iov[2];
 
 	iov[0].iov_base = (void *)s;
-	iov[0].iov_len = c;
+	iov[0].iov_len = c = strlen(s);
 	iov[1].iov_base = "\n";
 	iov[1].iov_len = 1;
 	uio.uio_resid = c + 1;

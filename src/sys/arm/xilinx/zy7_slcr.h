@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/xilinx/zy7_slcr.h 250015 2013-04-28 07:00:36Z wkoszek $
+ * $FreeBSD: stable/10/sys/arm/xilinx/zy7_slcr.h 250015 2013-04-28 07:00:36Z wkoszek $
  */
 
 /*

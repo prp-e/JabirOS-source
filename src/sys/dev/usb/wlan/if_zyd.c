@@ -1,6 +1,6 @@
 /*	$OpenBSD: if_zyd.c,v 1.52 2007/02/11 00:08:04 jsg Exp $	*/
 /*	$NetBSD: if_zyd.c,v 1.7 2007/06/21 04:04:29 kiyohara Exp $	*/
-/*	$FreeBSD: release/10.0.0/sys/dev/usb/wlan/if_zyd.c 253340 2013-07-14 18:26:47Z rpaulo $	*/
+/*	$FreeBSD: stable/10/sys/dev/usb/wlan/if_zyd.c 269266 2014-07-29 21:59:24Z hselasky $	*/
 
 /*-
  * Copyright (c) 2006 by Damien Bergamini <damien.bergamini@free.fr>
@@ -20,7 +20,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/usb/wlan/if_zyd.c 253340 2013-07-14 18:26:47Z rpaulo $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/usb/wlan/if_zyd.c 269266 2014-07-29 21:59:24Z hselasky $");
 
 /*
  * ZyDAS ZD1211/ZD1211B USB WLAN driver.
@@ -488,9 +488,14 @@ zyd_vap_create(struct ieee80211com *ic, const char name[IFNAMSIZ], int unit,
 	if (zvp == NULL)
 		return (NULL);
 	vap = &zvp->vap;
+
 	/* enable s/w bmiss handling for sta mode */
-	ieee80211_vap_setup(ic, vap, name, unit, opmode,
-	    flags | IEEE80211_CLONE_NOBEACONS, bssid, mac);
+	if (ieee80211_vap_setup(ic, vap, name, unit, opmode,
+	    flags | IEEE80211_CLONE_NOBEACONS, bssid, mac) != 0) {
+		/* out of memory */
+		free(zvp, M_80211_VAP);
+		return (NULL);
+	}
 
 	/* override state transition machine */
 	zvp->newstate = vap->iv_newstate;
@@ -2474,7 +2479,7 @@ zyd_tx_start(struct zyd_softc *sc, struct mbuf *m0, struct ieee80211_node *ni)
 	const struct ieee80211_txparam *tp;
 	struct ieee80211_key *k;
 	int rate, totlen;
-	static uint8_t ratediv[] = ZYD_TX_RATEDIV;
+	static const uint8_t ratediv[] = ZYD_TX_RATEDIV;
 	uint8_t phy;
 	uint16_t pktlen;
 	uint32_t bits;
@@ -2501,7 +2506,7 @@ zyd_tx_start(struct zyd_softc *sc, struct mbuf *m0, struct ieee80211_node *ni)
 		}
 	}
 
-	if (wh->i_fc[1] & IEEE80211_FC1_WEP) {
+	if (wh->i_fc[1] & IEEE80211_FC1_PROTECTED) {
 		k = ieee80211_crypto_encap(ni, m0);
 		if (k == NULL) {
 			m_freem(m0);

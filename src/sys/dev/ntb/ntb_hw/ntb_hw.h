@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/ntb/ntb_hw/ntb_hw.h 255268 2013-09-05 22:46:48Z carl $
+ * $FreeBSD: stable/10/sys/dev/ntb/ntb_hw/ntb_hw.h 255268 2013-09-05 22:46:48Z carl $
  */
 
 #ifndef _NTB_HW_H_

@@ -19,7 +19,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/pkg_install/add/perform.c 240476 2012-09-14 00:19:06Z jkim $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/pkg_install/add/perform.c 240476 2012-09-14 00:19:06Z jkim $");
 
 #include <err.h>
 #include <paths.h>

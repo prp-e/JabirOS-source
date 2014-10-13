@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/ctl/Makefile 255570 2013-09-14 15:29:06Z trasz $
+# $FreeBSD: stable/10/sys/modules/ctl/Makefile 269296 2014-07-30 07:18:32Z mav $
 
 .PATH: ${.CURDIR}/../../cam/ctl
 
@@ -13,8 +13,9 @@ SRCS+=	ctl_frontend.c
 SRCS+=	ctl_frontend_cam_sim.c
 SRCS+=	ctl_frontend_internal.c
 SRCS+=	ctl_frontend_iscsi.c
-SRCS+=	ctl_mem_pool.c
 SRCS+=	ctl_scsi_all.c
+SRCS+=	ctl_tpc.c
+SRCS+=	ctl_tpc_local.c
 SRCS+=	ctl_error.c
 SRCS+=	ctl_util.c
 SRCS+=	scsi_ctl.c

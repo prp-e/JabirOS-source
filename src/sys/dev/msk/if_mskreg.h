@@ -93,7 +93,7 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-/*$FreeBSD: release/10.0.0/sys/dev/msk/if_mskreg.h 227582 2011-11-16 19:25:26Z yongari $*/
+/*$FreeBSD: stable/10/sys/dev/msk/if_mskreg.h 264442 2014-04-14 04:51:59Z yongari $*/
 
 /*
  * SysKonnect PCI vendor ID
@@ -156,7 +156,7 @@
 #define DEVICEID_DLINK_DGE560SX	0x4002
 #define DEVICEID_DLINK_DGE560T	0x4b00
 
-#define BIT_31		(1 << 31)
+#define BIT_31		(1U << 31)
 #define BIT_30		(1 << 30)
 #define BIT_29		(1 << 29)
 #define BIT_28		(1 << 28)
@@ -2338,7 +2338,7 @@ struct msk_stat_desc {
 #endif
 #define	MSK_RX_BUF_ALIGN	8
 #define MSK_JUMBO_RX_RING_CNT	MSK_RX_RING_CNT
-#define MSK_MAXTXSEGS		32
+#define MSK_MAXTXSEGS		35
 #define	MSK_TSO_MAXSGSIZE	4096
 #define	MSK_TSO_MAXSIZE		(65535 + sizeof(struct ether_vlan_header))
 

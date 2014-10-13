@@ -27,13 +27,13 @@
 /*
  * Binary heap and hash tables, used in dummynet
  *
- * $FreeBSD: release/10.0.0/sys/netpfil/ipfw/dn_heap.c 240494 2012-09-14 11:51:49Z glebius $
+ * $FreeBSD: stable/10/sys/netpfil/ipfw/dn_heap.c 240494 2012-09-14 11:51:49Z glebius $
  */
 
 #include <sys/cdefs.h>
 #include <sys/param.h>
 #ifdef _KERNEL
-__FBSDID("$FreeBSD: release/10.0.0/sys/netpfil/ipfw/dn_heap.c 240494 2012-09-14 11:51:49Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sys/netpfil/ipfw/dn_heap.c 240494 2012-09-14 11:51:49Z glebius $");
 #include <sys/systm.h>
 #include <sys/malloc.h>
 #include <sys/kernel.h>

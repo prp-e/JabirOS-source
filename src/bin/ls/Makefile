@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/2/93
-# $FreeBSD: release/10.0.0/bin/ls/Makefile 235655 2012-05-19 18:05:00Z marcel $
+# $FreeBSD: stable/10/bin/ls/Makefile 235655 2012-05-19 18:05:00Z marcel $
 
 .include <bsd.own.mk>
 

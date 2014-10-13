@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/boot/ofw/libofw/devicename.c 240655 2012-09-18 15:38:42Z mav $");
+__FBSDID("$FreeBSD: stable/10/sys/boot/ofw/libofw/devicename.c 240655 2012-09-18 15:38:42Z mav $");
 
 #include <stand.h>
 

@@ -28,7 +28,7 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sbin/pfctl/pfctl_parser.h 240494 2012-09-14 11:51:49Z glebius $
+ * $FreeBSD: stable/10/sbin/pfctl/pfctl_parser.h 270047 2014-08-16 13:20:44Z bz $
  */
 
 #ifndef _PFCTL_PARSER_H_
@@ -294,6 +294,7 @@ void			 set_ipmask(struct node_host *, u_int8_t);
 int			 check_netmask(struct node_host *, sa_family_t);
 int			 unmask(struct pf_addr *, sa_family_t);
 void			 ifa_load(void);
+int			 get_socket_domain(void);
 struct node_host	*ifa_exists(const char *);
 struct node_host	*ifa_lookup(const char *, int);
 struct node_host	*host(const char *);

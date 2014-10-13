@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  * All rights reserved.
  *
- * $FreeBSD: release/10.0.0/sys/dev/advansys/adwvar.h 241588 2012-10-15 15:26:00Z jhb $
+ * $FreeBSD: stable/10/sys/dev/advansys/adwvar.h 241588 2012-10-15 15:26:00Z jhb $
  */
 
 #ifndef _ADWVAR_H_

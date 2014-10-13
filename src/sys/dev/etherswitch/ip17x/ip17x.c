@@ -25,25 +25,28 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/etherswitch/ip17x/ip17x.c 250386 2013-05-08 20:58:41Z adrian $
+ * $FreeBSD: stable/10/sys/dev/etherswitch/ip17x/ip17x.c 262848 2014-03-06 13:15:53Z brueffer $
  */
 
 #include <sys/param.h>
 #include <sys/bus.h>
 #include <sys/errno.h>
 #include <sys/kernel.h>
+#include <sys/lock.h>
+#include <sys/malloc.h>
 #include <sys/module.h>
+#include <sys/mutex.h>
 #include <sys/socket.h>
 #include <sys/sockio.h>
 #include <sys/sysctl.h>
 #include <sys/systm.h>
+#include <sys/types.h>
 
 #include <net/if.h>
-#include <net/if_arp.h>
 #include <net/ethernet.h>
-#include <net/if_dl.h>
 #include <net/if_media.h>
 #include <net/if_types.h>
+#include <net/if_var.h>
 
 #include <machine/bus.h>
 #include <dev/mii/mii.h>

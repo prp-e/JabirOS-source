@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/geom/label/g_label.h 249508 2013-04-15 16:09:24Z ivoras $
+ * $FreeBSD: stable/10/sys/geom/label/g_label.h 249508 2013-04-15 16:09:24Z ivoras $
  */
 
 #ifndef	_G_LABEL_H_

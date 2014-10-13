@@ -30,7 +30,7 @@
  * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN
  * NO EVENT SHALL THE AUTHORS BE LIABLE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/si/si.h 179668 2008-06-09 08:43:27Z ed $
+ * $FreeBSD: stable/10/sys/dev/si/si.h 179668 2008-06-09 08:43:27Z ed $
  */
 
 #include <sys/callout.h>

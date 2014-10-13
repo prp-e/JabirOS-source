@@ -1,5 +1,5 @@
 # $OpenBSD: Makefile,v 1.9 2004/05/04 12:52:05 henning Exp $
-# $FreeBSD: release/10.0.0/sbin/dhclient/Makefile 226345 2011-10-13 17:20:45Z des $
+# $FreeBSD: stable/10/sbin/dhclient/Makefile 264996 2014-04-27 01:15:10Z jmmv $
 #
 # Copyright (c) 1996, 1997 The Internet Software Consortium.
 # All rights reserved.
@@ -31,6 +31,8 @@
 # OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+.include <bsd.own.mk>
+
 SRCS=	dhclient.c clparse.c alloc.c dispatch.c hash.c bpf.c options.c \
 	tree.c conflex.c errwarn.c inet.c packet.c convert.c tables.c \
 	parse.c privsep.c
@@ -43,5 +45,9 @@ DPADD=	${LIBUTIL}
 LDADD=	-lutil
 
 WARNS?=	2
+
+.if ${MK_TESTS} != "no"
+SUBDIR+=    tests
+.endif
 
 .include <bsd.prog.mk>

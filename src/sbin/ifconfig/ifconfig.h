@@ -31,7 +31,7 @@
  *
  * so there!
  *
- * $FreeBSD: release/10.0.0/sbin/ifconfig/ifconfig.h 228571 2011-12-16 12:16:56Z glebius $
+ * $FreeBSD: stable/10/sbin/ifconfig/ifconfig.h 228571 2011-12-16 12:16:56Z glebius $
  */
 
 #define	__constructor	__attribute__((constructor))

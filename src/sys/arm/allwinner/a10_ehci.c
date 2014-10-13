@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2012 Ganbold Tsagaankhuu <ganbold@gmail.com>
+ * Copyright (c) 2012 Ganbold Tsagaankhuu <ganbold@freebsd.org>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/allwinner/a10_ehci.c 246851 2013-02-15 21:29:03Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/allwinner/a10_ehci.c 266337 2014-05-17 18:53:36Z ian $");
 
 #include "opt_bus.h"
 
@@ -93,6 +93,10 @@ bs_w_1_proto(reversed);
 static int
 a10_ehci_probe(device_t self)
 {
+
+	if (!ofw_bus_status_okay(self))
+		return (ENXIO);
+
 	if (!ofw_bus_is_compatible(self, "allwinner,usb-ehci")) 
 		return (ENXIO);
 

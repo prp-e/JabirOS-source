@@ -473,5 +473,5 @@
 #   MSI-X Vectors: 736
 #   Virtual Functions: 64
 #
-# $FreeBSD: release/10.0.0/sys/dev/cxgbe/firmware/t5fw_cfg_fpga.txt 252661 2013-07-03 23:52:15Z np $
+# $FreeBSD: stable/10/sys/dev/cxgbe/firmware/t5fw_cfg_fpga.txt 252661 2013-07-03 23:52:15Z np $
 #

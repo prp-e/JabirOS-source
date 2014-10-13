@@ -46,7 +46,7 @@
 #include "aicasm/aicasm_insformat.h"
 #else
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/aic7xxx/aic7xxx.c 237601 2012-06-26 14:51:35Z ken $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/aic7xxx/aic7xxx.c 260342 2014-01-05 22:40:28Z mav $");
 #include <dev/aic7xxx/aic7xxx_osm.h>
 #include <dev/aic7xxx/aic7xxx_inline.h>
 #include <dev/aic7xxx/aicasm/aicasm_insformat.h>
@@ -73,7 +73,6 @@ char *ahc_chip_names[] =
 	"aic7892",
 	"aic7899"
 };
-static const u_int num_chip_names = NUM_ELEMENTS(ahc_chip_names);
 
 /*
  * Hardware error codes.
@@ -7843,9 +7842,9 @@ ahc_handle_target_cmd(struct ahc_softc *ahc, struct target_cmd *cmd)
 		/* Tag was included */
 		atio->tag_action = *byte++;
 		atio->tag_id = *byte++;
-		atio->ccb_h.flags = CAM_TAG_ACTION_VALID;
+		atio->ccb_h.flags |= CAM_TAG_ACTION_VALID;
 	} else {
-		atio->ccb_h.flags = 0;
+		atio->ccb_h.flags &= ~CAM_TAG_ACTION_VALID;
 	}
 	byte++;
 

@@ -18,7 +18,7 @@
  * only.
  * END_BLOCK
  *
- * $FreeBSD: release/10.0.0/sys/boot/arm/at91/bootspi/ee.c 238463 2012-07-15 05:35:14Z imp $
+ * $FreeBSD: stable/10/sys/boot/arm/at91/bootspi/ee.c 238463 2012-07-15 05:35:14Z imp $
  *****************************************************************************/
 
 #include "at91rm9200_lowlevel.h"

@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/lib/libc/iconv/citrus_stdenc_local.h 252583 2013-07-03 18:27:45Z peter $ */
+/* $FreeBSD: stable/10/lib/libc/iconv/citrus_stdenc_local.h 252583 2013-07-03 18:27:45Z peter $ */
 /* $NetBSD: citrus_stdenc_local.h,v 1.4 2008/02/09 14:56:20 junyoung Exp $ */
 
 /*-

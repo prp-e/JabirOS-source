@@ -41,7 +41,7 @@ static const char copyright[] =
 static char sccsid[] = "@(#)showmount.c	8.3 (Berkeley) 3/29/95";
 #endif
 static const char rcsid[] =
-  "$FreeBSD: release/10.0.0/usr.bin/showmount/showmount.c 222245 2011-05-24 06:56:40Z ru $";
+  "$FreeBSD: stable/10/usr.bin/showmount/showmount.c 270258 2014-08-21 04:31:48Z peter $";
 #endif /* not lint */
 
 #include <sys/types.h>
@@ -110,11 +110,11 @@ main(int argc, char **argv)
 {
 	register struct exportslist *exp;
 	register struct grouplist *grp;
-	register int rpcs = 0, mntvers = 1;
+	register int rpcs = 0, mntvers = 3;
 	const char *host;
 	int ch, estat;
 
-	while ((ch = getopt(argc, argv, "ade3")) != -1)
+	while ((ch = getopt(argc, argv, "ade13")) != -1)
 		switch (ch) {
 		case 'a':
 			if (type == 0) {
@@ -132,6 +132,9 @@ main(int argc, char **argv)
 			break;
 		case 'e':
 			rpcs |= DOEXPORTS;
+			break;
+		case '1':
+			mntvers = 1;
 			break;
 		case '3':
 			mntvers = 3;

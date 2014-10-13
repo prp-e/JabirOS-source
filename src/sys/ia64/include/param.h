@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/ia64/include/param.h 250338 2013-05-07 22:46:24Z attilio $ */
+/* $FreeBSD: stable/10/sys/ia64/include/param.h 261985 2014-02-16 19:12:50Z marcel $ */
 /* From: NetBSD: param.h,v 1.20 1997/09/19 13:52:53 leo Exp */
 
 /*-
@@ -104,6 +104,11 @@
 #define	KSTACK_PAGES	4		/* pages of kernel stack */
 #endif
 #define	KSTACK_GUARD_PAGES 0		/* pages of kstack guard; 0 disables */
+
+/* The default size of identity mappings in region 6 & 7. */
+#ifndef LOG2_ID_PAGE_SIZE
+#define	LOG2_ID_PAGE_SIZE	16
+#endif
 
 /*
  * Mach derived conversion macros

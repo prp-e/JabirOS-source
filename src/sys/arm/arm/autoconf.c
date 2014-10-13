@@ -47,7 +47,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/arm/autoconf.c 146794 2005-05-29 23:44:22Z marcel $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/arm/autoconf.c 146794 2005-05-29 23:44:22Z marcel $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

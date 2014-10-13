@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/sys/random.h 256381 2013-10-12 15:31:36Z markm $
+ * $FreeBSD: stable/10/sys/sys/random.h 268933 2014-07-21 00:21:56Z jhb $
  */
 
 #ifndef	_SYS_RANDOM_H_
@@ -56,6 +56,7 @@ enum esource {
 	RANDOM_PURE_RDRAND,
 	RANDOM_PURE_NEHEMIAH,
 	RANDOM_PURE_RNDTEST,
+	RANDOM_PURE_VIRTIO,
 	ENTROPYSOURCE
 };
 void random_harvest(void *, u_int, u_int, enum esource);

@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/scc/scc_bfe.h 253902 2013-08-02 23:31:51Z marius $
+ * $FreeBSD: stable/10/sys/dev/scc/scc_bfe.h 253902 2013-08-02 23:31:51Z marius $
  */
 
 #ifndef _DEV_SCC_BFE_H_

@@ -26,7 +26,7 @@
 .\" SUCH DAMAGE.
 .\"
 .\"     @(#)wait.2	8.2 (Berkeley) 4/19/94
-.\" $FreeBSD: release/10.0.0/lib/libc/sys/wait.2 255358 2013-09-07 11:41:52Z jilles $
+.\" $FreeBSD: stable/10/lib/libc/sys/wait.2 264170 2014-04-05 20:09:51Z jilles $
 .\"
 .Dd September 7, 2013
 .Dt WAIT 2
@@ -48,7 +48,7 @@
 .Fn wait "int *status"
 .Ft pid_t
 .Fn waitpid "pid_t wpid" "int *status" "int options"
-.In sys/signal.h
+.In signal.h
 .Ft int
 .Fn waitid "idtype_t idtype" "id_t id" "siginfo_t *info" "int options"
 .In sys/time.h

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/powerpc/include/counter.h 252434 2013-07-01 02:48:27Z kib $
+ * $FreeBSD: stable/10/sys/powerpc/include/counter.h 266004 2014-05-14 04:42:38Z ian $
  */
 
 #ifndef __MACHINE_COUNTER_H__
@@ -34,7 +34,7 @@
 #include <sys/proc.h>
 #endif
 
-#if defined(AIM) && defined(__powerpc64__)
+#ifdef __powerpc64__
 
 #define	counter_enter()	do {} while (0)
 #define	counter_exit()	do {} while (0)
@@ -98,7 +98,7 @@ counter_u64_add(counter_u64_t c, int64_t inc)
 	    : "cc", "memory");
 }
 
-#else	/* !AIM || !64bit */
+#else	/* !64bit */
 
 #define	counter_enter()	critical_enter()
 #define	counter_exit()	critical_exit()
@@ -157,6 +157,6 @@ counter_u64_add(counter_u64_t c, int64_t inc)
 	counter_exit();
 }
 
-#endif	/* AIM 64bit */
+#endif	/* 64bit */
 
 #endif	/* ! __MACHINE_COUNTER_H__ */

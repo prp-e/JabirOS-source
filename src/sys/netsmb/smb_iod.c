@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netsmb/smb_iod.c 243882 2012-12-05 08:04:20Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sys/netsmb/smb_iod.c 265243 2014-05-02 21:30:59Z ae $");
  
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -87,8 +87,6 @@ smb_iod_invrq(struct smbiod *iod)
 	 */
 	SMB_IOD_RQLOCK(iod);
 	TAILQ_FOREACH(rqp, &iod->iod_rqlist, sr_link) {
-		if (rqp->sr_flags & SMBR_INTERNAL)
-			SMBRQ_SUNLOCK(rqp);
 		rqp->sr_flags |= SMBR_RESTART;
 		smb_iod_rqprocessed(rqp, ENOTCONN);
 	}

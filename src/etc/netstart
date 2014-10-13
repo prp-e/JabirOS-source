@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/etc/netstart 230389 2012-01-20 17:25:15Z rea $
+# $FreeBSD: stable/10/etc/netstart 262557 2014-02-27 13:19:17Z des $
 #	From: @(#)netstart	5.9 (Berkeley) 3/30/91
 #
 
@@ -59,6 +59,7 @@ _start=quietstart
 /etc/rc.d/route6d ${_start}
 /etc/rc.d/mrouted ${_start}
 /etc/rc.d/routed ${_start}
+/etc/rc.d/rtsold ${_start}
 /etc/rc.d/nisdomain ${_start}
 
 exit 0

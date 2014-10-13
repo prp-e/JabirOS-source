@@ -1,5 +1,5 @@
 #
-# $FreeBSD: release/10.0.0/usr.sbin/flowctl/Makefile 223824 2011-07-06 15:18:32Z pluknet $
+# $FreeBSD: stable/10/usr.sbin/flowctl/Makefile 223824 2011-07-06 15:18:32Z pluknet $
 #
 
 .include <bsd.own.mk>

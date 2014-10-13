@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/liblldbAPI/Makefile 255722 2013-09-20 01:52:02Z emaste $
+# $FreeBSD: stable/10/lib/clang/liblldbAPI/Makefile 269024 2014-07-23 19:35:02Z emaste $
 
 .include <bsd.own.mk>
 
@@ -25,14 +25,16 @@ SRCS=	SBAddress.cpp \
 	SBFrame.cpp \
 	SBFunction.cpp \
 	SBHostOS.cpp \
-	SBInputReader.cpp \
 	SBInstruction.cpp \
 	SBInstructionList.cpp \
 	SBLineEntry.cpp \
 	SBListener.cpp \
 	SBModule.cpp \
 	SBModuleSpec.cpp \
+	SBPlatform.cpp \
 	SBProcess.cpp \
+	SBQueue.cpp \
+	SBQueueItem.cpp \
 	SBSection.cpp \
 	SBSourceManager.cpp \
 	SBStream.cpp \

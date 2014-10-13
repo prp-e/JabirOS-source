@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm/radeon_cp.c 207067 2010-04-22 18:44:23Z rnoland $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm/radeon_cp.c 261455 2014-02-04 03:36:42Z eadler $");
 
 #include "dev/drm/drmP.h"
 #include "dev/drm/drm.h"
@@ -542,7 +542,7 @@ static void radeon_do_cp_flush(drm_radeon_private_t * dev_priv)
 #if 0
 	u32 tmp;
 
-	tmp = RADEON_READ(RADEON_CP_RB_WPTR) | (1 << 31);
+	tmp = RADEON_READ(RADEON_CP_RB_WPTR) | (1U << 31);
 	RADEON_WRITE(RADEON_CP_RB_WPTR, tmp);
 #endif
 }

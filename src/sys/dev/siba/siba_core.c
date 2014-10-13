@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/siba/siba_core.c 232250 2012-02-28 13:19:34Z gavin $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/siba/siba_core.c 266921 2014-05-31 11:08:22Z brueffer $");
 
 /*
  * the Sonics Silicon Backplane driver.
@@ -1739,12 +1739,10 @@ static void
 siba_pcicore_init(struct siba_pci *spc)
 {
 	struct siba_dev_softc *sd = spc->spc_dev;
-	struct siba_softc *siba;
 
 	if (sd == NULL)
 		return;
 
-	siba = sd->sd_bus;
 	if (!siba_dev_isup_sub(sd))
 		siba_dev_up_sub(sd, 0);
 

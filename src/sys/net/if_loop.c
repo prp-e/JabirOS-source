@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)if_loop.c	8.2 (Berkeley) 1/9/95
- * $FreeBSD: release/10.0.0/sys/net/if_loop.c 249925 2013-04-26 12:50:32Z glebius $
+ * $FreeBSD: stable/10/sys/net/if_loop.c 263478 2014-03-21 15:15:30Z glebius $
  */
 
 /*
@@ -394,7 +394,7 @@ lortrequest(int cmd, struct rtentry *rt, struct rt_addrinfo *info)
 {
 
 	RT_LOCK_ASSERT(rt);
-	rt->rt_rmx.rmx_mtu = rt->rt_ifp->if_mtu;
+	rt->rt_mtu = rt->rt_ifp->if_mtu;
 }
 
 /*

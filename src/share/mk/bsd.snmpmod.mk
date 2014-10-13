@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/share/mk/bsd.snmpmod.mk 175156 2008-01-08 12:55:56Z harti $
+# $FreeBSD: stable/10/share/mk/bsd.snmpmod.mk 175156 2008-01-08 12:55:56Z harti $
 
 INCSDIR=	${INCLUDEDIR}/bsnmp
 

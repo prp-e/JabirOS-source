@@ -25,11 +25,18 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sbin/camcontrol/camcontrol.h 241737 2012-10-19 14:49:42Z ed $
+ * $FreeBSD: stable/10/sbin/camcontrol/camcontrol.h 268700 2014-07-15 17:26:43Z mav $
  */
 
 #ifndef _CAMCONTROL_H
 #define _CAMCONTROL_H
+
+typedef enum {
+	CC_OR_NOT_FOUND,
+	CC_OR_AMBIGUOUS,
+	CC_OR_FOUND
+} camcontrol_optret;
+
 /*
  * get_hook: Structure for evaluating args in a callback.
  */
@@ -56,6 +63,9 @@ void mode_list(struct cam_device *device, int page_control, int dbd,
 	       int retry_count, int timeout);
 int scsidoinquiry(struct cam_device *device, int argc, char **argv,
 		  char *combinedopt, int retry_count, int timeout);
+int scsipersist(struct cam_device *device, int argc, char **argv,
+		char *combinedopt, int retry_count, int timeout, int verbose,
+		int err_recover);
 char *cget(void *hook, char *name);
 int iget(void *hook, char *name);
 void arg_put(void *hook, int letter, void *arg, int count, char *name);

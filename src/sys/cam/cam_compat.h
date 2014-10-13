@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/cam/cam_compat.h 255870 2013-09-25 15:55:56Z scottl $
+ * $FreeBSD: stable/10/sys/cam/cam_compat.h 255870 2013-09-25 15:55:56Z scottl $
  */
 
 #ifndef _CAM_CAM_COMPAT_H

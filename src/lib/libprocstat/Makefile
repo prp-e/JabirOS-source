@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libprocstat/Makefile 252356 2013-06-28 21:00:08Z davide $
+# $FreeBSD: stable/10/lib/libprocstat/Makefile 252356 2013-06-28 21:00:08Z davide $
 
 .include <bsd.own.mk>
 

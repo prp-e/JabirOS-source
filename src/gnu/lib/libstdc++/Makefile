@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/gnu/lib/libstdc++/Makefile 255500 2013-09-12 21:24:59Z dim $
+# $FreeBSD: stable/10/gnu/lib/libstdc++/Makefile 260096 2013-12-30 20:15:46Z dim $
 
 .include <bsd.own.mk>
 
@@ -637,6 +637,4 @@ CLEANFILES+=	${VERSION_MAP}
 # Filter out libc++-specific flags, and -std= flags above c++98 or gnu++98.
 CXXFLAGS:=	${CXXFLAGS:N-stdlib=libc++:N-std=c++[01][13x]:N-std=gnu++[01][13x]}
 
-.if ${COMPILER_TYPE} == "clang"
-CXXFLAGS+=	-stdlib=libstdc++
-.endif
+CXXFLAGS.clang+= -stdlib=libstdc++

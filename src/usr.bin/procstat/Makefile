@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/procstat/Makefile 235642 2012-05-19 05:07:03Z marcel $
+# $FreeBSD: stable/10/usr.bin/procstat/Makefile 267979 2014-06-27 20:34:22Z jhb $
 
 PROG=	procstat
 MAN=	procstat.1
@@ -11,6 +11,7 @@ SRCS=	procstat.c		\
 	procstat_files.c	\
 	procstat_kstack.c	\
 	procstat_rlimit.c	\
+	procstat_rusage.c	\
 	procstat_sigs.c		\
 	procstat_threads.c	\
 	procstat_vm.c

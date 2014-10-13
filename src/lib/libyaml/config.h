@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/lib/libyaml/config.h 247779 2013-03-04 11:27:41Z bapt $ */
+/* $FreeBSD: stable/10/lib/libyaml/config.h 247779 2013-03-04 11:27:41Z bapt $ */
 
 /* config.h.  Generated from config.h.in by configure.  */
 /* config.h.in.  Generated from configure.ac by autoheader.  */

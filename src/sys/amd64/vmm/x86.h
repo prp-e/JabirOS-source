@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/amd64/vmm/x86.h 255287 2013-09-06 05:16:10Z grehan $
+ * $FreeBSD: stable/10/sys/amd64/vmm/x86.h 255287 2013-09-06 05:16:10Z grehan $
  */
 
 #ifndef _X86_H_

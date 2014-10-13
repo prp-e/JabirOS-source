@@ -1,5 +1,5 @@
 #
-# $FreeBSD: release/10.0.0/sys/modules/virtio/Makefile 241470 2012-10-11 23:41:18Z grehan $
+# $FreeBSD: stable/10/sys/modules/virtio/Makefile 268933 2014-07-21 00:21:56Z jhb $
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -23,6 +23,6 @@
 # SUCH DAMAGE.
 #
 
-SUBDIR=	virtio pci network block balloon scsi
+SUBDIR=	virtio pci network block balloon scsi random
 
 .include <bsd.subdir.mk>

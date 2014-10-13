@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netinet/raw_ip.c 243882 2012-12-05 08:04:20Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sys/netinet/raw_ip.c 266718 2014-05-26 22:54:15Z smh $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"
@@ -453,26 +453,26 @@ rip_output(struct mbuf *m, struct socket *so, u_long dst)
 		ip->ip_p = inp->inp_ip_p;
 		ip->ip_len = htons(m->m_pkthdr.len);
 		ip->ip_src = inp->inp_laddr;
+		ip->ip_dst.s_addr = dst;
 		if (jailed(inp->inp_cred)) {
 			/*
 			 * prison_local_ip4() would be good enough but would
 			 * let a source of INADDR_ANY pass, which we do not
-			 * want to see from jails. We do not go through the
-			 * pain of in_pcbladdr() for raw sockets.
+			 * want to see from jails.
 			 */
-			if (ip->ip_src.s_addr == INADDR_ANY)
-				error = prison_get_ip4(inp->inp_cred,
-				    &ip->ip_src);
-			else
+			if (ip->ip_src.s_addr == INADDR_ANY) {
+				error = in_pcbladdr(inp, &ip->ip_dst, &ip->ip_src,
+				    inp->inp_cred);
+			} else {
 				error = prison_local_ip4(inp->inp_cred,
 				    &ip->ip_src);
+			}
 			if (error != 0) {
 				INP_RUNLOCK(inp);
 				m_freem(m);
 				return (error);
 			}
 		}
-		ip->ip_dst.s_addr = dst;
 		ip->ip_ttl = inp->inp_ip_ttl;
 	} else {
 		if (m->m_pkthdr.len > IP_MAXPACKET) {

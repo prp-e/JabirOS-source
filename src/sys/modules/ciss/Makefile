@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/ciss/Makefile 106038 2002-10-27 12:09:51Z mux $
+# $FreeBSD: stable/10/sys/modules/ciss/Makefile 106038 2002-10-27 12:09:51Z mux $
 
 KMOD		=  ciss
 .PATH:		${.CURDIR}/../../dev/${KMOD}

@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/vm/device_pager.c 254182 2013-08-10 17:36:42Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/vm/device_pager.c 263360 2014-03-19 13:09:17Z kib $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -412,6 +412,7 @@ old_dev_pager_ctor(void *handle, vm_ooffset_t size, vm_prot_t prot,
 	 * XXX assumes VM_PROT_* == PROT_*
 	 */
 	npages = OFF_TO_IDX(size);
+	paddr = 0; /* Make paddr initialized for the case of size == 0. */
 	for (off = foff; npages--; off += PAGE_SIZE) {
 		if (csw->d_mmap(dev, off, &paddr, (int)prot, &dummy) != 0) {
 			dev_relthread(dev, ref);

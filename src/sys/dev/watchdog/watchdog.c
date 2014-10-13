@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/watchdog/watchdog.c 253719 2013-07-27 20:47:01Z alfred $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/watchdog/watchdog.c 253719 2013-07-27 20:47:01Z alfred $");
 
 #include <sys/param.h>
 #include <sys/types.h>

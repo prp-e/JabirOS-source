@@ -31,7 +31,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/amd64/amd64/exception.S 251988 2013-06-19 05:05:16Z kib $
+ * $FreeBSD: stable/10/sys/amd64/amd64/exception.S 267083 2014-06-05 00:40:48Z kib $
  */
 
 #include "opt_atpic.h"
@@ -722,21 +722,38 @@ ld_fsbase:
 	pushfq
 	cli
 	movl	$MSR_GSBASE,%ecx
+	/* Save current kernel %gs base into %r12d:%r13d */
 	rdmsr
+	movl	%eax,%r12d
+	movl	%edx,%r13d
 	.globl	ld_gs
 ld_gs:
 	movw	%si,%gs
+	/* Save user %gs base into %r14d:%r15d */
+	rdmsr
+	movl	%eax,%r14d
+	movl	%edx,%r15d
+	/* Restore kernel %gs base */
+	movl	%r12d,%eax
+	movl	%r13d,%edx
 	wrmsr
 	popfq
+	/*
+	 * Restore user %gs base, either from PCB if used for TLS, or
+	 * from the previously saved msr read.
+	 */
+	movl	$MSR_KGSBASE,%ecx
 	cmpw	$KUG32SEL,%si
 	jne	1f
-	movl	$MSR_KGSBASE,%ecx
 	movl	PCB_GSBASE(%r8),%eax
 	movl	PCB_GSBASE+4(%r8),%edx
+	jmp	ld_gsbase
+1:
+	movl	%r14d,%eax
+	movl	%r15d,%edx
 	.globl	ld_gsbase
 ld_gsbase:
-	wrmsr
-1:
+	wrmsr	/* May trap if non-canonical, but only for TLS. */
 	.globl	ld_es
 ld_es:
 	movw	TF_ES(%rsp),%es

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/wi/Makefile 253826 2013-07-31 01:42:59Z jhibbits $
+# $FreeBSD: stable/10/sys/modules/wi/Makefile 253826 2013-07-31 01:42:59Z jhibbits $
 
 .PATH: ${.CURDIR}/../../dev/wi
 

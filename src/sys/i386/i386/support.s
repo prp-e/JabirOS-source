@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/i386/i386/support.s 253328 2013-07-13 19:42:52Z kib $
+ * $FreeBSD: stable/10/sys/i386/i386/support.s 271071 2014-09-04 00:40:41Z pfg $
  */
 
 #include "opt_npx.h"
@@ -62,8 +62,8 @@ ENTRY(bzero)
 	stosb
 	popl	%edi
 	ret
-END(bzero)	
-	
+END(bzero)
+
 ENTRY(sse2_pagezero)
 	pushl	%ebx
 	movl	8(%esp),%ecx
@@ -694,7 +694,7 @@ ENTRY(lgdt)
 	movl	4(%esp),%eax
 	lgdt	(%eax)
 #endif
-	
+
 	/* flush the prefetch q */
 	jmp	1f
 	nop
@@ -740,13 +740,13 @@ END(ssdtosd)
 
 /* void reset_dbregs() */
 ENTRY(reset_dbregs)
-	movl    $0,%eax
-	movl    %eax,%dr7     /* disable all breapoints first */
-	movl    %eax,%dr0
-	movl    %eax,%dr1
-	movl    %eax,%dr2
-	movl    %eax,%dr3
-	movl    %eax,%dr6
+	movl	$0,%eax
+	movl	%eax,%dr7	/* disable all breakpoints first */
+	movl	%eax,%dr0
+	movl	%eax,%dr1
+	movl	%eax,%dr2
+	movl	%eax,%dr3
+	movl	%eax,%dr6
 	ret
 END(reset_dbregs)
 

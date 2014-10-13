@@ -38,7 +38,7 @@ static const char copyright[] =
 static char sccsid[] = "@(#)ifconfig.c	8.2 (Berkeley) 2/16/94";
 #endif
 static const char rcsid[] =
-  "$FreeBSD: release/10.0.0/sbin/ifconfig/ifconfig.c 244538 2012-12-21 15:54:13Z kevlo $";
+  "$FreeBSD: stable/10/sbin/ifconfig/ifconfig.c 270009 2014-08-15 03:52:40Z gjb $";
 #endif /* not lint */
 
 #include <sys/param.h>
@@ -78,7 +78,7 @@ static const char rcsid[] =
 
 /*
  * Since "struct ifreq" is composed of various union members, callers
- * should pay special attention to interprete the value.
+ * should pay special attention to interpret the value.
  * (.e.g. little/big endian difference in the structure.)
  */
 struct	ifreq ifr;

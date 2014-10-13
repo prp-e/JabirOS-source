@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/usr.bin/bmake/config.h 253883 2013-08-02 06:25:28Z sjg $ */
+/* $FreeBSD: stable/10/usr.bin/bmake/config.h 253883 2013-08-02 06:25:28Z sjg $ */
 /* config.h.  Generated from config.h.in by configure.  */
 /* config.h.in.  Generated from configure.in by autoheader.  */
 

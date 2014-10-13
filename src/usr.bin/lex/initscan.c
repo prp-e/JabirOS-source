@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/usr.bin/lex/initscan.c 250881 2013-05-21 19:32:35Z jkim $ */
+/* $FreeBSD: stable/10/usr.bin/lex/initscan.c 250881 2013-05-21 19:32:35Z jkim $ */
 
 #line 3 "<stdout>"
 

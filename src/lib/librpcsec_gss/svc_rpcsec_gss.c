@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: release/10.0.0/lib/librpcsec_gss/svc_rpcsec_gss.c 241720 2012-10-19 05:43:38Z ed $
+ *	$FreeBSD: stable/10/lib/librpcsec_gss/svc_rpcsec_gss.c 241720 2012-10-19 05:43:38Z ed $
  */
 /*
   svc_rpcsec_gss.c

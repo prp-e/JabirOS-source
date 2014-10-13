@@ -49,7 +49,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/isci/scil/sci_base_controller.h 240518 2012-09-14 21:28:56Z eadler $
+ * $FreeBSD: stable/10/sys/dev/isci/scil/sci_base_controller.h 240518 2012-09-14 21:28:56Z eadler $
  */
 #ifndef _SCI_BASE_CONTROLLER_H_
 #define _SCI_BASE_CONTROLLER_H_

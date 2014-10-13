@@ -40,7 +40,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/csu/arm/crt1.c 255874 2013-09-26 07:53:18Z andrew $");
+__FBSDID("$FreeBSD: stable/10/lib/csu/arm/crt1.c 266410 2014-05-18 16:43:47Z ian $");
 
 #ifndef lint
 #ifndef __GNUC__
@@ -123,7 +123,7 @@ static const struct {
 	char	desc[sizeof(MACHINE_ARCH)];
 } archtag __attribute__ ((section (NOTE_SECTION), aligned(4))) __used = {
 	.namesz = sizeof(NOTE_FREEBSD_VENDOR),
-	.descsz = sizeof(int32_t),
+	.descsz = sizeof(MACHINE_ARCH),
 	.type = ARCH_NOTETYPE,
 	.name = NOTE_FREEBSD_VENDOR,
 	.desc = MACHINE_ARCH

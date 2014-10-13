@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/bin/pwait/pwait.c 245506 2013-01-16 18:15:25Z delphij $");
+__FBSDID("$FreeBSD: stable/10/bin/pwait/pwait.c 245506 2013-01-16 18:15:25Z delphij $");
 
 #include <sys/types.h>
 #include <sys/event.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/etc/master.passwd 256366 2013-10-12 06:08:18Z rpaulo $
+# $FreeBSD: stable/10/etc/master.passwd 256366 2013-10-12 06:08:18Z rpaulo $
 #
 root::0:0::0:0:Charlie &:/root:/bin/csh
 toor:*:0:0::0:0:Bourne-again Superuser:/root:

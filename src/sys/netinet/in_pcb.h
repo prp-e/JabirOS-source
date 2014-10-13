@@ -32,7 +32,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)in_pcb.h	8.1 (Berkeley) 6/10/93
- * $FreeBSD: release/10.0.0/sys/netinet/in_pcb.h 252710 2013-07-04 18:38:00Z trociny $
+ * $FreeBSD: stable/10/sys/netinet/in_pcb.h 266718 2014-05-26 22:54:15Z smh $
  */
 
 #ifndef _NETINET_IN_PCB_H_
@@ -636,6 +636,8 @@ void	in_pcbdrop(struct inpcb *);
 void	in_pcbfree(struct inpcb *);
 int	in_pcbinshash(struct inpcb *);
 int	in_pcbinshash_nopcbgroup(struct inpcb *);
+int	in_pcbladdr(struct inpcb *, struct in_addr *, struct in_addr *,
+	    struct ucred *);
 struct inpcb *
 	in_pcblookup_local(struct inpcbinfo *,
 	    struct in_addr, u_short, int, struct ucred *);

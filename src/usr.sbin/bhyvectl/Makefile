@@ -1,5 +1,5 @@
 #
-# $FreeBSD: release/10.0.0/usr.sbin/bhyvectl/Makefile 256176 2013-10-09 03:56:07Z neel $
+# $FreeBSD: stable/10/usr.sbin/bhyvectl/Makefile 256176 2013-10-09 03:56:07Z neel $
 #
 
 PROG=	bhyvectl

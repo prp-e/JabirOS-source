@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/usr.bin/grep/regex/tre-fastmatch.c 253810 2013-07-30 18:16:43Z ache $ */
+/* $FreeBSD: stable/10/usr.bin/grep/regex/tre-fastmatch.c 265160 2014-04-30 20:39:08Z pfg $ */
 
 /*-
  * Copyright (c) 1999 James Howard and Dag-Erling Coïdan Smørgrav
@@ -444,7 +444,7 @@ static int	fastcmp(const fastmatch_t *fg, const void *data,
   }
 
 /*
- * Copies the pattern pat having lenght n to p and stores
+ * Copies the pattern pat having length n to p and stores
  * the size in l.
  */
 #define SAVE_PATTERN(src, srclen, dst, dstlen)				\

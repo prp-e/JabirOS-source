@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/etc/pam.d/Makefile 236281 2012-05-30 03:10:22Z miwi $
+# $FreeBSD: stable/10/etc/pam.d/Makefile 236281 2012-05-30 03:10:22Z miwi $
 
 NO_OBJ=
 

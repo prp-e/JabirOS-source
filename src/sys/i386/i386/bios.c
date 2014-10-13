@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/i386/i386/bios.c 236213 2012-05-29 01:48:06Z kevlo $");
+__FBSDID("$FreeBSD: stable/10/sys/i386/i386/bios.c 236213 2012-05-29 01:48:06Z kevlo $");
 
 /*
  * Code for dealing with the BIOS in x86 PC systems.

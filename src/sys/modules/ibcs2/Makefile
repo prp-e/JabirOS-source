@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/ibcs2/Makefile 193588 2009-06-06 17:01:44Z rwatson $
+# $FreeBSD: stable/10/sys/modules/ibcs2/Makefile 193588 2009-06-06 17:01:44Z rwatson $
 
 .PATH: ${.CURDIR}/../../i386/ibcs2
 

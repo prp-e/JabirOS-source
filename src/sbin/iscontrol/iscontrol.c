@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/iscontrol/iscontrol.c 254657 2013-08-22 14:02:34Z trasz $");
+__FBSDID("$FreeBSD: stable/10/sbin/iscontrol/iscontrol.c 254657 2013-08-22 14:02:34Z trasz $");
 
 #include <sys/param.h>
 #include <sys/types.h>

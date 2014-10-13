@@ -6,7 +6,7 @@
  * this stuff is worth it, you can buy me a beer in return.   Poul-Henning Kamp
  * ----------------------------------------------------------------------------
  *
- * $FreeBSD: release/10.0.0/sys/amd64/include/smp.h 255217 2013-09-04 23:31:29Z kib $
+ * $FreeBSD: stable/10/sys/amd64/include/smp.h 264118 2014-04-04 14:54:54Z royger $
  *
  */
 
@@ -62,6 +62,12 @@ struct pmap;
 void	cpu_add(u_int apic_id, char boot_cpu);
 void	cpustop_handler(void);
 void	cpususpend_handler(void);
+void	invltlb_handler(void);
+void	invltlb_pcid_handler(void);
+void	invlpg_handler(void);
+void	invlpg_pcid_handler(void);
+void	invlrng_handler(void);
+void	invlcache_handler(void);
 void	init_secondary(void);
 void	ipi_startup(int apic_id, int vector);
 void	ipi_all_but_self(u_int ipi);

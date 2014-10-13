@@ -25,7 +25,7 @@
  */
 
 /*
- * $FreeBSD: release/10.0.0/sys/sys/busdma_bufalloc.h 244466 2012-12-20 00:34:54Z cognet $
+ * $FreeBSD: stable/10/sys/sys/busdma_bufalloc.h 244466 2012-12-20 00:34:54Z cognet $
  */
 
 /*

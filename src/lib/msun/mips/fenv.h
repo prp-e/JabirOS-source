@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/msun/mips/fenv.h 226218 2011-10-10 15:43:09Z das $
+ * $FreeBSD: stable/10/lib/msun/mips/fenv.h 226218 2011-10-10 15:43:09Z das $
  */
 
 #ifndef	_FENV_H_

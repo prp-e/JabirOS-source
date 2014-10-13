@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/ppp/iface.c 230347 2012-01-20 01:37:31Z eadler $
+ * $FreeBSD: stable/10/usr.sbin/ppp/iface.c 230347 2012-01-20 01:37:31Z eadler $
  */
 
 #include <sys/param.h>

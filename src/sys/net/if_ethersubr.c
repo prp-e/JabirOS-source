@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)if_ethersubr.c	8.1 (Berkeley) 6/10/93
- * $FreeBSD: release/10.0.0/sys/net/if_ethersubr.c 256381 2013-10-12 15:31:36Z markm $
+ * $FreeBSD: stable/10/sys/net/if_ethersubr.c 263086 2014-03-12 10:45:58Z glebius $
  */
 
 #include "opt_atalk.h"
@@ -62,9 +62,10 @@
 #include <net/if_bridgevar.h>
 #include <net/if_vlan_var.h>
 #include <net/if_llatbl.h>
-#include <net/pf_mtag.h>
 #include <net/pfil.h>
 #include <net/vnet.h>
+
+#include <netpfil/pf/pf_mtag.h>
 
 #if defined(INET) || defined(INET6)
 #include <netinet/in.h>

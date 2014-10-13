@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/net/ieee8023ad_lacp.c 257956 2013-11-11 09:47:51Z ae $");
+__FBSDID("$FreeBSD: stable/10/sys/net/ieee8023ad_lacp.c 260179 2014-01-02 01:51:54Z scottl $");
 
 #include <sys/param.h>
 #include <sys/callout.h>
@@ -874,7 +874,7 @@ lacp_select_tx_port(struct lagg_softc *sc, struct mbuf *m)
 	}
 
 	if (sc->use_flowid && (m->m_flags & M_FLOWID))
-		hash = m->m_pkthdr.flowid;
+		hash = m->m_pkthdr.flowid >> sc->flowid_shift;
 	else
 		hash = lagg_hashmbuf(sc, m, lsc->lsc_hashkey);
 	hash %= pm->pm_count;

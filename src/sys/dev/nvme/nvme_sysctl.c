@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/nvme/nvme_sysctl.c 253112 2013-07-09 21:22:17Z jimharris $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/nvme/nvme_sysctl.c 253112 2013-07-09 21:22:17Z jimharris $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

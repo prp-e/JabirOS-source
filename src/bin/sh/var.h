@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)var.h	8.2 (Berkeley) 5/4/95
- * $FreeBSD: release/10.0.0/bin/sh/var.h 230998 2012-02-04 23:12:14Z jilles $
+ * $FreeBSD: stable/10/bin/sh/var.h 262951 2014-03-09 17:04:31Z jmmv $
  */
 
 /*
@@ -75,7 +75,6 @@ extern struct var vifs;
 extern struct var vmail;
 extern struct var vmpath;
 extern struct var vpath;
-extern struct var vppid;
 extern struct var vps1;
 extern struct var vps2;
 extern struct var vps4;

@@ -30,7 +30,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/bge/if_bgereg.h 258959 2013-12-05 06:13:59Z yongari $
+ * $FreeBSD: stable/10/sys/dev/bge/if_bgereg.h 264442 2014-04-14 04:51:59Z yongari $
  */
 
 /*
@@ -2852,7 +2852,7 @@ struct bge_gib {
  */
 
 #define	BGE_NSEG_JUMBO	4
-#define	BGE_NSEG_NEW	32
+#define	BGE_NSEG_NEW	35
 #define	BGE_TSOSEG_SZ	4096
 
 /* Maximum DMA address for controllers that have 40bit DMA address bug. */

@@ -72,7 +72,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/pccbb/pccbb_pci.c 254263 2013-08-12 23:30:01Z scottl $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/pccbb/pccbb_pci.c 271060 2014-09-03 23:08:21Z gavin $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -472,6 +472,8 @@ cbb_chipinit(struct cbb_softc *sc)
 
 	/* Enable memory access */
 	pci_enable_busmaster(sc->dev);
+	/* XXX: This should not be necessary, but some chipsets require it */
+	PCI_MASK_CONFIG(sc->dev, PCIR_COMMAND, | PCIM_CMD_PORTEN, 2);
 
 	/* disable Legacy IO */
 	switch (sc->chipset) {

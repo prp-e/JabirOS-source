@@ -28,7 +28,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/s3c2xx0/s3c24x0reg.h 236990 2012-06-13 04:59:00Z imp $
+ * $FreeBSD: stable/10/sys/arm/s3c2xx0/s3c24x0reg.h 236990 2012-06-13 04:59:00Z imp $
  */
 
 

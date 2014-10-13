@@ -22,7 +22,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/sdhci/sdhci.h 254496 2013-08-18 19:08:53Z ian $
+ * $FreeBSD: stable/10/sys/dev/sdhci/sdhci.h 271051 2014-09-03 20:07:26Z marius $
  */
 
 #ifndef	__SDHCI_H__
@@ -104,6 +104,7 @@
 #define  SDHCI_CMD_INHIBIT	0x00000001
 #define  SDHCI_DAT_INHIBIT	0x00000002
 #define  SDHCI_DAT_ACTIVE	0x00000004
+#define  SDHCI_RETUNE_REQUEST	0x00000008
 #define  SDHCI_DOING_WRITE	0x00000100
 #define  SDHCI_DOING_READ	0x00000200
 #define  SDHCI_SPACE_AVAILABLE	0x00000400
@@ -112,8 +113,8 @@
 #define  SDHCI_CARD_STABLE	0x00020000
 #define  SDHCI_CARD_PIN		0x00040000
 #define  SDHCI_WRITE_PROTECT	0x00080000
-#define  SDHCI_STATE_DAT	0x00700000
-#define  SDHCI_STATE_CMD	0x00800000
+#define  SDHCI_STATE_DAT_MASK	0x00f00000
+#define  SDHCI_STATE_CMD	0x01000000
 
 #define SDHCI_HOST_CONTROL 	0x28
 #define  SDHCI_CTRL_LED		0x01
@@ -222,6 +223,8 @@
 #define	SDHCI_SPEC_200		1
 #define	SDHCI_SPEC_300		2
 
+SYSCTL_DECL(_hw_sdhci);
+
 struct sdhci_slot {
 	u_int		quirks;		/* Chip specific quirks */
 	u_int		caps;		/* Override SDHCI_CAPABILITIES */
@@ -240,6 +243,7 @@ struct sdhci_slot {
 	bus_addr_t	paddr;		/* DMA buffer address */
 	struct task	card_task;	/* Card presence check task */
 	struct callout	card_callout;	/* Card insert delay callout */
+	struct callout	timeout_callout;/* Card command/data response timeout */
 	struct mmc_host host;		/* Host parameters */
 	struct mmc_request *req;	/* Current request */
 	struct mmc_command *curcmd;	/* Current command of current request */

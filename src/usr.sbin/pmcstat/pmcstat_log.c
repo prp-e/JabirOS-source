@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/pmcstat/pmcstat_log.c 241737 2012-10-19 14:49:42Z ed $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/pmcstat/pmcstat_log.c 266590 2014-05-23 17:46:00Z emaste $");
 
 #include <sys/param.h>
 #include <sys/endian.h>
@@ -149,6 +149,7 @@ struct pmcstat_process *pmcstat_kernproc; /* kernel 'process' */
 #include "pmcpl_gprof.h"
 #include "pmcpl_callgraph.h"
 #include "pmcpl_annotate.h"
+#include "pmcpl_annotate_cg.h"
 #include "pmcpl_calltree.h"
 
 static struct pmc_plugins  {
@@ -213,6 +214,11 @@ static struct pmc_plugins  {
 		.pl_topkeypress		= pmcpl_ct_topkeypress,
 		.pl_topdisplay		= pmcpl_ct_topdisplay
 	},
+	{
+		.pl_name		= "annotate_cg",
+		.pl_process		= pmcpl_annotate_cg_process
+	},
+
 	{
 		.pl_name		= NULL
 	}
@@ -301,10 +307,10 @@ pmcstat_stats_reset(int reset_global)
 static int
 pmcstat_string_compute_hash(const char *s)
 {
-	int hash;
+	unsigned hash;
 
-	for (hash = 0; *s; s++)
-		hash ^= *s;
+	for (hash = 2166136261; *s; s++)
+		hash = (hash ^ *s) * 16777619;
 
 	return (hash & PMCSTAT_HASH_MASK);
 }

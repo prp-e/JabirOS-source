@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/boot/pc98/libpc98/bioscd.c 226746 2011-10-25 19:45:12Z jhb $");
+__FBSDID("$FreeBSD: stable/10/sys/boot/pc98/libpc98/bioscd.c 226746 2011-10-25 19:45:12Z jhb $");
 
 /*
  * BIOS CD device handling for CD's that have been booted off of via no

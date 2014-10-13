@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/netgraph/atm/uni/Makefile 122219 2003-11-07 09:15:14Z harti $
+# $FreeBSD: stable/10/sys/modules/netgraph/atm/uni/Makefile 122219 2003-11-07 09:15:14Z harti $
 #
 # Author: Harti Brandt <harti@freebsd.org>
 #

@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/amd64/amd64/support.S 249439 2013-04-13 15:20:33Z kib $
+ * $FreeBSD: stable/10/sys/amd64/amd64/support.S 271071 2014-09-04 00:40:41Z pfg $
  */
 
 #include "opt_ddb.h"
@@ -59,7 +59,7 @@ ENTRY(bzero)
 	stosb
 	ret
 END(bzero)
-	
+
 /* Address: %rdi */
 ENTRY(pagezero)
 	movq	$-PAGE_SIZE,%rdx
@@ -137,7 +137,7 @@ ENTRY(bcopy)
 	cld
 	ret
 END(bcopy)
-	
+
 /*
  * Note: memcpy does not support overlapping copies
  */
@@ -181,10 +181,10 @@ ENTRY(pagecopy)
 	ret
 END(pagecopy)
 
-/* fillw(pat, base, cnt) */  
+/* fillw(pat, base, cnt) */
 /*       %rdi,%rsi, %rdx */
 ENTRY(fillw)
-	movq	%rdi,%rax   
+	movq	%rdi,%rax
 	movq	%rsi,%rdi
 	movq	%rdx,%rcx
 	cld
@@ -388,7 +388,7 @@ ENTRY(fuword)
 	movq	(%rdi),%rax
 	movq	$0,PCB_ONFAULT(%rcx)
 	ret
-END(fuword64)	
+END(fuword64)
 END(fuword)
 
 ENTRY(fuword32)

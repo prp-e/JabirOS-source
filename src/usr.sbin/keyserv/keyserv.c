@@ -32,7 +32,7 @@
 static char sccsid[] = "@(#)keyserv.c	1.15	94/04/25 SMI";
 #endif
 static const char rcsid[] =
-  "$FreeBSD: release/10.0.0/usr.sbin/keyserv/keyserv.c 239991 2012-09-01 14:45:15Z ed $";
+  "$FreeBSD: stable/10/usr.sbin/keyserv/keyserv.c 239991 2012-09-01 14:45:15Z ed $";
 #endif /* not lint */
 
 /*

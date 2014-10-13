@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/sys/timeet.h 247463 2013-02-28 13:46:03Z mav $
+ * $FreeBSD: stable/10/sys/sys/timeet.h 266347 2014-05-17 20:10:12Z ian $
  */
 
 #ifndef _SYS_TIMEEC_H_
@@ -89,6 +89,7 @@ extern struct mtx	et_eventtimers_mtx;
 /* Driver API */
 int	et_register(struct eventtimer *et);
 int	et_deregister(struct eventtimer *et);
+void	et_change_frequency(struct eventtimer *et, uint64_t newfreq);
 /* Consumer API  */
 struct eventtimer *et_find(const char *name, int check, int want);
 int	et_init(struct eventtimer *et, et_event_cb_t *event,

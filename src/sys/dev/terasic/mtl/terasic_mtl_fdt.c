@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/terasic/mtl/terasic_mtl_fdt.c 245380 2013-01-13 16:57:11Z rwatson $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/terasic/mtl/terasic_mtl_fdt.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/bus.h>
@@ -58,6 +58,9 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/dev/terasic/mtl/terasic_mtl_fdt.c 245380 
 static int
 terasic_mtl_fdt_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (ofw_bus_is_compatible(dev, "sri-cambridge,mtl")) {
 		device_set_desc(dev, "Terasic Multi-touch LCD (MTL)");

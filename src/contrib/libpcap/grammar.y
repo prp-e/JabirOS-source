@@ -19,7 +19,7 @@
  * WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
  * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
  *
- * $FreeBSD: release/10.0.0/contrib/libpcap/grammar.y 251129 2013-05-30 08:02:00Z delphij $
+ * $FreeBSD: stable/10/contrib/libpcap/grammar.y 263086 2014-03-12 10:45:58Z glebius $
  */
 #ifndef lint
 static const char rcsid[] _U_ =
@@ -56,7 +56,7 @@ struct rtentry;
 #include "gencode.h"
 #ifdef HAVE_NET_PFVAR_H
 #include <net/if.h>
-#include <net/pfvar.h>
+#include <netpfil/pf/pf.h>
 #include <net/if_pflog.h>
 #endif
 #include "ieee80211.h"

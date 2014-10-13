@@ -24,7 +24,7 @@
  * SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/wii/wii_gpio.c 250788 2013-05-18 19:30:42Z rpaulo $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/wii/wii_gpio.c 250788 2013-05-18 19:30:42Z rpaulo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

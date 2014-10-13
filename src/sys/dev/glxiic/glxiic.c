@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/glxiic/glxiic.c 241885 2012-10-22 13:06:09Z eadler $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/glxiic/glxiic.c 268210 2014-07-03 10:59:42Z daichi $");
 /*
  * AMD Geode LX CS5536 System Management Bus controller.
  *
@@ -711,6 +711,7 @@ static int
 glxiic_state_master_addr_callback(struct glxiic_softc *sc, uint8_t status)
 {
 	uint8_t slave;
+	uint8_t ctrl1;
 
 	GLXIIC_ASSERT_LOCKED(sc);
 
@@ -745,6 +746,13 @@ glxiic_state_master_addr_callback(struct glxiic_softc *sc, uint8_t status)
 		glxiic_set_state_locked(sc, GLXIIC_STATE_MASTER_STOP);
 
 	bus_write_1(sc->smb_res, GLXIIC_SMB_SDA, slave);
+
+	if ((sc->msg->flags & IIC_M_RD) != 0 && sc->ndata == 1) {
+		/* Last byte from slave, set NACK. */
+		ctrl1 = bus_read_1(sc->smb_res, GLXIIC_SMB_CTRL1);
+		bus_write_1(sc->smb_res, GLXIIC_SMB_CTRL1,
+		    ctrl1 | GLXIIC_SMB_CTRL1_ACK_BIT);
+	}
 
 	return (IIC_NOERR);
 }
@@ -811,13 +819,6 @@ glxiic_state_master_rx_callback(struct glxiic_softc *sc, uint8_t status)
 		return (IIC_ENOACK);
 	}
 
-	if (sc->ndata == 1) {
-		/* Last byte from slave, set NACK. */
-		ctrl1 = bus_read_1(sc->smb_res, GLXIIC_SMB_CTRL1);
-		bus_write_1(sc->smb_res, GLXIIC_SMB_CTRL1,
-		    ctrl1 | GLXIIC_SMB_CTRL1_ACK_BIT);
-	}
-
 	if ((status & GLXIIC_SMB_STS_STASTR_BIT) != 0) {
 		/* Bus is stalled, clear and wait for data. */
 		bus_write_1(sc->smb_res, GLXIIC_SMB_STS,
@@ -835,6 +836,13 @@ glxiic_state_master_rx_callback(struct glxiic_softc *sc, uint8_t status)
 		/* Proceed with stop on reading last byte. */
 		glxiic_set_state_locked(sc, GLXIIC_STATE_MASTER_STOP);
 		return (glxiic_state_table[sc->state].callback(sc, status));
+	}
+
+	if (sc->ndata == 1) {
+		/* Last byte from slave, set NACK. */
+		ctrl1 = bus_read_1(sc->smb_res, GLXIIC_SMB_CTRL1);
+		bus_write_1(sc->smb_res, GLXIIC_SMB_CTRL1,
+		    ctrl1 | GLXIIC_SMB_CTRL1_ACK_BIT);
 	}
 
 	glxiic_start_timeout_locked(sc);

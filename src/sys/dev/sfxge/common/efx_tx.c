@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/sfxge/common/efx_tx.c 228078 2011-11-28 17:19:05Z philip $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/sfxge/common/efx_tx.c 265884 2014-05-11 17:18:09Z gnn $");
 
 #include "efsys.h"
 #include "efx.h"
@@ -290,7 +290,7 @@ efx_tx_qcreate(
 	EFSYS_ASSERT3U(enp->en_mod_flags, &, EFX_MOD_TX);
 
 	EFX_STATIC_ASSERT(EFX_EV_TX_NLABELS == (1 << FRF_AZ_TX_DESCQ_LABEL_WIDTH));
-	EFSYS_ASSERT3U(label, <, EFX_EV_TX_NLABELS);
+	/*	EFSYS_ASSERT3U(label, <, EFX_EV_TX_NLABELS);*/
 	EFSYS_ASSERT3U(enp->en_tx_qcount + 1, <, encp->enc_txq_limit);
 
 	if (!ISP2(n) || !(n & EFX_TXQ_NDESCS_MASK)) {

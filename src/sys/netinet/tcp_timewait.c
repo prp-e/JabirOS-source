@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netinet/tcp_timewait.c 243882 2012-12-05 08:04:20Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sys/netinet/tcp_timewait.c 270057 2014-08-16 14:09:26Z bz $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"
@@ -105,6 +105,7 @@ static VNET_DEFINE(TAILQ_HEAD(, tcptw), twq_2msl);
 
 static void	tcp_tw_2msl_reset(struct tcptw *, int);
 static void	tcp_tw_2msl_stop(struct tcptw *);
+static int	tcp_twrespond(struct tcptw *, int);
 
 static int
 tcptw_auto_size(void)
@@ -349,7 +350,7 @@ tcp_twrecycleable(struct tcptw *tw)
  * looking for a pcb in the listen state.  Returns 0 otherwise.
  */
 int
-tcp_twcheck(struct inpcb *inp, struct tcpopt *to, struct tcphdr *th,
+tcp_twcheck(struct inpcb *inp, struct tcpopt *to __unused, struct tcphdr *th,
     struct mbuf *m, int tlen)
 {
 	struct tcptw *tw;
@@ -501,7 +502,7 @@ tcp_twclose(struct tcptw *tw, int reuse)
 	uma_zfree(V_tcptw_zone, tw);
 }
 
-int
+static int
 tcp_twrespond(struct tcptw *tw, int flags)
 {
 	struct inpcb *inp = tw->tw_inpcb;

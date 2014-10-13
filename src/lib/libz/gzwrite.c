@@ -3,7 +3,7 @@
  * For conditions of distribution and use, see copyright notice in zlib.h
  */
 
-/* $FreeBSD: release/10.0.0/lib/libz/gzwrite.c 250261 2013-05-05 06:20:49Z delphij $ */
+/* $FreeBSD: stable/10/lib/libz/gzwrite.c 250261 2013-05-05 06:20:49Z delphij $ */
 
 #include "gzguts.h"
 #include <unistd.h>

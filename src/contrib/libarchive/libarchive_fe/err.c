@@ -25,7 +25,7 @@
  */
 
 #include "lafe_platform.h"
-__FBSDID("$FreeBSD: release/10.0.0/contrib/libarchive/libarchive_fe/err.c 238856 2012-07-28 06:38:44Z mm $");
+__FBSDID("$FreeBSD: stable/10/contrib/libarchive/libarchive_fe/err.c 238856 2012-07-28 06:38:44Z mm $");
 
 #ifdef HAVE_STDARG_H
 #include <stdarg.h>

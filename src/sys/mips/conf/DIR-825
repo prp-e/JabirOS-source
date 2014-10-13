@@ -11,7 +11,7 @@
 # + 64MB RAM
 # + uboot environment
 
-# $FreeBSD: release/10.0.0/sys/mips/conf/DIR-825 255195 2013-09-03 22:33:06Z sbruno $
+# $FreeBSD: stable/10/sys/mips/conf/DIR-825 255195 2013-09-03 22:33:06Z sbruno $
 
 include		"AR71XX_BASE"
 ident		"DIR-825"

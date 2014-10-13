@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_ffclock.c 228173 2011-12-01 07:19:13Z lstewart $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_ffclock.c 228173 2011-12-01 07:19:13Z lstewart $");
 
 #include "opt_ffclock.h"
 

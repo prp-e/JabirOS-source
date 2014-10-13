@@ -1,5 +1,5 @@
 #	@(#)Makefile.inc	8.3 (Berkeley) 10/24/94
-# $FreeBSD: release/10.0.0/lib/libc/sys/Makefile.inc 258339 2013-11-19 10:39:48Z pluknet $
+# $FreeBSD: stable/10/lib/libc/sys/Makefile.inc 260623 2014-01-14 09:49:42Z pluknet $
 
 # sys sources
 .PATH: ${.CURDIR}/${LIBC_ARCH}/sys ${.CURDIR}/sys
@@ -85,6 +85,7 @@ MAN+=	abort2.2 \
 	adjtime.2 \
 	aio_cancel.2 \
 	aio_error.2 \
+	aio_fsync.2 \
 	aio_mlock.2 \
 	aio_read.2 \
 	aio_return.2 \

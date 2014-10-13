@@ -1,5 +1,5 @@
 # GEOM_LIBRARY_PATH
-# $FreeBSD: release/10.0.0/sbin/geom/class/sched/Makefile 222772 2011-06-06 20:24:17Z ed $
+# $FreeBSD: stable/10/sbin/geom/class/sched/Makefile 222772 2011-06-06 20:24:17Z ed $
 
 .PATH: ${.CURDIR}/../../misc
 

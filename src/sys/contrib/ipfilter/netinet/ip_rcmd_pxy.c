@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/contrib/ipfilter/netinet/ip_rcmd_pxy.c 256199 2013-10-09 17:07:50Z dim $	*/
+/*	$FreeBSD: stable/10/sys/contrib/ipfilter/netinet/ip_rcmd_pxy.c 256199 2013-10-09 17:07:50Z dim $	*/
 
 /*
  * Copyright (C) 2012 by Darren Reed.
@@ -9,7 +9,7 @@
  *
  * Simple RCMD transparent proxy for in-kernel use.  For use with the NAT
  * code.
- * $FreeBSD: release/10.0.0/sys/contrib/ipfilter/netinet/ip_rcmd_pxy.c 256199 2013-10-09 17:07:50Z dim $
+ * $FreeBSD: stable/10/sys/contrib/ipfilter/netinet/ip_rcmd_pxy.c 256199 2013-10-09 17:07:50Z dim $
  */
 
 #define	IPF_RCMD_PROXY

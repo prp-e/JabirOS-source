@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/geom/raid/tr_raid5.c 254275 2013-08-13 07:56:40Z mav $");
+__FBSDID("$FreeBSD: stable/10/sys/geom/raid/tr_raid5.c 260385 2014-01-07 01:32:23Z scottl $");
 
 #include <sys/param.h>
 #include <sys/bio.h>
@@ -324,20 +324,15 @@ g_raid_tr_iostart_raid5_read(struct g_raid_tr_object *tr, struct bio *bp)
 		addr += length;
 		start = 0;
 	} while (remain > 0);
-	for (cbp = bioq_first(&queue); cbp != NULL;
-	    cbp = bioq_first(&queue)) {
-		bioq_remove(&queue, cbp);
+	while ((cbp = bioq_takefirst(&queue)) != NULL) {
 		sd = cbp->bio_caller1;
 		cbp->bio_caller1 = NULL;
 		g_raid_subdisk_iostart(sd, cbp);
 	}
 	return;
 failure:
-	for (cbp = bioq_first(&queue); cbp != NULL;
-	    cbp = bioq_first(&queue)) {
-		bioq_remove(&queue, cbp);
+	while ((cbp = bioq_takefirst(&queue)) != NULL)
 		g_destroy_bio(cbp);
-	}
 	if (bp->bio_error == 0)
 		bp->bio_error = ENOMEM;
 	g_raid_iodone(bp, bp->bio_error);

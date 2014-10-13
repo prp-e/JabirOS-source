@@ -75,7 +75,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/net/if_bridge.c 253751 2013-07-28 19:49:39Z hrs $");
+__FBSDID("$FreeBSD: stable/10/sys/net/if_bridge.c 253751 2013-07-28 19:49:39Z hrs $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"

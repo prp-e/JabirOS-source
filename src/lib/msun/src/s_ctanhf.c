@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/msun/src/s_ctanhf.c 226600 2011-10-21 06:30:16Z das $");
+__FBSDID("$FreeBSD: stable/10/lib/msun/src/s_ctanhf.c 226600 2011-10-21 06:30:16Z das $");
 
 #include <complex.h>
 #include <math.h>

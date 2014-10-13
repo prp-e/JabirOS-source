@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_descrip.c 260409 2014-01-07 20:36:15Z mjg $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_descrip.c 270088 2014-08-17 07:00:47Z mjg $");
 
 #include "opt_capsicum.h"
 #include "opt_compat.h"
@@ -295,16 +295,34 @@ fdunused(struct filedesc *fdp, int fd)
 
 /*
  * Free a file descriptor.
+ *
+ * Avoid some work if fdp is about to be destroyed.
  */
 static inline void
-fdfree(struct filedesc *fdp, int fd)
+_fdfree(struct filedesc *fdp, int fd, int last)
 {
 	struct filedescent *fde;
 
 	fde = &fdp->fd_ofiles[fd];
 	filecaps_free(&fde->fde_caps);
+	if (last)
+		return;
 	bzero(fde, sizeof(*fde));
 	fdunused(fdp, fd);
+}
+
+static inline void
+fdfree(struct filedesc *fdp, int fd)
+{
+
+	_fdfree(fdp, fd, 0);
+}
+
+static inline void
+fdfree_last(struct filedesc *fdp, int fd)
+{
+
+	_fdfree(fdp, fd, 1);
 }
 
 /*
@@ -879,14 +897,13 @@ do_dup(struct thread *td, int flags, int old, int new,
 	/*
 	 * Duplicate the source descriptor.
 	 */
+	filecaps_free(&newfde->fde_caps);
 	*newfde = *oldfde;
 	filecaps_copy(&oldfde->fde_caps, &newfde->fde_caps);
 	if ((flags & DUP_CLOEXEC) != 0)
 		newfde->fde_flags = oldfde->fde_flags | UF_EXCLOSE;
 	else
 		newfde->fde_flags = oldfde->fde_flags & ~UF_EXCLOSE;
-	if (new > fdp->fd_lastfile)
-		fdp->fd_lastfile = new;
 	*retval = new;
 
 	if (delfp != NULL) {
@@ -1236,7 +1253,7 @@ sys_closefrom(struct thread *td, struct closefrom_args *uap)
 	if (uap->lowfd < 0)
 		uap->lowfd = 0;
 	FILEDESC_SLOCK(fdp);
-	for (fd = uap->lowfd; fd < fdp->fd_nfiles; fd++) {
+	for (fd = uap->lowfd; fd <= fdp->fd_lastfile; fd++) {
 		if (fdp->fd_ofiles[fd].fde_file != NULL) {
 			FILEDESC_SUNLOCK(fdp);
 			(void)kern_close(td, fd);
@@ -1521,7 +1538,7 @@ fdgrowtable(struct filedesc *fdp, int nfd)
 		return;
 
 	/*
-	 * Allocate a new table and map.  We need enough space for the
+	 * Allocate a new table.  We need enough space for the
 	 * file entries themselves and the struct freetable we will use
 	 * when we decommission the table and place it on the freelist.
 	 * We place the struct freetable in the middle so we don't have
@@ -1529,17 +1546,22 @@ fdgrowtable(struct filedesc *fdp, int nfd)
 	 */
 	ntable = malloc(nnfiles * sizeof(ntable[0]) + sizeof(struct freetable),
 	    M_FILEDESC, M_ZERO | M_WAITOK);
-	nmap = malloc(NDSLOTS(nnfiles) * NDSLOTSIZE, M_FILEDESC,
-	    M_ZERO | M_WAITOK);
-
 	/* copy the old data over and point at the new tables */
 	memcpy(ntable, otable, onfiles * sizeof(*otable));
-	memcpy(nmap, omap, NDSLOTS(onfiles) * sizeof(*omap));
-
-	/* update the pointers and counters */
-	memcpy(ntable, otable, onfiles * sizeof(ntable[0]));
 	fdp->fd_ofiles = ntable;
-	fdp->fd_map = nmap;
+
+	/*
+	 * Allocate a new map only if the old is not large enough.  It will
+	 * grow at a slower rate than the table as it can map more
+	 * entries than the table can hold.
+	 */
+	if (NDSLOTS(nnfiles) > NDSLOTS(onfiles)) {
+		nmap = malloc(NDSLOTS(nnfiles) * NDSLOTSIZE, M_FILEDESC,
+		    M_ZERO | M_WAITOK);
+		/* copy over the old data and update the pointer */
+		memcpy(nmap, omap, NDSLOTS(onfiles) * sizeof(*omap));
+		fdp->fd_map = nmap;
+	}
 
 	/*
 	 * In order to have a valid pattern for fget_unlocked()
@@ -1555,8 +1577,6 @@ fdgrowtable(struct filedesc *fdp, int nfd)
 	 * reference entries within it.  Instead, place it on a freelist
 	 * which will be processed when the struct filedesc is released.
 	 *
-	 * Do, however, free the old map.
-	 *
 	 * Note that if onfiles == NDFILE, we're dealing with the original
 	 * static allocation contained within (struct filedesc0 *)fdp,
 	 * which must not be freed.
@@ -1566,8 +1586,14 @@ fdgrowtable(struct filedesc *fdp, int nfd)
 		fdp0 = (struct filedesc0 *)fdp;
 		ft->ft_table = otable;
 		SLIST_INSERT_HEAD(&fdp0->fd_free, ft, ft_next);
-		free(omap, M_FILEDESC);
 	}
+	/*
+	 * The map does not have the same possibility of threads still
+	 * holding references to it.  So always free it as long as it
+	 * does not reference the original static allocation.
+	 */
+	if (NDSLOTS(onfiles) > NDSLOTS(NDFILE))
+		free(omap, M_FILEDESC);
 }
 
 /*
@@ -1799,7 +1825,7 @@ fdinit(struct filedesc *fdp)
 	newfdp = malloc(sizeof *newfdp, M_FILEDESC, M_WAITOK | M_ZERO);
 	FILEDESC_LOCK_INIT(&newfdp->fd_fd);
 	if (fdp != NULL) {
-		FILEDESC_XLOCK(fdp);
+		FILEDESC_SLOCK(fdp);
 		newfdp->fd_fd.fd_cdir = fdp->fd_cdir;
 		if (newfdp->fd_fd.fd_cdir)
 			VREF(newfdp->fd_fd.fd_cdir);
@@ -1809,7 +1835,7 @@ fdinit(struct filedesc *fdp)
 		newfdp->fd_fd.fd_jdir = fdp->fd_jdir;
 		if (newfdp->fd_fd.fd_jdir)
 			VREF(newfdp->fd_fd.fd_jdir);
-		FILEDESC_XUNLOCK(fdp);
+		FILEDESC_SUNLOCK(fdp);
 	}
 
 	/* Create the file descriptor table. */
@@ -1875,19 +1901,17 @@ fdshare(struct filedesc *fdp)
  * Unshare a filedesc structure, if necessary by making a copy
  */
 void
-fdunshare(struct proc *p, struct thread *td)
+fdunshare(struct thread *td)
 {
+	struct filedesc *tmp;
+	struct proc *p = td->td_proc;
 
-	FILEDESC_XLOCK(p->p_fd);
-	if (p->p_fd->fd_refcnt > 1) {
-		struct filedesc *tmp;
+	if (p->p_fd->fd_refcnt == 1)
+		return;
 
-		FILEDESC_XUNLOCK(p->p_fd);
-		tmp = fdcopy(p->p_fd);
-		fdescfree(td);
-		p->p_fd = tmp;
-	} else
-		FILEDESC_XUNLOCK(p->p_fd);
+	tmp = fdcopy(p->p_fd);
+	fdescfree(td);
+	p->p_fd = tmp;
 }
 
 /*
@@ -2031,34 +2055,17 @@ fdescfree(struct thread *td)
 		if (fdtol != NULL)
 			free(fdtol, M_FILEDESC_TO_LEADER);
 	}
-	FILEDESC_XLOCK(fdp);
-	i = --fdp->fd_refcnt;
-	FILEDESC_XUNLOCK(fdp);
-	if (i > 0)
-		return;
 
-	for (i = 0; i <= fdp->fd_lastfile; i++) {
-		fp = fdp->fd_ofiles[i].fde_file;
-		if (fp != NULL) {
-			FILEDESC_XLOCK(fdp);
-			fdfree(fdp, i);
-			FILEDESC_XUNLOCK(fdp);
-			(void) closef(fp, td);
-		}
-	}
-	FILEDESC_XLOCK(fdp);
-
-	/* XXX This should happen earlier. */
 	mtx_lock(&fdesc_mtx);
 	td->td_proc->p_fd = NULL;
 	mtx_unlock(&fdesc_mtx);
 
-	if (fdp->fd_nfiles > NDFILE)
-		free(fdp->fd_ofiles, M_FILEDESC);
-	if (NDSLOTS(fdp->fd_nfiles) > NDSLOTS(NDFILE))
-		free(fdp->fd_map, M_FILEDESC);
-
-	fdp->fd_nfiles = 0;
+	FILEDESC_XLOCK(fdp);
+	i = --fdp->fd_refcnt;
+	if (i > 0) {
+		FILEDESC_XUNLOCK(fdp);
+		return;
+	}
 
 	cdir = fdp->fd_cdir;
 	fdp->fd_cdir = NULL;
@@ -2067,6 +2074,19 @@ fdescfree(struct thread *td)
 	jdir = fdp->fd_jdir;
 	fdp->fd_jdir = NULL;
 	FILEDESC_XUNLOCK(fdp);
+
+	for (i = 0; i <= fdp->fd_lastfile; i++) {
+		fp = fdp->fd_ofiles[i].fde_file;
+		if (fp != NULL) {
+			fdfree_last(fdp, i);
+			(void) closef(fp, td);
+		}
+	}
+
+	if (fdp->fd_nfiles > NDFILE)
+		free(fdp->fd_ofiles, M_FILEDESC);
+	if (NDSLOTS(fdp->fd_nfiles) > NDSLOTS(NDFILE))
+		free(fdp->fd_map, M_FILEDESC);
 
 	if (cdir != NULL)
 		vrele(cdir);
@@ -2109,15 +2129,8 @@ setugidsafety(struct thread *td)
 	struct file *fp;
 	int i;
 
-	/* Certain daemons might not have file descriptors. */
 	fdp = td->td_proc->p_fd;
-	if (fdp == NULL)
-		return;
-
-	/*
-	 * Note: fdp->fd_ofiles may be reallocated out from under us while
-	 * we are blocked in a close.  Be careful!
-	 */
+	KASSERT(fdp->fd_refcnt == 1, ("the fdtable should not be shared"));
 	FILEDESC_XLOCK(fdp);
 	for (i = 0; i <= fdp->fd_lastfile; i++) {
 		if (i > 2)
@@ -2169,15 +2182,8 @@ fdcloseexec(struct thread *td)
 	struct file *fp;
 	int i;
 
-	/* Certain daemons might not have file descriptors. */
 	fdp = td->td_proc->p_fd;
-	if (fdp == NULL)
-		return;
-
-	/*
-	 * We cannot cache fd_ofiles since operations
-	 * may block and rip them out from under us.
-	 */
+	KASSERT(fdp->fd_refcnt == 1, ("the fdtable should not be shared"));
 	FILEDESC_XLOCK(fdp);
 	for (i = 0; i <= fdp->fd_lastfile; i++) {
 		fde = &fdp->fd_ofiles[i];
@@ -2208,8 +2214,6 @@ fdcheckstd(struct thread *td)
 	int i, error, devnull;
 
 	fdp = td->td_proc->p_fd;
-	if (fdp == NULL)
-		return (0);
 	KASSERT(fdp->fd_refcnt == 1, ("the fdtable should not be shared"));
 	devnull = -1;
 	error = 0;
@@ -2941,7 +2945,7 @@ sysctl_kern_file(SYSCTL_HANDLER_ARGS)
 		if (fdp == NULL)
 			continue;
 		FILEDESC_SLOCK(fdp);
-		for (n = 0; fdp->fd_refcnt > 0 && n < fdp->fd_nfiles; ++n) {
+		for (n = 0; fdp->fd_refcnt > 0 && n <= fdp->fd_lastfile; ++n) {
 			if ((fp = fdp->fd_ofiles[n].fde_file) == NULL)
 				continue;
 			xf.xf_fd = n;
@@ -2966,7 +2970,7 @@ sysctl_kern_file(SYSCTL_HANDLER_ARGS)
 	return (error);
 }
 
-SYSCTL_PROC(_kern, KERN_FILE, file, CTLTYPE_OPAQUE|CTLFLAG_RD,
+SYSCTL_PROC(_kern, KERN_FILE, file, CTLTYPE_OPAQUE|CTLFLAG_RD|CTLFLAG_MPSAFE,
     0, 0, sysctl_kern_file, "S,xfile", "Entire file table");
 
 #ifdef KINFO_OFILE_SIZE
@@ -3033,7 +3037,7 @@ sysctl_kern_proc_ofiledesc(SYSCTL_HANDLER_ARGS)
 	struct tty *tp;
 
 	name = (int *)arg1;
-	error = pget((pid_t)name[0], PGET_CANDEBUG, &p);
+	error = pget((pid_t)name[0], PGET_CANDEBUG | PGET_NOTWEXIT, &p);
 	if (error != 0)
 		return (error);
 	fdp = fdhold(p);
@@ -3051,7 +3055,7 @@ sysctl_kern_proc_ofiledesc(SYSCTL_HANDLER_ARGS)
 	if (fdp->fd_jdir != NULL)
 		export_vnode_for_osysctl(fdp->fd_jdir, KF_FD_TYPE_JAIL, kif,
 				fdp, req);
-	for (i = 0; i < fdp->fd_nfiles; i++) {
+	for (i = 0; fdp->fd_refcnt > 0 && i <= fdp->fd_lastfile; i++) {
 		if ((fp = fdp->fd_ofiles[i].fde_file) == NULL)
 			continue;
 		bzero(kif, sizeof(*kif));
@@ -3224,8 +3228,9 @@ sysctl_kern_proc_ofiledesc(SYSCTL_HANDLER_ARGS)
 	return (0);
 }
 
-static SYSCTL_NODE(_kern_proc, KERN_PROC_OFILEDESC, ofiledesc, CTLFLAG_RD,
-    sysctl_kern_proc_ofiledesc, "Process ofiledesc entries");
+static SYSCTL_NODE(_kern_proc, KERN_PROC_OFILEDESC, ofiledesc,
+    CTLFLAG_RD||CTLFLAG_MPSAFE, sysctl_kern_proc_ofiledesc,
+    "Process ofiledesc entries");
 #endif	/* COMPAT_FREEBSD7 */
 
 #ifdef KINFO_FILE_SIZE
@@ -3421,7 +3426,7 @@ kern_proc_filedesc_out(struct proc *p,  struct sbuf *sb, ssize_t maxlen)
 		export_fd_to_sb(data, KF_TYPE_VNODE, KF_FD_TYPE_JAIL,
 		    FREAD, -1, -1, NULL, efbuf);
 	}
-	for (i = 0; i < fdp->fd_nfiles; i++) {
+	for (i = 0; fdp->fd_refcnt > 0 && i <= fdp->fd_lastfile; i++) {
 		if ((fp = fdp->fd_ofiles[i].fde_file) == NULL)
 			continue;
 		data = NULL;
@@ -3529,7 +3534,7 @@ sysctl_kern_proc_filedesc(SYSCTL_HANDLER_ARGS)
 	name = (int *)arg1;
 
 	sbuf_new_for_sysctl(&sb, NULL, FILEDESC_SBUF_SIZE, req);
-	error = pget((pid_t)name[0], PGET_CANDEBUG, &p);
+	error = pget((pid_t)name[0], PGET_CANDEBUG | PGET_NOTWEXIT, &p);
 	if (error != 0) {
 		sbuf_delete(&sb);
 		return (error);
@@ -3737,8 +3742,9 @@ fill_shm_info(struct file *fp, struct kinfo_file *kif)
 	return (0);
 }
 
-static SYSCTL_NODE(_kern_proc, KERN_PROC_FILEDESC, filedesc, CTLFLAG_RD,
-    sysctl_kern_proc_filedesc, "Process filedesc entries");
+static SYSCTL_NODE(_kern_proc, KERN_PROC_FILEDESC, filedesc,
+    CTLFLAG_RD|CTLFLAG_MPSAFE, sysctl_kern_proc_filedesc,
+    "Process filedesc entries");
 
 #ifdef DDB
 /*
@@ -3793,7 +3799,7 @@ file_to_first_proc(struct file *fp)
 		fdp = p->p_fd;
 		if (fdp == NULL)
 			continue;
-		for (n = 0; n < fdp->fd_nfiles; n++) {
+		for (n = 0; n <= fdp->fd_lastfile; n++) {
 			if (fp == fdp->fd_ofiles[n].fde_file)
 				return (p);
 		}
@@ -3843,7 +3849,7 @@ DB_SHOW_COMMAND(files, db_show_files)
 			continue;
 		if ((fdp = p->p_fd) == NULL)
 			continue;
-		for (n = 0; n < fdp->fd_nfiles; ++n) {
+		for (n = 0; n <= fdp->fd_lastfile; ++n) {
 			if ((fp = fdp->fd_ofiles[n].fde_file) == NULL)
 				continue;
 			db_print_file(fp, header);

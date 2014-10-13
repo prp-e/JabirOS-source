@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/syscons/logo/Makefile 89260 2002-01-11 15:49:02Z ru $
+# $FreeBSD: stable/10/sys/modules/syscons/logo/Makefile 89260 2002-01-11 15:49:02Z ru $
 
 .PATH:	${.CURDIR}/../../../dev/syscons/logo
 

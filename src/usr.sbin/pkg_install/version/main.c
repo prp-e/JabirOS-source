@@ -19,7 +19,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/pkg_install/version/main.c 241830 2012-10-22 02:12:20Z eadler $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/pkg_install/version/main.c 241830 2012-10-22 02:12:20Z eadler $");
 
 
 #include <getopt.h>

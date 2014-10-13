@@ -26,7 +26,7 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
 # THE POSSIBILITY OF SUCH DAMAGES.
 #
-# $FreeBSD: release/10.0.0/sys/modules/ath/Makefile 251655 2013-06-12 14:52:57Z adrian $
+# $FreeBSD: stable/10/sys/modules/ath/Makefile 260272 2014-01-04 18:19:53Z dim $
 #
 
 ATH_RATE?=	sample		# tx rate control algorithm
@@ -166,4 +166,4 @@ CWARNFLAGS+=			${CWARNFLAGS.${.IMPSRC:T}}
 
 # AR9300 HAL build overrides, as there's still some code to tidy up
 CWARNFLAGS.ar9300_eeprom.c=	${NO_WCONSTANT_CONVERSION}
-CWARNFLAGS.ar9300_reset.c=	${NO_WSOMETIMES_UNINITIALIZED}
+CWARNFLAGS.ar9300_reset.c=	${NO_WSOMETIMES_UNINITIALIZED} -Wno-unused-function

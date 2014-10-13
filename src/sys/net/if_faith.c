@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/net/if_faith.c 249925 2013-04-26 12:50:32Z glebius $
+ * $FreeBSD: stable/10/sys/net/if_faith.c 263478 2014-03-21 15:15:30Z glebius $
  */
 /*
  * derived from
@@ -245,7 +245,7 @@ faithrtrequest(cmd, rt, info)
 	struct rt_addrinfo *info;
 {
 	RT_LOCK_ASSERT(rt);
-	rt->rt_rmx.rmx_mtu = rt->rt_ifp->if_mtu;
+	rt->rt_mtu = rt->rt_ifp->if_mtu;
 }
 
 /*

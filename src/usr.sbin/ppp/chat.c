@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/ppp/chat.c 136375 2004-10-11 09:45:58Z brian $
+ * $FreeBSD: stable/10/usr.sbin/ppp/chat.c 262287 2014-02-21 09:25:52Z brueffer $
  */
 
 #include <sys/param.h>
@@ -154,6 +154,11 @@ chat_UpdateSet(struct fdescriptor *d, fd_set *r, fd_set *w, fd_set *e, int *n)
     else {
       /* c->state = CHAT_EXPECT; */
       c->argptr = &arg_term;
+      /*
+	We have to clear the input buffer, because it contains output
+	from the previous (timed out) command.
+      */
+      c->bufstart = c->bufend;
     }
     c->TimedOut = 0;
   }

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/drm/tdfx/Makefile 124472 2004-01-13 11:28:51Z ru $
+# $FreeBSD: stable/10/sys/modules/drm/tdfx/Makefile 124472 2004-01-13 11:28:51Z ru $
 
 .PATH:	${.CURDIR}/../../../dev/drm
 KMOD	= tdfx

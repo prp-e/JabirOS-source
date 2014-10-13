@@ -25,7 +25,7 @@
 # SUCH DAMAGE.
 #
 #	@(#)rc	5.27 (Berkeley) 6/5/91
-# $FreeBSD: release/10.0.0/etc/rc 259040 2013-12-06 20:48:53Z cperciva $
+# $FreeBSD: stable/10/etc/rc 259040 2013-12-06 20:48:53Z cperciva $
 #
 
 # System startup script run by init on autoboot

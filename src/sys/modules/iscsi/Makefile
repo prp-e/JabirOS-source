@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/iscsi/Makefile 255570 2013-09-14 15:29:06Z trasz $
+# $FreeBSD: stable/10/sys/modules/iscsi/Makefile 255570 2013-09-14 15:29:06Z trasz $
 
 .PATH:	${.CURDIR}/../../dev/iscsi/
 KMOD=	iscsi

@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/mii/rgephy.c 257612 2013-11-04 05:52:33Z yongari $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/mii/rgephy.c 257612 2013-11-04 05:52:33Z yongari $");
 
 /*
  * Driver for the RealTek 8169S/8110S/8211B/8211C internal 10/100/1000 PHY.

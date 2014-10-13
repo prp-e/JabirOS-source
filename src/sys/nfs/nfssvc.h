@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/nfs/nfssvc.h 243782 2012-12-02 01:16:04Z rmacklem $
+ * $FreeBSD: stable/10/sys/nfs/nfssvc.h 243782 2012-12-02 01:16:04Z rmacklem $
  */
 
 #ifndef _NFS_NFSSVC_H_

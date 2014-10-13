@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_umtx.c 251684 2013-06-13 09:33:22Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_umtx.c 270789 2014-08-29 08:42:20Z kib $");
 
 #include "opt_compat.h"
 #include "opt_umtx_profiling.h"
@@ -2071,10 +2071,12 @@ do_lock_pi(struct thread *td, struct umutex *m, uint32_t flags,
 		 * and we need to retry or we lost a race to the thread
 		 * unlocking the umtx.
 		 */
-		if (old == owner)
+		if (old == owner) {
 			error = umtxq_sleep_pi(uq, pi, owner & ~UMUTEX_CONTESTED,
 			    "umtxpi", timeout == NULL ? NULL : &timo);
-		else {
+			if (error != 0)
+				continue;
+		} else {
 			umtxq_unbusy(&uq->uq_key);
 			umtxq_unlock(&uq->uq_key);
 		}

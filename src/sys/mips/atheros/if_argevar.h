@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/mips/atheros/if_argevar.h 234919 2012-05-02 07:43:11Z adrian $
+ * $FreeBSD: stable/10/sys/mips/atheros/if_argevar.h 261455 2014-02-04 03:36:42Z eadler $
  */
 
 #ifndef __IF_ARGEVAR_H__
@@ -72,7 +72,7 @@
 #define ARGE_MDIO_READ(_sc, _reg)	\
 	ARGE_READ((_sc), (_reg))
 
-#define ARGE_DESC_EMPTY		(1 << 31)
+#define ARGE_DESC_EMPTY		(1U << 31)
 #define ARGE_DESC_MORE		(1 << 24)
 #define ARGE_DESC_SIZE_MASK	((1 << 12) - 1)
 #define	ARGE_DMASIZE(len)	((len) & ARGE_DESC_SIZE_MASK)

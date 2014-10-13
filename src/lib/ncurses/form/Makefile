@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/ncurses/form/Makefile 251250 2013-06-02 11:44:23Z tijl $
+# $FreeBSD: stable/10/lib/ncurses/form/Makefile 251250 2013-06-02 11:44:23Z tijl $
 
 .include "${.CURDIR}/../config.mk"
 

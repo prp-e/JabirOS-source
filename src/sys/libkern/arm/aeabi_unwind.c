@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/libkern/arm/aeabi_unwind.c 255939 2013-09-29 15:19:34Z andrew $");
+__FBSDID("$FreeBSD: stable/10/sys/libkern/arm/aeabi_unwind.c 255939 2013-09-29 15:19:34Z andrew $");
 
 #include <sys/types.h>
 #ifdef _KERNEL

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.bin/csup/proto.c 241049 2012-09-29 16:19:01Z kevlo $
+ * $FreeBSD: stable/10/usr.bin/csup/proto.c 241049 2012-09-29 16:19:01Z kevlo $
  */
 
 #include <sys/param.h>

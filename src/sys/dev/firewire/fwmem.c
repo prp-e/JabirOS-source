@@ -35,7 +35,7 @@
 
 #ifdef __FreeBSD__
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/firewire/fwmem.c 227309 2011-11-07 15:43:11Z ed $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/firewire/fwmem.c 227309 2011-11-07 15:43:11Z ed $");
 #endif
 
 #include <sys/param.h>

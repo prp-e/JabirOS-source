@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/boot/uboot/lib/disk.c 241809 2012-10-21 12:14:58Z ae $");
+__FBSDID("$FreeBSD: stable/10/sys/boot/uboot/lib/disk.c 265071 2014-04-29 00:45:42Z ian $");
 
 #include <sys/param.h>
 #include <sys/disk.h>
@@ -44,9 +44,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/boot/uboot/lib/disk.c 241809 2012-10-21 1
 #include "disk.h"
 #include "glue.h"
 #include "libuboot.h"
-
-#define DEBUG
-#undef DEBUG
 
 #define stor_printf(fmt, args...) do {			\
     printf("%s%d: ", dev->d_dev->dv_name, dev->d_unit);	\
@@ -281,3 +278,26 @@ stor_ioctl(struct open_file *f, u_long cmd, void *data)
 	return (0);
 }
 
+
+/*
+ * Return the device unit number for the given type and type-relative unit
+ * number.
+ */
+int
+uboot_diskgetunit(int type, int type_unit)
+{
+	int local_type_unit;
+	int i;
+
+	local_type_unit = 0;
+	for (i = 0; i < stor_info_no; i++) {
+		if ((stor_info[i].type & type) == type) {
+			if (local_type_unit == type_unit) {
+				return (i);
+			}
+			local_type_unit++;
+		}
+	}
+
+	return (-1);
+}

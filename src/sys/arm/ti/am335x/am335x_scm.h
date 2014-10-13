@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/ti/am335x/am335x_scm.h 251016 2013-05-27 00:09:04Z gonzo $
+ * $FreeBSD: stable/10/sys/arm/ti/am335x/am335x_scm.h 251016 2013-05-27 00:09:04Z gonzo $
  */
 #ifndef __AM335X_SCM_H__
 #define __AM335X_SCM_H__

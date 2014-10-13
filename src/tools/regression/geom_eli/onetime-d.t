@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/tools/regression/geom_eli/onetime-d.t 148459 2005-07-27 22:27:30Z pjd $
+# $FreeBSD: stable/10/tools/regression/geom_eli/onetime-d.t 148459 2005-07-27 22:27:30Z pjd $
 
 base=`basename $0`
 no=45

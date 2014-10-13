@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/liblldbDataFormatters/Makefile 255722 2013-09-20 01:52:02Z emaste $
+# $FreeBSD: stable/10/lib/clang/liblldbDataFormatters/Makefile 263363 2014-03-19 13:11:35Z emaste $
 
 .include <bsd.own.mk>
 
@@ -15,6 +15,7 @@ SRCS=	CF.cpp \
 	LibCxx.cpp \
 	LibCxxList.cpp \
 	LibCxxMap.cpp \
+	LibCxxUnorderedMap.cpp \
 	LibStdcpp.cpp \
 	NSArray.cpp \
 	NSDictionary.cpp \
@@ -23,7 +24,8 @@ SRCS=	CF.cpp \
 	TypeCategoryMap.cpp \
 	TypeFormat.cpp \
 	TypeSummary.cpp \
-	TypeSynthetic.cpp
+	TypeSynthetic.cpp \
+	ValueObjectPrinter.cpp
 
 TGHDRS=	DiagnosticCommonKinds \
 	DeclNodes \

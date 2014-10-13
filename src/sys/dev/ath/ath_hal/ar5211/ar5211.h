@@ -14,7 +14,7 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/ath/ath_hal/ar5211/ar5211.h 247286 2013-02-25 22:42:43Z adrian $
+ * $FreeBSD: stable/10/sys/dev/ath/ath_hal/ar5211/ar5211.h 247286 2013-02-25 22:42:43Z adrian $
  */
 #ifndef _ATH_AR5211_H_
 #define _ATH_AR5211_H_

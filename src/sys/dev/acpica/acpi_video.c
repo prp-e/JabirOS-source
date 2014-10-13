@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/acpica/acpi_video.c 241748 2012-10-19 19:17:43Z jhb $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/acpica/acpi_video.c 261455 2014-02-04 03:36:42Z eadler $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>
@@ -132,7 +132,7 @@ static void	vo_set_device_state(ACPI_HANDLE, UINT32);
 #define	DOD_HEAD_ID_BITS	3
 #define	DOD_HEAD_ID_MASK \
 		(((1 << DOD_HEAD_ID_BITS) - 1) << DOD_HEAD_ID_SHIFT)
-#define	DOD_DEVID_SCHEME_STD	(1 << 31)
+#define	DOD_DEVID_SCHEME_STD	(1U << 31)
 
 /* _BCL related constants */
 #define	BCL_FULLPOWER		0
@@ -149,7 +149,7 @@ static void	vo_set_device_state(ACPI_HANDLE, UINT32);
 #define	DSS_INACTIVE		0
 #define	DSS_ACTIVE		(1 << 0)
 #define	DSS_SETNEXT		(1 << 30)
-#define	DSS_COMMIT		(1 << 31)
+#define	DSS_COMMIT		(1U << 31)
 
 static device_method_t acpi_video_methods[] = {
 	DEVMETHOD(device_identify, acpi_video_identify),

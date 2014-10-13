@@ -24,7 +24,7 @@
  * behaviour
  *
  * $OpenBSD: patch.c,v 1.50 2012/05/15 19:32:02 millert Exp $
- * $FreeBSD: release/10.0.0/usr.bin/patch/patch.c 255894 2013-09-26 18:00:45Z delphij $
+ * $FreeBSD: stable/10/usr.bin/patch/patch.c 267747 2014-06-22 20:29:51Z pfg $
  *
  */
 
@@ -469,6 +469,7 @@ get_some_switches(void)
 		{"context",		no_argument,		0,	'c'},
 		{"debug",		required_argument,	0,	'x'},
 		{"directory",		required_argument,	0,	'd'},
+		{"dry-run",		no_argument,		0,	'C'},
 		{"ed",			no_argument,		0,	'e'},
 		{"force",		no_argument,		0,	'f'},
 		{"forward",		no_argument,		0,	'N'},
@@ -742,14 +743,18 @@ abort_context_hunk(void)
 static void
 rej_line(int ch, LINENUM i)
 {
-	size_t len;
+	unsigned short len;
 	const char *line = pfetch(i);
 
-	len = strlen(line);
+	len = strnlen(line, USHRT_MAX);
 
 	fprintf(rejfp, "%c%s", ch, line);
-	if (len == 0 || line[len-1] != '\n')
-		fprintf(rejfp, "\n\\ No newline at end of file\n");
+	if (len == 0 || line[len-1] != '\n') {
+		if (len >= USHRT_MAX)
+			fprintf(rejfp, "\n\\ Line too long\n");
+		else
+			fprintf(rejfp, "\n\\ No newline at end of line\n");
+	}
 }
 
 static void
@@ -1016,7 +1021,7 @@ patch_match(LINENUM base, LINENUM offset, LINENUM fuzz)
 	LINENUM		pat_lines = pch_ptrn_lines() - fuzz;
 	const char	*ilineptr;
 	const char	*plineptr;
-	short		plinelen;
+	unsigned short	plinelen;
 
 	for (iline = base + offset + fuzz; pline <= pat_lines; pline++, iline++) {
 		ilineptr = ifetch(iline, offset >= 0);

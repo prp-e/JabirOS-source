@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/mem/Makefile 221869 2011-05-14 01:53:38Z attilio $
+# $FreeBSD: stable/10/sys/modules/mem/Makefile 221869 2011-05-14 01:53:38Z attilio $
 
 .PATH: ${.CURDIR}/../../dev/mem
 .PATH: ${.CURDIR}/../../${MACHINE}/${MACHINE}

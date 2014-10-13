@@ -1,4 +1,4 @@
-	# $FreeBSD: release/10.0.0/secure/lib/libcrypto/amd64/sha1-x86_64.S 238405 2012-07-12 19:30:53Z jkim $
+	# $FreeBSD: stable/10/secure/lib/libcrypto/amd64/sha1-x86_64.S 238405 2012-07-12 19:30:53Z jkim $
 .text	
 
 

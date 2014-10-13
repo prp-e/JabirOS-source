@@ -27,7 +27,7 @@
 /*
  * Authors: Thomas Hellstrom <thellstrom-at-vmware-dot-com>
  */
-/* $FreeBSD: release/10.0.0/sys/dev/drm2/ttm/ttm_bo_driver.h 254865 2013-08-25 14:53:39Z dumbbell $ */
+/* $FreeBSD: stable/10/sys/dev/drm2/ttm/ttm_bo_driver.h 254865 2013-08-25 14:53:39Z dumbbell $ */
 
 #ifndef _TTM_BO_DRIVER_H_
 #define _TTM_BO_DRIVER_H_

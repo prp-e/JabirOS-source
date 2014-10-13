@@ -1,14 +1,30 @@
-# $FreeBSD: release/10.0.0/sys/modules/cxgbe/iw_cxgbe/Makefile 256694 2013-10-17 18:37:25Z np $
+# $FreeBSD: stable/10/sys/modules/cxgbe/iw_cxgbe/Makefile 270297 2014-08-21 19:54:02Z np $
 
 .include <bsd.own.mk>
 
-CXGBE = ${.CURDIR}/../../../dev/cxgbe
+CXGBE=	${.CURDIR}/../../../dev/cxgbe
 .PATH: ${CXGBE}/iw_cxgbe
 
-KMOD=   iw_cxgbe
-SRCS=   device.c cm.c provider.c mem.c cq.c qp.c resource.c ev.c id_table.c
-SRCS+=  bus_if.h device_if.h opt_sched.h pci_if.h pcib_if.h opt_ktr.h
-SRCS+=  opt_inet.h opt_ofed.h vnode_if.h
+KMOD=	iw_cxgbe
+SRCS=	bus_if.h
+SRCS+=	cm.c
+SRCS+=	cq.c
+SRCS+=	device.c
+SRCS+=	device_if.h
+SRCS+=	ev.c
+SRCS+=	id_table.c
+SRCS+=	mem.c
+SRCS+=	opt_inet.h
+SRCS+=	opt_ktr.h
+SRCS+=	opt_ofed.h
+SRCS+=	opt_sched.h
+SRCS+=	pci_if.h
+SRCS+=	pcib_if.h
+SRCS+=	provider.c
+SRCS+=	qp.c
+SRCS+=	resource.c
+SRCS+=	vnode_if.h
+
 CFLAGS+= -I${CXGBE} -I${.CURDIR}/../../../ofed/include -DLINUX_TYPES_DEFINED
 
 .if !defined(KERNBUILDDIR)

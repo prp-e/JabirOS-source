@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm/via_irq.c 203288 2010-01-31 14:30:39Z rnoland $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm/via_irq.c 261455 2014-02-04 03:36:42Z eadler $");
 
 #include "dev/drm/drmP.h"
 #include "dev/drm/drm.h"
@@ -46,7 +46,7 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm/via_irq.c 203288 2010-01-31 14:30
 #define VIA_REG_INTERRUPT       0x200
 
 /* VIA_REG_INTERRUPT */
-#define VIA_IRQ_GLOBAL	  (1 << 31)
+#define VIA_IRQ_GLOBAL	  (1U << 31)
 #define VIA_IRQ_VBLANK_ENABLE   (1 << 19)
 #define VIA_IRQ_VBLANK_PENDING  (1 << 3)
 #define VIA_IRQ_HQV0_ENABLE     (1 << 11)

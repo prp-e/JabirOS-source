@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.bin/locale/locale.c 243201 2012-11-17 23:49:20Z grog $
+ * $FreeBSD: stable/10/usr.bin/locale/locale.c 243201 2012-11-17 23:49:20Z grog $
  */
 
 /*

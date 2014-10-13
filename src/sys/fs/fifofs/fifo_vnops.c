@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)fifo_vnops.c	8.10 (Berkeley) 5/27/95
- * $FreeBSD: release/10.0.0/sys/fs/fifofs/fifo_vnops.c 238936 2012-07-31 05:48:35Z davidxu $
+ * $FreeBSD: stable/10/sys/fs/fifofs/fifo_vnops.c 268335 2014-07-06 22:47:18Z mjg $
  */
 
 #include <sys/param.h>
@@ -143,12 +143,10 @@ fifo_open(ap)
 	fp = ap->a_fp;
 	td = ap->a_td;
 	ASSERT_VOP_ELOCKED(vp, "fifo_open");
-	if (fp == NULL)
+	if (fp == NULL || (ap->a_mode & FEXEC) != 0)
 		return (EINVAL);
 	if ((fip = vp->v_fifoinfo) == NULL) {
-		error = pipe_named_ctor(&fpipe, td);
-		if (error != 0)
-			return (error);
+		pipe_named_ctor(&fpipe, td);
 		fip = malloc(sizeof(*fip), M_VNODE, M_WAITOK);
 		fip->fi_pipe = fpipe;
 		fpipe->pipe_wgen = fip->fi_readers = fip->fi_writers = 0;

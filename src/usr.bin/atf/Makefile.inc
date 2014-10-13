@@ -1,6 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/atf/Makefile.inc 256366 2013-10-12 06:08:18Z rpaulo $
-
-ATF=		${.CURDIR}/../../../contrib/atf
+# $FreeBSD: stable/10/usr.bin/atf/Makefile.inc 260024 2013-12-28 23:08:58Z jmmv $
 
 BINDIR?=	/usr/bin
 WARNS?=		3

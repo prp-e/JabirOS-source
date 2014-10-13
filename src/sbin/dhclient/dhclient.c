@@ -54,7 +54,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/dhclient/dhclient.c 255219 2013-09-05 00:09:56Z pjd $");
+__FBSDID("$FreeBSD: stable/10/sbin/dhclient/dhclient.c 261828 2014-02-13 09:24:46Z brueffer $");
 
 #include <sys/capability.h>
 
@@ -494,7 +494,7 @@ main(int argc, char *argv[])
 		add_protocol("AF_ROUTE", routefd, routehandler, ifi);
 	if (shutdown(routefd, SHUT_WR) < 0)
 		error("can't shutdown route socket: %m");
-	cap_rights_init(&rights, CAP_POLL_EVENT, CAP_READ);
+	cap_rights_init(&rights, CAP_EVENT, CAP_READ);
 	if (cap_rights_limit(routefd, &rights) < 0 && errno != ENOSYS)
 		error("can't limit route socket: %m");
 

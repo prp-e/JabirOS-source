@@ -8,7 +8,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/radeon/radeon_atpx_handler.c 254885 2013-08-25 19:37:15Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/radeon_atpx_handler.c 254885 2013-08-25 19:37:15Z dumbbell $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

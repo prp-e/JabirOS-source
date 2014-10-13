@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/boot/efi/include/efilib.h 201941 2010-01-09 22:54:29Z marcel $
+ * $FreeBSD: stable/10/sys/boot/efi/include/efilib.h 271135 2014-09-04 21:01:10Z emaste $
  */
 
 #include <stand.h>
@@ -41,7 +41,7 @@ extern struct netif_driver efinetif;
 void *efi_get_table(EFI_GUID *tbl);
 void efi_main(EFI_HANDLE image_handle, EFI_SYSTEM_TABLE *system_table);
 
-int efi_register_handles(struct devsw *, EFI_HANDLE *, int);
+int efi_register_handles(struct devsw *, EFI_HANDLE *, EFI_HANDLE *, int);
 EFI_HANDLE efi_find_handle(struct devsw *, int);
 int efi_handle_lookup(EFI_HANDLE, struct devsw **, int *);
 

@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/ti_cpuid.c 246850 2013-02-15 21:24:21Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/ti/ti_cpuid.c 259329 2013-12-13 20:43:11Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -42,7 +42,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/ti_cpuid.c 246850 2013-02-15 21:24
 #include <machine/fdt.h>
 #include <machine/cpu.h>
 #include <machine/cpufunc.h>
-#include <machine/frame.h>
 #include <machine/resource.h>
 #include <machine/intr.h>
 

@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/lib/libiconv_modules/UTF7/citrus_utf7.c 258496 2013-11-23 12:17:05Z tijl $ */
+/* $FreeBSD: stable/10/lib/libiconv_modules/UTF7/citrus_utf7.c 260264 2014-01-04 17:27:43Z dim $ */
 /*	$NetBSD: citrus_utf7.c,v 1.5 2006/08/23 12:57:24 tnozaki Exp $	*/
 
 /*-
@@ -87,6 +87,7 @@ _citrus_UTF7_init_state(_UTF7EncodingInfo * __restrict ei __unused,
 	memset((void *)s, 0, sizeof(*s));
 }
 
+#if 0
 static __inline void
 /*ARGSUSED*/
 _citrus_UTF7_pack_state(_UTF7EncodingInfo * __restrict ei __unused,
@@ -104,6 +105,7 @@ _citrus_UTF7_unpack_state(_UTF7EncodingInfo * __restrict ei __unused,
 
 	memcpy((void *)s, pspriv, sizeof(*s));
 }
+#endif
 
 static const char base64[] =
 	"ABCDEFGHIJKLMNOPQRSTUVWXYZ"

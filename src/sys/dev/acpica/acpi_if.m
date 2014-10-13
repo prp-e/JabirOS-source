@@ -23,7 +23,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/sys/dev/acpica/acpi_if.m 214072 2010-10-19 19:53:06Z jkim $
+# $FreeBSD: stable/10/sys/dev/acpica/acpi_if.m 214072 2010-10-19 19:53:06Z jkim $
 #
 
 #include <sys/bus.h>

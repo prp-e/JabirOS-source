@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/nfscommon/Makefile 223483 2011-06-23 20:31:52Z uqs $
+# $FreeBSD: stable/10/sys/modules/nfscommon/Makefile 223483 2011-06-23 20:31:52Z uqs $
 
 .PATH: ${.CURDIR}/../../fs/nfs 
 KMOD=	nfscommon

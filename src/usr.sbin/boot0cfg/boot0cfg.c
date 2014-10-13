@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/boot0cfg/boot0cfg.c 228738 2011-12-20 15:19:29Z jhb $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/boot0cfg/boot0cfg.c 228738 2011-12-20 15:19:29Z jhb $");
 
 #include <sys/param.h>
 #include <sys/disklabel.h>

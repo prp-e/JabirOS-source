@@ -22,12 +22,12 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/boot/powerpc/ps3/start.S 233666 2012-03-29 16:04:42Z nwhitehorn $
+ * $FreeBSD: stable/10/sys/boot/powerpc/ps3/start.S 265998 2014-05-14 01:16:05Z ian $
  */
 
 #define LOCORE
 
-#include <machine/trap_aim.h>
+#include <machine/trap.h>
 
 /*
  * KBoot and simulators will start this program from the _start symbol, with

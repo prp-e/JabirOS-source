@@ -26,9 +26,9 @@
 .\" SUCH DAMAGE.
 .\"
 .\"     @(#)mount.8	8.8 (Berkeley) 6/16/94
-.\" $FreeBSD: release/10.0.0/sbin/mount/mount.8 253372 2013-07-15 21:57:21Z rmh $
+.\" $FreeBSD: stable/10/sbin/mount/mount.8 270895 2014-08-31 21:45:07Z trasz $
 .\"
-.Dd June 6, 2011
+.Dd August 20, 2014
 .Dt MOUNT 8
 .Os
 .Sh NAME
@@ -150,6 +150,11 @@ For this reason, the
 .Cm async
 flag should be used sparingly, and only when some data recovery
 mechanism is present.
+.It Cm automounted
+This flag indicates that the file system was mounted by
+.Xr automountd 8 .
+Automounted file systems are automatically unmounted by
+.Xr autounmountd 8 .
 .It Cm current
 When used with the
 .Fl u

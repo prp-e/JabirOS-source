@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/epic/Makefile 202006 2010-01-10 15:44:48Z marius $
+# $FreeBSD: stable/10/sys/modules/epic/Makefile 202006 2010-01-10 15:44:48Z marius $
 
 .PATH: ${.CURDIR}/../../sparc64/ebus
 

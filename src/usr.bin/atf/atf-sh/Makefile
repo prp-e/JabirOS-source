@@ -23,10 +23,11 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/usr.bin/atf/atf-sh/Makefile 241823 2012-10-22 01:18:41Z marcel $
+# $FreeBSD: stable/10/usr.bin/atf/atf-sh/Makefile 270905 2014-08-31 23:09:23Z ngie $
 
 .include <bsd.init.mk>
 
+ATF=		${.CURDIR:H:H:H}/contrib/atf
 .PATH:		${ATF}/atf-sh
 
 PROG_CXX=	atf-sh
@@ -38,10 +39,16 @@ CFLAGS+=	-I${ATF}
 
 DPADD+=		${LIBATF_C} ${LIBATF_CXX}
 LDADD+=		-latf-c++ -latf-c
+USEPRIVATELIB=	atf-c++ atf-c
 
 FILESGROUPS=	SUBR
 
 SUBRDIR=	${SHAREDIR}/atf
 SUBR=		libatf-sh.subr
 
+.if ${MK_TESTS} != "no"
+SUBDIR+=	tests
+.endif
+
+.include "../../../lib/atf/common.mk"
 .include <bsd.prog.mk>

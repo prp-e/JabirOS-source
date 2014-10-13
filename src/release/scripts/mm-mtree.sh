@@ -11,7 +11,7 @@
 # Copyright 2009 Douglas Barton
 # dougb@FreeBSD.org
 
-# $FreeBSD: release/10.0.0/release/scripts/mm-mtree.sh 254951 2013-08-27 04:42:42Z will $
+# $FreeBSD: stable/10/release/scripts/mm-mtree.sh 254951 2013-08-27 04:42:42Z will $
 
 PATH=/bin:/usr/bin:/usr/sbin
 

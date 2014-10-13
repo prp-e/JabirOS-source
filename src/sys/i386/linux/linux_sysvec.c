@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/i386/linux/linux_sysvec.c 258559 2013-11-25 15:58:48Z emaste $");
+__FBSDID("$FreeBSD: stable/10/sys/i386/linux/linux_sysvec.c 267561 2014-06-17 05:21:48Z dchagin $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

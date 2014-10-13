@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/gpio/gpioc.c 233767 2012-04-02 00:11:26Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/gpio/gpioc.c 233767 2012-04-02 00:11:26Z gonzo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

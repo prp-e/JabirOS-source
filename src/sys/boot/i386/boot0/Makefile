@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/boot/i386/boot0/Makefile 232263 2012-02-28 18:30:18Z dim $
+# $FreeBSD: stable/10/sys/boot/i386/boot0/Makefile 232263 2012-02-28 18:30:18Z dim $
 
 PROG?=	boot0
 STRIP=

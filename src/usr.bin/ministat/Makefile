@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/ministat/Makefile 183960 2008-10-16 20:39:02Z phk $
+# $FreeBSD: stable/10/usr.bin/ministat/Makefile 183960 2008-10-16 20:39:02Z phk $
 PROG=	ministat
 DPADD=	${LIBM}
 LDADD=	-lm

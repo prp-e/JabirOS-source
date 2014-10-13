@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/ppp/ncpaddr.h 86815 2001-11-23 12:39:20Z brian $
+ * $FreeBSD: stable/10/usr.sbin/ppp/ncpaddr.h 86815 2001-11-23 12:39:20Z brian $
  */
 
 /*

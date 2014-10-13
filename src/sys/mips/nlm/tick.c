@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/nlm/tick.c 247463 2013-02-28 13:46:03Z mav $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/nlm/tick.c 265999 2014-05-14 01:35:43Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -318,7 +318,7 @@ clock_probe(device_t dev)
 		panic("can't attach more clocks");
 
 	device_set_desc(dev, "Generic MIPS32 ticker");
-	return (0);
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 static void

@@ -46,7 +46,7 @@
  *
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/ti_scm.c 252229 2013-06-26 02:56:54Z rpaulo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/ti/ti_scm.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -61,7 +61,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/ti_scm.c 252229 2013-06-26 02:56:5
 #include <machine/bus.h>
 #include <machine/cpu.h>
 #include <machine/cpufunc.h>
-#include <machine/frame.h>
 #include <machine/resource.h>
 
 #include <dev/fdt/fdt_common.h>
@@ -419,6 +418,10 @@ ti_scm_padconf_init_from_fdt(struct ti_scm_softc *sc)
 static int
 ti_scm_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
+
 	if (!ofw_bus_is_compatible(dev, "ti,scm"))
 		return (ENXIO);
 

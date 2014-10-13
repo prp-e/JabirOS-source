@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	From: @(#)if_loop.c	8.1 (Berkeley) 6/10/93
- * $FreeBSD: release/10.0.0/sys/net/if_disc.c 249925 2013-04-26 12:50:32Z glebius $
+ * $FreeBSD: stable/10/sys/net/if_disc.c 263478 2014-03-21 15:15:30Z glebius $
  */
 
 /*
@@ -185,7 +185,7 @@ static void
 discrtrequest(int cmd, struct rtentry *rt, struct rt_addrinfo *info)
 {
 	RT_LOCK_ASSERT(rt);
-	rt->rt_rmx.rmx_mtu = DSMTU;
+	rt->rt_mtu = DSMTU;
 }
 
 /*

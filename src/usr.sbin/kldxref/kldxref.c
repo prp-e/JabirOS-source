@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/kldxref/kldxref.c 256060 2013-10-04 21:25:55Z jilles $
+ * $FreeBSD: stable/10/usr.sbin/kldxref/kldxref.c 259751 2013-12-22 23:08:33Z jilles $
  */
 
 #include <sys/types.h>
@@ -274,7 +274,7 @@ usage(void)
 	exit(1);
 }
 
-int 
+static int
 compare(const FTSENT *const *a, const FTSENT *const *b)
 {
 	if ((*a)->fts_info == FTS_D && (*b)->fts_info != FTS_D)

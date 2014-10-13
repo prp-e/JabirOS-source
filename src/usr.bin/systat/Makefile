@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/6/93
-# $FreeBSD: release/10.0.0/usr.bin/systat/Makefile 253360 2013-07-15 12:15:14Z glebius $
+# $FreeBSD: stable/10/usr.bin/systat/Makefile 262643 2014-03-01 03:09:16Z brooks $
 
 .include <bsd.own.mk>
 
@@ -16,7 +16,16 @@ CFLAGS+= -DINET6
 
 WARNS?=	0
 
-DPADD=	${LIBNCURSESW} ${LIBM} ${LIBDEVSTAT} ${LIBKVM}
-LDADD=	-lncursesw -lm -ldevstat -lkvm
+DPADD=	${LIBM} ${LIBDEVSTAT} ${LIBKVM}
+LDADD=	-lm -ldevstat -lkvm
+
+.if ${MK_NCURSESW} == "no"
+DPADD+=		${LIBNCURSES}
+LDADD+=		-lncurses
+.else
+CFLAGS+=	-DUSE_WIDECHAR
+DPADD+=		${LIBNCURSESW}
+LDADD+=		-lncursesw
+.endif
 
 .include <bsd.prog.mk>

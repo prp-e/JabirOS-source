@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/contrib/dev/ral/microcode.h 232958 2012-03-14 08:00:33Z bschmidt $	*/
+/*	$FreeBSD: stable/10/sys/contrib/dev/ral/microcode.h 232958 2012-03-14 08:00:33Z bschmidt $	*/
 /*	$OpenBSD: microcode.h,v 1.7 2010/04/05 14:14:02 damien Exp $	*/
 
 /*-

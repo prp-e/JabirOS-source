@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/vfs_acl.c 255219 2013-09-05 00:09:56Z pjd $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/vfs_acl.c 255219 2013-09-05 00:09:56Z pjd $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

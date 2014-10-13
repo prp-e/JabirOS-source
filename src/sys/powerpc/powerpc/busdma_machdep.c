@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/powerpc/busdma_machdep.c 255639 2013-09-17 17:29:07Z nwhitehorn $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/powerpc/busdma_machdep.c 259510 2013-12-17 13:38:21Z kib $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -752,6 +752,16 @@ _bus_dmamap_load_phys(bus_dma_tag_t dmat,
 	 * Did we fit?
 	 */
 	return (buflen != 0 ? EFBIG : 0); /* XXX better return value here? */
+}
+
+int
+_bus_dmamap_load_ma(bus_dma_tag_t dmat, bus_dmamap_t map,
+    struct vm_page **ma, bus_size_t tlen, int ma_offs, int flags,
+    bus_dma_segment_t *segs, int *segp)
+{
+
+	return (bus_dmamap_load_ma_triv(dmat, map, ma, tlen, ma_offs, flags,
+	    segs, segp));
 }
 
 /*

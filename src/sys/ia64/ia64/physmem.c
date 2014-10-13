@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/ia64/ia64/physmem.c 238190 2012-07-07 05:17:43Z marcel $");
+__FBSDID("$FreeBSD: stable/10/sys/ia64/ia64/physmem.c 238190 2012-07-07 05:17:43Z marcel $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

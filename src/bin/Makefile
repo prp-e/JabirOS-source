@@ -1,5 +1,5 @@
 #	From: @(#)Makefile	8.1 (Berkeley) 5/31/93
-# $FreeBSD: release/10.0.0/bin/Makefile 256241 2013-10-09 20:47:20Z des $
+# $FreeBSD: stable/10/bin/Makefile 264303 2014-04-09 18:16:58Z dim $
 
 .include <bsd.own.mk>
 
@@ -52,8 +52,14 @@ SUBDIR+=	rmail
 SUBDIR+=	csh
 .endif
 
+.if ${MK_TESTS} != "no"
+SUBDIR+=	tests
+.endif
+
 .include <bsd.arch.inc.mk>
 
 SUBDIR:=	${SUBDIR:O}
+
+SUBDIR_PARALLEL=
 
 .include <bsd.subdir.mk>

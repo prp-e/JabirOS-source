@@ -48,7 +48,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/sk/if_sk.c 251133 2013-05-30 12:16:55Z marius $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/sk/if_sk.c 266921 2014-05-31 11:08:22Z brueffer $");
 
 /*
  * SysKonnect SK-NET gigabit ethernet driver for FreeBSD. Supports
@@ -137,11 +137,6 @@ MODULE_DEPEND(sk, miibus, 1, 1, 1);
 
 /* "device miibus" required.  See GENERIC if you get errors here. */
 #include "miibus_if.h"
-
-#ifndef lint
-static const char rcsid[] =
-  "$FreeBSD: release/10.0.0/sys/dev/sk/if_sk.c 251133 2013-05-30 12:16:55Z marius $";
-#endif
 
 static const struct sk_type sk_devs[] = {
 	{
@@ -2881,13 +2876,11 @@ static void
 sk_txeof(sc_if)
 	struct sk_if_softc	*sc_if;
 {
-	struct sk_softc		*sc;
 	struct sk_txdesc	*txd;
 	struct sk_tx_desc	*cur_tx;
 	struct ifnet		*ifp;
 	u_int32_t		idx, sk_ctl;
 
-	sc = sc_if->sk_softc;
 	ifp = sc_if->sk_ifp;
 
 	txd = STAILQ_FIRST(&sc_if->sk_cdata.sk_txbusyq);

@@ -51,7 +51,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/cavium/octeon_ds1337.c 229161 2011-12-31 23:21:36Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/cavium/octeon_ds1337.c 229161 2011-12-31 23:21:36Z gonzo $");
 
 #include <sys/param.h>
 #include <sys/timespec.h>

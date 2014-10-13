@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/bhyve/pmtmr.c 249324 2013-04-10 05:59:07Z neel $
+ * $FreeBSD: stable/10/usr.sbin/bhyve/pmtmr.c 261090 2014-01-23 20:35:32Z jhb $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/bhyve/pmtmr.c 249324 2013-04-10 05:59:07Z neel $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/bhyve/pmtmr.c 261090 2014-01-23 20:35:32Z jhb $");
 
 #include <sys/types.h>
 #include <sys/sysctl.h>
@@ -40,6 +40,7 @@ __FBSDID("$FreeBSD: release/10.0.0/usr.sbin/bhyve/pmtmr.c 249324 2013-04-10 05:5
 #include <assert.h>
 #include <pthread.h>
 
+#include "acpi.h"
 #include "inout.h"
 
 /*
@@ -49,11 +50,10 @@ __FBSDID("$FreeBSD: release/10.0.0/usr.sbin/bhyve/pmtmr.c 249324 2013-04-10 05:5
  * This implementation will be 32-bits
  */
 
-#define	IO_PMTMR	0x408	/* 4-byte i/o port for the timer */
-
 #define PMTMR_FREQ	3579545  /* 3.579545MHz */
 
 static pthread_mutex_t pmtmr_mtx;
+static pthread_once_t pmtmr_once = PTHREAD_ONCE_INIT;
 
 static uint64_t	pmtmr_old;
 
@@ -123,6 +123,7 @@ pmtmr_init(void)
 		pmtmr_uptime_old = tsnew;
 		pmtmr_old = timespec_to_pmtmr(&tsnew, &tsold);
 	}
+	pthread_mutex_init(&pmtmr_mtx, NULL);
 }
 
 static uint32_t
@@ -133,13 +134,7 @@ pmtmr_val(void)
 	uint64_t	pmtmr_new;
 	int		error;
 
-	static int	inited = 0;
-
-	if (!inited) {
-		pthread_mutex_init(&pmtmr_mtx, NULL);
-		pmtmr_init();
-		inited = 1;
-	}
+	pthread_once(&pmtmr_once, pmtmr_init);
 
 	pthread_mutex_lock(&pmtmr_mtx);
 

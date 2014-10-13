@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/xscale/ixp425/cambria_exp_space.c 236987 2012-06-13 04:38:09Z imp $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/xscale/ixp425/cambria_exp_space.c 236987 2012-06-13 04:38:09Z imp $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

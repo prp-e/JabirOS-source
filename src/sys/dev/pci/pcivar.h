@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/pci/pcivar.h 257493 2013-11-01 06:31:02Z kib $
+ * $FreeBSD: stable/10/sys/dev/pci/pcivar.h 262134 2014-02-17 22:19:49Z jhb $
  *
  */
 
@@ -57,6 +57,7 @@ struct pci_map {
 struct vpd_readonly {
     char	keyword[2];
     char	*value;
+    int		len;
 };
 
 struct vpd_write {
@@ -525,6 +526,7 @@ extern uint32_t	pci_generation;
 
 struct pci_map *pci_find_bar(device_t dev, int reg);
 int	pci_bar_enabled(device_t dev, struct pci_map *pm);
+struct pcicfg_vpd *pci_fetch_vpd_list(device_t dev);
 
 #define	VGA_PCI_BIOS_SHADOW_ADDR	0xC0000
 #define	VGA_PCI_BIOS_SHADOW_SIZE	131072

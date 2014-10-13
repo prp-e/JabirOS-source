@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/amd64/vmm/vmm_ipi.c 245678 2013-01-20 03:42:49Z neel $
+ * $FreeBSD: stable/10/sys/amd64/vmm/vmm_ipi.c 266339 2014-05-17 19:11:08Z jhb $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/amd64/vmm/vmm_ipi.c 245678 2013-01-20 03:42:49Z neel $");
+__FBSDID("$FreeBSD: stable/10/sys/amd64/vmm/vmm_ipi.c 266339 2014-05-17 19:11:08Z jhb $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -44,15 +44,10 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/amd64/vmm/vmm_ipi.c 245678 2013-01-20 03:
 
 extern inthand_t IDTVEC(rsvd), IDTVEC(justreturn);
 
-/*
- * The default is to use the IPI_AST to interrupt a vcpu.
- */
-int vmm_ipinum = IPI_AST;
-
 CTASSERT(APIC_SPURIOUS_INT == 255);
 
-void
-vmm_ipi_init(void)
+int
+vmm_ipi_alloc(void)
 {
 	int idx;
 	uintptr_t func;
@@ -72,22 +67,27 @@ vmm_ipi_init(void)
 		ip = &idt[idx];
 		func = ((long)ip->gd_hioffset << 16 | ip->gd_looffset);
 		if (func == (uintptr_t)&IDTVEC(rsvd)) {
-			vmm_ipinum = idx;
-			setidt(vmm_ipinum, IDTVEC(justreturn), SDT_SYSIGT,
+			setidt(idx , IDTVEC(justreturn), SDT_SYSIGT,
 			       SEL_KPL, 0);
-			break;
+			return (idx);
 		}
 	}
-	
-	if (vmm_ipinum != IPI_AST && bootverbose) {
-		printf("vmm_ipi_init: installing ipi handler to interrupt "
-		       "vcpus at vector %d\n", vmm_ipinum);
-	}
+	return (0);
 }
 
 void
-vmm_ipi_cleanup(void)
+vmm_ipi_free(int ipinum)
 {
-	if (vmm_ipinum != IPI_AST)
-		setidt(vmm_ipinum, IDTVEC(rsvd), SDT_SYSIGT, SEL_KPL, 0);
+	uintptr_t func;
+	struct gate_descriptor *ip;
+
+	KASSERT(ipinum >= APIC_IPI_INTS && ipinum < APIC_SPURIOUS_INT,
+	    ("invalid ipi %d", ipinum));
+
+	ip = &idt[ipinum];
+	func = ((long)ip->gd_hioffset << 16 | ip->gd_looffset);
+	KASSERT(func == (uintptr_t)&IDTVEC(justreturn),
+	    ("invalid ipi %d", ipinum));
+
+	setidt(ipinum, IDTVEC(rsvd), SDT_SYSIGT, SEL_KPL, 0);
 }

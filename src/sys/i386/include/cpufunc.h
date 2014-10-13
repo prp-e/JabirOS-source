@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/i386/include/cpufunc.h 238972 2012-08-01 17:24:53Z kib $
+ * $FreeBSD: stable/10/sys/i386/include/cpufunc.h 238972 2012-08-01 17:24:53Z kib $
  */
 
 /*

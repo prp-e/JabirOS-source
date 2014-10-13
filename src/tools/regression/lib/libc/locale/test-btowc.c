@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/tools/regression/lib/libc/locale/test-btowc.c 250989 2013-05-25 18:04:24Z ed $");
+__FBSDID("$FreeBSD: stable/10/tools/regression/lib/libc/locale/test-btowc.c 250989 2013-05-25 18:04:24Z ed $");
 
 #include <assert.h>
 #include <limits.h>

@@ -25,7 +25,7 @@
  *
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/lpc/lpc_ohci.c 239278 2012-08-15 05:37:10Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/lpc/lpc_ohci.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/stdint.h>
 #include <sys/stddef.h>
@@ -98,6 +98,10 @@ static void lpc_isp3101_configure(device_t dev, struct ohci_softc *);
 static int
 lpc_ohci_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
+
 	if (!ofw_bus_is_compatible(dev, "lpc,usb-ohci"))
 		return (ENXIO);
 

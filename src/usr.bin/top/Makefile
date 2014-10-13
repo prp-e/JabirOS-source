@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/top/Makefile 201386 2010-01-02 10:27:05Z ed $
+# $FreeBSD: stable/10/usr.bin/top/Makefile 266280 2014-05-17 02:39:20Z bdrewery $
 
 TOPDIR=	${.CURDIR}/../../contrib/top
 .PATH: ${TOPDIR}
@@ -21,8 +21,8 @@ WARNS?=	0
 CFLAGS+= -D"Table_size=${TOP_TABLE_SIZE}"
 .endif
 
-DPADD=	${LIBTERMCAP} ${LIBM} ${LIBKVM}
-LDADD=	-ltermcap -lm -lkvm
+DPADD=	${LIBTERMCAP} ${LIBM} ${LIBKVM} ${LIBJAIL}
+LDADD=	-ltermcap -lm -lkvm -ljail
 
 CLEANFILES= sigdesc.h
 SIGCONV_AWK= ${.CURDIR}/../../contrib/top/sigconv.awk

@@ -60,7 +60,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netipx/ipx_outputfl.c 243882 2012-12-05 08:04:20Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sys/netipx/ipx_outputfl.c 263478 2014-03-21 15:15:30Z glebius $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -129,7 +129,7 @@ ipx_outputfl(struct mbuf *m0, struct route *ro, int flags)
 		error = ENETUNREACH;
 		goto bad;
 	}
-	ro->ro_rt->rt_use++;
+	counter_u64_add(ro->ro_rt->rt_pksent, 1);
 	if (ro->ro_rt->rt_flags & (RTF_GATEWAY|RTF_HOST))
 		dst = (struct sockaddr_ipx *)ro->ro_rt->rt_gateway;
 gotif:

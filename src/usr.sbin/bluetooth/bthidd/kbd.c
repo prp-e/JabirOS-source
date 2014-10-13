@@ -28,7 +28,7 @@
  * SUCH DAMAGE.
  *
  * $Id: kbd.c,v 1.4 2006/09/07 21:06:53 max Exp $
- * $FreeBSD: release/10.0.0/usr.sbin/bluetooth/bthidd/kbd.c 162157 2006-09-08 15:05:38Z emax $
+ * $FreeBSD: stable/10/usr.sbin/bluetooth/bthidd/kbd.c 261455 2014-02-04 03:36:42Z eadler $
  */
 
 #include <sys/consio.h>
@@ -67,7 +67,7 @@ static int32_t	kbd_xlate(int32_t code, int32_t make, int32_t *b, int32_t const *
  * The "break" (key released) code is generated as "make" | 0x80
  */
 
-#define E0PREFIX	(1 << 31)
+#define E0PREFIX	(1U << 31)
 #define NOBREAK		(1 << 30)
 #define CODEMASK	(~(E0PREFIX|NOBREAK))
 

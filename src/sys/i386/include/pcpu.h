@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/i386/include/pcpu.h 256073 2013-10-05 23:11:01Z gibbs $
+ * $FreeBSD: stable/10/sys/i386/include/pcpu.h 256073 2013-10-05 23:11:01Z gibbs $
  */
 
 #ifndef _MACHINE_PCPU_H_

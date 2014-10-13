@@ -25,16 +25,16 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/ia64/ia64/sal.c 221271 2011-04-30 20:49:00Z marcel $");
+__FBSDID("$FreeBSD: stable/10/sys/ia64/ia64/sal.c 270296 2014-08-21 19:51:07Z emaste $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
 #include <sys/bus.h>
+#include <sys/efi.h>
 #include <sys/kernel.h>
 #include <sys/malloc.h>
 #include <vm/vm.h>
 #include <vm/vm_kern.h>
-#include <machine/efi.h>
 #include <machine/intr.h>
 #include <machine/md_var.h>
 #include <machine/sal.h>

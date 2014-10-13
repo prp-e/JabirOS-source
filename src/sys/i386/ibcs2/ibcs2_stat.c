@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/i386/ibcs2/ibcs2_stat.c 229272 2012-01-02 12:12:10Z ed $");
+__FBSDID("$FreeBSD: stable/10/sys/i386/ibcs2/ibcs2_stat.c 229272 2012-01-02 12:12:10Z ed $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

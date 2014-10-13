@@ -1,5 +1,5 @@
 #
-# $FreeBSD: release/10.0.0/sys/modules/usb/usie/Makefile 223864 2011-07-08 10:58:56Z hselasky $
+# $FreeBSD: stable/10/sys/modules/usb/usie/Makefile 223864 2011-07-08 10:58:56Z hselasky $
 #
 # Copyright (c) 2011 Hans Petter Selasky. All rights reserved.
 #

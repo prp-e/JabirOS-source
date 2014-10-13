@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/fifolog/fifolog_writer/Makefile 178068 2008-04-10 14:02:00Z ru $
+# $FreeBSD: stable/10/usr.sbin/fifolog/fifolog_writer/Makefile 178068 2008-04-10 14:02:00Z ru $
 
 PROG=	fifolog_writer
 

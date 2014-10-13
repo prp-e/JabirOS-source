@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.bin/csup/lister.c 241835 2012-10-22 02:59:44Z eadler $
+ * $FreeBSD: stable/10/usr.bin/csup/lister.c 241835 2012-10-22 02:59:44Z eadler $
  */
 
 #include <assert.h>

@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/ofw/ofw_cpu.c 255378 2013-09-07 20:52:31Z nwhitehorn $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/ofw/ofw_cpu.c 266160 2014-05-15 17:30:16Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -74,7 +74,7 @@ static driver_t ofw_cpulist_driver = {
 
 static devclass_t ofw_cpulist_devclass;
 
-DRIVER_MODULE(ofw_cpulist, nexus, ofw_cpulist_driver, ofw_cpulist_devclass,
+DRIVER_MODULE(ofw_cpulist, ofwbus, ofw_cpulist_driver, ofw_cpulist_devclass,
     0, 0);
 
 static int 

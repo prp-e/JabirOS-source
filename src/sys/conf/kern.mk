@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/conf/kern.mk 250828 2013-05-20 19:41:34Z brooks $
+# $FreeBSD: stable/10/sys/conf/kern.mk 268882 2014-07-19 18:33:09Z dim $
 
 #
 # Warning flags for compiling the kernel and components of the kernel:
@@ -29,7 +29,8 @@ NO_WSOMETIMES_UNINITIALIZED=	-Wno-error-sometimes-uninitialized
 # enough to error out the whole kernel build.  Display them anyway, so there is
 # some incentive to fix them eventually.
 CWARNEXTRA?=	-Wno-error-tautological-compare -Wno-error-empty-body \
-		-Wno-error-parentheses-equality ${NO_WFORMAT}
+		-Wno-error-parentheses-equality -Wno-error-unused-function \
+		${NO_WFORMAT}
 .endif
 
 # External compilers may not support our format extensions.  Allow them
@@ -89,7 +90,11 @@ INLINE_LIMIT?=	15000
 # operations which it has a tendency to do.
 #
 .if ${MACHINE_CPUARCH} == "sparc64"
+.if ${COMPILER_TYPE} == "clang"
+CFLAGS+=	-mcmodel=large -fno-dwarf2-cfi-asm
+.else
 CFLAGS+=	-mcmodel=medany -msoft-float
+.endif
 INLINE_LIMIT?=	15000
 .endif
 
@@ -153,4 +158,11 @@ CFLAGS+=	-ffreestanding
 .if ${MK_SSP} != "no" && ${MACHINE_CPUARCH} != "ia64" && \
     ${MACHINE_CPUARCH} != "arm" && ${MACHINE_CPUARCH} != "mips"
 CFLAGS+=	-fstack-protector
+.endif
+
+#
+# Add -gdwarf-2 when compiling -g
+#
+.if ${COMPILER_TYPE} == "clang" && ${CFLAGS:M-g} != "" && ${CFLAGS:M-gdwarf} == ""
+CFLAGS+=	-gdwarf-2
 .endif

@@ -37,7 +37,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/security/mac/mac_posix_shm.c 255971 2013-10-01 15:40:27Z markj $");
+__FBSDID("$FreeBSD: stable/10/sys/security/mac/mac_posix_shm.c 255971 2013-10-01 15:40:27Z markj $");
 
 #include "opt_kdtrace.h"
 #include "opt_mac.h"

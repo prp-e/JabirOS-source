@@ -1,7 +1,7 @@
 #
 # std.zynq7		- Generic configuration for Xilinx Zynq-7000 PS.
 #
-# $FreeBSD: release/10.0.0/sys/arm/xilinx/std.zynq7 249997 2013-04-27 22:38:29Z wkoszek $
+# $FreeBSD: stable/10/sys/arm/xilinx/std.zynq7 266379 2014-05-17 23:25:20Z ian $
 
 cpu		CPU_CORTEXA
 machine		arm	armv6
@@ -18,6 +18,7 @@ makeoptions	KERNPHYSADDR=0x00100000
 options		KERNVIRTADDR=0xc0100000		# Used in ldscript.arm
 makeoptions	KERNVIRTADDR=0xc0100000
 
-options		STARTUP_PAGETABLE_ADDR=0x000f0000
 options		ARM_L2_PIPT
 
+options		IPI_IRQ_START=0
+options		IPI_IRQ_END=15

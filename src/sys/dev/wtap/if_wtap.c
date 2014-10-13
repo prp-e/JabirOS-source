@@ -29,7 +29,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: release/10.0.0/sys/dev/wtap/if_wtap.c 244400 2012-12-18 16:15:20Z monthadar $
+ * $FreeBSD: stable/10/sys/dev/wtap/if_wtap.c 244400 2012-12-18 16:15:20Z monthadar $
  */
 #include "if_wtapvar.h"
 #include <sys/uio.h>    /* uio struct */

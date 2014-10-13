@@ -25,10 +25,11 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/ia64/ia64/iodev_machdep.c 207329 2010-04-28 15:38:01Z attilio $");
+__FBSDID("$FreeBSD: stable/10/sys/ia64/ia64/iodev_machdep.c 270296 2014-08-21 19:51:07Z emaste $");
 
 #include <sys/param.h>
 #include <sys/conf.h>
+#include <sys/efi.h>
 #include <sys/fcntl.h>
 #include <sys/ioccom.h>
 #include <sys/malloc.h>
@@ -37,7 +38,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/ia64/ia64/iodev_machdep.c 207329 2010-04-
 #include <sys/systm.h>
 
 #include <machine/bus.h>
-#include <machine/efi.h>
 #include <machine/iodev.h>
 
 static int iodev_efivar_getvar(struct iodev_efivar_req *req);

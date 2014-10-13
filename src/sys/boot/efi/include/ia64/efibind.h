@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/boot/efi/include/ia64/efibind.h 163898 2006-11-02 02:42:48Z marcel $ */
+/* $FreeBSD: stable/10/sys/boot/efi/include/ia64/efibind.h 163898 2006-11-02 02:42:48Z marcel $ */
 /*++
 
 Copyright (c)  1999 - 2003 Intel Corporation. All rights reserved

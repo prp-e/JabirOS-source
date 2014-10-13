@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/nlm/dev/net/nae.c 255368 2013-09-07 18:26:16Z jchandra $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/nlm/dev/net/nae.c 261455 2014-02-04 03:36:42Z eadler $");
 #include <sys/types.h>
 #include <sys/systm.h>
 
@@ -1401,7 +1401,7 @@ nlm_nae_open_if(uint64_t nae_base, int nblock, int port_type,
 		mac_cfg1 = nlm_read_nae_reg(nae_base, conf1_reg);
 		nlm_write_nae_reg(nae_base, conf1_reg,
 		    mac_cfg1	|
-		    (1 << 31)	|	/* soft reset */
+		    (1U << 31)	|	/* soft reset */
 		    (1 << 2)	|	/* rx enable */
 		    (1));		/* tx enable */
 
@@ -1415,7 +1415,7 @@ nlm_nae_open_if(uint64_t nae_base, int nblock, int port_type,
 
 		/* clear gmac reset */
 		mac_cfg1 = nlm_read_nae_reg(nae_base, conf1_reg);
-		nlm_write_nae_reg(nae_base, conf1_reg, mac_cfg1 & ~(1 << 31));
+		nlm_write_nae_reg(nae_base, conf1_reg, mac_cfg1 & ~(1U << 31));
 
 		/* clear speed debug bit */
 		iface_ctrl3_reg = SGMII_NET_IFACE_CTRL3(nblock, iface);

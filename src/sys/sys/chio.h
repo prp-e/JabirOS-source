@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/sys/chio.h 249658 2013-04-19 20:03:51Z ken $
+ * $FreeBSD: stable/10/sys/sys/chio.h 249658 2013-04-19 20:03:51Z ken $
  */
 
 #ifndef	_SYS_CHIO_H_

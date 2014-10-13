@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/powermac/nvbl.c 255100 2013-08-31 16:31:48Z jhibbits $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/powermac/nvbl.c 261455 2014-02-04 03:36:42Z eadler $");
 
 #include <sys/param.h>
 #include <sys/bus.h>
@@ -46,7 +46,7 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/powermac/nvbl.c 255100 2013-08-31
 #define NVIDIA_MMIO_PMC       (0x0)
 #define  NVIDIA_PMC_OFF         (NVIDIA_MMIO_PMC + 0x10f0)
 #define   NVIDIA_PMC_BL_SHIFT    (16)
-#define   NVIDIA_PMC_BL_EN       (1 << 31)
+#define   NVIDIA_PMC_BL_EN       (1U << 31)
 
 
 struct nvbl_softc {

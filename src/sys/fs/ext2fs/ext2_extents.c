@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/fs/ext2fs/ext2_extents.c 254260 2013-08-12 21:34:48Z pfg $
+ * $FreeBSD: stable/10/sys/fs/ext2fs/ext2_extents.c 254260 2013-08-12 21:34:48Z pfg $
  */
 
 #include <sys/param.h>

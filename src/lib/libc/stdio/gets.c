@@ -34,7 +34,7 @@
 static char sccsid[] = "@(#)gets.c	8.1 (Berkeley) 6/4/93";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/stdio/gets.c 249810 2013-04-23 14:36:44Z emaste $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/stdio/gets.c 269007 2014-07-23 02:55:03Z pfg $");
 
 #include "namespace.h"
 #include <unistd.h>
@@ -52,7 +52,7 @@ gets(char *buf)
 	int c;
 	char *s;
 	static int warned;
-	static char w[] =
+	static const char w[] =
 	    "warning: this program uses gets(), which is unsafe.\n";
 
 	FLOCKFILE(stdin);

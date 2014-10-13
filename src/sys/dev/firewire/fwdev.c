@@ -31,7 +31,7 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  * 
- * $FreeBSD: release/10.0.0/sys/dev/firewire/fwdev.c 255359 2013-09-07 13:45:44Z davide $
+ * $FreeBSD: stable/10/sys/dev/firewire/fwdev.c 255359 2013-09-07 13:45:44Z davide $
  *
  */
 

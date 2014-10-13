@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/bsdconfig/Makefile 250323 2013-05-07 05:40:20Z dteske $
+# $FreeBSD: stable/10/usr.sbin/bsdconfig/Makefile 260675 2014-01-15 07:36:34Z dteske $
 
 SUBDIR=	console \
 	diskmgmt \
@@ -6,6 +6,7 @@ SUBDIR=	console \
 	dot \
 	examples \
 	include \
+	includes \
 	mouse \
 	networking \
 	packages \

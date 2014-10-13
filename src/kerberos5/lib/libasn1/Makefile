@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/kerberos5/lib/libasn1/Makefile 236422 2012-06-01 21:26:28Z obrien $
+# $FreeBSD: stable/10/kerberos5/lib/libasn1/Makefile 262254 2014-02-20 20:51:27Z peter $
 
 LIB=	asn1
 LDFLAGS=	-Wl,--no-undefined
@@ -56,10 +56,12 @@ INCS+=	krb5_asn1.h \
 	digest_asn1.h \
 	kx509_asn1.h
 
+.ORDER: ${GEN_CMS}
 ${GEN_CMS}: cms.asn1 cms.opt
 	${ASN1_COMPILE} --one-code-file \
 		--option-file=${.ALLSRC:M*.opt} ${.ALLSRC:M*.asn1} cms_asn1
 
+.ORDER: ${GEN_RFC2459}
 ${GEN_RFC2459}: rfc2459.asn1
 	${ASN1_COMPILE} \
 		--one-code-file \
@@ -70,32 +72,39 @@ ${GEN_RFC2459}: rfc2459.asn1
 		--sequence=Extensions \
 		--sequence=CRLDistributionPoints ${.ALLSRC:M*.asn1} rfc2459_asn1
 
+.ORDER: ${GEN_K5}
 ${GEN_K5}: krb5.asn1 krb5.opt
 	${ASN1_COMPILE} \
 		--one-code-file \
 		--option-file=${.ALLSRC:M*.opt} \
 		${.ALLSRC:M*.asn1} krb5_asn1
 
+.ORDER: ${GEN_PKINIT}
 ${GEN_PKINIT}: pkinit.asn1
 	${ASN1_COMPILE} --one-code-file \
 		${.ALLSRC:M*.asn1} pkinit_asn1
 
+.ORDER: ${GEN_PKCS8}
 ${GEN_PKCS8}: pkcs8.asn1
 	${ASN1_COMPILE} --one-code-file \
 		${.ALLSRC:M*.asn1} pkcs8_asn1
 
+.ORDER: ${GEN_PKCS9}
 ${GEN_PKCS9}: pkcs9.asn1
 	${ASN1_COMPILE} --one-code-file \
 		${.ALLSRC:M*.asn1} pkcs9_asn1
 
+.ORDER: ${GEN_PKCS12}
 ${GEN_PKCS12}: pkcs12.asn1
 	${ASN1_COMPILE} --one-code-file \
 		${.ALLSRC:M*.asn1} pkcs12_asn1
 
+.ORDER: ${GEN_DIGEST}
 ${GEN_DIGEST}: digest.asn1
 	${ASN1_COMPILE} --one-code-file \
 		${.ALLSRC:M*.asn1} digest_asn1
 
+.ORDER: ${GEN_KX509}
 ${GEN_KX509}: kx509.asn1
 	${ASN1_COMPILE} --one-code-file \
 		${.ALLSRC:M*.asn1} kx509_asn1

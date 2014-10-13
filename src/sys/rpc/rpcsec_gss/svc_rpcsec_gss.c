@@ -61,7 +61,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/rpc/rpcsec_gss/svc_rpcsec_gss.c 242090 2012-10-25 19:30:58Z rmacklem $");
+__FBSDID("$FreeBSD: stable/10/sys/rpc/rpcsec_gss/svc_rpcsec_gss.c 242090 2012-10-25 19:30:58Z rmacklem $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

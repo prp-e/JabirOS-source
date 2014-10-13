@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/inetd/inetd.h 236572 2012-06-04 18:02:09Z delphij $
+ * $FreeBSD: stable/10/usr.sbin/inetd/inetd.h 236572 2012-06-04 18:02:09Z delphij $
  */
 
 #include <sys/time.h>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/iicbus/iic.h 210998 2010-08-07 08:31:32Z joel $
+ * $FreeBSD: stable/10/sys/dev/iicbus/iic.h 210998 2010-08-07 08:31:32Z joel $
  *
  */
 #ifndef __IIC_H

@@ -36,7 +36,7 @@
 
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/mips/bcopy.S 255367 2013-09-07 16:31:30Z jchandra $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/mips/bcopy.S 255367 2013-09-07 16:31:30Z jchandra $");
 
 #include <machine/endian.h>
 

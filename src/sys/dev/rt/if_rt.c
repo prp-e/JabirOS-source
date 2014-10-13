@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/rt/if_rt.c 251734 2013-06-14 05:36:47Z kevlo $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/rt/if_rt.c 265999 2014-05-14 01:35:43Z ian $");
 
 #include "if_rtvar.h"
 #include "if_rtreg.h"
@@ -148,7 +148,7 @@ static int
 rt_probe(device_t dev)
 {
 	device_set_desc(dev, "Ralink RT305XF onChip Ethernet MAC");
-	return (0);
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 /*

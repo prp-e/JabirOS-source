@@ -54,7 +54,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/newsyslog/newsyslog.c 252378 2013-06-29 15:58:03Z kientzle $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/newsyslog/newsyslog.c 262075 2014-02-17 15:57:16Z bdrewery $");
 
 #define	OSF
 
@@ -1491,6 +1491,7 @@ validate_old_timelog(int fd, const struct dirent *dp, const char *logfname,
 			    &dp->d_name[logfname_len]);
 		return (0);
 	}
+	memset(tm, 0, sizeof(*tm));
 	if ((s = strptime(&dp->d_name[logfname_len + 1],
 	    timefnamefmt, tm)) == NULL) {
 		/*
@@ -2283,7 +2284,7 @@ sizefile(const char *file)
 
 	if (stat(file, &sb) < 0)
 		return (-1);
-	return (kbytes(dbtob(sb.st_blocks)));
+	return (kbytes(sb.st_size));
 }
 
 /*

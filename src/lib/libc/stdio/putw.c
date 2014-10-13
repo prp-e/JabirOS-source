@@ -34,7 +34,7 @@
 static char sccsid[] = "@(#)putw.c	8.1 (Berkeley) 6/4/93";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/stdio/putw.c 249810 2013-04-23 14:36:44Z emaste $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/stdio/putw.c 269085 2014-07-25 03:24:00Z pfg $");
 
 #include "namespace.h"
 #include <stdio.h>
@@ -50,7 +50,7 @@ putw(int w, FILE *fp)
 	struct __siov iov;
 
 	iov.iov_base = &w;
-	iov.iov_len = uio.uio_resid = sizeof(w);
+	uio.uio_resid = iov.iov_len = sizeof(w);
 	uio.uio_iov = &iov;
 	uio.uio_iovcnt = 1;
 	FLOCKFILE(fp);

@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/contrib/ipfilter/netinet/fil.c 255355 2013-09-07 09:47:18Z glebius $	*/
+/*	$FreeBSD: stable/10/sys/contrib/ipfilter/netinet/fil.c 255355 2013-09-07 09:47:18Z glebius $	*/
 
 /*
  * Copyright (C) 2012 by Darren Reed.
@@ -139,7 +139,7 @@ extern struct timeout ipf_slowtimer_ch;
 
 #if !defined(lint)
 static const char sccsid[] = "@(#)fil.c	1.36 6/5/96 (C) 1993-2000 Darren Reed";
-static const char rcsid[] = "@(#)$FreeBSD: release/10.0.0/sys/contrib/ipfilter/netinet/fil.c 255355 2013-09-07 09:47:18Z glebius $";
+static const char rcsid[] = "@(#)$FreeBSD: stable/10/sys/contrib/ipfilter/netinet/fil.c 255355 2013-09-07 09:47:18Z glebius $";
 /* static const char rcsid[] = "@(#)$Id: fil.c,v 2.243.2.125 2007/10/10 09:27:20 darrenr Exp $"; */
 #endif
 

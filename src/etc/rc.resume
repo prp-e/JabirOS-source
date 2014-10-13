@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/etc/rc.resume 252686 2013-07-04 07:32:40Z rpaulo $
+# $FreeBSD: stable/10/etc/rc.resume 252686 2013-07-04 07:32:40Z rpaulo $
 #
 
 # sample run command file for APM Resume Event

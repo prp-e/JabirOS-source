@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/rpc.lockd/kern.c 235822 2012-05-23 06:49:50Z delphij $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/rpc.lockd/kern.c 235822 2012-05-23 06:49:50Z delphij $");
 
 #include <sys/param.h>
 #include <sys/mount.h>

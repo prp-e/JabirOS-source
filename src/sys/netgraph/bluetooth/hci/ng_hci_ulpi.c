@@ -28,7 +28,7 @@
  * SUCH DAMAGE.
  *
  * $Id: ng_hci_ulpi.c,v 1.7 2003/09/08 18:57:51 max Exp $
- * $FreeBSD: release/10.0.0/sys/netgraph/bluetooth/hci/ng_hci_ulpi.c 250576 2013-05-12 16:43:26Z eadler $
+ * $FreeBSD: stable/10/sys/netgraph/bluetooth/hci/ng_hci_ulpi.c 250576 2013-05-12 16:43:26Z eadler $
  */
 
 #include <sys/param.h>

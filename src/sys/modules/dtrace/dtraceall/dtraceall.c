@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/modules/dtrace/dtraceall/dtraceall.c 248457 2013-03-18 05:30:18Z jhibbits $
+ * $FreeBSD: stable/10/sys/modules/dtrace/dtraceall/dtraceall.c 260813 2014-01-17 10:34:01Z avg $
  */
 
 #include <sys/cdefs.h>
@@ -66,7 +66,6 @@ MODULE_VERSION(dtraceall, 1);
 MODULE_DEPEND(dtraceall, cyclic, 1, 1, 1);
 MODULE_DEPEND(dtraceall, opensolaris, 1, 1, 1);
 MODULE_DEPEND(dtraceall, dtrace, 1, 1, 1);
-MODULE_DEPEND(dtraceall, dtio, 1, 1, 1);
 MODULE_DEPEND(dtraceall, dtmalloc, 1, 1, 1);
 MODULE_DEPEND(dtraceall, dtnfscl, 1, 1, 1);
 #if defined(NFSCLIENT)

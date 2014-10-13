@@ -51,7 +51,7 @@ All rights reserved.\n";
 #endif /* not lint */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/growfs/growfs.c 250377 2013-05-08 18:55:38Z eadler $");
+__FBSDID("$FreeBSD: stable/10/sbin/growfs/growfs.c 261963 2014-02-16 10:16:07Z brueffer $");
 
 #include <sys/param.h>
 #include <sys/ioctl.h>
@@ -201,7 +201,7 @@ growfs(int fsi, int fso, unsigned int Nflag)
 	 * Now build the cylinders group blocks and
 	 * then print out indices of cylinder groups.
 	 */
-	printf("super-block backups (for fsck -b #) at:\n");
+	printf("super-block backups (for fsck_ffs -b #) at:\n");
 	i = 0;
 	width = charsperline();
 

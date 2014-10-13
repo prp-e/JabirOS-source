@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/tools/tinder.sh 228066 2011-11-28 14:03:36Z fjoe $
+# $FreeBSD: stable/10/tools/tinder.sh 228066 2011-11-28 14:03:36Z fjoe $
 #
 
 #

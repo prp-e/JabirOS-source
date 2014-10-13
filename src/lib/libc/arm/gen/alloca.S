@@ -35,7 +35,7 @@
 /* like alloc, but automatic automatic free in return */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/arm/gen/alloca.S 137464 2004-11-09 16:49:14Z cognet $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/arm/gen/alloca.S 271337 2014-09-09 22:24:01Z ian $");
 
 ENTRY(alloca)
 	add	r0, r0, #0x00000007	/* round up to next 8 byte alignment */
@@ -43,3 +43,4 @@ ENTRY(alloca)
 	sub	sp, sp, r0		/* Adjust the stack pointer */
 	mov	r0, sp			/* r0 = base of new space */
 	RET
+END(alloca)

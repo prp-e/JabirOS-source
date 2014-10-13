@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/mca/mca.c 236355 2012-05-31 08:22:02Z eadler $");
+__FBSDID("$FreeBSD: stable/10/sbin/mca/mca.c 236355 2012-05-31 08:22:02Z eadler $");
 
 #include <sys/types.h>
 #include <sys/mman.h>

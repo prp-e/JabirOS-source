@@ -23,34 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/amd64/vmm/intel/vmx_msr.h 245678 2013-01-20 03:42:49Z neel $
+ * $FreeBSD: stable/10/sys/amd64/vmm/intel/vmx_msr.h 270159 2014-08-19 01:20:24Z grehan $
  */
 
 #ifndef _VMX_MSR_H_
 #define	_VMX_MSR_H_
-
-#define	MSR_VMX_BASIC			0x480
-#define	MSR_VMX_EPT_VPID_CAP		0x48C
-
-#define	MSR_VMX_PROCBASED_CTLS		0x482
-#define	MSR_VMX_TRUE_PROCBASED_CTLS	0x48E
-
-#define	MSR_VMX_PINBASED_CTLS		0x481
-#define	MSR_VMX_TRUE_PINBASED_CTLS	0x48D
-
-#define	MSR_VMX_PROCBASED_CTLS2		0x48B
-
-#define	MSR_VMX_EXIT_CTLS		0x483
-#define	MSR_VMX_TRUE_EXIT_CTLS		0x48f
-
-#define	MSR_VMX_ENTRY_CTLS		0x484
-#define	MSR_VMX_TRUE_ENTRY_CTLS		0x490
-
-#define	MSR_VMX_CR0_FIXED0		0x486
-#define	MSR_VMX_CR0_FIXED1		0x487
-
-#define	MSR_VMX_CR4_FIXED0		0x488
-#define	MSR_VMX_CR4_FIXED1		0x489
 
 uint32_t vmx_revision(void);
 

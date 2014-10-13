@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/share/mk/bsd.libnames.mk 256998 2013-10-23 18:07:07Z bdrewery $
+# $FreeBSD: stable/10/share/mk/bsd.libnames.mk 270905 2014-08-31 23:09:23Z ngie $
 
 # The include file <bsd.libnames.mk> define library names.
 # Other include files (e.g. bsd.prog.mk, bsd.lib.mk) include this
@@ -13,8 +13,8 @@ LIBCRT0?=	${DESTDIR}${LIBDIR}/crt0.o
 LIBALIAS?=	${DESTDIR}${LIBDIR}/libalias.a
 LIBARCHIVE?=	${DESTDIR}${LIBDIR}/libarchive.a
 LIBASN1?=	${DESTDIR}${LIBDIR}/libasn1.a
-LIBATF_C?=	${DESTDIR}${LIBDIR}/libatf-c.a
-LIBATF_CXX?=	${DESTDIR}${LIBDIR}/libatf-c++.a
+LIBATF_C?=	${DESTDIR}${LIBPRIVATEDIR}/libatf-c.a
+LIBATF_CXX?=	${DESTDIR}${LIBPRIVATEDIR}/libatf-c++.a
 LIBATM?=	${DESTDIR}${LIBDIR}/libatm.a
 LIBAUDITD?=	${DESTDIR}${LIBDIR}/libauditd.a
 LIBAVL?=	${DESTDIR}${LIBDIR}/libavl.a
@@ -142,12 +142,14 @@ LIBSDP?=	${DESTDIR}${LIBDIR}/libsdp.a
 LIBSMB?=	${DESTDIR}${LIBDIR}/libsmb.a
 LIBSSH?=	${DESTDIR}${LIBPRIVATEDIR}/libssh.a
 LIBSSL?=	${DESTDIR}${LIBDIR}/libssl.a
+LIBSSP_NONSHARED?=	${DESTDIR}${LIBDIR}/libssp_nonshared.a
 LIBSTAND?=	${DESTDIR}${LIBDIR}/libstand.a
 LIBSTDCPLUSPLUS?= ${DESTDIR}${LIBDIR}/libstdc++.a
 LIBTACPLUS?=	${DESTDIR}${LIBDIR}/libtacplus.a
 LIBTERMCAP?=	${DESTDIR}${LIBDIR}/libtermcap.a
 LIBTERMLIB?=	"don't use LIBTERMLIB, use LIBTERMCAP"
 LIBTINFO?=	"don't use LIBTINFO, use LIBNCURSES"
+LIBUCL?=	${DESTDIR}${LIBPRIVATEDIR}/libucl.a
 LIBUFS?=	${DESTDIR}${LIBDIR}/libufs.a
 LIBUGIDFW?=	${DESTDIR}${LIBDIR}/libugidfw.a
 LIBUMEM?=	${DESTDIR}${LIBDIR}/libumem.a

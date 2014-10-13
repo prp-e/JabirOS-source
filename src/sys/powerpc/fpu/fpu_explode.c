@@ -46,7 +46,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/fpu/fpu_explode.c 178030 2008-04-09 08:50:37Z grehan $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/fpu/fpu_explode.c 266004 2014-05-14 04:42:38Z ian $");
 
 #include <sys/types.h>
 #include <sys/systm.h>
@@ -235,6 +235,7 @@ fpu_explode(struct fpemu *fe, struct fpn *fp, int type, int reg)
 		s = fpu_dtof(fp, s, space[1]);
 		break;
 
+	default:
 		panic("fpu_explode");
 		panic("fpu_explode: invalid type %d", type);
 	}

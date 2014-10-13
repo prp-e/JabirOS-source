@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/csu/powerpc64/Makefile 234502 2012-04-20 21:00:39Z dim $
+# $FreeBSD: stable/10/lib/csu/powerpc64/Makefile 234502 2012-04-20 21:00:39Z dim $
 
 .PATH: ${.CURDIR}/../common
 

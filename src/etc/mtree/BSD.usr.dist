@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/etc/mtree/BSD.usr.dist 258481 2013-11-22 19:26:04Z glebius $
+# $FreeBSD: stable/10/etc/mtree/BSD.usr.dist 272152 2014-09-26 03:03:58Z gjb $
 #
 # Please see the file src/etc/mtree/README before making changes to this file.
 #
@@ -101,6 +101,10 @@
             ..
             include
             ..
+            includes
+                include
+                ..
+            ..
         ..
         bsdinstall
         ..
@@ -120,8 +124,6 @@
     sbin
     ..
     share
-        atf
-        ..
         bsdconfig
             media
             ..
@@ -164,8 +166,6 @@
         ..
         doc
             IPv6
-            ..
-            atf
             ..
             atm
             ..
@@ -300,8 +300,6 @@
             bsdconfig
             ..
             csh
-            ..
-            cvsup
             ..
             diskless
             ..
@@ -1410,6 +1408,12 @@
             catalog
             ..
         ..
+        vt
+            fonts
+            ..
+            keymaps
+            ..
+        ..
         zoneinfo
             Africa
             ..
@@ -1446,7 +1450,5 @@
         ..
     ..
     src             nochange
-    ..
-    tests
     ..
 ..

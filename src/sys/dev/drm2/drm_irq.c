@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/drm_irq.c 255009 2013-08-28 22:57:49Z jkim $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm_irq.c 255009 2013-08-28 22:57:49Z jkim $");
 
 /** @file drm_irq.c
  * Support code for handling setup/teardown of interrupt handlers and

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/bsnmpd/bsnmpd/Makefile 216594 2010-12-20 17:13:14Z syrinx $
+# $FreeBSD: stable/10/usr.sbin/bsnmpd/bsnmpd/Makefile 216594 2010-12-20 17:13:14Z syrinx $
 #
 # Author: Harti Brandt <harti@freebsd.org>
 

@@ -29,7 +29,7 @@
 
 #include <sys/cdefs.h>
 
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/systat/main.c 246987 2013-02-19 12:57:07Z charnier $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/systat/main.c 262643 2014-03-01 03:09:16Z brooks $");
 
 #ifdef lint
 static const char sccsid[] = "@(#)main.c	8.1 (Berkeley) 6/6/93";
@@ -84,7 +84,11 @@ main(int argc, char **argv)
 	size_t	size;
 	double t;
 
+#ifdef USE_WIDECHAR
 	(void) setlocale(LC_ALL, "");
+#else
+	(void) setlocale(LC_TIME, "");
+#endif
 
 	argc--, argv++;
 	while (argc > 0) {

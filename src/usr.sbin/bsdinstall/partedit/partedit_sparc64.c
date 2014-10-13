@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/bsdinstall/partedit/partedit_sparc64.c 218799 2011-02-18 14:54:34Z nwhitehorn $
+ * $FreeBSD: stable/10/usr.sbin/bsdinstall/partedit/partedit_sparc64.c 271636 2014-09-15 17:49:46Z emaste $
  */
 
 #include <string.h>
@@ -47,6 +47,11 @@ bootpart_size(const char *part_type) {
 	/* No standalone boot partition */
 
 	return (0);
+}
+
+const char *
+bootpart_type(const char *scheme) {
+	return ("freebsd-boot");
 }
 
 const char *

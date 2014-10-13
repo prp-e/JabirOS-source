@@ -43,7 +43,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/radeon/radeon_sa.c 259754 2013-12-22 23:41:14Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/radeon_sa.c 259742 2013-12-22 21:18:21Z dumbbell $");
 
 #include <dev/drm2/drmP.h>
 #include "radeon.h"

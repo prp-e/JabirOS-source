@@ -5,7 +5,7 @@
  *
  * Largely rewritten by J.T. Conklin (jtc@wimsey.com)
  *
- * $FreeBSD: release/10.0.0/bin/expr/expr.y 235771 2012-05-22 03:01:54Z kevlo $
+ * $FreeBSD: stable/10/bin/expr/expr.y 235771 2012-05-22 03:01:54Z kevlo $
  */
 
 #include <sys/types.h>

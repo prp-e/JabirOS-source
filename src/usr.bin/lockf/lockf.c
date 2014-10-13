@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/lockf/lockf.c 250462 2013-05-10 17:30:29Z eadler $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/lockf/lockf.c 250462 2013-05-10 17:30:29Z eadler $");
 
 #include <sys/types.h>
 #include <sys/wait.h>

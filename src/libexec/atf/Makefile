@@ -23,8 +23,8 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/libexec/atf/Makefile 241823 2012-10-22 01:18:41Z marcel $
+# $FreeBSD: stable/10/libexec/atf/Makefile 271298 2014-09-09 04:00:30Z ngie $
 
-SUBDIR=	atf-check
+SUBDIR=	atf-check atf-sh tests
 
 .include <bsd.subdir.mk>

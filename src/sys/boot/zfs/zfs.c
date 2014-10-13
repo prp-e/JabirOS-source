@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: release/10.0.0/sys/boot/zfs/zfs.c 241292 2012-10-06 19:42:50Z avg $
+ *	$FreeBSD: stable/10/sys/boot/zfs/zfs.c 241292 2012-10-06 19:42:50Z avg $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/boot/zfs/zfs.c 241292 2012-10-06 19:42:50Z avg $");
+__FBSDID("$FreeBSD: stable/10/sys/boot/zfs/zfs.c 241292 2012-10-06 19:42:50Z avg $");
 
 /*
  *	Stand-alone file reading package.

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/kerberos5/tools/slc/Makefile 241298 2012-10-06 20:01:05Z marcel $
+# $FreeBSD: stable/10/kerberos5/tools/slc/Makefile 241298 2012-10-06 20:01:05Z marcel $
 
 PROG=	slc
 LIBROKEN_A=     ${.OBJDIR}/../../lib/libroken/libroken.a

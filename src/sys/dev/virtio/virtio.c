@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/virtio/virtio.c 252707 2013-07-04 17:57:26Z bryanv $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/virtio/virtio.c 267312 2014-06-10 03:23:35Z bryanv $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -40,6 +40,7 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/dev/virtio/virtio.c 252707 2013-07-04 17:
 #include <sys/rman.h>
 
 #include <dev/virtio/virtio.h>
+#include <dev/virtio/virtio_config.h>
 #include <dev/virtio/virtqueue.h>
 
 #include "virtio_bus_if.h"

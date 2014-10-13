@@ -24,7 +24,7 @@
 #  OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 #  SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/usr.bin/man/man.sh 245514 2013-01-16 23:20:24Z brooks $
+# $FreeBSD: stable/10/usr.bin/man/man.sh 245514 2013-01-16 23:20:24Z brooks $
 
 # Usage: add_to_manpath path
 # Adds a variable to manpath while ensuring we don't have duplicates.

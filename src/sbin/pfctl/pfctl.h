@@ -28,7 +28,7 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sbin/pfctl/pfctl.h 240494 2012-09-14 11:51:49Z glebius $
+ * $FreeBSD: stable/10/sbin/pfctl/pfctl.h 240494 2012-09-14 11:51:49Z glebius $
  */
 
 #ifndef _PFCTL_H_

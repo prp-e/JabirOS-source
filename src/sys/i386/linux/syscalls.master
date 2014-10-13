@@ -1,4 +1,4 @@
- $FreeBSD: release/10.0.0/sys/i386/linux/syscalls.master 255675 2013-09-18 18:48:33Z rdivacky $
+ $FreeBSD: stable/10/sys/i386/linux/syscalls.master 272020 2014-09-23 07:50:04Z bz $
 
 ;	@(#)syscalls.master	8.1 (Berkeley) 7/19/93
 ; System call name/number master file (or rather, slave, from LINUX).
@@ -439,7 +439,7 @@
 258	AUE_NULL	STD	{ int linux_set_tid_address(int *tidptr); }
 259	AUE_NULL	STD	{ int linux_timer_create(clockid_t clock_id, \
 					struct sigevent *evp, l_timer_t *timerid); }
-260	AUE_NULL	STD	{ int linux_timer_settime(l_timer_t timerid, \
+260	AUE_NULL	STD	{ int linux_timer_settime(l_timer_t timerid, l_int flags, \
 					const struct itimerspec *new, struct itimerspec *old); }
 261	AUE_NULL	STD	{ int linux_timer_gettime(l_timer_t timerid, struct itimerspec *setting); }
 262	AUE_NULL	STD	{ int linux_timer_getoverrun(l_timer_t timerid); }

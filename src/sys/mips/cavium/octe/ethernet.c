@@ -27,7 +27,7 @@ AND WITH ALL FAULTS AND CAVIUM  NETWORKS MAKES NO PROMISES, REPRESENTATIONS OR W
 *************************************************************************/
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/cavium/octe/ethernet.c 243263 2012-11-19 08:29:53Z jmallett $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/cavium/octe/ethernet.c 243263 2012-11-19 08:29:53Z jmallett $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

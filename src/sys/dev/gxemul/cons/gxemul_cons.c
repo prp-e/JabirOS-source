@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/gxemul/cons/gxemul_cons.c 255212 2013-09-04 20:34:36Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/gxemul/cons/gxemul_cons.c 255212 2013-09-04 20:34:36Z gonzo $");
 
 #include <sys/param.h>
 #include <sys/cons.h>

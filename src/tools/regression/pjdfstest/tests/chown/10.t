@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/tools/regression/pjdfstest/tests/chown/10.t 211410 2010-08-17 06:08:09Z pjd $
+# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/chown/10.t 211410 2010-08-17 06:08:09Z pjd $
 
 desc="chown returns EFAULT if the path argument points outside the process's allocated address space"
 

@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/bhyve/consport.c 249321 2013-04-10 02:12:39Z neel $
+ * $FreeBSD: stable/10/usr.sbin/bhyve/consport.c 267928 2014-06-26 19:19:06Z jhb $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/bhyve/consport.c 249321 2013-04-10 02:12:39Z neel $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/bhyve/consport.c 267928 2014-06-26 19:19:06Z jhb $");
 
 #include <sys/types.h>
 #include <sys/select.h>
@@ -39,6 +39,7 @@ __FBSDID("$FreeBSD: release/10.0.0/usr.sbin/bhyve/consport.c 249321 2013-04-10 0
 #include <stdbool.h>
 
 #include "inout.h"
+#include "pci_lpc.h"
 
 #define	BVM_CONSOLE_PORT	0x220
 #define	BVM_CONS_SIG		('b' << 8 | 'v')
@@ -109,6 +110,15 @@ console_handler(struct vmctx *ctx, int vcpu, int in, int port, int bytes,
 		return (0);
 	}
 
+	/*
+	 * Guests might probe this port to look for old ISA devices
+	 * using single-byte reads.  Return 0xff for those.
+	 */
+	if (bytes == 1 && in) {
+		*eax = 0xff;
+		return (0);
+	}
+
 	if (bytes != 4)
 		return (-1);
 
@@ -124,6 +134,8 @@ console_handler(struct vmctx *ctx, int vcpu, int in, int port, int bytes,
 
 	return (0);
 }
+
+SYSRES_IO(BVM_CONSOLE_PORT, 4);
 
 static struct inout_port consport = {
 	"bvmcons",

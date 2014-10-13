@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/dev/usb/controller/uhcireg.h 204632 2010-03-03 10:18:03Z joel $ */
+/* $FreeBSD: stable/10/sys/dev/usb/controller/uhcireg.h 204632 2010-03-03 10:18:03Z joel $ */
 /*-
  * Copyright (c) 1998 The NetBSD Foundation, Inc.
  * All rights reserved.

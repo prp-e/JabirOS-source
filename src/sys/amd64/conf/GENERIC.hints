@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/amd64/conf/GENERIC.hints 232614 2012-03-06 18:44:52Z bz $
+# $FreeBSD: stable/10/sys/amd64/conf/GENERIC.hints 232614 2012-03-06 18:44:52Z bz $
 hint.fdc.0.at="isa"
 hint.fdc.0.port="0x3F0"
 hint.fdc.0.irq="6"

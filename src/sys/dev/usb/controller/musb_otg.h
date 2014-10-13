@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/dev/usb/controller/musb_otg.h 257043 2013-10-24 07:38:32Z hselasky $ */
+/* $FreeBSD: stable/10/sys/dev/usb/controller/musb_otg.h 257043 2013-10-24 07:38:32Z hselasky $ */
 /*-
  * Copyright (c) 2008 Hans Petter Selasky. All rights reserved.
  *

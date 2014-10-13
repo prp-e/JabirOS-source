@@ -27,7 +27,7 @@
 # SUCH DAMAGE.
 #
 #	@(#)vnode_if.src	8.12 (Berkeley) 5/14/95
-# $FreeBSD: release/10.0.0/sys/kern/vnode_if.src 243400 2012-11-22 10:36:10Z avg $
+# $FreeBSD: stable/10/sys/kern/vnode_if.src 259296 2013-12-13 06:12:21Z kib $
 #
 
 #
@@ -477,7 +477,7 @@ vop_getpages {
 };
 
 
-%% putpages	vp	E E E
+%% putpages	vp	L L L
 
 vop_putpages {
 	IN struct vnode *vp;

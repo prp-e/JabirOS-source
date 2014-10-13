@@ -41,7 +41,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/sparc64/pci/sbbc.c 248965 2013-04-01 00:44:20Z ian $");
+__FBSDID("$FreeBSD: stable/10/sys/sparc64/pci/sbbc.c 248965 2013-04-01 00:44:20Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

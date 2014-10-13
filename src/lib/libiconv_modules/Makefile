@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libiconv_modules/Makefile 255298 2013-09-06 10:40:38Z theraven $
+# $FreeBSD: stable/10/lib/libiconv_modules/Makefile 255298 2013-09-06 10:40:38Z theraven $
 
 .include <bsd.own.mk>
 

@@ -23,7 +23,7 @@
  * SUCH DAMAGE.
  */
 
-/* $FreeBSD: release/10.0.0/sys/arm/at91/at91rm92reg.h 238330 2012-07-10 02:14:50Z imp $ */
+/* $FreeBSD: stable/10/sys/arm/at91/at91rm92reg.h 266110 2014-05-15 02:41:23Z ian $ */
 
 #ifndef AT91RM92REG_H_
 #define AT91RM92REG_H_
@@ -255,12 +255,12 @@
  * other * soc's so phyical and vm address
  * mapping are unique. XXX
  */
-#define AT91RM92_OHCI_BASE	0xdfe00000
-#define AT91RM92_OHCI_PA_BASE	0x00300000
+#define AT91RM92_OHCI_VA_BASE	0xdfe00000
+#define AT91RM92_OHCI_BASE	0x00300000
 #define AT91RM92_OHCI_SIZE	0x00100000
 
-#define	AT91RM92_CF_BASE	0xdfd00000
-#define	AT91RM92_CF_PA_BASE	0x51400000
+#define	AT91RM92_CF_VA_BASE	0xdfd00000
+#define	AT91RM92_CF_BASE	0x51400000
 #define	AT91RM92_CF_SIZE	0x00100000
 
 /* SDRAMC */

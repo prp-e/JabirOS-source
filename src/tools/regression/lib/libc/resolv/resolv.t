@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/tools/regression/lib/libc/resolv/resolv.t 145901 2005-05-05 11:26:47Z ume $
+# $FreeBSD: stable/10/tools/regression/lib/libc/resolv/resolv.t 145901 2005-05-05 11:26:47Z ume $
 
 do_test() {
 	number=$1

@@ -23,16 +23,17 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/amd64/vmm/io/iommu.c 245678 2013-01-20 03:42:49Z neel $
+ * $FreeBSD: stable/10/sys/amd64/vmm/io/iommu.c 267070 2014-06-04 17:57:48Z jhb $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/amd64/vmm/io/iommu.c 245678 2013-01-20 03:42:49Z neel $");
+__FBSDID("$FreeBSD: stable/10/sys/amd64/vmm/io/iommu.c 267070 2014-06-04 17:57:48Z jhb $");
 
 #include <sys/param.h>
 #include <sys/types.h>
 #include <sys/systm.h>
 #include <sys/bus.h>
+#include <sys/sysctl.h>
 
 #include <dev/pci/pcivar.h>
 #include <dev/pci/pcireg.h>
@@ -43,7 +44,13 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/amd64/vmm/io/iommu.c 245678 2013-01-20 03
 #include "vmm_mem.h"
 #include "iommu.h"
 
-static boolean_t iommu_avail;
+SYSCTL_DECL(_hw_vmm);
+SYSCTL_NODE(_hw_vmm, OID_AUTO, iommu, CTLFLAG_RW, 0, "bhyve iommu parameters");
+
+static int iommu_avail;
+SYSCTL_INT(_hw_vmm_iommu, OID_AUTO, initialized, CTLFLAG_RD, &iommu_avail,
+    0, "bhyve iommu initialized?");
+
 static struct iommu_ops *ops;
 static void *host_domain;
 
@@ -160,7 +167,7 @@ iommu_init(void)
 	if (error)
 		return;
 
-	iommu_avail = TRUE;
+	iommu_avail = 1;
 
 	/*
 	 * Create a domain for the devices owned by the host

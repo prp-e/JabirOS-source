@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/radeon/radeon.h 254885 2013-08-25 19:37:15Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/radeon.h 262861 2014-03-06 18:30:56Z jhb $");
 
 #ifndef __RADEON_H__
 #define __RADEON_H__
@@ -65,7 +65,7 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/radeon/radeon.h 254885 2013-08-2
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/radeon/radeon.h 254885 2013-08-25 19:37:15Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/radeon.h 262861 2014-03-06 18:30:56Z jhb $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -2040,6 +2040,9 @@ void	radeon_pm_acpi_event_handler(struct radeon_device *rdev);
 /* radeon_ttm.c */
 int	radeon_ttm_init(struct radeon_device *rdev);
 void	radeon_ttm_fini(struct radeon_device *rdev);
+
+/* radeon_fb.c */
+struct fb_info *	radeon_fb_helper_getinfo(device_t kdev);
 
 /* r600.c */
 int r600_ih_ring_alloc(struct radeon_device *rdev);

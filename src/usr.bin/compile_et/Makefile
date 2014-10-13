@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/compile_et/Makefile 233294 2012-03-22 08:48:42Z stas $
+# $FreeBSD: stable/10/usr.bin/compile_et/Makefile 233294 2012-03-22 08:48:42Z stas $
 
 .PATH: ${.CURDIR}/../../contrib/com_err
 

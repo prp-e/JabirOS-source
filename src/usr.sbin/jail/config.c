@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/jail/config.c 256387 2013-10-12 17:46:13Z hrs $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/jail/config.c 269805 2014-08-11 08:58:35Z smh $");
 
 #include <sys/types.h>
 #include <sys/errno.h>
@@ -576,7 +576,9 @@ check_intparams(struct cfjail *j)
 
 	/*
 	 * IP addresses may include an interface to set that address on,
-	 * and a netmask/suffix for that address.
+	 * a netmask/suffix for that address and options for ifconfig.
+	 * These are copied to an internal command parameter and then stripped
+	 * so they won't be passed on to jailparam_set.
 	 */
 	defif = string_param(j->intparams[IP_INTERFACE]) != NULL;
 #ifdef INET
@@ -601,6 +603,10 @@ check_intparams(struct cfjail *j)
 				*cs = '\0';
 				s->len = cs - s->s;
 			}
+			if ((cs = strchr(s->s, ' ')) != NULL) {
+				*cs = '\0';
+				s->len = cs - s->s;
+			}
 		}
 	}
 #endif
@@ -622,6 +628,10 @@ check_intparams(struct cfjail *j)
 					    cs);
 					error = -1;	
 				}
+				*cs = '\0';
+				s->len = cs - s->s;
+			}
+			if ((cs = strchr(s->s, ' ')) != NULL) {
 				*cs = '\0';
 				s->len = cs - s->s;
 			}

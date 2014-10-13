@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/bin/csh/config_p.h 231990 2012-02-22 03:36:15Z mp $ */
+/* $FreeBSD: stable/10/bin/csh/config_p.h 231990 2012-02-22 03:36:15Z mp $ */
 /*
  * config.h -- configure various defines for tcsh
  *

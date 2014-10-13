@@ -37,7 +37,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/ichsmb/ichsmb_pci.c 253475 2013-07-19 21:37:40Z jfv $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/ichsmb/ichsmb_pci.c 260352 2014-01-05 22:53:55Z mav $");
 
 /*
  * Support for the SMBus controller logical device which is part of the
@@ -85,6 +85,7 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/dev/ichsmb/ichsmb_pci.c 253475 2013-07-19
 #define ID_PATSBURG			0x1d228086
 #define ID_CPT				0x1c228086
 #define ID_PPT				0x1e228086
+#define ID_AVOTON			0x1f3c8086
 #define ID_COLETOCRK			0x23B08086 
 #define ID_LPT				0x8c228086
 
@@ -189,6 +190,9 @@ ichsmb_pci_probe(device_t dev)
 		break;
 	case ID_PPT:
 		device_set_desc(dev, "Intel Panther Point SMBus controller");
+		break;
+	case ID_AVOTON:
+		device_set_desc(dev, "Intel Avoton SMBus controller");
 		break;
 	case ID_LPT:
 		device_set_desc(dev, "Intel Lynx Point SMBus controller");

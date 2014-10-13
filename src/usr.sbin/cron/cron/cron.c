@@ -17,7 +17,7 @@
 
 #if !defined(lint) && !defined(LINT)
 static const char rcsid[] =
-  "$FreeBSD: release/10.0.0/usr.sbin/cron/cron/cron.c 242101 2012-10-25 22:54:29Z sobomax $";
+  "$FreeBSD: stable/10/usr.sbin/cron/cron/cron.c 261231 2014-01-28 13:29:54Z ache $";
 #endif
 
 #define	MAIN_PROGRAM
@@ -376,30 +376,17 @@ cron_sync(int secres) {
 	}
 }
 
-static int
+static void
 timespec_subtract(struct timespec *result, struct timespec *x,
     struct timespec *y)
 {
-	time_t nsec;
-
-	/* Perform the carry for the later subtraction by updating y. */
-	if (x->tv_nsec < y->tv_nsec) {
-		nsec = (y->tv_nsec - x->tv_nsec) / 10000000 + 1;
-		y->tv_nsec -= 1000000000 * nsec;
-		y->tv_sec += nsec;
+	*result = *x;
+	result->tv_sec -= y->tv_sec;
+	result->tv_nsec -= y->tv_nsec;
+	if (result->tv_nsec < 0) {
+		result->tv_sec--;
+		result->tv_nsec += 1000000000;
 	}
-	if (x->tv_nsec - y->tv_nsec > 1000000000) {
-		nsec = (x->tv_nsec - y->tv_nsec) / 1000000000;
-		y->tv_nsec += 1000000000 * nsec;
-		y->tv_sec -= nsec;
-	}
-     
-	/* tv_nsec is certainly positive. */
-	result->tv_sec = x->tv_sec - y->tv_sec;
-	result->tv_nsec = x->tv_nsec - y->tv_nsec;
-     
-	/* Return True if result is negative. */
-	return (x->tv_sec < y->tv_sec);
 }
 
 static void

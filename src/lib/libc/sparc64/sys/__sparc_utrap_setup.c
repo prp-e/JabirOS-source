@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/sparc64/sys/__sparc_utrap_setup.c 124296 2004-01-09 16:52:09Z nectar $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/sparc64/sys/__sparc_utrap_setup.c 263763 2014-03-26 07:31:57Z dim $");
 
 #include <sys/types.h>
 
@@ -54,5 +54,5 @@ void
 __sparc_utrap_setup(void)
 {
 
-	sysarch(SPARC_UTRAP_INSTALL, &uia);
+	sysarch(SPARC_UTRAP_INSTALL, (void *)&uia);
 }

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: release/10.0.0/lib/libc/gen/tls.c 234569 2012-04-22 08:49:13Z jasone $
+ *	$FreeBSD: stable/10/lib/libc/gen/tls.c 234569 2012-04-22 08:49:13Z jasone $
  */
 
 /*

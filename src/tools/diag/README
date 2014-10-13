@@ -1,4 +1,4 @@
-$FreeBSD: release/10.0.0/tools/diag/README 240470 2012-09-13 17:49:11Z eadler $
+$FreeBSD: stable/10/tools/diag/README 240470 2012-09-13 17:49:11Z eadler $
 
 This directory is for diagnostic programs.
 

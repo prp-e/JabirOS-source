@@ -1,7 +1,8 @@
-# $FreeBSD: release/10.0.0/sys/modules/geom/geom_part/Makefile 233177 2012-03-19 13:15:48Z ae $
+# $FreeBSD: stable/10/sys/modules/geom/geom_part/Makefile 268091 2014-07-01 13:29:17Z ae $
 
 SUBDIR=	geom_part_apm \
 	geom_part_bsd \
+	geom_part_bsd64 \
 	geom_part_ebr \
 	geom_part_gpt \
 	geom_part_ldm \

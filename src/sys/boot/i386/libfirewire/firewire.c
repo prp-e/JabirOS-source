@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/boot/i386/libfirewire/firewire.c 170101 2007-05-29 14:35:57Z simokawa $");
+__FBSDID("$FreeBSD: stable/10/sys/boot/i386/libfirewire/firewire.c 264816 2014-04-23 12:08:20Z brueffer $");
 
 /*
  * FireWire disk device handling.
@@ -137,7 +137,7 @@ fw_init(void)
 		if (sc->state == FWOHCI_STATE_DEAD)
 			break;
 		avail ++;
-			break;
+		break;
 	}
 	fw_initialized = 1;
 

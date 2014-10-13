@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libpmc/Makefile 250203 2013-05-03 08:20:10Z uqs $
+# $FreeBSD: stable/10/lib/libpmc/Makefile 266911 2014-05-31 00:40:13Z hiren $
 
 LIB=	pmc
 
@@ -24,6 +24,7 @@ MAN+=	pmc.soft.3
 
 # PMC-dependent manual pages
 MAN+=	pmc.atom.3
+MAN+=	pmc.atomsilvermont.3
 MAN+=	pmc.core.3
 MAN+=	pmc.core2.3
 MAN+=	pmc.corei7.3

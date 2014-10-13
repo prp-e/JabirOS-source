@@ -36,7 +36,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)param.h	8.1 (Berkeley) 6/10/93
- * $FreeBSD: release/10.0.0/sys/amd64/include/param.h 250338 2013-05-07 22:46:24Z attilio $
+ * $FreeBSD: stable/10/sys/amd64/include/param.h 250338 2013-05-07 22:46:24Z attilio $
  */
 
 

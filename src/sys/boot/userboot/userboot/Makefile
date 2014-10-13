@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/boot/userboot/userboot/Makefile 255944 2013-09-29 20:20:17Z bdrewery $
+# $FreeBSD: stable/10/sys/boot/userboot/userboot/Makefile 268932 2014-07-20 22:54:03Z jhb $
 
 NO_MAN=
 
@@ -11,6 +11,7 @@ STRIP=
 LIBDIR=		/boot
 
 SRCS=		autoload.c
+SRCS+=		biossmap.c
 SRCS+=		bootinfo.c
 SRCS+=		bootinfo32.c
 SRCS+=		bootinfo64.c
@@ -50,12 +51,17 @@ LIBFICL=	${.OBJDIR}/../ficl/libficl.a
 LIBSTAND=	${.OBJDIR}/../libstand/libstand.a
 .endif
 
+.if ${MK_ZFS} != "no"
+CFLAGS+=	-DUSERBOOT_ZFS_SUPPORT
+LIBZFSBOOT=	${.OBJDIR}/../zfs/libzfsboot.a
+.endif
+
 # Always add MI sources 
 .PATH:		${.CURDIR}/../../common
 .include	"${.CURDIR}/../../common/Makefile.inc"
 CFLAGS+=	-I${.CURDIR}/../../common
 CFLAGS+=	-I.
-DPADD=		${LIBFICL} ${LIBSTAND}
-LDADD=		${LIBFICL} ${LIBSTAND}
+DPADD+=		${LIBFICL} ${LIBZFSBOOT} ${LIBSTAND} 
+LDADD+=		${LIBFICL} ${LIBZFSBOOT} ${LIBSTAND}
 
 .include <bsd.lib.mk>

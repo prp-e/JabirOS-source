@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libthr/arch/mips/mips/pthread_md.c 231350 2012-02-10 06:53:25Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/lib/libthr/arch/mips/mips/pthread_md.c 231350 2012-02-10 06:53:25Z gonzo $");
 
 #include <stdlib.h>
 #include <sys/types.h>

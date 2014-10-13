@@ -25,7 +25,7 @@
 
 #include <sys/cdefs.h>
 #ifdef __FreeBSD__
-__FBSDID("$FreeBSD: release/10.0.0/sys/net80211/ieee80211_alq.c 233255 2012-03-21 03:19:50Z adrian $");
+__FBSDID("$FreeBSD: stable/10/sys/net80211/ieee80211_alq.c 233255 2012-03-21 03:19:50Z adrian $");
 #endif
 
 /*

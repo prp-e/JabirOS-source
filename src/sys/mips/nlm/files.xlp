@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/mips/nlm/files.xlp 233637 2012-03-29 02:03:06Z jmallett $
+# $FreeBSD: stable/10/sys/mips/nlm/files.xlp 233637 2012-03-29 02:03:06Z jmallett $
 mips/nlm/hal/nlm_hal.c				standard
 mips/nlm/hal/fmn.c				standard
 mips/nlm/xlp_machdep.c				standard

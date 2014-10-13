@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netinet/tcp_output.c 254889 2013-08-25 21:54:41Z markj $");
+__FBSDID("$FreeBSD: stable/10/sys/netinet/tcp_output.c 263478 2014-03-21 15:15:30Z glebius $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"
@@ -1185,7 +1185,7 @@ send:
 		ip6->ip6_plen = htons(m->m_pkthdr.len - sizeof(*ip6));
 
 		if (tp->t_state == TCPS_SYN_SENT)
-			TCP_PROBE5(connect_request, NULL, tp, ip6, tp, th);
+			TCP_PROBE5(connect__request, NULL, tp, ip6, tp, th);
 
 		TCP_PROBE5(send, NULL, tp, ip6, tp, th);
 
@@ -1195,7 +1195,7 @@ send:
 		    NULL, NULL, tp->t_inpcb);
 
 		if (error == EMSGSIZE && ro.ro_rt != NULL)
-			mtu = ro.ro_rt->rt_rmx.rmx_mtu;
+			mtu = ro.ro_rt->rt_mtu;
 		RO_RTFREE(&ro);
 	}
 #endif /* INET6 */
@@ -1224,7 +1224,7 @@ send:
 		ip->ip_off |= htons(IP_DF);
 
 	if (tp->t_state == TCPS_SYN_SENT)
-		TCP_PROBE5(connect_request, NULL, tp, ip, tp, th);
+		TCP_PROBE5(connect__request, NULL, tp, ip, tp, th);
 
 	TCP_PROBE5(send, NULL, tp, ip, tp, th);
 
@@ -1233,7 +1233,7 @@ send:
 	    tp->t_inpcb);
 
 	if (error == EMSGSIZE && ro.ro_rt != NULL)
-		mtu = ro.ro_rt->rt_rmx.rmx_mtu;
+		mtu = ro.ro_rt->rt_mtu;
 	RO_RTFREE(&ro);
     }
 #endif /* INET */

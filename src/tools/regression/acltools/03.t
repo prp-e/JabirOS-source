@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/tools/regression/acltools/03.t 219266 2011-03-04 17:07:02Z trasz $
+# $FreeBSD: stable/10/tools/regression/acltools/03.t 271962 2014-09-22 13:07:55Z trasz $
 #
 
 # This is a wrapper script to run tools-crossfs.test between UFS without
@@ -48,7 +48,7 @@ MNTROOT=`mktemp -dt acltools`
 MD1=`mdconfig -at swap -s 64m`
 MNT1=$MNTROOT/nfs4
 mkdir $MNT1
-zpool create -R $MNT1 acltools /dev/$MD1
+zpool create -m $MNT1 acltools /dev/$MD1
 if [ $? -ne 0 ]; then
 	echo "not ok 1 - 'zpool create' failed."
 	exit 1

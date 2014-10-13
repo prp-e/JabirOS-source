@@ -41,7 +41,7 @@
 ** SUCH DAMAGE.
 */
 
-/* $FreeBSD: release/10.0.0/sys/boot/ficl/float.c 167850 2007-03-23 22:26:01Z jkim $ */
+/* $FreeBSD: stable/10/sys/boot/ficl/float.c 167850 2007-03-23 22:26:01Z jkim $ */
 
 #include <stdlib.h>
 #include <stdio.h>

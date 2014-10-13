@@ -15,7 +15,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/boot/pc98/boot2/boot2.c 254015 2013-08-07 00:00:48Z marcel $");
+__FBSDID("$FreeBSD: stable/10/sys/boot/pc98/boot2/boot2.c 254015 2013-08-07 00:00:48Z marcel $");
 
 #include <sys/param.h>
 #include <sys/disklabel.h>

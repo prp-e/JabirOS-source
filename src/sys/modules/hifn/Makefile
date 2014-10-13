@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/hifn/Makefile 182668 2008-09-01 23:59:00Z imp $
+# $FreeBSD: stable/10/sys/modules/hifn/Makefile 182668 2008-09-01 23:59:00Z imp $
 
 .PATH:	${.CURDIR}/../../dev/hifn
 KMOD	= hifn

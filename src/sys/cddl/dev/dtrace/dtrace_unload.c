@@ -18,7 +18,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: release/10.0.0/sys/cddl/dev/dtrace/dtrace_unload.c 256148 2013-10-08 12:56:46Z markj $
+ * $FreeBSD: stable/10/sys/cddl/dev/dtrace/dtrace_unload.c 256148 2013-10-08 12:56:46Z markj $
  *
  */
 

@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/cpuset/cpuset.c 227160 2011-11-06 08:14:40Z ed $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/cpuset/cpuset.c 227160 2011-11-06 08:14:40Z ed $");
 
 #include <sys/param.h>
 #include <sys/types.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/libllvmjit/Makefile 246259 2013-02-02 22:28:29Z dim $
+# $FreeBSD: stable/10/lib/clang/libllvmjit/Makefile 263508 2014-03-21 17:53:59Z dim $
 
 .include <bsd.own.mk>
 
@@ -6,7 +6,6 @@ LIB=	llvmjit
 
 SRCDIR=	lib/ExecutionEngine/JIT
 SRCS=	JIT.cpp \
-	JITDwarfEmitter.cpp \
 	JITEmitter.cpp \
 	JITMemoryManager.cpp
 

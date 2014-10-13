@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/fs/nfsclient/nfs_clcomsubs.c 244042 2012-12-08 22:52:39Z rmacklem $");
+__FBSDID("$FreeBSD: stable/10/sys/fs/nfsclient/nfs_clcomsubs.c 265469 2014-05-06 21:54:52Z rmacklem $");
 
 /*
  * These functions support the macros and help fiddle mbuf chains for
@@ -66,8 +66,8 @@ static struct {
 	{ NFSV4OP_READLINK, 2, "Readlink", 8, },
 	{ NFSV4OP_READ, 1, "Read", 4, },
 	{ NFSV4OP_WRITE, 2, "Write", 5, },
-	{ NFSV4OP_OPEN, 3, "Open", 4, },
-	{ NFSV4OP_CREATE, 3, "Create", 6, },
+	{ NFSV4OP_OPEN, 5, "Open", 4, },
+	{ NFSV4OP_CREATE, 5, "Create", 6, },
 	{ NFSV4OP_CREATE, 1, "Create", 6, },
 	{ NFSV4OP_CREATE, 3, "Create", 6, },
 	{ NFSV4OP_REMOVE, 1, "Remove", 6, },
@@ -203,10 +203,11 @@ nfscl_reqstart(struct nfsrv_descript *nd, int procnum, struct nfsmount *nmp,
 			NFSM_BUILD(tl, u_int32_t *, NFSX_UNSIGNED);
 			*tl = txdr_unsigned(NFSV4OP_SEQUENCE);
 			if (sep == NULL)
-				nfsv4_setsequence(nd, NFSMNT_MDSSESSION(nmp),
+				nfsv4_setsequence(nmp, nd,
+				    NFSMNT_MDSSESSION(nmp),
 				    nfs_bigreply[procnum]);
 			else
-				nfsv4_setsequence(nd, sep,
+				nfsv4_setsequence(nmp, nd, sep,
 				    nfs_bigreply[procnum]);
 		}
 		if (nfsv4_opflag[nfsv4_opmap[procnum].op].needscfh > 0) {
@@ -218,9 +219,18 @@ nfscl_reqstart(struct nfsrv_descript *nd, int procnum, struct nfsmount *nmp,
 			    procnum != NFSPROC_COMMITDS) {
 				NFSM_BUILD(tl, u_int32_t *, NFSX_UNSIGNED);
 				*tl = txdr_unsigned(NFSV4OP_GETATTR);
-				NFSWCCATTR_ATTRBIT(&attrbits);
+				/*
+				 * For Lookup Ops, we want all the directory
+				 * attributes, so we can load the name cache.
+				 */
+				if (procnum == NFSPROC_LOOKUP ||
+				    procnum == NFSPROC_LOOKUPP)
+					NFSGETATTR_ATTRBIT(&attrbits);
+				else {
+					NFSWCCATTR_ATTRBIT(&attrbits);
+					nd->nd_flag |= ND_V4WCCATTR;
+				}
 				(void) nfsrv_putattrbit(nd, &attrbits);
-				nd->nd_flag |= ND_V4WCCATTR;
 			}
 		}
 		if (procnum != NFSPROC_RENEW ||

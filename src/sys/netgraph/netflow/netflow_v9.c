@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * 	$FreeBSD: release/10.0.0/sys/netgraph/netflow/netflow_v9.c 243882 2012-12-05 08:04:20Z glebius $
+ * 	$FreeBSD: stable/10/sys/netgraph/netflow/netflow_v9.c 260278 2014-01-04 19:04:53Z dim $
  */
 
-static const char rcs_id[] =
-    "@(#) $FreeBSD: release/10.0.0/sys/netgraph/netflow/netflow_v9.c 243882 2012-12-05 08:04:20Z glebius $";
+#include <sys/cdefs.h>
+__FBSDID("$FreeBSD: stable/10/sys/netgraph/netflow/netflow_v9.c 260278 2014-01-04 19:04:53Z dim $");
 
 #include "opt_inet6.h"
 #include "opt_route.h"

@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/tws/tws_cam.c 255871 2013-09-25 17:16:21Z scottl $
+ * $FreeBSD: stable/10/sys/dev/tws/tws_cam.c 263125 2014-03-14 00:57:32Z delphij $
  */
 
 #include <dev/tws/tws.h>
@@ -1297,7 +1297,7 @@ tws_reinit(void *arg)
 
     tws_turn_on_interrupts(sc);
 
-    wakeup_one(sc->chan);
+    wakeup_one(sc);
 }
 
 

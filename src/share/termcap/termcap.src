@@ -30,13 +30,13 @@
 # SUCH DAMAGE.
 #
 #	@(#)termcap.src	8.2 (Berkeley) 11/17/93
-# $FreeBSD: release/10.0.0/share/termcap/termcap.src 243073 2012-11-15 15:05:54Z eadler $
+# $FreeBSD: stable/10/share/termcap/termcap.src 267734 2014-06-22 16:48:21Z gavin $
 
 #	Termcap source file
 #	John Kunze, Berkeley
 #	Craig Leres, Berkeley
 #
-# Please submit changes with send-pr(1).
+# Please submit changes via https://bugs.freebsd.org/submit/
 #
 # << EOH - after reordering, above header lines survive and this line dies >>
 #
@@ -2729,7 +2729,7 @@ vt520|DEC VT520 :\
 	:kb=\b:kd=\E[B:ke=\E>:kl=\E[D:\
 	:kr=\E[C:ks=\E=:ku=\E[A:nd=\E[C:\
 	:rc=\E8:rf=/usr/lib/tabset/vt100:\
-	:se=\E[m:so=\E[7m:\
+	:sc=\E7:se=\E[m:so=\E[7m:\
 	:sr=\EM:ue=\E[m:up=\E[A:us=\E[4m:nl=\E[B:ko=do,nd,up:
 #
 vt520nam|vt520-nam|v520n|DEC VT520 with no automargins:\

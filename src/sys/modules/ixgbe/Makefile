@@ -1,4 +1,4 @@
-#$FreeBSD: release/10.0.0/sys/modules/ixgbe/Makefile 251964 2013-06-18 21:28:19Z jfv $
+#$FreeBSD: stable/10/sys/modules/ixgbe/Makefile 251964 2013-06-18 21:28:19Z jfv $
 
 .include <bsd.own.mk>
 

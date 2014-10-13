@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/mv/gpio.c 239367 2012-08-18 11:33:21Z hrs $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/mv/gpio.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -124,6 +124,9 @@ struct gpio_ctrl_entry gpio_controllers[] = {
 static int
 mv_gpio_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (!ofw_bus_is_compatible(dev, "mrvl,gpio"))
 		return (ENXIO);
@@ -605,7 +608,6 @@ int
 platform_gpio_init(void)
 {
 	phandle_t child, parent, root, ctrl;
-	ihandle_t ctrl_ihandle;
 	pcell_t gpios[MAX_PINS_PER_NODE * GPIOS_PROP_CELLS];
 	struct gpio_ctrl_entry *e;
 	int len, rv;
@@ -639,9 +641,7 @@ platform_gpio_init(void)
 				 * contain a ref. to a node defining GPIO
 				 * controller.
 				 */
-				ctrl_ihandle = (ihandle_t)gpios[0];
-				ctrl_ihandle = fdt32_to_cpu(ctrl_ihandle);
-				ctrl = OF_instance_to_package(ctrl_ihandle);
+				ctrl = OF_xref_phandle(fdt32_to_cpu(gpios[0]));
 
 				if (fdt_is_compatible(ctrl, e->compat))
 					/* Call a handler. */

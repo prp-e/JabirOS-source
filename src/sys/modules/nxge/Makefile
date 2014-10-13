@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/nxge/Makefile 242731 2012-11-08 01:35:02Z kevlo $
+# $FreeBSD: stable/10/sys/modules/nxge/Makefile 242731 2012-11-08 01:35:02Z kevlo $
 
 .PATH: ${.CURDIR}/../../dev/nxge
 .PATH: ${.CURDIR}/../../dev/nxge/xgehal

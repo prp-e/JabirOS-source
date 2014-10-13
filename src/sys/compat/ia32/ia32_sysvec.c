@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/compat/ia32/ia32_sysvec.c 238687 2012-07-22 13:41:45Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/compat/ia32/ia32_sysvec.c 238687 2012-07-22 13:41:45Z kib $");
 
 #include "opt_compat.h"
 

@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/sys/procdesc.h 255219 2013-09-05 00:09:56Z pjd $
+ * $FreeBSD: stable/10/sys/sys/procdesc.h 269619 2014-08-06 00:35:32Z emaste $
  */
 
 #ifndef _SYS_PROCDESC_H_
@@ -47,7 +47,7 @@
  * Locking key:
  * (c) - Constant after initial setup.
  * (p) - Protected by the process descriptor mutex.
- * (r) - Atomic eference count.
+ * (r) - Atomic reference count.
  * (s) - Protected by selinfo.
  * (t) - Protected by the proctree_lock
  */

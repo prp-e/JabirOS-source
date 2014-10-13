@@ -43,7 +43,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/nfs/krpc_subr.c 248207 2013-03-12 13:42:47Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sys/nfs/krpc_subr.c 248207 2013-03-12 13:42:47Z glebius $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

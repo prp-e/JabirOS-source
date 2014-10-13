@@ -31,7 +31,7 @@
 
 #include <sys/cdefs.h>
 #ifdef __FreeBSD__
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/malo/if_malo.c 243857 2012-12-04 09:32:43Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/malo/if_malo.c 262007 2014-02-17 01:36:53Z kevlo $");
 #endif
 
 #include "opt_malo.h"
@@ -1101,7 +1101,7 @@ malo_tx_start(struct malo_softc *sc, struct ieee80211_node *ni,
 	uint16_t qos;
 
 	wh = mtod(m0, struct ieee80211_frame *);
-	iswep = wh->i_fc[1] & IEEE80211_FC1_WEP;
+	iswep = wh->i_fc[1] & IEEE80211_FC1_PROTECTED;
 	ismcast = IEEE80211_IS_MULTICAST(wh->i_addr1);
 	copyhdrlen = hdrlen = ieee80211_anyhdrsize(wh);
 	pktlen = m0->m_pkthdr.len;

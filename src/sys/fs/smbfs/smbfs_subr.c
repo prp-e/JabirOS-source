@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/fs/smbfs/smbfs_subr.c 243396 2012-11-22 08:58:29Z davide $
+ * $FreeBSD: stable/10/sys/fs/smbfs/smbfs_subr.c 243396 2012-11-22 08:58:29Z davide $
  */
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/libc/include/libc_private.h 254706 2013-08-23 14:23:54Z jilles $
+ * $FreeBSD: stable/10/lib/libc/include/libc_private.h 254706 2013-08-23 14:23:54Z jilles $
  *
  * Private definitions for libc, libc_r and libpthread.
  *

@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/ppp/command.c 249582 2013-04-17 11:40:10Z gabor $
+ * $FreeBSD: stable/10/usr.sbin/ppp/command.c 249582 2013-04-17 11:40:10Z gabor $
  */
 
 #include <sys/param.h>

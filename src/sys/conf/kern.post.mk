@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/conf/kern.post.mk 254340 2013-08-14 22:19:29Z sjg $
+# $FreeBSD: stable/10/sys/conf/kern.post.mk 254340 2013-08-14 22:19:29Z sjg $
 
 # Part of a unified Makefile for building kernels.  This part includes all
 # the definitions that need to be after all the % directives except %RULES

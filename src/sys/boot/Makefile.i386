@@ -1,4 +1,5 @@
-# $FreeBSD: release/10.0.0/sys/boot/Makefile.i386 211679 2010-08-23 01:48:07Z imp $
+# $FreeBSD: stable/10/sys/boot/Makefile.i386 271130 2014-09-04 20:35:53Z emaste $
 
 SUBDIR+=		efi
+SUBDIR+=		libstand32
 SUBDIR+=		zfs

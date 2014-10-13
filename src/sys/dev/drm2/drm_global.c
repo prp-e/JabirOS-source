@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/drm_global.c 248060 2013-03-08 18:11:02Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm_global.c 248060 2013-03-08 18:11:02Z dumbbell $");
 
 #include <dev/drm2/drmP.h>
 #include <dev/drm2/drm_global.h>

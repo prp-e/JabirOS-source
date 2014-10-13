@@ -24,7 +24,7 @@
  * SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/cxgbe/tom/t4_tom_l2t.c 245434 2013-01-14 20:36:22Z np $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/cxgbe/tom/t4_tom_l2t.c 245434 2013-01-14 20:36:22Z np $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"

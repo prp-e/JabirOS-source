@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/amd64/amd64/sys_machdep.c 255677 2013-09-18 19:26:08Z pjd $");
+__FBSDID("$FreeBSD: stable/10/sys/amd64/amd64/sys_machdep.c 267598 2014-06-17 21:49:03Z neel $");
 
 #include "opt_capsicum.h"
 
@@ -465,7 +465,7 @@ user_ldt_alloc(struct proc *p, int force)
 	new_ldt = malloc(sizeof(struct proc_ldt), M_SUBPROC, M_WAITOK);
 	new_ldt->ldt_base = (caddr_t)kmem_malloc(kernel_arena,
 	     max_ldt_segment * sizeof(struct user_segment_descriptor),
-	     M_WAITOK);
+	     M_WAITOK | M_ZERO);
 	if (new_ldt->ldt_base == NULL) {
 		FREE(new_ldt, M_SUBPROC);
 		mtx_lock(&dt_lock);

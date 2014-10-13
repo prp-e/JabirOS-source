@@ -31,7 +31,7 @@
  *
  *	@(#)key.h	8.1 (Berkeley) 6/4/93
  *	$NetBSD: key.h,v 1.10 2006/03/23 20:22:51 christos Exp $
- * $FreeBSD: release/10.0.0/lib/libedit/key.h 237448 2012-06-22 18:01:22Z pfg $
+ * $FreeBSD: stable/10/lib/libedit/key.h 237448 2012-06-22 18:01:22Z pfg $
  */
 
 /*

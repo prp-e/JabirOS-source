@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/sound/driver/driver/Makefile 110502 2003-02-07 15:05:37Z nyan $
+# $FreeBSD: stable/10/sys/modules/sound/driver/driver/Makefile 110502 2003-02-07 15:05:37Z nyan $
 
 .PATH: ${.CURDIR}/../../../../dev/sound
 

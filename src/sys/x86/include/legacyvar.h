@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/x86/include/legacyvar.h 233707 2012-03-30 19:10:14Z jhb $
+ * $FreeBSD: stable/10/sys/x86/include/legacyvar.h 233707 2012-03-30 19:10:14Z jhb $
  */
 
 #ifndef _X86_LEGACYVAR_H_

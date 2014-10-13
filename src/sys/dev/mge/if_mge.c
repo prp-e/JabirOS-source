@@ -34,7 +34,7 @@
 #endif
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/mge/if_mge.c 254516 2013-08-19 10:20:20Z andre $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/mge/if_mge.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -1385,6 +1385,9 @@ mge_miibus_writereg(device_t dev, int phy, int reg, int value)
 static int
 mge_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (!ofw_bus_is_compatible(dev, "mrvl,ge"))
 		return (ENXIO);

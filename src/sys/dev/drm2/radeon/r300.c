@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/radeon/r300.c 255573 2013-09-14 17:24:41Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/r300.c 261455 2014-02-04 03:36:42Z eadler $");
 
 #include <dev/drm2/drmP.h>
 #include <dev/drm2/drm.h>
@@ -1041,7 +1041,7 @@ static int r300_packet0_check(struct radeon_cs_parser *p,
 		track->textures[i].height = tmp + 1;
 		tmp = (idx_value >> 26) & 0xF;
 		track->textures[i].num_levels = tmp;
-		tmp = idx_value & (1 << 31);
+		tmp = idx_value & (1U << 31);
 		track->textures[i].use_pitch = !!tmp;
 		tmp = (idx_value >> 22) & 0xF;
 		track->textures[i].txdepth = tmp;

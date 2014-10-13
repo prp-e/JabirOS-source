@@ -1,6 +1,8 @@
 /*-
- * Copyright (C) 2012 FreeBSD Foundation
+ * Copyright (C) 2008 MARVELL INTERNATIONAL LTD.
  * All rights reserved.
+ *
+ * Developed by Semihalf.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
@@ -28,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/xilinx/zy7_bus_space.c 249997 2013-04-27 22:38:29Z wkoszek $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/xilinx/zy7_bus_space.c 266084 2014-05-14 19:18:58Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

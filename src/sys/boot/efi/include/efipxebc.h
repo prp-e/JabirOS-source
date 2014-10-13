@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/boot/efi/include/efipxebc.h 163898 2006-11-02 02:42:48Z marcel $ */
+/* $FreeBSD: stable/10/sys/boot/efi/include/efipxebc.h 163898 2006-11-02 02:42:48Z marcel $ */
 #ifndef _EFIPXEBC_H
 #define _EFIPXEBC_H
 

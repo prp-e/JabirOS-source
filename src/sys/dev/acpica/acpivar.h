@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/acpica/acpivar.h 242922 2012-11-12 18:09:25Z sbruno $
+ * $FreeBSD: stable/10/sys/dev/acpica/acpivar.h 265653 2014-05-08 08:20:23Z smh $
  */
 
 #ifndef _ACPIVAR_H_
@@ -476,7 +476,7 @@ ACPI_HANDLE	acpi_GetReference(ACPI_HANDLE scope, ACPI_OBJECT *obj);
 
 /* Default maximum number of tasks to enqueue. */
 #ifndef ACPI_MAX_TASKS
-#define	ACPI_MAX_TASKS		MAX(32, MAXCPU * 2)
+#define	ACPI_MAX_TASKS		MAX(32, MAXCPU * 4)
 #endif
 
 /* Default number of task queue threads to start. */

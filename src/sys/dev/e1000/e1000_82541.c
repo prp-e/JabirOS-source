@@ -30,7 +30,7 @@
   POSSIBILITY OF SUCH DAMAGE.
 
 ******************************************************************************/
-/*$FreeBSD: release/10.0.0/sys/dev/e1000/e1000_82541.c 238148 2012-07-05 20:26:57Z jfv $*/
+/*$FreeBSD: stable/10/sys/dev/e1000/e1000_82541.c 238148 2012-07-05 20:26:57Z jfv $*/
 
 /*
  * 82541EI Gigabit Ethernet Controller

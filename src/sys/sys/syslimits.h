@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)syslimits.h	8.1 (Berkeley) 6/2/93
- * $FreeBSD: release/10.0.0/sys/sys/syslimits.h 194498 2009-06-19 17:10:35Z brooks $
+ * $FreeBSD: stable/10/sys/sys/syslimits.h 194498 2009-06-19 17:10:35Z brooks $
  */
 
 #ifndef _SYS_SYSLIMITS_H_

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/ppp/tun.c 98243 2002-06-15 08:03:30Z brian $
+ * $FreeBSD: stable/10/usr.sbin/ppp/tun.c 98243 2002-06-15 08:03:30Z brian $
  */
 
 #include <sys/param.h>

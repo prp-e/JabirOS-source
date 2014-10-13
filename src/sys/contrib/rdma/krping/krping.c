@@ -32,11 +32,10 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/contrib/rdma/krping/krping.c 256829 2013-10-21 06:31:56Z np $");
+__FBSDID("$FreeBSD: stable/10/sys/contrib/rdma/krping/krping.c 271127 2014-09-04 20:12:36Z hselasky $");
 
 #include <linux/module.h>
 #include <linux/moduleparam.h>
-#include <linux/init.h>
 #include <linux/slab.h>
 #include <linux/err.h>
 #include <linux/string.h>
@@ -46,7 +45,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/contrib/rdma/krping/krping.c 256829 2013-
 #include <linux/device.h>
 #include <linux/pci.h>
 #include <linux/sched.h>
-#include <asm/system.h>
 
 #include <asm/atomic.h>
 

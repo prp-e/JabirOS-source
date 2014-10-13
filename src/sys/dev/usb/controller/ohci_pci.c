@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/usb/controller/ohci_pci.c 254438 2013-08-17 06:29:45Z hselasky $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/usb/controller/ohci_pci.c 254438 2013-08-17 06:29:45Z hselasky $");
 
 /*
  * USB Open Host Controller driver.

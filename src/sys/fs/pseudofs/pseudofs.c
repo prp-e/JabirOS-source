@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/fs/pseudofs/pseudofs.c 242833 2012-11-09 18:02:25Z attilio $");
+__FBSDID("$FreeBSD: stable/10/sys/fs/pseudofs/pseudofs.c 242833 2012-11-09 18:02:25Z attilio $");
 
 #include "opt_pseudofs.h"
 

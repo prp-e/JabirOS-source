@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/bin/pkill/pkill.c 256050 2013-10-04 16:08:44Z trasz $");
+__FBSDID("$FreeBSD: stable/10/bin/pkill/pkill.c 256050 2013-10-04 16:08:44Z trasz $");
 
 #include <sys/types.h>
 #include <sys/param.h>

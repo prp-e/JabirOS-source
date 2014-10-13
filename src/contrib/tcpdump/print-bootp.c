@@ -20,7 +20,7 @@
  *
  * Format and print bootp packets.
  *
- * $FreeBSD: release/10.0.0/contrib/tcpdump/print-bootp.c 214478 2010-10-28 19:06:17Z rpaulo $
+ * $FreeBSD: stable/10/contrib/tcpdump/print-bootp.c 214478 2010-10-28 19:06:17Z rpaulo $
  */
 #ifndef lint
 static const char rcsid[] _U_ =

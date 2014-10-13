@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/tools/regression/pjdfstest/tests/open/18.t 210984 2010-08-06 23:58:54Z pjd $
+# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/open/18.t 210984 2010-08-06 23:58:54Z pjd $
 
 desc="open returns EWOULDBLOCK when O_NONBLOCK and one of O_SHLOCK or O_EXLOCK is specified and the file is locked"
 

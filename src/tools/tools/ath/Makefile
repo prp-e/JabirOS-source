@@ -1,4 +1,4 @@
-#	$FreeBSD: release/10.0.0/tools/tools/ath/Makefile 251739 2013-06-14 08:12:54Z adrian $
+#	$FreeBSD: stable/10/tools/tools/ath/Makefile 251739 2013-06-14 08:12:54Z adrian $
 
 SUBDIR=	arcode athdebug athdecode athkey athpoke athprom athrd athregs
 SUBDIR+=	athstats ath_prom_read athradar athaggrstats

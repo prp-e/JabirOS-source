@@ -29,7 +29,7 @@
  * official policies, either expressed or implied, of the FreeBSD Project.
  *
  * ------+---------+---------+---------+---------+---------+---------+---------*
- * $FreeBSD: release/10.0.0/usr.sbin/lpr/common_source/lp.cdefs.h 251044 2013-05-27 22:19:01Z gad $
+ * $FreeBSD: stable/10/usr.sbin/lpr/common_source/lp.cdefs.h 251044 2013-05-27 22:19:01Z gad $
  * ------+---------+---------+---------+---------+---------+---------+---------*
  */
 

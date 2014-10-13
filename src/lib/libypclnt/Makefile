@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libypclnt/Makefile 231118 2012-02-07 09:27:07Z dim $
+# $FreeBSD: stable/10/lib/libypclnt/Makefile 231118 2012-02-07 09:27:07Z dim $
 
 LIB=	ypclnt
 SHLIB_MAJOR= 4

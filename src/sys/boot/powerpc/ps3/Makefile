@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/boot/powerpc/ps3/Makefile 246647 2013-02-11 02:15:26Z kientzle $
+# $FreeBSD: stable/10/sys/boot/powerpc/ps3/Makefile 271130 2014-09-04 20:35:53Z emaste $
 
 .include <bsd.own.mk>
 MK_SSP=		no
@@ -95,10 +95,11 @@ CFLAGS+= -Wa,-mppc64bridge
 #.include	"${.CURDIR}/../../ofw/common/Makefile.inc"
 
 # where to get libstand from
+LIBSTAND=	${.OBJDIR}/../../libstand32/libstand.a
 CFLAGS+=	-I${.CURDIR}/../../../../lib/libstand/
 
 DPADD=		${LIBFICL} ${LIBOFW} ${LIBSTAND}
-LDADD=		${LIBFICL} ${LIBOFW} -lstand
+LDADD=		${LIBFICL} ${LIBOFW} ${LIBSTAND}
 
 SC_DFLT_FONT=cp437
 

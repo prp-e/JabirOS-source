@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/dtrace/dtnfsclient/Makefile 253996 2013-08-06 15:51:56Z avg $
+# $FreeBSD: stable/10/sys/modules/dtrace/dtnfsclient/Makefile 253996 2013-08-06 15:51:56Z avg $
 
 .PATH: ${.CURDIR}/../../../nfsclient
 

@@ -31,7 +31,7 @@
 static char sccsid[] = "@(#)siginterrupt.c	8.1 (Berkeley) 6/4/93";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/gen/siginterrupt.c 252429 2013-06-30 20:51:15Z jilles $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/gen/siginterrupt.c 252429 2013-06-30 20:51:15Z jilles $");
 
 #include "namespace.h"
 #include <signal.h>

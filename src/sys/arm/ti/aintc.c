@@ -28,7 +28,7 @@
 
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/aintc.c 249181 2013-04-06 03:31:28Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/ti/aintc.c 266755 2014-05-27 16:17:25Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -81,6 +81,10 @@ static struct ti_aintc_softc *ti_aintc_sc = NULL;
 static int
 ti_aintc_probe(device_t dev)
 {
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
+
+
 	if (!ofw_bus_is_compatible(dev, "ti,aintc"))
 		return (ENXIO);
 	device_set_desc(dev, "TI AINTC Interrupt Controller");
@@ -176,5 +180,7 @@ arm_mask_irq(uintptr_t nb)
 void
 arm_unmask_irq(uintptr_t nb)
 {
+
+	arm_irq_memory_barrier(nb);
 	aintc_write_4(INTC_MIR_CLEAR(nb >> 5), (1UL << (nb & 0x1F)));
 }

@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/alc/if_alcvar.h 217379 2011-01-13 21:49:14Z jhb $
+ * $FreeBSD: stable/10/sys/dev/alc/if_alcvar.h 264442 2014-04-14 04:51:59Z yongari $
  */
 
 #ifndef	_IF_ALCVAR_H
@@ -42,7 +42,7 @@
 
 #define	ALC_TSO_MAXSEGSIZE	4096
 #define	ALC_TSO_MAXSIZE		(65535 + sizeof(struct ether_vlan_header))
-#define	ALC_MAXTXSEGS		32
+#define	ALC_MAXTXSEGS		35
 
 #define	ALC_ADDR_LO(x)		((uint64_t) (x) & 0xFFFFFFFF)
 #define	ALC_ADDR_HI(x)		((uint64_t) (x) >> 32)

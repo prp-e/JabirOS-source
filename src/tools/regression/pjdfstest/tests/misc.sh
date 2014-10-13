@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/tools/regression/pjdfstest/tests/misc.sh 248304 2013-03-15 00:10:38Z pjd $
+# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/misc.sh 248304 2013-03-15 00:10:38Z pjd $
 
 ntest=1
 

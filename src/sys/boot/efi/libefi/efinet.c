@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/boot/efi/libefi/efinet.c 217067 2011-01-06 20:50:16Z marcel $");
+__FBSDID("$FreeBSD: stable/10/sys/boot/efi/libefi/efinet.c 271135 2014-09-04 21:01:10Z emaste $");
 
 #include <sys/param.h>
 #include <netinet/in.h>
@@ -274,7 +274,7 @@ efinet_dev_init()
 	if (EFI_ERROR(status))
 		return (efi_status_to_errno(status));
 	nifs = sz / sizeof(EFI_HANDLE);
-	err = efi_register_handles(&efinet_dev, handles, nifs);
+	err = efi_register_handles(&efinet_dev, handles, NULL, nifs);
 	free(handles);
 	if (err != 0)
 		return (err);

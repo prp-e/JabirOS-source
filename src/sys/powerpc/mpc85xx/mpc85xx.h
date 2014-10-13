@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/powerpc/mpc85xx/mpc85xx.h 222426 2011-05-28 16:30:24Z marcel $
+ * $FreeBSD: stable/10/sys/powerpc/mpc85xx/mpc85xx.h 266003 2014-05-14 04:14:58Z ian $
  */
 
 #ifndef _MPC85XX_H_
@@ -33,6 +33,8 @@
 /*
  * Configuration control and status registers
  */
+extern vm_offset_t		ccsrbar_va;
+#define CCSRBAR_VA		ccsrbar_va
 #define	OCP85XX_CCSRBAR		(CCSRBAR_VA + 0x0)
 #define	OCP85XX_BPTR		(CCSRBAR_VA + 0x20)
 

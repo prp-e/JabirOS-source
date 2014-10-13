@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/versatile/pl050.c 244197 2012-12-13 23:19:13Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/versatile/pl050.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -42,7 +42,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/versatile/pl050.c 244197 2012-12-13 2
 
 #include <machine/bus.h>
 #include <machine/cpu.h>
-#include <machine/frame.h>
 #include <machine/intr.h>
 
 #include <dev/fdt/fdt_common.h>
@@ -609,6 +608,9 @@ pl050_kmi_intr(void *arg)
 static int
 pl050_kmi_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (ofw_bus_is_compatible(dev, "arm,pl050")) {
 		device_set_desc(dev, "PL050 Keyboard/Mouse Interface");

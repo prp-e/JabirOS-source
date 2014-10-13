@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/tx/if_tx.c 243857 2012-12-04 09:32:43Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/tx/if_tx.c 266921 2014-05-31 11:08:22Z brueffer $");
 
 /*
  * EtherPower II 10/100 Fast Ethernet (SMC 9432 serie)
@@ -1150,12 +1150,10 @@ epic_ifmedia_sts(struct ifnet *ifp, struct ifmediareq *ifmr)
 {
 	epic_softc_t *sc;
 	struct mii_data *mii;
-	struct ifmedia *ifm;
 
 	sc = ifp->if_softc;
 	mii = device_get_softc(sc->miibus);
 	EPIC_LOCK(sc);
-	ifm = &mii->mii_media;
 
 	/* Nothing should be selected if interface is down. */
 	if ((ifp->if_flags & IFF_UP) == 0) {

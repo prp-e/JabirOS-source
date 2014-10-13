@@ -31,7 +31,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
  * OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/makefs/cd9660/iso9660_rrip.h 214921 2010-11-07 16:05:04Z cognet $
+ * $FreeBSD: stable/10/usr.sbin/makefs/cd9660/iso9660_rrip.h 264936 2014-04-25 21:20:22Z marius $
  */
 #ifndef __ISO9660_RRIP_H__
 #define __ISO9660_RRIP_H__
@@ -103,7 +103,7 @@ typedef struct {
 	u_char links		[ISODCL(13,20)];
 	u_char uid		[ISODCL(21,28)];
 	u_char gid		[ISODCL(29,36)];
-	u_char serial		[ISODCL(37,44)];/* Not used */
+	u_char serial		[ISODCL(37,44)];
 } ISO_RRIP_PX;
 
 typedef struct {

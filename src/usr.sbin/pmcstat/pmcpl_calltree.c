@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/pmcstat/pmcpl_calltree.c 241737 2012-10-19 14:49:42Z ed $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/pmcstat/pmcpl_calltree.c 241737 2012-10-19 14:49:42Z ed $");
 
 #include <sys/param.h>
 #include <sys/endian.h>

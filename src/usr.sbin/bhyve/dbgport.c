@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/bhyve/dbgport.c 249321 2013-04-10 02:12:39Z neel $
+ * $FreeBSD: stable/10/usr.sbin/bhyve/dbgport.c 262227 2014-02-19 18:36:53Z jhb $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/bhyve/dbgport.c 249321 2013-04-10 02:12:39Z neel $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/bhyve/dbgport.c 262227 2014-02-19 18:36:53Z jhb $");
 
 #include <sys/types.h>
 #include <sys/socket.h>
@@ -42,6 +42,7 @@ __FBSDID("$FreeBSD: release/10.0.0/usr.sbin/bhyve/dbgport.c 249321 2013-04-10 02
 
 #include "inout.h"
 #include "dbgport.h"
+#include "pci_lpc.h"
 
 #define	BVM_DBG_PORT	0x224
 #define	BVM_DBG_SIG	('B' << 8 | 'V')
@@ -109,6 +110,8 @@ static struct inout_port dbgport = {
 	IOPORT_F_INOUT,
 	dbg_handler
 };
+
+SYSRES_IO(BVM_DBG_PORT, 4);
 
 void
 init_dbgport(int sport)

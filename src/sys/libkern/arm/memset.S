@@ -26,7 +26,7 @@
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/libkern/arm/memset.S 248395 2013-03-16 23:11:55Z andrew $");
+__FBSDID("$FreeBSD: stable/10/sys/libkern/arm/memset.S 248395 2013-03-16 23:11:55Z andrew $");
 
 #ifdef __ARM_EABI__
 

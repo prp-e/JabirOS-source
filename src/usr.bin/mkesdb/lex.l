@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/usr.bin/mkesdb/lex.l 252582 2013-07-03 18:25:27Z peter $ */
+/* $FreeBSD: stable/10/usr.bin/mkesdb/lex.l 252582 2013-07-03 18:25:27Z peter $ */
 /* $NetBSD: lex.l,v 1.3 2006/02/09 22:03:15 dogcow Exp $	*/
 
 %{

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/Makefile 255722 2013-09-20 01:52:02Z emaste $
+# $FreeBSD: stable/10/lib/clang/Makefile 264303 2014-04-09 18:16:58Z dim $
 
 .include <bsd.own.mk>
 
@@ -37,7 +37,6 @@ SUBDIR=	libclanganalysis \
 	${_libclangstaticanalyzer} \
 	\
 	libllvmanalysis \
-	libllvmarchive \
 	libllvmasmparser \
 	libllvmasmprinter \
 	libllvmbitreader \
@@ -54,6 +53,7 @@ SUBDIR=	libclanganalysis \
 	libllvmmcparser \
 	libllvmobjcarcopts \
 	libllvmobject \
+	libllvmoption \
 	libllvmscalaropts \
 	libllvmselectiondag \
 	libllvmsupport \
@@ -74,10 +74,17 @@ SUBDIR=	libclanganalysis \
 	libllvmmipsdisassembler \
 	libllvmmipsinfo \
 	libllvmmipsinstprinter \
+	libllvmpowerpcasmparser \
 	libllvmpowerpccodegen \
 	libllvmpowerpcdesc \
 	libllvmpowerpcinfo \
 	libllvmpowerpcinstprinter \
+	libllvmsparcasmparser \
+	libllvmsparccodegen \
+	libllvmsparcdesc \
+	libllvmsparcdisassembler \
+	libllvmsparcinfo \
+	libllvmsparcinstprinter \
 	libllvmx86asmparser \
 	libllvmx86codegen \
 	libllvmx86desc \
@@ -139,5 +146,7 @@ SUBDIR+=liblldb \
 .endif # !make(install)
 
 SUBDIR+= include
+
+SUBDIR_PARALLEL=
 
 .include <bsd.subdir.mk>

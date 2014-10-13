@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/versatile/versatile_clcd.c 245071 2013-01-05 21:05:16Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/versatile/versatile_clcd.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -40,7 +40,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/versatile/versatile_clcd.c 245071 201
 
 #include <machine/bus.h>
 #include <machine/cpu.h>
-#include <machine/frame.h>
 #include <machine/intr.h>
 
 #include <dev/fdt/fdt_common.h>
@@ -232,6 +231,9 @@ versatile_fb_dmamap_cb(void *arg, bus_dma_segment_t *segs, int nseg, int err)
 static int
 versatile_clcdc_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (ofw_bus_is_compatible(dev, "arm,pl110")) {
 		device_set_desc(dev, "PL110 CLCD controller");

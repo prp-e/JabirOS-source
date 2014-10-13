@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: release/10.0.0/sys/dev/wtap/if_wtap_module.c 231828 2012-02-16 16:48:12Z adrian $
+ * $FreeBSD: stable/10/sys/dev/wtap/if_wtap_module.c 231828 2012-02-16 16:48:12Z adrian $
  */
 #include <sys/param.h>
 #include <sys/module.h>

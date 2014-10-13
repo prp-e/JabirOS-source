@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/msun/src/imprecise.c 255294 2013-09-06 07:58:23Z theraven $
+ * $FreeBSD: stable/10/lib/msun/src/imprecise.c 271779 2014-09-18 15:10:22Z tijl $
  */
 
 #include <float.h>
@@ -60,10 +60,5 @@ DECLARE_WEAK(powl);
 	long double imprecise_ ## f ## l(long double v) { return f(v); }\
 	DECLARE_WEAK(f ## l)
 
-DECLARE_IMPRECISE(cosh);
-DECLARE_IMPRECISE(erfc);
-DECLARE_IMPRECISE(erf);
 DECLARE_IMPRECISE(lgamma);
-DECLARE_IMPRECISE(sinh);
-DECLARE_IMPRECISE(tanh);
 DECLARE_IMPRECISE(tgamma);

@@ -19,7 +19,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/pkg_install/create/perform.c 240682 2012-09-18 22:09:23Z bapt $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/pkg_install/create/perform.c 240682 2012-09-18 22:09:23Z bapt $");
 
 #include "lib.h"
 #include "create.h"

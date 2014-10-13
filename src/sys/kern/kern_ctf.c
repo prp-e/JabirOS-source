@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/kern/kern_ctf.c 241896 2012-10-22 17:50:54Z kib $
+ * $FreeBSD: stable/10/sys/kern/kern_ctf.c 241896 2012-10-22 17:50:54Z kib $
  */
 
 /*

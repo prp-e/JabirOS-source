@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2012 Ganbold Tsagaankhuu <ganbold@gmail.com>
+ * Copyright (c) 2012 Ganbold Tsagaankhuu <ganbold@freebsd.org>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/allwinner/aintc.c 245900 2013-01-25 07:21:22Z ganbold $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/allwinner/aintc.c 266337 2014-05-17 18:53:36Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -97,6 +97,10 @@ static struct a10_aintc_softc *a10_aintc_sc = NULL;
 static int
 a10_aintc_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
+
 	if (!ofw_bus_is_compatible(dev, "allwinner,sun4i-ic"))
 		return (ENXIO);
 	device_set_desc(dev, "A10 AINTC Interrupt Controller");

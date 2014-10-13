@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/conf/kern.pre.mk 253996 2013-08-06 15:51:56Z avg $
+# $FreeBSD: stable/10/sys/conf/kern.pre.mk 260495 2014-01-09 22:40:51Z dim $
 
 # Part of a unified Makefile for building kernels.  This part contains all
 # of the definitions that need to be before %BEFORE_DEPEND.
@@ -99,6 +99,8 @@ ASM_CFLAGS= -x assembler-with-cpp -DLOCORE ${CFLAGS}
 
 .if ${COMPILER_TYPE} == "clang"
 CLANG_NO_IAS= -no-integrated-as
+.else
+GCC_MS_EXTENSIONS= -fms-extensions
 .endif
 
 .if defined(PROFLEVEL) && ${PROFLEVEL} >= 1
@@ -157,7 +159,7 @@ NORMAL_LINT=	${LINT} ${LINTFLAGS} ${CFLAGS:M-[DIU]*} ${.IMPSRC}
 # Infiniband C flags.  Correct include paths and omit errors that linux
 # does not honor.
 OFEDINCLUDES=	-I$S/ofed/include/
-OFEDNOERR=	-Wno-cast-qual -Wno-pointer-arith -fms-extensions
+OFEDNOERR=	-Wno-cast-qual -Wno-pointer-arith ${GCC_MS_EXTENSIONS}
 OFEDCFLAGS=	${CFLAGS:N-I*} ${OFEDINCLUDES} ${CFLAGS:M-I*} ${OFEDNOERR}
 OFED_C_NOIMP=	${CC} -c -o ${.TARGET} ${OFEDCFLAGS} ${WERROR} ${PROF}
 OFED_C=		${OFED_C_NOIMP} ${.IMPSRC}

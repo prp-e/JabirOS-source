@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/tools/regression/usr.bin/cc/float.t 230368 2012-01-20 06:57:21Z das $
+# $FreeBSD: stable/10/tools/regression/usr.bin/cc/float.t 230368 2012-01-20 06:57:21Z das $
 
 cd `dirname $0`
 

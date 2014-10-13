@@ -23,7 +23,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/usr.sbin/pc-sysinstall/backend-query/disk-list.sh 249094 2013-04-04 12:03:30Z mav $
+# $FreeBSD: stable/10/usr.sbin/pc-sysinstall/backend-query/disk-list.sh 249094 2013-04-04 12:03:30Z mav $
 
 ARGS=$1
 FLAGS_MD=""

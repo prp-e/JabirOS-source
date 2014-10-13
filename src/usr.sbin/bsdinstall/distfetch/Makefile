@@ -1,11 +1,21 @@
-# $FreeBSD: release/10.0.0/usr.sbin/bsdinstall/distfetch/Makefile 250511 2013-05-11 13:46:05Z antoine $
+# $FreeBSD: stable/10/usr.sbin/bsdinstall/distfetch/Makefile 262643 2014-03-01 03:09:16Z brooks $
 
 BINDIR= /usr/libexec/bsdinstall
 PROG=	distfetch
-DPADD=	${LIBFETCH} ${LIBNCURSESW} ${LIBDIALOG} ${LIBM}
-LDADD=	-lfetch -lncursesw -ldialog -lm
+DPADD=	${LIBFETCH} ${LIBDIALOG} ${LIBM}
+LDADD=	-lfetch -ldialog -lm
 
 WARNS?=	6
 NO_MAN=	true
+
+.include <bsd.own.mk>
+
+.if ${MK_NCURSESW} == "no"
+DPADD+=	${LIBNCURSES}
+LDADD+=	-lncurses
+.else
+DPADD+=	${LIBNCURSESW}
+LDADD+=	-lncursesw
+.endif
 
 .include <bsd.prog.mk>

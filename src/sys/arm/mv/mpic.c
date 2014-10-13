@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/mv/mpic.c 240492 2012-09-14 10:05:01Z gber $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/mv/mpic.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -126,6 +126,9 @@ static void	arm_unmask_msi(void);
 static int
 mv_mpic_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (!ofw_bus_is_compatible(dev, "mrvl,mpic"))
 		return (ENXIO);

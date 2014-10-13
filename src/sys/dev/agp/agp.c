@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/agp/agp.c 254649 2013-08-22 07:39:53Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/agp/agp.c 254649 2013-08-22 07:39:53Z kib $");
 
 #include "opt_agp.h"
 

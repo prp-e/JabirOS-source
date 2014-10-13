@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/stdio/vasprintf.c 227753 2011-11-20 14:45:42Z theraven $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/stdio/vasprintf.c 227753 2011-11-20 14:45:42Z theraven $");
 
 #include <stdio.h>
 #include <stdlib.h>

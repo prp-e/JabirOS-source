@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/amd64/pci/pci_cfgreg.c 243737 2012-12-01 00:56:19Z jkim $");
+__FBSDID("$FreeBSD: stable/10/sys/amd64/pci/pci_cfgreg.c 261455 2014-02-04 03:36:42Z eadler $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -184,7 +184,7 @@ pci_cfgenable(unsigned bus, unsigned slot, unsigned func, int reg, int bytes)
 	if (bus <= PCI_BUSMAX && slot <= PCI_SLOTMAX && func <= PCI_FUNCMAX &&
 	    (unsigned)reg <= PCI_REGMAX && bytes != 3 &&
 	    (unsigned)bytes <= 4 && (reg & (bytes - 1)) == 0) {
-		outl(CONF1_ADDR_PORT, (1 << 31) | (bus << 16) | (slot << 11) 
+		outl(CONF1_ADDR_PORT, (1U << 31) | (bus << 16) | (slot << 11) 
 		    | (func << 8) | (reg & ~0x03));
 		dataport = CONF1_DATA_PORT + (reg & 0x03);
 	}

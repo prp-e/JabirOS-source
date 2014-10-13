@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/puc/puc.c 245471 2013-01-15 20:13:25Z jhb $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/puc/puc.c 245471 2013-01-15 20:13:25Z jhb $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

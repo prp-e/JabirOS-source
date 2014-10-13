@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/lib/libusb/libusb10.h 248236 2013-03-13 12:23:14Z hselasky $ */
+/* $FreeBSD: stable/10/lib/libusb/libusb10.h 248236 2013-03-13 12:23:14Z hselasky $ */
 /*-
  * Copyright (c) 2009 Sylvestre Gallon. All rights reserved.
  *

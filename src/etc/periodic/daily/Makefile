@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/etc/periodic/daily/Makefile 255963 2013-10-01 07:19:23Z des $
+# $FreeBSD: stable/10/etc/periodic/daily/Makefile 255963 2013-10-01 07:19:23Z des $
 
 .include <bsd.own.mk>
 

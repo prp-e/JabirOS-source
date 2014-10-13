@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netpfil/pf/pf_norm.c 244769 2012-12-28 09:19:49Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sys/netpfil/pf/pf_norm.c 263086 2014-03-12 10:45:58Z glebius $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"
@@ -43,7 +43,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/netpfil/pf/pf_norm.c 244769 2012-12-28 09
 #include <net/if.h>
 #include <net/vnet.h>
 #include <net/pfvar.h>
-#include <net/pf_mtag.h>
 #include <net/if_pflog.h>
 
 #include <netinet/in.h>

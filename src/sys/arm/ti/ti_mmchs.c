@@ -40,7 +40,7 @@
  *
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/ti_mmchs.c 253053 2013-07-09 02:50:05Z rpaulo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/ti/ti_mmchs.c 266159 2014-05-15 16:59:47Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -65,7 +65,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/ti_mmchs.c 253053 2013-07-09 02:50
 #include <machine/cpu.h>
 #include <machine/cpufunc.h>
 #include <machine/resource.h>
-#include <machine/frame.h>
 #include <machine/intr.h>
 
 #include <dev/mmc/bridge.h>
@@ -1657,6 +1656,10 @@ errout:
 static int
 ti_mmchs_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
+
 	if (!ofw_bus_is_compatible(dev, "ti,mmchs"))
 		return (ENXIO);
 
@@ -1752,7 +1755,6 @@ ti_mmchs_attach(device_t dev)
 
 	device_add_child(dev, "mmc", 0);
 
-	device_set_ivars(dev, &sc->host);
 	err = bus_generic_attach(dev);
 
 out:

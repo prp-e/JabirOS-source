@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: release/10.0.0/sys/dev/drm2/i915/intel_ringbuffer.h 235783 2012-05-22 11:07:44Z kib $
+ * $FreeBSD: stable/10/sys/dev/drm2/i915/intel_ringbuffer.h 271816 2014-09-18 20:32:40Z dumbbell $
  */
 
 #ifndef _INTEL_RINGBUFFER_H_
@@ -122,10 +122,23 @@ struct  intel_ring_buffer {
 	 */
 	uint32_t outstanding_lazy_request;
 
+	/**
+	 * Do an explicit TLB flush before MI_SET_CONTEXT
+	 */
+	bool itlb_before_ctx_switch;
+	struct i915_hw_context *default_context;
+	struct drm_i915_gem_object *last_context_obj;
+
 	drm_local_map_t map;
 
 	void *private;
 };
+
+static inline bool
+intel_ring_initialized(struct intel_ring_buffer *ring)
+{
+	return ring->obj != NULL;
+}
 
 static inline unsigned
 intel_ring_flag(struct intel_ring_buffer *ring)

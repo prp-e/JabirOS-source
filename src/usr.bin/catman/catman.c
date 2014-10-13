@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/catman/catman.c 227155 2011-11-06 08:14:09Z ed $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/catman/catman.c 227155 2011-11-06 08:14:09Z ed $");
 
 #include <sys/types.h>
 #include <sys/stat.h>

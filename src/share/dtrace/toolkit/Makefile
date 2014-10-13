@@ -1,4 +1,4 @@
-#$FreeBSD: release/10.0.0/share/dtrace/toolkit/Makefile 235613 2012-05-18 16:40:15Z gnn $
+#$FreeBSD: stable/10/share/dtrace/toolkit/Makefile 235613 2012-05-18 16:40:15Z gnn $
 #
 # Install scripts from the DTraceToolkit
 #

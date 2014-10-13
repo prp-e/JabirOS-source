@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/sys/pmckern.h 254813 2013-08-24 21:13:38Z markj $
+ * $FreeBSD: stable/10/sys/sys/pmckern.h 254813 2013-08-24 21:13:38Z markj $
  */
 
 /*

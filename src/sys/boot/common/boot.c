@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/boot/common/boot.c 235330 2012-05-12 09:07:41Z avg $");
+__FBSDID("$FreeBSD: stable/10/sys/boot/common/boot.c 235330 2012-05-12 09:07:41Z avg $");
 
 /*
  * Loading modules, booting the system

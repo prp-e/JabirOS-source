@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	$KAME: scope6_var.h,v 1.4 2000/05/18 15:03:27 jinmei Exp $
- * $FreeBSD: release/10.0.0/sys/netinet6/scope6_var.h 243903 2012-12-05 19:45:24Z hrs $
+ * $FreeBSD: stable/10/sys/netinet6/scope6_var.h 271185 2014-09-06 04:39:26Z markj $
  */
 
 #ifndef _NETINET6_SCOPE6_VAR_H_
@@ -50,8 +50,7 @@ VNET_DECLARE(int, deembed_scopeid);
 void	scope6_init(void);
 struct scope6_id *scope6_ifattach(struct ifnet *);
 void	scope6_ifdetach(struct scope6_id *);
-int	scope6_set(struct ifnet *, struct scope6_id *);
-int	scope6_get(struct ifnet *, struct scope6_id *);
+int	scope6_ioctl(u_long cmd, caddr_t data, struct ifnet *);
 void	scope6_setdefault(struct ifnet *);
 int	scope6_get_default(struct scope6_id *);
 u_int32_t scope6_addr2default(struct in6_addr *);

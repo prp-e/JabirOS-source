@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/contrib/altq/altq/altq_priq.c 240824 2012-09-22 12:49:36Z glebius $	*/
+/*	$FreeBSD: stable/10/sys/contrib/altq/altq/altq_priq.c 263086 2014-03-12 10:45:58Z glebius $	*/
 /*	$KAME: altq_priq.c,v 1.11 2003/09/17 14:23:25 kjc Exp $	*/
 /*
  * Copyright (C) 2000-2003
@@ -51,9 +51,12 @@
 #include <sys/queue.h>
 
 #include <net/if.h>
+#include <net/if_var.h>
 #include <netinet/in.h>
 
-#include <net/pfvar.h>
+#include <netpfil/pf/pf.h>
+#include <netpfil/pf/pf_altq.h>
+#include <netpfil/pf/pf_mtag.h>
 #include <altq/altq.h>
 #ifdef ALTQ3_COMPAT
 #include <altq/altq_conf.h>

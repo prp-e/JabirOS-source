@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/libdwarf/dwarf_die.c 248641 2013-03-23 08:50:56Z avg $
+ * $FreeBSD: stable/10/lib/libdwarf/dwarf_die.c 248641 2013-03-23 08:50:56Z avg $
  */
 
 #include <stdlib.h>

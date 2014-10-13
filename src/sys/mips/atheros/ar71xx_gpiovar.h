@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/mips/atheros/ar71xx_gpiovar.h 255335 2013-09-06 23:47:50Z loos $
+ * $FreeBSD: stable/10/sys/mips/atheros/ar71xx_gpiovar.h 255335 2013-09-06 23:47:50Z loos $
  *
  */
 

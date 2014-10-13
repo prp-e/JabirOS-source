@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libproc/Makefile 240156 2012-09-06 03:19:48Z rpaulo $
+# $FreeBSD: stable/10/lib/libproc/Makefile 268775 2014-07-16 21:04:31Z dim $
 
 .include <bsd.own.mk>
 
@@ -18,9 +18,11 @@ CFLAGS+=	-I${.CURDIR}
 .if ${MK_LIBCPLUSPLUS} != "no"
 LDADD+=		-lcxxrt
 DPADD+=		${LIBCXXRT}
-.else
+.elif ${MK_GNUCXX} != "no"
 LDADD+=		-lsupc++
 DPADD+=		${LIBSTDCPLUSPLUS}
+.else
+CFLAGS+=	-DNO_CXA_DEMANGLE
 .endif
 
 SHLIB_MAJOR=	2

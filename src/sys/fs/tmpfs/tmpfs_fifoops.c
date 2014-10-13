@@ -34,7 +34,7 @@
  * tmpfs vnode interface for named pipes.
  */
 #include <sys/cdefs.h>
- __FBSDID("$FreeBSD: release/10.0.0/sys/fs/tmpfs/tmpfs_fifoops.c 182739 2008-09-03 18:53:48Z delphij $");
+ __FBSDID("$FreeBSD: stable/10/sys/fs/tmpfs/tmpfs_fifoops.c 269164 2014-07-28 00:43:42Z kib $");
 
 #include <sys/param.h>
 #include <sys/filedesc.h>
@@ -47,8 +47,6 @@
 #include <fs/tmpfs/tmpfs.h>
 #include <fs/tmpfs/tmpfs_fifoops.h>
 #include <fs/tmpfs/tmpfs_vnops.h>
-
-/* --------------------------------------------------------------------- */
 
 static int
 tmpfs_fifo_kqfilter(struct vop_kqfilter_args *ap)
@@ -70,8 +68,6 @@ tmpfs_fifo_kqfilter(struct vop_kqfilter_args *ap)
 
 	return fifo_specops.vop_kqfilter(ap);
 }
-
-/* --------------------------------------------------------------------- */
 
 static int
 tmpfs_fifo_close(struct vop_close_args *v)

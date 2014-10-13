@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/hyperv/utilities/Makefile 255923 2013-09-28 07:04:03Z uqs $
+# $FreeBSD: stable/10/sys/modules/hyperv/utilities/Makefile 272152 2014-09-26 03:03:58Z gjb $
 
 .PATH:	${.CURDIR}/../../../dev/hyperv/utilities
 

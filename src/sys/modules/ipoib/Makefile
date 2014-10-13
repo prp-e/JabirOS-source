@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/ipoib/Makefile 255932 2013-09-29 00:35:03Z alfred $
+# $FreeBSD: stable/10/sys/modules/ipoib/Makefile 260495 2014-01-09 22:40:51Z dim $
 .PATH:  ${.CURDIR}/../../ofed/drivers/infiniband/ulp/ipoib
 .PATH:  ${.CURDIR}/../../ofed/include/linux
 
@@ -28,4 +28,4 @@ opt_inet6.h:
 
 .include <bsd.kmod.mk>
 
-CFLAGS+= -Wno-cast-qual -Wno-pointer-arith -fms-extensions
+CFLAGS+= -Wno-cast-qual -Wno-pointer-arith ${GCC_MS_EXTENSIONS}

@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/cxgbe/t4_tracer.c 255011 2013-08-28 23:15:05Z np $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/cxgbe/t4_tracer.c 270297 2014-08-21 19:54:02Z np $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"
@@ -192,7 +192,6 @@ t4_cloner_create(struct if_clone *ifc, char *name, size_t len, caddr_t params)
 	ifmedia_add(&sc->media, IFM_ETHER | IFM_FDX | IFM_NONE, 0, NULL);
 	ifmedia_set(&sc->media, IFM_ETHER | IFM_FDX | IFM_NONE);
 	ether_ifattach(ifp, lla);
-	if_up(ifp);
 
 	mtx_lock(&sc->ifp_lock);
 	ifp->if_softc = sc;

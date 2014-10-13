@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/tools/regression/lib/libc/stdio/test-fopen.t 255303 2013-09-06 13:47:16Z jilles $
+# $FreeBSD: stable/10/tools/regression/lib/libc/stdio/test-fopen.t 255303 2013-09-06 13:47:16Z jilles $
 
 cd `dirname $0`
 

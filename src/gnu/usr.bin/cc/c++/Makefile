@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/gnu/usr.bin/cc/c++/Makefile 245898 2013-01-25 06:18:49Z andrew $
+# $FreeBSD: stable/10/gnu/usr.bin/cc/c++/Makefile 245898 2013-01-25 06:18:49Z andrew $
 
 NO_MAN=
 .include <bsd.own.mk>

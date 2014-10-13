@@ -22,14 +22,17 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/kern/kern_sdt.c 254268 2013-08-13 03:10:39Z markj $
+ * $FreeBSD: stable/10/sys/kern/kern_sdt.c 263283 2014-03-18 00:55:19Z markj $
  */
 
 #include "opt_kdtrace.h"
 
 #include <sys/param.h>
 #include <sys/systm.h>
+#include <sys/kdb.h>
 #include <sys/sdt.h>
+
+SDT_PROVIDER_DEFINE(sdt);
 
 /*
  * Hook for the DTrace probe function. The SDT provider will set this to
@@ -47,5 +50,6 @@ sdt_probe_stub(uint32_t id, uintptr_t arg0, uintptr_t arg1,
     uintptr_t arg2, uintptr_t arg3, uintptr_t arg4)
 {
 
-	printf("sdt_probe_stub: Why did this get called?\n");
+	printf("sdt_probe_stub: unexpectedly called\n");
+	kdb_backtrace();
 }

@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: release/10.0.0/tools/tools/ath/athstats/statfoo.c 231863 2012-02-17 08:24:58Z adrian $
+ * $FreeBSD: stable/10/tools/tools/ath/athstats/statfoo.c 231863 2012-02-17 08:24:58Z adrian $
  */
 
 #include <stdio.h>

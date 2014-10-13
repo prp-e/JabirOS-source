@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/filemon/filemon_wrapper.c 253977 2013-08-06 02:14:30Z hrs $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/filemon/filemon_wrapper.c 253977 2013-08-06 02:14:30Z hrs $");
 
 #include "opt_compat.h"
 

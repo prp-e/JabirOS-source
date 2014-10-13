@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/mfiutil/mfiutil.c 254906 2013-08-26 12:05:38Z sbruno $
+ * $FreeBSD: stable/10/usr.sbin/mfiutil/mfiutil.c 272041 2014-09-23 21:38:05Z smh $
  */
 
 #include <sys/errno.h>
@@ -93,6 +93,8 @@ usage(void)
 	fprintf(stderr, "    flash <firmware>\n");
 	fprintf(stderr, "    start learn               - start a BBU relearn\n");
 	fprintf(stderr, "    bbu <setting> <value>     - set BBU properties\n");
+	fprintf(stderr, "    ctrlprop rebuild [rate]   - get/set the volume rebuild rate\n");
+	fprintf(stderr, "    ctrlprop alarm [0/1]      - enable/disable controller alarms\n");
 #ifdef DEBUG
 	fprintf(stderr, "    debug                     - debug 'show config'\n");
 	fprintf(stderr, "    dump                      - display 'saved' config\n");

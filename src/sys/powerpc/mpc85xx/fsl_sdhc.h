@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/powerpc/mpc85xx/fsl_sdhc.h 236121 2012-05-26 21:07:15Z raj $
+ * $FreeBSD: stable/10/sys/powerpc/mpc85xx/fsl_sdhc.h 236121 2012-05-26 21:07:15Z raj $
  */
 
 #ifndef FSL_SDHC_H_

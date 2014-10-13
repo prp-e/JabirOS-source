@@ -14,7 +14,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_tc.c 247777 2013-03-04 11:09:56Z davide $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_tc.c 247777 2013-03-04 11:09:56Z davide $");
 
 #include "opt_compat.h"
 #include "opt_ntp.h"

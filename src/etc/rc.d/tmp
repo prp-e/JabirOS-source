@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/etc/rc.d/tmp 238427 2012-07-13 20:10:59Z brooks $
+# $FreeBSD: stable/10/etc/rc.d/tmp 238427 2012-07-13 20:10:59Z brooks $
 #
 
 # PROVIDE: tmp

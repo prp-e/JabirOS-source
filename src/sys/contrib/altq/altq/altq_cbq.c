@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/contrib/altq/altq/altq_cbq.c 240233 2012-09-08 06:41:54Z glebius $	*/
+/*	$FreeBSD: stable/10/sys/contrib/altq/altq/altq_cbq.c 263086 2014-03-12 10:45:58Z glebius $	*/
 /*	$KAME: altq_cbq.c,v 1.19 2003/09/17 14:23:25 kjc Exp $	*/
 
 /*
@@ -54,9 +54,12 @@
 #endif
 
 #include <net/if.h>
+#include <net/if_var.h>
 #include <netinet/in.h>
 
-#include <net/pfvar.h>
+#include <netpfil/pf/pf.h>
+#include <netpfil/pf/pf_altq.h>
+#include <netpfil/pf/pf_mtag.h>
 #include <altq/altq.h>
 #include <altq/altq_cbq.h>
 #ifdef ALTQ3_COMPAT

@@ -39,7 +39,7 @@ static char sccsid[] = "@(#)main.c	8.6 (Berkeley) 5/14/95";
 #endif /* not lint */
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/fsck_ffs/main.c 253822 2013-07-30 22:57:12Z scottl $");
+__FBSDID("$FreeBSD: stable/10/sbin/fsck_ffs/main.c 260178 2014-01-02 01:44:14Z scottl $");
 
 #include <sys/param.h>
 #include <sys/file.h>
@@ -65,6 +65,8 @@ __FBSDID("$FreeBSD: release/10.0.0/sbin/fsck_ffs/main.c 253822 2013-07-30 22:57:
 
 #include "fsck.h"
 
+int	restarts;
+
 static void usage(void) __dead2;
 static int argtoi(int flag, const char *req, const char *str, int base);
 static int checkfilesys(char *filesys);
@@ -82,7 +84,7 @@ main(int argc, char *argv[])
 	sync();
 	skipclean = 1;
 	inoopt = 0;
-	while ((ch = getopt(argc, argv, "b:Bc:CdEfFm:nprSyZ")) != -1) {
+	while ((ch = getopt(argc, argv, "b:Bc:CdEfFm:npRrSyZ")) != -1) {
 		switch (ch) {
 		case 'b':
 			skipclean = 0;
@@ -138,6 +140,9 @@ main(int argc, char *argv[])
 			ckclean++;
 			break;
 
+		case 'R':
+			wantrestart = 1;
+			break;
 		case 'r':
 			inoopt++;
 			break;
@@ -186,8 +191,12 @@ main(int argc, char *argv[])
 		rlimit.rlim_cur = rlimit.rlim_max;
 		(void)setrlimit(RLIMIT_DATA, &rlimit);
 	}
-	while (argc-- > 0)
-		(void)checkfilesys(*argv++);
+	while (argc > 0) {
+		if (checkfilesys(*argv) == ERESTART)
+			continue;
+		argc--;
+		argv++;
+	}
 
 	if (returntosingle)
 		ret = 2;
@@ -228,6 +237,8 @@ checkfilesys(char *filesys)
 	iov = NULL;
 	iovlen = 0;
 	errmsg[0] = '\0';
+	fsutilinit();
+	fsckinit();
 
 	cdevname = filesys;
 	if (debug && ckclean)
@@ -550,8 +561,12 @@ checkfilesys(char *filesys)
 	inostathead = NULL;
 	if (fsmodified && !preen)
 		printf("\n***** FILE SYSTEM WAS MODIFIED *****\n");
-	if (rerun)
+	if (rerun) {
+		if (wantrestart && (restarts++ < 10) &&
+		    (preen || reply("RESTART")))
+			return (ERESTART);
 		printf("\n***** PLEASE RERUN FSCK *****\n");
+	}
 	if (chkdoreload(mntp) != 0) {
 		if (!fsmodified)
 			return (0);
@@ -653,4 +668,16 @@ usage(void)
 "usage: %s [-BEFfnpry] [-b block] [-c level] [-m mode] filesystem ...\n",
 	    getprogname());
 	exit(1);
+}
+
+void
+infohandler(int sig __unused)
+{
+	got_siginfo = 1;
+}
+
+void
+alarmhandler(int sig __unused)
+{
+	got_sigalarm = 1;
 }

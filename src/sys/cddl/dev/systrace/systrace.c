@@ -20,7 +20,7 @@
  *
  * Portions Copyright 2006-2008 John Birrell jb@freebsd.org
  *
- * $FreeBSD: release/10.0.0/sys/cddl/dev/systrace/systrace.c 227441 2011-11-11 03:49:42Z rstone $
+ * $FreeBSD: stable/10/sys/cddl/dev/systrace/systrace.c 269272 2014-07-29 22:26:41Z markj $
  *
  */
 
@@ -168,6 +168,9 @@ static dtrace_pops_t systrace_pops = {
 static struct cdev		*systrace_cdev;
 static dtrace_provider_id_t	systrace_id;
 
+typedef void (*systrace_dtrace_probe_t)(dtrace_id_t, uintptr_t, uintptr_t,
+    uintptr_t, uintptr_t, uintptr_t, uintptr_t, uintptr_t, uintptr_t);
+
 #if !defined(LINUX_SYSTRACE)
 /*
  * Probe callback function.
@@ -180,6 +183,7 @@ static void
 systrace_probe(u_int32_t id, int sysnum, struct sysent *sysent, void *params,
     int ret)
 {
+	systrace_dtrace_probe_t probe;
 	int		n_args	= 0;
 	u_int64_t	uargs[8];
 
@@ -211,7 +215,9 @@ systrace_probe(u_int32_t id, int sysnum, struct sysent *sysent, void *params,
 	}
 
 	/* Process the probe using the converted argments. */
-	dtrace_probe(id, uargs[0], uargs[1], uargs[2], uargs[3], uargs[4]);
+	probe = (systrace_dtrace_probe_t)dtrace_probe;
+	probe(id, uargs[0], uargs[1], uargs[2], uargs[3], uargs[4], uargs[5],
+	    uargs[6], uargs[7]);
 }
 
 #endif

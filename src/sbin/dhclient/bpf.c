@@ -41,7 +41,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/dhclient/bpf.c 255219 2013-09-05 00:09:56Z pjd $");
+__FBSDID("$FreeBSD: stable/10/sbin/dhclient/bpf.c 261828 2014-02-13 09:24:46Z brueffer $");
 
 #include <sys/capability.h>
 
@@ -269,7 +269,7 @@ if_register_receive(struct interface_info *info)
 	if (ioctl(info->rfdesc, BIOCLOCK, NULL) < 0)
 		error("Cannot lock bpf");
 
-	cap_rights_init(&rights, CAP_IOCTL, CAP_POLL_EVENT, CAP_READ);
+	cap_rights_init(&rights, CAP_IOCTL, CAP_EVENT, CAP_READ);
 	if (cap_rights_limit(info->rfdesc, &rights) < 0 && errno != ENOSYS)
 		error("Can't limit bpf descriptor: %m");
 	if (cap_ioctls_limit(info->rfdesc, cmds, 2) < 0 && errno != ENOSYS)

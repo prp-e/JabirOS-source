@@ -1,11 +1,16 @@
-# $FreeBSD: release/10.0.0/lib/libc/arm/aeabi/Makefile.inc 246706 2013-02-12 06:04:51Z andrew $
+# $FreeBSD: stable/10/lib/libc/arm/aeabi/Makefile.inc 269792 2014-08-10 22:26:29Z ian $
 
 .PATH: ${.CURDIR}/arm/aeabi
 
 SRCS+=	aeabi_atexit.c		\
 	aeabi_double.c		\
 	aeabi_float.c		\
-	aeabi_unwind_cpp.c
+	aeabi_unwind_cpp.c	\
+	aeabi_unwind_exidx.c
+.if ${MACHINE_ARCH:Marmv6*}
+SRCS+=	aeabi_vfp_double.S	\
+	aeabi_vfp_float.S
+.endif
 
 # Add the aeabi_mem* functions. While they live in compiler-rt they call into
 # libc. This causes issues when other parts of libc call these functions.

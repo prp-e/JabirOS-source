@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/powermac/cpcht.c 230999 2012-02-04 23:25:18Z nwhitehorn $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/powermac/cpcht.c 266160 2014-05-15 17:30:16Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -134,7 +134,7 @@ struct cpcht_softc {
 static devclass_t	cpcht_devclass;
 DEFINE_CLASS_1(pcib, cpcht_driver, cpcht_methods, sizeof(struct cpcht_softc),
     ofw_pci_driver);
-DRIVER_MODULE(cpcht, nexus, cpcht_driver, cpcht_devclass, 0, 0);
+DRIVER_MODULE(cpcht, ofwbus, cpcht_driver, cpcht_devclass, 0, 0);
 
 #define CPCHT_IOPORT_BASE	0xf4000000UL /* Hardwired */
 #define CPCHT_IOPORT_SIZE	0x00400000UL

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/kerberos5/lib/libroken/Makefile 236422 2012-06-01 21:26:28Z obrien $
+# $FreeBSD: stable/10/kerberos5/lib/libroken/Makefile 236422 2012-06-01 21:26:28Z obrien $
 
 LIB=	roken
 LDADD=	-lcrypt

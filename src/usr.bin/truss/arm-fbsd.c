@@ -38,7 +38,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/truss/arm-fbsd.c 247975 2013-03-07 23:44:35Z cognet $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/truss/arm-fbsd.c 247975 2013-03-07 23:44:35Z cognet $");
 #include <sys/types.h>
 #include <sys/ptrace.h>
 #include <sys/syscall.h>

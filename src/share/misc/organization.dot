@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/share/misc/organization.dot 248220 2013-03-12 23:14:18Z eadler $
+# $FreeBSD: stable/10/share/misc/organization.dot 248220 2013-03-12 23:14:18Z eadler $
 
 # This file is meant to show the infrastructural organization of the
 # FreeBSD Project; what kind of teams we have and how they relate to

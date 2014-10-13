@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/sge/Makefile 206625 2010-04-14 20:45:33Z yongari $
+# $FreeBSD: stable/10/sys/modules/sge/Makefile 206625 2010-04-14 20:45:33Z yongari $
 
 .PATH: ${.CURDIR}/../../dev/sge
 

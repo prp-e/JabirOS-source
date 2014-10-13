@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)dead_vnops.c	8.1 (Berkeley) 6/10/93
- * $FreeBSD: release/10.0.0/sys/fs/deadfs/dead_vnops.c 240464 2012-09-13 13:05:45Z kib $
+ * $FreeBSD: stable/10/sys/fs/deadfs/dead_vnops.c 240464 2012-09-13 13:05:45Z kib $
  */
 
 #include <sys/param.h>

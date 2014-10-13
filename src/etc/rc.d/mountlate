@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: release/10.0.0/etc/rc.d/mountlate 250235 2013-05-04 14:00:16Z crees $
+# $FreeBSD: stable/10/etc/rc.d/mountlate 250235 2013-05-04 14:00:16Z crees $
 #
 
 # PROVIDE: mountlate

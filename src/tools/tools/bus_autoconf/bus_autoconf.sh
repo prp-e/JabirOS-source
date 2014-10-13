@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: release/10.0.0/tools/tools/bus_autoconf/bus_autoconf.sh 223535 2011-06-25 15:22:44Z hselasky $
+# $FreeBSD: stable/10/tools/tools/bus_autoconf/bus_autoconf.sh 223535 2011-06-25 15:22:44Z hselasky $
 #
 # Copyright (c) 2011 Hans Petter Selasky. All rights reserved.
 #

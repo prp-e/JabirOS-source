@@ -1,4 +1,4 @@
-	# $FreeBSD: release/10.0.0/secure/lib/libcrypto/amd64/x86_64-mont.S 238405 2012-07-12 19:30:53Z jkim $
+	# $FreeBSD: stable/10/secure/lib/libcrypto/amd64/x86_64-mont.S 238405 2012-07-12 19:30:53Z jkim $
 .text	
 
 .globl	bn_mul_mont

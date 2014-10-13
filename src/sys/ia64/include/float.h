@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/ia64/include/float.h 230475 2012-01-23 06:36:41Z das $ */
+/* $FreeBSD: stable/10/sys/ia64/include/float.h 230475 2012-01-23 06:36:41Z das $ */
 /* From: NetBSD: float.h,v 1.6 1997/07/17 21:36:03 thorpej Exp */
 
 /*-

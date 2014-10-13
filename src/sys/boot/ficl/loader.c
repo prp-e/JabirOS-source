@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: release/10.0.0/sys/boot/ficl/loader.c 254155 2013-08-09 19:10:56Z marcel $
+ *	$FreeBSD: stable/10/sys/boot/ficl/loader.c 254155 2013-08-09 19:10:56Z marcel $
  */
 
 /*******************************************************************

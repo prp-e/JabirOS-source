@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/ia64/acpica/acpi_wakeup.c 236409 2012-06-01 17:07:52Z jkim $
+ * $FreeBSD: stable/10/sys/ia64/acpica/acpi_wakeup.c 236409 2012-06-01 17:07:52Z jkim $
  */
 
 #include <sys/param.h>

@@ -34,7 +34,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/makefs/ffs.h 226169 2011-10-09 16:22:31Z nwhitehorn $
+ * $FreeBSD: stable/10/usr.sbin/makefs/ffs.h 226169 2011-10-09 16:22:31Z nwhitehorn $
  */
 
 #ifndef _FFS_H

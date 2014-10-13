@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/etherswitch/arswitch/arswitch_phy.h 235288 2012-05-11 20:53:20Z adrian $
+ * $FreeBSD: stable/10/sys/dev/etherswitch/arswitch/arswitch_phy.h 235288 2012-05-11 20:53:20Z adrian $
  */
 #ifndef	__ARSWITCH_PHY_H__
 #define	__ARSWITCH_PHY_H__

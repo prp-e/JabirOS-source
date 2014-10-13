@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/hastd/hast_checksum.c 228543 2011-12-15 22:03:17Z pjd $");
+__FBSDID("$FreeBSD: stable/10/sbin/hastd/hast_checksum.c 228543 2011-12-15 22:03:17Z pjd $");
 
 #include <errno.h>
 #include <string.h>

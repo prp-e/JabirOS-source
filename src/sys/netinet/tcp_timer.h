@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)tcp_timer.h	8.1 (Berkeley) 6/10/93
- * $FreeBSD: release/10.0.0/sys/netinet/tcp_timer.h 243621 2012-11-27 19:07:28Z andre $
+ * $FreeBSD: stable/10/sys/netinet/tcp_timer.h 243621 2012-11-27 19:07:28Z andre $
  */
 
 #ifndef _NETINET_TCP_TIMER_H_

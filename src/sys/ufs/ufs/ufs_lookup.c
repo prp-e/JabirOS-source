@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/ufs/ufs/ufs_lookup.c 248561 2013-03-20 17:57:00Z mckusick $");
+__FBSDID("$FreeBSD: stable/10/sys/ufs/ufs/ufs_lookup.c 264490 2014-04-15 07:50:18Z scottl $");
 
 #include "opt_ufs.h"
 #include "opt_quota.h"
@@ -1130,12 +1130,15 @@ ufs_direnter(dvp, tvp, dirp, cnp, newdirbp, isrename)
 	    dp->i_endoff && dp->i_endoff < dp->i_size) {
 		if (tvp != NULL)
 			VOP_UNLOCK(tvp, 0);
+		error = UFS_TRUNCATE(dvp, (off_t)dp->i_endoff,
+		    IO_NORMAL | IO_SYNC, cr);
+		if (error != 0)
+			vprint("ufs_direnter: failted to truncate", dvp);
 #ifdef UFS_DIRHASH
-		if (dp->i_dirhash != NULL)
+		if (error == 0 && dp->i_dirhash != NULL)
 			ufsdirhash_dirtrunc(dp, dp->i_endoff);
 #endif
-		(void) UFS_TRUNCATE(dvp, (off_t)dp->i_endoff,
-		    IO_NORMAL | IO_SYNC, cr);
+		error = 0;
 		if (tvp != NULL)
 			vn_lock(tvp, LK_EXCLUSIVE | LK_RETRY);
 	}

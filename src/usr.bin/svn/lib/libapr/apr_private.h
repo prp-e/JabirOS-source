@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/usr.bin/svn/lib/libapr/apr_private.h 256055 2013-10-04 18:27:02Z nwhitehorn $ */
+/* $FreeBSD: stable/10/usr.bin/svn/lib/libapr/apr_private.h 269847 2014-08-12 01:40:11Z peter $ */
 
 /* include/arch/unix/apr_private.h.  Generated from apr_private.h.in by configure.  */
 /* include/arch/unix/apr_private.h.in.  Generated from configure.in by autoheader.  */
@@ -86,6 +86,9 @@
 /* Define if accept4 function is supported */
 #define HAVE_ACCEPT4 1
 
+/* Define if async i/o supports message q's */
+/* #undef HAVE_AIO_MSGQ */
+
 /* Define to 1 if you have `alloca', as a function or macro. */
 #define HAVE_ALLOCA 1
 
@@ -142,7 +145,7 @@
 /* #undef HAVE_DL_H */
 
 /* Define if dup3 function is supported */
-/* #undef HAVE_DUP3 */
+#define HAVE_DUP3 1
 
 /* Define if EGD is supported */
 /* #undef HAVE_EGD */
@@ -934,7 +937,7 @@
 
 
 /* switch this on if we have a BeOS version below BONE */
-#if BEOS && !HAVE_BONE_VERSION
+#if defined(BEOS) && !defined(HAVE_BONE_VERSION)
 #define BEOS_R5 1
 #else
 #define BEOS_BONE 1

@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2012 Ganbold Tsagaankhuu <ganbold@gmail.com>
+ * Copyright (c) 2012 Ganbold Tsagaankhuu <ganbold@freebsd.org>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/allwinner/timer.c 254056 2013-08-07 11:07:56Z ganbold $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/allwinner/timer.c 266337 2014-05-17 18:53:36Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -39,7 +39,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/allwinner/timer.c 254056 2013-08-07 1
 #include <sys/watchdog.h>
 #include <machine/bus.h>
 #include <machine/cpu.h>
-#include <machine/frame.h>
 #include <machine/intr.h>
 
 #include <dev/fdt/fdt_common.h>
@@ -294,12 +293,6 @@ int
 a10_timer_get_timerfreq(struct a10_timer_softc *sc)
 {
 	return (sc->timer0_freq);
-}
-
-void
-cpu_initclocks(void)
-{
-	cpu_initclocks_bsp();
 }
 
 static int

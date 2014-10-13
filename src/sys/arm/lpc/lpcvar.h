@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/lpc/lpcvar.h 239278 2012-08-15 05:37:10Z gonzo $
+ * $FreeBSD: stable/10/sys/arm/lpc/lpcvar.h 239278 2012-08-15 05:37:10Z gonzo $
  */
 
 #ifndef	_ARM_LPC_LPCVAR_H

@@ -21,7 +21,7 @@
  *
  * Portions Copyright 2012,2013 Justin Hibbits <jhibbits@freebsd.org>
  *
- * $FreeBSD: release/10.0.0/sys/cddl/dev/dtrace/powerpc/dtrace_isa.c 255099 2013-08-31 16:30:20Z jhibbits $
+ * $FreeBSD: stable/10/sys/cddl/dev/dtrace/powerpc/dtrace_isa.c 255099 2013-08-31 16:30:20Z jhibbits $
  */
 /*
  * Copyright 2005 Sun Microsystems, Inc.  All rights reserved.

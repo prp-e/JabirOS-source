@@ -57,7 +57,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/ddb/db_textdump.c 242424 2012-11-01 04:07:08Z alfred $");
+__FBSDID("$FreeBSD: stable/10/sys/ddb/db_textdump.c 242424 2012-11-01 04:07:08Z alfred $");
 
 #include "opt_config.h"
 

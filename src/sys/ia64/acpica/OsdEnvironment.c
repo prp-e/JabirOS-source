@@ -26,11 +26,11 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/ia64/acpica/OsdEnvironment.c 217265 2011-01-11 13:59:06Z jhb $");
+__FBSDID("$FreeBSD: stable/10/sys/ia64/acpica/OsdEnvironment.c 270296 2014-08-21 19:51:07Z emaste $");
 
 #include <sys/types.h>
+#include <sys/efi.h>
 #include <sys/sysctl.h>
-#include <machine/efi.h>
 
 #include <contrib/dev/acpica/include/acpi.h>
 

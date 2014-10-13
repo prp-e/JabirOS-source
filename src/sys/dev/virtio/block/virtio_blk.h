@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/virtio/block/virtio_blk.h 252703 2013-07-04 17:53:02Z bryanv $
+ * $FreeBSD: stable/10/sys/dev/virtio/block/virtio_blk.h 252703 2013-07-04 17:53:02Z bryanv $
  */
 
 #ifndef _VIRTIO_BLK_H

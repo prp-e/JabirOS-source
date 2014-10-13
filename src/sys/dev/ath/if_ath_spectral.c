@@ -26,10 +26,10 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: release/10.0.0/sys/dev/ath/if_ath_spectral.c 245190 2013-01-08 22:42:15Z adrian $
+ * $FreeBSD: stable/10/sys/dev/ath/if_ath_spectral.c 245190 2013-01-08 22:42:15Z adrian $
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/ath/if_ath_spectral.c 245190 2013-01-08 22:42:15Z adrian $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/ath/if_ath_spectral.c 245190 2013-01-08 22:42:15Z adrian $");
 
 /*
  * Implement some basic spectral scan control logic.

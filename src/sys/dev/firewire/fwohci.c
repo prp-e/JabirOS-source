@@ -31,7 +31,7 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  * 
- * $FreeBSD: release/10.0.0/sys/dev/firewire/fwohci.c 243857 2012-12-04 09:32:43Z glebius $
+ * $FreeBSD: stable/10/sys/dev/firewire/fwohci.c 261455 2014-02-04 03:36:42Z eadler $
  *
  */
 
@@ -179,7 +179,7 @@ static void fwohci_task_dma(void *, int);
 #define	OHCI_ATRETRY		0x08
 #define	OHCI_CROMHDR		0x18
 #define	OHCI_BUS_OPT		0x20
-#define	OHCI_BUSIRMC		(1 << 31)
+#define	OHCI_BUSIRMC		(1U << 31)
 #define	OHCI_BUSCMC		(1 << 30)
 #define	OHCI_BUSISC		(1 << 29)
 #define	OHCI_BUSBMC		(1 << 28)
@@ -205,7 +205,7 @@ static void fwohci_task_dma(void *, int);
 
 #define	OHCI_SID_BUF		0x64
 #define	OHCI_SID_CNT		0x68
-#define OHCI_SID_ERR		(1 << 31)
+#define OHCI_SID_ERR		(1U << 31)
 #define OHCI_SID_CNT_MASK	0xffc
 
 #define	OHCI_IT_STAT		0x90

@@ -1,11 +1,12 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/12/93
-# $FreeBSD: release/10.0.0/usr.bin/netstat/Makefile 238514 2012-07-16 06:43:04Z tuexen $
+# $FreeBSD: stable/10/usr.bin/netstat/Makefile 263086 2014-03-12 10:45:58Z glebius $
 
 .include <bsd.own.mk>
 
 PROG=	netstat
 SRCS=	if.c inet.c main.c mbuf.c mroute.c netisr.c route.c \
-	unix.c atalk.c mroute6.c ipsec.c bpf.c pfkey.c sctp.c
+	unix.c atalk.c mroute6.c ipsec.c bpf.c pfkey.c sctp.c \
+	flowtable.c
 
 WARNS?=	3
 CFLAGS+=-fno-strict-aliasing
@@ -24,6 +25,10 @@ CFLAGS+=-DINET6
 
 .if ${MK_OFED} != "no"
 CFLAGS+=-DSDP
+.endif
+
+.if ${MK_PF} != "no"
+CFLAGS+=-DPF
 .endif
 
 BINGRP=	kmem

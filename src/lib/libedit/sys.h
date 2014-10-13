@@ -30,8 +30,8 @@
  * SUCH DAMAGE.
  *
  *	@(#)sys.h	8.1 (Berkeley) 6/4/93
- *	$NetBSD: sys.h,v 1.9 2004/01/17 17:57:40 christos Exp $
- * $FreeBSD: release/10.0.0/lib/libedit/sys.h 148924 2005-08-10 13:41:31Z stefanf $
+ *	$NetBSD: sys.h,v 1.12 2009/08/31 00:05:43 christos Exp $
+ * $FreeBSD: stable/10/lib/libedit/sys.h 268782 2014-07-17 02:14:25Z pfg $
  */
 
 /*
@@ -69,6 +69,15 @@ typedef void	*ioctl_t;
 
 #define	REGEX		/* Use POSIX.2 regular expression functions */
 #undef	REGEXP		/* Use UNIX V8 regular expression functions */
+
+#if defined(__sun)
+extern int tgetent(char *, const char *);
+extern int tgetflag(char *);
+extern int tgetnum(char *);
+extern int tputs(const char *, int, int (*)(int));
+extern char* tgoto(const char*, int, int);
+extern char* tgetstr(char*, char**);
+#endif
 
 #ifdef notdef
 # undef REGEX

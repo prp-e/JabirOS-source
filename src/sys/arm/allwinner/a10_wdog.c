@@ -24,7 +24,7 @@
  * SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/allwinner/a10_wdog.c 246707 2013-02-12 07:27:40Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/allwinner/a10_wdog.c 266405 2014-05-18 16:03:34Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -93,6 +93,9 @@ static int
 a10wd_probe(device_t dev)
 {
 
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
+
 	if (ofw_bus_is_compatible(dev, "allwinner,sun4i-wdt")) {
 		device_set_desc(dev, "Allwinner A10 Watchdog");
 		return (BUS_PROBE_DEFAULT);
@@ -150,6 +153,18 @@ a10wd_watchdog_fn(void *private, u_int cmd, int *error)
 			    (wd_intervals[i].value << WDOG_MODE_INTVL_SHIFT) |
 			    WDOG_MODE_EN | WDOG_MODE_RST_EN);
 			WRITE(sc, WDOG_CTRL, WDOG_CTRL_RESTART);
+			*error = 0;
+		}
+		else {
+			/* 
+			 * Can't arm
+			 * disable watchdog as watchdog(9) requires
+			 */
+			device_printf(sc->dev,
+			    "Can't arm, timeout is more than 16 sec\n");
+			mtx_unlock(&sc->mtx);
+			WRITE(sc, WDOG_MODE, 0);
+			return;
 		}
 	}
 	else

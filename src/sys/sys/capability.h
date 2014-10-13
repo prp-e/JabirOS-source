@@ -30,7 +30,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/sys/capability.h 258324 2013-11-18 22:37:01Z pjd $
+ * $FreeBSD: stable/10/sys/sys/capability.h 258324 2013-11-18 22:37:01Z pjd $
  */
 
 /*

@@ -34,7 +34,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/xscale/i80321/i80321reg.h 236987 2012-06-13 04:38:09Z imp $
+ * $FreeBSD: stable/10/sys/arm/xscale/i80321/i80321reg.h 236987 2012-06-13 04:38:09Z imp $
  *
  */
 

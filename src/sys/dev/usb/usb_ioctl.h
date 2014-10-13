@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/dev/usb/usb_ioctl.h 254243 2013-08-12 09:17:48Z hselasky $ */
+/* $FreeBSD: stable/10/sys/dev/usb/usb_ioctl.h 269922 2014-08-13 08:21:52Z hselasky $ */
 /*-
  * Copyright (c) 2008 Hans Petter Selasky. All rights reserved.
  * Copyright (c) 1998 The NetBSD Foundation, Inc. All rights reserved.
@@ -64,6 +64,7 @@ enum {
 	USB_TEMP_AUDIO,		/* USB Audio */
 	USB_TEMP_KBD,		/* USB Keyboard */
 	USB_TEMP_MOUSE,		/* USB Mouse */
+	USB_TEMP_PHONE,		/* USB Phone */
 	USB_TEMP_MAX,
 };
 

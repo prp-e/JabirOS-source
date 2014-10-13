@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/net80211/ieee80211_ioctl.c 252369 2013-06-29 06:36:42Z rpaulo $");
+__FBSDID("$FreeBSD: stable/10/sys/net80211/ieee80211_ioctl.c 252369 2013-06-29 06:36:42Z rpaulo $");
 
 /*
  * IEEE 802.11 ioctl support (FreeBSD-specific)

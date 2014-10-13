@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/secure/lib/libcrypto/Makefile 249971 2013-04-27 05:44:39Z ed $
+# $FreeBSD: stable/10/secure/lib/libcrypto/Makefile 249971 2013-04-27 05:44:39Z ed $
 
 SHLIBDIR?=	/lib
 SUBDIR=		engines

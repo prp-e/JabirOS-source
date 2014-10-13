@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/cdcontrol/Makefile 201724 2010-01-07 09:40:34Z dwmalone $
+# $FreeBSD: stable/10/usr.sbin/cdcontrol/Makefile 201724 2010-01-07 09:40:34Z dwmalone $
 
 PROG= cdcontrol
 

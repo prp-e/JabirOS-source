@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/netipsec/key_var.h 254925 2013-08-26 18:16:05Z jhb $	*/
+/*	$FreeBSD: stable/10/sys/netipsec/key_var.h 254925 2013-08-26 18:16:05Z jhb $	*/
 /*	$KAME: key_var.h,v 1.11 2001/09/12 23:05:07 sakane Exp $	*/
 
 /*-

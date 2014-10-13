@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netpfil/ipfw/ip_fw_dynamic.c 247626 2013-03-02 14:47:10Z melifaro $");
+__FBSDID("$FreeBSD: stable/10/sys/netpfil/ipfw/ip_fw_dynamic.c 262210 2014-02-19 07:51:58Z dim $");
 
 #define        DEB(x)
 #define        DDB(x) x
@@ -231,6 +231,7 @@ SYSEND
 #endif /* SYSCTL_NODE */
 
 
+#ifdef INET6
 static __inline int
 hash_packet6(struct ipfw_flow_id *id)
 {
@@ -242,6 +243,7 @@ hash_packet6(struct ipfw_flow_id *id)
 	    (id->dst_port) ^ (id->src_port);
 	return i;
 }
+#endif
 
 /*
  * IMPORTANT: the hash function for dynamic rules must be commutative

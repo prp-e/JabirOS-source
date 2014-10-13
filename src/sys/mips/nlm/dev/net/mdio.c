@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/nlm/dev/net/mdio.c 245881 2013-01-24 15:14:22Z jchandra $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/nlm/dev/net/mdio.c 245881 2013-01-24 15:14:22Z jchandra $");
 #include <sys/types.h>
 #include <sys/systm.h>
 

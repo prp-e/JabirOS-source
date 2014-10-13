@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/gnu/usr.bin/cc/cc_tools/freebsd-native.h 226519 2011-10-18 17:38:25Z dim $ */
+/* $FreeBSD: stable/10/gnu/usr.bin/cc/cc_tools/freebsd-native.h 259563 2013-12-18 19:07:29Z pfg $ */
 
 /* FREEBSD_NATIVE is defined when gcc is integrated into the FreeBSD
    source tree so it can be configured appropriately without using
@@ -18,7 +18,7 @@
 #define GPLUSPLUS_INCLUDE_DIR		PREFIX"/include/c++/"GCCVER
 #define	GPLUSPLUS_BACKWARD_INCLUDE_DIR	PREFIX"/include/c++/"GCCVER"/backward"
 #define GCC_INCLUDE_DIR			PREFIX"/include/gcc/"GCCVER
-#ifdef CROSS_COMPILE
+#ifdef CROSS_DIRECTORY_STRUCTURE
 #define CROSS_INCLUDE_DIR		PREFIX"/include"
 #else
 #define STANDARD_INCLUDE_DIR		PREFIX"/include"

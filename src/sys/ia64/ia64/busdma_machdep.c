@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/ia64/ia64/busdma_machdep.c 246713 2013-02-12 16:57:20Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/ia64/ia64/busdma_machdep.c 259510 2013-12-17 13:38:21Z kib $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -658,6 +658,17 @@ _bus_dmamap_load_phys(bus_dma_tag_t dmat, bus_dmamap_t map,
 	 */
 	return (buflen != 0 ? EFBIG : 0); /* XXX better return value here? */
 }
+
+int
+_bus_dmamap_load_ma(bus_dma_tag_t dmat, bus_dmamap_t map,
+    struct vm_page **ma, bus_size_t tlen, int ma_offs, int flags,
+    bus_dma_segment_t *segs, int *segp)
+{
+
+	return (bus_dmamap_load_ma_triv(dmat, map, ma, tlen, ma_offs, flags,
+	    segs, segp));
+}
+
 /*
  * Utility function to load a linear buffer.  segp contains
  * the starting segment on entrace, and the ending segment on exit.

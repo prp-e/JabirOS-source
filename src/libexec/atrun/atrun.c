@@ -25,7 +25,7 @@
 
 #ifndef lint
 static const char rcsid[] =
-  "$FreeBSD: release/10.0.0/libexec/atrun/atrun.c 251627 2013-06-11 18:46:46Z ghelmer $";
+  "$FreeBSD: stable/10/libexec/atrun/atrun.c 265368 2014-05-05 16:52:38Z ghelmer $";
 #endif /* not lint */
 
 /* System Headers */
@@ -566,6 +566,12 @@ main(int argc, char *argv[])
     */
     if (run_batch && (gloadavg() < load_avg))
 	run_file(batch_name, batch_uid, batch_gid);
+
+    if (flock(dirfd(spool), LOCK_UN) == -1)
+	perr("cannot unlock %s", ATJOB_DIR);
+
+    if (closedir(spool) == -1)
+	perr("cannot closedir %s", ATJOB_DIR);
 
     closelog();
     exit(EXIT_SUCCESS);

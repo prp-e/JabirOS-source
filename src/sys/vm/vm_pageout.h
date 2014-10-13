@@ -57,7 +57,7 @@
  * any improvements or extensions that they make and grant Carnegie the
  * rights to redistribute these changes.
  *
- * $FreeBSD: release/10.0.0/sys/vm/vm_pageout.h 238561 2012-07-18 05:21:34Z alc $
+ * $FreeBSD: stable/10/sys/vm/vm_pageout.h 238561 2012-07-18 05:21:34Z alc $
  */
 
 #ifndef _VM_VM_PAGEOUT_H_

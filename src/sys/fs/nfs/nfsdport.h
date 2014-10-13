@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/fs/nfs/nfsdport.h 247602 2013-03-02 00:53:12Z pjd $
+ * $FreeBSD: stable/10/sys/fs/nfs/nfsdport.h 269398 2014-08-01 21:10:41Z rmacklem $
  */
 
 /*
@@ -114,4 +114,10 @@ struct nfsexstuff {
  */
 #define	NFSRV_MINFH	(sizeof (fhandle_t))
 #define	NFSRV_MAXFH	(sizeof (fhandle_t))
+
+/* Use this macro for debug printfs. */
+#define	NFSD_DEBUG(level, ...)	do {					\
+		if (nfsd_debuglevel >= (level))				\
+			printf(__VA_ARGS__);				\
+	} while (0)
 

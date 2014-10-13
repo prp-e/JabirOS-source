@@ -28,12 +28,13 @@
  * SUCH DAMAGE.
  *
  *	@(#)lang.l	8.1 (Berkeley) 6/6/93
- * $FreeBSD: release/10.0.0/usr.sbin/config/lang.l 250926 2013-05-23 05:42:35Z jkim $
+ * $FreeBSD: stable/10/usr.sbin/config/lang.l 264325 2014-04-10 19:51:33Z asomers $
  */
 
 #include <assert.h>
 #include <ctype.h>
 #include <err.h>
+#include <stdlib.h>
 #include <string.h>
 #include "y.tab.h"
 #include "config.h"
@@ -257,6 +258,7 @@ include(const char *fname, int ateof)
 {
 	FILE *fp;
 	struct incl *in;
+	struct includepath* ipath;
 	char *fnamebuf;
 
 	fnamebuf = NULL;
@@ -266,6 +268,17 @@ include(const char *fname, int ateof)
 		if (fnamebuf != NULL) {
 			fp = fopen(fnamebuf, "r");
 			free(fnamebuf);
+		}
+	}
+	if (fp == NULL) {
+		SLIST_FOREACH(ipath, &includepath, path_next) {
+			asprintf(&fnamebuf, "%s/%s", ipath->path, fname);
+			if (fnamebuf != NULL) {
+				fp = fopen(fnamebuf, "r");
+				free(fnamebuf);
+			}
+			if (fp != NULL)
+				break;
 		}
 	}
 	if (fp == NULL) {

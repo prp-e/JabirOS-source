@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/geom/mirror/g_mirror.h 237930 2012-07-01 15:43:52Z glebius $
+ * $FreeBSD: stable/10/sys/geom/mirror/g_mirror.h 260503 2014-01-10 07:48:36Z ae $
  */
 
 #ifndef	_G_MIRROR_H_
@@ -160,6 +160,7 @@ struct g_mirror_event {
 #define	G_MIRROR_DEVICE_FLAG_WAIT	0x0200000000000000ULL
 #define	G_MIRROR_DEVICE_FLAG_DESTROYING	0x0400000000000000ULL
 #define	G_MIRROR_DEVICE_FLAG_TASTING	0x0800000000000000ULL
+#define	G_MIRROR_DEVICE_FLAG_WIPE	0x1000000000000000ULL
 
 #define	G_MIRROR_DEVICE_STATE_STARTING		0
 #define	G_MIRROR_DEVICE_STATE_RUNNING		1
@@ -212,6 +213,8 @@ struct g_mirror_softc {
 	struct callout	sc_callout;
 
 	struct root_hold_token *sc_rootmount;
+
+	struct mtx	 sc_done_mtx;
 };
 #define	sc_name	sc_geom->name
 

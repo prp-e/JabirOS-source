@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/mfiutil/mfi_bbu.c 249258 2013-04-08 18:25:07Z markj $
+ * $FreeBSD: stable/10/usr.sbin/mfiutil/mfi_bbu.c 249258 2013-04-08 18:25:07Z markj $
  */
 
 #include <sys/param.h>

@@ -22,7 +22,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/lib/libpam/Makefile.inc 249479 2013-04-14 16:49:27Z des $
+# $FreeBSD: stable/10/lib/libpam/Makefile.inc 249479 2013-04-14 16:49:27Z des $
 
 CFLAGS+=	-DOPENPAM_DEBUG
 

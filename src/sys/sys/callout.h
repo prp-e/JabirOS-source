@@ -32,7 +32,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)callout.h	8.2 (Berkeley) 1/21/94
- * $FreeBSD: release/10.0.0/sys/sys/callout.h 254712 2013-08-23 14:40:17Z davide $
+ * $FreeBSD: stable/10/sys/sys/callout.h 271065 2014-09-03 23:15:54Z gavin $
  */
 
 #ifndef _SYS_CALLOUT_H_
@@ -72,7 +72,7 @@ void	_callout_init_lock(struct callout *, struct lock_object *, int);
 	_callout_init_lock((c), ((mtx) != NULL) ? &(mtx)->lock_object :	\
 	    NULL, (flags))
 #define	callout_init_rm(c, rm, flags)					\
-	_callout_init_lock((c), ((rm != NULL) ? &(rm)->lock_object : 	\
+	_callout_init_lock((c), ((rm) != NULL) ? &(rm)->lock_object : 	\
 	    NULL, (flags))
 #define	callout_init_rw(c, rw, flags)					\
 	_callout_init_lock((c), ((rw) != NULL) ? &(rw)->lock_object :	\

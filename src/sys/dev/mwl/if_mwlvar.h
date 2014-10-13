@@ -27,7 +27,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: release/10.0.0/sys/dev/mwl/if_mwlvar.h 234324 2012-04-15 20:29:39Z adrian $
+ * $FreeBSD: stable/10/sys/dev/mwl/if_mwlvar.h 234324 2012-04-15 20:29:39Z adrian $
  */
 
 /*

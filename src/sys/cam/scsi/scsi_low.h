@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/cam/scsi/scsi_low.h 240325 2012-09-10 18:49:49Z jhb $	*/
+/*	$FreeBSD: stable/10/sys/cam/scsi/scsi_low.h 240325 2012-09-10 18:49:49Z jhb $	*/
 /*	$NecBSD: scsi_low.h,v 1.24.10.5 2001/06/26 07:31:46 honda Exp $	*/
 /*	$NetBSD$	*/
 

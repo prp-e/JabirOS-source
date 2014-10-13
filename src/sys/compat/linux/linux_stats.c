@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/compat/linux/linux_stats.c 231378 2012-02-10 12:35:57Z ed $");
+__FBSDID("$FreeBSD: stable/10/sys/compat/linux/linux_stats.c 231378 2012-02-10 12:35:57Z ed $");
 
 #include "opt_compat.h"
 

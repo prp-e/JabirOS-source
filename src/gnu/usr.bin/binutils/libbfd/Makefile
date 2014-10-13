@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/gnu/usr.bin/binutils/libbfd/Makefile 218822 2011-02-18 20:54:12Z dim $
+# $FreeBSD: stable/10/gnu/usr.bin/binutils/libbfd/Makefile 267734 2014-06-22 16:48:21Z gavin $
 
 .include "../Makefile.inc0"
 
@@ -84,7 +84,7 @@ bfdver.h: Makefile
 	echo '#define BFD_VERSION	217500000'	> ${.TARGET}
 	echo '#define BFD_VERSION_DATE	20070703'	>> ${.TARGET}
 	echo '#define BFD_VERSION_STRING ${VERSION}'	>> ${.TARGET}
-	echo '#define REPORT_BUGS_TO "<http://www.freebsd.org/send-pr.html>"' >> ${.TARGET}
+	echo '#define REPORT_BUGS_TO "<http://www.freebsd.org/support.html>"' >> ${.TARGET}
 
 targmatch.h: targmatch.sed config.bfd
 	sed -f ${.ALLSRC:M*.sed} ${.ALLSRC:M*.bfd} > ${.TARGET}

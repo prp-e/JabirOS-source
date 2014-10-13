@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/isci/isci_io_request.c 256231 2013-10-09 19:37:41Z jimharris $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/isci/isci_io_request.c 256231 2013-10-09 19:37:41Z jimharris $");
 
 #include <dev/isci/isci.h>
 

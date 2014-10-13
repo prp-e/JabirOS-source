@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/linux/Makefile 255675 2013-09-18 18:48:33Z rdivacky $
+# $FreeBSD: stable/10/sys/modules/linux/Makefile 272020 2014-09-23 07:50:04Z bz $
 
 .if ${MACHINE_CPUARCH} == "amd64"
 SFX= 32
@@ -13,6 +13,7 @@ SRCS=	linux_fork.c linux${SFX}_dummy.c linux_emul.c linux_file.c \
 	linux${SFX}_machdep.c linux_mib.c linux_misc.c linux_signal.c \
 	linux_socket.c linux_stats.c linux_sysctl.c linux${SFX}_sysent.c \
 	linux${SFX}_sysvec.c linux_uid16.c linux_util.c linux_time.c \
+	linux_timer.c \
 	opt_inet6.h opt_compat.h opt_kdtrace.h opt_posix.h opt_usb.h \
 	vnode_if.h device_if.h bus_if.h assym.s
 

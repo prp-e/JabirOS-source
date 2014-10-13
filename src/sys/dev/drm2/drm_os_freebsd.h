@@ -4,7 +4,9 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/drm_os_freebsd.h 254858 2013-08-25 14:27:14Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm_os_freebsd.h 262861 2014-03-06 18:30:56Z jhb $");
+
+#include <sys/fbio.h>
 
 #if _BYTE_ORDER == _BIG_ENDIAN
 #define	__BIG_ENDIAN 4321

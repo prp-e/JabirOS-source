@@ -1,4 +1,8 @@
-# $FreeBSD: release/10.0.0/libexec/rtld-elf/Makefile 245653 2013-01-19 04:34:33Z andrew $
+# $FreeBSD: stable/10/libexec/rtld-elf/Makefile 270921 2014-09-01 08:02:23Z kib $
+
+# Use the following command to build local debug version of dynamic
+# linker:
+# make DEBUG_FLAGS=-g DEBUG=-DDEBUG MK_TESTS=no all
 
 .include <bsd.own.mk>
 MK_SSP=		no

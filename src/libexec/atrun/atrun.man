@@ -1,4 +1,4 @@
-.\" $FreeBSD: release/10.0.0/libexec/atrun/atrun.man 242372 2012-10-30 19:46:00Z mjg $
+.\" $FreeBSD: stable/10/libexec/atrun/atrun.man 242372 2012-10-30 19:46:00Z mjg $
 .Dd October 30, 2012
 .Dt ATRUN 8
 .Os

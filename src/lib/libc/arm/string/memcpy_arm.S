@@ -30,7 +30,7 @@
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/arm/string/memcpy_arm.S 204607 2010-03-02 22:16:40Z joel $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/arm/string/memcpy_arm.S 271337 2014-09-09 22:24:01Z ian $");
 /*
  * This is one fun bit of code ...
  * Some easy listening music is suggested while trying to understand this
@@ -330,3 +330,4 @@ ENTRY(memcpy)
 .Lmemcpy_srcul3l4:
 	sub	r1, r1, #1
 	b	.Lmemcpy_l4
+END(memcpy)

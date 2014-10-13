@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/boot/userboot/ficl/Makefile 241785 2012-10-20 16:57:23Z avg $
+# $FreeBSD: stable/10/sys/boot/userboot/ficl/Makefile 260096 2013-12-30 20:15:46Z dim $
 #
 .include <bsd.own.mk>
 MK_SSP=		no
@@ -16,7 +16,7 @@ CFLAGS+=	-ffreestanding -fPIC
 CFLAGS+=	-mno-mmx -mno-3dnow -mno-sse -mno-sse2
 .endif
 .if ${MACHINE_CPUARCH} == "i386"
-CFLAGS+=	-mpreferred-stack-boundary=2
+CFLAGS.gcc+=	-mpreferred-stack-boundary=2
 CFLAGS+=	-mno-sse3
 .endif
 .if ${MACHINE_CPUARCH} == "powerpc" || ${MACHINE_CPUARCH} == "arm"

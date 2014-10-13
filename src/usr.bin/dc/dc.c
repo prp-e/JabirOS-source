@@ -18,7 +18,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/dc/dc.c 247441 2013-02-28 01:22:14Z gjb $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/dc/dc.c 247441 2013-02-28 01:22:14Z gjb $");
 
 #include <sys/stat.h>
 

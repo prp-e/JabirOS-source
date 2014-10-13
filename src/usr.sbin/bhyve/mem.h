@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/bhyve/mem.h 249321 2013-04-10 02:12:39Z neel $
+ * $FreeBSD: stable/10/usr.sbin/bhyve/mem.h 270159 2014-08-19 01:20:24Z grehan $
  */
 
 #ifndef _MEM_H_
@@ -48,9 +48,11 @@ struct mem_range {
 #define	MEM_F_READ		0x1
 #define	MEM_F_WRITE		0x2
 #define	MEM_F_RW		0x3
+#define	MEM_F_IMMUTABLE		0x4	/* mem_range cannot be unregistered */
 
 void	init_mem(void);
-int     emulate_mem(struct vmctx *, int vcpu, uint64_t paddr, struct vie *vie);
+int     emulate_mem(struct vmctx *, int vcpu, uint64_t paddr, struct vie *vie,
+		    struct vm_guest_paging *paging);
 		    
 int	register_mem(struct mem_range *memp);
 int	register_mem_fallback(struct mem_range *memp);

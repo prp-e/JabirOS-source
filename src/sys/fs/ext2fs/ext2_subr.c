@@ -33,7 +33,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)ffs_subr.c	8.2 (Berkeley) 9/21/93
- * $FreeBSD: release/10.0.0/sys/fs/ext2fs/ext2_subr.c 254326 2013-08-14 14:22:46Z pfg $
+ * $FreeBSD: stable/10/sys/fs/ext2fs/ext2_subr.c 261311 2014-01-31 03:58:36Z pfg $
  */
 
 #include <sys/param.h>
@@ -82,10 +82,10 @@ ext2_blkatoff(struct vnode *vp, off_t offset, char **res, struct buf **bpp)
 	*bpp = NULL;
 
 	/*
-	 * The EXT4_EXTENTS requires special treatment, otherwise we can
-	 * fall back to the normal path.
+	 * IN_E4EXTENTS requires special treatment as we can otherwise fall
+	 * back to the normal path.
 	 */
-	if (!(ip->i_flags & EXT4_EXTENTS))
+	if (!(ip->i_flag & IN_E4EXTENTS))
 		goto normal;
 
 	memset(&path, 0, sizeof(path));
@@ -110,7 +110,7 @@ ext2_blkatoff(struct vnode *vp, off_t offset, char **res, struct buf **bpp)
 	if (res)
 		*res = (char *)bp->b_data + blkoff(fs, offset);
 	/*
-	 * If EXT4_EXTENTS is enabled we would get a wrong offset so
+	 * If IN_E4EXTENTS is enabled we would get a wrong offset so
 	 * reset b_offset here.
 	 */
 	bp->b_offset = lbn * bsize;

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/tools/tools/ath/athratestats/Makefile 240223 2012-09-08 01:14:13Z adrian $
+# $FreeBSD: stable/10/tools/tools/ath/athratestats/Makefile 240223 2012-09-08 01:14:13Z adrian $
 
 .PATH:	${.CURDIR}/../../../../sys/dev/ath/ath_hal
 .PATH:	${.CURDIR}/../../../../sys/dev/ath/

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/gnu/usr.bin/binutils/as/Makefile 244377 2012-12-18 04:44:36Z ache $
+# $FreeBSD: stable/10/gnu/usr.bin/binutils/as/Makefile 244377 2012-12-18 04:44:36Z ache $
 
 
 # BINDIR

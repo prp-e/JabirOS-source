@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: release/10.0.0/etc/rc.d/NETWORKING 255843 2013-09-24 11:49:04Z des $
+# $FreeBSD: stable/10/etc/rc.d/NETWORKING 255843 2013-09-24 11:49:04Z des $
 #
 
 # PROVIDE: NETWORKING NETWORK

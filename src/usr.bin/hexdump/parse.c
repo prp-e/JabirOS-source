@@ -33,7 +33,7 @@ static char sccsid[] = "@(#)parse.c	8.1 (Berkeley) 6/6/93";
 #endif
 #endif /* not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/hexdump/parse.c 230649 2012-01-28 18:49:04Z tijl $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/hexdump/parse.c 262926 2014-03-08 12:24:47Z brueffer $");
 
 #include <sys/types.h>
 
@@ -210,7 +210,6 @@ rewrite(FS *fs)
 	int nconv, prec;
 	size_t len;
 
-	nextpr = NULL;
 	prec = 0;
 
 	for (fu = fs->nextfu; fu; fu = fu->nextfu) {
@@ -218,13 +217,11 @@ rewrite(FS *fs)
 		 * Break each format unit into print units; each conversion
 		 * character gets its own.
 		 */
+		nextpr = &fu->nextpr;
 		for (nconv = 0, fmtp = fu->fmt; *fmtp; nextpr = &pr->nextpr) {
 			if ((pr = calloc(1, sizeof(PR))) == NULL)
 				err(1, NULL);
-			if (!fu->nextpr)
-				fu->nextpr = pr;
-			else
-				*nextpr = pr;
+			*nextpr = pr;
 
 			/* Skip preceding text and up to the next % sign. */
 			for (p1 = fmtp; *p1 && *p1 != '%'; ++p1);

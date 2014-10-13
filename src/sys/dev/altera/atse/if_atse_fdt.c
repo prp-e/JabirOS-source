@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/altera/atse/if_atse_fdt.c 256752 2013-10-18 20:44:19Z brooks $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/altera/atse/if_atse_fdt.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/bus.h>
@@ -63,6 +63,9 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/dev/altera/atse/if_atse_fdt.c 256752 2013
 static int
 atse_probe_fdt(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (ofw_bus_is_compatible(dev, "altera,atse")) {
 		device_set_desc(dev, "Altera Triple-Speed Ethernet MegaCore");

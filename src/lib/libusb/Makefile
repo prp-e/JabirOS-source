@@ -1,5 +1,5 @@
 #
-# $FreeBSD: release/10.0.0/lib/libusb/Makefile 253637 2013-07-25 03:54:08Z rpaulo $
+# $FreeBSD: stable/10/lib/libusb/Makefile 261482 2014-02-04 10:18:29Z hselasky $
 #
 # Makefile for the FreeBSD specific LibUSB 2.0
 #
@@ -130,6 +130,8 @@ MLINKS += libusb.3 libusb_event_handler_active.3
 MLINKS += libusb.3 libusb_lock_event_waiters.3
 MLINKS += libusb.3 libusb_unlock_event_waiters.3
 MLINKS += libusb.3 libusb_wait_for_event.3
+MLINKS += libusb.3 libusb_handle_events_timeout_completed.3
+MLINKS += libusb.3 libusb_handle_events_completed.3
 MLINKS += libusb.3 libusb_handle_events_timeout.3
 MLINKS += libusb.3 libusb_handle_events.3
 MLINKS += libusb.3 libusb_handle_events_locked.3

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: release/10.0.0/etc/rc.d/bgfsck 238628 2012-07-19 22:33:13Z dteske $
+# $FreeBSD: stable/10/etc/rc.d/bgfsck 238628 2012-07-19 22:33:13Z dteske $
 #
 
 # PROVIDE: bgfsck

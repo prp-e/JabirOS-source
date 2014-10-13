@@ -28,7 +28,7 @@
  * FreeBSD Version.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/isp/isp_pci.c 254263 2013-08-12 23:30:01Z scottl $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/isp/isp_pci.c 260347 2014-01-05 22:48:12Z mav $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -1432,6 +1432,15 @@ isp_pci_wr_reg_2400(ispsoftc_t *isp, int regoff, uint32_t val)
 	case BIU2400_GPIOE:
 	case BIU2400_HSEMA:
 		BXW4(isp, IspVirt2Off(isp, regoff), val);
+#ifdef MEMORYBARRIERW
+		if (regoff == BIU2400_REQINP ||
+		    regoff == BIU2400_RSPOUTP ||
+		    regoff == BIU2400_PRI_REQINP ||
+		    regoff == BIU2400_ATIO_RSPOUTP)
+			MEMORYBARRIERW(isp, SYNC_REG,
+			    IspVirt2Off(isp, regoff), 4, -1)
+		else
+#endif
 		MEMORYBARRIER(isp, SYNC_REG, IspVirt2Off(isp, regoff), 4, -1);
 		break;
 	default:

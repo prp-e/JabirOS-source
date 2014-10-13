@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/uipc_syscalls.c 257310 2013-10-29 07:33:55Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/uipc_syscalls.c 257310 2013-10-29 07:33:55Z kib $");
 
 #include "opt_capsicum.h"
 #include "opt_inet.h"

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libfetch/Makefile 240496 2012-09-14 13:00:43Z des $
+# $FreeBSD: stable/10/lib/libfetch/Makefile 240496 2012-09-14 13:00:43Z des $
 
 .include <bsd.own.mk>
 

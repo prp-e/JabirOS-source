@@ -1,7 +1,7 @@
 # This file tells config what files go into building a kernel,
 # files marked standard are always included.
 #
-# $FreeBSD: release/10.0.0/sys/conf/files.mips 255367 2013-09-07 16:31:30Z jchandra $
+# $FreeBSD: stable/10/sys/conf/files.mips 255367 2013-09-07 16:31:30Z jchandra $
 #
 
 # Arch dependent files

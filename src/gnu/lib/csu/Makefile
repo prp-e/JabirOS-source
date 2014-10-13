@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/gnu/lib/csu/Makefile 245539 2013-01-17 05:56:28Z andrew $
+# $FreeBSD: stable/10/gnu/lib/csu/Makefile 260096 2013-12-30 20:15:46Z dim $
 
 .include <bsd.own.mk>
 MK_SSP=		no
@@ -15,10 +15,10 @@ OBJS=		crtbegin.o crtend.o crtbeginT.o
 SOBJS=		crtbeginS.o crtendS.o
 CSTD?=		gnu89
 CFLAGS+=	-DIN_GCC -DHAVE_LD_EH_FRAME_HDR -DDT_CONFIG -D__GLIBC__=3
-CFLAGS+=	-finhibit-size-directive -fno-inline-functions \
-		-fno-exceptions -fno-zero-initialized-in-bss \
-		-fno-zero-initialized-in-bss -fno-toplevel-reorder \
-		-fno-asynchronous-unwind-tables -fno-omit-frame-pointer
+CFLAGS.gcc+=	-finhibit-size-directive -fno-toplevel-reorder
+CFLAGS+=	-fno-inline-functions -fno-exceptions \
+		-fno-zero-initialized-in-bss -fno-asynchronous-unwind-tables \
+		-fno-omit-frame-pointer
 CFLAGS+=	-I${GCCLIB}/include -I${GCCDIR}/config -I${GCCDIR} -I. \
 		-I${CCDIR}/cc_tools
 CRTS_CFLAGS=	-DCRTSTUFFS_O -DSHARED ${PICFLAG}

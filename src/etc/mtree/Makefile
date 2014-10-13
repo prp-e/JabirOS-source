@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/etc/mtree/Makefile 256013 2013-10-03 01:18:06Z mdf $
+# $FreeBSD: stable/10/etc/mtree/Makefile 260013 2013-12-28 20:05:31Z jmmv $
 
 .include <bsd.own.mk>
 
@@ -6,6 +6,7 @@ FILES=	${_BSD.debug.dist} \
 	BSD.include.dist \
 	BSD.root.dist \
 	${_BSD.sendmail.dist} \
+	${_BSD.tests.dist} \
 	BSD.usr.dist \
 	BSD.var.dist
 
@@ -17,6 +18,9 @@ _BSD.groff.dist=	BSD.groff.dist
 .endif
 .if ${MK_SENDMAIL} != "no"
 _BSD.sendmail.dist=	BSD.sendmail.dist
+.endif
+.if ${MK_TESTS} != "no"
+_BSD.tests.dist=	BSD.tests.dist
 .endif
 
 NO_OBJ=

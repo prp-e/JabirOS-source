@@ -29,7 +29,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/wi/if_wi_pci.c 254263 2013-08-12 23:30:01Z scottl $
+ * $FreeBSD: stable/10/sys/dev/wi/if_wi_pci.c 254263 2013-08-12 23:30:01Z scottl $
  */
 
 /*

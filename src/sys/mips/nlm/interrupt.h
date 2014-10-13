@@ -26,7 +26,7 @@
  * THE POSSIBILITY OF SUCH DAMAGE.
  *
  * NETLOGIC_BSD
- * $FreeBSD: release/10.0.0/sys/mips/nlm/interrupt.h 225394 2011-09-05 10:45:29Z jchandra $
+ * $FreeBSD: stable/10/sys/mips/nlm/interrupt.h 225394 2011-09-05 10:45:29Z jchandra $
  */
 
 #ifndef _RMI_INTERRUPT_H_

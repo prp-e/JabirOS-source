@@ -31,7 +31,7 @@
  *          Ken Merry           (Spectra Logic Corporation)
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/xen/blkback/blkback.c 255218 2013-09-04 23:32:49Z gibbs $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/xen/blkback/blkback.c 260817 2014-01-17 10:58:59Z avg $");
 
 /**
  * \file blkback.c
@@ -2032,10 +2032,10 @@ xbb_filter(void *arg)
 }
 
 SDT_PROVIDER_DEFINE(xbb);
-SDT_PROBE_DEFINE1(xbb, kernel, xbb_dispatch_dev, flush, flush, "int");
-SDT_PROBE_DEFINE3(xbb, kernel, xbb_dispatch_dev, read, read, "int", "uint64_t",
+SDT_PROBE_DEFINE1(xbb, kernel, xbb_dispatch_dev, flush, "int");
+SDT_PROBE_DEFINE3(xbb, kernel, xbb_dispatch_dev, read, "int", "uint64_t",
 		  "uint64_t");
-SDT_PROBE_DEFINE3(xbb, kernel, xbb_dispatch_dev, write, write, "int",
+SDT_PROBE_DEFINE3(xbb, kernel, xbb_dispatch_dev, write, "int",
 		  "uint64_t", "uint64_t");
 
 /*----------------------------- Backend Handlers -----------------------------*/
@@ -2211,10 +2211,10 @@ fail_free_bios:
 	return (error);
 }
 
-SDT_PROBE_DEFINE1(xbb, kernel, xbb_dispatch_file, flush, flush, "int");
-SDT_PROBE_DEFINE3(xbb, kernel, xbb_dispatch_file, read, read, "int", "uint64_t",
+SDT_PROBE_DEFINE1(xbb, kernel, xbb_dispatch_file, flush, "int");
+SDT_PROBE_DEFINE3(xbb, kernel, xbb_dispatch_file, read, "int", "uint64_t",
 		  "uint64_t");
-SDT_PROBE_DEFINE3(xbb, kernel, xbb_dispatch_file, write, write, "int",
+SDT_PROBE_DEFINE3(xbb, kernel, xbb_dispatch_file, write, "int",
 		  "uint64_t", "uint64_t");
 
 /**

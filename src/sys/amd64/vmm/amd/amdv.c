@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/amd64/vmm/amd/amdv.c 256072 2013-10-05 21:22:35Z neel $
+ * $FreeBSD: stable/10/sys/amd64/vmm/amd/amdv.c 268935 2014-07-21 02:39:17Z jhb $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/amd64/vmm/amd/amdv.c 256072 2013-10-05 21:22:35Z neel $");
+__FBSDID("$FreeBSD: stable/10/sys/amd64/vmm/amd/amdv.c 268935 2014-07-21 02:39:17Z jhb $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -38,7 +38,7 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/amd64/vmm/amd/amdv.c 256072 2013-10-05 21
 #include "io/iommu.h"
 
 static int
-amdv_init(void)
+amdv_init(int ipinum)
 {
 
 	printf("amdv_init: not implemented\n");
@@ -53,6 +53,11 @@ amdv_cleanup(void)
 	return (ENXIO);
 }
 
+static void
+amdv_resume(void)
+{
+}
+
 static void *
 amdv_vminit(struct vm *vm, struct pmap *pmap)
 {
@@ -62,7 +67,8 @@ amdv_vminit(struct vm *vm, struct pmap *pmap)
 }
 
 static int
-amdv_vmrun(void *arg, int vcpu, register_t rip, struct pmap *pmap)
+amdv_vmrun(void *arg, int vcpu, register_t rip, struct pmap *pmap,
+    void *rptr, void *sptr)
 {
 
 	printf("amdv_vmrun: not implemented\n");
@@ -110,15 +116,6 @@ amdv_setdesc(void *vmi, int vcpu, int num, struct seg_desc *desc)
 }
 
 static int
-amdv_inject_event(void *vmi, int vcpu, int type, int vector,
-		  uint32_t error_code, int error_code_valid)
-{
-
-	printf("amdv_inject_event: not implemented\n");
-	return (EINVAL);
-}
-
-static int
 amdv_getcap(void *arg, int vcpu, int type, int *retval)
 {
 
@@ -150,9 +147,24 @@ amdv_vmspace_free(struct vmspace *vmspace)
 	return;
 }
 
+static struct vlapic *
+amdv_vlapic_init(void *arg, int vcpuid)
+{
+
+	panic("amdv_vlapic_init: not implmented");
+}
+
+static void
+amdv_vlapic_cleanup(void *arg, struct vlapic *vlapic)
+{
+
+	panic("amdv_vlapic_cleanup: not implemented");
+}
+
 struct vmm_ops vmm_ops_amd = {
 	amdv_init,
 	amdv_cleanup,
+	amdv_resume,
 	amdv_vminit,
 	amdv_vmrun,
 	amdv_vmcleanup,
@@ -160,11 +172,12 @@ struct vmm_ops vmm_ops_amd = {
 	amdv_setreg,
 	amdv_getdesc,
 	amdv_setdesc,
-	amdv_inject_event,
 	amdv_getcap,
 	amdv_setcap,
 	amdv_vmspace_alloc,
 	amdv_vmspace_free,
+	amdv_vlapic_init,
+	amdv_vlapic_cleanup,
 };
 
 static int

@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/tools/regression/lib/libc/gen/test-ftw.c 253403 2013-07-17 00:58:23Z kevlo $");
+__FBSDID("$FreeBSD: stable/10/tools/regression/lib/libc/gen/test-ftw.c 253403 2013-07-17 00:58:23Z kevlo $");
 
 #include <sys/wait.h>
 

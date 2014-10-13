@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/powerpc/wii/wii_picreg.h 249826 2013-04-24 01:36:35Z rpaulo $
+ * $FreeBSD: stable/10/sys/powerpc/wii/wii_picreg.h 249826 2013-04-24 01:36:35Z rpaulo $
  */
 
 #ifndef	_POWERPC_WII_WII_PICREG_H

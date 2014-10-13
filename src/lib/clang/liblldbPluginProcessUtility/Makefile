@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/liblldbPluginProcessUtility/Makefile 255722 2013-09-20 01:52:02Z emaste $
+# $FreeBSD: stable/10/lib/clang/liblldbPluginProcessUtility/Makefile 263367 2014-03-19 13:18:42Z emaste $
 
 .include <bsd.own.mk>
 
@@ -6,11 +6,14 @@ LIB=	lldbPluginProcessUtility
 
 SRCDIR=	tools/lldb/source/Plugins/Process/Utility
 SRCS=	DynamicRegisterInfo.cpp \
+	HistoryThread.cpp \
+	HistoryUnwind.cpp \
 	InferiorCallPOSIX.cpp \
 	RegisterContextDarwin_arm.cpp \
 	RegisterContextDarwin_i386.cpp \
 	RegisterContextDarwin_x86_64.cpp \
 	RegisterContextDummy.cpp \
+	RegisterContextHistory.cpp \
 	RegisterContextLLDB.cpp \
 	RegisterContextMach_arm.cpp \
 	RegisterContextMach_i386.cpp \

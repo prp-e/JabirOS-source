@@ -18,7 +18,7 @@
 .de Id
 .ND \\$4
 ..
-.Id $FreeBSD: release/10.0.0/gnu/usr.bin/rcs/doc/rcs.ms 50472 1999-08-27 23:37:10Z peter $
+.Id $FreeBSD: stable/10/gnu/usr.bin/rcs/doc/rcs.ms 50472 1999-08-27 23:37:10Z peter $
 .RP
 .TL
 RCS\*-A System for Version Control

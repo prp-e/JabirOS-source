@@ -30,7 +30,7 @@
  * SOFTWARE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/cxgbe/iw_cxgbe/provider.c 256694 2013-10-17 18:37:25Z np $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/cxgbe/iw_cxgbe/provider.c 262132 2014-02-17 20:45:39Z dim $");
 
 #include "opt_inet.h"
 
@@ -113,10 +113,12 @@ static struct ib_ucontext *c4iw_alloc_ucontext(struct ib_device *ibdev,
 	return &context->ibucontext;
 }
 
+#ifdef DOT5
 static inline pgprot_t t4_pgprot_wc(pgprot_t prot)
 {
     return pgprot_writecombine(prot);
 }
+#endif
 
 static int c4iw_mmap(struct ib_ucontext *context, struct vm_area_struct *vma)
 {

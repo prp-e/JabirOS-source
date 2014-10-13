@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/freescale/imx/imx_wdog.c 255130 2013-09-01 20:15:35Z rpaulo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/freescale/imx/imx_wdog.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -129,6 +129,9 @@ imx_watchdog(void *arg, u_int cmd, int *error)
 static int
 imx_wdog_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (!ofw_bus_is_compatible(dev, "fsl,imx51-wdt") &&
 	    !ofw_bus_is_compatible(dev, "fsl,imx53-wdt"))

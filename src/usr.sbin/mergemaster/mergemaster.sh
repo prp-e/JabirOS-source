@@ -8,7 +8,7 @@
 # Copyright (c) 1998-2012 Douglas Barton, All rights reserved
 # Please see detailed copyright below
 
-# $FreeBSD: release/10.0.0/usr.sbin/mergemaster/mergemaster.sh 258657 2013-11-26 16:13:48Z brooks $
+# $FreeBSD: stable/10/usr.sbin/mergemaster/mergemaster.sh 266953 2014-06-01 18:52:21Z jilles $
 
 PATH=/bin:/usr/bin:/usr/sbin
 
@@ -708,7 +708,7 @@ case "${RERUN}" in
   # and to make the actual comparison faster.
   find ${TEMPROOT}/usr -type l -delete 2>/dev/null
   find ${TEMPROOT} -type f -size 0 -delete 2>/dev/null
-  find -d ${TEMPROOT} -type d -empty -delete 2>/dev/null
+  find -d ${TEMPROOT} -type d -empty -mindepth 1 -delete 2>/dev/null
 
   # Build the mtree database in a temporary location.
   case "${PRE_WORLD}" in

@@ -1,5 +1,5 @@
 #
-# $FreeBSD: release/10.0.0/sys/modules/vmware/vmxnet3/Makefile 254791 2013-08-24 15:41:36Z uqs $
+# $FreeBSD: stable/10/sys/modules/vmware/vmxnet3/Makefile 264866 2014-04-24 04:43:50Z bryanv $
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -30,6 +30,10 @@
 KMOD=	if_vmx
 SRCS=	if_vmx.c
 SRCS+=	bus_if.h device_if.h pci_if.h opt_inet.h opt_inet6.h
+
+# With VMXNET3_LEGACY_TX, the driver will use the non-multiqueue
+# capable if_start interface.
+#CFLAGS+= -DVMXNET3_LEGACY_TX
 
 .if !defined(KERNBUILDDIR)
 .if ${MK_INET_SUPPORT} != "no"

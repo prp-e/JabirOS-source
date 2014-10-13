@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  *
  *	from: @(#)pcb.h	5.10 (Berkeley) 5/12/91
- * $FreeBSD: release/10.0.0/sys/i386/include/pcb.h 237027 2012-06-13 21:03:01Z jkim $
+ * $FreeBSD: stable/10/sys/i386/include/pcb.h 271999 2014-09-22 20:34:36Z jhb $
  */
 
 #ifndef _I386_PCB_H_
@@ -90,6 +90,11 @@ struct pcb {
 	struct region_descriptor pcb_idt;
 	uint16_t	pcb_ldt;
 	uint16_t	pcb_tr;
+};
+
+struct susppcb {
+	struct pcb	sp_pcb;
+	union savefpu	sp_fpususpend;
 };
 
 #ifdef _KERNEL

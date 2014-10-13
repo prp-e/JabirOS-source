@@ -39,7 +39,7 @@
  *
  * $Id: //depot/aic7xxx/aic7xxx/aic7xxx.h#85 $
  *
- * $FreeBSD: release/10.0.0/sys/dev/aic7xxx/aic7xxx.h 250460 2013-05-10 16:41:26Z eadler $
+ * $FreeBSD: stable/10/sys/dev/aic7xxx/aic7xxx.h 250460 2013-05-10 16:41:26Z eadler $
  */
 
 #ifndef _AIC7XXX_H_

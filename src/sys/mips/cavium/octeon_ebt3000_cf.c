@@ -42,7 +42,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/cavium/octeon_ebt3000_cf.c 242389 2012-10-31 04:23:36Z jmallett $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/cavium/octeon_ebt3000_cf.c 265999 2014-05-14 01:35:43Z ian $");
 
 #include <sys/param.h>
 #include <sys/bio.h>
@@ -599,7 +599,7 @@ static int cf_probe (device_t dev)
 
         device_set_desc(dev, "Octeon Compact Flash Driver");
 
-	return (0);
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 /* ------------------------------------------------------------------- *

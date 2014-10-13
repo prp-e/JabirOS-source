@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/terasic/mtl/terasic_mtl.h 245380 2013-01-13 16:57:11Z rwatson $
+ * $FreeBSD: stable/10/sys/dev/terasic/mtl/terasic_mtl.h 245380 2013-01-13 16:57:11Z rwatson $
  */
 
 #ifndef _DEV_TERASIC_MTL_H_

@@ -60,7 +60,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/ufs/ffs/ffs_balloc.c 252527 2013-07-02 21:07:08Z mckusick $");
+__FBSDID("$FreeBSD: stable/10/sys/ufs/ffs/ffs_balloc.c 262779 2014-03-05 04:23:19Z pfg $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -248,7 +248,7 @@ ffs_balloc_ufs1(struct vnode *vp, off_t startoffset, int size,
 		UFS_LOCK(ump);
 		pref = ffs_blkpref_ufs1(ip, lbn, -indirs[0].in_off - 1,
 		    (ufs1_daddr_t *)0);
-	        if ((error = ffs_alloc(ip, lbn, pref, (int)fs->fs_bsize,
+		if ((error = ffs_alloc(ip, lbn, pref, (int)fs->fs_bsize,
 		    flags, cred, &newb)) != 0) {
 			curthread_pflags_restore(saved_inbdflush);
 			return (error);
@@ -809,7 +809,7 @@ ffs_balloc_ufs2(struct vnode *vp, off_t startoffset, int size,
 		UFS_LOCK(ump);
 		pref = ffs_blkpref_ufs2(ip, lbn, -indirs[0].in_off - 1,
 		    (ufs2_daddr_t *)0);
-	        if ((error = ffs_alloc(ip, lbn, pref, (int)fs->fs_bsize,
+		if ((error = ffs_alloc(ip, lbn, pref, (int)fs->fs_bsize,
 		    flags, cred, &newb)) != 0) {
 			curthread_pflags_restore(saved_inbdflush);
 			return (error);

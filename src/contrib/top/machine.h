@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: release/10.0.0/contrib/top/machine.h 237656 2012-06-27 18:08:48Z jhb $
+ * $FreeBSD: stable/10/contrib/top/machine.h 266280 2014-05-17 02:39:20Z bdrewery $
  */
 
 /*
@@ -66,6 +66,7 @@ struct process_select
     int thread;		/* show threads */
     int uid;		/* only this uid (unless uid == -1) */
     int wcpu;		/* show weighted cpu */
+    int jid;		/* only this jid (unless jid == -1) */
     int jail;		/* show jail ID */
     int kidle;		/* show per-CPU idle threads */
     char *command;	/* only this command (unless == NULL) */

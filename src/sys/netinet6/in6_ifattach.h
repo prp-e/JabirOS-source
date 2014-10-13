@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	$KAME: in6_ifattach.h,v 1.14 2001/02/08 12:48:39 jinmei Exp $
- * $FreeBSD: release/10.0.0/sys/netinet6/in6_ifattach.h 250251 2013-05-04 19:16:26Z hrs $
+ * $FreeBSD: stable/10/sys/netinet6/in6_ifattach.h 250251 2013-05-04 19:16:26Z hrs $
  */
 
 #ifndef _NETINET6_IN6_IFATTACH_H_

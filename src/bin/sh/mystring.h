@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)mystring.h	8.2 (Berkeley) 5/4/95
- * $FreeBSD: release/10.0.0/bin/sh/mystring.h 229219 2012-01-01 22:15:38Z jilles $
+ * $FreeBSD: stable/10/bin/sh/mystring.h 262951 2014-03-09 17:04:31Z jmmv $
  */
 
 #include <string.h>
@@ -40,4 +40,3 @@ int number(const char *);
 int is_number(const char *);
 
 #define equal(s1, s2)	(strcmp(s1, s2) == 0)
-#define scopy(s1, s2)	((void)strcpy(s2, s1))

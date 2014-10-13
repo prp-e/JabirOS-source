@@ -41,7 +41,7 @@
 ** SUCH DAMAGE.
 */
 
-/* $FreeBSD: release/10.0.0/sys/boot/ficl/words.c 218909 2011-02-21 09:01:34Z brucec $ */
+/* $FreeBSD: stable/10/sys/boot/ficl/words.c 271135 2014-09-04 21:01:10Z emaste $ */
 
 #ifdef TESTMAIN
 #include <stdlib.h>
@@ -2567,7 +2567,7 @@ static void setObjectFlag(FICL_VM *pVM)
 
 static void isObject(FICL_VM *pVM)
 {
-    int flag;
+    FICL_INT flag;
     FICL_WORD *pFW = (FICL_WORD *)stackPopPtr(pVM->pStack);
     
     flag = ((pFW != NULL) && (pFW->flags & FW_ISOBJECT)) ? FICL_TRUE : FICL_FALSE;

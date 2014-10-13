@@ -29,7 +29,7 @@
 
 #include <sys/cdefs.h>
 
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/systat/vmstat.c 248647 2013-03-23 13:11:54Z mav $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/systat/vmstat.c 248647 2013-03-23 13:11:54Z mav $");
 
 #ifdef lint
 static const char sccsid[] = "@(#)vmstat.c	8.2 (Berkeley) 1/12/94";

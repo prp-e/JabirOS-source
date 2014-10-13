@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/etc/rc.d/Makefile 258121 2013-11-14 09:14:33Z glebius $
+# $FreeBSD: stable/10/etc/rc.d/Makefile 270892 2014-08-31 21:18:23Z trasz $
 
 .include <bsd.own.mk>
 
@@ -20,6 +20,9 @@ FILES=	DAEMON \
 	atm3 \
 	auditd \
 	auditdistd \
+	automount \
+	automountd \
+	autounmountd \
 	bgfsck \
 	${_bluetooth} \
 	bootparams \

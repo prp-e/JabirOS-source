@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/powerpc/powerpc/sigcode64.S 209975 2010-07-13 05:32:19Z nwhitehorn $ */
+/* $FreeBSD: stable/10/sys/powerpc/powerpc/sigcode64.S 267040 2014-06-04 06:21:54Z nwhitehorn $ */
 /* $NetBSD: sigcode.S,v 1.1 1999/11/17 14:56:11 kleink Exp $	*/
 
 /*-
@@ -45,7 +45,7 @@
  */
 	.globl	CNAME(sigcode64),CNAME(szsigcode64)
 CNAME(sigcode64):
-	addi	1,1,-48			/* reserved space for callee */
+	addi	1,1,-112		/* reserved space for callee */
 	mflr	2			/* resolve function descriptor */
 	ld	0,0(2)			
 	ld	2,8(2)
@@ -53,7 +53,7 @@ CNAME(sigcode64):
 
 	blrl
 
-	addi	3,1,48+SF_UC		/* restore sp, and get &frame->sf_uc */
+	addi	3,1,112+SF_UC		/* restore sp, and get &frame->sf_uc */
 	li	0,SYS_sigreturn
 	sc				/* sigreturn(scp) */
 	li	0,SYS_exit

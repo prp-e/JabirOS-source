@@ -51,7 +51,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/isci/scil/scic_sds_stp_request.c 231137 2012-02-07 17:45:11Z jimharris $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/isci/scil/scic_sds_stp_request.c 268073 2014-07-01 06:23:48Z scottl $");
 
 #include <dev/isci/scil/intel_sat.h>
 #include <dev/isci/scil/intel_sata.h>
@@ -1222,6 +1222,7 @@ SCI_STATUS scic_sds_stp_request_pio_data_in_copy_data_buffer(
          length -= copy_length;
          sgl_offset += copy_length;
          data_offset += copy_length;
+         source_address += copy_length;
 #endif
       }
    }

@@ -1,5 +1,5 @@
 #	$OpenBSD: Makefile,v 1.4 2005/05/16 15:22:46 espie Exp $
-# $FreeBSD: release/10.0.0/usr.bin/patch/Makefile 255014 2013-08-29 00:38:24Z pfg $
+# $FreeBSD: stable/10/usr.bin/patch/Makefile 255014 2013-08-29 00:38:24Z pfg $
 
 PROG=	patch
 

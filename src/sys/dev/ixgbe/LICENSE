@@ -30,4 +30,4 @@
   POSSIBILITY OF SUCH DAMAGE.
 
 ******************************************************************************/
-/*$FreeBSD: release/10.0.0/sys/dev/ixgbe/LICENSE 247822 2013-03-04 23:07:40Z jfv $*/
+/*$FreeBSD: stable/10/sys/dev/ixgbe/LICENSE 247822 2013-03-04 23:07:40Z jfv $*/

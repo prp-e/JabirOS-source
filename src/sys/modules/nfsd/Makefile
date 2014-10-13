@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/nfsd/Makefile 249596 2013-04-17 22:42:43Z ken $
+# $FreeBSD: stable/10/sys/modules/nfsd/Makefile 249596 2013-04-17 22:42:43Z ken $
 
 .PATH: ${.CURDIR}/../../fs/nfsserver ${.CURDIR}/../../nfs
 KMOD=	nfsd

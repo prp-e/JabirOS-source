@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/mv/armadaxp/armadaxp_mp.c 254025 2013-08-07 06:21:20Z jeff $
+ * $FreeBSD: stable/10/sys/arm/mv/armadaxp/armadaxp_mp.c 266203 2014-05-16 00:14:50Z ian $
  */
 
 #include <sys/param.h>
@@ -96,7 +96,6 @@ platform_mp_init_secondary(void)
 {
 }
 
-void mpentry(void);
 void mptramp(void);
 
 

@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/dev/usb/usb_util.c 246616 2013-02-10 10:56:13Z hselasky $ */
+/* $FreeBSD: stable/10/sys/dev/usb/usb_util.c 246616 2013-02-10 10:56:13Z hselasky $ */
 /*-
  * Copyright (c) 2008 Hans Petter Selasky. All rights reserved.
  *

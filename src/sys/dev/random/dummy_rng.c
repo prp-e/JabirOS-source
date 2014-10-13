@@ -25,7 +25,7 @@
  *
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/random/dummy_rng.c 256414 2013-10-13 00:13:57Z markm $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/random/dummy_rng.c 256414 2013-10-13 00:13:57Z markm $");
 
 #include <sys/param.h>
 #include <sys/fcntl.h>

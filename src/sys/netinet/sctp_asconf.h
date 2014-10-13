@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netinet/sctp_asconf.h 237715 2012-06-28 16:01:08Z tuexen $");
+__FBSDID("$FreeBSD: stable/10/sys/netinet/sctp_asconf.h 237715 2012-06-28 16:01:08Z tuexen $");
 
 #ifndef _NETINET_SCTP_ASCONF_H_
 #define _NETINET_SCTP_ASCONF_H_

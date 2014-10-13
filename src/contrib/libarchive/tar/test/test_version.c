@@ -23,7 +23,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 #include "test.h"
-__FBSDID("$FreeBSD: release/10.0.0/contrib/libarchive/tar/test/test_version.c 228763 2011-12-21 11:13:29Z mm $");
+__FBSDID("$FreeBSD: stable/10/contrib/libarchive/tar/test/test_version.c 228763 2011-12-21 11:13:29Z mm $");
 
 /*
  * Test that --version option works and generates reasonable output.

@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/arm/db_trace.c 253309 2013-07-13 00:39:07Z rpaulo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/arm/db_trace.c 266097 2014-05-14 23:51:07Z ian $");
 #include <sys/param.h>
 #include <sys/systm.h>
 
@@ -269,7 +269,7 @@ db_unwind_exec_insn(struct unwind_state *state)
 		/* Stop processing */
 		state->entries = 0;
 
-	} else if ((insn == INSN_POP_REGS)) {
+	} else if (insn == INSN_POP_REGS) {
 		unsigned int mask, reg;
 
 		mask = db_unwind_exec_read_byte(state);
@@ -376,7 +376,7 @@ db_stack_trace_cmd(struct unwind_state *state)
 		index = db_find_index(state->start_pc);
 
 		if (index->insn != EXIDX_CANTUNWIND) {
-			if (index->insn & (1 << 31)) {
+			if (index->insn & (1U << 31)) {
 				/* The data is within the instruction */
 				state->insn = &index->insn;
 			} else {

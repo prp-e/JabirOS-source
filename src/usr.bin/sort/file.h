@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/usr.bin/sort/file.h 251245 2013-06-02 09:43:48Z gabor $	*/
+/*	$FreeBSD: stable/10/usr.bin/sort/file.h 265160 2014-04-30 20:39:08Z pfg $	*/
 
 /*-
  * Copyright (C) 2009 Gabor Kovesdan <gabor@FreeBSD.org>
@@ -28,7 +28,7 @@
  */
 
 #if !defined(__SORT_FILE_H__)
-#define __SORT_FILE_H__
+#define	__SORT_FILE_H__
 
 #include "coll.h"
 #include "sort.h"
@@ -39,8 +39,8 @@
 #define	SORT_HEAPSORT	3
 #define	SORT_RADIXSORT  4
 
-#define DEFAULT_SORT_ALGORITHM SORT_HEAPSORT
-#define DEFAULT_SORT_FUNC heapsort
+#define	DEFAULT_SORT_ALGORITHM SORT_HEAPSORT
+#define	DEFAULT_SORT_FUNC heapsort
 
 /*
  * List of data to be sorted.

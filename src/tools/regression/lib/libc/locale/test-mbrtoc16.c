@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/tools/regression/lib/libc/locale/test-mbrtoc16.c 251314 2013-06-03 17:17:56Z ed $");
+__FBSDID("$FreeBSD: stable/10/tools/regression/lib/libc/locale/test-mbrtoc16.c 251314 2013-06-03 17:17:56Z ed $");
 
 #include <assert.h>
 #include <errno.h>

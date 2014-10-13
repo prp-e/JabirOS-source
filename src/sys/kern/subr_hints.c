@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/subr_hints.c 240119 2012-09-04 23:16:55Z ray $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/subr_hints.c 267902 2014-06-26 08:41:54Z pluknet $");
 
 #include <sys/param.h>
 #include <sys/lock.h>
@@ -210,7 +210,7 @@ res_find(int *line, int *startln,
 		if (strncmp(cp, "hint.", 5) != 0)
 			hit = 0;
 		else
-			n = sscanf(cp, "hint.%32[^.].%d.%32[^=]=%128s",
+			n = sscanf(cp, "hint.%32[^.].%d.%32[^=]=%127s",
 			    r_name, &r_unit, r_resname, r_value);
 		if (hit && n != 4) {
 			printf("CONFIG: invalid hint '%s'\n", cp);

@@ -39,7 +39,7 @@ static char sccsid[] = "@(#)tunefs.c	8.2 (Berkeley) 4/19/94";
 #endif /* not lint */
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/tunefs/tunefs.c 250718 2013-05-16 21:04:56Z delphij $");
+__FBSDID("$FreeBSD: stable/10/sbin/tunefs/tunefs.c 250718 2013-05-16 21:04:56Z delphij $");
 
 /*
  * tunefs: change layout parameters to an existing file system.

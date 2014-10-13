@@ -39,7 +39,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/iir/iir_ctrl.c 254379 2013-08-15 20:03:22Z jkim $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/iir/iir_ctrl.c 254379 2013-08-15 20:03:22Z jkim $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

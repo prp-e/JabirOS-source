@@ -42,8 +42,7 @@
 #include "assym.s"
 #include <machine/asm.h>
 #include <machine/armreg.h>
-#include <machine/asmacros.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/arm/copystr.S 248361 2013-03-16 02:48:49Z andrew $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/arm/copystr.S 266311 2014-05-17 13:53:38Z ian $");
 
 #include <sys/errno.h>
 
@@ -53,7 +52,7 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/arm/copystr.S 248361 2013-03-16 02:48
 #ifdef _ARM_ARCH_6
 #define GET_PCB(tmp) \
 	mrc p15, 0, tmp, c13, c0, 4; \
-	add	tmp, tmp, #(PC_CURPCB)
+	add	tmp, tmp, #(TD_PCB)
 #else
 .Lpcb:
 	.word	_C_LABEL(__pcpu) + PC_CURPCB

@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/mfiutil/mfi_drive.c 254906 2013-08-26 12:05:38Z sbruno $
+ * $FreeBSD: stable/10/usr.sbin/mfiutil/mfi_drive.c 254906 2013-08-26 12:05:38Z sbruno $
  */
 
 #include <sys/types.h>

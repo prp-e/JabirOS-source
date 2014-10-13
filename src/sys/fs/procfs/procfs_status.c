@@ -34,7 +34,7 @@
  *
  * From:
  *	$Id: procfs_status.c,v 3.1 1993/12/15 09:40:17 jsp Exp $
- * $FreeBSD: release/10.0.0/sys/fs/procfs/procfs_status.c 230145 2012-01-15 18:47:24Z trociny $
+ * $FreeBSD: stable/10/sys/fs/procfs/procfs_status.c 230145 2012-01-15 18:47:24Z trociny $
  */
 
 #include <sys/param.h>

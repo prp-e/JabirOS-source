@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/kern/kern_loginclass.c 225617 2011-09-16 13:58:51Z kmacy $
+ * $FreeBSD: stable/10/sys/kern/kern_loginclass.c 267579 2014-06-17 13:14:31Z trasz $
  */
 
 /*
@@ -43,7 +43,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_loginclass.c 225617 2011-09-16 13:58:51Z kmacy $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_loginclass.c 267579 2014-06-17 13:14:31Z trasz $");
 
 #include <sys/param.h>
 #include <sys/eventhandler.h>
@@ -69,9 +69,7 @@ LIST_HEAD(, loginclass)	loginclasses;
  * Lock protecting loginclasses list.
  */
 static struct mtx loginclasses_lock;
-
-static void lc_init(void);
-SYSINIT(loginclass, SI_SUB_CPU, SI_ORDER_FIRST, lc_init, NULL);
+MTX_SYSINIT(loginclasses_init, &loginclasses_lock, "loginclasses lock", MTX_DEF);
 
 void
 loginclass_hold(struct loginclass *lc)
@@ -228,11 +226,4 @@ loginclass_racct_foreach(void (*callback)(struct racct *racct,
 	LIST_FOREACH(lc, &loginclasses, lc_next)
 		(callback)(lc->lc_racct, arg2, arg3);
 	mtx_unlock(&loginclasses_lock);
-}
-
-static void
-lc_init(void)
-{
-
-	mtx_init(&loginclasses_lock, "loginclasses lock", NULL, MTX_DEF);
 }

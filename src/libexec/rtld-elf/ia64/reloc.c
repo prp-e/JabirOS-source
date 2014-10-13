@@ -22,7 +22,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/libexec/rtld-elf/ia64/reloc.c 234841 2012-04-30 13:31:10Z kib $
+ * $FreeBSD: stable/10/libexec/rtld-elf/ia64/reloc.c 271469 2014-09-12 16:22:01Z kib $
  */
 
 /*
@@ -350,6 +350,10 @@ reloc_non_plt(Obj_Entry *obj, Obj_Entry *obj_rtld, int flags,
 	SymCache *cache;
 	int bytes = obj->dynsymcount * sizeof(SymCache);
 	int r = -1;
+
+	if ((flags & SYMLOOK_IFUNC) != 0)
+		/* XXX not implemented */
+		return (0);
 
 	/*
 	 * The dynamic loader may be called from a thread, we have

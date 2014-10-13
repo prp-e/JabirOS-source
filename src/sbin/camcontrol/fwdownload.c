@@ -48,7 +48,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/camcontrol/fwdownload.c 256113 2013-10-07 16:45:16Z emaste $");
+__FBSDID("$FreeBSD: stable/10/sbin/camcontrol/fwdownload.c 256113 2013-10-07 16:45:16Z emaste $");
 
 #include <sys/types.h>
 #include <sys/stat.h>

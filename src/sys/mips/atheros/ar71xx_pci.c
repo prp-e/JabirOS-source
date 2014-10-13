@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/atheros/ar71xx_pci.c 245112 2013-01-06 20:50:31Z monthadar $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/atheros/ar71xx_pci.c 265999 2014-05-14 01:35:43Z ian $");
 
 #include "opt_ar71xx.h"
 
@@ -371,7 +371,7 @@ static int
 ar71xx_pci_probe(device_t dev)
 {
 
-	return (0);
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 static int

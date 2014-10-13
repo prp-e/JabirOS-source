@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/libclangdriver/Makefile 246259 2013-02-02 22:28:29Z dim $
+# $FreeBSD: stable/10/lib/clang/libclangdriver/Makefile 263508 2014-03-21 17:53:59Z dim $
 
 .include <bsd.own.mk>
 
@@ -6,16 +6,13 @@ LIB=	clangdriver
 
 SRCDIR=	tools/clang/lib/Driver
 SRCS=	Action.cpp \
-	Arg.cpp \
-	ArgList.cpp \
 	CC1AsOptions.cpp \
 	Compilation.cpp \
 	Driver.cpp \
 	DriverOptions.cpp \
 	Job.cpp \
-	OptTable.cpp \
-	Option.cpp \
 	Phases.cpp \
+	SanitizerArgs.cpp \
 	Tool.cpp \
 	ToolChain.cpp \
 	ToolChains.cpp \
@@ -26,6 +23,7 @@ SRCS=	Action.cpp \
 TGHDRS=	CC1AsOptions \
 	DiagnosticCommonKinds \
 	DiagnosticDriverKinds \
+	DiagnosticSemaKinds \
 	Options
 
 .include "../clang.lib.mk"

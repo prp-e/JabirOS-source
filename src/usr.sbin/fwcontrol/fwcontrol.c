@@ -34,7 +34,7 @@
 
 #if defined(__FreeBSD__)
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/fwcontrol/fwcontrol.c 228990 2011-12-30 10:58:14Z uqs $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/fwcontrol/fwcontrol.c 228990 2011-12-30 10:58:14Z uqs $");
 #endif
 
 #include <sys/param.h>

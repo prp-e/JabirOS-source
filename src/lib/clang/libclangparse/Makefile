@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/libclangparse/Makefile 251662 2013-06-12 18:48:53Z dim $
+# $FreeBSD: stable/10/lib/clang/libclangparse/Makefile 263508 2014-03-21 17:53:59Z dim $
 
 .include <bsd.own.mk>
 
@@ -20,10 +20,11 @@ SRCS=	ParseAST.cpp \
 	ParseTentative.cpp \
 	Parser.cpp
 
-TGHDRS=	AttrLateParsed \
+TGHDRS=	AttrIdentifierArg \
+	AttrLateParsed \
 	AttrList \
 	AttrParsedAttrList \
-	AttrExprArgs \
+	AttrTypeArg \
 	Attrs \
 	CommentCommandList \
 	CommentNodes \

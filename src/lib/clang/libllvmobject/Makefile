@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/libllvmobject/Makefile 251662 2013-06-12 18:48:53Z dim $
+# $FreeBSD: stable/10/lib/clang/libllvmobject/Makefile 263508 2014-03-21 17:53:59Z dim $
 
 .include <bsd.own.mk>
 
@@ -8,10 +8,15 @@ SRCDIR=	lib/Object
 SRCS=	Archive.cpp \
 	Binary.cpp \
 	COFFObjectFile.cpp \
+	COFFYAML.cpp \
+	ELF.cpp \
 	ELFObjectFile.cpp \
+	ELFYAML.cpp \
 	Error.cpp \
 	MachOObjectFile.cpp \
+	MachOUniversal.cpp \
 	Object.cpp \
-	ObjectFile.cpp
+	ObjectFile.cpp \
+	YAML.cpp
 
 .include "../clang.lib.mk"

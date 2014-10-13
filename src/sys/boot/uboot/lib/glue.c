@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/boot/uboot/lib/glue.c 235609 2012-05-18 14:41:14Z gber $");
+__FBSDID("$FreeBSD: stable/10/sys/boot/uboot/lib/glue.c 265071 2014-04-29 00:45:42Z ian $");
 
 #include <sys/types.h>
 
@@ -33,9 +33,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/boot/uboot/lib/glue.c 235609 2012-05-18 1
 #include <stand.h>
 #include "api_public.h"
 #include "glue.h"
-
-#define DEBUG
-#undef DEBUG
 
 #ifdef DEBUG
 #define	debugf(fmt, args...) do { printf("%s(): ", __func__); printf(fmt,##args); } while (0)
@@ -407,8 +404,8 @@ ub_stor_type(int type)
 	if (type & DT_STOR_MMC)
 		return ("MMC");
 
-	if (type & DT_STOR_NAND)
-		return ("NAND");
+	if (type & DT_STOR_SATA)
+		return ("SATA");
 
 	return ("Unknown");
 }

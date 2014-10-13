@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/tools/regression/execve/execve.t 163153 2006-10-09 06:47:08Z maxim $
+# $FreeBSD: stable/10/tools/regression/execve/execve.t 163153 2006-10-09 06:47:08Z maxim $
 
 cd `dirname $0`
 cmd="./`basename $0 .t`"

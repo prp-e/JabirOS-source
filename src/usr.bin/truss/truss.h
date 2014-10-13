@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.bin/truss/truss.h 247338 2013-02-26 19:46:59Z delphij $
+ * $FreeBSD: stable/10/usr.bin/truss/truss.h 247338 2013-02-26 19:46:59Z delphij $
  */
 
 #include <sys/queue.h>

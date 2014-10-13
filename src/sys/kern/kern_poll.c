@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_poll.c 254031 2013-08-07 07:22:56Z kevlo $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_poll.c 261276 2014-01-29 21:57:00Z brooks $");
 
 #include "opt_device_polling.h"
 
@@ -267,7 +267,7 @@ init_device_poll(void)
 	EVENTHANDLER_REGISTER(shutdown_post_sync, poll_shutdown, NULL,
 	    SHUTDOWN_PRI_LAST);
 }
-SYSINIT(device_poll, SI_SUB_CLOCKS, SI_ORDER_MIDDLE, init_device_poll, NULL);
+SYSINIT(device_poll, SI_SUB_SOFTINTR, SI_ORDER_MIDDLE, init_device_poll, NULL);
 
 
 /*

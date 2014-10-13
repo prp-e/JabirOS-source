@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/bwi/bwiphy.c 235338 2012-05-12 15:11:53Z adrian $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/bwi/bwiphy.c 235338 2012-05-12 15:11:53Z adrian $");
 
 #include "opt_inet.h"
 #include "opt_wlan.h"

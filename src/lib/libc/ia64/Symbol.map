@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: release/10.0.0/lib/libc/ia64/Symbol.map 226606 2011-10-21 06:40:36Z das $
+ * $FreeBSD: stable/10/lib/libc/ia64/Symbol.map 226606 2011-10-21 06:40:36Z das $
  */
 
 /*

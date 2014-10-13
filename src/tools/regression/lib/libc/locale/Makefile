@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/tools/regression/lib/libc/locale/Makefile 250883 2013-05-21 19:59:37Z ed $
+# $FreeBSD: stable/10/tools/regression/lib/libc/locale/Makefile 250883 2013-05-21 19:59:37Z ed $
 
 TESTS=	test-mbrtowc	\
 	test-wcrtomb	\

@@ -1,5 +1,5 @@
 #
-# $FreeBSD: release/10.0.0/sys/boot/usb/Makefile.test 246571 2013-02-08 23:13:46Z hselasky $
+# $FreeBSD: stable/10/sys/boot/usb/Makefile.test 260096 2013-12-30 20:15:46Z dim $
 #
 # Copyright (c) 2013 Hans Petter Selasky. All rights reserved.
 #
@@ -40,7 +40,7 @@ CFLAGS+= -g
 
 .if ${MACHINE_CPUARCH} == "i386" || ${MACHINE_CPUARCH} == "amd64"
 CFLAGS+=	-march=i386
-CFLAGS+=	-mpreferred-stack-boundary=2
+CFLAGS.gcc+=	-mpreferred-stack-boundary=2
 .endif
 .if ${MACHINE_CPUARCH} == "amd64"
 CFLAGS+=	-m32

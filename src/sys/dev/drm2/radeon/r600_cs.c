@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/radeon/r600_cs.c 254885 2013-08-25 19:37:15Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/r600_cs.c 261455 2014-02-04 03:36:42Z eadler $");
 
 #include <dev/drm2/drmP.h>
 #include "radeon.h"
@@ -2664,7 +2664,7 @@ int r600_dma_cs_parse(struct radeon_cs_parser *p)
 			if (tiled) {
 				idx_value = radeon_get_ib_value(p, idx + 2);
 				/* detile bit */
-				if (idx_value & (1 << 31)) {
+				if (idx_value & (1U << 31)) {
 					/* tiled src, linear dst */
 					src_offset = radeon_get_ib_value(p, idx+1);
 					src_offset <<= 8;

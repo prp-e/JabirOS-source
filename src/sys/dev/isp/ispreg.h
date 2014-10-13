@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/dev/isp/ispreg.h 253330 2013-07-13 21:24:25Z mjacob $ */
+/* $FreeBSD: stable/10/sys/dev/isp/ispreg.h 253330 2013-07-13 21:24:25Z mjacob $ */
 /*-
  *  Copyright (c) 1997-2009 by Matthew Jacob
  *  All rights reserved.

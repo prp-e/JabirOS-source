@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: release/10.0.0/crypto/openssh/freebsd-configure.sh 255829 2013-09-23 20:35:54Z des $
+# $FreeBSD: stable/10/crypto/openssh/freebsd-configure.sh 255829 2013-09-23 20:35:54Z des $
 #
 
 configure_args="

@@ -1,5 +1,5 @@
 #
-# $FreeBSD: release/10.0.0/tools/regression/priv/Makefile 253385 2013-07-16 09:38:51Z kevlo $
+# $FreeBSD: stable/10/tools/regression/priv/Makefile 253385 2013-07-16 09:38:51Z kevlo $
 #
 
 .include <bsd.own.mk>

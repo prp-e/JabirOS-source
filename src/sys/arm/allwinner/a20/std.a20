@@ -1,5 +1,5 @@
 # Allwinner A20 common options
-#$FreeBSD: release/10.0.0/sys/arm/allwinner/a20/std.a20 254056 2013-08-07 11:07:56Z ganbold $
+#$FreeBSD: stable/10/sys/arm/allwinner/a20/std.a20 266110 2014-05-15 02:41:23Z ian $
 
 cpu		CPU_CORTEXA
 machine 	arm armv6
@@ -15,8 +15,6 @@ makeoptions	KERNPHYSADDR=0x40200000
 options 	KERNPHYSADDR=0x40200000
 makeoptions	KERNVIRTADDR=0xc0200000
 options 	KERNVIRTADDR=0xc0200000
-
-options 	STARTUP_PAGETABLE_ADDR=0x48000000
 
 options 	ARM_L2_PIPT
 

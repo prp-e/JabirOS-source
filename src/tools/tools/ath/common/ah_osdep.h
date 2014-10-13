@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: release/10.0.0/tools/tools/ath/common/ah_osdep.h 239162 2012-08-09 23:08:22Z adrian $
+ * $FreeBSD: stable/10/tools/tools/ath/common/ah_osdep.h 239162 2012-08-09 23:08:22Z adrian $
  */
 #ifndef _ATH_AH_OSDEP_H_
 #define _ATH_AH_OSDEP_H_

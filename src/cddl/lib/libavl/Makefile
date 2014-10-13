@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/cddl/lib/libavl/Makefile 204597 2010-03-02 19:04:07Z uqs $
+# $FreeBSD: stable/10/cddl/lib/libavl/Makefile 204597 2010-03-02 19:04:07Z uqs $
 
 .PATH: ${.CURDIR}/../../../sys/cddl/contrib/opensolaris/common/avl
 

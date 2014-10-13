@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netpfil/ipfw/ip_fw2.c 254776 2013-08-24 11:59:51Z trociny $");
+__FBSDID("$FreeBSD: stable/10/sys/netpfil/ipfw/ip_fw2.c 265700 2014-05-08 19:11:41Z melifaro $");
 
 /*
  * The FreeBSD IP packet firewall, main file
@@ -60,9 +60,10 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/netpfil/ipfw/ip_fw2.c 254776 2013-08-24 1
 #include <net/ethernet.h> /* for ETHERTYPE_IP */
 #include <net/if.h>
 #include <net/route.h>
-#include <net/pf_mtag.h>
 #include <net/pfil.h>
 #include <net/vnet.h>
+
+#include <netpfil/pf/pf_mtag.h>
 
 #include <netinet/in.h>
 #include <netinet/in_var.h>
@@ -2403,38 +2404,35 @@ do {								\
 			}
 
 			case O_NAT:
+				l = 0;          /* exit inner loop */
+				done = 1;       /* exit outer loop */
  				if (!IPFW_NAT_LOADED) {
 				    retval = IP_FW_DENY;
-				} else {
-				    struct cfg_nat *t;
-				    int nat_id;
+				    break;
+				}
 
-				    set_match(args, f_pos, chain);
-				    /* Check if this is 'global' nat rule */
-				    if (cmd->arg1 == 0) {
-					    retval = ipfw_nat_ptr(args, NULL, m);
-					    l = 0;
-					    done = 1;
-					    break;
-				    }
-				    t = ((ipfw_insn_nat *)cmd)->nat;
-				    if (t == NULL) {
+				struct cfg_nat *t;
+				int nat_id;
+
+				set_match(args, f_pos, chain);
+				/* Check if this is 'global' nat rule */
+				if (cmd->arg1 == 0) {
+					retval = ipfw_nat_ptr(args, NULL, m);
+					break;
+				}
+				t = ((ipfw_insn_nat *)cmd)->nat;
+				if (t == NULL) {
 					nat_id = IP_FW_ARG_TABLEARG(cmd->arg1);
 					t = (*lookup_nat_ptr)(&chain->nat, nat_id);
 
 					if (t == NULL) {
 					    retval = IP_FW_DENY;
-					    l = 0;	/* exit inner loop */
-					    done = 1;	/* exit outer loop */
 					    break;
 					}
 					if (cmd->arg1 != IP_FW_TABLEARG)
 					    ((ipfw_insn_nat *)cmd)->nat = t;
-				    }
-				    retval = ipfw_nat_ptr(args, t, m);
 				}
-				l = 0;          /* exit inner loop */
-				done = 1;       /* exit outer loop */
+				retval = ipfw_nat_ptr(args, t, m);
 				break;
 
 			case O_REASS: {
@@ -2659,7 +2657,7 @@ vnet_ipfw_init(const void *unused)
 	rule->set = RESVD_SET;
 	rule->cmd[0].len = 1;
 	rule->cmd[0].opcode = default_to_accept ? O_ACCEPT : O_DENY;
-	chain->rules = chain->default_rule = chain->map[0] = rule;
+	chain->default_rule = chain->map[0] = rule;
 	chain->id = rule->id = 1;
 
 	IPFW_LOCK_INIT(chain);

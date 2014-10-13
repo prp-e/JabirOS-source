@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/cddl/compat/opensolaris/sys/kmem.h 254025 2013-08-07 06:21:20Z jeff $
+ * $FreeBSD: stable/10/sys/cddl/compat/opensolaris/sys/kmem.h 266667 2014-05-25 18:19:57Z markj $
  */
 
 #ifndef _OPENSOLARIS_SYS_KMEM_H_
@@ -47,6 +47,7 @@ MALLOC_DECLARE(M_SOLARIS);
 #define	KM_PUSHPAGE		M_WAITOK
 #define	KM_NOSLEEP		M_NOWAIT
 #define	KM_NODEBUG		M_NODUMP
+#define	KM_NORMALPRI		0
 #define	KMC_NODEBUG		UMA_ZONE_NODUMP
 #define	KMC_NOTOUCH		0
 

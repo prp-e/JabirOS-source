@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/tar/Makefile 248616 2013-03-22 13:36:03Z mm $
+# $FreeBSD: stable/10/usr.bin/tar/Makefile 248616 2013-03-22 13:36:03Z mm $
 .include <bsd.own.mk>
 
 LIBARCHIVEDIR=	${.CURDIR}/../../contrib/libarchive

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/mips/atheros/files.ar71xx 253511 2013-07-21 03:56:57Z adrian $
+# $FreeBSD: stable/10/sys/mips/atheros/files.ar71xx 253511 2013-07-21 03:56:57Z adrian $
 
 mips/atheros/apb.c		standard
 mips/atheros/ar71xx_gpio.c	optional gpio

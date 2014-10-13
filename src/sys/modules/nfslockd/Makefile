@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/nfslockd/Makefile 197730 2009-10-03 12:22:12Z nyan $
+# $FreeBSD: stable/10/sys/modules/nfslockd/Makefile 197730 2009-10-03 12:22:12Z nyan $
 
 .PATH: ${.CURDIR}/../../nlm ${.CURDIR}/../../rpc
 KMOD=	nfslockd

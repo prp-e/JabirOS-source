@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)if_types.h	8.3 (Berkeley) 4/28/95
- * $FreeBSD: release/10.0.0/sys/net/if_types.h 228571 2011-12-16 12:16:56Z glebius $
+ * $FreeBSD: stable/10/sys/net/if_types.h 228571 2011-12-16 12:16:56Z glebius $
  * $NetBSD: if_types.h,v 1.16 2000/04/19 06:30:53 itojun Exp $
  */
 

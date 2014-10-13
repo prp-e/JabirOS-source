@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/lib/clang/include/clang/Config/config.h 234982 2012-05-03 20:41:21Z dim $ */
+/* $FreeBSD: stable/10/lib/clang/include/clang/Config/config.h 270100 2014-08-17 13:12:07Z dim $ */
 /* tools/clang/include/clang/Config/config.h.  Generated from config.h.in by configure.  */
 /* include/clang/Config/config.h.in. */
 
@@ -6,7 +6,7 @@
 #define CONFIG_H
 
 /* Bug report URL. */
-#define BUG_REPORT_URL "http://llvm.org/bugs/"
+#define BUG_REPORT_URL "https://bugs.freebsd.org/submit/"
 
 /* Relative directory for resource files */
 #define CLANG_RESOURCE_DIR ""

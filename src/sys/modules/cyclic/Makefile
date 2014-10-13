@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/cyclic/Makefile 253997 2013-08-06 16:18:07Z avg $
+# $FreeBSD: stable/10/sys/modules/cyclic/Makefile 253997 2013-08-06 16:18:07Z avg $
 
 .PATH: ${.CURDIR}/../../cddl/dev/cyclic
 

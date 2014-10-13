@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/nand/nand_geom.c 258554 2013-11-25 15:34:57Z gber $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/nand/nand_geom.c 258554 2013-11-25 15:34:57Z gber $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

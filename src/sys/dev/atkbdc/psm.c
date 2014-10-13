@@ -59,7 +59,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/atkbdc/psm.c 255210 2013-09-04 18:42:05Z eadler $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/atkbdc/psm.c 255210 2013-09-04 18:42:05Z eadler $");
 
 #include "opt_isa.h"
 #include "opt_psm.h"

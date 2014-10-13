@@ -28,11 +28,11 @@
 # SUCH DAMAGE.
 #
 #	@(#)newvers.sh	8.1 (Berkeley) 4/20/94
-# $FreeBSD: release/10.0.0/sys/conf/newvers.sh 260664 2014-01-15 01:14:52Z gjb $
+# $FreeBSD: stable/10/sys/conf/newvers.sh 272167 2014-09-26 09:52:39Z gjb $
 
 TYPE="JabirOS"
-REVISION="2.0.1"
-BRANCH="RELEASE"
+REVISION="2.1"
+BRANCH="BETA"
 if [ "X${BRANCH_OVERRIDE}" != "X" ]; then
 	BRANCH=${BRANCH_OVERRIDE}
 fi
@@ -58,8 +58,8 @@ for bsd_copyright in ../$b ../../$b ../../../$b /usr/src/$b /usr/$b
 do
 	if [ -r "$bsd_copyright" ]; then
 		COPYRIGHT=`sed \
-		    -e "s/\[year\]/1992-$year/" \
-		    -e 's/\[your name here\]\.* /The FreeBSD Project./' \
+		    -e "s/\[year\]/2011-$year/" \
+		    -e 's/\[your name here\]\.* /The Jabir Project./' \
 		    -e 's/\[your name\]\.*/The FreeBSD Project./' \
 		    -e '/\[id for your version control system, if any\]/d' \
 		    $bsd_copyright` 
@@ -130,6 +130,15 @@ if [ -d "${SYSDIR}/../.git" ] ; then
 	done
 fi
 
+if [ -d "${SYSDIR}/../.hg" ] ; then
+	for dir in /usr/bin /usr/local/bin; do
+		if [ -x "${dir}/hg" ] ; then
+			hg_cmd="${dir}/hg -R ${SYSDIR}/.."
+			break
+		fi
+	done
+fi
+
 if [ -n "$svnversion" ] ; then
 	svn=`cd ${SYSDIR} && $svnversion 2>/dev/null`
 	case "$svn" in
@@ -184,12 +193,23 @@ if [ -n "$p4_cmd" ] ; then
 	*)	unset p4version ;;
 	esac
 fi
-	
+
+if [ -n "$hg_cmd" ] ; then
+	hg=`$hg_cmd id 2>/dev/null`
+	svn=`$hg_cmd svn info 2>/dev/null | \
+		awk -F': ' '/Revision/ { print $2 }'`
+	if [ -n "$svn" ] ; then
+		svn=" r${svn}"
+	fi
+	if [ -n "$hg" ] ; then
+		hg=" ${hg}"
+	fi
+fi
 
 cat << EOF > vers.c
 $COPYRIGHT
-#define SCCSSTR "@(#)${VERSION} #${v}${svn}${git}${p4version}: ${t}"
-#define VERSTR "${VERSION} #${v}${svn}${git}${p4version}: ${t}\\n    ${u}@${h}:${d}\\n"
+#define SCCSSTR "@(#)${VERSION} #${v}${svn}${git}${hg}${p4version}: ${t}"
+#define VERSTR "${VERSION} #${v}${svn}${git}${hg}${p4version}: ${t}\\n    ${u}@${h}:${d}\\n"
 #define RELSTR "${RELEASE}"
 
 char sccs[sizeof(SCCSSTR) > 128 ? sizeof(SCCSSTR) : 128] = SCCSSTR;

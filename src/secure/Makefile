@@ -1,8 +1,12 @@
-# $FreeBSD: release/10.0.0/secure/Makefile 201210 2009-12-29 20:14:39Z trasz $
+# $FreeBSD: stable/10/secure/Makefile 265037 2014-04-28 04:20:14Z jmmv $
 
 .include <bsd.own.mk>
 
-SUBDIR= lib libexec usr.bin usr.sbin
+SUBDIR= lib libexec ${_tests} usr.bin usr.sbin
+
+.if ${MK_TESTS} != "no"
+_tests=	tests
+.endif
 
 # These are the programs which depend on crypto, but not Kerberos.
 SPROGS=	lib/libfetch lib/libpam lib/libradius lib/libtelnet	\

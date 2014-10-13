@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netatalk/at_control.c 249925 2013-04-26 12:50:32Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sys/netatalk/at_control.c 249925 2013-04-26 12:50:32Z glebius $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

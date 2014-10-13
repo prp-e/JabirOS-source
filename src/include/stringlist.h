@@ -30,7 +30,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/include/stringlist.h 249802 2013-04-23 13:03:03Z eadler $
+ * $FreeBSD: stable/10/include/stringlist.h 249802 2013-04-23 13:03:03Z eadler $
  */
 
 #ifndef _STRINGLIST_H

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/crypto/aesni/aesni.h 258212 2013-11-16 09:01:24Z jmg $
+ * $FreeBSD: stable/10/sys/crypto/aesni/aesni.h 268034 2014-06-30 09:51:27Z kib $
  */
 
 #ifndef _AESNI_H_
@@ -96,11 +96,8 @@ void aesni_decrypt_xts(int rounds, const void *data_schedule /*__aligned(16)*/,
     const void *tweak_schedule /*__aligned(16)*/, size_t len,
     const uint8_t *from, uint8_t *to, const uint8_t iv[AES_BLOCK_LEN]);
 
-int aesni_cipher_setup(struct aesni_session *ses,
-    struct cryptoini *encini);
-int aesni_cipher_process(struct aesni_session *ses,
-    struct cryptodesc *enccrd, struct cryptop *crp);
-
+int aesni_cipher_setup_common(struct aesni_session *ses, const uint8_t *key,
+    int keylen);
 uint8_t *aesni_cipher_alloc(struct cryptodesc *enccrd, struct cryptop *crp,
     int *allocated);
 

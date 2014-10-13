@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/lpc/lpc_intc.c 239278 2012-08-15 05:37:10Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/lpc/lpc_intc.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -67,6 +67,9 @@ static struct lpc_intc_softc *intc_softc = NULL;
 static int
 lpc_intc_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (!ofw_bus_is_compatible(dev, "lpc,pic"))
 		return (ENXIO);

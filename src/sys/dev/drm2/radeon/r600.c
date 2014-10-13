@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/radeon/r600.c 254885 2013-08-25 19:37:15Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/r600.c 261798 2014-02-12 13:55:30Z rmh $");
 
 #include <dev/drm2/drmP.h>
 #include <dev/drm2/radeon/radeon_drm.h>
@@ -3010,6 +3010,12 @@ int r600_init(struct radeon_device *rdev)
 		radeon_irq_kms_fini(rdev);
 		r600_pcie_gart_fini(rdev);
 		rdev->accel_working = false;
+	}
+
+	/* Don't start up if the ucode is missing. */
+	if (!rdev->me_fw || !rdev->pfp_fw || !rdev->rlc_fw) {
+		DRM_ERROR("radeon: ucode required for R600+.\n");
+		return -EINVAL;
 	}
 
 	return 0;

@@ -23,17 +23,13 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/amd64/vmm/vmm_ipi.h 245678 2013-01-20 03:42:49Z neel $
+ * $FreeBSD: stable/10/sys/amd64/vmm/vmm_ipi.h 266339 2014-05-17 19:11:08Z jhb $
  */
 
 #ifndef _VMM_IPI_H_
 #define _VMM_IPI_H_
 
-struct vm;
-
-extern int vmm_ipinum;
-
-void	vmm_ipi_init(void);
-void	vmm_ipi_cleanup(void);
+int	vmm_ipi_alloc(void);
+void	vmm_ipi_free(int num);
 
 #endif

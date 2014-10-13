@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/arm/stack_machdep.c 250810 2013-05-19 16:25:09Z andrew $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/arm/stack_machdep.c 266404 2014-05-18 16:02:56Z ian $");
 
 #include <sys/systm.h>
 #include <sys/param.h>
@@ -43,13 +43,16 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/arm/stack_machdep.c 250810 2013-05-19
  * APCS where it lays out the stack incorrectly. Because of this we disable
  * this when building for ARM EABI or when building with clang.
  */
+
+extern vm_offset_t kernel_vm_end;
+
 static void
 stack_capture(struct stack *st, u_int32_t *frame)
 {
 #if !defined(__ARM_EABI__) && !defined(__clang__)
 	vm_offset_t callpc;
 
-	while (INKERNEL(frame)) {
+	while (INKERNEL(frame) && (vm_offset_t)frame < kernel_vm_end) {
 		callpc = frame[FR_SCP];
 		if (stack_put(st, callpc) == -1)
 			break;

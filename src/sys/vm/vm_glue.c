@@ -57,7 +57,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/vm/vm_glue.c 254649 2013-08-22 07:39:53Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/vm/vm_glue.c 270205 2014-08-20 08:24:37Z kib $");
 
 #include "opt_vm.h"
 #include "opt_kstack_pages.h"
@@ -251,6 +251,7 @@ vm_imgact_hold_page(vm_object_t object, vm_ooffset_t offset)
 	vm_page_xunbusy(m);
 	vm_page_lock(m);
 	vm_page_hold(m);
+	vm_page_activate(m);
 	vm_page_unlock(m);
 out:
 	VM_OBJECT_WUNLOCK(object);

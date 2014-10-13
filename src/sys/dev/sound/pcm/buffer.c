@@ -37,7 +37,7 @@
 #define SND_USE_FXDIV
 #include "snd_fxdiv_gen.h"
 
-SND_DECLARE_FILE("$FreeBSD: release/10.0.0/sys/dev/sound/pcm/buffer.c 243450 2012-11-23 13:43:51Z mav $");
+SND_DECLARE_FILE("$FreeBSD: stable/10/sys/dev/sound/pcm/buffer.c 243450 2012-11-23 13:43:51Z mav $");
 
 struct snd_dbuf *
 sndbuf_create(device_t dev, char *drv, char *desc, struct pcm_channel *channel)

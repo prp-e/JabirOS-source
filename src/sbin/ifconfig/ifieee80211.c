@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sbin/ifconfig/ifieee80211.c 246505 2013-02-07 21:23:03Z monthadar $
+ * $FreeBSD: stable/10/sbin/ifconfig/ifieee80211.c 246505 2013-02-07 21:23:03Z monthadar $
  */
 
 /*-

@@ -1,5 +1,7 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/6/93
-# $FreeBSD: release/10.0.0/usr.bin/kdump/Makefile 234058 2012-04-09 14:47:18Z dim $
+# $FreeBSD: stable/10/usr.bin/kdump/Makefile 263086 2014-03-12 10:45:58Z glebius $
+
+.include <bsd.own.mk>
 
 .if (${MACHINE_ARCH} == "amd64")
 SFX=		32
@@ -11,6 +13,10 @@ PROG=		kdump
 SRCS=		kdump_subr.c kdump.c ioctl.c subr.c
 DPSRCS=		kdump_subr.h 
 CFLAGS+=	-I${.CURDIR}/../ktrace -I${.CURDIR} -I${.CURDIR}/../.. -I.
+
+.if ${MK_PF} != "no"
+CFLAGS+=-DPF
+.endif
 
 .if ${MACHINE_ARCH} == "amd64" || ${MACHINE_ARCH} == "i386"
 SRCS+=		linux_syscalls.c

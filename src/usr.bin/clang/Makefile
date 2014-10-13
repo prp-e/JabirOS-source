@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/clang/Makefile 255722 2013-09-20 01:52:02Z emaste $
+# $FreeBSD: stable/10/usr.bin/clang/Makefile 264303 2014-04-09 18:16:58Z dim $
 
 .include <bsd.own.mk>
 
@@ -19,8 +19,6 @@ SUBDIR+=bugpoint \
 	llvm-mc \
 	llvm-nm \
 	llvm-objdump \
-	llvm-prof \
-	llvm-ranlib \
 	llvm-rtdyld \
 	macho-dump \
 	opt
@@ -30,5 +28,7 @@ SUBDIR+=bugpoint \
 SUBDIR+=lldb
 .endif
 .endif # TOOLS_PREFIX
+
+SUBDIR_PARALLEL=
 
 .include <bsd.subdir.mk>

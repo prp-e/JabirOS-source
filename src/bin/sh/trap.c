@@ -36,7 +36,7 @@ static char sccsid[] = "@(#)trap.c	8.5 (Berkeley) 6/5/95";
 #endif
 #endif /* not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/bin/sh/trap.c 255157 2013-09-02 21:57:46Z jilles $");
+__FBSDID("$FreeBSD: stable/10/bin/sh/trap.c 262951 2014-03-09 17:04:31Z jmmv $");
 
 #include <signal.h>
 #include <unistd.h>
@@ -80,7 +80,6 @@ static char *volatile trap[NSIG];	/* trap handler commands */
 static volatile sig_atomic_t gotsig[NSIG];
 				/* indicates specified signal received */
 static int ignore_sigchld;	/* Used while handling SIGCHLD traps. */
-volatile sig_atomic_t gotwinch;
 static int last_trapsig;
 
 static int exiting;		/* exitshell() has been called */
@@ -293,12 +292,6 @@ setsignal(int signo)
 				action = S_IGN;
 			break;
 #endif
-#ifndef NO_HISTORY
-		case SIGWINCH:
-			if (rootshell && iflag)
-				action = S_CATCH;
-			break;
-#endif
 		}
 	}
 
@@ -362,10 +355,12 @@ void
 ignoresig(int signo)
 {
 
+	if (sigmode[signo] == 0)
+		setsignal(signo);
 	if (sigmode[signo] != S_IGN && sigmode[signo] != S_HARD_IGN) {
 		signal(signo, SIG_IGN);
+		sigmode[signo] = S_IGN;
 	}
-	sigmode[signo] = S_HARD_IGN;
 }
 
 
@@ -398,11 +393,6 @@ onsig(int signo)
 		gotsig[signo] = 1;
 		pendingsig = signo;
 	}
-
-#ifndef NO_HISTORY
-	if (signo == SIGWINCH)
-		gotwinch = 1;
-#endif
 }
 
 
@@ -488,9 +478,6 @@ setinteractive(int on)
 	setsignal(SIGINT);
 	setsignal(SIGQUIT);
 	setsignal(SIGTERM);
-#ifndef NO_HISTORY
-	setsignal(SIGWINCH);
-#endif
 	is_interactive = on;
 }
 

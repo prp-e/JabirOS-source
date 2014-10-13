@@ -29,7 +29,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  *	$NetBSD: powerpc.h,v 1.3 2000/06/01 00:49:59 matt Exp $
- * $FreeBSD: release/10.0.0/sys/powerpc/include/platform.h 255417 2013-09-09 12:49:19Z nwhitehorn $
+ * $FreeBSD: stable/10/sys/powerpc/include/platform.h 262675 2014-03-02 02:35:46Z jhibbits $
  */
 
 #ifndef	_MACHINE_PLATFORM_H_
@@ -56,5 +56,7 @@ void	platform_smp_ap_init(void);
   
 const char *installed_platform(void);
 void platform_probe_and_attach(void);
+
+void platform_sleep(void);
   
 #endif	/* _MACHINE_PLATFORM_H_ */

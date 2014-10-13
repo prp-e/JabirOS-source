@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/boot/i386/loader/main.c 241293 2012-10-06 19:47:24Z avg $");
+__FBSDID("$FreeBSD: stable/10/sys/boot/i386/loader/main.c 241293 2012-10-06 19:47:24Z avg $");
 
 /*
  * MD bootstrap main() and assorted miscellaneous

@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/ttm/ttm_bo_vm.c 255044 2013-08-29 22:46:21Z jkim $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/ttm/ttm_bo_vm.c 260779 2014-01-16 16:28:19Z avg $");
 
 #include "opt_vm.h"
 
@@ -76,13 +76,16 @@ static struct ttm_buffer_object *ttm_bo_vm_lookup_rb(struct ttm_bo_device *bdev,
 	struct ttm_buffer_object *bo;
 	struct ttm_buffer_object *best_bo = NULL;
 
-	RB_FOREACH(bo, ttm_bo_device_buffer_objects, &bdev->addr_space_rb) {
+	bo = RB_ROOT(&bdev->addr_space_rb);
+	while (bo != NULL) {
 		cur_offset = bo->vm_node->start;
 		if (page_start >= cur_offset) {
 			best_bo = bo;
 			if (page_start == cur_offset)
 				break;
-		}
+			bo = RB_RIGHT(bo, vm_rb);
+		} else
+			bo = RB_LEFT(bo, vm_rb);
 	}
 
 	if (unlikely(best_bo == NULL))

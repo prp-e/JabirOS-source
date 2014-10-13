@@ -1,5 +1,5 @@
 #
-# $FreeBSD: release/10.0.0/tools/kerneldoc/subsys/Makefile 196511 2009-08-24 13:10:55Z netchild $
+# $FreeBSD: stable/10/tools/kerneldoc/subsys/Makefile 196511 2009-08-24 13:10:55Z netchild $
 #
 
 _ALL!=	cd ${.CURDIR} && ls Doxyfile-*

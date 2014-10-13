@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/5/93
-# $FreeBSD: release/10.0.0/sbin/route/Makefile 253427 2013-07-17 14:05:20Z hrs $
+# $FreeBSD: stable/10/sbin/route/Makefile 253427 2013-07-17 14:05:20Z hrs $
 
 .include <bsd.own.mk>
 

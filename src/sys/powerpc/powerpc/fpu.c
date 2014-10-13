@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/powerpc/fpu.c 139825 2005-01-07 02:29:27Z imp $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/powerpc/fpu.c 266004 2014-05-14 04:42:38Z ian $");
 
 #include <sys/param.h>
 #include <sys/proc.h>
@@ -66,10 +66,11 @@ enable_fpu(struct thread *td)
 	 * initialise the FPU registers and FPSCR to 0, and set the flag
 	 * to indicate that the FPU is in use.
 	 */
+	pcb->pcb_flags |= PCB_FPU;
 	tf->srr1 |= PSL_FP;
-	if (!(pcb->pcb_flags & PCB_FPU)) {
+	if (!(pcb->pcb_flags & PCB_FPREGS)) {
 		memset(&pcb->pcb_fpu, 0, sizeof pcb->pcb_fpu);
-		pcb->pcb_flags |= PCB_FPU;
+		pcb->pcb_flags |= PCB_FPREGS;
 	}
 
 	/*

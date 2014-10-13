@@ -24,7 +24,7 @@
  * SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/wii/wii_pic.c 249826 2013-04-24 01:36:35Z rpaulo $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/wii/wii_pic.c 249826 2013-04-24 01:36:35Z rpaulo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

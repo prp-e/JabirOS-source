@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/geom/raid/g_raid.h 254275 2013-08-13 07:56:40Z mav $
+ * $FreeBSD: stable/10/sys/geom/raid/g_raid.h 260385 2014-01-07 01:32:23Z scottl $
  */
 
 #ifndef	_G_RAID_H_
@@ -376,6 +376,7 @@ struct g_raid_tr_class {
 	KOBJ_CLASS_FIELDS;
 	int		 trc_enable;
 	int		 trc_priority;
+	int		 trc_accept_unmapped;
 	LIST_ENTRY(g_raid_tr_class) trc_list;
 };
 

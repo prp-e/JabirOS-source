@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/usr.bin/less/defines.h 242618 2012-11-05 17:42:50Z delphij $ */
+/* $FreeBSD: stable/10/usr.bin/less/defines.h 242618 2012-11-05 17:42:50Z delphij $ */
 /* defines.h.  Generated from defines.h.in by configure.  */
 /* defines.h.in.  Generated from configure.ac by autoheader.  */
 

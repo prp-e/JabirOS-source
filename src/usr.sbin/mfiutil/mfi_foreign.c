@@ -24,7 +24,7 @@
  * SUCH DAMAGE.
  *
  *
- * $FreeBSD: release/10.0.0/usr.sbin/mfiutil/mfi_foreign.c 251516 2013-06-08 02:54:59Z sbruno $
+ * $FreeBSD: stable/10/usr.sbin/mfiutil/mfi_foreign.c 251516 2013-06-08 02:54:59Z sbruno $
  */
 
 #include <sys/param.h>

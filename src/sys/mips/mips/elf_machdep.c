@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/mips/elf_machdep.c 230046 2012-01-13 07:00:47Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/mips/elf_machdep.c 230046 2012-01-13 07:00:47Z gonzo $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

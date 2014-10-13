@@ -25,7 +25,7 @@
 #include "opt_uart.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/atheros/uart_bus_ar933x.c 253509 2013-07-21 03:54:39Z adrian $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/atheros/uart_bus_ar933x.c 253509 2013-07-21 03:54:39Z adrian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/netinet/ip_options.h 241480 2012-10-12 09:24:24Z glebius $
+ * $FreeBSD: stable/10/sys/netinet/ip_options.h 241480 2012-10-12 09:24:24Z glebius $
  */
 
 #ifndef _NETINET_IP_OPTIONS_H_

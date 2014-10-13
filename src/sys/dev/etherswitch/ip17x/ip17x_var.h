@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/etherswitch/ip17x/ip17x_var.h 250386 2013-05-08 20:58:41Z adrian $
+ * $FreeBSD: stable/10/sys/dev/etherswitch/ip17x/ip17x_var.h 250386 2013-05-08 20:58:41Z adrian $
  */
 
 #ifndef	__IP17X_VAR_H__

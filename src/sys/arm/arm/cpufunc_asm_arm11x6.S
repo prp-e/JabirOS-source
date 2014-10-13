@@ -60,7 +60,7 @@
 
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/arm/cpufunc_asm_arm11x6.S 248361 2013-03-16 02:48:49Z andrew $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/arm/cpufunc_asm_arm11x6.S 266359 2014-05-17 21:28:49Z ian $");
 
 	.cpu arm1136js
 
@@ -114,12 +114,7 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/arm/cpufunc_asm_arm11x6.S 248361 2013
 #endif
 
 ENTRY(arm11x6_setttb)
-#ifdef PMAP_CACHE_VIVT
-	Flush_D_cache(r1)
-	Invalidate_I_cache(r1, r2)
-#else
 	mov	r1, #0
-#endif
 	mcr	p15, 0, r0, c2, c0, 0	/* load new TTB */
 	mcr	p15, 0, r1, c8, c7, 0	/* invalidate I+D TLBs */
 	mcr	p15, 0, r1, c7, c10, 4	/* drain write buffer */

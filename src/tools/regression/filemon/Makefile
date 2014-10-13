@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/tools/regression/filemon/Makefile 251368 2013-06-04 06:38:01Z obrien $
+# $FreeBSD: stable/10/tools/regression/filemon/Makefile 251368 2013-06-04 06:38:01Z obrien $
 
 .if ${MACHINE_ARCH} == "amd64" || ${MACHINE_ARCH} == "ia64"
 BI_BITS=

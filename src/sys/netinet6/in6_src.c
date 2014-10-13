@@ -61,7 +61,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netinet6/in6_src.c 249546 2013-04-16 11:31:26Z ae $");
+__FBSDID("$FreeBSD: stable/10/sys/netinet6/in6_src.c 271288 2014-09-08 19:40:59Z ae $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"
@@ -441,6 +441,14 @@ in6_selectsrc(struct sockaddr_in6 *dstsock, struct ip6_pktopts *opts,
 		if (!(ia_best->ia_ifp->if_flags & IFF_UP) &&
 		    (ia->ia_ifp->if_flags & IFF_UP))
 			REPLACE(8);
+
+		/*
+		 * Rule 9: prefer address with better virtual status.
+		 */
+		if (ifa_preferred(&ia_best->ia_ifa, &ia->ia_ifa))
+			REPLACE(9);
+		if (ifa_preferred(&ia->ia_ifa, &ia_best->ia_ifa))
+			NEXT(9);
 
 		/*
 		 * Rule 14: Use longest matching prefix.

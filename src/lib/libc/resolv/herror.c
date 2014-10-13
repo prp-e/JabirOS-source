@@ -46,10 +46,10 @@
 
 #if defined(LIBC_SCCS) && !defined(lint)
 static const char sccsid[] = "@(#)herror.c	8.1 (Berkeley) 6/4/93";
-static const char rcsid[] = "$Id: herror.c,v 1.3.18.1 2005/04/27 05:01:09 sra Exp $";
+static const char rcsid[] = "$Id: herror.c,v 1.4 2005/04/27 04:56:41 sra Exp $";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/resolv/herror.c 170244 2007-06-03 17:20:27Z ume $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/resolv/herror.c 270838 2014-08-30 10:16:25Z ume $");
 
 #include "port_before.h"
 

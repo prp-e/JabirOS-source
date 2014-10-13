@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/locale/mbrtoc32.c 250883 2013-05-21 19:59:37Z ed $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/locale/mbrtoc32.c 250883 2013-05-21 19:59:37Z ed $");
 
 #include <uchar.h>
 #include <wchar.h>

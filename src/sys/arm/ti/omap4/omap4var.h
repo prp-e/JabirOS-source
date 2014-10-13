@@ -26,7 +26,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/ti/omap4/omap4var.h 239281 2012-08-15 06:31:32Z gonzo $
+ * $FreeBSD: stable/10/sys/arm/ti/omap4/omap4var.h 239281 2012-08-15 06:31:32Z gonzo $
  */
 
 #ifndef _OMAP4VAR_H_

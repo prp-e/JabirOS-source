@@ -1,5 +1,5 @@
 # Omap4430 generic configuration
-#$FreeBSD: release/10.0.0/sys/arm/ti/omap4/std.omap4 245203 2013-01-09 01:54:17Z cognet $
+#$FreeBSD: stable/10/sys/arm/ti/omap4/std.omap4 266110 2014-05-15 02:41:23Z ian $
 files		"../ti/omap4/files.omap4"
 include		"../ti/std.ti"
 makeoption	ARM_LITTLE_ENDIAN
@@ -13,8 +13,6 @@ options		KERNPHYSADDR=0x80200000
 makeoptions	KERNPHYSADDR=0x80200000
 options		KERNVIRTADDR=0xc0200000		# Used in ldscript.arm
 makeoptions	KERNVIRTADDR=0xc0200000
-
-options		STARTUP_PAGETABLE_ADDR=0x80000000
 
 options		SOC_OMAP4
 

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sbin/devd/devd.hh 247760 2013-03-04 02:21:24Z eadler $
+ * $FreeBSD: stable/10/sbin/devd/devd.hh 247760 2013-03-04 02:21:24Z eadler $
  */
 
 #ifndef DEVD_HH

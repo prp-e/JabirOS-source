@@ -1,6 +1,6 @@
 #! /bin/sh
 #
-# $FreeBSD: release/10.0.0/tools/regression/geom_eli/resize.t 226729 2011-10-25 13:41:12Z pjd $
+# $FreeBSD: stable/10/tools/regression/geom_eli/resize.t 226729 2011-10-25 13:41:12Z pjd $
 
 echo 1..27
 

@@ -16,7 +16,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/boot/powerpc/boot1.chrp/boot1.c 243254 2012-11-19 01:15:32Z trasz $");
+__FBSDID("$FreeBSD: stable/10/sys/boot/powerpc/boot1.chrp/boot1.c 243254 2012-11-19 01:15:32Z trasz $");
 
 #include <sys/param.h>
 #include <sys/dirent.h>

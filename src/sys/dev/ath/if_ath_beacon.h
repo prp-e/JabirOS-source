@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: release/10.0.0/sys/dev/ath/if_ath_beacon.h 248671 2013-03-24 00:03:12Z adrian $
+ * $FreeBSD: stable/10/sys/dev/ath/if_ath_beacon.h 248671 2013-03-24 00:03:12Z adrian $
  */
 #ifndef	__IF_ATH_BEACON_H__
 #define	__IF_ATH_BEACON_H__

@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/contrib/ipfilter/netinet/ip_frag.c 255332 2013-09-06 23:11:19Z cy $	*/
+/*	$FreeBSD: stable/10/sys/contrib/ipfilter/netinet/ip_frag.c 266829 2014-05-29 02:55:07Z cy $	*/
 
 /*
  * Copyright (C) 2012 by Darren Reed.
@@ -86,30 +86,9 @@ struct file;
 
 #if !defined(lint)
 static const char sccsid[] = "@(#)ip_frag.c	1.11 3/24/96 (C) 1993-2000 Darren Reed";
-static const char rcsid[] = "@(#)$FreeBSD: release/10.0.0/sys/contrib/ipfilter/netinet/ip_frag.c 255332 2013-09-06 23:11:19Z cy $";
+static const char rcsid[] = "@(#)$FreeBSD: stable/10/sys/contrib/ipfilter/netinet/ip_frag.c 266829 2014-05-29 02:55:07Z cy $";
 /* static const char rcsid[] = "@(#)$Id: ip_frag.c,v 2.77.2.12 2007/09/20 12:51:51 darrenr Exp $"; */
 #endif
-
-
-typedef struct ipf_frag_softc_s  {
-	ipfrwlock_t	ipfr_ipidfrag;
-	ipfrwlock_t	ipfr_frag;
-	ipfrwlock_t	ipfr_natfrag;
-	int		ipfr_size;
-	int		ipfr_ttl;
-	int		ipfr_lock;
-	int		ipfr_inited;
-	ipfr_t		*ipfr_list;
-	ipfr_t		**ipfr_tail;
-	ipfr_t		*ipfr_natlist;
-	ipfr_t		**ipfr_nattail;
-	ipfr_t		*ipfr_ipidlist;
-	ipfr_t		**ipfr_ipidtail;
-	ipfr_t		**ipfr_heads;
-	ipfr_t		**ipfr_nattab;
-	ipfr_t		**ipfr_ipidtab;
-	ipfrstat_t	ipfr_stats;
-} ipf_frag_softc_t;
 
 
 #ifdef USE_MUTEXES

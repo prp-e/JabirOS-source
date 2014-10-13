@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/tty_ttydisc.c 242078 2012-10-25 09:05:21Z ed $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/tty_ttydisc.c 242078 2012-10-25 09:05:21Z ed $");
 
 #include <sys/param.h>
 #include <sys/fcntl.h>

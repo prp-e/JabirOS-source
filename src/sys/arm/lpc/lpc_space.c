@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/lpc/lpc_space.c 239278 2012-08-15 05:37:10Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/lpc/lpc_space.c 239278 2012-08-15 05:37:10Z gonzo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

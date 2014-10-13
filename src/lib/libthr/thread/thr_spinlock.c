@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/libthr/thread/thr_spinlock.c 178446 2008-04-23 21:06:51Z delphij $
+ * $FreeBSD: stable/10/lib/libthr/thread/thr_spinlock.c 178446 2008-04-23 21:06:51Z delphij $
  *
  */
 

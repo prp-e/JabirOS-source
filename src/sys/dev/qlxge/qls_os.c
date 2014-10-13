@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/qlxge/qls_os.c 252206 2013-06-25 17:50:22Z davidcs $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/qlxge/qls_os.c 252206 2013-06-25 17:50:22Z davidcs $");
 
 
 #include "qls_os.h"

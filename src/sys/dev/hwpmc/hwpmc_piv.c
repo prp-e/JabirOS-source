@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/hwpmc/hwpmc_piv.c 233628 2012-03-28 20:58:30Z fabient $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/hwpmc/hwpmc_piv.c 263357 2014-03-19 13:02:17Z kib $");
 
 #include <sys/param.h>
 #include <sys/bus.h>
@@ -1620,8 +1620,7 @@ pmc_p4_initialize(struct pmc_mdep *md, int ncpus)
 	PMCDBG(MDP,INI,1, "%s", "p4-initialize");
 
 	/* Allocate space for pointers to per-cpu descriptors. */
-	p4_pcpu = malloc(sizeof(struct p4_cpu **) * ncpus, M_PMC,
-	    M_ZERO|M_WAITOK);
+	p4_pcpu = malloc(sizeof(*p4_pcpu) * ncpus, M_PMC, M_ZERO | M_WAITOK);
 
 	/* Fill in the class dependent descriptor. */
 	pcd = &md->pmd_classdep[PMC_MDEP_CLASS_INDEX_P4];

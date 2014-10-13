@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/usb/controller/ehci_mv.c 228483 2011-12-14 00:28:54Z hselasky $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/usb/controller/ehci_mv.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include "opt_bus.h"
 
@@ -102,6 +102,9 @@ static void *ih_err;
 static int
 mv_ehci_probe(device_t self)
 {
+
+	if (!ofw_bus_status_okay(self))
+		return (ENXIO);
 
 	if (!ofw_bus_is_compatible(self, "mrvl,usb-ehci"))
 		return (ENXIO);

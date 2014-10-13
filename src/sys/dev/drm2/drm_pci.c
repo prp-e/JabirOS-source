@@ -22,7 +22,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/drm_pci.c 259376 2013-12-14 01:01:32Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm_pci.c 259237 2013-12-11 23:15:19Z dumbbell $");
 
 /**
  * \file drm_pci.h

@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/5/93
-# $FreeBSD: release/10.0.0/share/Makefile 257572 2013-11-03 13:00:12Z bdrewery $
+# $FreeBSD: stable/10/share/Makefile 268399 2014-07-08 14:04:36Z emaste $
 
 .include <bsd.own.mk>
 
@@ -26,7 +26,9 @@ SUBDIR=	${_colldef} \
 	${_syscons} \
 	tabset \
 	termcap \
+	${_tests} \
 	${_timedef} \
+	${_vt} \
 	${_zoneinfo}
 
 # NB: keep these sorted by MK_* knobs
@@ -78,6 +80,14 @@ _doc=		doc
 
 .if ${MK_SYSCONS} != "no"
 _syscons=	syscons
+.endif
+
+.if ${MK_TESTS} != "no"
+_tests=		tests
+.endif
+
+.if ${MK_VT} != "no"
+_vt=		vt
 .endif
 
 .if ${MK_ZONEINFO} != "no"

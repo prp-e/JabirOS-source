@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)mman.h	8.2 (Berkeley) 1/9/95
- * $FreeBSD: release/10.0.0/sys/sys/mman.h 255426 2013-09-09 18:11:59Z jhb $
+ * $FreeBSD: stable/10/sys/sys/mman.h 271399 2014-09-10 15:45:18Z jhb $
  */
 
 #ifndef _SYS_MMAN_H_
@@ -89,6 +89,7 @@
 /*
  * Extended flags
  */
+#define	MAP_EXCL	 0x00004000 /* for MAP_FIXED, fail if address is used */
 #define	MAP_NOCORE	 0x00020000 /* dont include these pages in a coredump */
 #define	MAP_PREFAULT_READ 0x00040000 /* prefault mapping for reading */
 #ifdef __LP64__
@@ -218,6 +219,7 @@ struct shmfd {
 	struct timespec	shm_mtime;
 	struct timespec	shm_ctime;
 	struct timespec	shm_birthtime;
+	ino_t		shm_ino;
 
 	struct label	*shm_label;		/* MAC label */
 	const char	*shm_path;

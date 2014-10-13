@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libkse/Makefile 234412 2012-04-18 07:02:53Z pluknet $
+# $FreeBSD: stable/10/lib/libkse/Makefile 234412 2012-04-18 07:02:53Z pluknet $
 #
 # All library objects contain FreeBSD revision strings by default; they may be
 # excluded as a space-saving measure.  To produce a library that does

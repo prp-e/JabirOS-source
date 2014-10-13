@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/boot/userboot/libstand/Makefile 255944 2013-09-29 20:20:17Z bdrewery $
+# $FreeBSD: stable/10/sys/boot/userboot/libstand/Makefile 260096 2013-12-30 20:15:46Z dim $
 # Originally from	$NetBSD: Makefile,v 1.21 1997/10/26 22:08:38 lukem Exp $
 #
 # Notes:
@@ -28,7 +28,7 @@ CFLAGS+= -I${.CURDIR}/../../../../lib/libstand
 CFLAGS+=	-mno-mmx -mno-3dnow -mno-sse -mno-sse2
 .endif
 .if ${MACHINE_CPUARCH} == "i386"
-CFLAGS+=	-mpreferred-stack-boundary=2
+CFLAGS.gcc+=	-mpreferred-stack-boundary=2
 CFLAGS+=	-mno-sse3
 .endif
 .if ${MACHINE} == "pc98"

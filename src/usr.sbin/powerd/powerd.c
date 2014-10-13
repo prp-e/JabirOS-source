@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/powerd/powerd.c 252713 2013-07-04 18:59:58Z wblock $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/powerd/powerd.c 262474 2014-02-25 07:55:03Z brueffer $");
 
 #include <sys/param.h>
 #include <sys/ioctl.h>
@@ -279,6 +279,7 @@ static void
 acline_init(void)
 {
 	acline_mib_len = 4;
+	acline_status = SRC_UNKNOWN;
 
 	if (sysctlnametomib(ACPIAC, acline_mib, &acline_mib_len) == 0) {
 		acline_mode = ac_sysctl;

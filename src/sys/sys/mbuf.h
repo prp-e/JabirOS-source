@@ -28,7 +28,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)mbuf.h	8.5 (Berkeley) 2/19/95
- * $FreeBSD: release/10.0.0/sys/sys/mbuf.h 255047 2013-08-29 23:46:38Z np $
+ * $FreeBSD: stable/10/sys/sys/mbuf.h 269047 2014-07-24 06:03:45Z kevlo $
  */
 
 #ifndef _SYS_MBUF_H_
@@ -201,7 +201,6 @@ struct mbuf {
 #define	m_type		m_hdr.mh_type
 #define	m_flags		m_hdr.mh_flags
 #define	m_nextpkt	m_hdr.mh_nextpkt
-#define	m_act		m_nextpkt
 #define	m_pkthdr	M_dat.MH.MH_pkthdr
 #define	m_ext		M_dat.MH.MH_dat.MH_ext
 #define	m_pktdat	M_dat.MH.MH_dat.MH_databuf
@@ -539,7 +538,7 @@ m_gettype(int size)
 		type = EXT_JUMBO16;
 		break;
 	default:
-		panic("%s: invalid cluster size", __func__);
+		panic("%s: invalid cluster size %d", __func__, size);
 	}
 
 	return (type);
@@ -588,7 +587,7 @@ m_getzone(int size)
 		zone = zone_jumbo16;
 		break;
 	default:
-		panic("%s: invalid cluster size", __func__);
+		panic("%s: invalid cluster size %d", __func__, size);
 	}
 
 	return (zone);
@@ -733,7 +732,7 @@ m_cljset(struct mbuf *m, void *cl, int type)
 		zone = zone_jumbo16;
 		break;
 	default:
-		panic("%s: unknown cluster type", __func__);
+		panic("%s: unknown cluster type %d", __func__, type);
 		break;
 	}
 

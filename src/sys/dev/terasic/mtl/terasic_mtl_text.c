@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/terasic/mtl/terasic_mtl_text.c 239691 2012-08-25 22:35:29Z rwatson $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/terasic/mtl/terasic_mtl_text.c 239691 2012-08-25 22:35:29Z rwatson $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

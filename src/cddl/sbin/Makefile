@@ -1,8 +1,12 @@
-# $FreeBSD: release/10.0.0/cddl/sbin/Makefile 168792 2007-04-16 21:20:26Z ru $
+# $FreeBSD: stable/10/cddl/sbin/Makefile 265037 2014-04-28 04:20:14Z jmmv $
 
 .include <bsd.own.mk>
 
-SUBDIR=	${_zfs} ${_zpool}
+SUBDIR=	${_tests} ${_zfs} ${_zpool}
+
+.if ${MK_TESTS} != "no"
+_tests=	tests
+.endif
 
 .if ${MK_ZFS} != "no"
 _zfs=	zfs

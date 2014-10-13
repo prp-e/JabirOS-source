@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/pseries/xics.c 255643 2013-09-17 17:37:04Z nwhitehorn $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/pseries/xics.c 266160 2014-05-15 17:30:16Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -122,9 +122,9 @@ static driver_t xics_driver = {
 static devclass_t xicp_devclass;
 static devclass_t xics_devclass;
 
-EARLY_DRIVER_MODULE(xicp, nexus, xicp_driver, xicp_devclass, 0, 0,
+EARLY_DRIVER_MODULE(xicp, ofwbus, xicp_driver, xicp_devclass, 0, 0,
     BUS_PASS_INTERRUPT-1);
-EARLY_DRIVER_MODULE(xics, nexus, xics_driver, xics_devclass, 0, 0,
+EARLY_DRIVER_MODULE(xics, ofwbus, xics_driver, xics_devclass, 0, 0,
     BUS_PASS_INTERRUPT);
 
 static int

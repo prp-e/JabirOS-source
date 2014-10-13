@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/contrib/dev/ral/rt2860.fw.uu 232946 2012-03-13 21:25:25Z bschmidt $
+# $FreeBSD: stable/10/sys/contrib/dev/ral/rt2860.fw.uu 232946 2012-03-13 21:25:25Z bschmidt $
 # 
 # Copyright (c) 2005-2008, Ralink Technology Corp.
 # 	Paul Lin <paul_lin@ralinktech.com.tw>

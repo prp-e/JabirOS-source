@@ -42,7 +42,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/crypto/siphash/siphash.c 253214 2013-07-11 16:27:11Z andre $");
+__FBSDID("$FreeBSD: stable/10/sys/crypto/siphash/siphash.c 253214 2013-07-11 16:27:11Z andre $");
 
 #include <sys/param.h>
 #include <sys/types.h>

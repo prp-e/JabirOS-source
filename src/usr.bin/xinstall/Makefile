@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/6/93
-# $FreeBSD: release/10.0.0/usr.bin/xinstall/Makefile 246784 2013-02-14 08:32:07Z hrs $
+# $FreeBSD: stable/10/usr.bin/xinstall/Makefile 246784 2013-02-14 08:32:07Z hrs $
 
 PROG=		xinstall
 PROGNAME=	install

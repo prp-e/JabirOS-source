@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/gen/utxdb.c 233345 2012-03-23 08:26:31Z ed $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/gen/utxdb.c 233345 2012-03-23 08:26:31Z ed $");
 
 #include "namespace.h"
 #include <sys/endian.h>

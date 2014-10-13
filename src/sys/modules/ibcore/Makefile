@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/ibcore/Makefile 256048 2013-10-04 11:55:20Z uqs $
+# $FreeBSD: stable/10/sys/modules/ibcore/Makefile 260495 2014-01-09 22:40:51Z dim $
 .PATH:  ${.CURDIR}/../../ofed/drivers/infiniband/core
 .PATH:  ${.CURDIR}/../../ofed/include/linux
 
@@ -20,4 +20,7 @@ CFLAGS+= -DINET6 -DINET -DOFED
 
 .include <bsd.kmod.mk>
 
-CFLAGS+= -Wno-cast-qual -Wno-pointer-arith -fms-extensions
+CFLAGS+= -Wno-cast-qual -Wno-pointer-arith ${GCC_MS_EXTENSIONS}
+
+CWARNFLAGS.cm.c=	-Wno-unused-function
+CWARNFLAGS+=		${CWARNFLAGS.${.IMPSRC:T}}

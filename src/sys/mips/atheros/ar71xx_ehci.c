@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/atheros/ar71xx_ehci.c 249125 2013-04-05 02:01:05Z adrian $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/atheros/ar71xx_ehci.c 265999 2014-05-14 01:35:43Z ian $");
 
 #include "opt_bus.h"
 
@@ -75,7 +75,7 @@ ar71xx_ehci_probe(device_t self)
 
 	device_set_desc(self, EHCI_HC_DEVSTR);
 
-	return (BUS_PROBE_DEFAULT);
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 static int

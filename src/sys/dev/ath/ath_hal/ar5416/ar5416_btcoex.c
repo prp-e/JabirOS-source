@@ -15,7 +15,7 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/ath/ath_hal/ar5416/ar5416_btcoex.c 251483 2013-06-07 05:17:58Z adrian $
+ * $FreeBSD: stable/10/sys/dev/ath/ath_hal/ar5416/ar5416_btcoex.c 251483 2013-06-07 05:17:58Z adrian $
  */
 
 #include "opt_ah.h"

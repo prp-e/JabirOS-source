@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	From: @(#)if.h	8.1 (Berkeley) 6/10/93
- * $FreeBSD: release/10.0.0/sys/net/if_var.h 252854 2013-07-05 23:40:08Z cperciva $
+ * $FreeBSD: stable/10/sys/net/if_var.h 267186 2014-06-06 20:35:40Z asomers $
  */
 
 #ifndef	_NET_IF_VAR_H_
@@ -941,7 +941,9 @@ struct	ifaddr *ifa_ifwithaddr(struct sockaddr *);
 int		ifa_ifwithaddr_check(struct sockaddr *);
 struct	ifaddr *ifa_ifwithbroadaddr(struct sockaddr *);
 struct	ifaddr *ifa_ifwithdstaddr(struct sockaddr *);
+struct	ifaddr *ifa_ifwithdstaddr_fib(struct sockaddr *, int);
 struct	ifaddr *ifa_ifwithnet(struct sockaddr *, int);
+struct	ifaddr *ifa_ifwithnet_fib(struct sockaddr *, int, int);
 struct	ifaddr *ifa_ifwithroute(int, struct sockaddr *, struct sockaddr *);
 struct	ifaddr *ifa_ifwithroute_fib(int, struct sockaddr *, struct sockaddr *, u_int);
 struct	ifaddr *ifaof_ifpforaddr(struct sockaddr *, struct ifnet *);

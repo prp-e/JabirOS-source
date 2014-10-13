@@ -43,7 +43,7 @@
 
 #ifndef lint
 static const char rcsid[] =
-	"$FreeBSD: release/10.0.0/usr.bin/mktemp/mktemp.c 241118 2012-10-02 00:30:26Z eadler $";
+	"$FreeBSD: stable/10/usr.bin/mktemp/mktemp.c 241118 2012-10-02 00:30:26Z eadler $";
 #endif /* not lint */
 
 static void usage(void);

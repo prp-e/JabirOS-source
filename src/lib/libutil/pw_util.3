@@ -22,7 +22,7 @@
 .\" OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 .\" SUCH DAMAGE.
 .\"
-.\" $FreeBSD: release/10.0.0/lib/libutil/pw_util.3 242503 2012-11-03 00:30:22Z bapt $
+.\" $FreeBSD: stable/10/lib/libutil/pw_util.3 261954 2014-02-16 02:33:59Z eadler $
 .\"
 .Dd October 30, 2012
 .Dt PW_UTIL 3
@@ -48,13 +48,13 @@
 .In pwd.h
 .In libutil.h
 .Ft int
-.Fn pw_copy "int ffd" "int tfd" "const struct passwd *pw" "const struct passwd *oldpw"
+.Fn pw_copy "int ffd" "int tfd" "const struct passwd *pw" "struct passwd *oldpw"
 .Ft "struct passwd *"
 .Fn pw_dup "const struct passwd *pw"
 .Ft int
 .Fn pw_edit "int nosetuid"
 .Ft int
-.Fn pw_equal "const struct passwd *pw1" "const struct passwd pw2"
+.Fn pw_equal "const struct passwd *pw1" "const struct passwd *pw2"
 .Ft void
 .Fn pw_fini "void"
 .Ft int

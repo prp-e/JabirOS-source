@@ -19,7 +19,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/vfs_aio.c 255241 2013-09-05 11:59:23Z pjd $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/vfs_aio.c 255241 2013-09-05 11:59:23Z pjd $");
 
 #include "opt_compat.h"
 

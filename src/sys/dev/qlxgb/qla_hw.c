@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/qlxgb/qla_hw.c 254804 2013-08-24 19:51:18Z andre $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/qlxgb/qla_hw.c 261864 2014-02-14 02:48:14Z davidcs $");
 
 #include "qla_os.h"
 #include "qla_reg.h"
@@ -998,7 +998,6 @@ qla_hw_send(qla_host_t *ha, bus_dma_segment_t *segs, int nsegs,
 	if (hdr_len == 0) {
 		if ((nsegs > Q8_TX_MAX_SEGMENTS) ||
 			(mp->m_pkthdr.len > ha->max_frame_size)){
-			/* TBD: copy into private buffer and send it */
         		device_printf(dev,
 				"%s: (nsegs[%d, %d, 0x%b] > Q8_TX_MAX_SEGMENTS)\n",
 				__func__, nsegs, mp->m_pkthdr.len,

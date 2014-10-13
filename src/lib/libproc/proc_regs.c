@@ -28,7 +28,7 @@
  */ 
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libproc/proc_regs.c 242723 2012-11-07 23:45:09Z jhibbits $");
+__FBSDID("$FreeBSD: stable/10/lib/libproc/proc_regs.c 259895 2013-12-25 22:36:27Z markj $");
 
 #include <sys/types.h>
 #include <sys/ptrace.h>
@@ -76,7 +76,7 @@ proc_regget(struct proc_handle *phdl, proc_reg_t reg, unsigned long *regvalue)
 #endif
 		break;
 	default:
-		warn("ERROR: no support for reg number %d", reg);
+		DPRINTFX("ERROR: no support for reg number %d", reg);
 		return (-1);
 	}
 
@@ -119,7 +119,7 @@ proc_regset(struct proc_handle *phdl, proc_reg_t reg, unsigned long regvalue)
 #endif
 		break;
 	default:
-		warn("ERROR: no support for reg number %d", reg);
+		DPRINTFX("ERROR: no support for reg number %d", reg);
 		return (-1);
 	}
 	if (ptrace(PT_SETREGS, proc_getpid(phdl), (caddr_t)&regs, 0) < 0)

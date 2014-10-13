@@ -36,7 +36,7 @@
  *
  *	@(#)table.h	8.1 (Berkeley) 6/5/93
  *
- * $FreeBSD: release/10.0.0/usr.sbin/IPXrouted/table.h 50479 1999-08-28 01:35:59Z peter $
+ * $FreeBSD: stable/10/usr.sbin/IPXrouted/table.h 264298 2014-04-09 11:10:44Z glebius $
  */
 
 /*
@@ -54,15 +54,10 @@ struct rthash {
 	struct	rt_entry *rt_back;
 };
 
-#ifdef RTM_ADD
-#define rtentry ortentry
-#endif
-
 struct rt_entry {
 	struct	rt_entry *rt_forw;
 	struct	rt_entry *rt_back;
 	union {
-		struct	rtentry rtu_rt;
 		struct  rtuentry {
 			u_long	rtu_hash;
 			struct	sockaddr rtu_dst;

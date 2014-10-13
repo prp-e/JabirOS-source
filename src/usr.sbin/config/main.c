@@ -38,7 +38,7 @@ static const char copyright[] =
 static char sccsid[] = "@(#)main.c	8.1 (Berkeley) 6/6/93";
 #endif
 static const char rcsid[] =
-  "$FreeBSD: release/10.0.0/usr.sbin/config/main.c 250133 2013-05-01 05:14:59Z wkoszek $";
+  "$FreeBSD: stable/10/usr.sbin/config/main.c 264325 2014-04-10 19:51:33Z asomers $";
 #endif /* not lint */
 
 #include <sys/types.h>
@@ -110,14 +110,24 @@ main(int argc, char **argv)
 	int ch, len;
 	char *p;
 	char *kernfile;
+	struct includepath* ipath;
 	int printmachine;
 
 	printmachine = 0;
 	kernfile = NULL;
-	while ((ch = getopt(argc, argv, "Cd:gmpVx:")) != -1)
+	SLIST_INIT(&includepath);
+	while ((ch = getopt(argc, argv, "CI:d:gmpVx:")) != -1)
 		switch (ch) {
 		case 'C':
 			filebased = 1;
+			break;
+		case 'I':
+			ipath = (struct includepath *) \
+			    	calloc(1, sizeof (struct includepath));
+			if (ipath == NULL)
+				err(EXIT_FAILURE, "calloc");
+			ipath->path = optarg;
+			SLIST_INSERT_HEAD(&includepath, ipath, path_next);
 			break;
 		case 'm':
 			printmachine = 1;

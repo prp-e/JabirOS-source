@@ -1,5 +1,5 @@
 /*	$OpenBSD: ohash_int.h,v 1.3 2006/01/16 15:52:25 espie Exp $	*/
-/* $FreeBSD: release/10.0.0/usr.bin/m4/lib/ohash_int.h 228063 2011-11-28 13:32:39Z bapt $ */
+/* $FreeBSD: stable/10/usr.bin/m4/lib/ohash_int.h 228063 2011-11-28 13:32:39Z bapt $ */
 
 #if HAVE_NBTOOL_CONFIG_H
 #include "nbtool_config.h"

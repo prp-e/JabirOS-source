@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/booke/machdep_e500.c 236324 2012-05-30 17:34:40Z raj $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/booke/machdep_e500.c 265996 2014-05-14 00:51:26Z ian $");
 
 #include <sys/types.h>
 #include <sys/reboot.h>
@@ -47,8 +47,6 @@ void
 booke_init_tlb(vm_paddr_t fdt_immr_pa)
 {
 
-	/* Initialize TLB1 handling */
-	tlb1_init(fdt_immr_pa);
 }
 
 void

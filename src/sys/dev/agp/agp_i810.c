@@ -38,7 +38,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/agp/agp_i810.c 254649 2013-08-22 07:39:53Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/agp/agp_i810.c 261455 2014-02-04 03:36:42Z eadler $");
 
 #if 0
 #define	KTR_AGP_I810	KTR_DEV
@@ -2226,10 +2226,10 @@ agp_i830_chipset_flush(device_t dev)
 	sc = device_get_softc(dev);
 	pmap_invalidate_cache();
 	hic = bus_read_4(sc->sc_res[0], AGP_I830_HIC);
-	bus_write_4(sc->sc_res[0], AGP_I830_HIC, hic | (1 << 31));
+	bus_write_4(sc->sc_res[0], AGP_I830_HIC, hic | (1U << 31));
 	for (i = 0; i < 20000 /* 1 sec */; i++) {
 		hic = bus_read_4(sc->sc_res[0], AGP_I830_HIC);
-		if ((hic & (1 << 31)) == 0)
+		if ((hic & (1U << 31)) == 0)
 			break;
 		DELAY(50);
 	}

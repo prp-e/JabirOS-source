@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/boot/sparc64/boot1/Makefile 235207 2012-05-09 19:08:54Z marius $
+# $FreeBSD: stable/10/sys/boot/sparc64/boot1/Makefile 263763 2014-03-26 07:31:57Z dim $
 
 PROG=	boot1.elf
 INTERNALPROG=
@@ -9,7 +9,9 @@ CLEANFILES=${FILES} boot1.aout
 
 BOOTBLOCKBASE= 0x4000
 
-CFLAGS+=-mcmodel=medlow -Os -I${.CURDIR}/../../common
+CFLAGS.clang+=-mcmodel=small
+CFLAGS.gcc+=-mcmodel=medlow
+CFLAGS+=-Os -I${.CURDIR}/../../common
 LDFLAGS=-Ttext ${BOOTBLOCKBASE} -Wl,-N
 
 # Construct boot1. sunlabel expects it to contain zeroed-out space for the

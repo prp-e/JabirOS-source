@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/libllvmipo/Makefile 243830 2012-12-03 19:24:08Z dim $
+# $FreeBSD: stable/10/lib/clang/libllvmipo/Makefile 243830 2012-12-03 19:24:08Z dim $
 
 .include <bsd.own.mk>
 

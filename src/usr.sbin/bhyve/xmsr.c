@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/bhyve/xmsr.c 245678 2013-01-20 03:42:49Z neel $
+ * $FreeBSD: stable/10/usr.sbin/bhyve/xmsr.c 268953 2014-07-21 19:08:02Z jhb $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/bhyve/xmsr.c 245678 2013-01-20 03:42:49Z neel $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/bhyve/xmsr.c 268953 2014-07-21 19:08:02Z jhb $");
 
 #include <sys/types.h>
 
@@ -43,6 +43,21 @@ int
 emulate_wrmsr(struct vmctx *ctx, int vcpu, uint32_t code, uint64_t val)
 {
 
-	printf("Unknown WRMSR code %x, val %lx, cpu %d\n", code, val, vcpu);
-	exit(1);
+	switch (code) {
+	case 0xd04:			/* Sandy Bridge uncore PMC MSRs */
+	case 0xc24:
+		return (0);
+	case 0x79:
+		return (0);		/* IA32_BIOS_UPDT_TRIG MSR */
+	default:
+		break;
+	}
+	return (-1);
+}
+
+int
+emulate_rdmsr(struct vmctx *ctx, int vcpu, uint32_t code, uint64_t *val)
+{
+
+	return (-1);
 }

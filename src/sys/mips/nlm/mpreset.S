@@ -26,7 +26,7 @@
  * THE POSSIBILITY OF SUCH DAMAGE.
  *
  * NETLOGIC_BSD
- * $FreeBSD: release/10.0.0/sys/mips/nlm/mpreset.S 233535 2012-03-27 07:51:42Z jchandra $
+ * $FreeBSD: stable/10/sys/mips/nlm/mpreset.S 233535 2012-03-27 07:51:42Z jchandra $
  */
 
 #include <machine/asm.h>

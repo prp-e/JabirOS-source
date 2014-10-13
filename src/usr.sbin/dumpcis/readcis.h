@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/dumpcis/readcis.h 185121 2008-11-20 08:12:26Z imp $
+ * $FreeBSD: stable/10/usr.sbin/dumpcis/readcis.h 185121 2008-11-20 08:12:26Z imp $
  */
 
 struct tuple {

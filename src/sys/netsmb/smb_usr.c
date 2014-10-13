@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netsmb/smb_usr.c 242386 2012-10-31 03:34:07Z davide $");
+__FBSDID("$FreeBSD: stable/10/sys/netsmb/smb_usr.c 242386 2012-10-31 03:34:07Z davide $");
 
 #include <sys/param.h>
 #include <sys/malloc.h>

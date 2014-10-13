@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/sparc64/sparc64/tick.c 247463 2013-02-28 13:46:03Z mav $");
+__FBSDID("$FreeBSD: stable/10/sys/sparc64/sparc64/tick.c 247463 2013-02-28 13:46:03Z mav $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

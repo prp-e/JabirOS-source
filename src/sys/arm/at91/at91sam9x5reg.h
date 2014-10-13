@@ -25,7 +25,7 @@
  * SUCH DAMAGE.
  */
 
-/* $FreeBSD: release/10.0.0/sys/arm/at91/at91sam9x5reg.h 238922 2012-07-30 21:30:43Z imp $ */
+/* $FreeBSD: stable/10/sys/arm/at91/at91sam9x5reg.h 238922 2012-07-30 21:30:43Z imp $ */
 
 #ifndef AT91SAM9X5REG_H_
 #define AT91SAM9X5REG_H_

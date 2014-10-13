@@ -28,7 +28,7 @@
  *
  * RMI_BSD */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/rmi/xlr_pci.c 227843 2011-11-22 21:28:20Z marius $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/rmi/xlr_pci.c 227843 2011-11-22 21:28:20Z marius $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

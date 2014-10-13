@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/xen/blkfront/blkfront.c 258650 2013-11-26 14:50:39Z gibbs $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/xen/blkfront/blkfront.c 271611 2014-09-15 08:58:17Z royger $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

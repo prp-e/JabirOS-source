@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/host/Makefile 255949 2013-09-30 17:23:45Z des $
+# $FreeBSD: stable/10/usr.bin/host/Makefile 270776 2014-08-29 01:20:31Z gjb $
 
 LDNSDIR=	${.CURDIR}/../../contrib/ldns
 LDNSHOSTDIR=	${.CURDIR}/../../contrib/ldns-host
@@ -8,6 +8,7 @@ LDNSHOSTDIR=	${.CURDIR}/../../contrib/ldns-host
 PROG=		host
 SRCS=		ldns-host.c
 MAN=		host.1
+CLEANFILES+=	host.1
 
 host.1: ldns-host.1
 	sed -e 's/ldns-//gI' <${.ALLSRC} >${.TARGET} || \

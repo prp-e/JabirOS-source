@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libsmdb/Makefile 201381 2010-01-02 09:58:07Z ed $
+# $FreeBSD: stable/10/lib/libsmdb/Makefile 201381 2010-01-02 09:58:07Z ed $
 
 SENDMAIL_DIR=${.CURDIR}/../../contrib/sendmail
 .PATH:	${SENDMAIL_DIR}/libsmdb

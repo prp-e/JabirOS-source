@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/amd64/vmm/intel/ept.c 256072 2013-10-05 21:22:35Z neel $
+ * $FreeBSD: stable/10/sys/amd64/vmm/intel/ept.c 266339 2014-05-17 19:11:08Z jhb $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/amd64/vmm/intel/ept.c 256072 2013-10-05 21:22:35Z neel $");
+__FBSDID("$FreeBSD: stable/10/sys/amd64/vmm/intel/ept.c 266339 2014-05-17 19:11:08Z jhb $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>
@@ -43,6 +43,7 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/amd64/vmm/intel/ept.c 256072 2013-10-05 2
 #include <machine/vmm.h>
 
 #include "vmx_cpufunc.h"
+#include "vmm_ipi.h"
 #include "vmx_msr.h"
 #include "ept.h"
 
@@ -76,7 +77,7 @@ SYSCTL_INT(_hw_vmm_ept, OID_AUTO, pmap_flags, CTLFLAG_RD,
     &ept_pmap_flags, 0, NULL);
 
 int
-ept_init(void)
+ept_init(int ipinum)
 {
 	int use_hw_ad_bits, use_superpages, use_exec_only;
 	uint64_t cap;
@@ -97,6 +98,8 @@ ept_init(void)
 	    !INVEPT_SUPPORTED(cap) ||
 	    !INVEPT_ALL_TYPES_SUPPORTED(cap))
 		return (EINVAL);
+
+	ept_pmap_flags = ipinum & PMAP_NESTED_IPIMASK;
 
 	use_superpages = 1;
 	TUNABLE_INT_FETCH("hw.vmm.ept.use_superpages", &use_superpages);

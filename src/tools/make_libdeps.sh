@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/tools/make_libdeps.sh 256998 2013-10-23 18:07:07Z bdrewery $
+# $FreeBSD: stable/10/tools/make_libdeps.sh 256998 2013-10-23 18:07:07Z bdrewery $
 
 export PATH=/bin:/usr/bin
 

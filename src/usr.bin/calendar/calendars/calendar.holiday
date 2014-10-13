@@ -1,7 +1,7 @@
 /*
  * Holiday
  *
- * $FreeBSD: release/10.0.0/usr.bin/calendar/calendars/calendar.holiday 181230 2008-08-03 09:21:47Z edwin $
+ * $FreeBSD: stable/10/usr.bin/calendar/calendars/calendar.holiday 268752 2014-07-16 12:37:36Z gavin $
  */
 
 #ifndef _calendar_holiday_
@@ -248,7 +248,7 @@
 06/30	Day of the Army in Guatemala
 06/MonFirst	Jefferson Davis's Birthday in Alabama & Mississippi (1st Monday)
 06/MonFirst	Jefferson Davis's Birthday in Florida, Georgia, & S. Carolina
-07/01	Dominion Day in Canada
+07/01	Canada Day
 07/01	Freedom Day in Suriname
 07/01	Independence Day in Burundi
 07/01	National Day in Rwanda

@@ -60,7 +60,7 @@
 __RCSID("$NetBSD: vis.c,v 1.60 2013/02/21 16:21:20 joerg Exp $");
 #endif /* LIBC_SCCS and not lint */
 #ifdef __FBSDID
-__FBSDID("$FreeBSD: release/10.0.0/contrib/libc-vis/vis.c 248302 2013-03-14 23:51:47Z brooks $");
+__FBSDID("$FreeBSD: stable/10/contrib/libc-vis/vis.c 248302 2013-03-14 23:51:47Z brooks $");
 #define	_DIAGASSERT(x)	assert(x)
 #endif
 

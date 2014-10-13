@@ -27,7 +27,7 @@
 #include "opt_platform.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/uart/uart_dev_ti8250.c 254598 2013-08-21 14:33:02Z ian $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/uart/uart_dev_ti8250.c 254598 2013-08-21 14:33:02Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

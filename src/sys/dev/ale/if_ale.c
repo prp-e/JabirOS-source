@@ -28,7 +28,7 @@
 /* Driver for Atheros AR8121/AR8113/AR8114 PCIe Ethernet. */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/ale/if_ale.c 244341 2012-12-17 06:01:57Z yongari $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/ale/if_ale.c 264446 2014-04-14 05:04:23Z yongari $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -1659,6 +1659,7 @@ ale_encap(struct ale_softc *sc, struct mbuf **m_head)
 		    (mtod(m, intptr_t) & 3) != 0) {
 			m = m_defrag(*m_head, M_NOWAIT);
 			if (m == NULL) {
+				m_freem(*m_head);
 				*m_head = NULL;
 				return (ENOBUFS);
 			}

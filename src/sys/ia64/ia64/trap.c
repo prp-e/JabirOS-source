@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/ia64/ia64/trap.c 240244 2012-09-08 18:27:11Z attilio $");
+__FBSDID("$FreeBSD: stable/10/sys/ia64/ia64/trap.c 270296 2014-08-21 19:51:07Z emaste $");
 
 #include "opt_ddb.h"
 
@@ -36,6 +36,7 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/ia64/ia64/trap.c 240244 2012-09-08 18:27:
 #include <sys/sysproto.h>
 #include <sys/kernel.h>
 #include <sys/proc.h>
+#include <sys/efi.h>
 #include <sys/exec.h>
 #include <sys/lock.h>
 #include <sys/mutex.h>
@@ -60,7 +61,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/ia64/ia64/trap.c 240244 2012-09-08 18:27:
 #include <machine/reg.h>
 #include <machine/pal.h>
 #include <machine/fpu.h>
-#include <machine/efi.h>
 #include <machine/pcb.h>
 #ifdef SMP
 #include <machine/smp.h>
@@ -354,6 +354,12 @@ trap(int vector, struct trapframe *tf)
 	ksiginfo_t ksi;
 
 	user = TRAPF_USERMODE(tf) ? 1 : 0;
+	if (user)
+		ia64_set_fpsr(IA64_FPSR_DEFAULT);
+
+#ifdef XTRACE
+	ia64_xtrace_save();
+#endif
 
 	PCPU_INC(cnt.v_trap);
 
@@ -362,7 +368,6 @@ trap(int vector, struct trapframe *tf)
 	ucode = 0;
 
 	if (user) {
-		ia64_set_fpsr(IA64_FPSR_DEFAULT);
 		td->td_pticks = 0;
 		td->td_frame = tf;
 		if (td->td_ucred != p->p_ucred)

@@ -44,7 +44,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/cpsw/if_cpsw.c 248407 2013-03-17 03:04:43Z ian $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/ti/cpsw/if_cpsw.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -64,6 +64,7 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/cpsw/if_cpsw.c 248407 2013-03-17 0
 #include <net/if_dl.h>
 #include <net/if_media.h>
 #include <net/if_types.h>
+#include <net/if_var.h>
 #include <net/if_vlan_var.h>
 
 #include <netinet/in_systm.h>
@@ -443,6 +444,9 @@ cpsw_dump_queue(struct cpsw_softc *sc, struct cpsw_slots *q)
 static int
 cpsw_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (!ofw_bus_is_compatible(dev, "ti,cpsw"))
 		return (ENXIO);

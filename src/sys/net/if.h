@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)if.h	8.1 (Berkeley) 6/10/93
- * $FreeBSD: release/10.0.0/sys/net/if.h 256218 2013-10-09 19:04:40Z glebius $
+ * $FreeBSD: stable/10/sys/net/if.h 264076 2014-04-03 14:58:52Z glebius $
  */
 
 #ifndef _NET_IF_H_
@@ -106,6 +106,9 @@ struct if_data {
 	uint64_t ifi_hwassist;		/* HW offload capabilities, see IFCAP */
 	time_t	ifi_epoch;		/* uptime at attach or stat reset */
 	struct	timeval ifi_lastchange;	/* time of last administrative change */
+#ifdef _IFI_OQDROPS
+	u_long	ifi_oqdrops;		/* dropped on output */
+#endif
 };
 
 /*-
@@ -283,6 +286,9 @@ struct if_msghdrl {
 	u_short	ifm_len;	/* length of if_msghdrl incl. if_data */
 	u_short	ifm_data_off;	/* offset of if_data from beginning */
 	struct	if_data ifm_data;/* statistics and other data about if */
+#ifdef _IN_NET_RTSOCK_C
+	u_long	ifi_oqdrops;
+#endif
 };
 
 /*

@@ -54,7 +54,7 @@
  * SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/i915/intel_iic.c 249041 2013-04-03 08:27:35Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/i915/intel_iic.c 249041 2013-04-03 08:27:35Z dumbbell $");
 
 #include <dev/drm2/drmP.h>
 #include <dev/drm2/drm.h>

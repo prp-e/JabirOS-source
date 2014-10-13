@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/include/elf.h 237430 2012-06-22 06:38:31Z kib $
+ * $FreeBSD: stable/10/sys/arm/include/elf.h 269792 2014-08-10 22:26:29Z ian $
  */
 
 #ifndef _MACHINE_ELF_H_
@@ -54,6 +54,9 @@ __ElfType(Auxinfo);
 #define	ELF_ARCH	EM_ARM
 
 #define	ELF_MACHINE_OK(x) ((x) == EM_ARM)
+
+/* Unwind info section type */
+#define	PT_ARM_EXIDX (PT_LOPROC + 1)
 
 /*
  * Relocation types.

@@ -1,4 +1,4 @@
-	# $FreeBSD: release/10.0.0/secure/lib/libcrypto/i386/x86-gf2m.s 238405 2012-07-12 19:30:53Z jkim $
+	# $FreeBSD: stable/10/secure/lib/libcrypto/i386/x86-gf2m.s 238405 2012-07-12 19:30:53Z jkim $
 .file	"x86-gf2m.s"
 .text
 .type	_mul_1x1_mmx,@function

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/amd64/amd64/minidump_machdep.c 257575 2013-11-03 16:03:19Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/amd64/amd64/minidump_machdep.c 257575 2013-11-03 16:03:19Z kib $");
 
 #include "opt_pmap.h"
 #include "opt_watchdog.h"

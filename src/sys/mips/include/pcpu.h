@@ -25,7 +25,7 @@
  * SUCH DAMAGE.
  *
  *	from: src/sys/alpha/include/pcpu.h,v 1.15 2004/11/05 19:16:44 jhb
- * $FreeBSD: release/10.0.0/sys/mips/include/pcpu.h 249265 2013-04-08 19:19:10Z glebius $
+ * $FreeBSD: stable/10/sys/mips/include/pcpu.h 249265 2013-04-08 19:19:10Z glebius $
  */
 
 #ifndef _MACHINE_PCPU_H_

@@ -1,5 +1,5 @@
-/*	$NetBSD: grep.c,v 1.4 2011/02/16 01:31:33 joerg Exp $	*/
-/* 	$FreeBSD: release/10.0.0/usr.bin/grep/grep.c 245688 2013-01-20 11:58:49Z gabor $	*/
+/*	$NetBSD: grep.c,v 1.6 2011/04/18 03:48:23 joerg Exp $	*/
+/* 	$FreeBSD: stable/10/usr.bin/grep/grep.c 268966 2014-07-21 22:59:40Z pfg $	*/
 /*	$OpenBSD: grep.c,v 1.42 2010/07/02 22:18:03 tedu Exp $	*/
 
 /*-
@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/grep/grep.c 245688 2013-01-20 11:58:49Z gabor $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/grep/grep.c 268966 2014-07-21 22:59:40Z pfg $");
 
 #include <sys/stat.h>
 #include <sys/types.h>
@@ -44,6 +44,7 @@ __FBSDID("$FreeBSD: release/10.0.0/usr.bin/grep/grep.c 245688 2013-01-20 11:58:4
 #include <libgen.h>
 #include <locale.h>
 #include <stdbool.h>
+#define _WITH_GETLINE
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -304,6 +305,7 @@ read_patterns(const char *fn)
 	FILE *f;
 	char *line;
 	size_t len;
+	ssize_t rlen;
 
 	if ((f = fopen(fn, "r")) == NULL)
 		err(2, "%s", fn);
@@ -311,8 +313,11 @@ read_patterns(const char *fn)
 		fclose(f);
 		return;
 	}
-        while ((line = fgetln(f, &len)) != NULL)
+	len = 0;
+	line = NULL;
+	while ((rlen = getline(&line, &len, f)) != -1)
 		add_pattern(line, line[0] == '\n' ? 0 : len);
+	free(line);
 	if (ferror(f))
 		err(2, "%s", fn);
 	fclose(f);

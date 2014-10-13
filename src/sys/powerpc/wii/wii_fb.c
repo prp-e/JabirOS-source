@@ -25,7 +25,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/wii/wii_fb.c 249965 2013-04-27 01:57:45Z rpaulo $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/wii/wii_fb.c 249965 2013-04-27 01:57:45Z rpaulo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

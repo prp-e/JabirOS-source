@@ -24,12 +24,14 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/powerpc/aim/interrupt.c 222614 2011-06-02 14:15:44Z nwhitehorn $
+ * $FreeBSD: stable/10/sys/powerpc/aim/interrupt.c 260667 2014-01-15 04:16:45Z jhibbits $
  */
 
 /*
  * Interrupts are dispatched to here from locore asm
  */
+
+#include "opt_hwpmc_hooks.h"
 
 #include <sys/cdefs.h>                  /* RCS ID & Copyright macro defns */
 
@@ -43,6 +45,9 @@
 #include <sys/lock.h>
 #include <sys/malloc.h>
 #include <sys/mutex.h>
+#ifdef HWPMC_HOOKS
+#include <sys/pmckern.h>
+#endif
 #include <sys/proc.h>
 #include <sys/smp.h>
 #include <sys/unistd.h>
@@ -96,6 +101,16 @@ powerpc_interrupt(struct trapframe *framep)
 		atomic_subtract_int(&td->td_intr_nesting_level, 1);
 		critical_exit();
 		break;
+#ifdef HWPMC_HOOKS
+	case EXC_PERF:
+		critical_enter();
+		KASSERT(pmc_intr != NULL, ("Performance exception, but no handler!"));
+		(*pmc_intr)(PCPU_GET(cpuid), framep);
+		if (pmc_hook && (PCPU_GET(curthread)->td_pflags & TDP_CALLCHAIN))
+			pmc_hook(PCPU_GET(curthread), PMC_FN_USER_CALLCHAIN, framep);
+		critical_exit();
+		break;
+#endif
 
 	default:
 		/* Re-enable interrupts if applicable. */

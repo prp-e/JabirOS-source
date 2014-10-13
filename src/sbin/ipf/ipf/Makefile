@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sbin/ipf/ipf/Makefile 255332 2013-09-06 23:11:19Z cy $
+# $FreeBSD: stable/10/sbin/ipf/ipf/Makefile 255332 2013-09-06 23:11:19Z cy $
 
 PROG=		ipf
 SRCS=		${GENHDRS} ipf.c ipfcomp.c ipf_y.c ipf_l.c bpf_filter.c

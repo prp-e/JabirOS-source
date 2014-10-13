@@ -1,6 +1,6 @@
 #	@(#)Makefile	5.2 (Berkeley) 12/28/90
 #	$Id: Makefile,v 1.6 1994/06/30 05:33:39 cgd Exp $
-# $FreeBSD: release/10.0.0/usr.bin/make/Makefile 250719 2013-05-16 21:26:46Z sjg $
+# $FreeBSD: stable/10/usr.bin/make/Makefile 264996 2014-04-27 01:15:10Z jmmv $
 
 .include <bsd.own.mk>
 
@@ -116,6 +116,10 @@ CFLAGS+=	-DDEFSHELLNAME=\"${MAKE_SHELL}\"
 PROG=	fmake
 fmake.1: make.1
 	cp ${.ALLSRC} ${.TARGET}
+.endif
+
+.if ${MK_TESTS} != "no"
+SUBDIR+= tests
 .endif
 
 .include <bsd.prog.mk>

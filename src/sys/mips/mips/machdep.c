@@ -40,7 +40,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/mips/machdep.c 248084 2013-03-09 02:32:23Z attilio $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/mips/machdep.c 262717 2014-03-03 20:28:27Z brooks $");
 
 #include "opt_ddb.h"
 #include "opt_md.h"
@@ -351,7 +351,7 @@ mips_vector_init(void)
 	 * XXXRW: Why don't we install the XTLB handler for all 64-bit
 	 * architectures?
 	 */
-#if defined(__mips_n64) || defined(CPU_RMI) || defined(CPU_NLM) || defined (CPU_BERI)
+#if defined(__mips_n64) || defined(CPU_RMI) || defined(CPU_NLM) || defined(CPU_BERI)
 /* Fake, but sufficient, for the 32-bit with 64-bit hardware addresses  */
 	bcopy(MipsTLBMiss, (void *)MIPS_XTLB_MISS_EXC_VEC,
 	      MipsTLBMissEnd - MipsTLBMiss);

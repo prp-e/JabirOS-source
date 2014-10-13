@@ -37,7 +37,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/security/mac_bsdextended/mac_bsdextended.c 227309 2011-11-07 15:43:11Z ed $
+ * $FreeBSD: stable/10/sys/security/mac_bsdextended/mac_bsdextended.c 227309 2011-11-07 15:43:11Z ed $
  */
 
 /*

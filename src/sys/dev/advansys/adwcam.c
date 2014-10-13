@@ -44,7 +44,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/advansys/adwcam.c 246713 2013-02-12 16:57:20Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/advansys/adwcam.c 259977 2013-12-28 00:16:58Z dim $");
 
 #include <sys/param.h>
 #include <sys/conf.h>
@@ -75,7 +75,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/dev/advansys/adwcam.c 246713 2013-02-12 1
 #define ccb_acb_ptr spriv_ptr0
 #define ccb_adw_ptr spriv_ptr1
 
-static __inline cam_status	adwccbstatus(union ccb*);
 static __inline struct acb*	adwgetacb(struct adw_softc *adw);
 static __inline void		adwfreeacb(struct adw_softc *adw,
 					   struct acb *acb);
@@ -99,12 +98,6 @@ static void		adw_handle_device_reset(struct adw_softc *adw,
 						u_int target);
 static void		adw_handle_bus_reset(struct adw_softc *adw,
 					     int initiated);
-
-static __inline cam_status
-adwccbstatus(union ccb* ccb)
-{
-	return (ccb->ccb_h.status & CAM_STATUS_MASK);
-}
 
 static __inline struct acb*
 adwgetacb(struct adw_softc *adw)

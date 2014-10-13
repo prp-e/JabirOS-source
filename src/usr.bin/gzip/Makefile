@@ -1,5 +1,5 @@
 #	$NetBSD: Makefile,v 1.16 2011/06/21 13:25:45 joerg Exp $
-# $FreeBSD: release/10.0.0/usr.bin/gzip/Makefile 226184 2011-10-10 06:37:32Z delphij $
+# $FreeBSD: stable/10/usr.bin/gzip/Makefile 226184 2011-10-10 06:37:32Z delphij $
 
 .include <bsd.own.mk>
 

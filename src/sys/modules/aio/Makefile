@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/aio/Makefile 185878 2008-12-10 20:56:19Z jhb $
+# $FreeBSD: stable/10/sys/modules/aio/Makefile 185878 2008-12-10 20:56:19Z jhb $
 
 .PATH: ${.CURDIR}/../../kern
 

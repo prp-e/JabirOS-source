@@ -15,7 +15,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/tools/tools/ath/athalq/ar9300_ds.c 250266 2013-05-05 09:38:25Z adrian $");
+__FBSDID("$FreeBSD: stable/10/tools/tools/ath/athalq/ar9300_ds.c 250266 2013-05-05 09:38:25Z adrian $");
 
 #include <stdio.h>
 #include <stdlib.h>

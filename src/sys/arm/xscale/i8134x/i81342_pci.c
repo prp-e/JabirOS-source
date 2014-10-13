@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/xscale/i8134x/i81342_pci.c 236987 2012-06-13 04:38:09Z imp $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/xscale/i8134x/i81342_pci.c 259329 2013-12-13 20:43:11Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -41,7 +41,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/xscale/i8134x/i81342_pci.c 236987 201
 #include <vm/vm.h>
 #include <vm/pmap.h>
 #include <vm/vm_extern.h>
-#include <machine/pmap.h>
 
 #include <arm/xscale/i8134x/i81342reg.h>
 #include <arm/xscale/i8134x/i81342var.h>

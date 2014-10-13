@@ -32,7 +32,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)buf.h	8.9 (Berkeley) 3/30/95
- * $FreeBSD: release/10.0.0/sys/sys/buf.h 254668 2013-08-22 18:26:45Z kib $
+ * $FreeBSD: stable/10/sys/sys/buf.h 254668 2013-08-22 18:26:45Z kib $
  */
 
 #ifndef _SYS_BUF_H_

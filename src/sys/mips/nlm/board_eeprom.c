@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/nlm/board_eeprom.c 233542 2012-03-27 12:25:47Z jchandra $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/nlm/board_eeprom.c 233542 2012-03-27 12:25:47Z jchandra $");
 #include <sys/param.h>
 #include <sys/endian.h>
 #include <sys/systm.h>

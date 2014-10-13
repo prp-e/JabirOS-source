@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/imgact_elf.c 255426 2013-09-09 18:11:59Z jhb $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/imgact_elf.c 267561 2014-06-17 05:21:48Z dchagin $");
 
 #include "opt_capsicum.h"
 #include "opt_compat.h"
@@ -1740,14 +1740,16 @@ __elfN(note_threadmd)(void *arg, struct sbuf *sb, size_t *sizep)
 
 	td = (struct thread *)arg;
 	size = *sizep;
-	buf = NULL;
 	if (size != 0 && sb != NULL)
 		buf = malloc(size, M_TEMP, M_ZERO | M_WAITOK);
+	else
+		buf = NULL;
 	size = 0;
 	__elfN(dump_thread)(td, buf, &size);
 	KASSERT(*sizep == size, ("invalid size"));
 	if (size != 0 && sb != NULL)
 		sbuf_bcat(sb, buf, size);
+	free(buf, M_TEMP);
 	*sizep = size;
 }
 

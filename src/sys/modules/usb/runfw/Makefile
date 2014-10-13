@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/usb/runfw/Makefile 253795 2013-07-30 08:09:48Z pluknet $
+# $FreeBSD: stable/10/sys/modules/usb/runfw/Makefile 253795 2013-07-30 08:09:48Z pluknet $
 
 KMOD=	runfw
 FIRMWS=	run.fw:runfw:1

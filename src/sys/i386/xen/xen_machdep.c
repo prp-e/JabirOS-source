@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/i386/xen/xen_machdep.c 255040 2013-08-29 19:52:18Z gibbs $");
+__FBSDID("$FreeBSD: stable/10/sys/i386/xen/xen_machdep.c 271132 2014-09-04 20:47:14Z emaste $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -46,6 +46,7 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/i386/xen/xen_machdep.c 255040 2013-08-29 
 #include <sys/reboot.h>
 #include <sys/rwlock.h>
 #include <sys/sysproto.h>
+#include <sys/boot.h>
 
 #include <xen/xen-os.h>
 
@@ -154,24 +155,6 @@ xen_setbootenv(char *cmd_line)
 	for (cmd_line_next = cmd_line; strsep(&cmd_line_next, ",") != NULL;);
 	return cmd_line;
 }
-
-static struct 
-{
-	const char	*ev;
-	int		mask;
-} howto_names[] = {
-	{"boot_askname",	RB_ASKNAME},
-	{"boot_single",	RB_SINGLE},
-	{"boot_nosync",	RB_NOSYNC},
-	{"boot_halt",	RB_ASKNAME},
-	{"boot_serial",	RB_SERIAL},
-	{"boot_cdrom",	RB_CDROM},
-	{"boot_gdb",	RB_GDB},
-	{"boot_gdb_pause",	RB_RESERVED1},
-	{"boot_verbose",	RB_VERBOSE},
-	{"boot_multicons",	RB_MULTIPLE},
-	{NULL,	0}
-};
 
 int 
 xen_boothowto(char *envp)

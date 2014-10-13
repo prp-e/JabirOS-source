@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/stdio/fputws.c 234536 2012-04-21 07:31:27Z das $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/stdio/fputws.c 269085 2014-07-25 03:24:00Z pfg $");
 
 #include "namespace.h"
 #include <errno.h>
@@ -67,7 +67,7 @@ fputws_l(const wchar_t * __restrict ws, FILE * __restrict fp, locale_t locale)
 		    &fp->_mbstate);
 		if (nbytes == (size_t)-1)
 			goto error;
-		iov.iov_len = uio.uio_resid = nbytes;
+		uio.uio_resid = iov.iov_len = nbytes;
 		if (__sfvwrite(fp, &uio) != 0)
 			goto error;
 	} while (wsp != NULL);

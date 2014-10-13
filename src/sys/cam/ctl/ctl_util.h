@@ -28,7 +28,7 @@
  * POSSIBILITY OF SUCH DAMAGES.
  *
  * $Id: //depot/users/kenm/FreeBSD-test2/sys/cam/ctl/ctl_util.h#2 $
- * $FreeBSD: release/10.0.0/sys/cam/ctl/ctl_util.h 229997 2012-01-12 00:34:33Z ken $
+ * $FreeBSD: stable/10/sys/cam/ctl/ctl_util.h 270107 2014-08-17 18:23:43Z mav $
  */
 /*
  * CAM Target Layer SCSI library interface
@@ -61,6 +61,10 @@ void ctl_scsi_read_write(union ctl_io *io, uint8_t *data_ptr,
 			 int minimum_cdb_size, uint64_t lba,
 			 uint32_t num_blocks, ctl_tag_type tag_type,
 			 uint8_t control);
+void ctl_scsi_write_same(union ctl_io *io, uint8_t *data_ptr,
+			 uint32_t data_len, uint8_t byte2,
+			 uint64_t lba, uint32_t num_blocks,
+			 ctl_tag_type tag_type, uint8_t control);
 void ctl_scsi_read_capacity(union ctl_io *io, uint8_t *data_ptr,
 			    uint32_t data_len, uint32_t addr, int reladr,
 			    int pmi, ctl_tag_type tag_type, uint8_t control);

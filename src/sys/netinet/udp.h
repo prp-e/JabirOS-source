@@ -28,7 +28,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)udp.h	8.1 (Berkeley) 6/10/93
- * $FreeBSD: release/10.0.0/sys/netinet/udp.h 246210 2013-02-01 15:32:20Z jhb $
+ * $FreeBSD: stable/10/sys/netinet/udp.h 246210 2013-02-01 15:32:20Z jhb $
  */
 
 #ifndef _NETINET_UDP_H_

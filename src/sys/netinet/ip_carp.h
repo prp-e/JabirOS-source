@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/netinet/ip_carp.h 253087 2013-07-09 10:02:51Z ae $	*/
+/*	$FreeBSD: stable/10/sys/netinet/ip_carp.h 253087 2013-07-09 10:02:51Z ae $	*/
 /*	$OpenBSD: ip_carp.h,v 1.8 2004/07/29 22:12:15 mcbride Exp $	*/
 
 /*

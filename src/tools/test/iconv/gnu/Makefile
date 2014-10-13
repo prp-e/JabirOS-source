@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/tools/test/iconv/gnu/Makefile 219019 2011-02-25 00:04:39Z gabor $
+# $FreeBSD: stable/10/tools/test/iconv/gnu/Makefile 219019 2011-02-25 00:04:39Z gabor $
 
 PROG=	gnu
 NO_MAN=	yes

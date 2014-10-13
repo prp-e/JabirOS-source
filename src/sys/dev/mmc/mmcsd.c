@@ -51,7 +51,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/mmc/mmcsd.c 254432 2013-08-17 00:19:27Z ian $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/mmc/mmcsd.c 269795 2014-08-11 01:22:10Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -163,6 +163,9 @@ mmcsd_attach(device_t dev)
 	d->d_unit = device_get_unit(dev);
 	d->d_flags = DISKFLAG_CANDELETE;
 	d->d_delmaxsize = mmc_get_erase_sector(dev) * d->d_sectorsize * 1; /* conservative */
+	strlcpy(d->d_ident, mmc_get_card_sn_string(dev), sizeof(d->d_ident));
+	strlcpy(d->d_descr, mmc_get_card_id_string(dev), sizeof(d->d_descr));
+
 	/*
 	 * Display in most natural units.  There's no cards < 1MB.  The SD
 	 * standard goes to 2GiB due to its reliance on FAT, but the data
@@ -188,7 +191,7 @@ mmcsd_attach(device_t dev)
 	speed = mmcbr_get_clock(device_get_parent(dev));
 	maxblocks = mmc_get_max_data(dev);
 	device_printf(dev, "%ju%cB <%s>%s at %s %d.%01dMHz/%dbit/%d-block\n",
-	    mb, unit, mmc_get_card_id_string(dev),
+	    mb, unit, d->d_descr,
 	    mmc_get_read_only(dev) ? " (read-only)" : "",
 	    device_get_nameunit(device_get_parent(dev)),
 	    speed / 1000000, (speed / 100000) % 10,

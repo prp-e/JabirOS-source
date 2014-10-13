@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/mlx4ib/Makefile 255932 2013-09-29 00:35:03Z alfred $
+# $FreeBSD: stable/10/sys/modules/mlx4ib/Makefile 271127 2014-09-04 20:12:36Z hselasky $
 .PATH:  ${.CURDIR}/../../ofed/drivers/infiniband/hw/mlx4
 .PATH:  ${.CURDIR}/../../ofed/include/linux
 
@@ -16,6 +16,7 @@ CFLAGS+= -I${.CURDIR}/../../ofed/drivers/infiniband/hw/mlx4
 CFLAGS+= -I${.CURDIR}/../../ofed/include/
 CFLAGS+= -DCONFIG_INFINIBAND_USER_MEM
 CFLAGS+= -DINET6 -DINET -DOFED
+CFLAGS+= -fms-extensions
 
 .if !defined(KERNBUILDDIR)
 .if ${MK_INET_SUPPORT} != "no"
@@ -31,4 +32,4 @@ opt_inet6.h:
 
 .include <bsd.kmod.mk>
 
-CFLAGS+= -Wno-cast-qual -Wno-pointer-arith -fms-extensions
+CFLAGS+= -Wno-cast-qual -Wno-pointer-arith ${GCC_MS_EXTENSIONS}

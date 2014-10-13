@@ -26,7 +26,7 @@
 # SUCH DAMAGE.
 #
 #	JNPR: options.mips,v 1.2 2006/09/15 12:52:34
-# $FreeBSD: release/10.0.0/sys/conf/options.mips 257528 2013-11-01 21:17:45Z brooks $
+# $FreeBSD: stable/10/sys/conf/options.mips 261277 2014-01-29 22:01:42Z brooks $
 
 CPU_MIPS4KC	opt_global.h
 CPU_MIPS24KC	opt_global.h
@@ -69,6 +69,11 @@ TICK_USE_MALTA_RTC	opt_global.h
 # The highest memory address that can be used by the kernel in units of KB.
 #
 MAXMEM			opt_global.h
+
+#
+# Manual override of cache config
+#
+MIPS_DISABLE_L1_CACHE	opt_global.h
 
 #
 # Options that control the Cavium Simple Executive.

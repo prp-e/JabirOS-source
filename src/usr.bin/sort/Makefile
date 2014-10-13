@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/sort/Makefile 241695 2012-10-18 15:39:29Z ed $
+# $FreeBSD: stable/10/usr.bin/sort/Makefile 241695 2012-10-18 15:39:29Z ed $
 
 .include <bsd.own.mk>
 

@@ -33,7 +33,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/extattr/rmextattr.c 248995 2013-04-02 05:30:41Z mdf $
+ * $FreeBSD: stable/10/usr.sbin/extattr/rmextattr.c 248995 2013-04-02 05:30:41Z mdf $
  */
 
 #include <sys/types.h>

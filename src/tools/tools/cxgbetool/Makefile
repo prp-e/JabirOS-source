@@ -1,9 +1,9 @@
-# $FreeBSD: release/10.0.0/tools/tools/cxgbetool/Makefile 222900 2011-06-09 20:21:45Z np $
+# $FreeBSD: stable/10/tools/tools/cxgbetool/Makefile 259142 2013-12-09 22:40:22Z np $
 
 PROG=	cxgbetool
 SRCS=	cxgbetool.c
 NO_MAN=
-CFLAGS+= -I${.CURDIR}/../../../sys/dev/cxgbe -I.
+CFLAGS+= -I${.CURDIR}/../../../sys/dev/cxgbe -I${.CURDIR}/../../../sys -I.
 BINDIR?= /usr/sbin
 
 .include <bsd.prog.mk>

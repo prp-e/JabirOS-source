@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/diskinfo/diskinfo.c 241844 2012-10-22 03:00:37Z eadler $
+ * $FreeBSD: stable/10/usr.sbin/diskinfo/diskinfo.c 241844 2012-10-22 03:00:37Z eadler $
  */
 
 #include <stdio.h>

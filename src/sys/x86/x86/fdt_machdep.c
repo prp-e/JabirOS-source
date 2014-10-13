@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/x86/x86/fdt_machdep.c 250840 2013-05-21 03:05:49Z marcel $");
+__FBSDID("$FreeBSD: stable/10/sys/x86/x86/fdt_machdep.c 250840 2013-05-21 03:05:49Z marcel $");
 
 #include "opt_platform.h"
 

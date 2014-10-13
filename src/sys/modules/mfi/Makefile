@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/mfi/Makefile 233711 2012-03-30 23:05:48Z ambrisko $
+# $FreeBSD: stable/10/sys/modules/mfi/Makefile 233711 2012-03-30 23:05:48Z ambrisko $
 
 .PATH: ${.CURDIR}/../../dev/mfi
 

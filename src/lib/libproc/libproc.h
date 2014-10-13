@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/libproc/libproc.h 211184 2010-08-11 17:33:26Z rpaulo $
+ * $FreeBSD: stable/10/lib/libproc/libproc.h 269754 2014-08-09 15:00:03Z markj $
  */
 
 #ifndef	_LIBPROC_H_
@@ -102,6 +102,7 @@ typedef struct lwpstatus {
 #define PR_FAULTED	2
 #define PR_SYSENTRY	3
 #define PR_SYSEXIT	4
+#define PR_SIGNALLED	5
 	int pr_what;
 #define FLTBPT		-1
 } lwpstatus_t;

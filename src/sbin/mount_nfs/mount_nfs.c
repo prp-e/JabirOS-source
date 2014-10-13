@@ -42,7 +42,7 @@ static char sccsid[] = "@(#)mount_nfs.c	8.11 (Berkeley) 5/4/95";
 #endif /* not lint */
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/mount_nfs/mount_nfs.c 247856 2013-03-05 22:41:35Z jkim $");
+__FBSDID("$FreeBSD: stable/10/sbin/mount_nfs/mount_nfs.c 270043 2014-08-16 13:06:11Z bz $");
 
 #include <sys/param.h>
 #include <sys/linker.h>
@@ -310,6 +310,32 @@ main(int argc, char *argv[])
 					if (*p || num <= 0)
 						errx(1, "illegal maxgroups value -- %s", val);
 					//set_rpc_maxgrouplist(num);
+				} else if (strcmp(opt, "vers") == 0) {
+					num = strtol(val, &p, 10);
+					if (*p || num <= 0)
+						errx(1, "illegal vers value -- "
+						    "%s", val);
+					switch (num) {
+					case 2:
+						mountmode = V2;
+						break;
+					case 3:
+						mountmode = V3;
+						build_iovec(&iov, &iovlen,
+						    "nfsv3", NULL, 0);
+						break;
+					case 4:
+						mountmode = V4;
+						fstype = "nfs";
+						nfsproto = IPPROTO_TCP;
+						if (portspec == NULL)
+							portspec = "2049";
+						break;
+					default:
+						errx(1, "illegal nfs version "
+						    "value -- %s", val);
+					}
+					pass_flag_to_nmount=0;
 				}
 				if (pass_flag_to_nmount)
 					build_iovec(&iov, &iovlen, opt, val,

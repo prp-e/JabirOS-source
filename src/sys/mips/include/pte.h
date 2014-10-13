@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/mips/include/pte.h 257523 2013-11-01 20:30:19Z brooks $
+ * $FreeBSD: stable/10/sys/mips/include/pte.h 257523 2013-11-01 20:30:19Z brooks $
  */
 
 #ifndef	_MACHINE_PTE_H_

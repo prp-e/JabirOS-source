@@ -32,10 +32,10 @@
 .\"
 .\" Author: Archie Cobbs <archie@whistle.com>
 .\"
-.\" $FreeBSD: release/10.0.0/lib/libnetgraph/netgraph.3 131548 2004-07-04 04:03:37Z jmallett $
+.\" $FreeBSD: stable/10/lib/libnetgraph/netgraph.3 261020 2014-01-22 10:31:56Z glebius $
 .\" $Whistle: netgraph.3,v 1.7 1999/01/25 07:14:06 archie Exp $
 .\"
-.Dd January 27, 2004
+.Dd November 25, 2013
 .Dt NETGRAPH 3
 .Os
 .Sh NAME
@@ -57,7 +57,7 @@
 .Sh LIBRARY
 .Lb libnetgraph
 .Sh SYNOPSIS
-.In netgraph.h
+.In netgraph/netgraph.h
 .Ft int
 .Fn NgMkSockNode "const char *name" "int *csp" "int *dsp"
 .Ft int

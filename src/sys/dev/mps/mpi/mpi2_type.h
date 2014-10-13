@@ -25,7 +25,7 @@
  *
  * LSI MPT-Fusion Host Adapter FreeBSD
  *
- * $FreeBSD: release/10.0.0/sys/dev/mps/mpi/mpi2_type.h 237683 2012-06-28 03:48:54Z ken $
+ * $FreeBSD: stable/10/sys/dev/mps/mpi/mpi2_type.h 237683 2012-06-28 03:48:54Z ken $
  */
 
 /*

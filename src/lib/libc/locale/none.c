@@ -40,7 +40,7 @@
 static char sccsid[] = "@(#)none.c	8.1 (Berkeley) 6/4/93";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/locale/none.c 227753 2011-11-20 14:45:42Z theraven $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/locale/none.c 227753 2011-11-20 14:45:42Z theraven $");
 
 #include <errno.h>
 #include <limits.h>

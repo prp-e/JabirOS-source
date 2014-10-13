@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libcompiler_rt/Makefile 255092 2013-08-31 08:50:45Z theraven $
+# $FreeBSD: stable/10/lib/libcompiler_rt/Makefile 255092 2013-08-31 08:50:45Z theraven $
 
 .include <bsd.own.mk>
 

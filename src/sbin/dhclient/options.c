@@ -41,7 +41,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/dhclient/options.c 229778 2012-01-07 16:09:33Z uqs $");
+__FBSDID("$FreeBSD: stable/10/sbin/dhclient/options.c 229778 2012-01-07 16:09:33Z uqs $");
 
 #include <ctype.h>
 

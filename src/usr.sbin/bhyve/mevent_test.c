@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/bhyve/mevent_test.c 255690 2013-09-19 04:48:26Z grehan $
+ * $FreeBSD: stable/10/usr.sbin/bhyve/mevent_test.c 255690 2013-09-19 04:48:26Z grehan $
  */
 
 /*

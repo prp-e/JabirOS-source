@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/am335x/am335x_pmic.c 253025 2013-07-08 05:06:32Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/ti/am335x/am335x_pmic.c 253025 2013-07-08 05:06:32Z gonzo $");
 /*
 * TPS65217 PMIC companion chip for AM335x SoC sitting on I2C bus
 */

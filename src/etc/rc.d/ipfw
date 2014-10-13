@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: release/10.0.0/etc/rc.d/ipfw 250804 2013-05-19 04:10:34Z jamie $
+# $FreeBSD: stable/10/etc/rc.d/ipfw 250804 2013-05-19 04:10:34Z jamie $
 #
 
 # PROVIDE: ipfw

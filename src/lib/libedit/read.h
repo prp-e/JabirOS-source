@@ -26,8 +26,8 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- *	$NetBSD: read.h,v 1.5 2006/08/21 12:45:30 christos Exp $
- * $FreeBSD: release/10.0.0/lib/libedit/read.h 204555 2010-03-02 07:25:20Z joel $
+ *	$NetBSD: read.h,v 1.6 2008/04/29 06:53:01 martin Exp $
+ * $FreeBSD: stable/10/lib/libedit/read.h 268782 2014-07-17 02:14:25Z pfg $
  */
 
 /*

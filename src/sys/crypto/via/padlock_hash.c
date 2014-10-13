@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/crypto/via/padlock_hash.c 230426 2012-01-21 17:45:27Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/crypto/via/padlock_hash.c 268033 2014-06-30 09:48:44Z kib $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -366,24 +366,18 @@ padlock_hash_process(struct padlock_session *ses, struct cryptodesc *maccrd,
     struct cryptop *crp)
 {
 	struct thread *td;
-	int error, saved_ctx;
+	int error;
 
 	td = curthread;
-	if (!is_fpu_kern_thread(0)) {
-		error = fpu_kern_enter(td, ses->ses_fpu_ctx, FPU_KERN_NORMAL);
-		saved_ctx = 1;
-	} else {
-		error = 0;
-		saved_ctx = 0;
-	}
+	error = fpu_kern_enter(td, ses->ses_fpu_ctx, FPU_KERN_NORMAL |
+	    FPU_KERN_KTHR);
 	if (error != 0)
 		return (error);
 	if ((maccrd->crd_flags & CRD_F_KEY_EXPLICIT) != 0)
 		padlock_hash_key_setup(ses, maccrd->crd_key, maccrd->crd_klen);
 
 	error = padlock_authcompute(ses, maccrd, crp->crp_buf, crp->crp_flags);
-	if (saved_ctx)
-		fpu_kern_leave(td, ses->ses_fpu_ctx);
+	fpu_kern_leave(td, ses->ses_fpu_ctx);
 	return (error);
 }
 

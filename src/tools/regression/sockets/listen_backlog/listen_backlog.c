@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/tools/regression/sockets/listen_backlog/listen_backlog.c 150286 2005-09-18 13:42:19Z rwatson $
+ * $FreeBSD: stable/10/tools/regression/sockets/listen_backlog/listen_backlog.c 150286 2005-09-18 13:42:19Z rwatson $
  */
 
 #include <sys/types.h>

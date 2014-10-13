@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_fork.c 255708 2013-09-19 18:53:42Z jhb $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_fork.c 270267 2014-08-21 12:30:01Z kib $");
 
 #include "opt_kdtrace.h"
 #include "opt_ktrace.h"
@@ -89,7 +89,7 @@ dtrace_fork_func_t	dtrace_fasttrap_fork;
 #endif
 
 SDT_PROVIDER_DECLARE(proc);
-SDT_PROBE_DEFINE3(proc, kernel, , create, create, "struct proc *",
+SDT_PROBE_DEFINE3(proc, kernel, , create, "struct proc *",
     "struct proc *", "int");
 
 #ifndef _SYS_SYSPROTO_H_
@@ -347,8 +347,8 @@ fork_norfproc(struct thread *td, int flags)
 	/*
 	 * Unshare file descriptors (from parent).
 	 */
-	if (flags & RFFDG) 
-		fdunshare(p1, td);
+	if (flags & RFFDG)
+		fdunshare(td);
 
 fail:
 	if (((p1->p_flag & (P_HADTHREADS|P_SYSTEM)) == P_HADTHREADS) &&
@@ -404,6 +404,7 @@ do_fork(struct thread *td, int flags, struct proc *p2, struct thread *td2,
 
 	bzero(&p2->p_startzero,
 	    __rangeof(struct proc, p_startzero, p_endzero));
+	p2->p_treeflag = 0;
 
 	p2->p_ucred = crhold(td->td_ucred);
 
@@ -684,12 +685,12 @@ do_fork(struct thread *td, int flags, struct proc *p2, struct thread *td2,
 
 #ifdef KDTRACE_HOOKS
 	/*
-	 * Tell the DTrace fasttrap provider about the new process
-	 * if it has registered an interest. We have to do this only after
-	 * p_state is PRS_NORMAL since the fasttrap module will use pfind()
-	 * later on.
+	 * Tell the DTrace fasttrap provider about the new process so that any
+	 * tracepoints inherited from the parent can be removed. We have to do
+	 * this only after p_state is PRS_NORMAL since the fasttrap module will
+	 * use pfind() later on.
 	 */
-	if (dtrace_fasttrap_fork)
+	if ((flags & RFMEM) == 0 && dtrace_fasttrap_fork)
 		dtrace_fasttrap_fork(p1, p2);
 #endif
 	if ((p1->p_flag & (P_TRACED | P_FOLLOWFORK)) == (P_TRACED |

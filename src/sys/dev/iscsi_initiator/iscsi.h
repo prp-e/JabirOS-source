@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/iscsi_initiator/iscsi.h 211095 2010-08-09 12:36:36Z des $
+ * $FreeBSD: stable/10/sys/dev/iscsi_initiator/iscsi.h 211095 2010-08-09 12:36:36Z des $
  */
 /*
  | $Id: iscsi.h 743 2009-08-08 10:54:53Z danny $

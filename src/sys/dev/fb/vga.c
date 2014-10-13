@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/fb/vga.c 233892 2012-04-04 21:19:55Z jkim $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/fb/vga.c 233892 2012-04-04 21:19:55Z jkim $");
 
 #include "opt_vga.h"
 #include "opt_fb.h"

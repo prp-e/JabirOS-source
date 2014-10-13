@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/contrib/unbound/freebsd-sources.pl 255779 2013-09-21 23:29:02Z des $
+# $FreeBSD: stable/10/contrib/unbound/freebsd-sources.pl 255779 2013-09-21 23:29:02Z des $
 #
 
 use strict;

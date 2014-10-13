@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/siis/siis.c 249622 2013-04-18 12:43:06Z mav $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/siis/siis.c 260387 2014-01-07 01:51:48Z scottl $");
 
 #include <sys/param.h>
 #include <sys/module.h>
@@ -838,9 +838,7 @@ siis_ch_intr_locked(void *data)
 	struct siis_channel *ch = device_get_softc(dev);
 
 	mtx_lock(&ch->mtx);
-	xpt_batch_start(ch->sim);
 	siis_ch_intr(data);
-	xpt_batch_done(ch->sim);
 	mtx_unlock(&ch->mtx);
 }
 

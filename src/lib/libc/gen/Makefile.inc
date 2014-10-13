@@ -1,5 +1,5 @@
 #	@(#)Makefile.inc	8.6 (Berkeley) 5/4/95
-# $FreeBSD: release/10.0.0/lib/libc/gen/Makefile.inc 257771 2013-11-06 23:59:19Z pjd $
+# $FreeBSD: stable/10/lib/libc/gen/Makefile.inc 267953 2014-06-27 09:11:24Z pluknet $
 
 # machine-independent gen sources
 .PATH: ${.CURDIR}/${LIBC_ARCH}/gen ${.CURDIR}/gen
@@ -304,8 +304,9 @@ MLINKS+=devname.3 fdevname.3
 MLINKS+=devname.3 fdevname_r.3
 MLINKS+=directory.3 closedir.3 \
 	directory.3 dirfd.3 \
-	directory.3 opendir.3 \
+	directory.3 fdclosedir.3 \
 	directory.3 fdopendir.3 \
+	directory.3 opendir.3 \
 	directory.3 readdir.3 \
 	directory.3 readdir_r.3 \
 	directory.3 rewinddir.3 \

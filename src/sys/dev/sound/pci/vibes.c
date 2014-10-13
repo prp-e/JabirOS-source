@@ -42,7 +42,7 @@
 
 #include "mixer_if.h"
 
-SND_DECLARE_FILE("$FreeBSD: release/10.0.0/sys/dev/sound/pci/vibes.c 254263 2013-08-12 23:30:01Z scottl $");
+SND_DECLARE_FILE("$FreeBSD: stable/10/sys/dev/sound/pci/vibes.c 254263 2013-08-12 23:30:01Z scottl $");
 
 /* ------------------------------------------------------------------------- */
 /* Constants */

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/etherswitch/rtl8366/rtl8366rb.c 253569 2013-07-23 13:56:38Z loos $
+ * $FreeBSD: stable/10/sys/dev/etherswitch/rtl8366/rtl8366rb.c 253569 2013-07-23 13:56:38Z loos $
  */
 
 #include <sys/param.h>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/bhyve/block_if.h 256052 2013-10-04 16:52:03Z grehan $
+ * $FreeBSD: stable/10/usr.sbin/bhyve/block_if.h 270159 2014-08-19 01:20:24Z grehan $
  */
 
 /*
@@ -52,6 +52,8 @@ struct blockif_req {
 struct blockif_ctxt;
 struct blockif_ctxt *blockif_open(const char *optstr, const char *ident);
 off_t	blockif_size(struct blockif_ctxt *bc);
+void	blockif_chs(struct blockif_ctxt *bc, uint16_t *c, uint8_t *h,
+    uint8_t *s);
 int	blockif_sectsz(struct blockif_ctxt *bc);
 int	blockif_queuesz(struct blockif_ctxt *bc);
 int	blockif_is_ro(struct blockif_ctxt *bc);

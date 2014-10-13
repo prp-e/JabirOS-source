@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/tools/regression/lib/msun/test-lrint.t 140089 2005-01-11 23:13:36Z das $
+# $FreeBSD: stable/10/tools/regression/lib/msun/test-lrint.t 140089 2005-01-11 23:13:36Z das $
 
 cd `dirname $0`
 

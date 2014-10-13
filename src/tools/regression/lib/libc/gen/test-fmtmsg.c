@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/tools/regression/lib/libc/gen/test-fmtmsg.c 231984 2012-02-21 23:46:41Z jilles $");
+__FBSDID("$FreeBSD: stable/10/tools/regression/lib/libc/gen/test-fmtmsg.c 231984 2012-02-21 23:46:41Z jilles $");
 
 #include <sys/wait.h>
 

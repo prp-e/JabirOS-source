@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/sfxge/sfxge_intr.c 227700 2011-11-19 09:16:52Z philip $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/sfxge/sfxge_intr.c 227700 2011-11-19 09:16:52Z philip $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/am335x/am335x_usbss.c 252913 2013-07-07 04:22:08Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/ti/am335x/am335x_usbss.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/stdint.h>
 #include <sys/stddef.h>
@@ -250,6 +250,10 @@ musbotg_wrapper_interrupt(void *arg)
 static int
 musbotg_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
+
 	if (!ofw_bus_is_compatible(dev, "ti,musb-am33xx"))
 		return (ENXIO);
 

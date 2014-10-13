@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/kerberos5/libexec/kcm/Makefile 255455 2013-09-10 18:40:43Z des $
+# $FreeBSD: stable/10/kerberos5/libexec/kcm/Makefile 255455 2013-09-10 18:40:43Z des $
 
 PROG=	kcm
 MAN=	kcm.8

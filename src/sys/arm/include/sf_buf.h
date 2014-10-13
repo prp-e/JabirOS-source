@@ -23,38 +23,15 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/include/sf_buf.h 255352 2013-09-07 07:56:55Z glebius $
+ * $FreeBSD: stable/10/sys/arm/include/sf_buf.h 266175 2014-05-15 19:09:31Z ian $
  */
 
 #ifndef _MACHINE_SF_BUF_H_
 #define _MACHINE_SF_BUF_H_
 
+#include <sys/queue.h>
 
 struct vm_page;
-
-#ifdef ARM_USE_SMALL_ALLOC
-
-#include <vm/vm.h>
-#include <vm/vm_param.h>
-#include <vm/vm_page.h>
-
-struct sf_buf;
-
-static __inline vm_offset_t
-sf_buf_kva(struct sf_buf *sf)
-{
-	return arm_ptovirt(VM_PAGE_TO_PHYS((vm_page_t)sf));
-}
-
-static __inline vm_page_t
-sf_buf_page(struct sf_buf *sf)
-{
-	return ((vm_page_t)sf);
-}
-
-#else
-
-#include <sys/queue.h>
 
 struct sf_buf {
 	LIST_ENTRY(sf_buf) list_entry;	/* list of buffers */
@@ -77,8 +54,6 @@ sf_buf_page(struct sf_buf *sf)
 
 	return (sf->m);
 }
-
-#endif
 
 struct sf_buf *	sf_buf_alloc(struct vm_page *m, int flags);
 void sf_buf_free(struct sf_buf *sf);

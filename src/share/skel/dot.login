@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/share/skel/dot.login 190477 2009-03-27 21:13:14Z ru $
+# $FreeBSD: stable/10/share/skel/dot.login 190477 2009-03-27 21:13:14Z ru $
 #
 # .login - csh login script, read by login shell, after `.cshrc' at login.
 #

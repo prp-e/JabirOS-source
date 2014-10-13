@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/fxp/inphy.c 226154 2011-10-08 12:33:10Z marius $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/fxp/inphy.c 226154 2011-10-08 12:33:10Z marius $");
 
 /*
  * driver for Intel 82553 and 82555 PHYs

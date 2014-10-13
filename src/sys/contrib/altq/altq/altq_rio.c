@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/contrib/altq/altq/altq_rio.c 240824 2012-09-22 12:49:36Z glebius $	*/
+/*	$FreeBSD: stable/10/sys/contrib/altq/altq/altq_rio.c 263086 2014-03-12 10:45:58Z glebius $	*/
 /*	$KAME: altq_rio.c,v 1.17 2003/07/10 12:07:49 kjc Exp $	*/
 
 /*
@@ -81,6 +81,7 @@
 #endif
 
 #include <net/if.h>
+#include <net/if_var.h>
 
 #include <netinet/in.h>
 #include <netinet/in_systm.h>
@@ -89,7 +90,8 @@
 #include <netinet/ip6.h>
 #endif
 
-#include <net/pfvar.h>
+#include <netpfil/pf/pf.h>
+#include <netpfil/pf/pf_altq.h>
 #include <altq/altq.h>
 #include <altq/altq_cdnr.h>
 #include <altq/altq_red.h>

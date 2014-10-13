@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/dev/usb/usb.h 246124 2013-01-30 15:49:37Z hselasky $ */
+/* $FreeBSD: stable/10/sys/dev/usb/usb.h 262363 2014-02-23 13:22:04Z hselasky $ */
 /*-
  * Copyright (c) 2008 Hans Petter Selasky. All rights reserved.
  * Copyright (c) 1998 The NetBSD Foundation, Inc. All rights reserved.
@@ -499,8 +499,11 @@ typedef struct usb_interface_assoc_descriptor usb_interface_assoc_descriptor_t;
 #define	UICLASS_WIRELESS	0xe0
 #define	UISUBCLASS_RF			0x01
 #define	UIPROTO_BLUETOOTH		0x01
+#define	UIPROTO_RNDIS			0x03
 
 #define	UICLASS_IAD		0xEF	/* Interface Association Descriptor */
+#define	UISUBCLASS_SYNC			0x01
+#define	UIPROTO_ACTIVESYNC		0x01
 
 #define	UICLASS_APPL_SPEC	0xfe
 #define	UISUBCLASS_FIRMWARE_DOWNLOAD	1

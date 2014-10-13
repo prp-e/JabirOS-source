@@ -1,4 +1,4 @@
-$ $FreeBSD: release/10.0.0/lib/libc/nls/zh_CN.GB2312.msg 244757 2012-12-28 01:23:12Z delphij $
+$ $FreeBSD: stable/10/lib/libc/nls/zh_CN.GB2312.msg 244757 2012-12-28 01:23:12Z delphij $
 $
 $ Message catalog for zh_CN.GB2312 locale
 $

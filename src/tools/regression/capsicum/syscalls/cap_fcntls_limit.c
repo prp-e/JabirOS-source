@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/tools/regression/capsicum/syscalls/cap_fcntls_limit.c 247606 2013-03-02 01:00:26Z pjd $");
+__FBSDID("$FreeBSD: stable/10/tools/regression/capsicum/syscalls/cap_fcntls_limit.c 247606 2013-03-02 01:00:26Z pjd $");
 
 #include <sys/types.h>
 #include <sys/capability.h>

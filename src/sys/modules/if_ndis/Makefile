@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/if_ndis/Makefile 189488 2009-03-07 07:26:22Z weongyo $
+# $FreeBSD: stable/10/sys/modules/if_ndis/Makefile 189488 2009-03-07 07:26:22Z weongyo $
 
 .PATH: ${.CURDIR}/../../dev/if_ndis
 

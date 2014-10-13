@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/dev/usb/storage/ustorage_fs.c 246128 2013-01-30 18:01:20Z sbz $ */
+/* $FreeBSD: stable/10/sys/dev/usb/storage/ustorage_fs.c 246128 2013-01-30 18:01:20Z sbz $ */
 /*-
  * Copyright (C) 2003-2005 Alan Stern
  * Copyright (C) 2008 Hans Petter Selasky

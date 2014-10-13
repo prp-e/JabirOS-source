@@ -1,7 +1,7 @@
 #
 # From: Id: Makefile,v 1.2 2004/01/15 16:20:56 pkern Exp
 #
-# $FreeBSD: release/10.0.0/usr.sbin/ipfwpcap/Makefile 201390 2010-01-02 11:07:44Z ed $
+# $FreeBSD: stable/10/usr.sbin/ipfwpcap/Makefile 201390 2010-01-02 11:07:44Z ed $
 #
 
 PROG=	ipfwpcap

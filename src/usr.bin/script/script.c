@@ -29,7 +29,7 @@
  */
 
 #include <sys/param.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/script/script.c 242138 2012-10-26 15:56:28Z obrien $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/script/script.c 260924 2014-01-20 20:33:40Z trociny $");
 #ifndef lint
 static const char copyright[] =
 "@(#) Copyright (c) 1980, 1992, 1993\n\
@@ -235,12 +235,15 @@ main(int argc, char *argv[])
 		FD_SET(master, &rfd);
 		if (readstdin)
 			FD_SET(STDIN_FILENO, &rfd);
-		if ((!readstdin && ttyflg) || flushtime > 0) {
-			tv.tv_sec = !readstdin && ttyflg ? 1 :
-			    flushtime - (tvec - start);
+		if (!readstdin && ttyflg) {
+			tv.tv_sec = 1;
 			tv.tv_usec = 0;
 			tvp = &tv;
 			readstdin = 1;
+		} else if (flushtime > 0) {
+			tv.tv_sec = flushtime - (tvec - start);
+			tv.tv_usec = 0;
+			tvp = &tv;
 		} else {
 			tvp = NULL;
 		}

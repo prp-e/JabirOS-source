@@ -32,7 +32,7 @@
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/arm/sys/pipe.S 137464 2004-11-09 16:49:14Z cognet $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/arm/sys/pipe.S 271337 2014-09-09 22:24:01Z ian $");
 #include "SYS.h"
 
 #ifdef WEAK_ALIAS
@@ -48,3 +48,4 @@ ENTRY(_pipe)
 	str	r1, [r2, #0x0004]
 	mov	r0, #0x00000000
 	RET
+END(_pipe)

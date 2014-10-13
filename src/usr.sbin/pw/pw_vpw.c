@@ -27,7 +27,7 @@
 
 #ifndef lint
 static const char rcsid[] =
-  "$FreeBSD: release/10.0.0/usr.sbin/pw/pw_vpw.c 244743 2012-12-27 19:43:29Z bapt $";
+  "$FreeBSD: stable/10/usr.sbin/pw/pw_vpw.c 244743 2012-12-27 19:43:29Z bapt $";
 #endif /* not lint */
 
 #include <pwd.h>

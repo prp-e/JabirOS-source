@@ -28,7 +28,7 @@
  * NETLOGIC_BSD */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/nlm/xlp_machdep.c 245879 2013-01-24 14:33:25Z jchandra $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/nlm/xlp_machdep.c 261455 2014-02-04 03:36:42Z eadler $");
 
 #include "opt_ddb.h"
 #include "opt_platform.h"
@@ -150,7 +150,7 @@ xlp_setup_mmu(void)
 
 	/* Enable no-read, no-exec, large-physical-address */
 	pagegrain = mips_rd_pagegrain();
-	pagegrain |= (1 << 31)	|	/* RIE */
+	pagegrain |= (1U << 31)	|	/* RIE */
 	    (1 << 30)		|	/* XIE */
 	    (1 << 29);			/* ELPA */
 	mips_wr_pagegrain(pagegrain);

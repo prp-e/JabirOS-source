@@ -39,7 +39,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/cesa/cesa.c 250291 2013-05-06 13:34:36Z gber $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/cesa/cesa.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -70,8 +70,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/dev/cesa/cesa.c 250291 2013-05-06 13:34:3
 #include <arm/mv/mvwin.h>
 #include <arm/mv/mvvar.h>
 #include "cesa.h"
-
-#undef DEBUG
 
 static int	cesa_probe(device_t);
 static int	cesa_attach(device_t);
@@ -974,6 +972,10 @@ cesa_setup_sram(struct cesa_softc *sc)
 static int
 cesa_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
+
 	if (!ofw_bus_is_compatible(dev, "mrvl,cesa"))
 		return (ENXIO);
 

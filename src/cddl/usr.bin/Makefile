@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/cddl/usr.bin/Makefile 219089 2011-02-27 19:41:40Z pjd $
+# $FreeBSD: stable/10/cddl/usr.bin/Makefile 265037 2014-04-28 04:20:14Z jmmv $
 
 .include <bsd.own.mk>
 
@@ -7,10 +7,15 @@ SUBDIR= \
 	ctfdump \
 	ctfmerge \
 	sgsmsg \
+	${_tests} \
 	${_zinject} \
 	${_zlook} \
 	${_zstreamdump} \
 	${_ztest}
+
+.if ${MK_TESTS} != "no"
+_tests=	tests
+.endif
 
 .if ${MK_ZFS} != "no"
 _zinject= zinject

@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/dev/wpi/if_wpivar.h 206358 2010-04-07 15:29:13Z rpaulo $	*/
+/*	$FreeBSD: stable/10/sys/dev/wpi/if_wpivar.h 264956 2014-04-25 22:23:38Z marius $	*/
 
 /*-
  * Copyright (c) 2006,2007
@@ -162,8 +162,6 @@ struct wpi_softc {
 	bus_space_tag_t		sc_st;
 	bus_space_handle_t	sc_sh;
 	void			*sc_ih;
-	int			mem_rid;
-	int			irq_rid;
 
 	struct wpi_config	config;
 	int			temp;

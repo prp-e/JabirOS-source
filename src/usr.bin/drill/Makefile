@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/drill/Makefile 255801 2013-09-22 20:30:55Z des $
+# $FreeBSD: stable/10/usr.bin/drill/Makefile 255801 2013-09-22 20:30:55Z des $
 
 # Vendor sources and generated files
 LDNSDIR= ${.CURDIR}/../../contrib/ldns

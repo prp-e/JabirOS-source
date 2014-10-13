@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/usb/rsu/Makefile 253789 2013-07-30 02:07:57Z rpaulo $
+# $FreeBSD: stable/10/sys/modules/usb/rsu/Makefile 253789 2013-07-30 02:07:57Z rpaulo $
 
 .PATH: ${.CURDIR}/../../../dev/usb/wlan
 

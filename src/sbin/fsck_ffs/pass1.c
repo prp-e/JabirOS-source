@@ -33,7 +33,7 @@ static const char sccsid[] = "@(#)pass1.c	8.6 (Berkeley) 4/28/95";
 #endif /* not lint */
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/fsck_ffs/pass1.c 248658 2013-03-23 20:00:02Z mckusick $");
+__FBSDID("$FreeBSD: stable/10/sbin/fsck_ffs/pass1.c 260178 2014-01-02 01:44:14Z scottl $");
 
 #include <sys/param.h>
 #include <sys/stat.h>
@@ -67,6 +67,8 @@ pass1(void)
 	ufs2_daddr_t i, cgd;
 	u_int8_t *cp;
 	int c, rebuildcg;
+
+	badblk = dupblk = lastino = 0;
 
 	/*
 	 * Set file system reserved blocks in used block map.
@@ -463,6 +465,7 @@ pass1check(struct inodesc *idesc)
 				ckfini(0);
 				exit(EEXIT);
 			}
+			rerun = 1;
 			return (STOP);
 		}
 	}
@@ -483,6 +486,7 @@ pass1check(struct inodesc *idesc)
 					ckfini(0);
 					exit(EEXIT);
 				}
+				rerun = 1;
 				return (STOP);
 			}
 			new = (struct dups *)Malloc(sizeof(struct dups));
@@ -492,6 +496,7 @@ pass1check(struct inodesc *idesc)
 					ckfini(0);
 					exit(EEXIT);
 				}
+				rerun = 1;
 				return (STOP);
 			}
 			new->dup = blkno;

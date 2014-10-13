@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/msun/x86/fenv.h 249724 2013-04-21 13:31:55Z kib $
+ * $FreeBSD: stable/10/lib/msun/x86/fenv.h 249724 2013-04-21 13:31:55Z kib $
  */
 
 #ifndef	_FENV_H_

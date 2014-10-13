@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/omap4/omap4_mp.c 242362 2012-10-30 15:25:01Z cognet $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/ti/omap4/omap4_mp.c 266203 2014-05-16 00:14:50Z ian $");
 #include <sys/param.h>
 #include <sys/systm.h>
 #include <sys/bus.h>
@@ -37,9 +37,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/omap4/omap4_mp.c 242362 2012-10-30
 
 #include <arm/ti/ti_smc.h>
 #include <arm/ti/omap4/omap4_smc.h>
-
-void mpentry(void);
-void mptramp(void);
 
 void
 platform_mp_init_secondary(void)

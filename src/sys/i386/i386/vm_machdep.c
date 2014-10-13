@@ -41,7 +41,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/i386/i386/vm_machdep.c 255827 2013-09-23 20:14:15Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/i386/i386/vm_machdep.c 265606 2014-05-07 20:28:27Z scottl $");
 
 #include "opt_isa.h"
 #include "opt_npx.h"
@@ -457,7 +457,8 @@ cpu_set_upcall(struct thread *td, struct thread *td0)
 	 * values here.
 	 */
 	bcopy(td0->td_pcb, pcb2, sizeof(*pcb2));
-	pcb2->pcb_flags &= ~(PCB_NPXINITDONE | PCB_NPXUSERINITDONE);
+	pcb2->pcb_flags &= ~(PCB_NPXINITDONE | PCB_NPXUSERINITDONE |
+	    PCB_KERNNPX);
 	pcb2->pcb_save = &pcb2->pcb_user_save;
 
 	/*
@@ -618,7 +619,7 @@ cpu_reset()
 	cpuset_t map;
 	u_int cnt;
 
-	if (smp_active) {
+	if (smp_started) {
 		map = all_cpus;
 		CPU_CLR(PCPU_GET(cpuid), &map);
 		CPU_NAND(&map, &stopped_cpus);

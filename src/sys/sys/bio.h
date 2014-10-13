@@ -32,7 +32,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)buf.h	8.9 (Berkeley) 3/30/95
- * $FreeBSD: release/10.0.0/sys/sys/bio.h 248654 2013-03-23 16:55:07Z will $
+ * $FreeBSD: stable/10/sys/sys/bio.h 248654 2013-03-23 16:55:07Z will $
  */
 
 #ifndef _SYS_BIO_H_

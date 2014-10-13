@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/libclangsema/Makefile 249423 2013-04-12 17:57:40Z dim $
+# $FreeBSD: stable/10/lib/clang/libclangsema/Makefile 263508 2014-03-21 17:53:59Z dim $
 
 .include <bsd.own.mk>
 
@@ -49,9 +49,11 @@ SRCS=	AnalysisBasedWarnings.cpp \
 	SemaTemplateInstantiateDecl.cpp \
 	SemaTemplateVariadic.cpp \
 	SemaType.cpp \
-	TargetAttributesSema.cpp
+	TargetAttributesSema.cpp \
+	TypeLocBuilder.cpp
 
 TGHDRS=	AttrList \
+	AttrParsedAttrImpl \
 	AttrParsedAttrKinds \
 	AttrParsedAttrList \
 	AttrSpellingListIndex \

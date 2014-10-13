@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/contrib/altq/altq/altq_rmclass.c 240784 2012-09-21 19:18:39Z rpaulo $	*/
+/*	$FreeBSD: stable/10/sys/contrib/altq/altq/altq_rmclass.c 263086 2014-03-12 10:45:58Z glebius $	*/
 /*	$KAME: altq_rmclass.c,v 1.19 2005/04/13 03:44:25 suz Exp $	*/
 
 /*
@@ -59,12 +59,14 @@
 #endif
 
 #include <net/if.h>
+#include <net/if_var.h>
 #ifdef ALTQ3_COMPAT
 #include <netinet/in.h>
 #include <netinet/in_systm.h>
 #include <netinet/ip.h>
 #endif
 
+#include <altq/if_altq.h>
 #include <altq/altq.h>
 #include <altq/altq_rmclass.h>
 #include <altq/altq_rmclass_debug.h>

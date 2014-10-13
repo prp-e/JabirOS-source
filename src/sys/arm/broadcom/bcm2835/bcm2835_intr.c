@@ -28,7 +28,7 @@
 
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/broadcom/bcm2835/bcm2835_intr.c 239922 2012-08-30 20:59:37Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/broadcom/bcm2835/bcm2835_intr.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -90,6 +90,10 @@ static struct bcm_intc_softc *bcm_intc_sc = NULL;
 static int
 bcm_intc_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
+
 	if (!ofw_bus_is_compatible(dev, "broadcom,bcm2835-armctrl-ic"))
 		return (ENXIO);
 	device_set_desc(dev, "BCM2835 Interrupt Controller");

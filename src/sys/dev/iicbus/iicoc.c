@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/iicbus/iicoc.c 233539 2012-03-27 10:44:32Z jchandra $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/iicbus/iicoc.c 233539 2012-03-27 10:44:32Z jchandra $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

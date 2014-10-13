@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/unbound/control/Makefile 255597 2013-09-15 14:51:23Z des $
+# $FreeBSD: stable/10/usr.sbin/unbound/control/Makefile 255597 2013-09-15 14:51:23Z des $
 
 # Vendor sources and generated files
 LDNSDIR= ${.CURDIR}/../../../contrib/ldns

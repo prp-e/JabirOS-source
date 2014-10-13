@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/uipc_debug.c 255138 2013-09-01 23:34:53Z davide $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/uipc_debug.c 255138 2013-09-01 23:34:53Z davide $");
 
 #include "opt_ddb.h"
 

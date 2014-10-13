@@ -1,9 +1,9 @@
-# $FreeBSD: release/10.0.0/usr.sbin/ntp/sntp/Makefile 182008 2008-08-22 16:00:48Z roberto $
+# $FreeBSD: stable/10/usr.sbin/ntp/sntp/Makefile 264598 2014-04-17 12:16:27Z des $
 
 .PATH: ${.CURDIR}/../../../contrib/ntp/sntp
 
 PROG=	sntp
-NO_MAN=
+MAN=	sntp.1
 SRCS= 	internet.c main.c socket.c timing.c unix.c
 
 CFLAGS+= -I${.CURDIR}/../../../contrib/ntp/include -I${.CURDIR}/../ \

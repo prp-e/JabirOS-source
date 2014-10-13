@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/dev/ct/ctvar.h 240325 2012-09-10 18:49:49Z jhb $ */
+/* $FreeBSD: stable/10/sys/dev/ct/ctvar.h 240325 2012-09-10 18:49:49Z jhb $ */
 /*	$NecBSD: ctvar.h,v 1.4.14.3 2001/06/20 06:13:34 honda Exp $	*/
 /*	$NetBSD$	*/
 

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/sys/eventhandler.h 254813 2013-08-24 21:13:38Z markj $
+ * $FreeBSD: stable/10/sys/sys/eventhandler.h 262861 2014-03-06 18:30:56Z jhb $
  */
 
 #ifndef SYS_EVENTHANDLER_H
@@ -274,5 +274,12 @@ typedef void (*kld_unload_try_fn)(void *, struct linker_file *, int *);
 EVENTHANDLER_DECLARE(kld_load, kld_load_fn);
 EVENTHANDLER_DECLARE(kld_unload, kld_unload_fn);
 EVENTHANDLER_DECLARE(kld_unload_try, kld_unload_try_fn);
+
+/* Generic graphics framebuffer interface */
+struct fb_info;
+typedef void (*register_framebuffer_fn)(void *, struct fb_info *);
+typedef void (*unregister_framebuffer_fn)(void *, struct fb_info *);
+EVENTHANDLER_DECLARE(register_framebuffer, register_framebuffer_fn);
+EVENTHANDLER_DECLARE(unregister_framebuffer, unregister_framebuffer_fn);
 
 #endif /* SYS_EVENTHANDLER_H */

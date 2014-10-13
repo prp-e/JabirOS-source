@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/cam/scsi/scsi_ses.h 238740 2012-07-24 13:32:49Z mav $ */
+/* $FreeBSD: stable/10/sys/cam/scsi/scsi_ses.h 238740 2012-07-24 13:32:49Z mav $ */
 /*-
  * Copyright (c) 2000 by Matthew Jacob
  * All rights reserved.

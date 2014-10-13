@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/mvs/mvs_pci.c 249622 2013-04-18 12:43:06Z mav $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/mvs/mvs_pci.c 249622 2013-04-18 12:43:06Z mav $");
 
 #include <sys/param.h>
 #include <sys/module.h>

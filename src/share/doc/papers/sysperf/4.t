@@ -31,7 +31,7 @@
 .\"
 .\"	@(#)4.t	5.1 (Berkeley) 4/17/91
 .\"
-.\"	$FreeBSD: release/10.0.0/share/doc/papers/sysperf/4.t 108533 2003-01-01 18:49:04Z schweikh $
+.\"	$FreeBSD: stable/10/share/doc/papers/sysperf/4.t 108533 2003-01-01 18:49:04Z schweikh $
 .\"
 .ds RH Performance Improvements
 .NH

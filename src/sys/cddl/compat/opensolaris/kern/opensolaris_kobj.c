@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/cddl/compat/opensolaris/kern/opensolaris_kobj.c 241896 2012-10-22 17:50:54Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/cddl/compat/opensolaris/kern/opensolaris_kobj.c 241896 2012-10-22 17:50:54Z kib $");
 
 #include <sys/types.h>
 #include <sys/systm.h>

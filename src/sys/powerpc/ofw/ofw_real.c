@@ -56,7 +56,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/ofw/ofw_real.c 253588 2013-07-24 02:01:01Z jhibbits $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/ofw/ofw_real.c 262586 2014-02-28 00:39:35Z brueffer $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>
@@ -300,7 +300,7 @@ ofw_real_init(ofw_t ofw, void *openfirm)
 {
 	openfirmware = (int (*)(void *))openfirm;
 
-	mtx_init(&of_bounce_mtx, "OF Bounce Page", MTX_DEF, 0);
+	mtx_init(&of_bounce_mtx, "OF Bounce Page", NULL, MTX_DEF);
 	of_bounce_virt = NULL;
 	return (0);
 }

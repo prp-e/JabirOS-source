@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/x86/include/mptable.h 224096 2011-07-16 14:05:34Z jhb $
+ * $FreeBSD: stable/10/sys/x86/include/mptable.h 259837 2013-12-24 19:10:56Z jhb $
  */
 
 #ifndef __MACHINE_MPTABLE_H__
@@ -85,10 +85,10 @@ typedef struct PROCENTRY {
 	u_char  apic_id;
 	u_char  apic_version;
 	u_char  cpu_flags;
-	u_long  cpu_signature;
-	u_long  feature_flags;
-	u_long  reserved1;
-	u_long  reserved2;
+	u_int32_t cpu_signature;
+	u_int32_t feature_flags;
+	u_int32_t reserved1;
+	u_int32_t reserved2;
 }      *proc_entry_ptr;
 
 #define PROCENTRY_FLAG_EN	0x01

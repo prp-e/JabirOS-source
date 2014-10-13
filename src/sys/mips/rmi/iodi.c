@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/rmi/iodi.c 223562 2011-06-26 10:07:48Z kevlo $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/rmi/iodi.c 265999 2014-05-14 01:35:43Z ian $");
 
 #define __RMAN_RESOURCE_VISIBLE
 #include <sys/param.h>
@@ -190,7 +190,7 @@ static void iodi_identify(driver_t *, device_t);
 int
 iodi_probe(device_t dev)
 {
-	return 0;
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 void

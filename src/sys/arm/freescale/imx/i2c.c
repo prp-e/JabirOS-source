@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/freescale/imx/i2c.c 250357 2013-05-08 09:42:50Z ray $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/freescale/imx/i2c.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -223,6 +223,9 @@ static int
 i2c_probe(device_t dev)
 {
 	struct i2c_softc *sc;
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (!ofw_bus_is_compatible(dev, "fsl,imx-i2c"))
 		return (ENXIO);

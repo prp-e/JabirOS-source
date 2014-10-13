@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/fs/nandfs/nandfs_vnops.c 251171 2013-05-31 00:43:41Z jeff $");
+__FBSDID("$FreeBSD: stable/10/sys/fs/nandfs/nandfs_vnops.c 269283 2014-07-30 03:56:17Z kib $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -1354,9 +1354,6 @@ nandfs_link(struct vop_link_args *ap)
 	struct nandfs_node *node = VTON(vp);
 	struct nandfs_inode *inode = &node->nn_inode;
 	int error;
-
-	if (tdvp->v_mount != vp->v_mount)
-		return (EXDEV);
 
 	if (inode->i_links_count >= LINK_MAX)
 		return (EMLINK);

@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/sfxge/common/efx.h 228078 2011-11-28 17:19:05Z philip $
+ * $FreeBSD: stable/10/sys/dev/sfxge/common/efx.h 265884 2014-05-11 17:18:09Z gnn $
  */
 
 #ifndef	_SYS_EFX_H
@@ -1360,17 +1360,17 @@ typedef	__checkReturn	boolean_t
 typedef	__checkReturn	boolean_t
 (*efx_rxq_flush_done_ev_t)(
 	__in_opt	void *arg,
-	__in		uint32_t label);
+	__in		uint32_t rxq_index);
 
 typedef	__checkReturn	boolean_t
 (*efx_rxq_flush_failed_ev_t)(
 	__in_opt	void *arg,
-	__in		uint32_t label);
+	__in		uint32_t rxq_index);
 
 typedef	__checkReturn	boolean_t
 (*efx_txq_flush_done_ev_t)(
 	__in_opt	void *arg,
-	__in		uint32_t label);
+	__in		uint32_t txq_index);
 
 typedef	__checkReturn	boolean_t
 (*efx_software_ev_t)(

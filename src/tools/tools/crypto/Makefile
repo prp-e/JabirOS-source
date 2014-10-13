@@ -1,4 +1,4 @@
-#	$FreeBSD: release/10.0.0/tools/tools/crypto/Makefile 134911 2004-09-07 18:35:00Z sam $
+#	$FreeBSD: stable/10/tools/tools/crypto/Makefile 134911 2004-09-07 18:35:00Z sam $
 #
 # Copyright (c) 2002, 2003	Sam Leffler, Errno Consulting
 # All rights reserved.

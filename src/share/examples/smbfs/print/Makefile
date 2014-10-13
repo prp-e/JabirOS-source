@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/share/examples/smbfs/print/Makefile 139103 2004-12-21 08:47:35Z ru $
+# $FreeBSD: stable/10/share/examples/smbfs/print/Makefile 139103 2004-12-21 08:47:35Z ru $
 
 NO_OBJ=
 BINDIR=	/usr/share/examples/smbfs/print

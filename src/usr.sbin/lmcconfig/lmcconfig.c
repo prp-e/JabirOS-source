@@ -62,7 +62,7 @@
  *    cc -o lmcconfig lmcconfig.c
  * Install the executable program in /usr/local/sbin/lmcconfig.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/lmcconfig/lmcconfig.c 239988 2012-09-01 10:56:15Z ed $
+ * $FreeBSD: stable/10/usr.sbin/lmcconfig/lmcconfig.c 239988 2012-09-01 10:56:15Z ed $
  */
 
 #include <sys/param.h>

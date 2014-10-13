@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/gnu/usr.bin/cc/cpp/Makefile 232322 2012-02-29 22:58:51Z dim $
+# $FreeBSD: stable/10/gnu/usr.bin/cc/cpp/Makefile 232322 2012-02-29 22:58:51Z dim $
 
 .include <bsd.own.mk>
 

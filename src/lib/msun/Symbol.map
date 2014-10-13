@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: release/10.0.0/lib/msun/Symbol.map 255499 2013-09-12 20:51:48Z dim $
+ * $FreeBSD: stable/10/lib/msun/Symbol.map 271779 2014-09-18 15:10:22Z tijl $
  */
 
 /* 7.0-CURRENT */
@@ -260,23 +260,23 @@ FBSD_1.3 {
 	ccosf;
 	ccosh;
 	ccoshf;
+	coshl;
 	ctan;
 	ctanf;
 	ctanh;
 	ctanhf;
+	erfcl;
+	erfl;
 	expl;
 	expm1l;
 	log10l;
 	log1pl;
 	log2l;
 	logl;
-	/* Implemented as weak aliases for imprecise versions */
-	coshl;
-	erfcl;
-	erfl;
-	lgammal;
-	powl;
 	sinhl;
 	tanhl;
+	/* Implemented as weak aliases for imprecise versions */
+	lgammal;
+	powl;
 	tgammal;
 };

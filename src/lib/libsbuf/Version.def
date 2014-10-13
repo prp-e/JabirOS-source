@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libsbuf/Version.def 249378 2013-04-11 19:50:10Z trociny $
+# $FreeBSD: stable/10/lib/libsbuf/Version.def 249378 2013-04-11 19:50:10Z trociny $
 
 FBSD_1.2 {
 };

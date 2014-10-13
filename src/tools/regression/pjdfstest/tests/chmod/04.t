@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/tools/regression/pjdfstest/tests/chmod/04.t 211336 2010-08-15 14:44:48Z pjd $
+# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/chmod/04.t 211336 2010-08-15 14:44:48Z pjd $
 
 desc="chmod returns ENOENT if the named file does not exist"
 

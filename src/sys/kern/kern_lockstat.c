@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/kern/kern_lockstat.c 192853 2009-05-26 20:28:22Z sson $
+ * $FreeBSD: stable/10/sys/kern/kern_lockstat.c 192853 2009-05-26 20:28:22Z sson $
  */
 
 /*

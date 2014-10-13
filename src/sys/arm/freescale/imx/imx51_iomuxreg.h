@@ -31,7 +31,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/freescale/imx/imx51_iomuxreg.h 250357 2013-05-08 09:42:50Z ray $
+ * $FreeBSD: stable/10/sys/arm/freescale/imx/imx51_iomuxreg.h 250357 2013-05-08 09:42:50Z ray $
  */
 
 #ifndef	_IMX51_IOMUXREG_H

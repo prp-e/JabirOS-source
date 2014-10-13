@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/boot/i386/libi386/pxe.h 240421 2012-09-12 21:00:37Z mav $
+ * $FreeBSD: stable/10/sys/boot/i386/libi386/pxe.h 240421 2012-09-12 21:00:37Z mav $
  */
 
 /*

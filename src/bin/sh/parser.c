@@ -36,7 +36,7 @@ static char sccsid[] = "@(#)parser.c	8.7 (Berkeley) 5/16/95";
 #endif
 #endif /* not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/bin/sh/parser.c 255087 2013-08-30 20:50:28Z jilles $");
+__FBSDID("$FreeBSD: stable/10/bin/sh/parser.c 262951 2014-03-09 17:04:31Z jmmv $");
 
 #include <stdlib.h>
 #include <unistd.h>
@@ -680,6 +680,12 @@ makebinary(int type, union node *n1, union node *n2)
 	n->nbinary.ch1 = n1;
 	n->nbinary.ch2 = n2;
 	return (n);
+}
+
+void
+forcealias(void)
+{
+	checkkwd |= CHKALIAS;
 }
 
 void

@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/fs/nandfs/nandfs_subr.c 241844 2012-10-22 03:00:37Z eadler $");
+__FBSDID("$FreeBSD: stable/10/sys/fs/nandfs/nandfs_subr.c 241844 2012-10-22 03:00:37Z eadler $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

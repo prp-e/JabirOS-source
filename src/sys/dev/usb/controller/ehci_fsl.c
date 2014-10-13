@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/usb/controller/ehci_fsl.c 236120 2012-05-26 21:05:11Z raj $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/usb/controller/ehci_fsl.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include "opt_bus.h"
 
@@ -211,6 +211,9 @@ clear_port_power(ehci_softc_t *sc)
 static int
 fsl_ehci_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (((ofw_bus_is_compatible(dev, "fsl-usb2-dr")) == 0) &&
 	    ((ofw_bus_is_compatible(dev, "fsl-usb2-mph")) == 0))

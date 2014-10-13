@@ -30,13 +30,14 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/libthr/thread/thr_init.c 245630 2013-01-18 23:08:40Z jilles $
+ * $FreeBSD: stable/10/lib/libthr/thread/thr_init.c 270040 2014-08-16 08:38:53Z kib $
  */
 
 #include "namespace.h"
 #include <sys/types.h>
 #include <sys/signalvar.h>
 #include <sys/ioctl.h>
+#include <sys/resource.h>
 #include <sys/sysctl.h>
 #include <sys/ttycom.h>
 #include <sys/mman.h>
@@ -441,6 +442,7 @@ init_main_thread(struct pthread *thread)
 static void
 init_private(void)
 {
+	struct rlimit rlim;
 	size_t len;
 	int mib[2];
 	char *env;
@@ -471,6 +473,12 @@ init_private(void)
 		len = sizeof (_usrstack);
 		if (sysctl(mib, 2, &_usrstack, &len, NULL, 0) == -1)
 			PANIC("Cannot get kern.usrstack from sysctl");
+		env = getenv("LIBPTHREAD_BIGSTACK_MAIN");
+		if (env != NULL) {
+			if (getrlimit(RLIMIT_STACK, &rlim) == -1)
+				PANIC("Cannot get stack rlimit");
+			_thr_stack_initial = rlim.rlim_cur;
+		}
 		len = sizeof(_thr_is_smp);
 		sysctlbyname("kern.smp.cpus", &_thr_is_smp, &len, NULL, 0);
 		_thr_is_smp = (_thr_is_smp > 1);

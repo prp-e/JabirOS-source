@@ -22,7 +22,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/cp/if_cp.c 250460 2013-05-10 16:41:26Z eadler $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/cp/if_cp.c 250460 2013-05-10 16:41:26Z eadler $");
 
 #include <sys/param.h>
 #include <sys/ucred.h>

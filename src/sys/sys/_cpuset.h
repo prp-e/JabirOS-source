@@ -26,7 +26,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/sys/_cpuset.h 250395 2013-05-09 00:04:59Z attilio $
+ * $FreeBSD: stable/10/sys/sys/_cpuset.h 271172 2014-09-05 15:45:20Z jhb $
  */
 
 #ifndef _SYS__CPUSET_H_
@@ -38,7 +38,7 @@
 #define	CPU_SETSIZE	MAXCPU
 #endif
 
-#define	CPU_MAXSIZE	128
+#define	CPU_MAXSIZE	256
 
 #ifndef	CPU_SETSIZE
 #define	CPU_SETSIZE	CPU_MAXSIZE

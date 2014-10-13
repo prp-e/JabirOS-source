@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/uart/uart.h 254598 2013-08-21 14:33:02Z ian $
+ * $FreeBSD: stable/10/sys/dev/uart/uart.h 266095 2014-05-14 23:17:33Z ian $
  */
 
 #ifndef _DEV_UART_H_
@@ -75,6 +75,13 @@ extern struct uart_class uart_lpc_class __attribute__((weak));
 extern struct uart_class uart_pl011_class __attribute__((weak));
 extern struct uart_class uart_cdnc_class __attribute__((weak));
 extern struct uart_class uart_ti8250_class __attribute__((weak));
+extern struct uart_class uart_vybrid_class __attribute__((weak));
+extern struct uart_class at91_usart_class __attribute__((weak));
+
+#ifdef FDT
+struct ofw_compat_data;
+extern const struct ofw_compat_data *uart_fdt_compat_data;
+#endif
 
 #ifdef PC98
 struct uart_class *uart_pc98_getdev(u_long port);

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/am335x/am335x_lcd.c 252282 2013-06-27 00:33:08Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/ti/am335x/am335x_lcd.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -403,6 +403,9 @@ static int
 am335x_lcd_probe(device_t dev)
 {
 	int err;
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (!ofw_bus_is_compatible(dev, "ti,am335x-lcd"))
 		return (ENXIO);

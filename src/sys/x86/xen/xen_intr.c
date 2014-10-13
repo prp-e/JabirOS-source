@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/x86/xen/xen_intr.c 256073 2013-10-05 23:11:01Z gibbs $");
+__FBSDID("$FreeBSD: stable/10/sys/x86/xen/xen_intr.c 256073 2013-10-05 23:11:01Z gibbs $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

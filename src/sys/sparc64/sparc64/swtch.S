@@ -26,7 +26,7 @@
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/sparc64/sparc64/swtch.S 226054 2011-10-06 11:01:31Z marius $");
+__FBSDID("$FreeBSD: stable/10/sys/sparc64/sparc64/swtch.S 226054 2011-10-06 11:01:31Z marius $");
 
 #include <machine/asmacros.h>
 #include <machine/asi.h>

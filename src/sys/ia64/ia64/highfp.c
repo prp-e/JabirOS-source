@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/ia64/ia64/highfp.c 205434 2010-03-22 04:01:45Z marcel $");
+__FBSDID("$FreeBSD: stable/10/sys/ia64/ia64/highfp.c 271211 2014-09-06 22:17:54Z marcel $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -171,8 +171,8 @@ ia64_highfp_save_ipi(void)
 		td->td_pcb->pcb_fpcpu = NULL;
 		PCPU_SET(fpcurthread, NULL);
 	}
+	wakeup(PCPU_PTR(fpcurthread));
 	mtx_unlock_spin(&ia64_highfp_mtx);
-	wakeup(&PCPU_GET(fpcurthread));
 
 	return ((td != NULL) ? 1 : 0);
 }

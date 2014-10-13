@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/libstand/zalloc_mem.h 223905 2011-07-10 07:25:34Z avatar $
+ * $FreeBSD: stable/10/lib/libstand/zalloc_mem.h 269101 2014-07-25 23:12:22Z ian $
  */
 
 /*
@@ -47,8 +47,6 @@ typedef struct MemPool {
     uintptr_t		mp_Size;
     uintptr_t		mp_Used;
 } MemPool;
-
-#define MEMNODE_SIZE_MASK       ((sizeof(MemNode) <= 8) ? 7 : 15)
 
 #define ZNOTE_FREE	0
 #define ZNOTE_REUSE	1

@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/i386/include/md_var.h 253747 2013-07-28 17:54:42Z avg $
+ * $FreeBSD: stable/10/sys/i386/include/md_var.h 253747 2013-07-28 17:54:42Z avg $
  */
 
 #ifndef _MACHINE_MD_VAR_H_

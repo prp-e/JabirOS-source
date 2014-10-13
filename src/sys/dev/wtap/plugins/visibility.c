@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: release/10.0.0/sys/dev/wtap/plugins/visibility.c 243857 2012-12-04 09:32:43Z glebius $
+ * $FreeBSD: stable/10/sys/dev/wtap/plugins/visibility.c 243857 2012-12-04 09:32:43Z glebius $
  */
 #include <sys/param.h>
 #include <sys/module.h>

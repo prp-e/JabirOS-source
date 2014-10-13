@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netinet/sctp_input.h 240198 2012-09-07 13:36:42Z tuexen $");
+__FBSDID("$FreeBSD: stable/10/sys/netinet/sctp_input.h 240198 2012-09-07 13:36:42Z tuexen $");
 
 #ifndef _NETINET_SCTP_INPUT_H_
 #define _NETINET_SCTP_INPUT_H_

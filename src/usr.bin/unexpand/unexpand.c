@@ -29,7 +29,7 @@
 
 #include <sys/cdefs.h>
 
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/unexpand/unexpand.c 227192 2011-11-06 08:18:05Z ed $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/unexpand/unexpand.c 227192 2011-11-06 08:18:05Z ed $");
 
 #ifndef lint
 static const char copyright[] =

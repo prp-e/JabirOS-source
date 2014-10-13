@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/sys/shm.h 220388 2011-04-06 16:59:54Z trasz $ */
+/* $FreeBSD: stable/10/sys/sys/shm.h 220388 2011-04-06 16:59:54Z trasz $ */
 /*	$NetBSD: shm.h,v 1.15 1994/06/29 06:45:17 cgd Exp $	*/
 
 /*-

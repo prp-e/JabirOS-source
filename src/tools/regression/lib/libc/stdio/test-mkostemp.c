@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/tools/regression/lib/libc/stdio/test-mkostemp.c 254151 2013-08-09 17:24:23Z jilles $");
+__FBSDID("$FreeBSD: stable/10/tools/regression/lib/libc/stdio/test-mkostemp.c 254151 2013-08-09 17:24:23Z jilles $");
 
 #include <sys/stat.h>
 

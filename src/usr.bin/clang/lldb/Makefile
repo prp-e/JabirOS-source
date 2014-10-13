@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/clang/lldb/Makefile 255722 2013-09-20 01:52:02Z emaste $
+# $FreeBSD: stable/10/usr.bin/clang/lldb/Makefile 269024 2014-07-23 19:35:02Z emaste $
 
 .include <bsd.own.mk>
 
@@ -11,13 +11,13 @@ CXXFLAGS+=	-std=c++11
 
 SRCDIR=	tools/lldb/tools/driver
 SRCS=	Driver.cpp \
-	IOChannel.cpp
+	Platform.cpp
 
 lldb.1:
 	ln -fs ${LLDB_SRCS}/docs/lldb.1 ${.TARGET}
 
 DPADD=	${LIBEDIT} ${LIBCURSES} ${LIBEXECINFO}
-LDADD=	-ledit -lcurses -lexecinfo
+LDADD=	-lcurses -ledit -lexecinfo -lpanel
 
 LLDB_LIBS=\
 	lldb \
@@ -53,6 +53,7 @@ LLDB_LIBS=\
 	lldbPluginProcessGDBRemote \
 	lldbPluginProcessUtility \
 	lldbPluginProcessPOSIX \
+	lldbPluginProcessFreeBSD \
 	lldbPluginUnwindAssemblyInstEmulation \
 	lldbPluginUnwindAssemblyX86
 
@@ -77,6 +78,7 @@ LIBDEPS=\
 	clangbasic \
 	clanglex \
 	\
+	llvmoption \
 	llvmarmasmparser \
 	llvmarmcodegen \
 	llvminstrumentation \
@@ -106,6 +108,7 @@ LIBDEPS=\
 	llvmmipsinstprinter \
 	llvmpowerpcdesc \
 	llvmpowerpcinstprinter \
+	llvmpowerpcasmparser \
 	llvmruntimedyld \
 	llvmvectorize \
 	llvmx86desc \
@@ -113,6 +116,12 @@ LIBDEPS=\
 	llvmexecutionengine \
 	llvmcodegen \
 	llvmscalaropts \
+	llvmsparcdisassembler \
+	llvmsparccodegen \
+	llvmsparcasmparser \
+	llvmsparcdesc \
+	llvmsparcinfo \
+	llvmsparcinstprinter \
 	llvmarminfo \
 	llvmarminstprinter \
 	llvmmcparser \

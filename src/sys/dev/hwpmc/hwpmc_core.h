@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/hwpmc/hwpmc_core.h 240164 2012-09-06 13:54:01Z fabient $
+ * $FreeBSD: stable/10/sys/dev/hwpmc/hwpmc_core.h 266452 2014-05-19 19:49:06Z markj $
  */
 
 #ifndef _DEV_HWPMC_CORE_H_
@@ -177,8 +177,6 @@ struct pmc_md_iap_pmc {
 
 int	pmc_core_initialize(struct pmc_mdep *_md, int _maxcpu);
 void	pmc_core_finalize(struct pmc_mdep *_md);
-
-void	pmc_core_mark_started(int _cpu, int _pmc);
 
 int	pmc_iaf_initialize(struct pmc_mdep *_md, int _maxcpu, int _npmc, int _width);
 void	pmc_iaf_finalize(struct pmc_mdep *_md);

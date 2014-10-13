@@ -24,7 +24,7 @@
  * behaviour
  *
  * $OpenBSD: inp.c,v 1.36 2012/04/10 14:46:34 ajacoutot Exp $
- * $FreeBSD: release/10.0.0/usr.bin/patch/inp.c 246091 2013-01-29 20:05:16Z delphij $
+ * $FreeBSD: stable/10/usr.bin/patch/inp.c 246091 2013-01-29 20:05:16Z delphij $
  */
 
 #include <sys/types.h>

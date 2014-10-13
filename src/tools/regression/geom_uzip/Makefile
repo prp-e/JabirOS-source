@@ -1,5 +1,5 @@
 #
-# $FreeBSD: release/10.0.0/tools/regression/geom_uzip/Makefile 150734 2005-09-29 22:41:20Z fjoe $
+# $FreeBSD: stable/10/tools/regression/geom_uzip/Makefile 150734 2005-09-29 22:41:20Z fjoe $
 #
 # Regression test for geom_ugz.
 #

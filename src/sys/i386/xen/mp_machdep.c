@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/i386/xen/mp_machdep.c 256073 2013-10-05 23:11:01Z gibbs $");
+__FBSDID("$FreeBSD: stable/10/sys/i386/xen/mp_machdep.c 265606 2014-05-07 20:28:27Z scottl $");
 
 #include "opt_apic.h"
 #include "opt_cpu.h"
@@ -655,7 +655,6 @@ init_secondary(void)
 	if (smp_cpus == mp_ncpus) {
 		/* enable IPI's, tlb shootdown, freezes etc */
 		atomic_store_rel_int(&smp_started, 1);
-		smp_active = 1;	 /* historic */
 	}
 
 	mtx_unlock_spin(&ap_boot_mtx);
@@ -1273,6 +1272,31 @@ cpustop_handler(void)
 		cpustop_restartfunc();
 		cpustop_restartfunc = NULL;
 	}
+}
+
+/*
+ * Handlers for TLB related IPIs
+ *
+ * On i386 Xen PV this are no-ops since this port doesn't support SMP.
+ */
+void
+invltlb_handler(void)
+{
+}
+
+void
+invlpg_handler(void)
+{
+}
+
+void
+invlrng_handler(void)
+{
+}
+
+void
+invlcache_handler(void)
+{
 }
 
 /*

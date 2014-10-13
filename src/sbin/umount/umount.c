@@ -38,7 +38,7 @@ static const char copyright[] =
 static char sccsid[] = "@(#)umount.c	8.8 (Berkeley) 5/8/95";
 #endif
 static const char rcsid[] =
-  "$FreeBSD: release/10.0.0/sbin/umount/umount.c 243082 2012-11-15 15:06:21Z eadler $";
+  "$FreeBSD: stable/10/sbin/umount/umount.c 270258 2014-08-21 04:31:48Z peter $";
 #endif /* not lint */
 
 #include <sys/param.h>
@@ -394,7 +394,7 @@ umountfs(struct statfs *sfs)
 	 * has been unmounted.
 	 */
 	if (ai != NULL && !(fflag & MNT_FORCE) && do_rpc) {
-		clp = clnt_create(hostp, MOUNTPROG, MOUNTVERS, "udp");
+		clp = clnt_create(hostp, MOUNTPROG, MOUNTVERS3, "udp");
 		if (clp  == NULL) {
 			warnx("%s: %s", hostp,
 			    clnt_spcreateerror("MOUNTPROG"));

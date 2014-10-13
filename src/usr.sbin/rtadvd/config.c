@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/usr.sbin/rtadvd/config.c 254955 2013-08-27 11:50:33Z hrs $	*/
+/*	$FreeBSD: stable/10/usr.sbin/rtadvd/config.c 254955 2013-08-27 11:50:33Z hrs $	*/
 /*	$KAME: config.c,v 1.84 2003/08/05 12:34:23 itojun Exp $	*/
 
 /*

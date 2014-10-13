@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/usbdump/usbdump.c 238279 2012-07-09 07:25:09Z hrs $
+ * $FreeBSD: stable/10/usr.sbin/usbdump/usbdump.c 267045 2014-06-04 10:33:30Z hselasky $
  */
 
 #include <sys/param.h>
@@ -472,7 +472,6 @@ print_apacket(const struct header_32 *hdr, const uint8_t *ptr, int ptr_len)
 	 */
 	up->up_totlen = le32toh(up->up_totlen);
 	up->up_busunit = le32toh(up->up_busunit);
-	up->up_address = le32toh(up->up_address);
 	up->up_flags = le32toh(up->up_flags);
 	up->up_status = le32toh(up->up_status);
 	up->up_error = le32toh(up->up_error);

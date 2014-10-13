@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/bsdconfig/networking/share/Makefile 252746 2013-07-05 01:49:20Z dteske $
+# $FreeBSD: stable/10/usr.sbin/bsdconfig/networking/share/Makefile 252746 2013-07-05 01:49:20Z dteske $
 
 NO_OBJ=
 

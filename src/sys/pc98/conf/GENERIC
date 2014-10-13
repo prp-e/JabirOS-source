@@ -16,7 +16,7 @@
 # If you are in doubt as to the purpose or necessity of a line, check first
 # in NOTES.
 #
-# $FreeBSD: release/10.0.0/sys/pc98/conf/GENERIC 254480 2013-08-18 10:21:29Z pjd $
+# $FreeBSD: stable/10/sys/pc98/conf/GENERIC 254480 2013-08-18 10:21:29Z pjd $
 
 cpu		I486_CPU
 cpu		I586_CPU

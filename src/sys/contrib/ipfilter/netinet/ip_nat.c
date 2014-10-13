@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/contrib/ipfilter/netinet/ip_nat.c 255332 2013-09-06 23:11:19Z cy $	*/
+/*	$FreeBSD: stable/10/sys/contrib/ipfilter/netinet/ip_nat.c 255332 2013-09-06 23:11:19Z cy $	*/
 
 /*
  * Copyright (C) 2012 by Darren Reed.
@@ -112,7 +112,7 @@ extern struct ifnet vpnif;
 
 #if !defined(lint)
 static const char sccsid[] = "@(#)ip_nat.c	1.11 6/5/96 (C) 1995 Darren Reed";
-static const char rcsid[] = "@(#)$FreeBSD: release/10.0.0/sys/contrib/ipfilter/netinet/ip_nat.c 255332 2013-09-06 23:11:19Z cy $";
+static const char rcsid[] = "@(#)$FreeBSD: stable/10/sys/contrib/ipfilter/netinet/ip_nat.c 255332 2013-09-06 23:11:19Z cy $";
 /* static const char rcsid[] = "@(#)$Id: ip_nat.c,v 2.195.2.102 2007/10/16 10:08:10 darrenr Exp $"; */
 #endif
 

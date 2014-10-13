@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/pseries/vdevice.c 255927 2013-09-28 15:46:03Z nwhitehorn $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/pseries/vdevice.c 266160 2014-05-15 17:30:16Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -103,7 +103,7 @@ static driver_t vdevice_driver = {
 
 static devclass_t vdevice_devclass;
 
-DRIVER_MODULE(vdevice, nexus, vdevice_driver, vdevice_devclass, 0, 0);
+DRIVER_MODULE(vdevice, ofwbus, vdevice_driver, vdevice_devclass, 0, 0);
 
 static int 
 vdevice_probe(device_t dev) 
@@ -156,7 +156,8 @@ vdevice_attach(device_t dev)
 			for (i = 0; i < nintr; i += icells) {
 				u_int irq = intr[i];
 				if (iparent != -1)
-					irq = MAP_IRQ(iparent, intr[i]);
+					irq = ofw_bus_map_intr(dev, iparent,
+					    icells, &intr[i]);
 
 				resource_list_add(&dinfo->mdi_resources,
 				    SYS_RES_IRQ, i, irq, irq, i);

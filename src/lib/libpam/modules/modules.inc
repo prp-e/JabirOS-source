@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libpam/modules/modules.inc 156813 2006-03-17 18:54:44Z ru $
+# $FreeBSD: stable/10/lib/libpam/modules/modules.inc 156813 2006-03-17 18:54:44Z ru $
 
 .include <bsd.own.mk>
 

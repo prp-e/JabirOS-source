@@ -39,7 +39,7 @@ static char sccsid[] = "@(#)swapon.c	8.1 (Berkeley) 6/5/93";
 #endif /* not lint */
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/swapon/swapon.c 255267 2013-09-05 21:19:16Z hrs $");
+__FBSDID("$FreeBSD: stable/10/sbin/swapon/swapon.c 259820 2013-12-24 13:46:54Z jilles $");
 
 #include <sys/param.h>
 #include <sys/types.h>
@@ -266,7 +266,8 @@ static const char *
 swap_on_off_gbde(const char *name, int doingall)
 {
 	const char *ret;
-	char pass[64 * 2 + 1], bpass[64];
+	char pass[64 * 2 + 1];
+	unsigned char bpass[64];
 	char *dname;
 	int i, error;
 

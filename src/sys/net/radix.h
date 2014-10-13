@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)radix.h	8.2 (Berkeley) 10/31/94
- * $FreeBSD: release/10.0.0/sys/net/radix.h 257330 2013-10-29 12:53:23Z melifaro $
+ * $FreeBSD: stable/10/sys/net/radix.h 265708 2014-05-08 20:27:06Z melifaro $
  */
 
 #ifndef _RADIX_H_
@@ -119,9 +119,9 @@ struct radix_node_head {
 		(void *v, void *mask, struct radix_node_head *head);
 	struct	radix_node *(*rnh_delpkt)	/* remove based on packet hdr */
 		(void *v, void *mask, struct radix_node_head *head);
-	struct	radix_node *(*rnh_matchaddr)	/* locate based on sockaddr */
+	struct	radix_node *(*rnh_matchaddr)	/* longest match for sockaddr */
 		(void *v, struct radix_node_head *head);
-	struct	radix_node *(*rnh_lookup)	/* locate based on sockaddr */
+	struct	radix_node *(*rnh_lookup)	/*exact match for sockaddr*/
 		(void *v, void *mask, struct radix_node_head *head);
 	struct	radix_node *(*rnh_matchpkt)	/* locate based on packet hdr */
 		(void *v, struct radix_node_head *head);

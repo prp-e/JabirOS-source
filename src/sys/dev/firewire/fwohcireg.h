@@ -31,7 +31,7 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  * 
- * $FreeBSD: release/10.0.0/sys/dev/firewire/fwohcireg.h 188508 2009-02-12 03:05:42Z sbruno $
+ * $FreeBSD: stable/10/sys/dev/firewire/fwohcireg.h 261455 2014-02-04 03:36:42Z eadler $
  *
  */
 #define		PCI_CBMEM		PCIR_BAR(0)
@@ -241,7 +241,7 @@ struct ohci_registers {
 	fwohcireg_t	dummy1[3];	/* dummy 0x44-0x4c */
 	fwohcireg_t	hcc_cntl_set;	/* HCC control set 0x50 */
 	fwohcireg_t	hcc_cntl_clr;	/* HCC control clr 0x54 */
-#define	OHCI_HCC_BIBIV	(1 << 31)	/* BIBimage Valid */
+#define	OHCI_HCC_BIBIV	(1U << 31)	/* BIBimage Valid */
 #define	OHCI_HCC_BIGEND	(1 << 30)	/* noByteSwapData */
 #define	OHCI_HCC_PRPHY	(1 << 23)	/* programPhyEnable */
 #define	OHCI_HCC_PHYEN	(1 << 22)	/* aPhyEnhanceEnable */
@@ -280,7 +280,7 @@ struct ohci_registers {
 	fwohcireg_t	link_cntl_clr;	/* Chip control clear 0xe4*/
 #define FWOHCI_NODEID	0xe8
 	fwohcireg_t	node;		/* Node ID 0xe8 */
-#define	OHCI_NODE_VALID	(1 << 31)
+#define	OHCI_NODE_VALID	(1U << 31)
 #define	OHCI_NODE_ROOT	(1 << 30)
 
 #define	OHCI_ASYSRCBUS	1

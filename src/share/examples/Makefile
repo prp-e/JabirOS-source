@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/share/examples/Makefile 256366 2013-10-12 06:08:18Z rpaulo $
+# $FreeBSD: stable/10/share/examples/Makefile 269928 2014-08-13 12:32:52Z gavin $
 #
 # Doing a make install builds /usr/share/examples
 
@@ -10,7 +10,6 @@ LDIRS=	BSD_daemon \
 	bhyve \
 	bootforth \
 	csh \
-	cvsup \
 	diskless \
 	drivers \
 	etc \
@@ -52,10 +51,6 @@ XFILES=	BSD_daemon/FreeBSD.pfa \
 	bootforth/menuconf.4th \
 	bootforth/screen.4th \
 	csh/dot.cshrc \
-	cvsup/README \
-	cvsup/cvs-supfile \
-	cvsup/stable-supfile \
-	cvsup/standard-supfile \
 	diskless/ME \
 	diskless/README.BOOTP \
 	diskless/README.TEMPLATING \
@@ -107,8 +102,8 @@ XFILES=	BSD_daemon/FreeBSD.pfa \
 	kld/syscall/test/call.c \
 	libusb20/Makefile \
 	libusb20/README \
-	libusb20/aux.c \
-	libusb20/aux.h \
+	libusb20/util.c \
+	libusb20/util.h \
 	libusb20/bulk.c \
 	libusb20/control.c \
 	libvgl/Makefile \
@@ -247,6 +242,10 @@ SUBDIR+=ipfilter
 .if ${MK_PF} != "no"
 SUBDIR+=pf
 .endif
+.endif
+
+.if ${MK_TESTS} != "no"
+SUBDIR+=tests
 .endif
 
 .include <bsd.subdir.mk>

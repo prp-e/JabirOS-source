@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/x86/isa/clock.c 254373 2013-08-15 17:21:06Z brooks $");
+__FBSDID("$FreeBSD: stable/10/sys/x86/isa/clock.c 254373 2013-08-15 17:21:06Z brooks $");
 
 /*
  * Routines to handle clock hardware.

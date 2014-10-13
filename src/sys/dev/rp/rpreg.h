@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/rp/rpreg.h 191563 2009-04-27 15:58:38Z ambrisko $
+ * $FreeBSD: stable/10/sys/dev/rp/rpreg.h 191563 2009-04-27 15:58:38Z ambrisko $
  */
 
 /*

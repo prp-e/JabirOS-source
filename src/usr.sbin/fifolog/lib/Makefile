@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/fifolog/lib/Makefile 249657 2013-04-19 19:45:00Z ed $
+# $FreeBSD: stable/10/usr.sbin/fifolog/lib/Makefile 249657 2013-04-19 19:45:00Z ed $
 
 LIB=	fifolog
 INTERNALLIB=	# API not published or supported.

@@ -1,7 +1,7 @@
 /*
  * Fundamental constants relating to ethernet.
  *
- * $FreeBSD: release/10.0.0/sys/net/ethernet.h 249925 2013-04-26 12:50:32Z glebius $
+ * $FreeBSD: stable/10/sys/net/ethernet.h 249925 2013-04-26 12:50:32Z glebius $
  *
  */
 

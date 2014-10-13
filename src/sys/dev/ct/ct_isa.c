@@ -1,7 +1,7 @@
 /*	$NecBSD: ct_isa.c,v 1.6 1999/07/26 06:32:01 honda Exp $	*/
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/ct/ct_isa.c 242871 2012-11-10 14:58:06Z nyan $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/ct/ct_isa.c 242871 2012-11-10 14:58:06Z nyan $");
 /*	$NetBSD$	*/
 
 /*-

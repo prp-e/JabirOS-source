@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/atheros/uart_dev_ar933x.c 249120 2013-04-05 00:26:06Z adrian $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/atheros/uart_dev_ar933x.c 262649 2014-03-01 04:16:54Z imp $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -325,6 +325,8 @@ static int ar933x_bus_probe(struct uart_softc *);
 static int ar933x_bus_receive(struct uart_softc *);
 static int ar933x_bus_setsig(struct uart_softc *, int);
 static int ar933x_bus_transmit(struct uart_softc *);
+static void ar933x_bus_grab(struct uart_softc *);
+static void ar933x_bus_ungrab(struct uart_softc *);
 
 static kobj_method_t ar933x_methods[] = {
 	KOBJMETHOD(uart_attach,		ar933x_bus_attach),
@@ -338,6 +340,8 @@ static kobj_method_t ar933x_methods[] = {
 	KOBJMETHOD(uart_receive,	ar933x_bus_receive),
 	KOBJMETHOD(uart_setsig,		ar933x_bus_setsig),
 	KOBJMETHOD(uart_transmit,	ar933x_bus_transmit),
+	KOBJMETHOD(uart_grab,		ar933x_bus_grab),
+	KOBJMETHOD(uart_ungrab,		ar933x_bus_ungrab),
 	{ 0, 0 }
 };
 
@@ -751,4 +755,32 @@ ar933x_bus_transmit(struct uart_softc *sc)
 	uart_unlock(sc->sc_hwmtx);
 
 	return (0);
+}
+
+static void
+ar933x_bus_grab(struct uart_softc *sc)
+{
+	struct uart_bas *bas = &sc->sc_bas;
+	uint32_t reg;
+
+	/* Disable the host interrupt now */
+	uart_lock(sc->sc_hwmtx);
+	reg = ar933x_getreg(bas, AR933X_UART_CS_REG);
+	reg &= ~AR933X_UART_CS_HOST_INT_EN;
+	ar933x_setreg(bas, AR933X_UART_CS_REG, reg);
+	uart_unlock(sc->sc_hwmtx);
+}
+
+static void
+ar933x_bus_ungrab(struct uart_softc *sc)
+{
+	struct uart_bas *bas = &sc->sc_bas;
+	uint32_t reg;
+
+	/* Enable the host interrupt now */
+	uart_lock(sc->sc_hwmtx);
+	reg = ar933x_getreg(bas, AR933X_UART_CS_REG);
+	reg |= AR933X_UART_CS_HOST_INT_EN;
+	ar933x_setreg(bas, AR933X_UART_CS_REG, reg);
+	uart_unlock(sc->sc_hwmtx);
 }

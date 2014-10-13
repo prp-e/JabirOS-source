@@ -32,7 +32,7 @@
  * IN (meaning that the data is passed *into* the system call).
  */
 /*
- * $FreeBSD: release/10.0.0/usr.bin/truss/syscall.h 255708 2013-09-19 18:53:42Z jhb $
+ * $FreeBSD: stable/10/usr.bin/truss/syscall.h 266719 2014-05-26 23:44:09Z smh $
  */
 
 enum Argtype { None = 1, Hex, Octal, Int, Name, Ptr, Stat, Ioctl, Quad,
@@ -40,7 +40,8 @@ enum Argtype { None = 1, Hex, Octal, Int, Name, Ptr, Stat, Ioctl, Quad,
 	Fd_set, Sigaction, Fcntl, Mprot, Mmapflags, Whence, Readlinkres,
 	Umtx, Sigset, Sigprocmask, Kevent, Sockdomain, Socktype, Open,
 	Fcntlflag, Rusage, BinString, Shutdown, Resource, Rlimit, Timeval2,
-	Pathconf, Rforkflags, ExitStatus, Waitoptions, Idtype, Procctl };
+	Pathconf, Rforkflags, ExitStatus, Waitoptions, Idtype, Procctl,
+	LinuxSockArgs };
 
 #define	ARG_MASK	0xff
 #define	OUT	0x100
@@ -64,6 +65,47 @@ struct syscall {
 
 struct syscall *get_syscall(const char*);
 char *print_arg(struct syscall_args *, unsigned long*, long, struct trussinfo *);
+
+/*
+ * Linux Socket defines
+ */
+#define LINUX_SOCKET		1
+#define LINUX_BIND		2
+#define LINUX_CONNECT		3
+#define LINUX_LISTEN		4
+#define LINUX_ACCEPT		5
+#define LINUX_GETSOCKNAME	6
+#define LINUX_GETPEERNAME	7
+#define LINUX_SOCKETPAIR	8
+#define LINUX_SEND		9
+#define LINUX_RECV		10
+#define LINUX_SENDTO		11
+#define LINUX_RECVFROM		12
+#define LINUX_SHUTDOWN		13
+#define LINUX_SETSOCKOPT	14
+#define LINUX_GETSOCKOPT	15
+#define LINUX_SENDMSG		16
+#define LINUX_RECVMSG		17 
+
+#define PAD_(t) (sizeof(register_t) <= sizeof(t) ? \
+    0 : sizeof(register_t) - sizeof(t))
+    
+#if BYTE_ORDER == LITTLE_ENDIAN
+#define PADL_(t)	0
+#define PADR_(t)	PAD_(t)
+#else
+#define PADL_(t)	PAD_(t)
+#define PADR_(t)	0
+#endif
+
+typedef int     l_int;
+typedef uint32_t    l_ulong;
+
+struct linux_socketcall_args {
+    char what_l_[PADL_(l_int)]; l_int what; char what_r_[PADR_(l_int)];
+    char args_l_[PADL_(l_ulong)]; l_ulong args; char args_r_[PADR_(l_ulong)];
+};
+
 void print_syscall(struct trussinfo *, const char *, int, char **);
 void print_syscall_ret(struct trussinfo *, const char *, int, char **, int,
     long, struct syscall *);

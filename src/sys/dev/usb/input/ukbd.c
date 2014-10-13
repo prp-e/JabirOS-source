@@ -1,5 +1,5 @@
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/usb/input/ukbd.c 254572 2013-08-20 16:21:05Z hselasky $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/usb/input/ukbd.c 263261 2014-03-17 06:38:40Z hselasky $");
 
 
 /*-
@@ -473,7 +473,8 @@ ukbd_get_key(struct ukbd_softc *sc, uint8_t wait)
 	    || (sc->sc_flags & UKBD_FLAG_POLLING) != 0,
 	    ("not polling in kdb or panic\n"));
 
-	if (sc->sc_inputs == 0) {
+	if (sc->sc_inputs == 0 &&
+	    (sc->sc_flags & UKBD_FLAG_GONE) == 0) {
 		/* start transfer, if not already started */
 		usbd_transfer_start(sc->sc_xfer[UKBD_INTR_DT]);
 	}
@@ -1319,6 +1320,18 @@ ukbd_detach(device_t dev)
 
 	usb_callout_stop(&sc->sc_callout);
 
+	/* kill any stuck keys */
+	if (sc->sc_flags & UKBD_FLAG_ATTACHED) {
+		/* stop receiving events from the USB keyboard */
+		usbd_transfer_stop(sc->sc_xfer[UKBD_INTR_DT]);
+
+		/* release all leftover keys, if any */
+		memset(&sc->sc_ndata, 0, sizeof(sc->sc_ndata));
+
+		/* process releasing of all keys */
+		ukbd_interrupt(sc);
+	}
+
 	ukbd_disable(&sc->sc_kbd);
 
 #ifdef KBD_INSTALL_CDEV
@@ -1894,6 +1907,12 @@ static int
 ukbd_ioctl(keyboard_t *kbd, u_long cmd, caddr_t arg)
 {
 	int result;
+
+	/*
+	 * XXX Check of someone is calling us from a critical section:
+	 */
+	if (curthread->td_critnest != 0)
+		return (EDEADLK);
 
 	/*
 	 * XXX KDGKBSTATE, KDSKBSTATE and KDSETLED can be called from any

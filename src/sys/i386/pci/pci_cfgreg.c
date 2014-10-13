@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/i386/pci/pci_cfgreg.c 254025 2013-08-07 06:21:20Z jeff $");
+__FBSDID("$FreeBSD: stable/10/sys/i386/pci/pci_cfgreg.c 261455 2014-02-04 03:36:42Z eadler $");
 
 #include "opt_xbox.h"
 
@@ -306,7 +306,7 @@ pci_cfgenable(unsigned bus, unsigned slot, unsigned func, int reg, int bytes)
 		switch (cfgmech) {
 		case CFGMECH_PCIE:
 		case CFGMECH_1:
-			outl(CONF1_ADDR_PORT, (1 << 31)
+			outl(CONF1_ADDR_PORT, (1U << 31)
 			    | (bus << 16) | (slot << 11) 
 			    | (func << 8) | (reg & ~0x03));
 			dataport = CONF1_DATA_PORT + (reg & 0x03);

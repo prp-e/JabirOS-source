@@ -19,7 +19,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: release/10.0.0/sys/cddl/dev/dtrace/mips/dtrace_subr.c 233409 2012-03-24 05:14:37Z gonzo $
+ * $FreeBSD: stable/10/sys/cddl/dev/dtrace/mips/dtrace_subr.c 233409 2012-03-24 05:14:37Z gonzo $
  *
  */
 /*
@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/cddl/dev/dtrace/mips/dtrace_subr.c 233409 2012-03-24 05:14:37Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/cddl/dev/dtrace/mips/dtrace_subr.c 233409 2012-03-24 05:14:37Z gonzo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

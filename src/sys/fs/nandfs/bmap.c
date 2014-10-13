@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/fs/nandfs/bmap.c 240358 2012-09-11 09:38:32Z kevlo $");
+__FBSDID("$FreeBSD: stable/10/sys/fs/nandfs/bmap.c 240358 2012-09-11 09:38:32Z kevlo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

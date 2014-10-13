@@ -32,7 +32,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)callout.h	8.2 (Berkeley) 1/21/94
- * $FreeBSD: release/10.0.0/sys/sys/_callout.h 247777 2013-03-04 11:09:56Z davide $
+ * $FreeBSD: stable/10/sys/sys/_callout.h 247777 2013-03-04 11:09:56Z davide $
  */
 
 #ifndef _SYS__CALLOUT_H

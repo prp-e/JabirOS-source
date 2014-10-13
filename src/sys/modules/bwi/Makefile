@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/bwi/Makefile 235775 2012-05-22 06:33:08Z uqs $
+# $FreeBSD: stable/10/sys/modules/bwi/Makefile 235775 2012-05-22 06:33:08Z uqs $
 
 .PATH: ${.CURDIR}/../../dev/bwi
 

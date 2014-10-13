@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/kbd/kbd.c 227309 2011-11-07 15:43:11Z ed $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/kbd/kbd.c 227309 2011-11-07 15:43:11Z ed $");
 
 #include "opt_kbd.h"
 

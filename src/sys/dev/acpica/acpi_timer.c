@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/acpica/acpi_timer.c 255726 2013-09-20 05:06:03Z gibbs $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/acpica/acpi_timer.c 255726 2013-09-20 05:06:03Z gibbs $");
 
 #include "opt_acpi.h"
 #include <sys/param.h>

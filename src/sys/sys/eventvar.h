@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: release/10.0.0/sys/sys/eventvar.h 255527 2013-09-13 19:50:50Z kib $
+ *	$FreeBSD: stable/10/sys/sys/eventvar.h 255527 2013-09-13 19:50:50Z kib $
  */
 
 #ifndef _SYS_EVENTVAR_H_

@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/tools/regression/geom_eli/init-B.t 182452 2008-08-29 18:10:18Z pjd $
+# $FreeBSD: stable/10/tools/regression/geom_eli/init-B.t 182452 2008-08-29 18:10:18Z pjd $
 
 base=`basename $0`
 no=45

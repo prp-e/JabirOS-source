@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/twe/Makefile 148913 2005-08-10 04:01:21Z obrien $
+# $FreeBSD: stable/10/sys/modules/twe/Makefile 148913 2005-08-10 04:01:21Z obrien $
 
 KMOD=	twe
 .PATH: ${.CURDIR}/../../dev/${KMOD}

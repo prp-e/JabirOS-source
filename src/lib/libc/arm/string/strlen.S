@@ -25,7 +25,7 @@
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/arm/string/strlen.S 150877 2005-10-03 14:43:27Z cognet $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/arm/string/strlen.S 271337 2014-09-09 22:24:01Z ian $");
 
 ENTRY(strlen)
 	mov	r1, #0
@@ -76,3 +76,4 @@ ENTRY(strlen)
 .Lexit:
 	mov	r0, r1
 	RET
+END(strlen)

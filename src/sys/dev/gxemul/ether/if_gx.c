@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/gxemul/ether/if_gx.c 243857 2012-12-04 09:32:43Z glebius $
+ * $FreeBSD: stable/10/sys/dev/gxemul/ether/if_gx.c 265999 2014-05-14 01:35:43Z ian $
  */
 
 #include "opt_inet.h"
@@ -125,7 +125,7 @@ gx_probe(device_t dev)
 
 	device_set_desc(dev, "GXemul test Ethernet");
 
-	return (0);
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 static int

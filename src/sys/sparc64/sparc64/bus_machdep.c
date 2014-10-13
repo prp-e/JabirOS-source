@@ -92,7 +92,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/sparc64/sparc64/bus_machdep.c 254025 2013-08-07 06:21:20Z jeff $");
+__FBSDID("$FreeBSD: stable/10/sys/sparc64/sparc64/bus_machdep.c 254025 2013-08-07 06:21:20Z jeff $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

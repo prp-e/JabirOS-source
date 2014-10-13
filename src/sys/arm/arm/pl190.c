@@ -26,7 +26,7 @@
 
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/arm/pl190.c 244195 2012-12-13 23:03:37Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/arm/pl190.c 270075 2014-08-17 01:28:03Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -78,6 +78,10 @@ static struct pl190_intc_softc *pl190_intc_sc = NULL;
 static int
 pl190_intc_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
+
 	if (!ofw_bus_is_compatible(dev, "arm,versatile-vic"))
 		return (ENXIO);
 	device_set_desc(dev, "ARM PL190 VIC");
@@ -113,7 +117,7 @@ pl190_intc_attach(device_t dev)
 	/* Disable all interrupts */
 	intc_vic_write_4(VICINTENCLEAR, 0xffffffff);
 	/* Enable INT31, SIC IRQ */
-	intc_vic_write_4(VICINTENABLE, (1 << 31));
+	intc_vic_write_4(VICINTENABLE, (1U << 31));
 
 	id = 0;
 	for (i = 3; i >= 0; i--) {
@@ -148,7 +152,8 @@ static driver_t pl190_intc_driver = {
 
 static devclass_t pl190_intc_devclass;
 
-DRIVER_MODULE(intc, simplebus, pl190_intc_driver, pl190_intc_devclass, 0, 0);
+EARLY_DRIVER_MODULE(intc, simplebus, pl190_intc_driver, pl190_intc_devclass, 
+    0, 0, BUS_PASS_INTERRUPT + BUS_PASS_ORDER_MIDDLE);
 
 int
 arm_get_next_irq(int last_irq)

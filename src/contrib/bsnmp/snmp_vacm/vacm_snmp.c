@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/contrib/bsnmp/snmp_vacm/vacm_snmp.c 245952 2013-01-26 22:08:21Z pfg $
+ * $FreeBSD: stable/10/contrib/bsnmp/snmp_vacm/vacm_snmp.c 245952 2013-01-26 22:08:21Z pfg $
  */
 #include <sys/queue.h>
 #include <sys/types.h>

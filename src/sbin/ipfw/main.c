@@ -17,7 +17,7 @@
  *
  * Command line interface for IP firewall facility
  *
- * $FreeBSD: release/10.0.0/sbin/ipfw/main.c 229778 2012-01-07 16:09:33Z uqs $
+ * $FreeBSD: stable/10/sbin/ipfw/main.c 229778 2012-01-07 16:09:33Z uqs $
  */
 
 #include <sys/wait.h>

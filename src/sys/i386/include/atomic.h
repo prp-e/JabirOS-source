@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/i386/include/atomic.h 254620 2013-08-21 22:30:11Z jkim $
+ * $FreeBSD: stable/10/sys/i386/include/atomic.h 254620 2013-08-21 22:30:11Z jkim $
  */
 #ifndef _MACHINE_ATOMIC_H_
 #define	_MACHINE_ATOMIC_H_

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.bin/procstat/procstat_bin.c 249678 2013-04-20 08:05:04Z trociny $
+ * $FreeBSD: stable/10/usr.bin/procstat/procstat_bin.c 249678 2013-04-20 08:05:04Z trociny $
  */
 
 #include <sys/param.h>

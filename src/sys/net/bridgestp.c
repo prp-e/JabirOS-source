@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/net/bridgestp.c 248324 2013-03-15 12:55:30Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sys/net/bridgestp.c 248324 2013-03-15 12:55:30Z glebius $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

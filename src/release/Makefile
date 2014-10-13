@@ -1,18 +1,19 @@
-# $FreeBSD: release/10.0.0/release/Makefile 260787 2014-01-16 18:33:10Z gjb $
+# $FreeBSD: stable/10/release/Makefile 271481 2014-09-12 19:32:18Z gjb $
 #
 # Makefile for building releases and release media.
-# 
+#
 # User-driven targets:
 #  cdrom: Builds release CD-ROM media (disc1.iso)
 #  dvdrom: Builds release DVD-ROM media (dvd1.iso)
 #  memstick: Builds memory stick image (memstick.img)
+#  mini-memstick: Builds minimal memory stick image (mini-memstick.img)
 #  ftp: Sets up FTP distribution area (ftp)
 #  release: Build all media and FTP distribution area
 #  install: Copies all release media into ${DESTDIR}
 #
 # Variables affecting the build process:
 #  WORLDDIR: location of src tree -- must have built world and default kernel
-#            (by default, the directory above this one) 
+#            (by default, the directory above this one)
 #  PORTSDIR: location of ports tree to distribute (default: /usr/ports)
 #  DOCDIR:   location of doc tree (default: /usr/doc)
 #  NOPKG:    if set, do not distribute third-party packages
@@ -20,13 +21,16 @@
 #  NOSRC:    if set, do not distribute source tree
 #  NODOC:    if set, do not generate release documentation
 #  WITH_DVD: if set, generate dvd1.iso
-#  TARGET/TARGET_ARCH: architecture of built release 
+#  WITH_COMPRESSED_IMAGES: if set, compress installation images with xz(1)
+#		(uncompressed images are not removed)
+#  TARGET/TARGET_ARCH: architecture of built release
 #
 
 WORLDDIR?=	${.CURDIR}/..
 PORTSDIR?=	/usr/ports
 DOCDIR?=	/usr/doc
 RELNOTES_LANG?= en_US.ISO8859-1
+XZCMD?=		/usr/bin/xz
 
 .if !defined(TARGET) || empty(TARGET)
 TARGET=		${MACHINE}
@@ -62,7 +66,7 @@ NODOC= true
 NOPORTS= true
 .endif
 
-EXTRA_PACKAGES= 
+EXTRA_PACKAGES=
 .if !defined(NOPORTS)
 EXTRA_PACKAGES+= ports.txz
 .endif
@@ -85,10 +89,36 @@ IMAGES+=	dvd1.iso
 .endif
 .if exists(${.CURDIR}/${TARGET}/make-memstick.sh)
 RELEASE_TARGETS+= memstick.img
+RELEASE_TARGETS+= mini-memstick.img
 IMAGES+=	memstick.img
+IMAGES+=	mini-memstick.img
+.endif
+.if exists(${.CURDIR}/${TARGET}/make-uefi-memstick.sh)
+RELEASE_TARGETS+=uefi-memstick.img
+RELEASE_TARGETS+=uefi-mini-memstick.img
+IMAGES+=	uefi-memstick.img
+IMAGES+=	uefi-mini-memstick.img
+.endif
+.if exists(${.CURDIR}/${TARGET}/mkisoimages-uefi.sh)
+RELEASE_TARGETS+=uefi-disc1.iso
+RELEASE_TARGETS+=uefi-bootonly.iso
+IMAGES+=	uefi-disc1.iso
+IMAGES+=	uefi-bootonly.iso
+. if defined(WITH_DVD) && !empty(WITH_DVD)
+RELEASE_TARGETS+=uefi-dvd1.iso
+IMAGES+=	uefi-dvd1.iso
+. endif
 .endif
 
 CLEANFILES=	packagesystem *.txz MANIFEST system ${IMAGES}
+.if defined(WITH_COMPRESSED_IMAGES) && !empty(WITH_COMPRESSED_IMAGES)
+. for I in ${IMAGES}
+CLEANFILES+=	${I}.xz
+. endfor
+.endif
+.if defined(WITH_DVD) && !empty(WITH_DVD)
+CLEANFILES+=	pkg-stage
+.endif
 CLEANDIRS=	dist ftp release bootonly dvd
 beforeclean:
 	chflags -R noschg .
@@ -101,6 +131,8 @@ base.txz:
 # Set up mergemaster root database
 	sh ${.CURDIR}/scripts/mm-mtree.sh -m ${WORLDDIR} -F \
 	    "TARGET_ARCH=${TARGET_ARCH} TARGET=${TARGET}" -D "${.OBJDIR}/${DISTDIR}/base"
+	etcupdate extract -B -M "TARGET_ARCH=${TARGET_ARCH} TARGET=${TARGET}" \
+	    -s ${WORLDDIR} -d "${.OBJDIR}/${DISTDIR}/base/var/db/etcupdate"
 # Package all components
 	cd ${WORLDDIR} && ${IMAKE} packageworld DISTDIR=${.OBJDIR}/${DISTDIR}
 	mv ${DISTDIR}/*.txz .
@@ -114,13 +146,13 @@ src.txz:
 	mkdir -p ${DISTDIR}/usr
 	ln -fs ${WORLDDIR} ${DISTDIR}/usr/src
 	cd ${DISTDIR} && tar cLvJf ${.OBJDIR}/src.txz --exclude .svn --exclude .zfs \
-	    --exclude CVS --exclude @ --exclude usr/src/release/dist usr/src
+	    --exclude .git --exclude @ --exclude usr/src/release/dist usr/src
 
 ports.txz:
 	mkdir -p ${DISTDIR}/usr
 	ln -fs ${PORTSDIR} ${DISTDIR}/usr/ports
 	cd ${DISTDIR} && tar cLvJf ${.OBJDIR}/ports.txz \
-	    --exclude CVS --exclude .svn \
+	    --exclude .git --exclude .svn \
 	    --exclude usr/ports/distfiles --exclude usr/ports/packages \
 	    --exclude 'usr/ports/INDEX*' --exclude work usr/ports
 
@@ -200,8 +232,23 @@ release.iso: disc1.iso
 disc1.iso: system
 	sh ${.CURDIR}/${TARGET}/mkisoimages.sh -b FreeBSD_Install ${.TARGET} release
 
+uefi-disc1.iso: system
+.if exists(${.CURDIR}/${TARGET}/mkisoimages-uefi.sh)
+	sh ${.CURDIR}/${TARGET}/mkisoimages-uefi.sh -b FreeBSD_Install ${.TARGET} release
+.endif
+
+uefi-bootonly.iso: bootonly
+.if exists(${.CURDIR}/${TARGET}/mkisoimages-uefi.sh)
+	sh ${.CURDIR}/${TARGET}/mkisoimages-uefi.sh -b FreeBSD_Install ${.TARGET} bootonly
+.endif
+
 dvd1.iso: dvd pkg-stage
 	sh ${.CURDIR}/${TARGET}/mkisoimages.sh -b FreeBSD_Install ${.TARGET} dvd
+
+uefi-dvd1.iso: dvd pkg-stage
+.if exists(${.CURDIR}/${TARGET}/mkisoimages-uefi.sh)
+	sh ${.CURDIR}/${TARGET}/mkisoimages-uefi.sh -b FreeBSD_Install ${.TARGET} dvd
+.endif
 
 bootonly.iso: bootonly
 	sh ${.CURDIR}/${TARGET}/mkisoimages.sh -b FreeBSD_Install ${.TARGET} bootonly
@@ -209,6 +256,22 @@ bootonly.iso: bootonly
 memstick: memstick.img
 memstick.img: system
 	sh ${.CURDIR}/${TARGET}/make-memstick.sh release ${.TARGET}
+
+mini-memstick: mini-memstick.img
+mini-memstick.img: system
+	sh ${.CURDIR}/${TARGET}/make-memstick.sh bootonly ${.TARGET}
+
+uefi-memstick: uefi-memstick.img
+uefi-memstick.img: system
+.if exists(${.CURDIR}/${TARGET}/make-uefi-memstick.sh)
+	sh ${.CURDIR}/${TARGET}/make-uefi-memstick.sh release ${.TARGET}
+.endif
+
+uefi-mini-memstick: uefi-mini-memstick.img
+uefi-mini-memstick.img: system
+.if exists(${.CURDIR}/${TARGET}/make-uefi-memstick.sh)
+	sh ${.CURDIR}/${TARGET}/make-uefi-memstick.sh bootonly ${.TARGET}
+.endif
 
 packagesystem: base.txz kernel.txz ${EXTRA_PACKAGES}
 	sh ${.CURDIR}/scripts/make-manifest.sh *.txz > MANIFEST
@@ -242,6 +305,9 @@ install:
 	cp -a ftp ${DESTDIR}/
 .for I in ${IMAGES}
 	cp -p ${I} ${DESTDIR}/${OSRELEASE}-${I}
+. if defined(WITH_COMPRESSED_IMAGES) && !empty(WITH_COMPRESSED_IMAGES)
+	${XZCMD} -k ${DESTDIR}/${OSRELEASE}-${I}
+. endif
 .endfor
 	cd ${DESTDIR} && sha256 ${OSRELEASE}* > ${DESTDIR}/CHECKSUM.SHA256
 	cd ${DESTDIR} && md5 ${OSRELEASE}* > ${DESTDIR}/CHECKSUM.MD5

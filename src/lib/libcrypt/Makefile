@@ -1,5 +1,5 @@
 #
-# $FreeBSD: release/10.0.0/lib/libcrypt/Makefile 236967 2012-06-12 17:14:19Z des $
+# $FreeBSD: stable/10/lib/libcrypt/Makefile 260013 2013-12-28 20:05:31Z jmmv $
 #
 
 SHLIBDIR?=	/lib
@@ -37,4 +37,9 @@ WARNS?=		2
 
 PRECIOUSLIB=
 
+.if ${MK_TESTS} != "no"
+SUBDIR+=	tests
+.endif
+
 .include <bsd.lib.mk>
+.include <bsd.subdir.mk>

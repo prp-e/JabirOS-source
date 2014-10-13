@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libprocstat/zfs/Makefile 221807 2011-05-12 10:11:39Z stas $
+# $FreeBSD: stable/10/lib/libprocstat/zfs/Makefile 263397 2014-03-19 23:55:03Z delphij $
 
 .PATH: ${.CURDIR}/..
 
@@ -10,6 +10,7 @@ CFLAGS+= -I${.CURDIR}/../../../sys/cddl/compat/opensolaris
 CFLAGS+= -I${.CURDIR}/../../../cddl/compat/opensolaris/include
 CFLAGS+= -I${.CURDIR}/../../../cddl/compat/opensolaris/lib/libumem
 CFLAGS+= -I${.CURDIR}/../../../cddl/contrib/opensolaris/lib/libzpool/common
+CFLAGS+= -I${.CURDIR}/../../../sys/cddl/contrib/opensolaris/common/zfs
 CFLAGS+= -I${.CURDIR}/../../../sys/cddl/contrib/opensolaris/uts/common/fs/zfs
 CFLAGS+= -I${.CURDIR}/../../../sys/cddl/contrib/opensolaris/uts/common
 CFLAGS+= -I${.CURDIR}/../../../sys/cddl/contrib/opensolaris/uts/common/sys

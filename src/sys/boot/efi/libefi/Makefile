@@ -1,16 +1,27 @@
-# $FreeBSD: release/10.0.0/sys/boot/efi/libefi/Makefile 211679 2010-08-23 01:48:07Z imp $
+# $FreeBSD: stable/10/sys/boot/efi/libefi/Makefile 271880 2014-09-19 21:30:45Z emaste $
 
 LIB=	efi
 INTERNALLIB=
 
 SRCS=	delay.c efi_console.c efinet.c efipart.c errno.c handles.c \
 	libefi.c time.c
+.PATH:	${.CURDIR}/../../i386/libi386
+SRCS+= nullconsole.c comconsole.c
 
+.if ${MACHINE_ARCH} == "amd64"
+CFLAGS+= -fPIC
+.endif
 CFLAGS+= -I${.CURDIR}/../include
-CFLAGS+= -I${.CURDIR}/../include/${MACHINE_CPUARCH:S/amd64/i386/}
+CFLAGS+= -I${.CURDIR}/../include/${MACHINE_CPUARCH}
 CFLAGS+= -I${.CURDIR}/../../../../lib/libstand
 
 # Pick up the bootstrap header for some interface items
 CFLAGS+= -I${.CURDIR}/../../common
+
+CFLAGS+= -DNO_PCI
+
+ 
+# Suppress warning from clang for FreeBSD %b and %D formats
+CFLAGS+= -fformat-extensions
 
 .include <bsd.lib.mk>

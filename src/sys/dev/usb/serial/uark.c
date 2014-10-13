@@ -15,7 +15,7 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/usb/serial/uark.c 253750 2013-07-28 18:44:17Z avg $
+ * $FreeBSD: stable/10/sys/dev/usb/serial/uark.c 253750 2013-07-28 18:44:17Z avg $
  */
 
 /*

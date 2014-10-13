@@ -55,7 +55,7 @@
  * any improvements or extensions that they make and grant Carnegie the
  * rights to redistribute these changes.
  *
- * $FreeBSD: release/10.0.0/sys/vm/vm.h 253604 2013-07-24 09:45:31Z avg $
+ * $FreeBSD: stable/10/sys/vm/vm.h 253604 2013-07-24 09:45:31Z avg $
  */
 
 #ifndef VM_H

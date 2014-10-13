@@ -50,7 +50,7 @@
 # or the SD Card Association to disclose or distribute any technical
 # information, know-how or other confidential information to any third party.
 #
-# $FreeBSD: release/10.0.0/sys/dev/sdhci/sdhci_if.m 247495 2013-02-28 19:43:14Z gonzo $
+# $FreeBSD: stable/10/sys/dev/sdhci/sdhci_if.m 271051 2014-09-03 20:07:26Z marius $
 #
 
 #
@@ -62,6 +62,7 @@
 #include <sys/systm.h>
 #include <sys/lock.h>
 #include <sys/mutex.h>
+#include <sys/sysctl.h>
 #include <sys/taskqueue.h>
 
 #include <machine/bus.h>

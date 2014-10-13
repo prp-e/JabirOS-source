@@ -25,7 +25,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/kbdcontrol/lex.h 228976 2011-12-30 00:59:08Z uqs $
+ * $FreeBSD: stable/10/usr.sbin/kbdcontrol/lex.h 228976 2011-12-30 00:59:08Z uqs $
  */
 
 #define TNOP		256

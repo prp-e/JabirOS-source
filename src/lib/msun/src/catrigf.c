@@ -39,7 +39,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/msun/src/catrigf.c 251404 2013-06-05 05:33:01Z das $");
+__FBSDID("$FreeBSD: stable/10/lib/msun/src/catrigf.c 251404 2013-06-05 05:33:01Z das $");
 
 #include <complex.h>
 #include <float.h>

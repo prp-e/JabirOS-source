@@ -30,7 +30,7 @@
  * VM Bus Driver Implementation
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/hyperv/vmbus/hv_vmbus_drv_freebsd.c 256758 2013-10-18 23:19:27Z gibbs $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/hyperv/vmbus/hv_vmbus_drv_freebsd.c 265999 2014-05-14 01:35:43Z ian $");
 
 #include <sys/param.h>
 #include <sys/bus.h>
@@ -313,7 +313,7 @@ vmbus_probe(device_t dev) {
 
 	device_set_desc(dev, "Vmbus Devices");
 
-	return (0);
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 /**

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/mvs/mvs_soc.c 249622 2013-04-18 12:43:06Z mav $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/mvs/mvs_soc.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/module.h>
@@ -66,6 +66,8 @@ static struct {
 	{MV_DEV_88F6282, 0x00,   "Marvell 88F6282",	2, MVS_Q_GENIIE|MVS_Q_SOC},
 	{MV_DEV_MV78100, 0x00,   "Marvell MV78100",	2, MVS_Q_GENIIE|MVS_Q_SOC},
 	{MV_DEV_MV78100_Z0, 0x00,"Marvell MV78100",	2, MVS_Q_GENIIE|MVS_Q_SOC},
+	{MV_DEV_MV78260, 0x00,   "Marvell MV78260",	2, MVS_Q_GENIIE|MVS_Q_SOC},
+	{MV_DEV_MV78460, 0x00,   "Marvell MV78460",	2, MVS_Q_GENIIE|MVS_Q_SOC},
 	{0,              0x00,   NULL,			0, 0}
 };
 
@@ -75,6 +77,9 @@ mvs_probe(device_t dev)
 	char buf[64];
 	int i;
 	uint32_t devid, revid;
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (!ofw_bus_is_compatible(dev, "mrvl,sata"))
 		return (ENXIO);

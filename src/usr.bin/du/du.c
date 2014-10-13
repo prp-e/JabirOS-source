@@ -42,7 +42,7 @@ static const char sccsid[] = "@(#)du.c	8.5 (Berkeley) 5/4/95";
 #endif
 #endif /* not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/du/du.c 238817 2012-07-26 20:41:36Z pluknet $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/du/du.c 238817 2012-07-26 20:41:36Z pluknet $");
 
 #include <sys/param.h>
 #include <sys/queue.h>

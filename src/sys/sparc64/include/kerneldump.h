@@ -22,7 +22,7 @@
  * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
  * USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/sparc64/include/kerneldump.h 113238 2003-04-08 06:35:09Z jake $
+ * $FreeBSD: stable/10/sys/sparc64/include/kerneldump.h 113238 2003-04-08 06:35:09Z jake $
  */
 
 #ifndef _MACHINE_KERNELDUMP_H_

@@ -1,11 +1,21 @@
-# $FreeBSD: release/10.0.0/usr.sbin/bsdinstall/distextract/Makefile 250511 2013-05-11 13:46:05Z antoine $
+# $FreeBSD: stable/10/usr.sbin/bsdinstall/distextract/Makefile 262643 2014-03-01 03:09:16Z brooks $
 
 BINDIR= /usr/libexec/bsdinstall
 PROG=	distextract
-DPADD=	${LIBARCHIVE} ${LIBNCURSESW} ${LIBDIALOG} ${LIBM}
-LDADD=	-larchive -lncursesw -ldialog -lm
+DPADD=	${LIBARCHIVE} ${LIBDIALOG} ${LIBM}
+LDADD=	-larchive -ldialog -lm
 
 WARNS?=	6
 NO_MAN=	true
+
+.include <bsd.own.mk>
+
+.if ${MK_NCURSESW} == "no"
+DPADD+=	${LIBNCURSES}
+LDADD+=	-lncurses
+.else
+DPADD+=	${LIBNCURSESW}
+LDADD+=	-lncursesw
+.endif
 
 .include <bsd.prog.mk>

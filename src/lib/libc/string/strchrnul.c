@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/string/strchrnul.c 246766 2013-02-13 15:46:33Z zeising $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/string/strchrnul.c 246766 2013-02-13 15:46:33Z zeising $");
 
 #include <stddef.h>
 #include <string.h>

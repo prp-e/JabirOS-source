@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/rpc.yppasswdd/yppasswdd_server.c 231994 2012-02-22 06:27:20Z kevlo $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/rpc.yppasswdd/yppasswdd_server.c 231994 2012-02-22 06:27:20Z kevlo $");
 
 #include <sys/param.h>
 #include <sys/fcntl.h>

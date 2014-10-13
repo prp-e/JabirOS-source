@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/hyperv/vmbus/hv_channel.c 256352 2013-10-11 21:47:17Z grehan $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/hyperv/vmbus/hv_channel.c 256352 2013-10-11 21:47:17Z grehan $");
 
 #include <sys/param.h>
 #include <sys/malloc.h>

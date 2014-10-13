@@ -1,5 +1,5 @@
 #
-# $FreeBSD: release/10.0.0/sys/modules/usb/g_modem/Makefile 253544 2013-07-22 13:39:33Z hselasky $
+# $FreeBSD: stable/10/sys/modules/usb/g_modem/Makefile 253544 2013-07-22 13:39:33Z hselasky $
 #
 # Copyright (c) 2010 Hans Petter Selasky. All rights reserved.
 #

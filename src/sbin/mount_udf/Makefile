@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sbin/mount_udf/Makefile 247861 2013-03-06 00:36:33Z jkim $
+# $FreeBSD: stable/10/sbin/mount_udf/Makefile 247861 2013-03-06 00:36:33Z jkim $
 
 PROG=	mount_udf
 SRCS=	mount_udf.c getmntopts.c

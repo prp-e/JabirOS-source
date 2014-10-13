@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/usr.bin/sort/vsort.h 251863 2013-06-17 20:15:39Z eadler $	*/
+/*	$FreeBSD: stable/10/usr.bin/sort/vsort.h 265160 2014-04-30 20:39:08Z pfg $	*/
 
 /*-
  * Copyright (C) 2012 Oleg Moskalenko <mom040267@gmail.com>
@@ -28,7 +28,7 @@
  */
 
 #ifndef _VSORT_H_
-#define _VSORT_H_
+#define	_VSORT_H_
 
 #include "bwstring.h"
 

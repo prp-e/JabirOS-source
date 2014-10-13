@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/dev/usb/wlan/if_urtwvar.h 253757 2013-07-29 05:54:13Z hselasky $	*/
+/*	$FreeBSD: stable/10/sys/dev/usb/wlan/if_urtwvar.h 253757 2013-07-29 05:54:13Z hselasky $	*/
 
 /*-
  * Copyright (c) 2008 Weongyo Jeong <weongyo@FreeBSD.org>

@@ -21,7 +21,7 @@
  * Portions Copyright 2006-2008 John Birrell jb@freebsd.org
  * Portions Copyright 2013 Justin Hibbits jhibbits@freebsd.org
  *
- * $FreeBSD: release/10.0.0/sys/cddl/dev/fbt/fbt_powerpc.c 255099 2013-08-31 16:30:20Z jhibbits $
+ * $FreeBSD: stable/10/sys/cddl/dev/fbt/fbt_powerpc.c 260670 2014-01-15 05:19:37Z jhibbits $
  *
  */
 
@@ -219,7 +219,7 @@ fbt_provide_module_function(linker_file_t lf, int symindx,
 		return (0);
 
 	instr = (u_int32_t *) symval->value;
-	limit = (u_int32_t *) symval->value + symval->size;
+	limit = (u_int32_t *) (symval->value + symval->size);
 
 	for (; instr < limit; instr++)
 		if (*instr == FBT_MFLR_R0)
@@ -278,7 +278,7 @@ again:
 	instr++;
 
 	for (j = 0; j < 12 && instr < limit; j++, instr++) {
-		if ((*instr == FBT_BCTR) || (*instr == FBT_BLR) |
+		if ((*instr == FBT_BCTR) || (*instr == FBT_BLR) ||
 		    FBT_IS_JUMP(*instr))
 			break;
 	}

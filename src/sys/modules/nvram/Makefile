@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/nvram/Makefile 172998 2007-10-26 03:23:54Z peter $
+# $FreeBSD: stable/10/sys/modules/nvram/Makefile 172998 2007-10-26 03:23:54Z peter $
 
 .PATH: ${.CURDIR}/../../dev/nvram
 

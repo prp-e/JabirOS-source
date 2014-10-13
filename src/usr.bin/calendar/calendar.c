@@ -40,7 +40,7 @@ static char sccsid[] = "@(#)calendar.c	8.3 (Berkeley) 3/25/94";
 #endif
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/calendar/calendar.c 251678 2013-06-13 04:11:21Z grog $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/calendar/calendar.c 251678 2013-06-13 04:11:21Z grog $");
 
 #include <err.h>
 #include <errno.h>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/boot/common/part.h 239054 2012-08-05 11:29:44Z ae $
+ * $FreeBSD: stable/10/sys/boot/common/part.h 239054 2012-08-05 11:29:44Z ae $
  */
 
 #ifndef _PART_H_

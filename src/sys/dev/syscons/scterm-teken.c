@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/syscons/scterm-teken.c 239696 2012-08-25 23:59:31Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/syscons/scterm-teken.c 262861 2014-03-06 18:30:56Z jhb $");
 
 #include "opt_syscons.h"
 #include "opt_teken.h"
@@ -553,7 +553,14 @@ scteken_putchar(void *arg, const teken_pos_t *tp, teken_char_t c,
 	vm_offset_t p;
 	int cursor, attr;
 
+	/*
+	 * No support for printing right hand sides for CJK fullwidth
+	 * characters. Simply print a space and assume that the left
+	 * hand side describes the entire character.
+	 */
 	attr = scteken_attr(a) << 8;
+	if (a->ta_format & TF_CJK_RIGHT)
+		c = ' ';
 #ifdef TEKEN_UTF8
 	scteken_get_cp437(&c, &attr);
 #endif /* TEKEN_UTF8 */

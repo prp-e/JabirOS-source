@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/mips/cpu.c 257528 2013-11-01 21:17:45Z brooks $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/mips/cpu.c 261277 2014-01-29 22:01:42Z brooks $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>
@@ -128,6 +128,9 @@ mips_get_identity(struct mips_cpuinfo *cpuinfo)
 #endif
 
 	/* L1 instruction cache. */
+#ifdef MIPS_DISABLE_L1_CACHE
+	cpuinfo->l1.ic_linesize = 0;
+#else
 	tmp = (cfg1 & MIPS_CONFIG1_IL_MASK) >> MIPS_CONFIG1_IL_SHIFT;
 	if (tmp != 0) {
 		cpuinfo->l1.ic_linesize = 1 << (tmp + 1);
@@ -135,8 +138,12 @@ mips_get_identity(struct mips_cpuinfo *cpuinfo)
 		cpuinfo->l1.ic_nsets = 
 	    		1 << (((cfg1 & MIPS_CONFIG1_IS_MASK) >> MIPS_CONFIG1_IS_SHIFT) + 6);
 	}
+#endif
 
 	/* L1 data cache. */
+#ifdef MIPS_DISABLE_L1_CACHE
+	cpuinfo->l1.dc_linesize = 0;
+#else
 #ifndef CPU_CNMIPS
 	tmp = (cfg1 & MIPS_CONFIG1_DL_MASK) >> MIPS_CONFIG1_DL_SHIFT;
 	if (tmp != 0) {
@@ -172,6 +179,7 @@ mips_get_identity(struct mips_cpuinfo *cpuinfo)
 
 	/* All Octeon models use 128 byte line size.  */
 	cpuinfo->l1.dc_linesize = 128;
+#endif
 #endif
 
 	cpuinfo->l1.ic_size = cpuinfo->l1.ic_linesize

@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/contrib/ipfilter/lib/printactivenat.c 255332 2013-09-06 23:11:19Z cy $	*/
+/*	$FreeBSD: stable/10/contrib/ipfilter/lib/printactivenat.c 255332 2013-09-06 23:11:19Z cy $	*/
 
 /*
  * Copyright (C) 2012 by Darren Reed.

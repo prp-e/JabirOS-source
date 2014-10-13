@@ -54,7 +54,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/fs/fuse/fuse_device.c 241702 2012-10-18 19:28:31Z ed $");
+__FBSDID("$FreeBSD: stable/10/sys/fs/fuse/fuse_device.c 241702 2012-10-18 19:28:31Z ed $");
 
 #include <sys/types.h>
 #include <sys/module.h>

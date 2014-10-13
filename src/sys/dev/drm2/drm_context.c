@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/drm_context.c 255037 2013-08-29 18:36:47Z jkim $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm_context.c 255037 2013-08-29 18:36:47Z jkim $");
 
 /** @file drm_context.c
  * Implementation of the context management ioctls.

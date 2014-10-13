@@ -17,7 +17,7 @@
  *
  * NEW command line interface for IP firewall facility
  *
- * $FreeBSD: release/10.0.0/sbin/ipfw/nat.c 240351 2012-09-11 07:54:41Z kevlo $
+ * $FreeBSD: stable/10/sbin/ipfw/nat.c 240351 2012-09-11 07:54:41Z kevlo $
  *
  * In-kernel nat support
  */

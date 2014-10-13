@@ -20,10 +20,11 @@
  *	+1-313-763-0525
  *	netatalk@itd.umich.edu
  *
- * $FreeBSD: release/10.0.0/sys/netatalk/at_proto.c 178888 2008-05-09 23:03:00Z julian $
+ * $FreeBSD: stable/10/sys/netatalk/at_proto.c 263478 2014-03-21 15:15:30Z glebius $
  */
 
 #include <sys/param.h>
+#include <sys/systm.h>
 #include <sys/protosw.h>
 #include <sys/domain.h>
 #include <sys/socket.h>

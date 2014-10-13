@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/bin/ed/cbc.c 248656 2013-03-23 19:04:57Z jmg $");
+__FBSDID("$FreeBSD: stable/10/bin/ed/cbc.c 270756 2014-08-28 18:11:05Z pfg $");
 
 #include <sys/types.h>
 #include <errno.h>
@@ -237,7 +237,7 @@ expand_des_key(char *obuf, char *kbuf)
 		/*
 		 * now translate it, bombing on any illegal hex digit
 		 */
-		for (i = 0; kbuf[i] && i < 16; i++)
+		for (i = 0; i < 16 && kbuf[i]; i++)
 			if ((nbuf[i] = hex_to_binary((int) kbuf[i], 16)) == -1)
 				des_error("bad hex digit in key");
 		while (i < 16)

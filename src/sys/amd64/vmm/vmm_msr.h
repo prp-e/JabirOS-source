@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/amd64/vmm/vmm_msr.h 245678 2013-01-20 03:42:49Z neel $
+ * $FreeBSD: stable/10/sys/amd64/vmm/vmm_msr.h 262350 2014-02-23 00:46:05Z jhb $
  */
 
 #ifndef	_VMM_MSR_H_
@@ -33,8 +33,9 @@
 struct vm;
 
 void	vmm_msr_init(void);
-int	emulate_wrmsr(struct vm *vm, int vcpu, u_int msr, uint64_t val);
-int	emulate_rdmsr(struct vm *vm, int vcpu, u_int msr);
+int	emulate_wrmsr(struct vm *vm, int vcpu, u_int msr, uint64_t val,
+	    bool *retu);
+int	emulate_rdmsr(struct vm *vm, int vcpu, u_int msr, bool *retu);
 void	guest_msrs_init(struct vm *vm, int cpu);
 void	guest_msr_valid(int msr);
 void	restore_host_msrs(struct vm *vm, int cpu);

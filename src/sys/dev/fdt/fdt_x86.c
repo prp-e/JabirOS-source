@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/fdt/fdt_x86.c 250840 2013-05-21 03:05:49Z marcel $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/fdt/fdt_x86.c 266079 2014-05-14 18:54:34Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -46,6 +46,3 @@ struct fdt_fixup_entry fdt_fixup_table[] = {
 	{ NULL, NULL }
 };
 
-fdt_pic_decode_t fdt_pic_table[] = {
-	NULL
-};

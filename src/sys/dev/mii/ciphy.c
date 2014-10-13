@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/mii/ciphy.c 235999 2012-05-25 15:05:17Z raj $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/mii/ciphy.c 235999 2012-05-25 15:05:17Z raj $");
 
 /*
  * Driver for the Cicada/Vitesse CS/VSC8xxx 10/100/1000 copper PHY.

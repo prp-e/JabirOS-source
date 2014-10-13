@@ -1,5 +1,5 @@
 #	from: @(#)bsd.prog.mk	5.26 (Berkeley) 6/25/91
-# $FreeBSD: release/10.0.0/share/mk/bsd.prog.mk 255431 2013-09-09 21:18:16Z des $
+# $FreeBSD: stable/10/share/mk/bsd.prog.mk 271274 2014-09-08 15:28:17Z emaste $
 
 .include <bsd.init.mk>
 
@@ -28,9 +28,7 @@ CTFFLAGS+= -g
 PROG=	${PROG_CXX}
 .endif
 
-.if defined(PROG) && target(${PROG})
-MK_DEBUG_FILES=	no
-.elif !empty(LDFLAGS:M-Wl,*--oformat,*) || !empty(LDFLAGS:M-static)
+.if !empty(LDFLAGS:M-Wl,*--oformat,*) || !empty(LDFLAGS:M-static)
 MK_DEBUG_FILES=	no
 .endif
 
@@ -146,7 +144,8 @@ MAN1=	${MAN}
 .endif
 .endif # defined(PROG)
 
-all: objwarn ${PROG} ${SCRIPTS}
+all: beforebuild .WAIT ${PROG} ${SCRIPTS}
+beforebuild: objwarn
 .if ${MK_MAN} != "no"
 all: _manpages
 .endif

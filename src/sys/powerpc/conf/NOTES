@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/powerpc/conf/NOTES 241794 2012-10-21 04:02:34Z rpaulo $
+# $FreeBSD: stable/10/sys/powerpc/conf/NOTES 266331 2014-05-17 17:34:37Z ian $
 #
 # This file contains machine dependent kernel configuration notes.  For
 # machine independent notes, look in /sys/conf/NOTES.
@@ -23,7 +23,7 @@ options 	FPU_EMU
 options 	POWERMAC		#NewWorld Apple PowerMacs
 #options	PS3			#Sony Playstation 3
 options 	PSIM			#GDB PSIM ppc simulator
-options		MAMBO			#IBM Mambo Full System Simulator
+options 	MAMBO			#IBM Mambo Full System Simulator
 #options 	WII			#Nintendo Wii
 
 options 	SC_OFWFB		# OFW frame buffer

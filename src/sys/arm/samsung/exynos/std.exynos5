@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/arm/samsung/exynos/std.exynos5 252391 2013-06-29 23:39:05Z ray $
+# $FreeBSD: stable/10/sys/arm/samsung/exynos/std.exynos5 266110 2014-05-15 02:41:23Z ian $
 
 makeoption	ARM_LITTLE_ENDIAN
 
@@ -12,8 +12,6 @@ options		KERNPHYSADDR=0x40f00000
 
 makeoptions	KERNVIRTADDR=0xc0f00000
 options		KERNVIRTADDR=0xc0f00000
-
-options		STARTUP_PAGETABLE_ADDR=0x40100000
 
 options		ARM_L2_PIPT
 

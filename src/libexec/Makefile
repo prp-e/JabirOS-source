@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/4/93
-# $FreeBSD: release/10.0.0/libexec/Makefile 256241 2013-10-09 20:47:20Z des $
+# $FreeBSD: stable/10/libexec/Makefile 272152 2014-09-26 03:03:58Z gjb $
 
 .include <bsd.own.mk>
 
@@ -28,14 +28,11 @@ SUBDIR=	${_atf} \
 	talkd \
 	tcpd \
 	${_telnetd} \
+	${_tests} \
 	tftpd \
 	${_tftp-proxy} \
 	ulog-helper \
 	${_ypxfr}
-
-.if ${MK_ATF} != "no"
-_atf=		atf
-.endif
 
 .if ${MK_AT} != "no"
 _atrun=		atrun
@@ -74,6 +71,11 @@ _smrsh=		smrsh
 
 .if ${MK_TELNET} != "no"
 _telnetd=	telnetd
+.endif
+
+.if ${MK_TESTS} != "no"
+_atf=		atf
+_tests=		tests
 .endif
 
 .include <bsd.subdir.mk>

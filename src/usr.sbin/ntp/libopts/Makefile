@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/ntp/libopts/Makefile 182019 2008-08-22 20:04:35Z roberto $
+# $FreeBSD: stable/10/usr.sbin/ntp/libopts/Makefile 182019 2008-08-22 20:04:35Z roberto $
 
 .PATH: ${.CURDIR}/../../../contrib/ntp/libopts 
 

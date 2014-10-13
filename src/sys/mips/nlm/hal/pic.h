@@ -26,7 +26,7 @@
  * THE POSSIBILITY OF SUCH DAMAGE.
  *
  * NETLOGIC_BSD
- * $FreeBSD: release/10.0.0/sys/mips/nlm/hal/pic.h 233563 2012-03-27 15:39:55Z jchandra $
+ * $FreeBSD: stable/10/sys/mips/nlm/hal/pic.h 233563 2012-03-27 15:39:55Z jchandra $
  */
 
 #ifndef _NLM_HAL_PIC_H

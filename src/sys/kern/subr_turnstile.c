@@ -57,7 +57,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/subr_turnstile.c 246923 2013-02-17 21:37:32Z pjd $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/subr_turnstile.c 260817 2014-01-17 10:58:59Z avg $");
 
 #include "opt_ddb.h"
 #include "opt_kdtrace.h"
@@ -170,8 +170,8 @@ static int	turnstile_init(void *mem, int size, int flags);
 static void	turnstile_fini(void *mem, int size);
 
 SDT_PROVIDER_DECLARE(sched);
-SDT_PROBE_DEFINE(sched, , , sleep, sleep);
-SDT_PROBE_DEFINE2(sched, , , wakeup, wakeup, "struct thread *", 
+SDT_PROBE_DEFINE(sched, , , sleep);
+SDT_PROBE_DEFINE2(sched, , , wakeup, "struct thread *", 
     "struct proc *");
 
 /*

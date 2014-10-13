@@ -60,7 +60,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/ufs/ffs/ffs_alloc.c 255219 2013-09-05 00:09:56Z pjd $");
+__FBSDID("$FreeBSD: stable/10/sys/ufs/ffs/ffs_alloc.c 262779 2014-03-05 04:23:19Z pfg $");
 
 #include "opt_quota.h"
 
@@ -517,12 +517,12 @@ ffs_reallocblks_ufs1(ap)
 	fs = ip->i_fs;
 	ump = ip->i_ump;
 	/*
-	 * If we are not tracking block clusters or if we have less than 2%
+	 * If we are not tracking block clusters or if we have less than 4%
 	 * free blocks left, then do not attempt to cluster. Running with
 	 * less than 5% free block reserve is not recommended and those that
 	 * choose to do so do not expect to have good file layout.
 	 */
-	if (fs->fs_contigsumsize <= 0 || freespace(fs, 2) < 0)
+	if (fs->fs_contigsumsize <= 0 || freespace(fs, 4) < 0)
 		return (ENOSPC);
 	buflist = ap->a_buflist;
 	len = buflist->bs_nchildren;
@@ -744,12 +744,12 @@ ffs_reallocblks_ufs2(ap)
 	fs = ip->i_fs;
 	ump = ip->i_ump;
 	/*
-	 * If we are not tracking block clusters or if we have less than 2%
+	 * If we are not tracking block clusters or if we have less than 4%
 	 * free blocks left, then do not attempt to cluster. Running with
 	 * less than 5% free block reserve is not recommended and those that
 	 * choose to do so do not expect to have good file layout.
 	 */
-	if (fs->fs_contigsumsize <= 0 || freespace(fs, 2) < 0)
+	if (fs->fs_contigsumsize <= 0 || freespace(fs, 4) < 0)
 		return (ENOSPC);
 	buflist = ap->a_buflist;
 	len = buflist->bs_nchildren;
@@ -1182,14 +1182,14 @@ ffs_dirpref(pip)
 	for (cg = prefcg; cg < fs->fs_ncg; cg++)
 		if (fs->fs_cs(fs, cg).cs_ndir < maxndir &&
 		    fs->fs_cs(fs, cg).cs_nifree >= minifree &&
-	    	    fs->fs_cs(fs, cg).cs_nbfree >= minbfree) {
+		    fs->fs_cs(fs, cg).cs_nbfree >= minbfree) {
 			if (fs->fs_contigdirs[cg] < maxcontigdirs)
 				return ((ino_t)(fs->fs_ipg * cg));
 		}
 	for (cg = 0; cg < prefcg; cg++)
 		if (fs->fs_cs(fs, cg).cs_ndir < maxndir &&
 		    fs->fs_cs(fs, cg).cs_nifree >= minifree &&
-	    	    fs->fs_cs(fs, cg).cs_nbfree >= minbfree) {
+		    fs->fs_cs(fs, cg).cs_nbfree >= minbfree) {
 			if (fs->fs_contigdirs[cg] < maxcontigdirs)
 				return ((ino_t)(fs->fs_ipg * cg));
 		}

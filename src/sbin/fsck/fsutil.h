@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sbin/fsck/fsutil.h 241807 2012-10-21 12:01:19Z uqs $
+ * $FreeBSD: stable/10/sbin/fsck/fsutil.h 241807 2012-10-21 12:01:19Z uqs $
  */
 
 void pfatal(const char *, ...) __printflike(1, 2);

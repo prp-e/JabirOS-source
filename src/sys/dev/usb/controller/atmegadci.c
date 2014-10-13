@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/dev/usb/controller/atmegadci.c 246125 2013-01-30 16:05:54Z hselasky $ */
+/* $FreeBSD: stable/10/sys/dev/usb/controller/atmegadci.c 246125 2013-01-30 16:05:54Z hselasky $ */
 /*-
  * Copyright (c) 2009 Hans Petter Selasky. All rights reserved.
  *

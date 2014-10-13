@@ -16,10 +16,10 @@
  */
 
 #if defined(LIBC_SCCS) && !defined(lint)
-static const char rcsid[] = "$Id: inet_neta.c,v 1.2.18.1 2005/04/27 05:00:53 sra Exp $";
+static const char rcsid[] = "$Id: inet_neta.c,v 1.3 2005/04/27 04:56:20 sra Exp $";
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/inet/inet_neta.c 170244 2007-06-03 17:20:27Z ume $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/inet/inet_neta.c 270838 2014-08-30 10:16:25Z ume $");
 
 #include "port_before.h"
 

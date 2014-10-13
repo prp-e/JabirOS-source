@@ -25,7 +25,7 @@
  * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
  * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/mips/nlm/hal/gbu.h 233542 2012-03-27 12:25:47Z jchandra $
+ * $FreeBSD: stable/10/sys/mips/nlm/hal/gbu.h 233542 2012-03-27 12:25:47Z jchandra $
  */
 #ifndef _NLM_HAL_GBU_H__
 #define	_NLM_HAL_GBU_H__

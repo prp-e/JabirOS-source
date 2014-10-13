@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/clang/opt/Makefile 249423 2013-04-12 17:57:40Z dim $
+# $FreeBSD: stable/10/usr.bin/clang/opt/Makefile 263763 2014-03-26 07:31:57Z dim $
 
 .include <bsd.own.mk>
 
@@ -24,9 +24,16 @@ LIBDEPS=llvmarmdisassembler \
 	llvmmipsinfo \
 	llvmmipsinstprinter \
 	llvmpowerpccodegen \
+	llvmpowerpcasmparser \
 	llvmpowerpcdesc \
 	llvmpowerpcinfo \
 	llvmpowerpcinstprinter \
+	llvmsparcdisassembler \
+	llvmsparccodegen \
+	llvmsparcasmparser \
+	llvmsparcdesc \
+	llvmsparcinfo \
+	llvmsparcinstprinter \
 	llvmx86disassembler \
 	llvmx86asmparser \
 	llvmx86codegen \

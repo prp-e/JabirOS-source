@@ -32,11 +32,15 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/boot/userboot/userboot/conf.c 243700 2012-11-30 04:44:32Z neel $");
+__FBSDID("$FreeBSD: stable/10/sys/boot/userboot/userboot/conf.c 268953 2014-07-21 19:08:02Z jhb $");
 
 #include <stand.h>
 
 #include "libuserboot.h"
+
+#if defined(USERBOOT_ZFS_SUPPORT)
+#include "../zfs/libzfs.h"
+#endif
 
 /*
  * We could use linker sets for some or all of these, but
@@ -51,6 +55,9 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/boot/userboot/userboot/conf.c 243700 2012
 struct devsw *devsw[] = {
 	&host_dev,
 	&userboot_disk,
+#if defined(USERBOOT_ZFS_SUPPORT)
+	&zfs_dev,
+#endif
 	NULL
 };
 
@@ -59,6 +66,9 @@ struct fs_ops *file_system[] = {
 	&ufs_fsops,
 	&cd9660_fsops,
 	&gzipfs_fsops,
+#if defined(USERBOOT_ZFS_SUPPORT)
+	&zfs_fsops,
+#endif
 	NULL
 };
 
@@ -87,8 +97,10 @@ struct file_format *file_formats[] = {
  * data structures from bootstrap.h as well.
  */
 extern struct console userboot_console;
+extern struct console userboot_comconsole;
 
 struct console *consoles[] = {
 	&userboot_console,
+	&userboot_comconsole,
 	NULL
 };

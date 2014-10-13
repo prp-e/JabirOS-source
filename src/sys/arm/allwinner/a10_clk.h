@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2013 Ganbold Tsagaankhuu <ganbold@gmail.com>
+ * Copyright (c) 2013 Ganbold Tsagaankhuu <ganbold@freebsd.org>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/allwinner/a10_clk.h 246851 2013-02-15 21:29:03Z gonzo $
+ * $FreeBSD: stable/10/sys/arm/allwinner/a10_clk.h 266337 2014-05-17 18:53:36Z ian $
  */
 
 #ifndef _A10_CLK_H_
@@ -103,6 +103,7 @@
 #define CCM_AHB_GATING_USB0	(1 << 0)
 #define CCM_AHB_GATING_EHCI0	(1 << 1)
 #define CCM_AHB_GATING_EHCI1	(1 << 3)
+#define CCM_AHB_GATING_EMAC	(1 << 17)
 
 #define CCM_USB_PHY		(1 << 8)
 #define CCM_USB0_RESET		(1 << 0)
@@ -111,5 +112,6 @@
 
 int a10_clk_usb_activate(void);
 int a10_clk_usb_deactivate(void);
+int a10_clk_emac_activate(void);
 
 #endif /* _A10_CLK_H_ */

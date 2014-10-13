@@ -41,7 +41,7 @@ static const char copyright[] =
 static char sccsid[] = "@(#)uniq.c	8.3 (Berkeley) 5/4/95";
 #endif
 static const char rcsid[] =
-  "$FreeBSD: release/10.0.0/usr.bin/uniq/uniq.c 255219 2013-09-05 00:09:56Z pjd $";
+  "$FreeBSD: stable/10/usr.bin/uniq/uniq.c 255219 2013-09-05 00:09:56Z pjd $";
 #endif /* not lint */
 
 #include <sys/capability.h>

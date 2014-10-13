@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/tools/regression/pjdfstest/tests/open/20.t 210984 2010-08-06 23:58:54Z pjd $
+# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/open/20.t 210984 2010-08-06 23:58:54Z pjd $
 
 desc="open returns ETXTBSY when the file is a pure procedure (shared text) file that is being executed and the open() system call requests write access"
 

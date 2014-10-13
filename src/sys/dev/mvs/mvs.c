@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/mvs/mvs.c 251661 2013-06-12 18:08:11Z mav $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/mvs/mvs.c 260387 2014-01-07 01:51:48Z scottl $");
 
 #include <sys/param.h>
 #include <sys/module.h>
@@ -654,9 +654,7 @@ mvs_ch_intr_locked(void *data)
 	struct mvs_channel *ch = device_get_softc(dev);
 
 	mtx_lock(&ch->mtx);
-	xpt_batch_start(ch->sim);
 	mvs_ch_intr(data);
-	xpt_batch_done(ch->sim);
 	mtx_unlock(&ch->mtx);
 }
 

@@ -42,7 +42,7 @@
 /****************************************************************************/
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/cavium/cryptocteon/cavium_crypto.c 229677 2012-01-06 01:23:26Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/cavium/cryptocteon/cavium_crypto.c 229677 2012-01-06 01:23:26Z gonzo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

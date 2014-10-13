@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/dev/etherswitch/mdio_if.m 234861 2012-05-01 06:11:38Z adrian $
+# $FreeBSD: stable/10/sys/dev/etherswitch/mdio_if.m 234861 2012-05-01 06:11:38Z adrian $
 
 #include <sys/bus.h>
 

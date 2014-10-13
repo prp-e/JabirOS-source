@@ -27,12 +27,13 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/boot/sparc64/loader/metadata.c 150469 2005-09-22 15:06:58Z ru $");
+__FBSDID("$FreeBSD: stable/10/sys/boot/sparc64/loader/metadata.c 271132 2014-09-04 20:47:14Z emaste $");
 
 #include <stand.h>
 #include <sys/param.h>
 #include <sys/reboot.h>
 #include <sys/linker.h>
+#include <sys/boot.h>
 
 #include <machine/metadata.h>
 
@@ -46,29 +47,6 @@ extern int dtlb_slot;
 extern int itlb_slot;
 
 static int md_bootserial(void);
-
-/*
- * Return a 'boothowto' value corresponding to the kernel arguments in
- * (kargs) and any relevant environment variables.
- */
-static struct 
-{
-    const char	*ev;
-    int		mask;
-} howto_names[] = {
-    {"boot_askname",	RB_ASKNAME},
-    {"boot_cdrom",	RB_CDROM},
-    {"boot_ddb",	RB_KDB},
-    {"boot_dfltroot",	RB_DFLTROOT},
-    {"boot_gdb",	RB_GDB},
-    {"boot_multicons",	RB_MULTIPLE},
-    {"boot_mute",	RB_MUTE},
-    {"boot_pause",	RB_PAUSE},
-    {"boot_serial",	RB_SERIAL},
-    {"boot_single",	RB_SINGLE},
-    {"boot_verbose",	RB_VERBOSE},
-    {NULL,	0}
-};
 
 int
 md_getboothowto(char *kargs)

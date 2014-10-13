@@ -1,6 +1,6 @@
 /******************************************************************************
 
-  Copyright (c) 2001-2013, Intel Corporation 
+  Copyright (c) 2001-2014, Intel Corporation 
   All rights reserved.
   
   Redistribution and use in source and binary forms, with or without 
@@ -30,7 +30,7 @@
   POSSIBILITY OF SUCH DAMAGE.
 
 ******************************************************************************/
-/*$FreeBSD: release/10.0.0/sys/dev/e1000/e1000_82571.c 256200 2013-10-09 17:32:52Z jfv $*/
+/*$FreeBSD: stable/10/sys/dev/e1000/e1000_82571.c 269196 2014-07-28 21:11:18Z jfv $*/
 
 /* 82571EB Gigabit Ethernet Controller
  * 82571EB Gigabit Ethernet Controller (Copper)
@@ -1453,10 +1453,14 @@ static void e1000_clear_vfta_82571(struct e1000_hw *hw)
 static bool e1000_check_mng_mode_82574(struct e1000_hw *hw)
 {
 	u16 data;
+	s32 ret_val;
 
 	DEBUGFUNC("e1000_check_mng_mode_82574");
 
-	hw->nvm.ops.read(hw, NVM_INIT_CONTROL2_REG, 1, &data);
+	ret_val = hw->nvm.ops.read(hw, NVM_INIT_CONTROL2_REG, 1, &data);
+	if (ret_val)
+		return FALSE;
+
 	return (data & E1000_NVM_INIT_CTRL2_MNGM) != 0;
 }
 

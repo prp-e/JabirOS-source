@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/gnu/usr.bin/cc/Makefile.inc 245539 2013-01-17 05:56:28Z andrew $
+# $FreeBSD: stable/10/gnu/usr.bin/cc/Makefile.inc 259563 2013-12-18 19:07:29Z pfg $
 
 .include "../Makefile.inc"
 
@@ -23,7 +23,7 @@ CFLAGS+=	-DPREFIX=\"${TOOLS_PREFIX}/usr\"
 CSTD?=	gnu89
 
 .if ${TARGET_ARCH} != ${MACHINE_ARCH}
-CFLAGS+=	-DCROSS_COMPILE
+CFLAGS+=	-DCROSS_DIRECTORY_STRUCTURE
 .endif
 
 .if ${TARGET_CPUARCH} == "arm" && ${MK_ARM_EABI} != "no"

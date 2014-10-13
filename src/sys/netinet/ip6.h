@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/netinet/ip6.h 249294 2013-04-09 07:11:22Z ae $	*/
+/*	$FreeBSD: stable/10/sys/netinet/ip6.h 249294 2013-04-09 07:11:22Z ae $	*/
 /*	$KAME: ip6.h,v 1.18 2001/03/29 05:34:30 itojun Exp $	*/
 
 /*-

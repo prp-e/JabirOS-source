@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_shutdown.c 248084 2013-03-09 02:32:23Z attilio $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_shutdown.c 260431 2014-01-08 02:19:39Z cperciva $");
 
 #include "opt_ddb.h"
 #include "opt_kdb.h"
@@ -89,6 +89,11 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_shutdown.c 248084 2013-03-09 02
 #ifndef PANIC_REBOOT_WAIT_TIME
 #define PANIC_REBOOT_WAIT_TIME 15 /* default to 15 seconds */
 #endif
+static int panic_reboot_wait_time = PANIC_REBOOT_WAIT_TIME;
+SYSCTL_INT(_kern, OID_AUTO, panic_reboot_wait_time, CTLFLAG_RW | CTLFLAG_TUN,
+    &panic_reboot_wait_time, 0,
+    "Seconds to wait before rebooting after a panic");
+TUNABLE_INT("kern.panic_reboot_wait_time", &panic_reboot_wait_time);
 
 /*
  * Note that stdarg.h and the ANSI style va_start macro is used for both
@@ -485,12 +490,12 @@ shutdown_panic(void *junk, int howto)
 	int loop;
 
 	if (howto & RB_DUMP) {
-		if (PANIC_REBOOT_WAIT_TIME != 0) {
-			if (PANIC_REBOOT_WAIT_TIME != -1) {
+		if (panic_reboot_wait_time != 0) {
+			if (panic_reboot_wait_time != -1) {
 				printf("Automatic reboot in %d seconds - "
 				       "press a key on the console to abort\n",
-					PANIC_REBOOT_WAIT_TIME);
-				for (loop = PANIC_REBOOT_WAIT_TIME * 10;
+					panic_reboot_wait_time);
+				for (loop = panic_reboot_wait_time * 10;
 				     loop > 0; --loop) {
 					DELAY(1000 * 100); /* 1/10th second */
 					/* Did user type a key? */

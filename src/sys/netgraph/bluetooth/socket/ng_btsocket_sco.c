@@ -28,7 +28,7 @@
  * SUCH DAMAGE.
  *
  * $Id: ng_btsocket_sco.c,v 1.2 2005/10/31 18:08:51 max Exp $
- * $FreeBSD: release/10.0.0/sys/netgraph/bluetooth/socket/ng_btsocket_sco.c 243882 2012-12-05 08:04:20Z glebius $
+ * $FreeBSD: stable/10/sys/netgraph/bluetooth/socket/ng_btsocket_sco.c 268061 2014-06-30 19:46:17Z trociny $
  */
 
 #include <sys/param.h>
@@ -1106,6 +1106,10 @@ void
 ng_btsocket_sco_init(void)
 {
 	int	error = 0;
+
+	/* Skip initialization of globals for non-default instances. */
+	if (!IS_DEFAULT_VNET(curvnet))
+		return;
 
 	ng_btsocket_sco_node = NULL;
 	ng_btsocket_sco_debug_level = NG_BTSOCKET_WARN_LEVEL;

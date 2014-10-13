@@ -31,7 +31,7 @@
  * - LZ4 homepage : http://fastcompression.blogspot.com/p/lz4.html
  * - LZ4 source repository : http://code.google.com/p/lz4/
  *
- * $FreeBSD: release/10.0.0/sys/cddl/boot/zfs/lz4.c 246586 2013-02-09 06:39:28Z delphij $
+ * $FreeBSD: stable/10/sys/cddl/boot/zfs/lz4.c 246586 2013-02-09 06:39:28Z delphij $
  */
 
 static int LZ4_uncompress_unknownOutputSize(const char *source, char *dest,

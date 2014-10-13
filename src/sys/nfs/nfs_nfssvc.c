@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/nfs/nfs_nfssvc.c 243782 2012-12-02 01:16:04Z rmacklem $");
+__FBSDID("$FreeBSD: stable/10/sys/nfs/nfs_nfssvc.c 243782 2012-12-02 01:16:04Z rmacklem $");
 
 #include "opt_nfs.h"
 

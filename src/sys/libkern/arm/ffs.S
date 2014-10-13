@@ -29,7 +29,7 @@
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/libkern/arm/ffs.S 248367 2013-03-16 04:08:01Z andrew $");
+__FBSDID("$FreeBSD: stable/10/sys/libkern/arm/ffs.S 248367 2013-03-16 04:08:01Z andrew $");
 
 
 /*

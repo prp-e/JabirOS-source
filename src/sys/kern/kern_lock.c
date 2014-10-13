@@ -32,7 +32,7 @@
 #include "opt_kdtrace.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_lock.c 255940 2013-09-29 18:02:23Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_lock.c 271161 2014-09-05 13:22:28Z kib $");
 
 #include <sys/param.h>
 #include <sys/kdb.h>
@@ -416,6 +416,14 @@ lockallowshare(struct lock *lk)
 
 	lockmgr_assert(lk, KA_XLOCKED);
 	lk->lock_object.lo_flags &= ~LK_NOSHARE;
+}
+
+void
+lockdisableshare(struct lock *lk)
+{
+
+	lockmgr_assert(lk, KA_XLOCKED);
+	lk->lock_object.lo_flags |= LK_NOSHARE;
 }
 
 void

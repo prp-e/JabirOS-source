@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/fs/nandfs/nandfs_vfsops.c 242833 2012-11-09 18:02:25Z attilio $");
+__FBSDID("$FreeBSD: stable/10/sys/fs/nandfs/nandfs_vfsops.c 262211 2014-02-19 07:55:28Z dim $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -285,6 +285,7 @@ nandfs_sblocks_in_block(struct nandfs_device *fsdev)
 	return (fsdev->nd_devblocksize / sizeof(struct nandfs_super_block));
 }
 
+#if 0
 static __inline int
 nandfs_sblocks_in_first_block(struct nandfs_device *fsdev)
 {
@@ -297,6 +298,7 @@ nandfs_sblocks_in_first_block(struct nandfs_device *fsdev)
 
 	return (n);
 }
+#endif
 
 static int
 nandfs_write_superblock_at(struct nandfs_device *fsdev,

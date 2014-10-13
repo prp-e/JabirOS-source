@@ -40,7 +40,7 @@ static char sccsid[] = "@(#)route.c	8.6 (Berkeley) 4/28/95";
 #endif /* not lint */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/route/route.c 256137 2013-10-08 08:16:17Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sbin/route/route.c 270050 2014-08-16 13:47:04Z bz $");
 
 #include <sys/param.h>
 #include <sys/file.h>
@@ -81,7 +81,7 @@ static struct keytab {
 static struct sockaddr_storage so[RTAX_MAX];
 static int	pid, rtm_addrs;
 static int	s;
-static int	forcehost, forcenet, nflag, af, qflag, tflag;
+static int	nflag, af, qflag, tflag;
 static int	verbose, aflen;
 static int	locking, lockrest, debugonly;
 static struct rt_metrics rt_metrics;
@@ -140,7 +140,7 @@ usage(const char *cp)
 {
 	if (cp != NULL)
 		warnx("bad keyword: %s", cp);
-	errx(EX_USAGE, "usage: route [-dnqtv] command [[modifiers] args]");
+	errx(EX_USAGE, "usage: route [-46dnqtv] command [[modifiers] args]");
 	/* NOTREACHED */
 }
 
@@ -153,8 +153,24 @@ main(int argc, char **argv)
 	if (argc < 2)
 		usage(NULL);
 
-	while ((ch = getopt(argc, argv, "nqdtv")) != -1)
+	while ((ch = getopt(argc, argv, "46nqdtv")) != -1)
 		switch(ch) {
+		case '4':
+#ifdef INET
+			af = AF_INET;
+			aflen = sizeof(struct sockaddr_in);
+#else
+			errx(1, "IPv4 support is not compiled in");
+#endif
+			break;
+		case '6':
+#ifdef INET6
+			af = AF_INET6;
+			aflen = sizeof(struct sockaddr_in6);
+#else
+			errx(1, "IPv6 support is not compiled in");
+#endif
+			break;
 		case 'n':
 			nflag = 1;
 			break;
@@ -368,11 +384,13 @@ flushroutes(int argc, char *argv[])
 			usage(*argv);
 		switch (keyword(*argv + 1)) {
 #ifdef INET
+		case K_4:
 		case K_INET:
 			af = AF_INET;
 			break;
 #endif
 #ifdef INET6
+		case K_6:
 		case K_INET6:
 			af = AF_INET6;
 			break;
@@ -780,12 +798,14 @@ newroute(int argc, char **argv)
 				aflen = sizeof(struct sockaddr_dl);
 				break;
 #ifdef INET
+			case K_4:
 			case K_INET:
 				af = AF_INET;
 				aflen = sizeof(struct sockaddr_in);
 				break;
 #endif
 #ifdef INET6
+			case K_6:
 			case K_INET6:
 				af = AF_INET6;
 				aflen = sizeof(struct sockaddr_in6);
@@ -1215,7 +1235,7 @@ getaddr(int idx, char *str, struct hostent **hpp, int nrflags)
 		 */
 		switch (idx) {
 		case RTAX_DST:
-			forcenet++;
+			nrflags |= F_FORCENET;
 			getaddr(RTAX_NETMASK, str, 0, nrflags);
 			break;
 		}
@@ -1255,7 +1275,7 @@ getaddr(int idx, char *str, struct hostent **hpp, int nrflags)
 		if (!atalk_aton(str, &sat->sat_addr))
 			errx(EX_NOHOST, "bad address: %s", str);
 		rtm_addrs |= RTA_NETMASK;
-		return(forcehost || sat->sat_addr.s_node != 0);
+		return(nrflags & F_FORCEHOST || sat->sat_addr.s_node != 0);
 	}
 	case AF_LINK:
 		link_addr(str, (struct sockaddr_dl *)(void *)sa);
@@ -1288,10 +1308,10 @@ getaddr(int idx, char *str, struct hostent **hpp, int nrflags)
 		}
 		*q = '/';
 	}
-	if ((idx != RTAX_DST || forcenet == 0) &&
+	if ((idx != RTAX_DST || (nrflags & F_FORCENET) == 0) &&
 	    inet_aton(str, &sin->sin_addr)) {
 		val = sin->sin_addr.s_addr;
-		if (idx != RTAX_DST || forcehost ||
+		if (idx != RTAX_DST || nrflags & F_FORCEHOST ||
 		    inet_lnaof(sin->sin_addr) != INADDR_ANY)
 			return (1);
 		else {
@@ -1299,7 +1319,7 @@ getaddr(int idx, char *str, struct hostent **hpp, int nrflags)
 			goto netdone;
 		}
 	}
-	if (idx == RTAX_DST && forcehost == 0 &&
+	if (idx == RTAX_DST && (nrflags & F_FORCEHOST) == 0 &&
 	    ((val = inet_network(str)) != INADDR_NONE ||
 	    ((np = getnetbyname(str)) != NULL && (val = np->n_net) != 0))) {
 netdone:

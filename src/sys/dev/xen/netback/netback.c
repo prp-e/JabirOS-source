@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/xen/netback/netback.c 259637 2013-12-20 00:09:14Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/xen/netback/netback.c 259541 2013-12-18 05:20:53Z glebius $");
 
 /**
  * \file netback.c

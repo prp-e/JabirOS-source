@@ -19,7 +19,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/pfctl/pfctl_altq.c 240494 2012-09-14 11:51:49Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sbin/pfctl/pfctl_altq.c 270047 2014-08-16 13:20:44Z bz $");
 
 #include <sys/types.h>
 #include <sys/ioctl.h>
@@ -1122,7 +1122,7 @@ getifspeed(char *ifname)
 	struct ifreq	ifr;
 	struct if_data	ifrdat;
 
-	if ((s = socket(AF_INET, SOCK_DGRAM, 0)) < 0)
+	if ((s = socket(get_socket_domain(), SOCK_DGRAM, 0)) < 0)
 		err(1, "socket");
 	bzero(&ifr, sizeof(ifr));
 	if (strlcpy(ifr.ifr_name, ifname, sizeof(ifr.ifr_name)) >=
@@ -1143,7 +1143,7 @@ getifmtu(char *ifname)
 	int		s;
 	struct ifreq	ifr;
 
-	if ((s = socket(AF_INET, SOCK_DGRAM, 0)) < 0)
+	if ((s = socket(get_socket_domain(), SOCK_DGRAM, 0)) < 0)
 		err(1, "socket");
 	bzero(&ifr, sizeof(ifr));
 	if (strlcpy(ifr.ifr_name, ifname, sizeof(ifr.ifr_name)) >=

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/nandsim/Makefile 235537 2012-05-17 10:11:18Z gber $
+# $FreeBSD: stable/10/sys/modules/nandsim/Makefile 235537 2012-05-17 10:11:18Z gber $
 
 .PATH: ${.CURDIR}/../../dev/nand
 

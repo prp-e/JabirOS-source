@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/kerberos5/libexec/ipropd-master/Makefile 233294 2012-03-22 08:48:42Z stas $
+# $FreeBSD: stable/10/kerberos5/libexec/ipropd-master/Makefile 233294 2012-03-22 08:48:42Z stas $
 
 PROG=	ipropd-master
 MAN=	iprop.8

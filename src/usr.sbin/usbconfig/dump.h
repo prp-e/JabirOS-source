@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/usr.sbin/usbconfig/dump.h 201705 2010-01-07 00:50:45Z thompsa $ */
+/* $FreeBSD: stable/10/usr.sbin/usbconfig/dump.h 201705 2010-01-07 00:50:45Z thompsa $ */
 /*-
  * Copyright (c) 2008 Hans Petter Selasky. All rights reserved.
  *

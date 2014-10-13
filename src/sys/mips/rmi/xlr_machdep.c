@@ -26,7 +26,7 @@
  *
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/rmi/xlr_machdep.c 232853 2012-03-12 07:34:15Z jmallett $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/rmi/xlr_machdep.c 232853 2012-03-12 07:34:15Z jmallett $");
 
 #include "opt_ddb.h"
 

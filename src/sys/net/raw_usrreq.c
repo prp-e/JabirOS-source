@@ -28,7 +28,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)raw_usrreq.c	8.1 (Berkeley) 6/10/93
- * $FreeBSD: release/10.0.0/sys/net/raw_usrreq.c 225837 2011-09-28 13:48:36Z bz $
+ * $FreeBSD: stable/10/sys/net/raw_usrreq.c 225837 2011-09-28 13:48:36Z bz $
  */
 
 #include <sys/param.h>

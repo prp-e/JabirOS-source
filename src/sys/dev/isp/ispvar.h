@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/dev/isp/ispvar.h 238869 2012-07-28 20:06:29Z mjacob $ */
+/* $FreeBSD: stable/10/sys/dev/isp/ispvar.h 260341 2014-01-05 22:38:44Z mav $ */
 /*-
  *  Copyright (c) 1997-2009 by Matthew Jacob
  *  All rights reserved.
@@ -614,8 +614,9 @@ struct ispsoftc {
 	volatile mbreg_t	isp_curmbx;	/* currently active mailbox command */
 	volatile uint32_t	isp_reqodx;	/* index of last ISP pickup */
 	volatile uint32_t	isp_reqidx;	/* index of next request */
-	volatile uint32_t	isp_residx;	/* index of next result */
+	volatile uint32_t	isp_residx;	/* index of last ISP write */
 	volatile uint32_t	isp_resodx;	/* index of next result */
+	volatile uint32_t	isp_atioodx;	/* index of next ATIO */
 	volatile uint32_t	isp_obits;	/* mailbox command output */
 	volatile uint32_t	isp_serno;	/* rolling serial number */
 	volatile uint16_t	isp_mboxtmp[MAX_MAILBOX];

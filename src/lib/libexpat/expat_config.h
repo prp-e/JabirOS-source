@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/lib/libexpat/expat_config.h 247296 2013-02-26 00:58:44Z delphij $ */
+/* $FreeBSD: stable/10/lib/libexpat/expat_config.h 247296 2013-02-26 00:58:44Z delphij $ */
 
 #include <machine/endian.h>
 

@@ -30,7 +30,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/libthr/thread/thr_mutex.c 239200 2012-08-11 23:17:02Z davidxu $
+ * $FreeBSD: stable/10/lib/libthr/thread/thr_mutex.c 239200 2012-08-11 23:17:02Z davidxu $
  */
 
 #include "namespace.h"

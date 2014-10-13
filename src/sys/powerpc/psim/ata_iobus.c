@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/psim/ata_iobus.c 249213 2013-04-06 19:12:49Z marius $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/psim/ata_iobus.c 249213 2013-04-06 19:12:49Z marius $");
 
 /*
  * PSIM local bus ATA controller

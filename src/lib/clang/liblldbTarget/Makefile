@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/liblldbTarget/Makefile 255722 2013-09-20 01:52:02Z emaste $
+# $FreeBSD: stable/10/lib/clang/liblldbTarget/Makefile 269024 2014-07-23 19:35:02Z emaste $
 
 .include <bsd.own.mk>
 
@@ -17,12 +17,17 @@ SRCS=	ABI.cpp \
 	PathMappingList.cpp \
 	Platform.cpp \
 	Process.cpp \
+	Queue.cpp \
+	QueueItem.cpp \
+	QueueList.cpp \
 	RegisterContext.cpp \
+	SectionLoadHistory.cpp \
 	SectionLoadList.cpp \
 	StackFrame.cpp \
 	StackFrameList.cpp \
 	StackID.cpp \
 	StopInfo.cpp \
+	SystemRuntime.cpp \
 	Target.cpp \
 	TargetList.cpp \
 	Thread.cpp \

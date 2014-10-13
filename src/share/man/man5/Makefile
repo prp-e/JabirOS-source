@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/5/93
-#	$FreeBSD: release/10.0.0/share/man/man5/Makefile 256366 2013-10-12 06:08:18Z rpaulo $
+#	$FreeBSD: stable/10/share/man/man5/Makefile 270892 2014-08-31 21:18:23Z trasz $
 
 .include <bsd.own.mk>
 
@@ -7,6 +7,7 @@
 MAN=	acct.5 \
 	ar.5 \
 	a.out.5 \
+	autofs.5 \
 	bluetooth.device.conf.5 \
 	bluetooth.hosts.5 \
 	bluetooth.protocols.5 \

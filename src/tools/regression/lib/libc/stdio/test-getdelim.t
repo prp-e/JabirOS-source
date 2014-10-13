@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/tools/regression/lib/libc/stdio/test-getdelim.t 230115 2012-01-14 21:38:31Z das $
+# $FreeBSD: stable/10/tools/regression/lib/libc/stdio/test-getdelim.t 230115 2012-01-14 21:38:31Z das $
 
 cd `dirname $0`
 

@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: release/10.0.0/lib/msun/arm/Symbol.map 230367 2012-01-20 06:54:30Z das $
+ * $FreeBSD: stable/10/lib/msun/arm/Symbol.map 266314 2014-05-17 14:22:37Z ian $
  */
 FBSD_1.0 {
 };
@@ -15,4 +15,7 @@ FBSD_1.3 {
 	fegetenv;
 	feholdexcept;
 	feupdateenv;
+	feenableexcept;
+	fedisableexcept;
+	fegetexcept;
 };

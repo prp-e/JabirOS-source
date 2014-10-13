@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/mpc85xx/lbc.c 238045 2012-07-03 00:06:14Z marcel $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/mpc85xx/lbc.c 266160 2014-05-15 17:30:16Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -113,7 +113,7 @@ static driver_t lbc_driver = {
 
 devclass_t lbc_devclass;
 
-DRIVER_MODULE(lbc, fdtbus, lbc_driver, lbc_devclass, 0, 0);
+DRIVER_MODULE(lbc, ofwbus, lbc_driver, lbc_devclass, 0, 0);
 
 /*
  * Calculate address mask used by OR(n) registers. Use memory region size to

@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/tools/regression/lib/libc/stdio/test-fmemopen.t 255301 2013-09-06 12:56:49Z jilles $
+# $FreeBSD: stable/10/tools/regression/lib/libc/stdio/test-fmemopen.t 255301 2013-09-06 12:56:49Z jilles $
 
 cd `dirname $0`
 

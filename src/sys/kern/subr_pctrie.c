@@ -45,7 +45,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/subr_pctrie.c 250551 2013-05-12 04:05:01Z jeff $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/subr_pctrie.c 250551 2013-05-12 04:05:01Z jeff $");
 
 #include "opt_ddb.h"
 

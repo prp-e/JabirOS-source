@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/tools/regression/security/cap_test/cap_test_capabilities.c 248603 2013-03-21 23:07:04Z pjd $");
+__FBSDID("$FreeBSD: stable/10/tools/regression/security/cap_test/cap_test_capabilities.c 261828 2014-02-13 09:24:46Z brueffer $");
 
 #include <sys/param.h>
 #include <sys/capability.h>
@@ -396,7 +396,7 @@ try_file_ops(int filefd, int dirfd, cap_rights_t rights)
 	pollfd.revents = 0;
 
 	ret = poll(&pollfd, 1, 0);
-	if (rights & CAP_POLL_EVENT)
+	if (rights & CAP_EVENT)
 		CHECK((pollfd.revents & POLLNVAL) == 0);
 	else
 		CHECK((pollfd.revents & POLLNVAL) != 0);
@@ -546,7 +546,7 @@ test_capabilities(void)
 	TRY(CAP_SEM_POST);
 	TRY(CAP_SEM_WAIT);
 	TRY(CAP_POST_EVENT);
-	TRY(CAP_POLL_EVENT);
+	TRY(CAP_EVENT);
 	TRY(CAP_IOCTL);
 	TRY(CAP_TTYHOOK);
 	TRY(CAP_PDGETPID);

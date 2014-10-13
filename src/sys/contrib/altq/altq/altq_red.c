@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/contrib/altq/altq/altq_red.c 240918 2012-09-25 12:45:41Z glebius $	*/
+/*	$FreeBSD: stable/10/sys/contrib/altq/altq/altq_red.c 263086 2014-03-12 10:45:58Z glebius $	*/
 /*	$KAME: altq_red.c,v 1.18 2003/09/05 22:40:36 itojun Exp $	*/
 
 /*
@@ -86,6 +86,7 @@
 #endif /* ALTQ3_COMPAT */
 
 #include <net/if.h>
+#include <net/if_var.h>
 
 #include <netinet/in.h>
 #include <netinet/in_systm.h>
@@ -94,7 +95,9 @@
 #include <netinet/ip6.h>
 #endif
 
-#include <net/pfvar.h>
+#include <netpfil/pf/pf.h>
+#include <netpfil/pf/pf_altq.h>
+#include <netpfil/pf/pf_mtag.h>
 #include <altq/altq.h>
 #include <altq/altq_red.h>
 #ifdef ALTQ3_COMPAT

@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/usb/controller/dwc_otg_atmelarm.c 232539 2012-03-05 06:41:44Z hselasky $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/usb/controller/dwc_otg_atmelarm.c 266575 2014-05-23 06:20:25Z hselasky $");
 
 #include <sys/stdint.h>
 #include <sys/stddef.h>
@@ -116,7 +116,7 @@ dwc_otg_attach(device_t dev)
 	device_set_ivars(sc->sc_otg.sc_bus.bdev, &sc->sc_otg.sc_bus);
 
 	err = bus_setup_intr(dev, sc->sc_otg.sc_irq_res, INTR_TYPE_BIO | INTR_MPSAFE,
-	    NULL, (driver_intr_t *)dwc_otg_interrupt, sc, &sc->sc_otg.sc_intr_hdl);
+	    &dwc_otg_filter_interrupt, &dwc_otg_interrupt, sc, &sc->sc_otg.sc_intr_hdl);
 	if (err) {
 		sc->sc_otg.sc_intr_hdl = NULL;
 		goto error;

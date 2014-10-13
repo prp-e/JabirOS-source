@@ -1,6 +1,6 @@
-$FreeBSD: release/10.0.0/contrib/sendmail/FREEBSD-upgrade 249730 2013-04-21 17:09:51Z gshapiro $
+$FreeBSD: stable/10/contrib/sendmail/FREEBSD-upgrade 266695 2014-05-26 15:35:11Z gshapiro $
 
-sendmail 8.14.7
+sendmail 8.14.9
 	originals can be found at: ftp://ftp.sendmail.org/pub/sendmail/
 
 For the import of sendmail, the following directories were renamed:
@@ -9,7 +9,7 @@ For the import of sendmail, the following directories were renamed:
 
 Imported using the instructions at:
 
-http://wiki.freebsd.org/SubversionPrimer/VendorImports
+http://www.freebsd.org/doc/en_US.ISO8859-1/articles/committers-guide/subversion-primer.html
 
 Then merged using:
 
@@ -97,4 +97,4 @@ infrastructure in FreeBSD:
 	usr.sbin/mailwrapper/Makefile
 
 gshapiro@FreeBSD.org
-21-April-2013
+21-May-2014

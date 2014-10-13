@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/6/93
-# $FreeBSD: release/10.0.0/usr.bin/tftp/Makefile 213099 2010-09-24 10:40:17Z marius $
+# $FreeBSD: stable/10/usr.bin/tftp/Makefile 213099 2010-09-24 10:40:17Z marius $
 
 .PATH: ${.CURDIR}/../../libexec/tftpd
 

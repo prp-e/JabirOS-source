@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/xscale/i8134x/i81342.c 238545 2012-07-17 03:18:12Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/xscale/i8134x/i81342.c 238545 2012-07-17 03:18:12Z gonzo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/ep/if_ep.c 243857 2012-12-04 09:32:43Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/ep/if_ep.c 243857 2012-12-04 09:32:43Z glebius $");
 
 /*
  *	Modified from the FreeBSD 1.1.5.1 version by:

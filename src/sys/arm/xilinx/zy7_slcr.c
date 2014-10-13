@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/xilinx/zy7_slcr.c 250015 2013-04-28 07:00:36Z wkoszek $
+ * $FreeBSD: stable/10/sys/arm/xilinx/zy7_slcr.c 266152 2014-05-15 16:11:06Z ian $
  */
 
 /*
@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/xilinx/zy7_slcr.c 250015 2013-04-28 07:00:36Z wkoszek $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/xilinx/zy7_slcr.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -192,6 +192,10 @@ zy7_slcr_postload_pl(int en_level_shifters)
 static int
 zy7_slcr_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
+
 	if (!ofw_bus_is_compatible(dev, "xlnx,zy7_slcr"))
 		return (ENXIO);
 

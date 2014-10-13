@@ -33,7 +33,7 @@ static char sccsid[] = "@(#)create.c	8.1 (Berkeley) 6/6/93";
 #endif /* not lint */
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/mtree/create.c 255483 2013-09-12 00:14:25Z delphij $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/mtree/create.c 255483 2013-09-12 00:14:25Z delphij $");
 
 #include <sys/param.h>
 #include <sys/stat.h>

@@ -39,7 +39,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/mips/vm_machdep.c 255786 2013-09-22 13:36:52Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/mips/vm_machdep.c 255786 2013-09-22 13:36:52Z glebius $");
 
 #include "opt_compat.h"
 #include "opt_ddb.h"

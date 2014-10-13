@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/share/mk/bsd.dep.mk 241790 2012-10-20 22:44:22Z marcel $
+# $FreeBSD: stable/10/share/mk/bsd.dep.mk 270408 2014-08-23 14:42:49Z des $
 #
 # The include file <bsd.dep.mk> handles Makefile dependencies.
 #
@@ -73,15 +73,16 @@ tags: ${SRCS}
 CLEANFILES?=
 
 .if !exists(${.OBJDIR}/${DEPENDFILE})
-.for _S in ${SRCS:N*.[hly]}
+.for _S in ${SRCS:N*.[dhly]}
 ${_S:R}.o: ${_S}
 .endfor
 .endif
 
+# Lexical analyzers
 .for _LSRC in ${SRCS:M*.l:N*/*}
 .for _LC in ${_LSRC:R}.c
 ${_LC}: ${_LSRC}
-	${LEX} -t ${LFLAGS} ${.ALLSRC} > ${.TARGET}
+	${LEX} ${LFLAGS} -o${.TARGET} ${.ALLSRC}
 .if !exists(${.OBJDIR}/${DEPENDFILE})
 ${_LC:R}.o: ${_LC}
 .endif
@@ -90,6 +91,7 @@ CLEANFILES+= ${_LC}
 .endfor
 .endfor
 
+# Yacc grammars
 .for _YSRC in ${SRCS:M*.y:N*/*}
 .for _YC in ${_YSRC:R}.c
 SRCS:=	${SRCS:S/${_YSRC}/${_YC}/}
@@ -117,6 +119,38 @@ ${_YC:R}.o: ${_YC}
 .endif
 .endfor
 .endfor
+
+# DTrace probe definitions
+# libelf is currently needed for drti.o
+.if ${SRCS:M*.d}
+LDFLAGS+=	-lelf
+LDADD+=		${LIBELF}
+CFLAGS+=	-D_DTRACE_VERSION=1 -I${.OBJDIR}
+.endif
+.for _DSRC in ${SRCS:M*.d:N*/*}
+.for _D in ${_DSRC:R}
+DHDRS+=	${_D}.h
+${_D}.h: ${_DSRC}
+	${DTRACE} -xnolibs -h -s ${.ALLSRC}
+SRCS:=	${SRCS:S/${_DSRC}/${_D}.h/}
+OBJS+=	${_D}.o
+CLEANFILES+= ${_D}.h ${_D}.o
+${_D}.o: ${_D}.h ${OBJS:S/${_D}.o//}
+	${DTRACE} -xnolibs -G -o ${.TARGET} -s ${.CURDIR}/${_DSRC} \
+		${OBJS:S/${_D}.o//}
+.if defined(LIB)
+CLEANFILES+= ${_D}.So ${_D}.po
+${_D}.So: ${_D}.h ${SOBJS:S/${_D}.So//}
+	${DTRACE} -xnolibs -G -o ${.TARGET} -s ${.CURDIR}/${_DSRC} \
+		${SOBJS:S/${_D}.So//}
+${_D}.po: ${_D}.h ${POBJS:S/${_D}.po//}
+	${DTRACE} -xnolibs -G -o ${.TARGET} -s ${.CURDIR}/${_DSRC} \
+		${POBJS:S/${_D}.po//}
+.endif
+.endfor
+.endfor
+beforedepend: ${DHDRS}
+beforebuild: ${DHDRS}
 .endif
 
 .if !target(depend)

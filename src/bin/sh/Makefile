@@ -1,5 +1,7 @@
 #	@(#)Makefile	8.4 (Berkeley) 5/5/95
-# $FreeBSD: release/10.0.0/bin/sh/Makefile 253650 2013-07-25 15:08:41Z jilles $
+# $FreeBSD: stable/10/bin/sh/Makefile 262951 2014-03-09 17:04:31Z jmmv $
+
+.include <bsd.own.mk>
 
 PROG=	sh
 INSTALLFLAGS= -S
@@ -59,7 +61,8 @@ syntax.c syntax.h: mksyntax
 token.h: mktokens
 	sh ${.CURDIR}/mktokens
 
-regress:
-	cd ${.CURDIR}/../../tools/regression/bin/sh && ${MAKE} SH=${.OBJDIR}/sh
+.if ${MK_TESTS} != "no"
+SUBDIR+=    tests
+.endif
 
 .include <bsd.prog.mk>

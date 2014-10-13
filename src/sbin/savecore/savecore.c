@@ -61,7 +61,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/savecore/savecore.c 244321 2012-12-16 23:09:27Z pjd $");
+__FBSDID("$FreeBSD: stable/10/sbin/savecore/savecore.c 265075 2014-04-29 03:49:40Z markj $");
 
 #include <sys/param.h>
 #include <sys/disk.h>
@@ -618,7 +618,7 @@ DoFile(const char *savedir, const char *device)
 	 */
 	fdinfo = open(infoname, O_WRONLY | O_CREAT | O_TRUNC, 0600);
 	if (fdinfo < 0) {
-		syslog(LOG_ERR, "%s: %m", buf);
+		syslog(LOG_ERR, "%s: %m", infoname);
 		nerr++;
 		goto closefd;
 	}
@@ -672,7 +672,7 @@ DoFile(const char *savedir, const char *device)
 	if (fclose(fp) < 0) {
 		syslog(LOG_ERR, "error on %s: %m", corename);
 		nerr++;
-		goto closeall;
+		goto closefd;
 	}
 
 	symlinks_remove();

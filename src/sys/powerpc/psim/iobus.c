@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/powerpc/psim/iobus.c 183882 2008-10-14 14:54:14Z nwhitehorn $
+ * $FreeBSD: stable/10/sys/powerpc/psim/iobus.c 266160 2014-05-15 17:30:16Z ian $
  */
 
 /*
@@ -116,7 +116,7 @@ static driver_t iobus_driver = {
 
 devclass_t iobus_devclass;
 
-DRIVER_MODULE(iobus, nexus, iobus_driver, iobus_devclass, 0, 0);
+DRIVER_MODULE(iobus, ofwbus, iobus_driver, iobus_devclass, 0, 0);
 
 static int
 iobus_probe(device_t dev)

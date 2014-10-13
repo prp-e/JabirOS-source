@@ -27,7 +27,7 @@
 /* Simulated NAND controller driver */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/nand/nandsim.c 237605 2012-06-26 18:08:03Z takawata $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/nand/nandsim.c 237605 2012-06-26 18:08:03Z takawata $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -19,7 +19,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: release/10.0.0/sys/cddl/compat/opensolaris/sys/cyclic_impl.h 216254 2010-12-07 12:25:26Z avg $
+ * $FreeBSD: stable/10/sys/cddl/compat/opensolaris/sys/cyclic_impl.h 216254 2010-12-07 12:25:26Z avg $
  *
  */
 /*

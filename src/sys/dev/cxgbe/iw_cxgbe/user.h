@@ -29,7 +29,7 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/cxgbe/iw_cxgbe/user.h 256694 2013-10-17 18:37:25Z np $
+ * $FreeBSD: stable/10/sys/dev/cxgbe/iw_cxgbe/user.h 256694 2013-10-17 18:37:25Z np $
  */
 #ifndef __C4IW_USER_H__
 #define __C4IW_USER_H__

@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/s3c2xx0/s3c24x0.c 238545 2012-07-17 03:18:12Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/s3c2xx0/s3c24x0.c 265999 2014-05-14 01:35:43Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -429,7 +429,7 @@ s3c24x0_identify(driver_t *driver, device_t parent)
 int
 s3c24x0_probe(device_t dev)
 {
-	return 0;
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 int

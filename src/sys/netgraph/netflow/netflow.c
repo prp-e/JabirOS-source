@@ -28,8 +28,8 @@
  * $SourceForge: netflow.c,v 1.41 2004/09/05 11:41:10 glebius Exp $
  */
 
-static const char rcs_id[] =
-    "@(#) $FreeBSD: release/10.0.0/sys/netgraph/netflow/netflow.c 248725 2013-03-26 14:08:14Z glebius $";
+#include <sys/cdefs.h>
+__FBSDID("$FreeBSD: stable/10/sys/netgraph/netflow/netflow.c 260278 2014-01-04 19:04:53Z dim $");
 
 #include "opt_inet6.h"
 #include "opt_route.h"

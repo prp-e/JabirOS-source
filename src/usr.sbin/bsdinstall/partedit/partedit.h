@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/bsdinstall/partedit/partedit.h 245701 2013-01-20 23:04:21Z nwhitehorn $
+ * $FreeBSD: stable/10/usr.sbin/bsdinstall/partedit/partedit.h 271636 2014-09-15 17:49:46Z emaste $
  */
 
 #ifndef _PARTEDIT_PARTEDIT_H
@@ -74,9 +74,10 @@ void set_default_part_metadata(const char *name, const char *scheme,
 
 /* machine-dependent bootability checks */
 const char *default_scheme(void);
-int is_scheme_bootable(const char *part_type);
-size_t bootpart_size(const char *part_type);
-const char *bootcode_path(const char *part_type);
-const char *partcode_path(const char *part_type);
+int is_scheme_bootable(const char *scheme);
+size_t bootpart_size(const char *scheme);
+const char *bootpart_type(const char *scheme);
+const char *bootcode_path(const char *scheme);
+const char *partcode_path(const char *scheme);
 
 #endif

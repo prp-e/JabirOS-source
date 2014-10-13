@@ -51,7 +51,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/isci/scil/scif_sas_domain.c 250460 2013-05-10 16:41:26Z eadler $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/isci/scil/scif_sas_domain.c 250460 2013-05-10 16:41:26Z eadler $");
 
 /**
  * @file

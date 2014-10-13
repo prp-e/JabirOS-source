@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THEPOSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/sound/pci/spicds.c 227293 2011-11-07 06:44:47Z ed $
+ * $FreeBSD: stable/10/sys/dev/sound/pci/spicds.c 227293 2011-11-07 06:44:47Z ed $
  */
 
 #ifdef HAVE_KERNEL_OPTION_HEADERS

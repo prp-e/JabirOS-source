@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/include/vm.h 244414 2012-12-19 00:24:31Z cognet $
+ * $FreeBSD: stable/10/sys/arm/include/vm.h 244414 2012-12-19 00:24:31Z cognet $
  */
 
 #ifndef _MACHINE_VM_H_

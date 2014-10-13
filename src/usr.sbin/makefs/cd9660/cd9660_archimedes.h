@@ -29,7 +29,7 @@
 /*
  * cd9660_archimedes.c - support for RISC OS "ARCHIMEDES" extension
  *
- * $FreeBSD: release/10.0.0/usr.sbin/makefs/cd9660/cd9660_archimedes.h 214921 2010-11-07 16:05:04Z cognet $
+ * $FreeBSD: stable/10/usr.sbin/makefs/cd9660/cd9660_archimedes.h 214921 2010-11-07 16:05:04Z cognet $
  */
 
 struct ISO_ARCHIMEDES {

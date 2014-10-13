@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/rtsold/probe.c 254470 2013-08-17 22:13:26Z hrs $
+ * $FreeBSD: stable/10/usr.sbin/rtsold/probe.c 254470 2013-08-17 22:13:26Z hrs $
  */
 
 #include <sys/param.h>

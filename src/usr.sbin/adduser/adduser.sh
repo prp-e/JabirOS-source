@@ -24,7 +24,7 @@
 #
 #       Email: Mike Makonnen <mtm@FreeBSD.Org>
 #
-# $FreeBSD: release/10.0.0/usr.sbin/adduser/adduser.sh 232146 2012-02-25 07:58:59Z deischen $
+# $FreeBSD: stable/10/usr.sbin/adduser/adduser.sh 232146 2012-02-25 07:58:59Z deischen $
 #
 
 # err msg

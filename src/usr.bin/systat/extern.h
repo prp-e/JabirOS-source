@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *      @(#)extern.h	8.1 (Berkeley) 6/6/93
- * $FreeBSD: release/10.0.0/usr.bin/systat/extern.h 253360 2013-07-15 12:15:14Z glebius $
+ * $FreeBSD: stable/10/usr.bin/systat/extern.h 253360 2013-07-15 12:15:14Z glebius $
  */
 
 #include <sys/cdefs.h>

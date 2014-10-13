@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/locale/mbrtocXX_iconv.h 252547 2013-07-03 07:03:19Z peter $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/locale/mbrtocXX_iconv.h 252547 2013-07-03 07:03:19Z peter $");
 
 #include <sys/queue.h>
 

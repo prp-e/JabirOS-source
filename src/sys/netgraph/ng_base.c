@@ -34,7 +34,7 @@
  * Authors: Julian Elischer <julian@freebsd.org>
  *          Archie Cobbs <archie@freebsd.org>
  *
- * $FreeBSD: release/10.0.0/sys/netgraph/ng_base.c 253346 2013-07-15 01:32:55Z rodrigc $
+ * $FreeBSD: stable/10/sys/netgraph/ng_base.c 261022 2014-01-22 10:38:01Z glebius $
  * $Whistle: ng_base.c,v 1.39 1999/01/28 23:54:53 julian Exp $
  */
 
@@ -468,7 +468,7 @@ static const struct ng_parse_type ng_generic_linkinfo_array_type = {
 	&ng_generic_linkinfo_array_type_info
 };
 
-DEFINE_PARSE_STRUCT_TYPE(typelist, TYPELIST, (&ng_generic_nodeinfoarray_type));
+DEFINE_PARSE_STRUCT_TYPE(typelist, TYPELIST, (&ng_generic_typeinfoarray_type));
 DEFINE_PARSE_STRUCT_TYPE(hooklist, HOOKLIST,
 	(&ng_generic_nodeinfo_type, &ng_generic_linkinfo_array_type));
 DEFINE_PARSE_STRUCT_TYPE(listnodes, LISTNODES,
@@ -544,7 +544,7 @@ static const struct ng_cmdlist ng_generic_cmds[] = {
 	  NGM_LISTTYPES,
 	  "listtypes",
 	  NULL,
-	  &ng_generic_typeinfo_type
+	  &ng_generic_typelist_type
 	},
 	{
 	  NGM_GENERIC_COOKIE,

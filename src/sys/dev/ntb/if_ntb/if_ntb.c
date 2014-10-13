@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/ntb/if_ntb/if_ntb.c 255281 2013-09-05 23:14:27Z carl $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/ntb/if_ntb/if_ntb.c 255281 2013-09-05 23:14:27Z carl $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

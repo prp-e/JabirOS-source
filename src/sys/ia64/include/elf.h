@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/ia64/include/elf.h 237430 2012-06-22 06:38:31Z kib $
+ * $FreeBSD: stable/10/sys/ia64/include/elf.h 237430 2012-06-22 06:38:31Z kib $
  */
 
 #ifndef _MACHINE_ELF_H_

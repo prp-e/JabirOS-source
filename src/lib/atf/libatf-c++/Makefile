@@ -23,19 +23,21 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/lib/atf/libatf-c++/Makefile 242684 2012-11-07 00:23:51Z marcel $
+# $FreeBSD: stable/10/lib/atf/libatf-c++/Makefile 270905 2014-08-31 23:09:23Z ngie $
 
 .include <bsd.init.mk>
 
 LIB=		atf-c++
+PRIVATELIB=	true
 SHLIB_MAJOR=	1
 
 # libatf-c++ depends on the C version of the ATF library to build.
-DPADD=		${LIBATFC}
+DPADD=		${LIBATF_C}
 LDADD=		-latf-c
 
 LDFLAGS+=	-L${.OBJDIR}/../libatf-c
 
+ATF=		${.CURDIR:H:H:H}/contrib/atf
 .PATH:		${ATF}
 .PATH:		${ATF}/atf-c++
 .PATH:		${ATF}/atf-c++/detail
@@ -52,13 +54,11 @@ SRCS=		application.cpp \
 		config.cpp \
 		env.cpp \
 		exceptions.cpp \
-		expand.cpp \
 		fs.cpp \
-		parser.cpp \
 		process.cpp \
 		tests.cpp \
 		text.cpp \
-		ui.cpp
+		utils.cpp
 
 INCS=		build.hpp \
 		check.hpp \
@@ -73,4 +73,9 @@ INCSDIR_atf-c++.hpp= ${INCLUDEDIR}
 
 MAN=		atf-c++-api.3
 
+.if ${MK_TESTS} != "no"
+SUBDIR=		tests
+.endif
+
+.include "../common.mk"
 .include <bsd.lib.mk>

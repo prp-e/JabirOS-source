@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: release/10.0.0/usr.sbin/mtree/test/test05.sh 160083 2006-07-03 10:55:22Z maxim $
+# $FreeBSD: stable/10/usr.sbin/mtree/test/test05.sh 160083 2006-07-03 10:55:22Z maxim $
 #
 # Test for 'optional' keyword.
 #

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libc_nonshared/Makefile 258750 2013-11-29 19:44:30Z gjb $
+# $FreeBSD: stable/10/lib/libc_nonshared/Makefile 258750 2013-11-29 19:44:30Z gjb $
 
 # We're actually creating a libc_noshared.a that is PIC along side libc.so.*
 # It is used exclusively with libc.so.* - there is no need for any other

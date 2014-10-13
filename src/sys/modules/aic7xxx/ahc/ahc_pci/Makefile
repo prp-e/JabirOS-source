@@ -1,13 +1,10 @@
 
-# $FreeBSD: release/10.0.0/sys/modules/aic7xxx/ahc/ahc_pci/Makefile 228805 2011-12-22 16:16:12Z dim $
+# $FreeBSD: stable/10/sys/modules/aic7xxx/ahc/ahc_pci/Makefile 270284 2014-08-21 17:18:21Z ian $
 
 .PATH:	${.CURDIR}/../../../../dev/aic7xxx
 KMOD=	ahc_pci
 
-../aic7xxx_reg.h:
-	( cd .. ; ${MAKE} aic7xxx_reg.h )
-
-SRCS=	ahc_pci.c aic7xxx_pci.c ../aic7xxx_reg.h
+SRCS=	ahc_pci.c aic7xxx_pci.c
 SRCS+=	device_if.h bus_if.h pci_if.h
 SRCS+=	opt_scsi.h opt_cam.h opt_aic7xxx.h
 

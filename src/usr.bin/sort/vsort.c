@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/sort/vsort.c 251245 2013-06-02 09:43:48Z gabor $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/sort/vsort.c 251245 2013-06-02 09:43:48Z gabor $");
 
 #include <sys/types.h>
 

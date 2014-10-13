@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/wlan/Makefile 246227 2013-02-02 02:00:29Z adrian $
+# $FreeBSD: stable/10/sys/modules/wlan/Makefile 262126 2014-02-17 20:19:34Z dim $
 
 .PATH: ${.CURDIR}/../../net80211
 
@@ -31,3 +31,10 @@ opt_ddb.h:
 .endif
 
 .include <bsd.kmod.mk>
+
+CWARNFLAGS.ieee80211_adhoc.c=	-Wno-unused-function
+CWARNFLAGS.ieee80211_crypto.c=	-Wno-unused-function
+CWARNFLAGS.ieee80211_hostap.c=	-Wno-unused-function
+CWARNFLAGS.ieee80211_mesh.c=	-Wno-unused-function
+CWARNFLAGS.ieee80211_sta.c=	-Wno-unused-function
+CWARNFLAGS+=			${CWARNFLAGS.${.IMPSRC:T}}

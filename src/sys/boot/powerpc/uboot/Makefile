@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/boot/powerpc/uboot/Makefile 246647 2013-02-11 02:15:26Z kientzle $
+# $FreeBSD: stable/10/sys/boot/powerpc/uboot/Makefile 271130 2014-09-04 20:35:53Z emaste $
 
 .include <bsd.own.mk>
 
@@ -95,10 +95,11 @@ CFLAGS+=	-I${.CURDIR}/../../uboot/lib
 CFLAGS+=	-I${.OBJDIR}/../../uboot/lib
 
 # where to get libstand from
+LIBSTAND=	${.OBJDIR}/../../libstand32/libstand.a
 CFLAGS+=	-I${.CURDIR}/../../../../lib/libstand/
 
 DPADD=		${LIBFICL} ${LIBUBOOT} ${LIBFDT} ${LIBSTAND}
-LDADD=		${LIBFICL} ${LIBUBOOT} ${LIBFDT} -lstand
+LDADD=		${LIBFICL} ${LIBUBOOT} ${LIBFDT} ${LIBSTAND}
 
 vers.c:	${.CURDIR}/../../common/newvers.sh ${.CURDIR}/version
 	sh ${.CURDIR}/../../common/newvers.sh ${.CURDIR}/version ${NEWVERSWHAT}

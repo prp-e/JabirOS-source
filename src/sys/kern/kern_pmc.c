@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_pmc.c 233628 2012-03-28 20:58:30Z fabient $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_pmc.c 233628 2012-03-28 20:58:30Z fabient $");
 
 #include "opt_hwpmc_hooks.h"
 

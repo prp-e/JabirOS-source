@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/uart/Makefile 249765 2013-04-22 13:02:41Z nyan $
+# $FreeBSD: stable/10/sys/modules/uart/Makefile 249765 2013-04-22 13:02:41Z nyan $
 
 .PATH: ${.CURDIR}/../../dev/uart
 

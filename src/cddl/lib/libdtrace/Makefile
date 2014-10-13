@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/cddl/lib/libdtrace/Makefile 254889 2013-08-25 21:54:41Z markj $
+# $FreeBSD: stable/10/cddl/lib/libdtrace/Makefile 265273 2014-05-03 16:08:52Z markj $
 
 .PATH: ${.CURDIR}/../../../cddl/contrib/opensolaris/lib/libdtrace/common
 .PATH: ${.CURDIR}/../../../cddl/contrib/opensolaris/lib/libgen/common
@@ -69,9 +69,11 @@ CFLAGS+=	-I${.OBJDIR} -I${.CURDIR} \
 #CFLAGS+=	-DYYDEBUG
 
 .if ${MACHINE_CPUARCH} == "i386" || ${MACHINE_CPUARCH} == "amd64"
+CFLAGS+=	-I${.CURDIR}/../../../sys/cddl/dev/dtrace/x86
 CFLAGS+=	-I${OPENSOLARIS_SYS_DISTDIR}/uts/intel -DDIS_MEM
 .PATH:		${.CURDIR}/../../../cddl/contrib/opensolaris/lib/libdtrace/i386
 .PATH:		${.CURDIR}/../../../sys/cddl/dev/dtrace/${MACHINE_ARCH}
+.PATH:		${.CURDIR}/../../../sys/cddl/dev/dtrace/x86
 .elif ${MACHINE_CPUARCH} == "sparc64"
 CFLAGS+=	-I${OPENSOLARIS_SYS_DISTDIR}/uts/sparc
 .PATH:		${.CURDIR}/../../../cddl/contrib/opensolaris/lib/libdtrace/sparc

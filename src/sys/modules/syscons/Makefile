@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/syscons/Makefile 211690 2010-08-23 06:13:29Z imp $
+# $FreeBSD: stable/10/sys/modules/syscons/Makefile 211690 2010-08-23 06:13:29Z imp $
 
 SUBDIR=	${_apm} \
 	${_beastie} \

@@ -18,7 +18,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/ral/rt2860.c 252727 2013-07-04 21:16:49Z adrian $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/ral/rt2860.c 262007 2014-02-17 01:36:53Z kevlo $");
 
 /*-
  * Ralink Technology RT2860/RT3090/RT3390/RT3562 chipset driver
@@ -1284,9 +1284,9 @@ rt2860_rx_intr(struct rt2860_softc *sc)
 
 		wh = mtod(m, struct ieee80211_frame *);
 #ifdef HW_CRYPTO
-		if (wh->i_fc[1] & IEEE80211_FC1_WEP) {
+		if (wh->i_fc[1] & IEEE80211_FC1_PROTECTED) {
 			/* frame is decrypted by hardware */
-			wh->i_fc[1] &= ~IEEE80211_FC1_WEP;
+			wh->i_fc[1] &= ~IEEE80211_FC1_PROTECTED;
 		}
 #endif
 
@@ -1492,7 +1492,7 @@ rt2860_tx(struct rt2860_softc *sc, struct mbuf *m, struct ieee80211_node *ni)
 
 	wh = mtod(m, struct ieee80211_frame *);
 
-	if (wh->i_fc[1] & IEEE80211_FC1_WEP) {
+	if (wh->i_fc[1] & IEEE80211_FC1_PROTECTED) {
 		k = ieee80211_crypto_encap(ni, m);
 		if (k == NULL) {
 			m_freem(m);

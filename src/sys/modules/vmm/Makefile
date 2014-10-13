@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/vmm/Makefile 254596 2013-08-21 08:01:52Z uqs $
+# $FreeBSD: stable/10/sys/modules/vmm/Makefile 268891 2014-07-19 22:06:46Z jhb $
 
 KMOD=	vmm
 
@@ -15,6 +15,7 @@ SRCS+=	vmm.c		\
 	vmm_dev.c	\
 	vmm_host.c	\
 	vmm_instruction_emul.c	\
+	vmm_ioport.c	\
 	vmm_ipi.c	\
 	vmm_lapic.c	\
 	vmm_mem.c	\
@@ -27,7 +28,10 @@ SRCS+=	vmm.c		\
 .PATH: ${.CURDIR}/../../amd64/vmm/io
 SRCS+=	iommu.c		\
 	ppt.c           \
-	vdev.c		\
+	vatpic.c	\
+	vatpit.c	\
+	vhpet.c		\
+	vioapic.c	\
 	vlapic.c
 
 # intel-specific files

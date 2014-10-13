@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/drm2/drm2/Makefile 254885 2013-08-25 19:37:15Z dumbbell $
+# $FreeBSD: stable/10/sys/modules/drm2/drm2/Makefile 262861 2014-03-06 18:30:56Z jhb $
 
 .PATH:	${.CURDIR}/../../../dev/drm2 ${.CURDIR}/../../../dev/drm2/ttm
 KMOD	= drm2
@@ -54,6 +54,6 @@ SRCS	+= drm_ioc32.c
 .endif
 
 SRCS	+=device_if.h bus_if.h pci_if.h device_if.h iicbus_if.h opt_drm.h \
-	opt_vm.h opt_compat.h
+	opt_vm.h opt_compat.h opt_syscons.h
 
 .include <bsd.kmod.mk>

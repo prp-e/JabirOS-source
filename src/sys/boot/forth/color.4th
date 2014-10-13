@@ -22,7 +22,7 @@
 \ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 \ SUCH DAMAGE.
 \ 
-\ $FreeBSD: release/10.0.0/sys/boot/forth/color.4th 254105 2013-08-08 22:09:46Z dteske $
+\ $FreeBSD: stable/10/sys/boot/forth/color.4th 254105 2013-08-08 22:09:46Z dteske $
 
 marker task-color.4th
 

@@ -1,4 +1,4 @@
-$ $FreeBSD: release/10.0.0/lib/libc/nls/fr_FR.ISO8859-1.msg 249471 2013-04-14 11:44:47Z jilles $
+$ $FreeBSD: stable/10/lib/libc/nls/fr_FR.ISO8859-1.msg 249471 2013-04-14 11:44:47Z jilles $
 $
 $ Message catalog for fr_FR.ISO8859-1 locale
 $

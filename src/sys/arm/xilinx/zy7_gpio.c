@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/xilinx/zy7_gpio.c 250015 2013-04-28 07:00:36Z wkoszek $
+ * $FreeBSD: stable/10/sys/arm/xilinx/zy7_gpio.c 266152 2014-05-15 16:11:06Z ian $
  */
 
 /*
@@ -44,7 +44,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/xilinx/zy7_gpio.c 250015 2013-04-28 07:00:36Z wkoszek $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/xilinx/zy7_gpio.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -275,6 +275,9 @@ zy7_gpio_pin_toggle(device_t dev, uint32_t pin)
 static int
 zy7_gpio_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (!ofw_bus_is_compatible(dev, "xlnx,zy7_gpio"))
 		return (ENXIO);

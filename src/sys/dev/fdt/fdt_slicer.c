@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/fdt/fdt_slicer.c 235778 2012-05-22 08:33:14Z gber $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/fdt/fdt_slicer.c 261077 2014-01-23 12:02:04Z loos $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -34,9 +34,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/dev/fdt/fdt_slicer.c 235778 2012-05-22 08
 #include <sys/slicer.h>
 
 #include <dev/fdt/fdt_common.h>
-
-#define DEBUG
-#undef DEBUG
 
 #ifdef DEBUG
 #define debugf(fmt, args...) do { printf("%s(): ", __func__);	\

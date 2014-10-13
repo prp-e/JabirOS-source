@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/uart/uart_tty.c 228631 2011-12-17 15:08:43Z avg $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/uart/uart_tty.c 259759 2013-12-23 01:24:32Z imp $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -112,11 +112,15 @@ uart_cnterm(struct consdev *cp)
 static void
 uart_cngrab(struct consdev *cp)
 {
+
+	uart_grab(cp->cn_arg);
 }
 
 static void
 uart_cnungrab(struct consdev *cp)
 {
+
+	uart_ungrab(cp->cn_arg);
 }
 
 static void

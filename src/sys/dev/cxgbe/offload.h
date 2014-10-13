@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/cxgbe/offload.h 255005 2013-08-28 20:45:45Z np $
+ * $FreeBSD: stable/10/sys/dev/cxgbe/offload.h 270297 2014-08-21 19:54:02Z np $
  *
  */
 
@@ -101,6 +101,11 @@ struct tid_info {
 	u_int nftids;
 	u_int ftid_base;
 	u_int ftids_in_use;
+
+	struct mtx etid_lock __aligned(CACHE_LINE_SIZE);
+	struct etid_entry *etid_tab;
+	u_int netids;
+	u_int etid_base;
 };
 
 struct t4_range {
@@ -148,6 +153,6 @@ int t4_register_uld(struct uld_info *);
 int t4_unregister_uld(struct uld_info *);
 int t4_activate_uld(struct adapter *, int);
 int t4_deactivate_uld(struct adapter *, int);
+void t4_iscsi_init(struct ifnet *, unsigned int, const unsigned int *);
 #endif
-
 #endif

@@ -33,7 +33,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: release/10.0.0/sys/dev/ath/ath_rate/sample/sample.h 239284 2012-08-15 07:10:10Z adrian $
+ * $FreeBSD: stable/10/sys/dev/ath/ath_rate/sample/sample.h 239284 2012-08-15 07:10:10Z adrian $
  */
 
 /*

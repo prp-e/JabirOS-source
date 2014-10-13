@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: release/10.0.0/tools/tools/wtap/vis_map/vis_map.c 230445 2012-01-22 04:51:00Z adrian $
+ * $FreeBSD: stable/10/tools/tools/wtap/vis_map/vis_map.c 230445 2012-01-22 04:51:00Z adrian $
  */
 #include <stdio.h>
 #include <stdlib.h>

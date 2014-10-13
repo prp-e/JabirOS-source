@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/net80211/ieee80211_radiotap.c 237214 2012-06-18 02:08:04Z adrian $");
+__FBSDID("$FreeBSD: stable/10/sys/net80211/ieee80211_radiotap.c 237214 2012-06-18 02:08:04Z adrian $");
 
 /*
  * IEEE 802.11 radiotap support.

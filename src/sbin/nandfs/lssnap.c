@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/nandfs/lssnap.c 235537 2012-05-17 10:11:18Z gber $");
+__FBSDID("$FreeBSD: stable/10/sbin/nandfs/lssnap.c 235537 2012-05-17 10:11:18Z gber $");
 #include <sys/types.h>
 
 #include <stdio.h>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.bin/csup/auth.c 232320 2012-02-29 22:35:09Z cognet $
+ * $FreeBSD: stable/10/usr.bin/csup/auth.c 232320 2012-02-29 22:35:09Z cognet $
  */
 
 #include <sys/param.h>

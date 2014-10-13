@@ -16,10 +16,10 @@
  */
 
 #ifndef lint
-static const char rcsid[] = "$Id: ns_samedomain.c,v 1.5.18.1 2005/04/27 05:01:09 sra Exp $";
+static const char rcsid[] = "$Id: ns_samedomain.c,v 1.6 2005/04/27 04:56:40 sra Exp $";
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/nameser/ns_samedomain.c 170244 2007-06-03 17:20:27Z ume $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/nameser/ns_samedomain.c 270838 2014-08-30 10:16:25Z ume $");
 
 #include "port_before.h"
 

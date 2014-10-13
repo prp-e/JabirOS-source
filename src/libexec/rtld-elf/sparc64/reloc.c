@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/libexec/rtld-elf/sparc64/reloc.c 234841 2012-04-30 13:31:10Z kib $");
+__FBSDID("$FreeBSD: stable/10/libexec/rtld-elf/sparc64/reloc.c 271469 2014-09-12 16:22:01Z kib $");
 
 #include <sys/param.h>
 #include <sys/mman.h>
@@ -299,6 +299,10 @@ reloc_non_plt(Obj_Entry *obj, Obj_Entry *obj_rtld, int flags,
 	const Elf_Rela *rela;
 	SymCache *cache;
 	int r = -1;
+
+	if ((flags & SYMLOOK_IFUNC) != 0)
+		/* XXX not implemented */
+		return (0);
 
 	/*
 	 * The dynamic loader may be called from a thread, we have

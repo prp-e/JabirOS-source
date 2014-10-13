@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/daemon/Makefile 201390 2010-01-02 11:07:44Z ed $
+# $FreeBSD: stable/10/usr.sbin/daemon/Makefile 201390 2010-01-02 11:07:44Z ed $
 
 PROG=	daemon
 MAN=	daemon.8

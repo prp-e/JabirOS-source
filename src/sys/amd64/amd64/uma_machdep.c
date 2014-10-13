@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/amd64/amd64/uma_machdep.c 243040 2012-11-14 20:01:40Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/amd64/amd64/uma_machdep.c 243040 2012-11-14 20:01:40Z kib $");
 
 #include <sys/param.h>
 #include <sys/lock.h>

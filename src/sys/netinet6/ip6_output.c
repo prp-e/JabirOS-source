@@ -61,7 +61,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netinet6/ip6_output.c 254804 2013-08-24 19:51:18Z andre $");
+__FBSDID("$FreeBSD: stable/10/sys/netinet6/ip6_output.c 263478 2014-03-21 15:15:30Z glebius $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"
@@ -218,9 +218,9 @@ in6_delayed_cksum(struct mbuf *m, uint32_t plen, u_short offset)
  * skipped and ro->ro_rt would be used. If ro is present but ro->ro_rt is NULL,
  * then result of route lookup is stored in ro->ro_rt.
  *
- * type of "mtu": rt_rmx.rmx_mtu is u_long, ifnet.ifr_mtu is int, and
+ * type of "mtu": rt_mtu is u_long, ifnet.ifr_mtu is int, and
  * nd_ifinfo.linkmtu is u_int32_t.  so we use u_long to hold largest one,
- * which is rt_rmx.rmx_mtu.
+ * which is rt_mtu.
  *
  * ifpp - XXX: just for statistics
  */
@@ -521,19 +521,8 @@ skip_ipsec2:;
 		ro = &opt->ip6po_route;
 	dst = (struct sockaddr_in6 *)&ro->ro_dst;
 #ifdef FLOWTABLE
-	if (ro->ro_rt == NULL) {
-		struct flentry *fle;
-
-		/*
-		 * The flow table returns route entries valid for up to 30
-		 * seconds; we rely on the remainder of ip_output() taking no
-		 * longer than that long for the stability of ro_rt.  The
-		 * flow ID assignment must have happened before this point.
-		 */
-		fle = flowtable_lookup_mbuf(V_ip6_ft, m, AF_INET6);
-		if (fle != NULL)
-			flow_to_route_in6(fle, ro);
-	}
+	if (ro->ro_rt == NULL)
+		(void )flowtable_lookup(AF_INET6, m, (struct route *)ro);
 #endif
 again:
 	/*
@@ -671,7 +660,7 @@ again:
 	}
 	if (rt != NULL) {
 		ia = (struct in6_ifaddr *)(rt->rt_ifa);
-		rt->rt_use++;
+		counter_u64_add(rt->rt_pksent, 1);
 	}
 
 
@@ -1407,9 +1396,9 @@ ip6_getpmtu(struct route_in6 *ro_pmtu, struct route_in6 *ro,
 		ifmtu = IN6_LINKMTU(ifp);
 		mtu = tcp_hc_getmtu(&inc);
 		if (mtu)
-			mtu = min(mtu, ro_pmtu->ro_rt->rt_rmx.rmx_mtu);
+			mtu = min(mtu, ro_pmtu->ro_rt->rt_mtu);
 		else
-			mtu = ro_pmtu->ro_rt->rt_rmx.rmx_mtu;
+			mtu = ro_pmtu->ro_rt->rt_mtu;
 		if (mtu == 0)
 			mtu = ifmtu;
 		else if (mtu < IPV6_MMTU) {
@@ -1433,7 +1422,7 @@ ip6_getpmtu(struct route_in6 *ro_pmtu, struct route_in6 *ro,
 			 * field isn't locked).
 			 */
 			mtu = ifmtu;
-			ro_pmtu->ro_rt->rt_rmx.rmx_mtu = mtu;
+			ro_pmtu->ro_rt->rt_mtu = mtu;
 		}
 	} else if (ifp) {
 		mtu = IN6_LINKMTU(ifp);

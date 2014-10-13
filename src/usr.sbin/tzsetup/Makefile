@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/tzsetup/Makefile 227934 2011-11-24 13:24:06Z fjoe $
+# $FreeBSD: stable/10/usr.sbin/tzsetup/Makefile 262643 2014-03-01 03:09:16Z brooks $
 
 PROG=	tzsetup
 MAN=	tzsetup.8
@@ -7,7 +7,17 @@ CFLAGS+= -I${.CURDIR}/../../contrib/dialog -I.
 
 WARNS?=	3
 
-DPADD=	${LIBDIALOG} ${LIBNCURSESW} ${LIBM}
-LDADD=	-ldialog -lncursesw -lm
+DPADD=	${LIBDIALOG} ${LIBM}
+LDADD=	-ldialog -lm
+
+.include <bsd.own.mk>
+
+.if ${MK_NCURSESW} == "no"
+DPADD+=	${LIBNCURSES}
+LDADD+=	-lncurses
+.else
+DPADD+=	${LIBNCURSESW}
+LDADD+= -lncursesw
+.endif
 
 .include <bsd.prog.mk>

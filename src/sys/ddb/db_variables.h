@@ -23,7 +23,7 @@
  * any improvements or extensions that they make and grant Carnegie the
  * rights to redistribute these changes.
  *
- * $FreeBSD: release/10.0.0/sys/ddb/db_variables.h 195699 2009-07-14 22:48:30Z rwatson $
+ * $FreeBSD: stable/10/sys/ddb/db_variables.h 264210 2014-04-07 01:49:30Z pfg $
  */
 
 /*
@@ -44,8 +44,8 @@ struct db_variable {
 	db_expr_t *valuep;	/* value of variable */
 				/* function to call when reading/writing */
 	db_varfcn_t *fcn;
-#define DB_VAR_GET	0
-#define DB_VAR_SET	1
+#define	DB_VAR_GET	0
+#define	DB_VAR_SET	1
 };
 #define	FCN_NULL	((db_varfcn_t *)0)
 

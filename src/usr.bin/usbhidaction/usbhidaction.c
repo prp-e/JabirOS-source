@@ -1,5 +1,5 @@
 /*      $NetBSD: usbhidaction.c,v 1.8 2002/06/11 06:06:21 itojun Exp $ */
-/*	$FreeBSD: release/10.0.0/usr.bin/usbhidaction/usbhidaction.c 227195 2011-11-06 08:18:23Z ed $ */
+/*	$FreeBSD: stable/10/usr.bin/usbhidaction/usbhidaction.c 227195 2011-11-06 08:18:23Z ed $ */
 
 /*
  * Copyright (c) 2000, 2002 The NetBSD Foundation, Inc.

@@ -23,7 +23,7 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/include/pmc_mdep.h 236997 2012-06-13 06:38:25Z fabient $
+ * $FreeBSD: stable/10/sys/arm/include/pmc_mdep.h 236997 2012-06-13 06:38:25Z fabient $
  */
 
 #ifndef _MACHINE_PMC_MDEP_H_

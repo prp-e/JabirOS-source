@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/sec/sec.c 235938 2012-05-24 21:24:23Z raj $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/sec/sec.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -198,6 +198,9 @@ sec_probe(device_t dev)
 {
 	struct sec_softc *sc;
 	uint64_t id;
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (!ofw_bus_is_compatible(dev, "fsl,sec2.0"))
 		return (ENXIO);

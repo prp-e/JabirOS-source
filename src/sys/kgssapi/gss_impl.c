@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kgssapi/gss_impl.c 253049 2013-07-09 01:05:28Z rmacklem $");
+__FBSDID("$FreeBSD: stable/10/sys/kgssapi/gss_impl.c 253049 2013-07-09 01:05:28Z rmacklem $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

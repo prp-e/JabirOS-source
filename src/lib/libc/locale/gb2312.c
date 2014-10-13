@@ -31,7 +31,7 @@
  */
 
 #include <sys/param.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/locale/gb2312.c 227753 2011-11-20 14:45:42Z theraven $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/locale/gb2312.c 227753 2011-11-20 14:45:42Z theraven $");
 
 #include <errno.h>
 #include <runetype.h>

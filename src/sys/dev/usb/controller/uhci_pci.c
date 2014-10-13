@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/usb/controller/uhci_pci.c 228483 2011-12-14 00:28:54Z hselasky $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/usb/controller/uhci_pci.c 228483 2011-12-14 00:28:54Z hselasky $");
 
 /* Universal Host Controller Interface
  *

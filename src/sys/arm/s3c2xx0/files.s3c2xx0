@@ -1,6 +1,7 @@
-# $FreeBSD: release/10.0.0/sys/arm/s3c2xx0/files.s3c2xx0 210397 2010-07-22 23:23:39Z andrew $
+# $FreeBSD: stable/10/sys/arm/s3c2xx0/files.s3c2xx0 266311 2014-05-17 13:53:38Z ian $
+arm/arm/bus_space_asm_generic.S	standard
+arm/arm/bus_space_generic.c	standard
 arm/arm/cpufunc_asm_arm9.S	standard
-arm/arm/irq_dispatch.S		standard
 arm/s3c2xx0/board_ln2410sbc.c	optional	board_ln2410sbc
 arm/s3c2xx0/s3c24x0_rtc.c	standard
 arm/s3c2xx0/s3c24x0_machdep.c	standard

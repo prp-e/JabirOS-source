@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/sys/bufobj.h 251171 2013-05-31 00:43:41Z jeff $
+ * $FreeBSD: stable/10/sys/sys/bufobj.h 251171 2013-05-31 00:43:41Z jeff $
  */
 
 /*

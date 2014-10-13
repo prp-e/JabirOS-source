@@ -23,7 +23,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/usr.sbin/pc-sysinstall/backend/functions-disk.sh 247735 2013-03-03 23:07:27Z jpaetzel $
+# $FreeBSD: stable/10/usr.sbin/pc-sysinstall/backend/functions-disk.sh 247735 2013-03-03 23:07:27Z jpaetzel $
 
 # Functions related to disk operations using gpart
 

@@ -1,12 +1,17 @@
-# $FreeBSD: release/10.0.0/cddl/usr.sbin/Makefile 242723 2012-11-07 23:45:09Z jhibbits $
+# $FreeBSD: stable/10/cddl/usr.sbin/Makefile 265037 2014-04-28 04:20:14Z jmmv $
 
 .include <bsd.own.mk>
 
 SUBDIR=	${_dtrace} \
 	${_dtruss} \
 	${_lockstat} \
+	${_tests} \
 	${_zdb} \
 	${_zhack}
+
+.if ${MK_TESTS} != "no"
+_tests=	tests
+.endif
 
 .if ${MK_ZFS} != "no"
 .if ${MK_LIBTHR} != "no"

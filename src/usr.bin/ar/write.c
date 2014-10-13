@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/ar/write.c 248612 2013-03-22 10:17:42Z mm $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/ar/write.c 248612 2013-03-22 10:17:42Z mm $");
 
 #include <sys/endian.h>
 #include <sys/mman.h>

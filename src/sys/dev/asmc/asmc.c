@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/asmc/asmc.c 242826 2012-11-09 14:58:26Z rdivacky $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/asmc/asmc.c 271069 2014-09-03 23:29:06Z gavin $");
 
 #include <sys/param.h>
 #include <sys/bus.h>
@@ -204,6 +204,15 @@ struct asmc_model asmc_models[] = {
 	  ASMC_FAN_FUNCS,
 	  NULL, NULL, NULL,
 	  ASMC_MM_TEMPS, ASMC_MM_TEMPNAMES, ASMC_MM_TEMPDESCS
+	},
+
+	/* The Mac Mini 3,1 has no SMS */
+	{ 
+	  "Macmini3,1", "Apple SMC Mac Mini 3,1",
+	  NULL, NULL, NULL,
+	  ASMC_FAN_FUNCS,
+	  NULL, NULL, NULL,
+	  ASMC_MM31_TEMPS, ASMC_MM31_TEMPNAMES, ASMC_MM31_TEMPDESCS
 	},
 
 	/* Idem for the MacPro */

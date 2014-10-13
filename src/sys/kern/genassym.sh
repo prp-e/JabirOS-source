@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/sys/kern/genassym.sh 175449 2008-01-18 17:02:14Z julian $
+# $FreeBSD: stable/10/sys/kern/genassym.sh 175449 2008-01-18 17:02:14Z julian $
 
 usage()
 {

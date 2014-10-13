@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/include/monetary.h 233600 2012-03-28 12:11:54Z theraven $
+ * $FreeBSD: stable/10/include/monetary.h 233600 2012-03-28 12:11:54Z theraven $
  */
 
 #ifndef _MONETARY_H_

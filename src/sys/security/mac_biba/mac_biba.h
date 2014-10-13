@@ -31,7 +31,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/security/mac_biba/mac_biba.h 132232 2004-07-16 02:03:50Z rwatson $
+ * $FreeBSD: stable/10/sys/security/mac_biba/mac_biba.h 132232 2004-07-16 02:03:50Z rwatson $
  */
 /*
  * Definitions for the TrustedBSD Biba integrity policy module.

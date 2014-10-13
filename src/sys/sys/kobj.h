@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: release/10.0.0/sys/sys/kobj.h 227537 2011-11-15 20:11:03Z marius $
+ *	$FreeBSD: stable/10/sys/sys/kobj.h 227537 2011-11-15 20:11:03Z marius $
  */
 
 #ifndef _SYS_KOBJ_H_

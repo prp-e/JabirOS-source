@@ -33,7 +33,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)ffs_extern.h	8.3 (Berkeley) 4/16/94
- * $FreeBSD: release/10.0.0/sys/fs/ext2fs/ext2_extern.h 254283 2013-08-13 15:40:43Z pfg $
+ * $FreeBSD: stable/10/sys/fs/ext2fs/ext2_extern.h 262723 2014-03-04 03:10:31Z pfg $
  */
 
 #ifndef _FS_EXT2FS_EXT2_EXTERN_H_
@@ -72,8 +72,8 @@ int	ext2_update(struct vnode *, int);
 int	ext2_valloc(struct vnode *, int, struct ucred *, struct vnode **);
 int	ext2_vfree(struct vnode *, ino_t, int);
 int	ext2_vinit(struct mount *, struct vop_vector *, struct vnode **vpp);
-int 	ext2_lookup(struct vop_cachedlookup_args *);
-int 	ext2_readdir(struct vop_readdir_args *);
+int	ext2_lookup(struct vop_cachedlookup_args *);
+int	ext2_readdir(struct vop_readdir_args *);
 void	ext2_print_inode(struct inode *);
 int	ext2_direnter(struct inode *, 
 		struct vnode *, struct componentname *);

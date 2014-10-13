@@ -99,7 +99,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/msk/if_msk.c 257687 2013-11-05 06:48:12Z yongari $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/msk/if_msk.c 262524 2014-02-26 06:25:36Z yongari $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -3749,9 +3749,6 @@ msk_intr(void *xsc)
 	if ((status & Y2_IS_STAT_BMU) != 0 && domore == 0)
 		CSR_WRITE_4(sc, STAT_CTRL, SC_STAT_CLR_IRQ);
 
-	/* Clear TWSI IRQ. */
-	if ((status & Y2_IS_TWSI_RDY) != 0)
-		CSR_WRITE_4(sc, B2_I2C_IRQ, 1);
 	/* Reenable interrupts. */
 	CSR_WRITE_4(sc, B0_Y2_SP_ICR, 2);
 

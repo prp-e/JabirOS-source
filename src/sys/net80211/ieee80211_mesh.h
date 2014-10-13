@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF 
  * SUCH DAMAGE. 
  * 
- * $FreeBSD: release/10.0.0/sys/net80211/ieee80211_mesh.h 246512 2013-02-07 21:26:40Z monthadar $
+ * $FreeBSD: stable/10/sys/net80211/ieee80211_mesh.h 246512 2013-02-07 21:26:40Z monthadar $
  */
 #ifndef _NET80211_IEEE80211_MESH_H_
 #define _NET80211_IEEE80211_MESH_H_

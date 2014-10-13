@@ -30,7 +30,7 @@
 /* #pragma ident	"@(#)rpc_sample.c	1.9	94/04/25 SMI" */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/rpcgen/rpc_sample.c 152398 2005-11-13 21:17:24Z dwmalone $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/rpcgen/rpc_sample.c 267444 2014-06-13 15:04:21Z bdrewery $");
 
 /*
  * rpc_sample.c, Sample client-server code outputter for the RPC protocol compiler
@@ -270,6 +270,7 @@ write_sample_clnt_main(void)
 	version_list *vp;
 
 	f_print(fout, "\n\n");
+	f_print(fout, "int\n");
 	f_print(fout, "main(int argc, char *argv[])\n{\n");
 
 	f_print(fout, "\tchar *host;");

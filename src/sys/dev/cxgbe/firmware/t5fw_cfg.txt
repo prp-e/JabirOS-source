@@ -163,5 +163,5 @@
 	version = 0x1
 	checksum = 0x9f27febc
 #
-# $FreeBSD: release/10.0.0/sys/dev/cxgbe/firmware/t5fw_cfg.txt 256791 2013-10-20 15:24:44Z np $
+# $FreeBSD: stable/10/sys/dev/cxgbe/firmware/t5fw_cfg.txt 256791 2013-10-20 15:24:44Z np $
 #

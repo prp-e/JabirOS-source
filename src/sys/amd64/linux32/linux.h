@@ -27,7 +27,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/amd64/linux32/linux.h 246085 2013-01-29 18:41:30Z jhb $
+ * $FreeBSD: stable/10/sys/amd64/linux32/linux.h 272020 2014-09-23 07:50:04Z bz $
  */
 
 #ifndef _AMD64_LINUX_H_
@@ -60,6 +60,11 @@ MALLOC_DECLARE(M_LINUX);
 
 #define	PTRIN(v)	(void *)(uintptr_t)(v)
 #define	PTROUT(v)	(l_uintptr_t)(uintptr_t)(v)
+
+#define	CP(src,dst,fld) do { (dst).fld = (src).fld; } while (0)
+#define	CP2(src,dst,sfld,dfld) do { (dst).dfld = (src).sfld; } while (0)
+#define	PTRIN_CP(src,dst,fld) \
+	do { (dst).fld = PTRIN((src).fld); } while (0)
 
 /*
  * Provide a separate set of types for the Linux types.

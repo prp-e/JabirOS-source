@@ -26,12 +26,19 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/include/ofw_machdep.h 209130 2010-06-13 13:12:52Z raj $
+ * $FreeBSD: stable/10/sys/arm/include/ofw_machdep.h 266084 2014-05-14 19:18:58Z ian $
  */
 
 #ifndef _MACHINE_OFW_MACHDEP_H_
 #define _MACHINE_OFW_MACHDEP_H_
 
+#include <vm/vm.h>
+
 typedef	uint32_t	cell_t;
+
+struct mem_region {
+	vm_offset_t	mr_start;
+	vm_size_t	mr_size;
+};
 
 #endif /* _MACHINE_OFW_MACHDEP_H_ */

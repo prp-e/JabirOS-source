@@ -28,7 +28,7 @@
  *
  *	@(#)stddef.h	8.1 (Berkeley) 6/2/93
  *
- * $FreeBSD: release/10.0.0/include/stddef.h 203964 2010-02-16 19:39:50Z imp $
+ * $FreeBSD: stable/10/include/stddef.h 264496 2014-04-15 09:41:52Z tijl $
  */
 
 #ifndef _STDDEF_H_
@@ -54,7 +54,7 @@ typedef	__size_t	size_t;
 
 #ifndef	__cplusplus
 #ifndef _WCHAR_T_DECLARED
-typedef	__wchar_t	wchar_t;
+typedef	___wchar_t	wchar_t;
 #define	_WCHAR_T_DECLARED
 #endif
 #endif

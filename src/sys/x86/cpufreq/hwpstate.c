@@ -44,7 +44,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/x86/cpufreq/hwpstate.c 258994 2013-12-05 17:57:51Z sbruno $");
+__FBSDID("$FreeBSD: stable/10/sys/x86/cpufreq/hwpstate.c 258994 2013-12-05 17:57:51Z sbruno $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

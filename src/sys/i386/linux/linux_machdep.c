@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/i386/linux/linux_machdep.c 255219 2013-09-05 00:09:56Z pjd $");
+__FBSDID("$FreeBSD: stable/10/sys/i386/linux/linux_machdep.c 272020 2014-09-23 07:50:04Z bz $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -978,37 +978,6 @@ linux_get_thread_area(struct thread *td, struct linux_get_thread_area_args *args
 	   	return (EFAULT);
 
 	return (0);
-}
-
-/* copied from kern/kern_time.c */
-int
-linux_timer_create(struct thread *td, struct linux_timer_create_args *args)
-{
-   	return sys_ktimer_create(td, (struct ktimer_create_args *) args);
-}
-
-int
-linux_timer_settime(struct thread *td, struct linux_timer_settime_args *args)
-{
-   	return sys_ktimer_settime(td, (struct ktimer_settime_args *) args);
-}
-
-int
-linux_timer_gettime(struct thread *td, struct linux_timer_gettime_args *args)
-{
-   	return sys_ktimer_gettime(td, (struct ktimer_gettime_args *) args);
-}
-
-int
-linux_timer_getoverrun(struct thread *td, struct linux_timer_getoverrun_args *args)
-{
-   	return sys_ktimer_getoverrun(td, (struct ktimer_getoverrun_args *) args);
-}
-
-int
-linux_timer_delete(struct thread *td, struct linux_timer_delete_args *args)
-{
-   	return sys_ktimer_delete(td, (struct ktimer_delete_args *) args);
 }
 
 /* XXX: this wont work with module - convert it */

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/libc/iconv/iconv_compat.c 258398 2013-11-20 20:24:59Z peter $
+ * $FreeBSD: stable/10/lib/libc/iconv/iconv_compat.c 258398 2013-11-20 20:24:59Z peter $
  */
 
 /*

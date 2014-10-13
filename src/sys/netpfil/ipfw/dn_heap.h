@@ -27,7 +27,7 @@
 /*
  * Binary heap and hash tables, header file
  *
- * $FreeBSD: release/10.0.0/sys/netpfil/ipfw/dn_heap.h 204865 2010-03-08 11:27:08Z luigi $
+ * $FreeBSD: stable/10/sys/netpfil/ipfw/dn_heap.h 204865 2010-03-08 11:27:08Z luigi $
  */
 
 #ifndef _IP_DN_HEAP_H

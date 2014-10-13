@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/ti/ti_cpuid.h 245137 2013-01-07 23:30:53Z gonzo $
+ * $FreeBSD: stable/10/sys/arm/ti/ti_cpuid.h 245137 2013-01-07 23:30:53Z gonzo $
  */
 
 #ifndef _TI_CPUID_H_

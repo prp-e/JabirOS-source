@@ -38,7 +38,7 @@ static const char copyright[] =
 static char sccsid[] = "@(#)from: sysctl.c	8.1 (Berkeley) 6/6/93";
 #endif
 static const char rcsid[] =
-  "$FreeBSD: release/10.0.0/sbin/sysctl/sysctl.c 245361 2013-01-13 04:28:44Z delphij $";
+  "$FreeBSD: stable/10/sbin/sysctl/sysctl.c 268243 2014-07-04 06:03:54Z hselasky $";
 #endif /* not lint */
 
 #include <sys/param.h>
@@ -201,7 +201,7 @@ parse(const char *string, int lineno)
 
 	cp = buf;
 	if (snprintf(buf, BUFSIZ, "%s", string) >= BUFSIZ) {
-		warn("oid too long: '%s'%s", string, line);
+		warnx("oid too long: '%s'%s", string, line);
 		return (1);
 	}
 	bufp = strsep(&cp, "=:");
@@ -260,7 +260,7 @@ parse(const char *string, int lineno)
 		}
 	} else {
 		if ((kind & CTLTYPE) == CTLTYPE_NODE) {
-			warn("oid '%s' isn't a leaf node%s", bufp, line);
+			warnx("oid '%s' isn't a leaf node%s", bufp, line);
 			return (1);
 		}
 
@@ -710,9 +710,10 @@ show_var(int *oid, int nlen)
 		warnx("malloc failed");
 		return (1);
 	}
+	ctltype = (kind & CTLTYPE);
 	len = j;
 	i = sysctl(oid, nlen, val, &len, 0, 0);
-	if (i || !len) {
+	if (i != 0 || (len == 0 && ctltype != CTLTYPE_STRING)) {
 		free(oval);
 		return (1);
 	}
@@ -724,7 +725,6 @@ show_var(int *oid, int nlen)
 	}
 	val[len] = '\0';
 	p = val;
-	ctltype = (kind & CTLTYPE);
 	sign = ctl_sign[ctltype];
 	intlen = ctl_size[ctltype];
 

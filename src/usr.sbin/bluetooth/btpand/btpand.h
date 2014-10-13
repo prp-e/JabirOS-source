@@ -25,7 +25,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-/* $FreeBSD: release/10.0.0/usr.sbin/bluetooth/btpand/btpand.h 188013 2009-02-02 18:08:22Z emax $ */
+/* $FreeBSD: stable/10/usr.sbin/bluetooth/btpand/btpand.h 188013 2009-02-02 18:08:22Z emax $ */
 
 #include <sys/types.h>
 #include <sys/queue.h>

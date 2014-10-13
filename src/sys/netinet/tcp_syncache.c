@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netinet/tcp_syncache.c 254889 2013-08-25 21:54:41Z markj $");
+__FBSDID("$FreeBSD: stable/10/sys/netinet/tcp_syncache.c 270055 2014-08-16 14:03:00Z bz $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"
@@ -121,7 +121,6 @@ SYSCTL_VNET_INT(_net_inet_tcp, OID_AUTO, syncookies_only, CTLFLAG_RW,
 static void	 syncache_drop(struct syncache *, struct syncache_head *);
 static void	 syncache_free(struct syncache *);
 static void	 syncache_insert(struct syncache *, struct syncache_head *);
-struct syncache *syncache_lookup(struct in_conninfo *, struct syncache_head **);
 static int	 syncache_respond(struct syncache *);
 static struct	 socket *syncache_socket(struct syncache *, struct socket *,
 		    struct mbuf *m);
@@ -492,7 +491,7 @@ syncache_timer(void *xsch)
  * Find an entry in the syncache.
  * Returns always with locked syncache_head plus a matching entry or NULL.
  */
-struct syncache *
+static struct syncache *
 syncache_lookup(struct in_conninfo *inc, struct syncache_head **schp)
 {
 	struct syncache *sc;
@@ -719,6 +718,16 @@ syncache_socket(struct syncache *sc, struct socket *lso, struct mbuf *m)
 #ifdef INET6
 	}
 #endif
+
+	/*
+	 * If there's an mbuf and it has a flowid, then let's initialise the
+	 * inp with that particular flowid.
+	 */
+	if (m != NULL && m->m_flags & M_FLOWID) {
+		inp->inp_flags |= INP_HW_FLOWID;
+		inp->inp_flags &= ~INP_SW_FLOWID;
+		inp->inp_flowid = m->m_pkthdr.flowid;
+	}
 
 	/*
 	 * Install in the reservation hash table for now, but don't yet

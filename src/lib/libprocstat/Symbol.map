@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: release/10.0.0/lib/libprocstat/Symbol.map 250223 2013-05-03 21:11:57Z jhb $
+ * $FreeBSD: stable/10/lib/libprocstat/Symbol.map 250223 2013-05-03 21:11:57Z jhb $
  */
 FBSD_1.2 {
 	procstat_close;

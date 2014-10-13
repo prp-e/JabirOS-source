@@ -33,7 +33,7 @@
  */
 
 #include "lp.cdefs.h"		/* A cross-platform version of <sys/cdefs.h> */
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/lpr/lpc/movejobs.c 241852 2012-10-22 03:31:22Z eadler $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/lpr/lpc/movejobs.c 241852 2012-10-22 03:31:22Z eadler $");
 
 /*
  * movejobs.c - The lpc commands which move jobs around.

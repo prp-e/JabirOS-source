@@ -28,7 +28,7 @@
  * SUCH DAMAGE.
  *
  * $Id: ng_btsocket_rfcomm.c,v 1.28 2003/09/14 23:29:06 max Exp $
- * $FreeBSD: release/10.0.0/sys/netgraph/bluetooth/socket/ng_btsocket_rfcomm.c 243882 2012-12-05 08:04:20Z glebius $
+ * $FreeBSD: stable/10/sys/netgraph/bluetooth/socket/ng_btsocket_rfcomm.c 268061 2014-06-30 19:46:17Z trociny $
  */
 
 #include <sys/param.h>
@@ -328,6 +328,11 @@ ng_btsocket_rfcomm_check_fcs(u_int8_t *data, int type, u_int8_t fcs)
 void
 ng_btsocket_rfcomm_init(void)
 {
+
+	/* Skip initialization of globals for non-default instances. */
+	if (!IS_DEFAULT_VNET(curvnet))
+		return;
+
 	ng_btsocket_rfcomm_debug_level = NG_BTSOCKET_WARN_LEVEL;
 	ng_btsocket_rfcomm_timo = 60;
 

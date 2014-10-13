@@ -26,7 +26,7 @@
 
 
 #include "cpio_platform.h"
-__FBSDID("$FreeBSD: release/10.0.0/contrib/libarchive/cpio/cpio.c 248616 2013-03-22 13:36:03Z mm $");
+__FBSDID("$FreeBSD: stable/10/contrib/libarchive/cpio/cpio.c 248616 2013-03-22 13:36:03Z mm $");
 
 #include <sys/types.h>
 #include <archive.h>

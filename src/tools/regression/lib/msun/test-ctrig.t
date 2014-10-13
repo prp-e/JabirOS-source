@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: release/10.0.0/tools/regression/lib/msun/test-ctrig.t 226603 2011-10-21 06:34:38Z das $
+# $FreeBSD: stable/10/tools/regression/lib/msun/test-ctrig.t 226603 2011-10-21 06:34:38Z das $
 
 cd `dirname $0`
 

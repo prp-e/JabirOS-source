@@ -1,4 +1,4 @@
-#	$FreeBSD: release/10.0.0/sbin/ipf/rules/Makefile 145524 2005-04-25 18:55:52Z darrenr $
+#	$FreeBSD: stable/10/sbin/ipf/rules/Makefile 145524 2005-04-25 18:55:52Z darrenr $
 
 .include <bsd.own.mk>
 

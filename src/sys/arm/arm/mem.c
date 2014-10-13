@@ -37,7 +37,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/arm/mem.c 236991 2012-06-13 04:59:55Z imp $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/arm/mem.c 266175 2014-05-15 19:09:31Z ian $");
 
 /*
  * Memory special file
@@ -135,10 +135,6 @@ memrw(struct cdev *dev, struct uio *uio, int flags)
 			if (!kernacc((caddr_t)(int)uio->uio_offset, c,
 			    uio->uio_rw == UIO_READ ?
 			    VM_PROT_READ : VM_PROT_WRITE))
-#ifdef ARM_USE_SMALL_ALLOC
-				if (addr <= VM_MAXUSER_ADDRESS ||
-				    addr >= KERNBASE)
-#endif
 					return (EFAULT);
 			error = uiomove((caddr_t)(int)uio->uio_offset, (int)c, uio);
 			continue;

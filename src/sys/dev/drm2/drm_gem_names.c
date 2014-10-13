@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/drm_gem_names.c 254838 2013-08-25 10:04:10Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm_gem_names.c 271816 2014-09-18 20:32:40Z dumbbell $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -125,6 +125,24 @@ drm_gem_find_name(struct drm_gem_names *names, void *ptr)
 	arg.ptr = ptr;
 	drm_gem_names_foreach(names, drm_gem_ptr_match, &arg);
 	return (arg.res);
+}
+
+void *
+drm_gem_find_ptr(struct drm_gem_names *names, uint32_t name)
+{
+	struct drm_gem_name *n;
+	void *res;
+
+	mtx_lock(&names->lock);
+	LIST_FOREACH(n, gem_name_hash_index(names, name), link) {
+		if (n->name == name) {
+			res = n->ptr;
+			mtx_unlock(&names->lock);
+			return (res);
+		}
+	}
+	mtx_unlock(&names->lock);
+	return (NULL);
 }
 
 int

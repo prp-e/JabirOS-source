@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/ufs/ffs/ffs_snapshot.c 253280 2013-07-12 18:52:33Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/ufs/ffs/ffs_snapshot.c 262779 2014-03-05 04:23:19Z pfg $");
 
 #include "opt_quota.h"
 
@@ -2642,7 +2642,7 @@ ffs_snapdata_acquire(struct vnode *devvp)
 	struct snapdata *sn;
 
 	/*
- 	 * Allocate a free snapdata.  This is done before acquiring the
+	 * Allocate a free snapdata.  This is done before acquiring the
 	 * devvp lock to avoid allocation while the devvp interlock is
 	 * held.
 	 */

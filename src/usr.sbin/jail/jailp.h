@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/jail/jailp.h 256387 2013-10-12 17:46:13Z hrs $
+ * $FreeBSD: stable/10/usr.sbin/jail/jailp.h 256387 2013-10-12 17:46:13Z hrs $
  */
 
 #include <sys/param.h>

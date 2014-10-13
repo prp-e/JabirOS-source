@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/tools/regression/aio/aiotest/aiotest.c 253526 2013-07-21 19:21:18Z kib $
+ * $FreeBSD: stable/10/tools/regression/aio/aiotest/aiotest.c 253526 2013-07-21 19:21:18Z kib $
  */
 
 /*

@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/5/93
-# $FreeBSD: release/10.0.0/share/man/man7/Makefile 256366 2013-10-12 06:08:18Z rpaulo $
+# $FreeBSD: stable/10/share/man/man7/Makefile 264572 2014-04-16 23:12:35Z jmmv $
 
 .include <bsd.own.mk>
 
@@ -27,6 +27,7 @@ MAN=	adding_user.7 \
 	sprog.7 \
 	stdint.7 \
 	sticky.7 \
+	tests.7 \
 	tuning.7
 
 MLINKS=	intro.7 miscellaneous.7

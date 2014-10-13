@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/cardbus/cardbus.c 232403 2012-03-02 20:38:04Z jhb $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/cardbus/cardbus.c 232403 2012-03-02 20:38:04Z jhb $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

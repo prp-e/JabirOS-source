@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/malta/gt.c 227843 2011-11-22 21:28:20Z marius $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/malta/gt.c 265999 2014-05-14 01:35:43Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -51,7 +51,7 @@ static int
 gt_probe(device_t dev)
 {
 	device_set_desc(dev, "GT64120 chip");
-	return (0);
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 static void

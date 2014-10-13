@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libthread_db/Makefile 232263 2012-02-28 18:30:18Z dim $
+# $FreeBSD: stable/10/lib/libthread_db/Makefile 232263 2012-02-28 18:30:18Z dim $
 
 .PATH:	${.CURDIR}/arch/${MACHINE_CPUARCH}
 

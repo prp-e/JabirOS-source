@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netpfil/ipfw/ip_fw_log.c 255928 2013-09-28 15:49:36Z philip $");
+__FBSDID("$FreeBSD: stable/10/sys/netpfil/ipfw/ip_fw_log.c 255928 2013-09-28 15:49:36Z philip $");
 
 /*
  * Logging support for ipfw

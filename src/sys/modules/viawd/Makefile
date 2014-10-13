@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/viawd/Makefile 228431 2011-12-12 09:50:33Z fabient $
+# $FreeBSD: stable/10/sys/modules/viawd/Makefile 228431 2011-12-12 09:50:33Z fabient $
 
 .PATH: ${.CURDIR}/../../dev/viawd
 

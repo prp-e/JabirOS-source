@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/amd64/vmm/vmm_mem.h 256072 2013-10-05 21:22:35Z neel $
+ * $FreeBSD: stable/10/sys/amd64/vmm/vmm_mem.h 256072 2013-10-05 21:22:35Z neel $
  */
 
 #ifndef	_VMM_MEM_H_

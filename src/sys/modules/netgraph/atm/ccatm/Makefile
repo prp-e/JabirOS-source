@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/netgraph/atm/ccatm/Makefile 220712 2011-04-16 11:15:57Z brucec $
+# $FreeBSD: stable/10/sys/modules/netgraph/atm/ccatm/Makefile 220712 2011-04-16 11:15:57Z brucec $
 #
 # Author: Harti Brandt <harti@freebsd.org>
 #

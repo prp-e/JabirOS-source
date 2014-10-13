@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/utx/utx.c 231530 2012-02-11 20:28:42Z ed $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/utx/utx.c 231530 2012-02-11 20:28:42Z ed $");
 
 #include <sys/time.h>
 #include <errno.h>

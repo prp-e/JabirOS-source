@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/ypserv/yp_main.c 253253 2013-07-12 06:54:29Z hrs $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/ypserv/yp_main.c 253253 2013-07-12 06:54:29Z hrs $");
 
 /*
  * ypserv startup function.

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/yppush/Makefile 231118 2012-02-07 09:27:07Z dim $
+# $FreeBSD: stable/10/usr.sbin/yppush/Makefile 231118 2012-02-07 09:27:07Z dim $
 
 RPCDIR=	${.CURDIR}/../../include/rpcsvc
 .PATH: ${RPCDIR} ${.CURDIR}/../../usr.sbin/ypserv \

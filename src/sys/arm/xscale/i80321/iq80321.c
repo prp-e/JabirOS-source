@@ -42,7 +42,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/xscale/i80321/iq80321.c 236987 2012-06-13 04:38:09Z imp $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/xscale/i80321/iq80321.c 265999 2014-05-14 01:35:43Z ian $");
 
 #define _ARM32_BUS_DMA_PRIVATE
 #include <sys/param.h>
@@ -72,7 +72,7 @@ int
 iq80321_probe(device_t dev)
 {
 	device_set_desc(dev, "Intel 80321");
-	return (0);
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 void

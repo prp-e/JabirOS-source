@@ -37,7 +37,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/ncv/ncr53c500.c 240325 2012-09-10 18:49:49Z jhb $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/ncv/ncr53c500.c 240325 2012-09-10 18:49:49Z jhb $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

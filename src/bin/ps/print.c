@@ -34,7 +34,7 @@ static char sccsid[] = "@(#)print.c	8.6 (Berkeley) 4/16/94";
 #endif
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/bin/ps/print.c 238488 2012-07-15 15:22:13Z jilles $");
+__FBSDID("$FreeBSD: stable/10/bin/ps/print.c 260195 2014-01-02 13:59:23Z trasz $");
 
 #include <sys/param.h>
 #include <sys/time.h>
@@ -797,8 +797,6 @@ char *
 emulname(KINFO *k, VARENT *ve __unused)
 {
 
-	if (k->ki_p->ki_emul == NULL)
-		return (NULL);
 	return (strdup(k->ki_p->ki_emul));
 }
 
@@ -827,7 +825,6 @@ out:
 char *
 loginclass(KINFO *k, VARENT *ve __unused)
 {
-	char *s;
 
 	/*
 	 * Don't display login class for system processes;
@@ -837,8 +834,5 @@ loginclass(KINFO *k, VARENT *ve __unused)
 	if (k->ki_p->ki_flag & P_SYSTEM) {
 		return (strdup("-"));
 	}
-	s = k->ki_p->ki_loginclass;
-	if (s == NULL)
-		return (NULL);
-	return (strdup(s));
+	return (strdup(k->ki_p->ki_loginclass));
 }

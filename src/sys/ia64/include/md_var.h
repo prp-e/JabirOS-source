@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/ia64/include/md_var.h 238257 2012-07-08 18:00:22Z marcel $
+ * $FreeBSD: stable/10/sys/ia64/include/md_var.h 268200 2014-07-02 23:47:43Z marcel $
  */
 
 #ifndef _MACHINE_MD_VAR_H_
@@ -102,6 +102,11 @@ int	ia64_physmem_init(void);
 int	ia64_physmem_track(vm_paddr_t, vm_size_t);
 void	ia64_probe_sapics(void);
 void	ia64_sync_icache(vm_offset_t, vm_size_t);
+void	*ia64_xtrace_alloc(void);
+void	ia64_xtrace_init_ap(void *);
+void	ia64_xtrace_init_bsp(void);
+void	ia64_xtrace_save(void);
+void	ia64_xtrace_stop(void);
 void	interrupt(struct trapframe *);
 void	map_gateway_page(void);
 void	map_pal_code(void);

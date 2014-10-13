@@ -24,7 +24,7 @@
  * SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/am335x/am335x_lcd_syscons.c 251018 2013-05-27 00:23:01Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/ti/am335x/am335x_lcd_syscons.c 259329 2013-12-13 20:43:11Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -47,7 +47,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/am335x/am335x_lcd_syscons.c 251018
 #include <machine/cpu.h>
 #include <machine/cpufunc.h>
 #include <machine/resource.h>
-#include <machine/frame.h>
 #include <machine/intr.h>
 
 #include <dev/fdt/fdt_common.h>

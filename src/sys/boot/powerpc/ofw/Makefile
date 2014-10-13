@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/boot/powerpc/ofw/Makefile 242688 2012-11-07 02:14:03Z dteske $
+# $FreeBSD: stable/10/sys/boot/powerpc/ofw/Makefile 271130 2014-09-04 20:35:53Z emaste $
 
 .include <bsd.own.mk>
 MK_SSP=		no
@@ -89,10 +89,11 @@ LIBOFW=		${.OBJDIR}/../../ofw/libofw/libofw.a
 CFLAGS+=	-I${.CURDIR}/../../ofw/libofw
 
 # where to get libstand from
+LIBSTAND=	${.OBJDIR}/../../libstand32/libstand.a
 CFLAGS+=	-I${.CURDIR}/../../../../lib/libstand/
 
 DPADD=		${LIBFICL} ${LIBOFW} ${LIBSTAND}
-LDADD=		${LIBFICL} ${LIBOFW} -lstand
+LDADD=		${LIBFICL} ${LIBOFW} ${LIBSTAND}
 
 vers.c:	${.CURDIR}/../../common/newvers.sh ${.CURDIR}/version
 	sh ${.CURDIR}/../../common/newvers.sh ${.CURDIR}/version ${NEWVERSWHAT}

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/s3/Makefile 71996 2001-02-04 12:35:22Z peter $
+# $FreeBSD: stable/10/sys/modules/s3/Makefile 71996 2001-02-04 12:35:22Z peter $
 
 .PATH: ${.CURDIR}/../../dev/fb
 

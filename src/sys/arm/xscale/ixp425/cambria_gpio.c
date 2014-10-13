@@ -39,7 +39,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/xscale/ixp425/cambria_gpio.c 249449 2013-04-13 21:21:13Z dim $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/xscale/ixp425/cambria_gpio.c 249449 2013-04-13 21:21:13Z dim $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

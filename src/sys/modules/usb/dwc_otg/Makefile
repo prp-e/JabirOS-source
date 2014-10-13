@@ -1,5 +1,5 @@
 #
-# $FreeBSD: release/10.0.0/sys/modules/usb/dwc_otg/Makefile 232540 2012-03-05 06:46:35Z hselasky $
+# $FreeBSD: stable/10/sys/modules/usb/dwc_otg/Makefile 232540 2012-03-05 06:46:35Z hselasky $
 #
 # Copyright (c) 2012 Hans Petter Selasky. All rights reserved.
 #

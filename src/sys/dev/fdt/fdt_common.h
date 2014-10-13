@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/fdt/fdt_common.h 257457 2013-10-31 16:18:36Z brooks $
+ * $FreeBSD: stable/10/sys/dev/fdt/fdt_common.h 266200 2014-05-15 22:35:04Z ian $
  */
 
 #ifndef _FDT_COMMON_H_
@@ -35,25 +35,10 @@
 #include <sys/slicer.h>
 #include <contrib/libfdt/libfdt_env.h>
 #include <dev/ofw/ofw_bus.h>
-#include <machine/fdt.h>
 
 #define FDT_MEM_REGIONS	8
 
 #define DI_MAX_INTR_NUM	32
-
-struct fdt_pci_range {
-	u_long	base_pci;
-	u_long	base_parent;
-	u_long	len;
-};
-
-struct fdt_pci_intr {
-	int	addr_cells;
-	int	intr_cells;
-	int	map_len;
-	pcell_t	*map;
-	pcell_t	*mask;
-};
 
 struct fdt_sense_level {
 	enum intr_trigger	trig;
@@ -96,25 +81,20 @@ u_long fdt_data_get(void *, int);
 int fdt_data_to_res(pcell_t *, int, int, u_long *, u_long *);
 int fdt_data_verify(void *, int);
 phandle_t fdt_find_compatible(phandle_t, const char *, int);
+phandle_t fdt_depth_search_compatible(phandle_t, const char *, int);
 int fdt_get_mem_regions(struct mem_region *, int *, uint32_t *);
 int fdt_get_reserved_regions(struct mem_region *, int *);
 int fdt_get_phyaddr(phandle_t, device_t, int *, void **);
 int fdt_get_range(phandle_t, int, u_long *, u_long *);
 int fdt_immr_addr(vm_offset_t);
 int fdt_regsize(phandle_t, u_long *, u_long *);
-int fdt_intr_decode(phandle_t, pcell_t *, int *, int *, int *);
-int fdt_intr_to_rl(phandle_t, struct resource_list *, struct fdt_sense_level *);
+int fdt_intr_to_rl(device_t, phandle_t, struct resource_list *, struct fdt_sense_level *);
 int fdt_is_compatible(phandle_t, const char *);
 int fdt_is_compatible_strict(phandle_t, const char *);
 int fdt_is_enabled(phandle_t);
 int fdt_pm_is_enabled(phandle_t);
 int fdt_is_type(phandle_t, const char *);
 int fdt_parent_addr_cells(phandle_t);
-int fdt_pci_intr_info(phandle_t, struct fdt_pci_intr *);
-int fdt_pci_ranges(phandle_t, struct fdt_pci_range *, struct fdt_pci_range *);
-int fdt_pci_ranges_decode(phandle_t, struct fdt_pci_range *,
-    struct fdt_pci_range *);
-int fdt_pci_route_intr(int, int, int, int, struct fdt_pci_intr *, int *);
 int fdt_ranges_verify(pcell_t *, int, int, int, int);
 int fdt_reg_to_rl(phandle_t, struct resource_list *);
 int fdt_pm(phandle_t);

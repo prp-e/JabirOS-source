@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/bsdconfig/packages/include/Makefile 250323 2013-05-07 05:40:20Z dteske $
+# $FreeBSD: stable/10/usr.sbin/bsdconfig/packages/include/Makefile 250323 2013-05-07 05:40:20Z dteske $
 
 NO_OBJ=
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: release/10.0.0/etc/rc.d/bsnmpd 254511 2013-08-19 05:37:49Z peter $
+# $FreeBSD: stable/10/etc/rc.d/bsnmpd 254511 2013-08-19 05:37:49Z peter $
 #
 
 # PROVIDE: bsnmpd

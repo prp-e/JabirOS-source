@@ -23,7 +23,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/sys/powerpc/powerpc/platform_if.m 255417 2013-09-09 12:49:19Z nwhitehorn $
+# $FreeBSD: stable/10/sys/powerpc/powerpc/platform_if.m 266020 2014-05-14 14:17:51Z ian $
 #
 
 #include <sys/param.h>
@@ -120,9 +120,9 @@ METHOD int attach {
 
 METHOD void mem_regions {
 	platform_t	    _plat;
-	struct mem_region **_memp;
+	struct mem_region  *_memp;
 	int		   *_memsz;
-	struct mem_region **_availp;
+	struct mem_region  *_availp;
 	int		   *_availsz;
 };
 
@@ -207,6 +207,13 @@ METHOD cpu_group_t smp_topo {
  * @brief Reset system
  */
 METHOD void reset {
+	platform_t	_plat;
+};
+
+/**
+ * @brief Suspend the CPU
+ */
+METHOD void sleep {
 	platform_t	_plat;
 };
 

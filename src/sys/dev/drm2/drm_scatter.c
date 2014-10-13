@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/drm_scatter.c 254025 2013-08-07 06:21:20Z jeff $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm_scatter.c 254025 2013-08-07 06:21:20Z jeff $");
 
 /** @file drm_scatter.c
  * Allocation of memory for scatter-gather mappings by the graphics chip.

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/wbwd/Makefile 232614 2012-03-06 18:44:52Z bz $
+# $FreeBSD: stable/10/sys/modules/wbwd/Makefile 232614 2012-03-06 18:44:52Z bz $
 
 .PATH: ${.CURDIR}/../../dev/wbwd
 

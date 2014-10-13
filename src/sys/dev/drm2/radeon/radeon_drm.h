@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/radeon/radeon_drm.h 254885 2013-08-25 19:37:15Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/radeon_drm.h 254885 2013-08-25 19:37:15Z dumbbell $");
 
 #ifndef __RADEON_DRM_H__
 #define __RADEON_DRM_H__

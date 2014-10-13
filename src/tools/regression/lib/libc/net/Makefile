@@ -1,6 +1,6 @@
-# $FreeBSD: release/10.0.0/tools/regression/lib/libc/net/Makefile 169523 2007-05-13 14:03:21Z rwatson $
+# $FreeBSD: stable/10/tools/regression/lib/libc/net/Makefile 264457 2014-04-14 13:30:08Z jmmv $
 
-TESTS=	test-ether test-eui64_aton test-eui64_line test-eui64_ntoa
+TESTS=	test-ether test-eui64_aton test-eui64_ntoa
 CFLAGS+= -g -Wall
 
 .PHONY: tests

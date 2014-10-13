@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/xscale/pxa/pxa_obio.c 238545 2012-07-17 03:18:12Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/xscale/pxa/pxa_obio.c 265999 2014-05-14 01:35:43Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -92,7 +92,7 @@ pxa_probe(device_t dev)
 {
 
 	device_set_desc(dev, "XScale PXA On-board IO");
-	return (0);
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 int

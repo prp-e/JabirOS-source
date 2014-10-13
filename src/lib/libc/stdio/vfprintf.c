@@ -39,7 +39,7 @@
 static char sccsid[] = "@(#)vfprintf.c	8.1 (Berkeley) 6/4/93";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/stdio/vfprintf.c 249808 2013-04-23 13:33:13Z emaste $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/stdio/vfprintf.c 269482 2014-08-03 18:28:10Z pfg $");
 
 /*
  * Actual printf innards.
@@ -455,8 +455,10 @@ __vfprintf(FILE *fp, locale_t locale, const char *fmt0, va_list ap)
 		return (__xvprintf(fp, fmt0, ap));
 
 	/* sorry, fprintf(read_only_file, "") returns EOF, not 0 */
-	if (prepwrite(fp) != 0)
+	if (prepwrite(fp) != 0) {
+		errno = EBADF;
 		return (EOF);
+	}
 
 	convbuf = NULL;
 	fmt = (char *)fmt0;

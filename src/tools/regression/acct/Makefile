@@ -1,5 +1,5 @@
 #
-# $FreeBSD: release/10.0.0/tools/regression/acct/Makefile 217064 2011-01-06 20:05:24Z keramida $
+# $FreeBSD: stable/10/tools/regression/acct/Makefile 217064 2011-01-06 20:05:24Z keramida $
 #
 # "make" will compile the acct test programs
 #

@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netinet6/in6_ifattach.c 256258 2013-10-10 09:43:15Z hrs $");
+__FBSDID("$FreeBSD: stable/10/sys/netinet6/in6_ifattach.c 265946 2014-05-13 06:05:53Z kevlo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -856,6 +856,7 @@ in6_ifdetach(struct ifnet *ifp)
 	}
 
 	in6_pcbpurgeif0(&V_udbinfo, ifp);
+	in6_pcbpurgeif0(&V_ulitecbinfo, ifp);
 	in6_pcbpurgeif0(&V_ripcbinfo, ifp);
 	/* leave from all multicast groups joined */
 	in6_purgemaddrs(ifp);

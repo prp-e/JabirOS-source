@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/radeon/radeon_device.c 255573 2013-09-14 17:24:41Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/radeon_device.c 267042 2014-06-04 09:44:05Z marius $");
 
 #include <dev/drm2/drmP.h>
 #include <dev/drm2/drm_crtc_helper.h>
@@ -548,10 +548,10 @@ int radeon_dummy_page_init(struct radeon_device *rdev)
 	if (rdev->dummy_page.dmah)
 		return 0;
 	rdev->dummy_page.dmah = drm_pci_alloc(rdev->ddev,
-	    PAGE_SIZE, PAGE_SIZE, ~0);
+	    PAGE_SIZE, PAGE_SIZE, BUS_SPACE_MAXSIZE_32BIT);
 	if (rdev->dummy_page.dmah == NULL)
 		return -ENOMEM;
-	rdev->dummy_page.addr = (dma_addr_t)rdev->dummy_page.dmah->vaddr;
+	rdev->dummy_page.addr = rdev->dummy_page.dmah->busaddr;
 	return 0;
 }
 

@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/boot/usb/bsd_kernel.c 246363 2013-02-05 14:44:25Z hselasky $ */
+/* $FreeBSD: stable/10/sys/boot/usb/bsd_kernel.c 269921 2014-08-13 08:18:49Z hselasky $ */
 /*-
  * Copyright (c) 2013 Hans Petter Selasky. All rights reserved.
  *
@@ -380,8 +380,10 @@ device_get_parent(device_t dev)
 }
 
 void
-device_set_interrupt(device_t dev, intr_fn_t *fn, void *arg)
+device_set_interrupt(device_t dev, driver_filter_t *filter,
+    driver_intr_t *fn, void *arg)
 {
+	dev->dev_irq_filter = filter;
 	dev->dev_irq_fn = fn;
 	dev->dev_irq_arg = arg;
 }
@@ -395,8 +397,16 @@ device_run_interrupts(device_t parent)
 		return;
 
 	TAILQ_FOREACH(child, &parent->dev_children, dev_link) {
-		if (child->dev_irq_fn != NULL)
-			(child->dev_irq_fn) (child->dev_irq_arg);
+		int status;
+		if (child->dev_irq_filter != NULL)
+			status = child->dev_irq_filter(child->dev_irq_arg);
+		else
+			status = FILTER_SCHEDULE_THREAD;
+
+		if (status == FILTER_SCHEDULE_THREAD) {
+			if (child->dev_irq_fn != NULL)
+				(child->dev_irq_fn) (child->dev_irq_arg);
+		}
 	}
 }
 

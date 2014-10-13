@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: release/10.0.0/sys/ia64/include/smp.h 223526 2011-06-25 02:15:14Z marcel $
+ * $FreeBSD: stable/10/sys/ia64/include/smp.h 268200 2014-07-02 23:47:43Z marcel $
  */
 #ifndef _MACHINE_SMP_H_
 #define _MACHINE_SMP_H_
@@ -32,6 +32,7 @@ struct ia64_ap_state {
 	void		*as_kstack;
 	void		*as_kstack_top;
 	struct pcpu	*as_pcpu;
+	void		*as_xtrace_buffer;
 	volatile int	as_delay;
 	volatile u_int	as_awake;
 	volatile u_int	as_spin;

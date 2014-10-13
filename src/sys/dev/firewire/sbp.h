@@ -31,11 +31,11 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  * 
- * $FreeBSD: release/10.0.0/sys/dev/firewire/sbp.h 190792 2009-04-07 02:33:46Z sbruno $
+ * $FreeBSD: stable/10/sys/dev/firewire/sbp.h 261455 2014-02-04 03:36:42Z eadler $
  *
  */
 
-#define ORB_NOTIFY	(1 << 31)
+#define ORB_NOTIFY	(1U << 31)
 #define	ORB_FMT_STD	(0 << 29)
 #define	ORB_FMT_VED	(2 << 29)
 #define	ORB_FMT_NOP	(3 << 29)

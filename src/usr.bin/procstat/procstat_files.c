@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.bin/procstat/procstat_files.c 258324 2013-11-18 22:37:01Z pjd $
+ * $FreeBSD: stable/10/usr.bin/procstat/procstat_files.c 268517 2014-07-11 00:11:24Z delphij $
  */
 
 #include <sys/param.h>
@@ -114,7 +114,7 @@ addr_to_string(struct sockaddr_storage *ss, char *buffer, int buflen)
 			snprintf(buffer, buflen, "%s.%d", buffer2,
 			    ntohs(sin6->sin6_port));
 		else
-			strlcpy(buffer, "-", sizeof(buffer));
+			strlcpy(buffer, "-", buflen);
 		break;
 
 	default:

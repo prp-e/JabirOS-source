@@ -34,11 +34,12 @@
 static char sccsid[] = "@(#)ftell.c	8.2 (Berkeley) 5/4/95";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/stdio/ftell.c 249810 2013-04-23 14:36:44Z emaste $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/stdio/ftell.c 269623 2014-08-06 10:33:43Z ache $");
 
 #include "namespace.h"
 #include <sys/types.h>
 #include <errno.h>
+#include <fcntl.h>
 #include <limits.h>
 #include <stdio.h>
 #include "un-namespace.h"
@@ -87,6 +88,7 @@ _ftello(FILE *fp, fpos_t *offset)
 {
 	fpos_t pos;
 	size_t n;
+	int dflags;
 
 	if (fp->_seek == NULL) {
 		errno = ESPIPE;			/* historic practice */
@@ -118,6 +120,22 @@ _ftello(FILE *fp, fpos_t *offset)
 		if (HASUB(fp))
 			pos -= fp->_r;  /* Can be negative at this point. */
 	} else if ((fp->_flags & __SWR) && fp->_p != NULL) {
+		dflags = 0;
+		if (fp->_flags & __SAPP)
+			dflags = O_APPEND;
+		else if (fp->_file != -1 &&
+			 (dflags = _fcntl(fp->_file, F_GETFL)) < 0)
+			return (1);
+		if ((dflags & O_APPEND) &&
+		    (pos = _sseek(fp, (fpos_t)0, SEEK_END)) == -1) {
+			if ((fp->_flags & __SOPT) || __sflush(fp) ||
+			    (pos = _sseek(fp, (fpos_t)0, SEEK_CUR)) == -1)
+				return (1);
+			else {
+				*offset = pos;
+				return (0);
+			}
+		}
 		/*
 		 * Writing.  Any buffered characters cause the
 		 * position to be greater than that in the

@@ -24,8 +24,10 @@
  * SUCH DAMAGE.
  */
 
+#include "opt_platform.h"
+
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/at91/at91_pmc.c 248904 2013-03-29 18:17:51Z ian $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/at91/at91_pmc.c 266196 2014-05-15 21:21:47Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -42,13 +44,18 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/at91/at91_pmc.c 248904 2013-03-29 18:
 #include <machine/cpu.h>
 #include <machine/cpufunc.h>
 #include <machine/resource.h>
-#include <machine/frame.h>
 #include <machine/intr.h>
 #include <arm/at91/at91reg.h>
 #include <arm/at91/at91var.h>
 
 #include <arm/at91/at91_pmcreg.h>
 #include <arm/at91/at91_pmcvar.h>
+
+#ifdef FDT
+#include <dev/fdt/fdt_common.h>
+#include <dev/ofw/ofw_bus.h>
+#include <dev/ofw/ofw_bus_subr.h>
+#endif
 
 static struct at91_pmc_softc {
 	bus_space_tag_t		sc_st;
@@ -527,6 +534,8 @@ at91_pmc_init_clock(void)
 	uint32_t mckr;
 	uint32_t mdiv;
 
+	soc_info.soc_data->soc_clock_init();
+
 	main_clock = at91_pmc_sense_main_clock();
 
 	if (at91_is_sam9() || at91_is_sam9xe()) {
@@ -651,7 +660,10 @@ errout:
 static int
 at91_pmc_probe(device_t dev)
 {
-
+#ifdef FDT
+	if (!ofw_bus_is_compatible(dev, "atmel,at91rm9200-pmc"))
+		return (ENXIO);
+#endif
 	device_set_desc(dev, "PMC");
 	return (0);
 }
@@ -696,5 +708,10 @@ static driver_t at91_pmc_driver = {
 };
 static devclass_t at91_pmc_devclass;
 
+#ifdef FDT
+DRIVER_MODULE(at91_pmc, simplebus, at91_pmc_driver, at91_pmc_devclass, NULL,
+    NULL);
+#else
 DRIVER_MODULE(at91_pmc, atmelarm, at91_pmc_driver, at91_pmc_devclass, NULL,
     NULL);
+#endif

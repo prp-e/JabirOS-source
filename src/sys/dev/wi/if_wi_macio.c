@@ -42,7 +42,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/wi/if_wi_macio.c 253825 2013-07-31 01:13:29Z jhibbits $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/wi/if_wi_macio.c 253825 2013-07-31 01:13:29Z jhibbits $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

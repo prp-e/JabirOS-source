@@ -39,7 +39,7 @@
  *	from: hp300: @(#)pmap.h	7.2 (Berkeley) 12/16/90
  *	from: @(#)pmap.h	7.4 (Berkeley) 5/12/91
  *	from: i386 pmap.h,v 1.54 1997/11/20 19:30:35 bde Exp
- * $FreeBSD: release/10.0.0/sys/ia64/include/pmap.h 242218 2012-10-28 11:53:54Z kib $
+ * $FreeBSD: stable/10/sys/ia64/include/pmap.h 268201 2014-07-02 23:57:55Z marcel $
  */
 
 #ifndef _MACHINE_PMAP_H_
@@ -114,23 +114,29 @@ extern vm_offset_t virtual_end;
 extern uint64_t pmap_vhpt_base[];
 extern int pmap_vhpt_log2size;
 
-#define	pmap_page_get_memattr(m)	((m)->md.memattr)
-#define	pmap_page_is_mapped(m)	(!TAILQ_EMPTY(&(m)->md.pv_list))
-#define	pmap_page_is_write_mapped(m)	(((m)->aflags & PGA_WRITEABLE) != 0)
-#define	pmap_mapbios(pa, sz)	pmap_mapdev(pa, sz)
-#define	pmap_unmapbios(va, sz)	pmap_unmapdev(va, sz)
+#define	pmap_mapbios(pa,sz)	pmap_mapdev_attr(pa,sz,VM_MEMATTR_UNCACHEABLE)
+#define	pmap_mapdev(pa,sz)	pmap_mapdev_attr(pa,sz,VM_MEMATTR_UNCACHEABLE)
+#define	pmap_unmapbios(va,sz)	pmap_unmapdev(va,sz)
 
-vm_offset_t pmap_alloc_vhpt(void);
-void	pmap_bootstrap(void);
-void	pmap_kenter(vm_offset_t va, vm_offset_t pa);
+#define	pmap_page_get_memattr(m)	((m)->md.memattr)
+#define	pmap_page_is_mapped(m)		(!TAILQ_EMPTY(&(m)->md.pv_list))
+#define	pmap_page_is_write_mapped(m)	(((m)->aflags & PGA_WRITEABLE) != 0)
+
+void	pmap_kenter(vm_offset_t va, vm_paddr_t pa);
 vm_paddr_t pmap_kextract(vm_offset_t va);
 void	pmap_kremove(vm_offset_t);
-void	*pmap_mapdev(vm_paddr_t, vm_size_t);
+void	*pmap_mapdev_attr(vm_paddr_t, vm_size_t, vm_memattr_t);
 void	pmap_page_set_memattr(vm_page_t, vm_memattr_t);
+void	pmap_unmapdev(vm_offset_t, vm_size_t);
+
+/* Machine-architecture private */
+vm_offset_t pmap_alloc_vhpt(void);
+void	pmap_bootstrap(void);
+void	pmap_invalidate_all(void);
+vm_offset_t pmap_mapdev_priv(vm_paddr_t, vm_size_t, vm_memattr_t);
 vm_offset_t pmap_page_to_va(vm_page_t);
 vm_offset_t pmap_steal_memory(vm_size_t);
 struct pmap *pmap_switch(struct pmap *pmap);
-void	pmap_unmapdev(vm_offset_t, vm_size_t);
 
 #endif /* _KERNEL */
 

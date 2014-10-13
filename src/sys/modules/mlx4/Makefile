@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/mlx4/Makefile 255932 2013-09-29 00:35:03Z alfred $
+# $FreeBSD: stable/10/sys/modules/mlx4/Makefile 271127 2014-09-04 20:12:36Z hselasky $
 .PATH:  ${.CURDIR}/../../ofed/drivers/net/mlx4
 
 .include <bsd.own.mk>
@@ -26,4 +26,8 @@ opt_inet6.h:
 
 .include <bsd.kmod.mk>
 
-CFLAGS+= -Wno-cast-qual -Wno-pointer-arith -fms-extensions
+CFLAGS+= -Wno-cast-qual -Wno-pointer-arith ${GCC_MS_EXTENSIONS}
+CFLAGS+= -fms-extensions
+
+CWARNFLAGS.mcg.c=	-Wno-unused
+CWARNFLAGS+=		${CWARNFLAGS.${.IMPSRC:T}}

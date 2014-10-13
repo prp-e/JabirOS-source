@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/mv/mv_ts.c 239371 2012-08-18 12:37:07Z hrs $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/mv/mv_ts.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -58,6 +58,9 @@ static int
 ts_probe(device_t dev)
 {
 	uint32_t d, r;
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (!ofw_bus_is_compatible(dev, "mrvl,ts"))
 		return (ENXIO);

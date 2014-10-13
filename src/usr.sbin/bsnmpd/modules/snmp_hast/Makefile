@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/bsnmpd/modules/snmp_hast/Makefile 250503 2013-05-11 09:51:44Z trociny $
+# $FreeBSD: stable/10/usr.sbin/bsnmpd/modules/snmp_hast/Makefile 250503 2013-05-11 09:51:44Z trociny $
 
 .include <bsd.own.mk>
 

@@ -22,7 +22,7 @@
 \ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 \ SUCH DAMAGE.
 \ 
-\ $FreeBSD: release/10.0.0/sys/boot/forth/brand.4th 238431 2012-07-14 01:45:35Z dteske $
+\ $FreeBSD: stable/10/sys/boot/forth/brand.4th 267010 2014-06-03 14:50:51Z rodrigc $
 
 marker task-brand.4th
 
@@ -35,13 +35,13 @@ variable brandY
 
 : fbsd-logo ( x y -- ) \ "FreeBSD" [wide] logo in B/W (7 rows x 42 columns)
 
-	2dup at-xy ." JabirOS          " 1+
-	2dup at-xy ." a                " 1+
-	2dup at-xy ." b                " 1+
-	2dup at-xy ." i                " 1+
-	2dup at-xy ." r                " 1+
-	2dup at-xy ." O                " 1+
-	     at-xy ." S                "
+	2dup at-xy ."J a b i r O S  " 1+
+	2dup at-xy ."a  " 1+
+	2dup at-xy ."b " 1+
+	2dup at-xy ."i  " 1+
+	2dup at-xy ."r  " 1+
+	2dup at-xy ."O  " 1+
+	     at-xy ."S  "
 
 	\ Put the cursor back at the bottom
 	0 25 at-xy
@@ -56,6 +56,8 @@ variable brandY
 \ 	NAME        DESCRIPTION
 \ 	fbsd        FreeBSD logo
 \ 
+\ NOTE: Setting `loader_brand' to the value of an existing function
+\       (such as "mycustom-brand") will cause that symbol to be executed.
 \ NOTE: Setting `loader_brand' to an undefined value (such as "none") will
 \       prevent any brand from being drawn.
 \ 
@@ -86,6 +88,15 @@ variable brandY
 		brandX @ brandY @ fbsd-logo
 		2drop exit
 	then
+
+        \ if it refers to a raw symbol then run that function
+        sfind if
+            brandX @ brandY @
+            2 roll
+            execute
+        else            
+            drop
+        then
 
 	2drop
 ;

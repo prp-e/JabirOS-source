@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/uart/uart_core.c 254534 2013-08-19 15:51:30Z ian $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/uart/uart_core.c 262649 2014-03-01 04:16:54Z imp $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -412,6 +412,13 @@ uart_bus_attach(device_t dev)
 		sc = sc0;
 
 	/*
+	 * Now that we know the softc for this device, connect the back
+	 * pointer from the sysdev for this device, if any
+	 */
+	if (sc->sc_sysdev != NULL)
+		sc->sc_sysdev->sc = sc;
+
+	/*
 	 * Protect ourselves against interrupts while we're not completely
 	 * finished attaching and initializing. We don't expect interrupts
 	 * until after UART_ATTACH() though.
@@ -616,4 +623,20 @@ uart_bus_resume(device_t dev)
 
 	sc = device_get_softc(dev);
 	return (UART_ATTACH(sc));
+}
+
+void
+uart_grab(struct uart_devinfo *di)
+{
+
+	if (di->sc)
+		UART_GRAB(di->sc);
+}
+
+void
+uart_ungrab(struct uart_devinfo *di)
+{
+
+	if (di->sc)
+		UART_UNGRAB(di->sc);
 }

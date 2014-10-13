@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/include/strings.h 201525 2010-01-04 18:46:54Z ed $
+ * $FreeBSD: stable/10/include/strings.h 267465 2014-06-14 02:57:40Z pfg $
  */
 
 #ifndef _STRINGS_H_
@@ -59,6 +59,10 @@ char	*rindex(const char *, int) __pure;			/* LEGACY */
 #endif
 int	 strcasecmp(const char *, const char *) __pure;
 int	 strncasecmp(const char *, const char *, size_t) __pure;
+
+#if __POSIX_VISIBLE >= 200809 || defined(_XLOCALE_H_)
+#include <xlocale/_strings.h>
+#endif
 __END_DECLS
 
 #endif /* _STRINGS_H_ */

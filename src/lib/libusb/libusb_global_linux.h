@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/lib/libusb/libusb_global_linux.h 253339 2013-07-14 10:22:00Z hselasky $ */
+/* $FreeBSD: stable/10/lib/libusb/libusb_global_linux.h 253339 2013-07-14 10:22:00Z hselasky $ */
 /*-
  * Copyright (c) 2013 Hans Petter Selasky. All rights reserved.
  *

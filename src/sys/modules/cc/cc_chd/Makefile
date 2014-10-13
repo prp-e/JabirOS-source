@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/cc/cc_chd/Makefile 218155 2011-02-01 07:05:14Z lstewart $
+# $FreeBSD: stable/10/sys/modules/cc/cc_chd/Makefile 218155 2011-02-01 07:05:14Z lstewart $
 
 .include <bsd.own.mk>
 

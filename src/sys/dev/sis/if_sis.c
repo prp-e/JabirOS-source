@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/sis/if_sis.c 248456 2013-03-18 04:46:17Z yongari $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/sis/if_sis.c 266921 2014-05-31 11:08:22Z brueffer $");
 
 /*
  * SiS 900/SiS 7016 fast ethernet PCI NIC driver. Datasheets are
@@ -1616,11 +1616,9 @@ sis_tick(void *xsc)
 {
 	struct sis_softc	*sc;
 	struct mii_data		*mii;
-	struct ifnet		*ifp;
 
 	sc = xsc;
 	SIS_LOCK_ASSERT(sc);
-	ifp = sc->sis_ifp;
 
 	mii = device_get_softc(sc->sis_miibus);
 	mii_tick(mii);

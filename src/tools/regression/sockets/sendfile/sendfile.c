@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/tools/regression/sockets/sendfile/sendfile.c 255451 2013-09-10 13:51:19Z emaste $
+ * $FreeBSD: stable/10/tools/regression/sockets/sendfile/sendfile.c 255451 2013-09-10 13:51:19Z emaste $
  */
 
 #include <sys/types.h>

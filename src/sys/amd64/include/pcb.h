@@ -31,7 +31,7 @@
  * SUCH DAMAGE.
  *
  *	from: @(#)pcb.h	5.10 (Berkeley) 5/12/91
- * $FreeBSD: release/10.0.0/sys/amd64/include/pcb.h 258886 2013-12-03 19:41:48Z kib $
+ * $FreeBSD: stable/10/sys/amd64/include/pcb.h 271999 2014-09-22 20:34:36Z jhb $
  */
 
 #ifndef _AMD64_PCB_H_
@@ -97,14 +97,18 @@ struct pcb {
 	register_t	pcb_lstar;
 	register_t	pcb_cstar;
 	register_t	pcb_sfmask;
-	register_t	pcb_xsmask;
-
-	/* fpu context for suspend/resume */
-	void		*pcb_fpususpend;
 
 	struct savefpu	*pcb_save;
 
-	uint64_t	pcb_pad[3];
+	uint64_t	pcb_pad[5];
+};
+
+/* Per-CPU state saved during suspend and resume. */
+struct susppcb {
+	struct pcb	sp_pcb;
+
+	/* fpu context for suspend/resume */
+	void		*sp_fpususpend;
 };
 #endif
 

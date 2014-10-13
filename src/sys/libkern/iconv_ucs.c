@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/libkern/iconv_ucs.c 235713 2012-05-21 02:45:47Z kevlo $");
+__FBSDID("$FreeBSD: stable/10/sys/libkern/iconv_ucs.c 267980 2014-06-27 20:39:45Z jhb $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>
@@ -102,9 +102,9 @@ iconv_ucs_open(struct iconv_converter_class *dcp,
 	if (cspf)
 		dp->convtype |= KICONV_UCS_COMBINE;
 	for (i = 0; unicode_family[i].name; i++) {
-		if (strcmp(from, unicode_family[i].name) == 0)
+		if (strcasecmp(from, unicode_family[i].name) == 0)
 			dp->convtype |= unicode_family[i].from_flag;
-		if (strcmp(to, unicode_family[i].name) == 0)
+		if (strcasecmp(to, unicode_family[i].name) == 0)
 			dp->convtype |= unicode_family[i].to_flag;
 	}
 	if (strcmp(ENCODING_UNICODE, ENCODING_UTF16) == 0)

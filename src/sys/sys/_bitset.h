@@ -26,7 +26,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/sys/_bitset.h 250395 2013-05-09 00:04:59Z attilio $
+ * $FreeBSD: stable/10/sys/sys/_bitset.h 250395 2013-05-09 00:04:59Z attilio $
  */
 
 #ifndef _SYS__BITSET_H_

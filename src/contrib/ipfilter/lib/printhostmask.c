@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/contrib/ipfilter/lib/printhostmask.c 255332 2013-09-06 23:11:19Z cy $	*/
+/*	$FreeBSD: stable/10/contrib/ipfilter/lib/printhostmask.c 268563 2014-07-12 05:59:19Z cy $	*/
 
 /*
  * Copyright (C) 2012 by Darren Reed.
@@ -25,9 +25,9 @@ printhostmask(family, addr, mask)
 	if ((family == -1) || ((!addr || !*addr) && (!mask || !*mask)))
 		PRINTF("any");
 	else {
+#ifdef  USE_INET6
 		void *ptr = addr;
 
-#ifdef  USE_INET6
 		PRINTF("%s", inet_ntop(family, ptr, ipbuf, sizeof(ipbuf)));
 #else
 		ipa.s_addr = *addr;

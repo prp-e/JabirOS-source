@@ -26,10 +26,12 @@
  * SUCH DAMAGE.
  */
 
+#include "opt_platform.h"
 #include "opt_uart.h"
 
+#ifndef FDT
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/at91/uart_cpu_at91usart.c 238404 2012-07-12 19:15:38Z imp $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/at91/uart_cpu_at91usart.c 266095 2014-05-14 23:17:33Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -48,7 +50,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/at91/uart_cpu_at91usart.c 238404 2012
 bus_space_tag_t uart_bus_space_io;
 bus_space_tag_t uart_bus_space_mem;
 
-extern struct uart_class at91_usart_class;
 extern struct bus_space at91_bs_tag;
 
 int
@@ -86,3 +87,4 @@ uart_cpu_getdev(int devtype, struct uart_devinfo *di)
 	uart_getenv(devtype, di, class);
 	return (0);
 }
+#endif

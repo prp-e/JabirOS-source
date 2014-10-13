@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/ofw/ofw_console.c 255424 2013-09-09 16:51:35Z nwhitehorn $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/ofw/ofw_console.c 265967 2014-05-13 17:59:17Z ian $");
 
 #include "opt_ofw.h"
 
@@ -106,8 +106,8 @@ cn_drvinit(void *unused)
 
 SYSINIT(cndev, SI_SUB_CONFIGURE, SI_ORDER_MIDDLE, cn_drvinit, NULL);
 
-static int	stdin;
-static int	stdout;
+static pcell_t	stdin;
+static pcell_t	stdout;
 
 static int
 ofwtty_open(struct tty *tp)
@@ -170,12 +170,12 @@ ofw_cnprobe(struct consdev *cp)
 		return;
 	}
 
-	if (OF_getprop(chosen, "stdin", &stdin, sizeof(stdin)) == -1) {
+	if (OF_getencprop(chosen, "stdin", &stdin, sizeof(stdin)) == -1) {
 		cp->cn_pri = CN_DEAD;
 		return;
 	}
 
-	if (OF_getprop(chosen, "stdout", &stdout, sizeof(stdout)) == -1) {
+	if (OF_getencprop(chosen, "stdout", &stdout, sizeof(stdout)) == -1) {
 		cp->cn_pri = CN_DEAD;
 		return;
 	}

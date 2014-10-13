@@ -58,7 +58,7 @@
  *
  *	@(#)ipx_var.h
  *
- * $FreeBSD: release/10.0.0/sys/netipx/ipx_var.h 194591 2009-06-21 16:11:40Z rwatson $
+ * $FreeBSD: stable/10/sys/netipx/ipx_var.h 194591 2009-06-21 16:11:40Z rwatson $
  */
 
 #ifndef _NETIPX_IPX_VAR_H_

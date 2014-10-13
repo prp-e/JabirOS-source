@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/bsnmpd/modules/snmp_target/Makefile 245952 2013-01-26 22:08:21Z pfg $
+# $FreeBSD: stable/10/usr.sbin/bsnmpd/modules/snmp_target/Makefile 245952 2013-01-26 22:08:21Z pfg $
 #
 # Author: Shteryana Shopova <syrinx@freebsd.org>
 

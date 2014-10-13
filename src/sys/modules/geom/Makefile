@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/geom/Makefile 219974 2011-03-24 21:31:32Z mav $
+# $FreeBSD: stable/10/sys/modules/geom/Makefile 266220 2014-05-16 14:28:55Z loos $
 
 SUBDIR=	geom_bde \
 	geom_bsd \
@@ -24,6 +24,7 @@ SUBDIR=	geom_bde \
 	geom_shsec \
 	geom_stripe \
 	geom_sunlabel \
+	geom_uncompress \
 	geom_uzip \
 	geom_vinum \
 	geom_virstor \

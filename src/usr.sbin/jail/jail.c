@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/jail/jail.c 256387 2013-10-12 17:46:13Z hrs $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/jail/jail.c 256387 2013-10-12 17:46:13Z hrs $");
 
 #include <sys/types.h>
 #include <sys/stat.h>

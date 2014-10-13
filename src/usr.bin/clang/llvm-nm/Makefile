@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/clang/llvm-nm/Makefile 246705 2013-02-12 05:56:00Z andrew $
+# $FreeBSD: stable/10/usr.bin/clang/llvm-nm/Makefile 263508 2014-03-21 17:53:59Z dim $
 
 .include <bsd.own.mk>
 
@@ -8,7 +8,6 @@ SRCDIR=	tools/llvm-nm
 SRCS=	llvm-nm.cpp
 
 LIBDEPS=llvmobject \
-	llvmarchive \
 	llvmbitreader \
 	llvmcore \
 	llvmsupport

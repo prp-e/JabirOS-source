@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/liblldbPluginSymbolFileDWARF/Makefile 255722 2013-09-20 01:52:02Z emaste $
+# $FreeBSD: stable/10/lib/clang/liblldbPluginSymbolFileDWARF/Makefile 263363 2014-03-19 13:11:35Z emaste $
 
 .include <bsd.own.mk>
 
@@ -7,6 +7,7 @@ LIB=	lldbPluginSymbolFileDWARF
 SRCDIR=	tools/lldb/source/Plugins/SymbolFile/DWARF
 SRCS=	DWARFAbbreviationDeclaration.cpp \
 	DWARFCompileUnit.cpp \
+	DWARFDataExtractor.cpp \
 	DWARFDebugAbbrev.cpp \
 	DWARFDebugAranges.cpp \
 	DWARFDebugArangeSet.cpp \

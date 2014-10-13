@@ -18,7 +18,7 @@
  *
  * From: Version 2.4, Thu Apr 30 17:17:21 MSD 1997
  *
- * $FreeBSD: release/10.0.0/sys/net/if_spppsubr.c 255471 2013-09-11 09:19:44Z glebius $
+ * $FreeBSD: stable/10/sys/net/if_spppsubr.c 269046 2014-07-24 06:02:03Z kevlo $
  */
 
 #include <sys/param.h>
@@ -4778,7 +4778,7 @@ sppp_qflush(struct ifqueue *ifq)
 
 	n = ifq->ifq_head;
 	while ((m = n)) {
-		n = m->m_act;
+		n = m->m_nextpkt;
 		m_freem (m);
 	}
 	ifq->ifq_head = 0;

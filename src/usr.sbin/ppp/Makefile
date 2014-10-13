@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/ppp/Makefile 251279 2013-06-02 23:56:38Z brian $
+# $FreeBSD: stable/10/usr.sbin/ppp/Makefile 271075 2014-09-04 01:38:31Z neel $
 
 .include <bsd.own.mk>
 
@@ -33,9 +33,9 @@ PPP_NO_PAM=
 .endif
 
 .if defined(PPP_NO_SUID)
-BINMODE=550
+BINMODE=554
 .else
-BINMODE=4550
+BINMODE=4554
 BINOWN=	root
 .endif
 BINGRP=	network

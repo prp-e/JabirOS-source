@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/ia64/acpica/acpi_machdep.c 222769 2011-06-06 19:06:15Z marcel $
+ * $FreeBSD: stable/10/sys/ia64/acpica/acpi_machdep.c 222769 2011-06-06 19:06:15Z marcel $
  */
 
 #include <sys/param.h>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/nvme/nvme.h 256152 2013-10-08 15:47:22Z jimharris $
+ * $FreeBSD: stable/10/sys/dev/nvme/nvme.h 256152 2013-10-08 15:47:22Z jimharris $
  */
 
 #ifndef __NVME_H__

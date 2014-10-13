@@ -54,7 +54,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/ofw/openfirm.h 255596 2013-09-15 14:19:17Z nwhitehorn $
+ * $FreeBSD: stable/10/sys/dev/ofw/openfirm.h 259255 2013-12-12 12:17:20Z andreast $
  */
 
 #ifndef _DEV_OPENFIRM_H_
@@ -105,10 +105,16 @@ phandle_t	OF_parent(phandle_t node);
 ssize_t		OF_getproplen(phandle_t node, const char *propname);
 ssize_t		OF_getprop(phandle_t node, const char *propname, void *buf,
 		    size_t len);
+ssize_t		OF_getencprop(phandle_t node, const char *prop, pcell_t *buf,
+		    size_t len); /* Same as getprop, but maintains endianness */
 int		OF_hasprop(phandle_t node, const char *propname);
 ssize_t		OF_searchprop(phandle_t node, const char *propname, void *buf,
 		    size_t len);
+ssize_t		OF_searchencprop(phandle_t node, const char *propname,
+		    void *buf, size_t len);
 ssize_t		OF_getprop_alloc(phandle_t node, const char *propname,
+		    int elsz, void **buf);
+ssize_t		OF_getencprop_alloc(phandle_t node, const char *propname,
 		    int elsz, void **buf);
 int		OF_nextprop(phandle_t node, const char *propname, char *buf,
 		    size_t len);

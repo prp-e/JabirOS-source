@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sbin/hastd/hast.h 255716 2013-09-19 20:19:08Z trociny $
+ * $FreeBSD: stable/10/sbin/hastd/hast.h 260006 2013-12-28 19:21:22Z trociny $
  */
 
 #ifndef	_HAST_H_
@@ -136,6 +136,8 @@ struct hastd_config {
 #define	HAST_CHECKSUM_NONE	0
 #define	HAST_CHECKSUM_CRC32	1
 #define	HAST_CHECKSUM_SHA256	2
+
+struct nv;
 
 /*
  * Structure that describes single resource.
@@ -253,6 +255,9 @@ struct hast_resource {
 	uint64_t	hr_stat_activemap_write_error;
 	/* Number of activemap flush errors. */
 	uint64_t	hr_stat_activemap_flush_error;
+
+	/* Function to output worker specific info on control status request. */
+	void	(*output_status_aux)(struct nv *);
 
 	/* Next resource. */
 	TAILQ_ENTRY(hast_resource) hr_next;

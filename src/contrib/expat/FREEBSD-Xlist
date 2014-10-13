@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/contrib/expat/FREEBSD-Xlist 247296 2013-02-26 00:58:44Z delphij $
+# $FreeBSD: stable/10/contrib/expat/FREEBSD-Xlist 247296 2013-02-26 00:58:44Z delphij $
 *.MPW
 *.cmake
 *.def

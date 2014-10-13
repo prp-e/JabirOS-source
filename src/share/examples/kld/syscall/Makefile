@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/share/examples/kld/syscall/Makefile 99771 2002-07-11 13:38:05Z ru $
+# $FreeBSD: stable/10/share/examples/kld/syscall/Makefile 99771 2002-07-11 13:38:05Z ru $
 
 SUBDIR=	module test
 

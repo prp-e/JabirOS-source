@@ -2,7 +2,7 @@
 #
 # Configure routing and miscellaneous network tunables
 #
-# $FreeBSD: release/10.0.0/etc/rc.d/routing 255163 2013-09-02 23:52:25Z delphij $
+# $FreeBSD: stable/10/etc/rc.d/routing 255163 2013-09-02 23:52:25Z delphij $
 #
 
 # PROVIDE: routing

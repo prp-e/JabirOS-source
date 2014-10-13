@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/amd64/vmm/vmm_msr.c 255911 2013-09-27 14:55:59Z grehan $
+ * $FreeBSD: stable/10/sys/amd64/vmm/vmm_msr.c 262350 2014-02-23 00:46:05Z jhb $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/amd64/vmm/vmm_msr.c 255911 2013-09-27 14:55:59Z grehan $");
+__FBSDID("$FreeBSD: stable/10/sys/amd64/vmm/vmm_msr.c 262350 2014-02-23 00:46:05Z jhb $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -154,13 +154,13 @@ msr_num_to_idx(u_int num)
 }
 
 int
-emulate_wrmsr(struct vm *vm, int cpu, u_int num, uint64_t val)
+emulate_wrmsr(struct vm *vm, int cpu, u_int num, uint64_t val, bool *retu)
 {
 	int idx;
 	uint64_t *guest_msrs;
 
 	if (lapic_msr(num))
-		return (lapic_wrmsr(vm, cpu, num, val));
+		return (lapic_wrmsr(vm, cpu, num, val, retu));
 
 	idx = msr_num_to_idx(num);
 	if (idx < 0 || invalid_msr(idx))
@@ -181,14 +181,14 @@ emulate_wrmsr(struct vm *vm, int cpu, u_int num, uint64_t val)
 }
 
 int
-emulate_rdmsr(struct vm *vm, int cpu, u_int num)
+emulate_rdmsr(struct vm *vm, int cpu, u_int num, bool *retu)
 {
 	int error, idx;
 	uint32_t eax, edx;
 	uint64_t result, *guest_msrs;
 
 	if (lapic_msr(num)) {
-		error = lapic_rdmsr(vm, cpu, num, &result);
+		error = lapic_rdmsr(vm, cpu, num, &result, retu);
 		goto done;
 	}
 

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.bin/clang/llvm-objdump/Makefile 251662 2013-06-12 18:48:53Z dim $
+# $FreeBSD: stable/10/usr.bin/clang/llvm-objdump/Makefile 263763 2014-03-26 07:31:57Z dim $
 
 NO_MAN=
 .include <bsd.own.mk>
@@ -11,8 +11,7 @@ SRCDIR=	tools/llvm-objdump
 SRCS=	llvm-objdump.cpp \
 	COFFDump.cpp \
 	ELFDump.cpp \
-	MachODump.cpp \
-	MCFunction.cpp
+	MachODump.cpp
 
 LIBDEPS=llvmmcdisassembler \
 	llvmdebuginfo \
@@ -29,9 +28,16 @@ LIBDEPS=llvmmcdisassembler \
 	llvmmipsinfo \
 	llvmmipsinstprinter \
 	llvmpowerpccodegen \
+	llvmpowerpcasmparser \
 	llvmpowerpcdesc \
 	llvmpowerpcinfo \
 	llvmpowerpcinstprinter \
+	llvmsparcdisassembler \
+	llvmsparccodegen \
+	llvmsparcasmparser \
+	llvmsparcdesc \
+	llvmsparcinfo \
+	llvmsparcinstprinter \
 	llvmx86disassembler \
 	llvmx86asmparser \
 	llvmx86codegen \

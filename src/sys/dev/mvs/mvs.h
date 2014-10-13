@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/mvs/mvs.h 236952 2012-06-12 11:08:51Z mav $
+ * $FreeBSD: stable/10/sys/dev/mvs/mvs.h 261455 2014-02-04 03:36:42Z eadler $
  */
 
 #include "mvs_if.h"
@@ -141,7 +141,7 @@
 #define EDMA_IE_LINKDATARXERR(x)	((x) << 17)	/* Link Data Recv Err */
 #define EDMA_IE_LINKCTLTXERR(x)		((x) << 21)	/* Link Ctrl Tx Error */
 #define EDMA_IE_LINKDATATXERR(x)	((x) << 26)	/* Link Data Tx Error */
-#define EDMA_IE_TRANSPROTERR		(1 << 31)	/* Transport Proto E */
+#define EDMA_IE_TRANSPROTERR		(1U << 31)	/* Transport Proto E */
 #define EDMA_IE_TRANSIENT		(EDMA_IE_LINKCTLRXERR(0x0b) | \
 					 EDMA_IE_LINKCTLTXERR(0x1f))
 							/* Non-fatal Errors */

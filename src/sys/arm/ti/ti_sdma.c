@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/ti_sdma.c 239281 2012-08-15 06:31:32Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/ti/ti_sdma.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -1127,6 +1127,10 @@ ti_sdma_set_addr_mode(unsigned int ch, unsigned int src_mode,
 static int
 ti_sdma_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
+
 	if (!ofw_bus_is_compatible(dev, "ti,sdma"))
 		return (ENXIO);
 

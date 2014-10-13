@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)talk.h	8.1 (Berkeley) 6/6/93
- * $FreeBSD: release/10.0.0/usr.bin/talk/talk.h 227185 2011-11-06 08:17:23Z ed $
+ * $FreeBSD: stable/10/usr.bin/talk/talk.h 227185 2011-11-06 08:17:23Z ed $
  */
 
 #include <sys/cdefs.h>

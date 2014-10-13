@@ -37,7 +37,7 @@ static char sccsid[] = "@(#)args.c	8.3 (Berkeley) 4/2/94";
 #endif
 #endif /* not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/bin/dd/args.c 250469 2013-05-10 18:43:36Z eadler $");
+__FBSDID("$FreeBSD: stable/10/bin/dd/args.c 264577 2014-04-17 00:31:20Z delphij $");
 
 #include <sys/types.h>
 
@@ -66,6 +66,7 @@ static void	f_obs(char *);
 static void	f_of(char *);
 static void	f_seek(char *);
 static void	f_skip(char *);
+static void	f_status(char *);
 static uintmax_t get_num(const char *);
 static off_t	get_off_t(const char *);
 
@@ -88,6 +89,7 @@ static const struct arg {
 	{ "oseek",	f_seek,		C_SEEK,	 C_SEEK },
 	{ "seek",	f_seek,		C_SEEK,	 C_SEEK },
 	{ "skip",	f_skip,		C_SKIP,	 C_SKIP },
+	{ "status",	f_status,	C_STATUS,C_STATUS },
 };
 
 static char *oper;
@@ -292,6 +294,18 @@ f_skip(char *arg)
 	in.offset = get_off_t(arg);
 }
 
+static void
+f_status(char *arg)
+{
+
+	if (strcmp(arg, "none") == 0)
+		ddflags |= C_NOINFO;
+	else if (strcmp(arg, "noxfer") == 0)
+		ddflags |= C_NOXFER;
+	else
+		errx(1, "unknown status %s", arg);
+}
+ 
 static const struct conv {
 	const char *name;
 	u_int set, noset;

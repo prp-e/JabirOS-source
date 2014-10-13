@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/etc/periodic/monthly/Makefile 254978 2013-08-27 22:37:29Z jkim $
+# $FreeBSD: stable/10/etc/periodic/monthly/Makefile 254978 2013-08-27 22:37:29Z jkim $
 
 .include <bsd.own.mk>
 

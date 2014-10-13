@@ -35,7 +35,7 @@
  *
  *	@(#)vmparam.h	8.2 (Berkeley) 4/22/94
  *
- * $FreeBSD: release/10.0.0/sys/ia64/include/vmparam.h 250338 2013-05-07 22:46:24Z attilio $
+ * $FreeBSD: stable/10/sys/ia64/include/vmparam.h 266204 2014-05-16 01:30:30Z ian $
  */
 
 #ifndef	_MACHINE_VMPARAM_H_
@@ -189,19 +189,11 @@
 #define	USRSTACK		VM_MAXUSER_ADDRESS
 #define	IA64_BACKINGSTORE	(USRSTACK - (2 * MAXSSIZ) - PAGE_SIZE)
 
-/* virtual sizes (bytes) for various kernel submaps */
-#ifndef VM_KMEM_SIZE
-#define VM_KMEM_SIZE		(12 * 1024 * 1024)
-#endif
-
 /*
- * How many physical pages per KVA page allocated.
- * min(max(max(VM_KMEM_SIZE, Physical memory/VM_KMEM_SIZE_SCALE),
- *     VM_KMEM_SIZE_MIN), VM_KMEM_SIZE_MAX)
- * is the total KVA space allocated for kmem_map.
+ * How many physical pages per kmem arena virtual page.
  */
 #ifndef VM_KMEM_SIZE_SCALE
-#define	VM_KMEM_SIZE_SCALE	(4) /* XXX 8192 byte pages */
+#define	VM_KMEM_SIZE_SCALE	(4)
 #endif
 
 /* initial pagein size of beginning of executable file */

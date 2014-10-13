@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/sibyte/sb_zbbus.c 212413 2010-09-10 11:19:03Z avg $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/sibyte/sb_zbbus.c 265999 2014-05-14 01:35:43Z ian $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>
@@ -207,7 +207,7 @@ zbbus_probe(device_t dev)
 {
 
 	device_set_desc(dev, "Broadcom/Sibyte ZBbus");
-	return (0);
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 static int

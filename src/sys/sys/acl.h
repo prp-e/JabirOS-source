@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/sys/acl.h 220465 2011-04-09 07:42:25Z trasz $
+ * $FreeBSD: stable/10/sys/sys/acl.h 220465 2011-04-09 07:42:25Z trasz $
  */
 /* 
  * Developed by the TrustedBSD Project.

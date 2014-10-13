@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/boot/i386/pxeldr/Makefile 235219 2012-05-10 09:47:04Z avg $
+# $FreeBSD: stable/10/sys/boot/i386/pxeldr/Makefile 235219 2012-05-10 09:47:04Z avg $
 
 # Pick up ../Makefile.inc early.
 .include <bsd.init.mk>

@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/usr.bin/svn/lib/libapr_util/apu.h 253734 2013-07-28 06:02:40Z peter $ */
+/* $FreeBSD: stable/10/usr.bin/svn/lib/libapr_util/apu.h 253734 2013-07-28 06:02:40Z peter $ */
 /* Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
  * this work for additional information regarding copyright ownership.

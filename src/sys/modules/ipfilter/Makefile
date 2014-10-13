@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/ipfilter/Makefile 255332 2013-09-06 23:11:19Z cy $ 
+# $FreeBSD: stable/10/sys/modules/ipfilter/Makefile 260274 2014-01-04 18:33:28Z dim $ 
 
 .include <bsd.own.mk>
 
@@ -28,7 +28,18 @@ CFLAGS+= -DIPFILTER=1 -DIPFILTER_LKM -DIPFILTER_LOG -DIPFILTER_LOOKUP
 
 .include <bsd.kmod.mk>
 
-CWARNFLAGS.fil.c=		${NO_WSELF_ASSIGN}
-CWARNFLAGS.ip_proxy.c=		${NO_WSELF_ASSIGN}
-CWARNFLAGS.ip_lookup.c=		${NO_WSELF_ASSIGN}
+CWARNFLAGS.fil.c=		${NO_WSELF_ASSIGN} -Wno-unused
+CWARNFLAGS.ip_auth.c=		-Wno-unused
+CWARNFLAGS.ip_fil_freebsd.c=	-Wno-unused
+CWARNFLAGS.ip_frag.c=		-Wno-unused
+CWARNFLAGS.ip_htable.c=		-Wno-unused
+CWARNFLAGS.ip_dstlist.c=	-Wno-unused
+CWARNFLAGS.ip_lookup.c=		${NO_WSELF_ASSIGN} -Wno-unused
+CWARNFLAGS.ip_nat.c=		-Wno-unused
+CWARNFLAGS.ip_nat6.c=		-Wno-unused
+CWARNFLAGS.ip_pool.c=		-Wno-unused
+CWARNFLAGS.ip_proxy.c=		${NO_WSELF_ASSIGN} -Wno-unused
+CWARNFLAGS.ip_scan.c=		-Wno-unused
+CWARNFLAGS.ip_state.c=		-Wno-unused
+CWARNFLAGS.ip_sync.c=		-Wno-unused
 CWARNFLAGS+=			${CWARNFLAGS.${.IMPSRC:T}}

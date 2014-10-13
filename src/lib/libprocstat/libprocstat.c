@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libprocstat/libprocstat.c 256242 2013-10-09 20:58:50Z pjd $");
+__FBSDID("$FreeBSD: stable/10/lib/libprocstat/libprocstat.c 262947 2014-03-09 13:23:49Z rwatson $");
 
 #include <sys/param.h>
 #include <sys/elf.h>
@@ -2052,7 +2052,7 @@ procstat_getumask_sysctl(pid_t pid, unsigned short *maskp)
 	mib[3] = pid;
 	len = sizeof(*maskp);
 	error = sysctl(mib, 4, maskp, &len, NULL, 0);
-	if (error != 0 && errno != ESRCH)
+	if (error != 0 && errno != ESRCH && errno != EPERM)
 		warn("sysctl: kern.proc.umask: %d", pid);
 	return (error);
 }

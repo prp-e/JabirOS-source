@@ -29,7 +29,7 @@
 
 #include <sys/cdefs.h>
 #include <sys/libkern.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/libkern/flsll.c 253719 2013-07-27 20:47:01Z alfred $");
+__FBSDID("$FreeBSD: stable/10/sys/libkern/flsll.c 253719 2013-07-27 20:47:01Z alfred $");
 
 /*
  * Find Last Set bit

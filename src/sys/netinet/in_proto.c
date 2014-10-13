@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netinet/in_proto.c 229850 2012-01-09 08:50:22Z glebius $");
+__FBSDID("$FreeBSD: stable/10/sys/netinet/in_proto.c 265946 2014-05-13 06:05:53Z kevlo $");
 
 #include "opt_ipx.h"
 #include "opt_mrouting.h"
@@ -183,6 +183,20 @@ struct protosw inetsw[] = {
 	.pr_usrreqs =		&sctp_usrreqs
 },
 #endif /* SCTP */
+{
+	.pr_type =		SOCK_DGRAM,
+	.pr_domain =		&inetdomain,
+	.pr_protocol =		IPPROTO_UDPLITE,
+	.pr_flags =		PR_ATOMIC|PR_ADDR,
+	.pr_input =		udp_input,
+	.pr_ctlinput =		udplite_ctlinput,
+	.pr_ctloutput =		udp_ctloutput,
+	.pr_init =		udplite_init,
+#ifdef VIMAGE
+	.pr_destroy =		udplite_destroy,
+#endif
+	.pr_usrreqs =		&udp_usrreqs
+},
 {
 	.pr_type =		SOCK_RAW,
 	.pr_domain =		&inetdomain,

@@ -39,7 +39,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/security/mac_stub/mac_stub.c 254603 2013-08-21 17:45:00Z kib $
+ * $FreeBSD: stable/10/sys/security/mac_stub/mac_stub.c 254603 2013-08-21 17:45:00Z kib $
  */
 
 /*

@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/sparc64/pci/schizo.c 242625 2012-11-05 19:16:27Z dim $");
+__FBSDID("$FreeBSD: stable/10/sys/sparc64/pci/schizo.c 266020 2014-05-14 14:17:51Z ian $");
 
 /*
  * Driver for `Schizo' Fireplane/Safari to PCI 2.1, `Tomatillo' JBus to
@@ -1121,13 +1121,12 @@ schizo_route_interrupt(device_t bridge, device_t dev, int pin)
 	struct schizo_softc *sc;
 	struct ofw_pci_register reg;
 	ofw_pci_intr_t pintr, mintr;
-	uint8_t maskbuf[sizeof(reg) + sizeof(pintr)];
 
 	sc = device_get_softc(bridge);
 	pintr = pin;
 	if (ofw_bus_lookup_imap(ofw_bus_get_node(dev), &sc->sc_pci_iinfo,
 	    &reg, sizeof(reg), &pintr, sizeof(pintr), &mintr, sizeof(mintr),
-	    NULL, maskbuf))
+	    NULL))
 		return (mintr);
 
 	device_printf(bridge, "could not route pin %d for device %d.%d\n",

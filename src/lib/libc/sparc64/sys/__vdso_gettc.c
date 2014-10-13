@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/sparc64/sys/__vdso_gettc.c 246117 2013-01-30 12:48:16Z kib $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/sparc64/sys/__vdso_gettc.c 246117 2013-01-30 12:48:16Z kib $");
 
 #include <sys/types.h>
 #include <sys/time.h>

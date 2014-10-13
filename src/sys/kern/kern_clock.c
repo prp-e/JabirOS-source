@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_clock.c 252342 2013-06-28 15:55:30Z rstone $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_clock.c 260817 2014-01-17 10:58:59Z avg $");
 
 #include "opt_kdb.h"
 #include "opt_device_polling.h"
@@ -93,7 +93,7 @@ SYSINIT(clocks, SI_SUB_CLOCKS, SI_ORDER_FIRST, initclocks, NULL);
 static struct mtx time_lock;
 
 SDT_PROVIDER_DECLARE(sched);
-SDT_PROBE_DEFINE2(sched, , , tick, tick, "struct thread *", "struct proc *");
+SDT_PROBE_DEFINE2(sched, , , tick, "struct thread *", "struct proc *");
 
 static int
 sysctl_kern_cp_time(SYSCTL_HANDLER_ARGS)

@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/msun/src/s_ccosh.c 226599 2011-10-21 06:29:32Z das $");
+__FBSDID("$FreeBSD: stable/10/lib/msun/src/s_ccosh.c 226599 2011-10-21 06:29:32Z das $");
 
 #include <complex.h>
 #include <math.h>

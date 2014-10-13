@@ -21,7 +21,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/drm2/drm_dp_helper.c 254817 2013-08-24 23:38:57Z dumbbell $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm_dp_helper.c 254817 2013-08-24 23:38:57Z dumbbell $");
 
 #include <dev/drm2/drmP.h>
 #include <dev/drm2/drm_dp_helper.h>

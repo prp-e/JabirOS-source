@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/cddl/usr.sbin/plockstat/Makefile 212649 2010-09-15 10:18:18Z rpaulo $
+# $FreeBSD: stable/10/cddl/usr.sbin/plockstat/Makefile 212649 2010-09-15 10:18:18Z rpaulo $
 
 .PATH: ${.CURDIR}/../../../cddl/contrib/opensolaris/cmd/plockstat
 

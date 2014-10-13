@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netinet/sctp_header.h 240198 2012-09-07 13:36:42Z tuexen $");
+__FBSDID("$FreeBSD: stable/10/sys/netinet/sctp_header.h 270354 2014-08-22 19:49:43Z tuexen $");
 
 #ifndef _NETINET_SCTP_HEADER_H_
 #define _NETINET_SCTP_HEADER_H_
@@ -81,12 +81,6 @@ struct sctp_supported_addr_param {
 	struct sctp_paramhdr ph;/* type=SCTP_SUPPORTED_ADDRTYPE */
 	uint16_t addr_type[2];	/* array of supported address types */
 }                         SCTP_PACKED;
-
-/* ECN parameter */
-struct sctp_ecn_supported_param {
-	struct sctp_paramhdr ph;/* type=SCTP_ECN_CAPABLE */
-}                        SCTP_PACKED;
-
 
 /* heartbeat info parameter */
 struct sctp_heartbeat_info_param {

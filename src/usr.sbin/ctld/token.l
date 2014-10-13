@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/ctld/token.l 255570 2013-09-14 15:29:06Z trasz $
+ * $FreeBSD: stable/10/usr.sbin/ctld/token.l 267962 2014-06-27 17:10:28Z jpaetzel $
  */
 
 #include <stdio.h>
@@ -50,6 +50,7 @@ extern int	yylex(void);
 %%
 alias			{ return ALIAS; }
 auth-group		{ return AUTH_GROUP; }
+auth-type		{ return AUTH_TYPE; }
 backend			{ return BACKEND; }
 blocksize		{ return BLOCKSIZE; }
 chap			{ return CHAP; }
@@ -57,6 +58,8 @@ chap-mutual		{ return CHAP_MUTUAL; }
 debug			{ return DEBUG; }
 device-id		{ return DEVICE_ID; }
 discovery-auth-group	{ return DISCOVERY_AUTH_GROUP; }
+initiator-name		{ return INITIATOR_NAME; }
+initiator-portal	{ return INITIATOR_PORTAL; }
 listen			{ return LISTEN; }
 listen-iser		{ return LISTEN_ISER; }
 lun			{ return LUN; }
@@ -71,8 +74,9 @@ target			{ return TARGET; }
 timeout			{ return TIMEOUT; }
 [0-9]+[kKmMgGtTpPeE]?	{ if (expand_number(yytext, &yylval.num) == 0)
 				return NUM;
-			  else
-				return STR;
+			  else {
+				yylval.str = strdup(yytext); return STR;
+			  }
 			}
 \"[^"]+\"		{ yylval.str = strndup(yytext + 1,
 			    strlen(yytext) - 2); return STR; }
@@ -82,4 +86,5 @@ timeout			{ return TIMEOUT; }
 #.*$			/* ignore comments */;
 \n			{ lineno++; }
 [ \t]+			/* ignore whitespace */;
+.			{ yylval.str = strdup(yytext); return STR; }
 %%

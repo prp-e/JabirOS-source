@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/sys/dev/usb/template/usb_template_msc.c 246125 2013-01-30 16:05:54Z hselasky $ */
+/* $FreeBSD: stable/10/sys/dev/usb/template/usb_template_msc.c 246125 2013-01-30 16:05:54Z hselasky $ */
 /*-
  * Copyright (c) 2008 Hans Petter Selasky <hselasky@FreeBSD.org>
  * All rights reserved.

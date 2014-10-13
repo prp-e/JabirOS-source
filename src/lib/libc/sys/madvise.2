@@ -26,9 +26,9 @@
 .\" SUCH DAMAGE.
 .\"
 .\"	@(#)madvise.2	8.1 (Berkeley) 6/9/93
-.\" $FreeBSD: release/10.0.0/lib/libc/sys/madvise.2 227070 2011-11-04 04:02:50Z jhb $
+.\" $FreeBSD: stable/10/lib/libc/sys/madvise.2 261560 2014-02-06 19:47:17Z kib $
 .\"
-.Dd July 19, 1996
+.Dd January 30, 2014
 .Dt MADVISE 2
 .Os
 .Sh NAME
@@ -50,7 +50,10 @@ allows a process that has knowledge of its memory behavior
 to describe it to the system.
 The
 .Fn posix_madvise
-interface is identical and is provided for standards conformance.
+interface is identical, except it returns an error number on error and does
+not modify
+.Va errno ,
+and is provided for standards conformance.
 .Pp
 The known behaviors are:
 .Bl -tag -width MADV_SEQUENTIAL

@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/release/generate-release.sh 251650 2013-06-12 12:38:12Z nwhitehorn $
+# $FreeBSD: stable/10/release/generate-release.sh 261706 2014-02-10 07:16:46Z gjb $
 #
 
 # generate-release.sh: check out source trees, and build release components with
@@ -109,6 +109,7 @@ if [ -d ${CHROOTDIR}/usr/doc ]; then
 	cp /etc/resolv.conf ${CHROOTDIR}/etc/resolv.conf
 
 	# Install docproj to build release documentation
+	${CHROOT_CMD} /etc/rc.d/ldconfig forcerestart
 	${CHROOT_CMD} /bin/sh -c \
 		'make -C /usr/ports/textproc/docproj \
 			BATCH=yes \

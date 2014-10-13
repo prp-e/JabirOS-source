@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libelf/Makefile 238741 2012-07-24 16:03:28Z ache $
+# $FreeBSD: stable/10/lib/libelf/Makefile 238741 2012-07-24 16:03:28Z ache $
 
 LIB=	elf
 

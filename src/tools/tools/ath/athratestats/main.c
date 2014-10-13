@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: release/10.0.0/tools/tools/ath/athratestats/main.c 244967 2013-01-02 18:29:11Z adrian $
+ * $FreeBSD: stable/10/tools/tools/ath/athratestats/main.c 244967 2013-01-02 18:29:11Z adrian $
  */
 
 #include "opt_ah.h"

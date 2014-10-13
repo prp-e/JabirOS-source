@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/libexec/save-entropy/save-entropy.sh 240090 2012-09-04 16:00:51Z dougb $
+# $FreeBSD: stable/10/libexec/save-entropy/save-entropy.sh 269220 2014-07-29 06:00:16Z delphij $
 
 # This script is called by cron to store bits of randomness which are
 # then used to seed /dev/random on boot.
@@ -41,6 +41,8 @@ if [ -r /etc/defaults/rc.conf ]; then
 elif [ -r /etc/rc.conf ]; then
 	. /etc/rc.conf 2>/dev/null
 fi
+
+[ $(/sbin/sysctl -n security.jail.jailed) = 0 ] || exit 0
 
 case ${entropy_dir} in
 [Nn][Oo])

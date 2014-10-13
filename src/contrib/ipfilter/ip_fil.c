@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/contrib/ipfilter/ip_fil.c 255761 2013-09-21 14:22:07Z cy $	*/
+/*	$FreeBSD: stable/10/contrib/ipfilter/ip_fil.c 255761 2013-09-21 14:22:07Z cy $	*/
 
 /*
  * Copyright (C) 2012 by Darren Reed.

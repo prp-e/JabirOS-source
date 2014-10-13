@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/libclangstaticanalyzercheckers/Makefile 251662 2013-06-12 18:48:53Z dim $
+# $FreeBSD: stable/10/lib/clang/libclangstaticanalyzercheckers/Makefile 263508 2014-03-21 17:53:59Z dim $
 
 .include <bsd.own.mk>
 
@@ -24,7 +24,6 @@ SRCS=	AllocationDiagnostics.cpp \
 	CheckerDocumentation.cpp \
 	ChrootChecker.cpp \
 	ClangCheckers.cpp \
-	CommonBugCategories.cpp \
 	DeadStoresChecker.cpp \
 	DebugCheckers.cpp \
 	DereferenceChecker.cpp \
@@ -35,6 +34,7 @@ SRCS=	AllocationDiagnostics.cpp \
 	FixedAddressChecker.cpp \
 	GenericTaintChecker.cpp \
 	IdempotentOperationChecker.cpp \
+	IdenticalExprChecker.cpp \
 	IvarInvalidationChecker.cpp \
 	LLVMConventionsChecker.cpp \
 	MacOSKeychainAPIChecker.cpp \
@@ -44,8 +44,8 @@ SRCS=	AllocationDiagnostics.cpp \
 	MallocSizeofChecker.cpp \
 	NSAutoreleasePoolChecker.cpp \
 	NSErrorChecker.cpp \
-	NonNullParamChecker.cpp \
 	NoReturnFunctionChecker.cpp \
+	NonNullParamChecker.cpp \
 	ObjCAtSyncChecker.cpp \
 	ObjCContainersASTChecker.cpp \
 	ObjCContainersChecker.cpp \

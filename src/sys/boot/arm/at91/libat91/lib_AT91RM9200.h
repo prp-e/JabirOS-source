@@ -24,7 +24,7 @@
  * This software is derived from software provide by Kwikbyte who specifically
  * disclaimed copyright on the code.
  *
- * $FreeBSD: release/10.0.0/sys/boot/arm/at91/libat91/lib_AT91RM9200.h 238463 2012-07-15 05:35:14Z imp $
+ * $FreeBSD: stable/10/sys/boot/arm/at91/libat91/lib_AT91RM9200.h 238463 2012-07-15 05:35:14Z imp $
  */
 
 #ifndef __LIBAT91RM9200_H

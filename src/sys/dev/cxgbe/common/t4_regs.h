@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/cxgbe/common/t4_regs.h 248925 2013-03-30 02:26:20Z np $
+ * $FreeBSD: stable/10/sys/dev/cxgbe/common/t4_regs.h 248925 2013-03-30 02:26:20Z np $
  *
  */
 

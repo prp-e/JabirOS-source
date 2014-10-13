@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/libexec/rpc.rusersd/Makefile 241777 2012-10-20 10:33:15Z ed $
+# $FreeBSD: stable/10/libexec/rpc.rusersd/Makefile 241777 2012-10-20 10:33:15Z ed $
 
 PROG =	rpc.rusersd
 SRCS =	rusersd.c rusers_proc.c extern.h

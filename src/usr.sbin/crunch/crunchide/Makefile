@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/crunch/crunchide/Makefile 232911 2012-03-13 05:21:14Z jmallett $
+# $FreeBSD: stable/10/usr.sbin/crunch/crunchide/Makefile 232911 2012-03-13 05:21:14Z jmallett $
 
 PROG=   crunchide
 SRCS=	crunchide.c

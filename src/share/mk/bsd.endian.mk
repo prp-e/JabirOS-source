@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/share/mk/bsd.endian.mk 239272 2012-08-15 03:21:56Z gonzo $
+# $FreeBSD: stable/10/share/mk/bsd.endian.mk 239272 2012-08-15 03:21:56Z gonzo $
 
 .if ${MACHINE_ARCH} == "amd64" || \
     ${MACHINE_ARCH} == "i386" || \

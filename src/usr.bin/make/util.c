@@ -40,7 +40,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/make/util.c 146184 2005-05-13 13:47:41Z harti $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/make/util.c 146184 2005-05-13 13:47:41Z harti $");
 
 /*-
  * util.c --

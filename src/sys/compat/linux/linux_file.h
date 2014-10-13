@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/compat/linux/linux_file.h 246085 2013-01-29 18:41:30Z jhb $
+ * $FreeBSD: stable/10/sys/compat/linux/linux_file.h 246085 2013-01-29 18:41:30Z jhb $
  */
 
 #ifndef _LINUX_FILE_H_

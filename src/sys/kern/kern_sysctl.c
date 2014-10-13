@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_sysctl.c 254115 2013-08-09 01:04:44Z scottl $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_sysctl.c 262734 2014-03-04 14:01:12Z glebius $");
 
 #include "opt_capsicum.h"
 #include "opt_compat.h"
@@ -1491,7 +1491,10 @@ sysctl_root(SYSCTL_HANDLER_ARGS)
 #endif
 	oid->oid_running++;
 	SYSCTL_XUNLOCK();
-
+#ifdef VIMAGE
+	if ((oid->oid_kind & CTLFLAG_VNET) && arg1 != NULL)
+		arg1 = (void *)(curvnet->vnet_data_base + (uintptr_t)arg1);
+#endif
 	if (!(oid->oid_kind & CTLFLAG_MPSAFE))
 		mtx_lock(&Giant);
 	error = oid->oid_handler(oid, arg1, arg2, req);

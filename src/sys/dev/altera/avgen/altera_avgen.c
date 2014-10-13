@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/altera/avgen/altera_avgen.c 245380 2013-01-13 16:57:11Z rwatson $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/altera/avgen/altera_avgen.c 245380 2013-01-13 16:57:11Z rwatson $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

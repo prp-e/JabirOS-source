@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/cam/cam.h 255870 2013-09-25 15:55:56Z scottl $
+ * $FreeBSD: stable/10/sys/cam/cam.h 259204 2013-12-10 22:55:22Z nwhitehorn $
  */
 
 #ifndef _CAM_CAM_H
@@ -49,6 +49,12 @@ typedef union {
 #define	CAM_BUS_WILDCARD ((path_id_t)~0)
 #define	CAM_TARGET_WILDCARD ((target_id_t)~0)
 #define	CAM_LUN_WILDCARD ((lun_id_t)~0)
+
+#define CAM_EXTLUN_BYTE_SWIZZLE(lun) (	\
+	((((u_int64_t)lun) & 0xffff000000000000L) >> 48) | \
+	((((u_int64_t)lun) & 0x0000ffff00000000L) >> 16) | \
+	((((u_int64_t)lun) & 0x00000000ffff0000L) << 16) | \
+	((((u_int64_t)lun) & 0x000000000000ffffL) << 48))
 
 /*
  * Maximum length for a CAM CDB.  

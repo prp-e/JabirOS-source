@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/iscsi/iscsi.h 255570 2013-09-14 15:29:06Z trasz $
+ * $FreeBSD: stable/10/sys/dev/iscsi/iscsi.h 268703 2014-07-15 18:21:26Z mav $
  */
 
 #ifndef ISCSI_H
@@ -64,12 +64,13 @@ struct iscsi_session {
 	size_t				is_max_burst_length;
 	size_t				is_first_burst_length;
 	uint8_t				is_isid[6];
+	uint16_t			is_tsih;
 	bool				is_immediate_data;
 	size_t				is_max_data_segment_length;
 	char				is_target_alias[ISCSI_ALIAS_LEN];
 
 	TAILQ_HEAD(, iscsi_outstanding)	is_outstanding;
-	TAILQ_HEAD(, icl_pdu)		is_postponed;
+	STAILQ_HEAD(, icl_pdu)		is_postponed;
 
 	struct callout			is_callout;
 	unsigned int			is_timeout;

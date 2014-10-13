@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.bin/iscsictl/periphs.c 255570 2013-09-14 15:29:06Z trasz $");
+__FBSDID("$FreeBSD: stable/10/usr.bin/iscsictl/periphs.c 265532 2014-05-07 08:04:41Z trasz $");
 
 #include <sys/ioctl.h>
 #include <sys/stdint.h>
@@ -102,6 +102,9 @@ print_periphs(int session_id)
 	ccb.cdm.num_patterns = 0;
 	ccb.cdm.pattern_buf_len = 0;
 
+	skip_bus = 1;
+	skip_device = 1;
+
 	/*
 	 * We do the ioctl multiple times if necessary, in case there are
 	 * more than 100 nodes in the EDT.
@@ -119,9 +122,6 @@ print_periphs(int session_id)
 			      ccb.ccb_h.status, ccb.cdm.status);
 			break;
 		}
-
-		skip_bus = 1;
-		skip_device = 1;
 
 		for (i = 0; i < ccb.cdm.num_matches; i++) {
 			switch (ccb.cdm.matches[i].type) {

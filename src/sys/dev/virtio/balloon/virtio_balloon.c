@@ -27,7 +27,7 @@
 /* Driver for VirtIO memory balloon devices. */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/virtio/balloon/virtio_balloon.c 254182 2013-08-10 17:36:42Z kib $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/virtio/balloon/virtio_balloon.c 254182 2013-08-10 17:36:42Z kib $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

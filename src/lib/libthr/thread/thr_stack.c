@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/libthr/thread/thr_stack.c 217224 2011-01-10 16:10:25Z kib $
+ * $FreeBSD: stable/10/lib/libthr/thread/thr_stack.c 270040 2014-08-16 08:38:53Z kib $
  */
 
 #include <sys/types.h>
@@ -246,7 +246,10 @@ _thr_stack_alloc(struct pthread_attr *attr)
 		THREAD_LIST_UNLOCK(curthread);
 	}
 	else {
-		/* Allocate a stack from usrstack. */
+		/*
+		 * Allocate a stack from or below usrstack, depending
+		 * on the LIBPTHREAD_BIGSTACK_MAIN env variable.
+		 */
 		if (last_stack == NULL)
 			last_stack = _usrstack - _thr_stack_initial -
 			    _thr_guard_default;
@@ -268,7 +271,7 @@ _thr_stack_alloc(struct pthread_attr *attr)
 
 		/* Map the stack and guard page together, and split guard
 		   page from allocated space: */
-		if ((stackaddr = mmap(stackaddr, stacksize+guardsize,
+		if ((stackaddr = mmap(stackaddr, stacksize + guardsize,
 		     _rtld_get_stack_prot(), MAP_STACK,
 		     -1, 0)) != MAP_FAILED &&
 		    (guardsize == 0 ||

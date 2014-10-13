@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netinet6/ip6_forward.c 253970 2013-08-05 20:13:02Z hrs $");
+__FBSDID("$FreeBSD: stable/10/sys/netinet6/ip6_forward.c 264224 2014-04-07 12:58:54Z ae $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"
@@ -563,10 +563,8 @@ skip_routing:
 	odst = ip6->ip6_dst;
 	/* Run through list of hooks for output packets. */
 	error = pfil_run_hooks(&V_inet6_pfil_hook, &m, rt->rt_ifp, PFIL_OUT, NULL);
-	if (error != 0)
-		goto senderr;
-	if (m == NULL)
-		goto freecopy;
+	if (error != 0 || m == NULL)
+		goto freecopy;		/* consumed by filter */
 	ip6 = mtod(m, struct ip6_hdr *);
 
 	/* See if destination IP address was changed by packet filter. */
@@ -635,7 +633,6 @@ pass:
 		}
 	}
 
-senderr:
 	if (mcopy == NULL)
 		goto out;
 	switch (error) {

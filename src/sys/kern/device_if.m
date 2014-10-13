@@ -23,7 +23,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: release/10.0.0/sys/kern/device_if.m 239299 2012-08-15 15:42:57Z hselasky $
+# $FreeBSD: stable/10/sys/kern/device_if.m 239299 2012-08-15 15:42:57Z hselasky $
 #
 
 #include <sys/bus.h>

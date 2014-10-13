@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/sys/dev/iwn/if_iwnvar.h 254204 2013-08-11 01:57:54Z adrian $	*/
+/*	$FreeBSD: stable/10/sys/dev/iwn/if_iwnvar.h 264945 2014-04-25 21:42:52Z marius $	*/
 /*	$OpenBSD: if_iwnvar.h,v 1.18 2010/04/30 16:06:46 damien Exp $	*/
 
 /*-
@@ -294,11 +294,9 @@ struct iwn_softc {
 	struct iwn_tx_ring	txq[IWN5000_NTXQUEUES];
 	struct iwn_rx_ring	rxq;
 
-	int			mem_rid;
 	struct resource		*mem;
 	bus_space_tag_t		sc_st;
 	bus_space_handle_t	sc_sh;
-	int			irq_rid;
 	struct resource		*irq;
 	void 			*sc_ih;
 	bus_size_t		sc_sz;

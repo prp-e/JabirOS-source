@@ -33,7 +33,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/sys/hhook.h 251770 2013-06-15 04:03:40Z lstewart $
+ * $FreeBSD: stable/10/sys/sys/hhook.h 251770 2013-06-15 04:03:40Z lstewart $
  */
 
 /*

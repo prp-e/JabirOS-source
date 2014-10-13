@@ -1,6 +1,6 @@
 #!/bin/sh -
 #
-# $FreeBSD: release/10.0.0/release/picobsd/build/picobsd 255315 2013-09-06 17:19:57Z luigi $
+# $FreeBSD: stable/10/release/picobsd/build/picobsd 262761 2014-03-05 00:45:28Z gjb $
 # This file requires sysutils/makefs to run
 #
 # The PicoBSD build script. Invoked as
@@ -474,7 +474,7 @@ populate_floppy_fs() {		# OK
     for FLOPPY_TREE in ${PICO_TREE}/floppy.tree ${MY_TREE}/floppy.tree \
 		${MY_TREE}/floppy.tree.${SITE} ; do
 	if [ -d ${FLOPPY_TREE} ] ; then
-	    (cd ${FLOPPY_TREE} ; tar -cf - --exclude CVS \
+	    (cd ${FLOPPY_TREE} ; tar -cf - \
 		    --exclude .svn ${excl} . ) | \
 		(cd ${dst} ; tar x${o_tarv}f - )
 	    log "Copied from ${FLOPPY_TREE}"
@@ -714,7 +714,7 @@ populate_mfs_tree() {
     for MFS_TREE in ${PICO_TREE}/mfs_tree ${MY_TREE}/mfs_tree ; do
 	if [ -d ${MFS_TREE} ] ; then
 	    log "Copy ${MFS_TREE} ..."
-	    (cd ${MFS_TREE} ; tar -cf - --exclude CVS --exclude .svn . ) | \
+	    (cd ${MFS_TREE} ; tar -cf - --exclude .svn . ) | \
 		    (cd ${dst} ; tar x${o_tarv}f - )
 	fi
     done

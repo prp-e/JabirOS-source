@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/gdb/gdb_cons.c 253604 2013-07-24 09:45:31Z avg $");
+__FBSDID("$FreeBSD: stable/10/sys/gdb/gdb_cons.c 253604 2013-07-24 09:45:31Z avg $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

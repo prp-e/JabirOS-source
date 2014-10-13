@@ -886,7 +886,7 @@ int mlx4_flow_detach(struct mlx4_dev *dev, u64 reg_id)
 	err = mlx4_QP_FLOW_STEERING_DETACH(dev, reg_id);
 	if (err)
 		mlx4_err(dev, "Fail to detach network rule. registration id = 0x%llx\n",
-			 reg_id);
+			 (long long)reg_id);
 	return err;
 }
 EXPORT_SYMBOL_GPL(mlx4_flow_detach);
@@ -1148,7 +1148,7 @@ static int mlx4_QP_ATTACH(struct mlx4_dev *dev, struct mlx4_qp *qp,
 	qpn = qp->qpn;
 	qpn |= (prot << 28);
 	if (attach && block_loopback)
-		qpn |= (1 << 31);
+		qpn |= (1U << 31);
 
 	err = mlx4_cmd(dev, mailbox->dma, qpn, attach,
 		       MLX4_CMD_QP_ATTACH, MLX4_CMD_TIME_CLASS_A,

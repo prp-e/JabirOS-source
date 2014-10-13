@@ -38,7 +38,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/mv/twsi.c 239508 2012-08-21 17:49:20Z hrs $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/mv/twsi.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -304,6 +304,9 @@ twsi_locked_start(device_t dev, struct mv_twsi_softc *sc, int32_t mask,
 static int
 mv_twsi_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (!ofw_bus_is_compatible(dev, "mrvl,twsi"))
 		return (ENXIO);

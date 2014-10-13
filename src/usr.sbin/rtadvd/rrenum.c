@@ -1,4 +1,4 @@
-/*	$FreeBSD: release/10.0.0/usr.sbin/rtadvd/rrenum.c 253970 2013-08-05 20:13:02Z hrs $	*/
+/*	$FreeBSD: stable/10/usr.sbin/rtadvd/rrenum.c 253970 2013-08-05 20:13:02Z hrs $	*/
 /*	$KAME: rrenum.c,v 1.12 2002/06/10 19:59:47 itojun Exp $	*/
 
 /*

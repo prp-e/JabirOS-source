@@ -22,7 +22,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/cpucontrol/via.h 228436 2011-12-12 12:30:44Z fabient $
+ * $FreeBSD: stable/10/usr.sbin/cpucontrol/via.h 228436 2011-12-12 12:30:44Z fabient $
  */
 
 #ifndef VIA_H

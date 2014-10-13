@@ -54,7 +54,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/ti/usb/omap_ehci.c 241081 2012-10-01 05:15:13Z andrew $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/ti/usb/omap_ehci.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include "opt_bus.h"
 
@@ -736,6 +736,10 @@ omap_ehci_shutdown(device_t dev)
 static int
 omap_ehci_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
+
 	if (!ofw_bus_is_compatible(dev, "ti,usb-ehci"))
 		return (ENXIO);
 

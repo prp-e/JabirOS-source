@@ -2,7 +2,7 @@
  *
  * Simple sequence mode test.
  *
- * $FreeBSD: release/10.0.0/lib/libkse/test/hello_s.c 172491 2007-10-09 13:42:34Z obrien $
+ * $FreeBSD: stable/10/lib/libkse/test/hello_s.c 172491 2007-10-09 13:42:34Z obrien $
  *
  ****************************************************************************/
 

@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sbin/hastd/Makefile 250503 2013-05-11 09:51:44Z trociny $
+# $FreeBSD: stable/10/sbin/hastd/Makefile 270911 2014-09-01 03:22:47Z ngie $
 
 .include <bsd.own.mk>
 
@@ -30,7 +30,7 @@ CFLAGS+=-DINET
 CFLAGS+=-DINET6
 .endif
 
-DPADD=	${LIBGEOM} ${LIBBSDXML} ${LIBSBUF} ${LIBL} ${LIBPTHREAD} ${LIBUTIL}
+DPADD=	${LIBGEOM} ${LIBBSDXML} ${LIBSBUF} ${LIBPTHREAD} ${LIBUTIL}
 LDADD=	-lgeom -lbsdxml -lsbuf -lpthread -lutil
 .if ${MK_OPENSSL} != "no"
 DPADD+=	${LIBCRYPTO}

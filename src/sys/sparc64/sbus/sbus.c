@@ -52,7 +52,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/sparc64/sbus/sbus.c 247621 2013-03-02 13:08:13Z marius $");
+__FBSDID("$FreeBSD: stable/10/sys/sparc64/sbus/sbus.c 247621 2013-03-02 13:08:13Z marius $");
 
 /*
  * SBus support.

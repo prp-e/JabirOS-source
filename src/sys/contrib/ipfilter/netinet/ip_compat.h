@@ -4,7 +4,7 @@
  * See the IPFILTER.LICENCE file for details on licencing.
  *
  * @(#)ip_compat.h	1.8 1/14/96
- * $FreeBSD: release/10.0.0/sys/contrib/ipfilter/netinet/ip_compat.h 255754 2013-09-21 03:57:56Z cy $
+ * $FreeBSD: stable/10/sys/contrib/ipfilter/netinet/ip_compat.h 269696 2014-08-08 00:58:24Z cy $
  * Id: ip_compat.h,v 2.142.2.57 2007/10/10 09:51:42 darrenr Exp $
  */
 
@@ -33,10 +33,6 @@
 #endif
 
 #define	SOLARIS	(defined(sun) && (defined(__svr4__) || defined(__SVR4)))
-#if defined(__FreeBSD_version) && (__FreeBSD_version >= 400000) && \
-    !defined(_KERNEL) && !defined(USE_INET6) && !defined(NOINET6)
-# define	USE_INET6
-#endif
 
 
 #if defined(__SVR4) || defined(__svr4__) || defined(__sgi)
@@ -121,6 +117,10 @@ struct  ether_addr {
 #   include "opt_inet6.h"
 #  if defined(INET6) && !defined(USE_INET6)
 #   define USE_INET6
+#  endif
+# else
+#  if !defined(USE_INET6) && !defined(NOINET6)
+#   define	USE_INET6
 #  endif
 # endif
 

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/mpc85xx/i2c.c 235935 2012-05-24 21:09:38Z marcel $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/mpc85xx/i2c.c 235935 2012-05-24 21:09:38Z marcel $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -28,7 +28,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/syscons/syscons.h 247792 2013-03-04 14:00:58Z davide $
+ * $FreeBSD: stable/10/sys/dev/syscons/syscons.h 262674 2014-03-02 01:46:44Z jmmv $
  */
 
 #ifndef _DEV_SYSCONS_SYSCONS_H_
@@ -145,9 +145,9 @@
 /*
    The following #defines are hard-coded for a maximum text
    resolution corresponding to a maximum framebuffer
-   resolution of 1600x1200 with an 8x8 font...
+   resolution of 1920x1200 with an 8x8 font...
 */
-#define	COL		200
+#define	COL		240
 #define	ROW		150
 
 #define PCBURST		128

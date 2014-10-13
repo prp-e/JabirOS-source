@@ -1,5 +1,5 @@
 #
-# $FreeBSD: release/10.0.0/usr.bin/vi/Makefile 254225 2013-08-11 20:03:12Z peter $
+# $FreeBSD: stable/10/usr.bin/vi/Makefile 262643 2014-03-01 03:09:16Z brooks $
 #
 
 .include <bsd.own.mk>
@@ -36,7 +36,7 @@ CFLAGS+=-I${.CURDIR} -I${SRCDIR} -I${SRCDIR}/regex
 DPADD=		${LIBUTIL}
 LDADD=		-lutil
 
-.if defined(RESCUE) || defined(RELEASE_CRUNCH)
+.if defined(RESCUE) || defined(RELEASE_CRUNCH) || ${MK_NCURSESW} == "no"
 DPADD+=		${LIBNCURSES}
 LDADD+=		-lncurses
 .else

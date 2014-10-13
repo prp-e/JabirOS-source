@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/cam/cam_compat.c 255870 2013-09-25 15:55:56Z scottl $");
+__FBSDID("$FreeBSD: stable/10/sys/cam/cam_compat.c 255870 2013-09-25 15:55:56Z scottl $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

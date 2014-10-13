@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/bin/date/vary.c 133381 2004-08-09 13:43:39Z yar $");
+__FBSDID("$FreeBSD: stable/10/bin/date/vary.c 133381 2004-08-09 13:43:39Z yar $");
 
 #include <err.h>
 #include <time.h>

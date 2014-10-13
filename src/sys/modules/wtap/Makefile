@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/modules/wtap/Makefile 230273 2012-01-17 18:20:34Z adrian $
+# $FreeBSD: stable/10/sys/modules/wtap/Makefile 230273 2012-01-17 18:20:34Z adrian $
 
 
 # Declare Name of kernel module

@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)file.h	8.3 (Berkeley) 1/9/95
- * $FreeBSD: release/10.0.0/sys/sys/file.h 255675 2013-09-18 18:48:33Z rdivacky $
+ * $FreeBSD: stable/10/sys/sys/file.h 255675 2013-09-18 18:48:33Z rdivacky $
  */
 
 #ifndef _SYS_FILE_H_

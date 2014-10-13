@@ -52,7 +52,7 @@
 #define SND_USE_FXDIV
 #include "snd_fxdiv_gen.h"
 
-SND_DECLARE_FILE("$FreeBSD: release/10.0.0/sys/dev/sound/pcm/feeder_matrix.c 243138 2012-11-16 07:05:57Z mav $");
+SND_DECLARE_FILE("$FreeBSD: stable/10/sys/dev/sound/pcm/feeder_matrix.c 243138 2012-11-16 07:05:57Z mav $");
 #endif
 
 #define FEEDMATRIX_RESERVOIR	(SND_CHN_MAX * PCM_32_BPS)

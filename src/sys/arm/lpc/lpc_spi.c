@@ -25,7 +25,7 @@
  *
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/lpc/lpc_spi.c 239278 2012-08-15 05:37:10Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/lpc/lpc_spi.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -50,7 +50,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/lpc/lpc_spi.c 239278 2012-08-15 05:37
 #include <machine/cpu.h>
 #include <machine/cpufunc.h>
 #include <machine/resource.h>
-#include <machine/frame.h>
 #include <machine/intr.h>
 
 #include <dev/spibus/spi.h>
@@ -86,6 +85,10 @@ static int lpc_spi_transfer(device_t, device_t, struct spi_command *);
 static int
 lpc_spi_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
+
 	if (!ofw_bus_is_compatible(dev, "lpc,spi"))
 		return (ENXIO);
 

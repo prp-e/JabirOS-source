@@ -28,7 +28,7 @@
 #ifndef lint
 __RCSID("$NetBSD: boot.c,v 1.11 2006/06/05 16:51:18 christos Exp ");
 static const char rcsid[] =
-  "$FreeBSD: release/10.0.0/sbin/fsck_msdosfs/boot.c 241807 2012-10-21 12:01:19Z uqs $";
+  "$FreeBSD: stable/10/sbin/fsck_msdosfs/boot.c 241807 2012-10-21 12:01:19Z uqs $";
 #endif /* not lint */
 
 #include <stdlib.h>

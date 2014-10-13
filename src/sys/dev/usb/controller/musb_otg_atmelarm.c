@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/usb/controller/musb_otg_atmelarm.c 252912 2013-07-07 04:18:35Z gonzo $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/usb/controller/musb_otg_atmelarm.c 252912 2013-07-07 04:18:35Z gonzo $");
 
 #include <sys/stdint.h>
 #include <sys/stddef.h>

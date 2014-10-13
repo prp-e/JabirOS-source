@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/i386/include/counter.h 252434 2013-07-01 02:48:27Z kib $
+ * $FreeBSD: stable/10/sys/i386/include/counter.h 252434 2013-07-01 02:48:27Z kib $
  */
 
 #ifndef __MACHINE_COUNTER_H__

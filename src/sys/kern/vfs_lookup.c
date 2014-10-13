@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/vfs_lookup.c 255677 2013-09-18 19:26:08Z pjd $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/vfs_lookup.c 260817 2014-01-17 10:58:59Z avg $");
 
 #include "opt_capsicum.h"
 #include "opt_kdtrace.h"
@@ -70,9 +70,9 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/kern/vfs_lookup.c 255677 2013-09-18 19:26
 #undef NAMEI_DIAGNOSTIC
 
 SDT_PROVIDER_DECLARE(vfs);
-SDT_PROBE_DEFINE3(vfs, namei, lookup, entry, entry, "struct vnode *", "char *",
+SDT_PROBE_DEFINE3(vfs, namei, lookup, entry, "struct vnode *", "char *",
     "unsigned long");
-SDT_PROBE_DEFINE2(vfs, namei, lookup, return, return, "int", "struct vnode *");
+SDT_PROBE_DEFINE2(vfs, namei, lookup, return, "int", "struct vnode *");
 
 /*
  * Allocation zone for namei
@@ -424,13 +424,8 @@ needs_exclusive_leaf(struct mount *mp, int flags)
 	 * extended shared operations, then use a shared lock for the
 	 * leaf node, otherwise use an exclusive lock.
 	 */
-	if (flags & ISOPEN) {
-		if (mp != NULL &&
-		    (mp->mnt_kern_flag & MNTK_EXTENDED_SHARED))
-			return (0);
-		else
-			return (1);
-	}
+	if ((flags & ISOPEN) != 0)
+		return (!MNT_EXTENDED_SHARED(mp));
 
 	/*
 	 * Lookup requests outside of open() that specify LOCKSHARED

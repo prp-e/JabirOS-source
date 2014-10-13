@@ -1,4 +1,4 @@
-#	$FreeBSD: release/10.0.0/usr.sbin/makefs/cd9660/Makefile.inc 214921 2010-11-07 16:05:04Z cognet $
+#	$FreeBSD: stable/10/usr.sbin/makefs/cd9660/Makefile.inc 214921 2010-11-07 16:05:04Z cognet $
 #
 
 .PATH:	${.CURDIR}/cd9660 ${.CURDIR}/../../sys/fs/cd9660/

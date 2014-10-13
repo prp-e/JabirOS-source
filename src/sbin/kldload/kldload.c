@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/kldload/kldload.c 233109 2012-03-18 09:45:43Z hselasky $");
+__FBSDID("$FreeBSD: stable/10/sbin/kldload/kldload.c 260906 2014-01-20 14:37:02Z bapt $");
 
 #include <sys/types.h>
 #include <sys/param.h>
@@ -181,7 +181,22 @@ main(int argc, char** argv)
 						printf("%s is already "
 						    "loaded\n", argv[0]);
 				} else {
-					warn("can't load %s", argv[0]);
+					switch (errno) {
+					case EEXIST:
+						warnx("can't load %s: module "
+						    "already loaded or "
+						    "in kernel", argv[0]);
+						break;
+					case ENOEXEC:
+						warnx("an error occurred while "
+						    "loading the module. "
+						    "Please check dmesg(8) for "
+						    "more details.");
+						break;
+					default:
+						warn("can't load %s", argv[0]);
+						break;
+					}
 					errors++;
 				}
 			} else {

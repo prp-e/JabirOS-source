@@ -23,7 +23,7 @@
 .\" ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 .\" POSSIBILITY OF SUCH DAMAGE.
 .\"
-.\" $FreeBSD: release/10.0.0/usr.sbin/bsdinstall/bsdinstall.8 258421 2013-11-21 03:40:52Z dteske $
+.\" $FreeBSD: stable/10/usr.sbin/bsdinstall/bsdinstall.8 271095 2014-09-04 13:45:16Z se $
 .\"
 .Dd October 15, 2013
 .Dt BSDINSTALL 8
@@ -95,6 +95,8 @@ for more information on this target.
 .It Cm keymap
 If the current controlling TTY is a
 .Xr syscons 4
+or
+.Xr vt 4
 console, asks the user to set the current keymap, and saves the result to the
 new system's
 .Pa rc.conf .

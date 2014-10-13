@@ -22,7 +22,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/uhsoctl/uhsoctl.c 229467 2012-01-04 07:21:37Z pjd $
+ * $FreeBSD: stable/10/usr.sbin/uhsoctl/uhsoctl.c 268762 2014-07-16 12:57:53Z gavin $
  */
 
 #include <sys/types.h>
@@ -601,7 +601,7 @@ at_cmd(struct ctx *ctx, const char *resp, resp_cb cb, resp_arg *ra, const char *
 	if (resp != NULL) {
 		l = strlen(resp);
 #ifdef DEBUG
-		fprintf(stderr, "SYNC_EXP: %s (%d)\n", resp, l);
+		fprintf(stderr, "SYNC_EXP: %s (%zu)\n", resp, l);
 #endif
 	}
 

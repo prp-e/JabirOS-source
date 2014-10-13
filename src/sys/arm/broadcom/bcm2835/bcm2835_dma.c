@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/broadcom/bcm2835/bcm2835_dma.c 250131 2013-05-01 04:37:34Z eadler $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/broadcom/bcm2835/bcm2835_dma.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -50,7 +50,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/broadcom/bcm2835/bcm2835_dma.c 250131
 #include <machine/bus.h>
 #include <machine/cpu.h>
 #include <machine/cpufunc.h>
-#include <machine/pmap.h>
 
 #include "bcm2835_dma.h"
 #include "bcm2835_vcbus.h"
@@ -75,7 +74,7 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/broadcom/bcm2835/bcm2835_dma.c 250131
 #define		CS_WAITWRT		(1 << 28)
 #define		CS_DISDBG		(1 << 29)
 #define		CS_ABORT		(1 << 30)
-#define		CS_RESET		(1 << 31)
+#define		CS_RESET		(1U << 31)
 #define	BCM_DMA_CBADDR(n)	(0x100*(n) + 0x04)
 #define	BCM_DMA_INFO(n)		(0x100*(n) + 0x08)
 #define		INFO_INT_EN		(1 << 0)
@@ -637,6 +636,9 @@ bcm_dma_intr(void *arg)
 static int
 bcm_dma_probe(device_t dev)
 {
+
+	if (!ofw_bus_status_okay(dev))
+		return (ENXIO);
 
 	if (!ofw_bus_is_compatible(dev, "broadcom,bcm2835-dma"))
 		return (ENXIO);

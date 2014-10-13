@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/bhyve/spinup_ap.h 240912 2012-09-25 02:33:25Z neel $
+ * $FreeBSD: stable/10/usr.sbin/bhyve/spinup_ap.h 240912 2012-09-25 02:33:25Z neel $
  */
 
 #ifndef	_SPINUP_AP_H_

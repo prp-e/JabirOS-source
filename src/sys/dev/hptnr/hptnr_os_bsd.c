@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/hptnr/hptnr_os_bsd.c 252867 2013-07-06 07:49:41Z delphij $
+ * $FreeBSD: stable/10/sys/dev/hptnr/hptnr_os_bsd.c 270810 2014-08-29 13:06:30Z delphij $
  */
 
 #include <dev/hptnr/hptnr_config.h>
@@ -285,21 +285,7 @@ int os_revalidate_device(void *osext, int id)
 
 int os_query_remove_device(void *osext, int id)
 {
-	PVBUS_EXT				vbus_ext = (PVBUS_EXT)osext;
-	struct cam_periph		*periph = NULL;
-    struct cam_path			*path;
-    int						status,retval = 0;
-
-    status = xpt_create_path(&path, NULL, vbus_ext->sim->path_id, id, 0);
-    if (status == CAM_REQ_CMP) {
-		if((periph = cam_periph_find(path, "da")) != NULL){
-			if(periph->refcount >= 1)	
-				retval = -1;
-		}
-		xpt_free_path(path);
-    }
-
-    return retval;
+    return 0;
 }
 
 HPT_U8 os_get_vbus_seq(void *osext)

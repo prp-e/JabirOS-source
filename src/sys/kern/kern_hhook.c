@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_hhook.c 251787 2013-06-15 10:08:34Z lstewart $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_hhook.c 251787 2013-06-15 10:08:34Z lstewart $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

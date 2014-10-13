@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/powerpc/powermac/smusat.c 231770 2012-02-15 16:59:24Z nwhitehorn $");
+__FBSDID("$FreeBSD: stable/10/sys/powerpc/powermac/smusat.c 231770 2012-02-15 16:59:24Z nwhitehorn $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

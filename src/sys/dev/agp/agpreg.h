@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: release/10.0.0/sys/dev/agp/agpreg.h 235782 2012-05-22 10:59:26Z kib $
+ *	$FreeBSD: stable/10/sys/dev/agp/agpreg.h 235782 2012-05-22 10:59:26Z kib $
  */
 
 #ifndef _PCI_AGPREG_H_

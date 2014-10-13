@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: release/10.0.0/lib/libgssapi/utils.h 181344 2008-08-06 14:02:05Z dfr $
+ *	$FreeBSD: stable/10/lib/libgssapi/utils.h 181344 2008-08-06 14:02:05Z dfr $
  */
 
 #define _gss_buffer_zero(buffer) \

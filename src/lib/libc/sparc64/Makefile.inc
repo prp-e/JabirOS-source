@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libc/sparc64/Makefile.inc 246117 2013-01-30 12:48:16Z kib $
+# $FreeBSD: stable/10/lib/libc/sparc64/Makefile.inc 246117 2013-01-30 12:48:16Z kib $
 #
 # Machine dependent definitions for the ultra sparc architecture.
 #

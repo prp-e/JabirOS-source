@@ -52,7 +52,7 @@
  *                        xnb1
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/xen/xenbus/xenbusb.c 250917 2013-05-22 19:22:44Z gibbs $");
+__FBSDID("$FreeBSD: stable/10/sys/xen/xenbus/xenbusb.c 250917 2013-05-22 19:22:44Z gibbs $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

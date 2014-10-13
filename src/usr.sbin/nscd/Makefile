@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/usr.sbin/nscd/Makefile 194098 2009-06-13 01:23:34Z des $
+# $FreeBSD: stable/10/usr.sbin/nscd/Makefile 194098 2009-06-13 01:23:34Z des $
 
 PROG=	nscd
 MAN=	nscd.conf.5 nscd.8

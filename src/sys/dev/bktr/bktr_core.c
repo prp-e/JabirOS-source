@@ -63,7 +63,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/bktr/bktr_core.c 254025 2013-08-07 06:21:20Z jeff $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/bktr/bktr_core.c 261455 2014-02-04 03:36:42Z eadler $");
 
 /*
  * This is part of the Driver for Video Capture Cards (Frame grabbers)
@@ -2599,7 +2599,7 @@ dump_bt848( bktr_ptr_t bktr )
 #define BKTR_TEST_RISC_STATUS_BIT0 (1 << 28)
 #define BKTR_TEST_RISC_STATUS_BIT1 (1 << 29)
 #define BKTR_TEST_RISC_STATUS_BIT2 (1 << 30)
-#define BKTR_TEST_RISC_STATUS_BIT3 (1 << 31)
+#define BKTR_TEST_RISC_STATUS_BIT3 (1U << 31)
 
 static bool_t notclipped (bktr_reg_t * bktr, int x, int width) {
     int i;

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libelf/elf_errmsg.c 241720 2012-10-19 05:43:38Z ed $");
+__FBSDID("$FreeBSD: stable/10/lib/libelf/elf_errmsg.c 241720 2012-10-19 05:43:38Z ed $");
 
 #include <libelf.h>
 #include <string.h>

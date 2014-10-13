@@ -30,7 +30,7 @@
 
 #include <machine/asm.h>
 
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/arm/string/strcmp.S 137464 2004-11-09 16:49:14Z cognet $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/arm/string/strcmp.S 271337 2014-09-09 22:24:01Z ian $");
 
 ENTRY(strcmp)
 1:
@@ -41,3 +41,4 @@ ENTRY(strcmp)
 	beq	1b
 	sub	r0, r2, r3
 	RET
+END(strcmp)

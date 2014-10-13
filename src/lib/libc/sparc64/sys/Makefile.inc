@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libc/sparc64/sys/Makefile.inc 221869 2011-05-14 01:53:38Z attilio $
+# $FreeBSD: stable/10/lib/libc/sparc64/sys/Makefile.inc 221869 2011-05-14 01:53:38Z attilio $
 
 SRCS+=	__sparc_sigtramp_setup.c \
 	__sparc_utrap.c \

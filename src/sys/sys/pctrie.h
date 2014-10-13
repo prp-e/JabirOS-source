@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/sys/pctrie.h 250578 2013-05-12 20:44:28Z jeff $
+ * $FreeBSD: stable/10/sys/sys/pctrie.h 260266 2014-01-04 17:36:13Z dim $
  */
 
 #ifndef _SYS_PCTRIE_H_
@@ -83,14 +83,14 @@ name##_PCTRIE_LOOKUP_LE(struct pctrie *ptree, uint64_t key)		\
 	return name##_PCTRIE_VAL2PTR(pctrie_lookup_le(ptree, key));	\
 }									\
 									\
-static __inline struct type *						\
+static __inline __unused struct type *					\
 name##_PCTRIE_LOOKUP_GE(struct pctrie *ptree, uint64_t key)		\
 {									\
 									\
 	return name##_PCTRIE_VAL2PTR(pctrie_lookup_ge(ptree, key));	\
 }									\
 									\
-static __inline void							\
+static __inline __unused void						\
 name##_PCTRIE_RECLAIM(struct pctrie *ptree)				\
 {									\
 									\

@@ -68,7 +68,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/kern/kern_acct.c 252422 2013-06-30 19:08:06Z mjg $");
+__FBSDID("$FreeBSD: stable/10/sys/kern/kern_acct.c 252422 2013-06-30 19:08:06Z mjg $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

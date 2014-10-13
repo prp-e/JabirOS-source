@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/arm/ti/am335x/am335x_lcd.h 251018 2013-05-27 00:23:01Z gonzo $
+ * $FreeBSD: stable/10/sys/arm/ti/am335x/am335x_lcd.h 251018 2013-05-27 00:23:01Z gonzo $
  */
 #ifndef __AM335X_LCD_H__
 #define __AM335X_LCD_H__

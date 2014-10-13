@@ -1,5 +1,5 @@
 #
-# $FreeBSD: release/10.0.0/sys/modules/oce/Makefile 231512 2012-02-11 08:34:33Z bz $
+# $FreeBSD: stable/10/sys/modules/oce/Makefile 231512 2012-02-11 08:34:33Z bz $
 #
 
 .PATH:	${.CURDIR}/../../dev/oce

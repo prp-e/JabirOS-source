@@ -1,4 +1,8 @@
-# $FreeBSD: release/10.0.0/tools/tools/ath/athstats/Makefile 244970 2013-01-02 18:49:40Z adrian $
+# $FreeBSD: stable/10/tools/tools/ath/athstats/Makefile 260096 2013-12-30 20:15:46Z dim $
+
+NO_MAN=1
+
+.include <bsd.own.mk>
 
 .PATH:	${.CURDIR}/../../../../sys/dev/ath/ath_hal
 
@@ -6,7 +10,7 @@ PROG=	athstats
 
 # Because of a clang preprocessor parser limitation causing this
 # to not compile, use gcc for now.
-CC=	gcc
+#CC=	gcc
 
 SRCS=	main.c statfoo.c athstats.c opt_ah.h ah_osdep.h
 
@@ -16,6 +20,8 @@ CLEANFILES+=	opt_ah.h
 
 CFLAGS+=-DATH_SUPPORT_ANI
 CFLAGS+=-DATH_SUPPORT_TDMA
+
+CFLAGS.clang+= -fbracket-depth=512
 
 opt_ah.h:
 	echo "#define AH_DEBUG 1" > opt_ah.h

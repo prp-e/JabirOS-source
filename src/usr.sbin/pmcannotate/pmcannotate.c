@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/usr.sbin/pmcannotate/pmcannotate.c 250304 2013-05-06 18:30:49Z hiren $");
+__FBSDID("$FreeBSD: stable/10/usr.sbin/pmcannotate/pmcannotate.c 266889 2014-05-30 15:00:50Z gnn $");
 
 #include <sys/param.h>
 #include <sys/queue.h>
@@ -41,8 +41,8 @@ __FBSDID("$FreeBSD: release/10.0.0/usr.sbin/pmcannotate/pmcannotate.c 250304 201
 
 #include <unistd.h>
 
-#define	FNBUFF	161
-#define	LNBUFF	161
+#define	FNBUFF	512
+#define	LNBUFF	512
 
 #define	TMPPATH	"/tmp/pmcannotate.XXXXXX"
 

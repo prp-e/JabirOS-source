@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/kerberos5/lib/libkafs5/Makefile 236337 2012-05-30 22:21:25Z obrien $
+# $FreeBSD: stable/10/kerberos5/lib/libkafs5/Makefile 236337 2012-05-30 22:21:25Z obrien $
 
 LIB=	kafs5
 LDADD=	-lasn1 -lroken -lkrb5

@@ -1,6 +1,6 @@
 /******************************************************************************
 
-  Copyright (c) 2001-2013, Intel Corporation 
+  Copyright (c) 2001-2014, Intel Corporation 
   All rights reserved.
   
   Redistribution and use in source and binary forms, with or without 
@@ -30,7 +30,7 @@
   POSSIBILITY OF SUCH DAMAGE.
 
 ******************************************************************************/
-/*$FreeBSD: release/10.0.0/sys/dev/e1000/e1000_manage.c 247064 2013-02-21 00:25:45Z jfv $*/
+/*$FreeBSD: stable/10/sys/dev/e1000/e1000_manage.c 269196 2014-07-28 21:11:18Z jfv $*/
 
 #include "e1000_api.h"
 
@@ -364,9 +364,12 @@ bool e1000_enable_mng_pass_thru(struct e1000_hw *hw)
 	} else if ((hw->mac.type == e1000_82574) ||
 		   (hw->mac.type == e1000_82583)) {
 		u16 data;
+		s32 ret_val;
 
 		factps = E1000_READ_REG(hw, E1000_FACTPS);
-		e1000_read_nvm(hw, NVM_INIT_CONTROL2_REG, 1, &data);
+		ret_val = e1000_read_nvm(hw, NVM_INIT_CONTROL2_REG, 1, &data);
+		if (ret_val)
+			return FALSE;
 
 		if (!(factps & E1000_FACTPS_MNGCG) &&
 		    ((data & E1000_NVM_INIT_CTRL2_MNGM) ==
@@ -374,7 +377,7 @@ bool e1000_enable_mng_pass_thru(struct e1000_hw *hw)
 			return TRUE;
 	} else if ((manc & E1000_MANC_SMBUS_EN) &&
 		   !(manc & E1000_MANC_ASF_EN)) {
-			return TRUE;
+		return TRUE;
 	}
 
 	return FALSE;

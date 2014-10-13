@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/random/hash.c 255362 2013-09-07 14:15:13Z markm $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/random/hash.c 255362 2013-09-07 14:15:13Z markm $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

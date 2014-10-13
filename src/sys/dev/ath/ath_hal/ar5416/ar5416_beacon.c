@@ -14,7 +14,7 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/ath/ath_hal/ar5416/ar5416_beacon.c 225819 2011-09-28 03:03:23Z adrian $
+ * $FreeBSD: stable/10/sys/dev/ath/ath_hal/ar5416/ar5416_beacon.c 225819 2011-09-28 03:03:23Z adrian $
  */
 #include "opt_ah.h"
 

@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/arm/arm/minidump_machdep.c 221173 2011-04-28 16:02:05Z attilio $");
+__FBSDID("$FreeBSD: stable/10/sys/arm/arm/minidump_machdep.c 266374 2014-05-17 23:03:04Z ian $");
 
 #include "opt_watchdog.h"
 
@@ -43,7 +43,6 @@ __FBSDID("$FreeBSD: release/10.0.0/sys/arm/arm/minidump_machdep.c 221173 2011-04
 #endif
 #include <vm/vm.h>
 #include <vm/pmap.h>
-#include <machine/pmap.h>
 #include <machine/atomic.h>
 #include <machine/elf.h>
 #include <machine/md_var.h>
@@ -211,7 +210,15 @@ minidumpsys(struct dumperinfo *di)
 	int i, k, bit, error;
 	char *addr;
 
-	/* Flush cache */
+	/*
+	 * Flush caches.  Note that in the SMP case this operates only on the
+	 * current CPU's L1 cache.  Before we reach this point, code in either
+	 * the system shutdown or kernel debugger has called stop_cpus() to stop
+	 * all cores other than this one.  Part of the ARM handling of
+	 * stop_cpus() is to call wbinv_all() on that core's local L1 cache.  So
+	 * by time we get to here, all that remains is to flush the L1 for the
+	 * current CPU, then the L2.
+	 */
 	cpu_idcache_wbinv_all();
 	cpu_l2cache_wbinv_all();
 

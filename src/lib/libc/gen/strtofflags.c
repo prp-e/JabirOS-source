@@ -31,7 +31,7 @@
 static char sccsid[] = "@(#)stat_flags.c	8.1 (Berkeley) 5/31/93";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/lib/libc/gen/strtofflags.c 254627 2013-08-21 23:04:48Z ken $");
+__FBSDID("$FreeBSD: stable/10/lib/libc/gen/strtofflags.c 254627 2013-08-21 23:04:48Z ken $");
 
 #include <sys/types.h>
 #include <sys/stat.h>

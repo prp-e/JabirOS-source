@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/clang/liblldbPluginProcessPOSIX/Makefile 255722 2013-09-20 01:52:02Z emaste $
+# $FreeBSD: stable/10/lib/clang/liblldbPluginProcessPOSIX/Makefile 263363 2014-03-19 13:11:35Z emaste $
 
 .include <bsd.own.mk>
 
@@ -15,10 +15,15 @@ SRCS=	POSIXStopInfo.cpp \
 	ProcessMessage.cpp \
 	ProcessPOSIX.cpp \
 	ProcessPOSIXLog.cpp \
+	RegisterContextFreeBSD_i386.cpp \
+	RegisterContextFreeBSD_mips64.cpp \
 	RegisterContextFreeBSD_x86_64.cpp \
-	RegisterContext_i386.cpp \
+	RegisterContextLinux_i386.cpp \
 	RegisterContextLinux_x86_64.cpp \
-	RegisterContext_x86_64.cpp
+	RegisterContextPOSIXProcessMonitor_mips64.cpp \
+	RegisterContextPOSIXProcessMonitor_x86.cpp \
+	RegisterContextPOSIX_mips64.cpp \
+	RegisterContextPOSIX_x86.cpp
 
 TGHDRS=	DiagnosticCommonKinds \
 	DeclNodes \

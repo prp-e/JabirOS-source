@@ -13,7 +13,7 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * $FreeBSD: release/10.0.0/sys/dev/iwn/if_iwn_devid.h 253897 2013-08-02 21:23:28Z adrian $
+ * $FreeBSD: stable/10/sys/dev/iwn/if_iwn_devid.h 253897 2013-08-02 21:23:28Z adrian $
  */
 
 #ifndef	__IF_IWN_DEVID_H__

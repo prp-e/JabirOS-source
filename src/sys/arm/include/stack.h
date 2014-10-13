@@ -26,7 +26,7 @@
  * any improvements or extensions that they make and grant Carnegie the
  * rights to redistribute these changes.
  *
- * $FreeBSD: release/10.0.0/sys/arm/include/stack.h 236992 2012-06-13 05:02:51Z imp $
+ * $FreeBSD: stable/10/sys/arm/include/stack.h 236992 2012-06-13 05:02:51Z imp $
  */
 
 #ifndef _MACHINE_STACK_H_

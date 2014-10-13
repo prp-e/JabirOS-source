@@ -25,7 +25,7 @@
 # IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
-# $FreeBSD: release/10.0.0/usr.sbin/portsnap/portsnap/portsnap.sh 253224 2013-07-11 22:19:18Z cperciva $
+# $FreeBSD: stable/10/usr.sbin/portsnap/portsnap/portsnap.sh 265742 2014-05-09 07:07:25Z delphij $
 
 #### Usage function -- called from command-line handling code.
 
@@ -362,7 +362,7 @@ fetch_pick_server_init() {
 # "$name server selection ..."; we allow either format.
 	MLIST="_http._tcp.${SERVERNAME}"
 	host -t srv "${MLIST}" |
-	    sed -nE "s/${MLIST} (has SRV record|server selection) //p" |
+	    sed -nE "s/${MLIST} (has SRV record|server selection) //Ip" |
 	    cut -f 1,2,4 -d ' ' |
 	    sed -e 's/\.$//' |
 	    sort > serverlist_full

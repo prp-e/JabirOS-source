@@ -67,7 +67,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/netinet/ip_mroute.c 255249 2013-09-05 14:26:37Z jhb $");
+__FBSDID("$FreeBSD: stable/10/sys/netinet/ip_mroute.c 261208 2014-01-27 09:33:30Z glebius $");
 
 #include "opt_inet.h"
 #include "opt_mrouting.h"
@@ -2556,14 +2556,13 @@ pim_encapcheck(const struct mbuf *m, int off, int proto, void *arg)
  * is passed to if_simloop().
  */
 void
-pim_input(struct mbuf *m, int off)
+pim_input(struct mbuf *m, int iphlen)
 {
     struct ip *ip = mtod(m, struct ip *);
     struct pim *pim;
     int minlen;
-    int datalen = ntohs(ip->ip_len);
+    int datalen = ntohs(ip->ip_len) - iphlen;
     int ip_tos;
-    int iphlen = off;
 
     /* Keep statistics */
     PIMSTAT_INC(pims_rcv_total_msgs);
@@ -2593,8 +2592,7 @@ pim_input(struct mbuf *m, int off)
      * Get the IP and PIM headers in contiguous memory, and
      * possibly the PIM REGISTER header.
      */
-    if ((m->m_flags & M_EXT || m->m_len < minlen) &&
-	(m = m_pullup(m, minlen)) == 0) {
+    if (m->m_len < minlen && (m = m_pullup(m, minlen)) == 0) {
 	CTR1(KTR_IPMF, "%s: m_pullup() failed", __func__);
 	return;
     }

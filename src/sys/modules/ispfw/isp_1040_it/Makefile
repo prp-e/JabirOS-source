@@ -24,7 +24,7 @@
 # SUCH DAMAGE.
 #
 
-# $FreeBSD: release/10.0.0/sys/modules/ispfw/isp_1040_it/Makefile 160212 2006-07-09 17:50:20Z mjacob $
+# $FreeBSD: stable/10/sys/modules/ispfw/isp_1040_it/Makefile 160212 2006-07-09 17:50:20Z mjacob $
 
 .PATH: ${.CURDIR}/../../../dev/ispfw
 

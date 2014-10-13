@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/lib/libalias/libalias/Makefile 204596 2010-03-02 18:44:08Z uqs $
+# $FreeBSD: stable/10/lib/libalias/libalias/Makefile 204596 2010-03-02 18:44:08Z uqs $
 
 .PATH: ${.CURDIR}/../../../sys/netinet/libalias
 

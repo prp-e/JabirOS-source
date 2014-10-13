@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/dev/hptiop/hptiop.c 255871 2013-09-25 17:16:21Z scottl $");
+__FBSDID("$FreeBSD: stable/10/sys/dev/hptiop/hptiop.c 255871 2013-09-25 17:16:21Z scottl $");
 
 #include <sys/param.h>
 #include <sys/types.h>

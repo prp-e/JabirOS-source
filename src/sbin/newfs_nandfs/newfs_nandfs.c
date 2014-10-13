@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sbin/newfs_nandfs/newfs_nandfs.c 249743 2013-04-21 22:36:14Z ed $");
+__FBSDID("$FreeBSD: stable/10/sbin/newfs_nandfs/newfs_nandfs.c 266274 2014-05-16 23:27:18Z ian $");
 
 #include <sys/param.h>
 #include <sys/fdcio.h>
@@ -988,10 +988,10 @@ calculate_geometry(int fd)
 	/* Get storage erase unit size */
 	if (!is_nand)
 		erasesize = NANDFS_DEF_ERASESIZE;
-	else if (ioctl(fd, NAND_IO_GET_CHIP_PARAM, &chip_params) == -1)
-		errx(1, "Cannot ioctl(NAND_IO_GET_CHIP_PARAM)");
-	else
+	else if (ioctl(fd, NAND_IO_GET_CHIP_PARAM, &chip_params) != -1)
 		erasesize = chip_params.page_size * chip_params.pages_per_block;
+	else
+		errx(1, "Cannot ioctl(NAND_IO_GET_CHIP_PARAM)");
 
 	debug("erasesize: %#jx", (uintmax_t)erasesize);
 

@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/lib/libutil/quotafile.c 255007 2013-08-28 21:10:37Z jilles $
+ * $FreeBSD: stable/10/lib/libutil/quotafile.c 255007 2013-08-28 21:10:37Z jilles $
  */
 
 #include <sys/types.h>

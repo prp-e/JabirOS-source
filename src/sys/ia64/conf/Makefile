@@ -1,4 +1,4 @@
-# $FreeBSD: release/10.0.0/sys/ia64/conf/Makefile 201813 2010-01-08 18:57:31Z bz $
+# $FreeBSD: stable/10/sys/ia64/conf/Makefile 201813 2010-01-08 18:57:31Z bz $
 
 TARGET=ia64
 

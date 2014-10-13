@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/sys/i386/include/metadata.h 250840 2013-05-21 03:05:49Z marcel $
+ * $FreeBSD: stable/10/sys/i386/include/metadata.h 250840 2013-05-21 03:05:49Z marcel $
  */
 
 #ifndef _MACHINE_METADATA_H_

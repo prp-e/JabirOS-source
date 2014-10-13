@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: release/10.0.0/sys/mips/atheros/ar71xx_spi.c 254990 2013-08-28 14:46:15Z loos $");
+__FBSDID("$FreeBSD: stable/10/sys/mips/atheros/ar71xx_spi.c 265999 2014-05-14 01:35:43Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -84,7 +84,7 @@ static int
 ar71xx_spi_probe(device_t dev)
 {
 	device_set_desc(dev, "AR71XX SPI");
-	return (0);
+	return (BUS_PROBE_NOWILDCARD);
 }
 
 static int

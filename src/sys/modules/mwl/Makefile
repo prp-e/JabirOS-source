@@ -26,7 +26,7 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
 # THE POSSIBILITY OF SUCH DAMAGES.
 #
-# $FreeBSD: release/10.0.0/sys/modules/mwl/Makefile 234866 2012-05-01 07:38:40Z uqs $
+# $FreeBSD: stable/10/sys/modules/mwl/Makefile 234866 2012-05-01 07:38:40Z uqs $
 #
 
 .PATH: ${.CURDIR}/../../dev/mwl

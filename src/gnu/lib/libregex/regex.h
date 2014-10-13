@@ -1,4 +1,4 @@
-/* $FreeBSD: release/10.0.0/gnu/lib/libregex/regex.h 251438 2013-06-05 21:31:06Z jkim $ */
+/* $FreeBSD: stable/10/gnu/lib/libregex/regex.h 251438 2013-06-05 21:31:06Z jkim $ */
 #ifndef _REGEX_H
 
 #ifndef __USE_GNU

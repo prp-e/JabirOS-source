@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: release/10.0.0/usr.sbin/bhyve/dbgport.h 256156 2013-10-08 16:36:17Z neel $
+ * $FreeBSD: stable/10/usr.sbin/bhyve/dbgport.h 256156 2013-10-08 16:36:17Z neel $
  */
 
 #ifndef _DBGPORT_H_

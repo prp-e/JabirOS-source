@@ -34,7 +34,7 @@
  *
  * from: FreeBSD: //depot/projects/arm/src/sys/arm/xscale/pxa2x0/pxa2x0var.h, rev 1
  *
- * $FreeBSD: release/10.0.0/sys/arm/mv/mvvar.h 250295 2013-05-06 14:54:17Z gber $
+ * $FreeBSD: stable/10/sys/arm/mv/mvvar.h 266084 2014-05-14 19:18:58Z ian $
  */
 
 #ifndef _MVVAR_H_
@@ -44,8 +44,9 @@
 #include <machine/bus.h>
 #include <vm/vm.h>
 #include <vm/pmap.h>
-#include <machine/pmap.h>
 #include <machine/vm.h>
+
+#include <dev/ofw/openfirm.h>
 
 #define	MV_TYPE_PCI		0
 #define	MV_TYPE_PCIE		1
@@ -67,7 +68,6 @@ struct decode_win {
 	vm_paddr_t	remap;
 };
 
-extern const struct pmap_devmap pmap_devmap[];
 extern const struct gpio_config mv_gpio_config[];
 extern const struct decode_win *cpu_wins;
 extern const struct decode_win *idma_wins;
@@ -136,5 +136,10 @@ void	mv_drbl_set_msg(uint32_t val, int mnr, int dir, int unit);
 uint32_t mv_drbl_get_msg(int mnr, int dir, int unit);
 
 int	mv_msi_data(int irq, uint64_t *addr, uint32_t *data);
+
+struct arm_devmap_entry;
+
+int mv_pci_devmap(phandle_t, struct arm_devmap_entry *, vm_offset_t,
+    vm_offset_t);
 
 #endif /* _MVVAR_H_ */
