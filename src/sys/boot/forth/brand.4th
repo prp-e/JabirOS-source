@@ -35,13 +35,13 @@ variable brandY
 
 : fbsd-logo ( x y -- ) \ "FreeBSD" [wide] logo in B/W (7 rows x 42 columns)
 
-	2dup at-xy ."J a b i r O S  " 1+
-	2dup at-xy ."a  " 1+
-	2dup at-xy ."b " 1+
-	2dup at-xy ."i  " 1+
-	2dup at-xy ."r  " 1+
-	2dup at-xy ."O  " 1+
-	     at-xy ."S  "
+	2dup at-xy ." J a b i r O S  " 1+
+	2dup at-xy ." a  " 1+
+	2dup at-xy ." b " 1+
+	2dup at-xy ." i  " 1+
+	2dup at-xy ." r  " 1+
+	2dup at-xy ." O  " 1+
+	     at-xy ." S  "
 
 	\ Put the cursor back at the bottom
 	0 25 at-xy
