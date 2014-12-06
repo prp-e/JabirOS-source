@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libc/iconv/citrus_none.c 252583 2013-07-03 18:27:45Z peter $ */
+/* $FreeBSD: releng/10.1/lib/libc/iconv/citrus_none.c 252583 2013-07-03 18:27:45Z peter $ */
 /* $NetBSD: citrus_none.c,v 1.18 2008/06/14 16:01:07 tnozaki Exp $ */
 
 /*-

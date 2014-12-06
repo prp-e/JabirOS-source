@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/boot/efi/include/efigop.h 271135 2014-09-04 21:01:10Z emaste $ */
+/* $FreeBSD: releng/10.1/sys/boot/efi/include/efigop.h 271135 2014-09-04 21:01:10Z emaste $ */
 /*++
 
 Copyright (c)  1999 - 2002 Intel Corporation. All rights reserved

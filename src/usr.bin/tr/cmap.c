@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/tr/cmap.c 200462 2009-12-13 03:14:06Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/tr/cmap.c 200462 2009-12-13 03:14:06Z delphij $");
 
 #include <assert.h>
 #include <limits.h>

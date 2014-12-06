@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/tabs/Makefile 97033 2002-05-21 02:33:25Z tjr $
+# $FreeBSD: releng/10.1/usr.bin/tabs/Makefile 97033 2002-05-21 02:33:25Z tjr $
 
 PROG=	tabs
 DPADD=	${LIBTERMCAP}

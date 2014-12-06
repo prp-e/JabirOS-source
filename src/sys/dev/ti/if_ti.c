@@ -77,7 +77,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ti/if_ti.c 254516 2013-08-19 10:20:20Z andre $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ti/if_ti.c 254516 2013-08-19 10:20:20Z andre $");
 
 #include "opt_ti.h"
 

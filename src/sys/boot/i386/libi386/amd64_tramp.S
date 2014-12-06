@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/boot/i386/libi386/amd64_tramp.S 129240 2004-05-14 20:29:30Z ru $
+ * $FreeBSD: releng/10.1/sys/boot/i386/libi386/amd64_tramp.S 129240 2004-05-14 20:29:30Z ru $
  */
 
 /*

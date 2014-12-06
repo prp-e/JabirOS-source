@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/geom/eli/g_eli_crypto.c 266749 2014-05-27 14:55:09Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/geom/eli/g_eli_crypto.c 266749 2014-05-27 14:55:09Z marius $");
 
 #include <sys/param.h>
 #ifdef _KERNEL

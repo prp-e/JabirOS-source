@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ipmi/ipmi_smic.c 248705 2013-03-25 14:30:34Z melifaro $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ipmi/ipmi_smic.c 248705 2013-03-25 14:30:34Z melifaro $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

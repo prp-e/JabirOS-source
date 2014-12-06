@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	from: @(#)extern.h	8.1 (Berkeley) 6/4/93
- * $FreeBSD: stable/10/libexec/getty/extern.h 262435 2014-02-24 08:21:49Z brueffer $
+ * $FreeBSD: releng/10.1/libexec/getty/extern.h 262435 2014-02-24 08:21:49Z brueffer $
  */
 
 struct delayval;

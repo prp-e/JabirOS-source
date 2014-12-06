@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/pc98/loader/Makefile 242688 2012-11-07 02:14:03Z dteske $
+# $FreeBSD: releng/10.1/sys/boot/pc98/loader/Makefile 242688 2012-11-07 02:14:03Z dteske $
 
 .include <bsd.own.mk>
 MK_SSP=		no

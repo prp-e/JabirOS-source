@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/geom/part/g_part.h 271636 2014-09-15 17:49:46Z emaste $
+ * $FreeBSD: releng/10.1/sys/geom/part/g_part.h 271636 2014-09-15 17:49:46Z emaste $
  */
 
 #ifndef _GEOM_PART_H_

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/scc/scc_core.c 253902 2013-08-02 23:31:51Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/scc/scc_core.c 253902 2013-08-02 23:31:51Z marius $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

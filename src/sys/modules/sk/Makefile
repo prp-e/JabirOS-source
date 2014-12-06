@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/sk/Makefile 158061 2006-04-27 00:14:02Z yongari $
+# $FreeBSD: releng/10.1/sys/modules/sk/Makefile 158061 2006-04-27 00:14:02Z yongari $
 
 .PATH: ${.CURDIR}/../../dev/sk
 

@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)in.h	8.3 (Berkeley) 1/3/94
- * $FreeBSD: stable/10/sys/netinet/in.h 265946 2014-05-13 06:05:53Z kevlo $
+ * $FreeBSD: releng/10.1/sys/netinet/in.h 265946 2014-05-13 06:05:53Z kevlo $
  */
 
 #ifndef _NETINET_IN_H_

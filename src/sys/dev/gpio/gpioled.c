@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/gpio/gpioled.c 266105 2014-05-15 01:27:53Z loos $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/gpio/gpioled.c 266105 2014-05-15 01:27:53Z loos $");
 
 #include "opt_platform.h"
 

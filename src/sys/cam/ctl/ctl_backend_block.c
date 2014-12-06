@@ -40,7 +40,7 @@
  * Author: Ken Merry <ken@FreeBSD.org>
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/cam/ctl/ctl_backend_block.c 271928 2014-09-21 12:07:22Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/cam/ctl/ctl_backend_block.c 271928 2014-09-21 12:07:22Z mav $");
 
 #include <opt_kdtrace.h>
 

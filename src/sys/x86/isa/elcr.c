@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/x86/isa/elcr.c 262192 2014-02-18 20:27:17Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/x86/isa/elcr.c 262192 2014-02-18 20:27:17Z jhb $");
 
 /*
  * The ELCR is a register that controls the trigger mode and polarity of

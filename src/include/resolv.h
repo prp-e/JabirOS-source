@@ -47,7 +47,7 @@
 /*%
  *	@(#)resolv.h	8.1 (Berkeley) 6/2/93
  *	$Id: resolv.h,v 1.30 2009/03/03 01:52:48 each Exp $
- * $FreeBSD: stable/10/include/resolv.h 270838 2014-08-30 10:16:25Z ume $
+ * $FreeBSD: releng/10.1/include/resolv.h 270838 2014-08-30 10:16:25Z ume $
  */
 
 #ifndef _RESOLV_H_

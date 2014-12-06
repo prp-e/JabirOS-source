@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_ktr.c 262192 2014-02-18 20:27:17Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_ktr.c 262192 2014-02-18 20:27:17Z jhb $");
 
 #include "opt_ddb.h"
 #include "opt_ktr.h"

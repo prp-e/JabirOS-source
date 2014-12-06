@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/msk/Makefile 165140 2006-12-13 02:37:48Z yongari $
+# $FreeBSD: releng/10.1/sys/modules/msk/Makefile 165140 2006-12-13 02:37:48Z yongari $
 
 .PATH: ${.CURDIR}/../../dev/msk
 

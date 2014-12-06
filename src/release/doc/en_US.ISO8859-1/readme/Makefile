@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/release/doc/en_US.ISO8859-1/readme/Makefile 241096 2012-10-01 11:26:49Z gabor $
+# $FreeBSD: releng/10.1/release/doc/en_US.ISO8859-1/readme/Makefile 241096 2012-10-01 11:26:49Z gabor $
 
 RELN_ROOT?= ${.CURDIR}/../..
 .ifdef NO_LANGCODE_IN_DESTDIR

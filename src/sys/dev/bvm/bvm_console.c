@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/bvm/bvm_console.c 245678 2013-01-20 03:42:49Z neel $
+ * $FreeBSD: releng/10.1/sys/dev/bvm/bvm_console.c 245678 2013-01-20 03:42:49Z neel $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/bvm/bvm_console.c 245678 2013-01-20 03:42:49Z neel $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/bvm/bvm_console.c 245678 2013-01-20 03:42:49Z neel $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

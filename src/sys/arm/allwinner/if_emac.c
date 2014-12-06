@@ -23,13 +23,13 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/allwinner/if_emac.c 266337 2014-05-17 18:53:36Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/allwinner/if_emac.c 266337 2014-05-17 18:53:36Z ian $
  */
 
 /* A10/A20 EMAC driver */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/allwinner/if_emac.c 266337 2014-05-17 18:53:36Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/allwinner/if_emac.c 266337 2014-05-17 18:53:36Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

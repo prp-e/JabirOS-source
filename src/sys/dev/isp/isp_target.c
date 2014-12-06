@@ -41,7 +41,7 @@
 #endif
 #ifdef	__FreeBSD__
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/isp/isp_target.c 238869 2012-07-28 20:06:29Z mjacob $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/isp/isp_target.c 238869 2012-07-28 20:06:29Z mjacob $");
 #include <dev/isp/isp_freebsd.h>
 #endif
 #ifdef	__OpenBSD__

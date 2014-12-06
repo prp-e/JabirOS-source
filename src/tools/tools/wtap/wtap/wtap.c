@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: stable/10/tools/tools/wtap/wtap/wtap.c 229972 2012-01-11 17:51:56Z adrian $
+ * $FreeBSD: releng/10.1/tools/tools/wtap/wtap/wtap.c 229972 2012-01-11 17:51:56Z adrian $
  */
 #include <stdio.h>
 #include <stdlib.h>

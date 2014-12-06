@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/libkern/ucmpdi2.c 245840 2013-01-23 09:18:18Z andrew $");
+__FBSDID("$FreeBSD: releng/10.1/sys/libkern/ucmpdi2.c 245840 2013-01-23 09:18:18Z andrew $");
 
 #include <libkern/quad.h>
 

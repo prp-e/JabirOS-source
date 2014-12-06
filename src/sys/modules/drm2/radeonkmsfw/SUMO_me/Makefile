@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/drm2/radeonkmsfw/SUMO_me/Makefile 254885 2013-08-25 19:37:15Z dumbbell $
+# $FreeBSD: releng/10.1/sys/modules/drm2/radeonkmsfw/SUMO_me/Makefile 254885 2013-08-25 19:37:15Z dumbbell $
 
 KMOD=	radeonkmsfw_SUMO_me
 IMG=	SUMO_me

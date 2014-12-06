@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/freescale/vybrid/vf_common.h 266198 2014-05-15 22:03:24Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/freescale/vybrid/vf_common.h 266198 2014-05-15 22:03:24Z ian $
  */
 
 #define	READ4(_sc, _reg)	\

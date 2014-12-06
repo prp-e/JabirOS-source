@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/cavium/cns11xx/if_ecevar.h 201468 2010-01-04 03:35:45Z rpaulo $
+ * $FreeBSD: releng/10.1/sys/arm/cavium/cns11xx/if_ecevar.h 201468 2010-01-04 03:35:45Z rpaulo $
  */
 
 #ifndef	_IFECEVAR_H

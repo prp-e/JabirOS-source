@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/bsdiff/bsdiff/bsdiff.c 229910 2012-01-10 02:58:44Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/bsdiff/bsdiff/bsdiff.c 229910 2012-01-10 02:58:44Z eadler $");
 
 #include <sys/types.h>
 

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/usr.bin/groff/font/devlj4/Makefile 151504 2005-10-20 10:57:53Z ru $
+# $FreeBSD: releng/10.1/gnu/usr.bin/groff/font/devlj4/Makefile 151504 2005-10-20 10:57:53Z ru $
 
 DEV=		lj4
 LJ4RES=		1200

@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/mld6query/mld6.c 216586 2010-12-20 08:54:30Z charnier $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/mld6query/mld6.c 216586 2010-12-20 08:54:30Z charnier $");
 
 #include <sys/param.h>
 #include <sys/uio.h>

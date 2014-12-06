@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/rrenumd/lexer.l 250227 2013-05-03 23:51:32Z jkim $
+ * $FreeBSD: releng/10.1/usr.sbin/rrenumd/lexer.l 250227 2013-05-03 23:51:32Z jkim $
  */
 
 %{

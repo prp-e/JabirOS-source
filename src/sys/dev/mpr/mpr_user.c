@@ -56,11 +56,11 @@
  *
  * LSI MPT-Fusion Host Adapter FreeBSD
  *
- * $FreeBSD: stable/10/sys/dev/mpr/mpr_user.c 265730 2014-05-09 03:59:12Z ken $
+ * $FreeBSD: releng/10.1/sys/dev/mpr/mpr_user.c 265730 2014-05-09 03:59:12Z ken $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/mpr/mpr_user.c 265730 2014-05-09 03:59:12Z ken $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/mpr/mpr_user.c 265730 2014-05-09 03:59:12Z ken $");
 
 #include "opt_compat.h"
 

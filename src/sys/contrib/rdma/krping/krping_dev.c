@@ -11,7 +11,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/contrib/rdma/krping/krping_dev.c 256829 2013-10-21 06:31:56Z np $");
+__FBSDID("$FreeBSD: releng/10.1/sys/contrib/rdma/krping/krping_dev.c 256829 2013-10-21 06:31:56Z np $");
 
 #include <sys/types.h>
 #include <sys/module.h>

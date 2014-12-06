@@ -58,7 +58,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)ip_var.h	8.1 (Berkeley) 6/10/93
- * $FreeBSD: stable/10/sys/netinet6/ip6_var.h 263307 2014-03-18 16:56:05Z glebius $
+ * $FreeBSD: releng/10.1/sys/netinet6/ip6_var.h 263307 2014-03-18 16:56:05Z glebius $
  */
 
 #ifndef _NETINET6_IP6_VAR_H_

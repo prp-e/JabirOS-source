@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libc/iconv/citrus_mmap.c 264497 2014-04-15 09:49:44Z tijl $ */
+/* $FreeBSD: releng/10.1/lib/libc/iconv/citrus_mmap.c 264497 2014-04-15 09:49:44Z tijl $ */
 /*	$NetBSD: citrus_mmap.c,v 1.4 2011/10/15 23:00:01 christos Exp $	*/
 
 /*-

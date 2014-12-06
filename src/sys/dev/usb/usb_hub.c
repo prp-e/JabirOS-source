@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/usb_hub.c 267621 2014-06-18 22:09:33Z n_hibma $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/usb_hub.c 267621 2014-06-18 22:09:33Z n_hibma $ */
 /*-
  * Copyright (c) 1998 The NetBSD Foundation, Inc. All rights reserved.
  * Copyright (c) 1998 Lennart Augustsson. All rights reserved.

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/arm/stdatomic.c 255738 2013-09-20 20:44:32Z zbb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/arm/stdatomic.c 255738 2013-09-20 20:44:32Z zbb $");
 
 #include <sys/param.h>
 #include <sys/stdatomic.h>

@@ -28,7 +28,7 @@
  * SUCH DAMAGE.
  */
 
-/* $FreeBSD: stable/10/usr.sbin/bluetooth/btpand/event.h 228990 2011-12-30 10:58:14Z uqs $ */
+/* $FreeBSD: releng/10.1/usr.sbin/bluetooth/btpand/event.h 228990 2011-12-30 10:58:14Z uqs $ */
 
 /*
  * Hack to provide libevent (see devel/libevent port) like API.

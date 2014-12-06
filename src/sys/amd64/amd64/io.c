@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/amd64/amd64/io.c 207329 2010-04-28 15:38:01Z attilio $");
+__FBSDID("$FreeBSD: releng/10.1/sys/amd64/amd64/io.c 207329 2010-04-28 15:38:01Z attilio $");
 
 #include <sys/param.h>
 #include <sys/proc.h>

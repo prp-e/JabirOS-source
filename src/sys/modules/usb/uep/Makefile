@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/usb/uep/Makefile 208554 2010-05-25 21:20:56Z glebius $
+# $FreeBSD: releng/10.1/sys/modules/usb/uep/Makefile 208554 2010-05-25 21:20:56Z glebius $
 
 S=     ${.CURDIR}/../../..
 

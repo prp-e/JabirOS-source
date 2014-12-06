@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/radeon_fb.c 271090 2014-09-04 09:42:36Z dumbbell $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/radeon/radeon_fb.c 271090 2014-09-04 09:42:36Z dumbbell $");
 
 #include <machine/_inttypes.h>
 

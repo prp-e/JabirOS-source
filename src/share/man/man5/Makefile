@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/5/93
-#	$FreeBSD: stable/10/share/man/man5/Makefile 270892 2014-08-31 21:18:23Z trasz $
+#	$FreeBSD: releng/10.1/share/man/man5/Makefile 270892 2014-08-31 21:18:23Z trasz $
 
 .include <bsd.own.mk>
 

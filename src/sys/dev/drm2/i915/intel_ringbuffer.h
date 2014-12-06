@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/sys/dev/drm2/i915/intel_ringbuffer.h 271816 2014-09-18 20:32:40Z dumbbell $
+ * $FreeBSD: releng/10.1/sys/dev/drm2/i915/intel_ringbuffer.h 271816 2014-09-18 20:32:40Z dumbbell $
  */
 
 #ifndef _INTEL_RINGBUFFER_H_

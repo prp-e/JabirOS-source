@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/mtest/Makefile 191651 2009-04-29 09:50:04Z bms $
+# $FreeBSD: releng/10.1/usr.sbin/mtest/Makefile 191651 2009-04-29 09:50:04Z bms $
 
 .include <bsd.own.mk>
 

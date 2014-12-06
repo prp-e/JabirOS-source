@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/locale/iswctype.c 172909 2007-10-23 17:39:28Z ache $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/locale/iswctype.c 172909 2007-10-23 17:39:28Z ache $");
 
 #include <wctype.h>
 

@@ -37,7 +37,7 @@
  *
  * Author: Archie Cobbs <archie@freebsd.org>
  *
- * $FreeBSD: stable/10/sys/netgraph/ng_ksocket.c 260226 2014-01-03 12:28:33Z glebius $
+ * $FreeBSD: releng/10.1/sys/netgraph/ng_ksocket.c 260226 2014-01-03 12:28:33Z glebius $
  * $Whistle: ng_ksocket.c,v 1.1 1999/11/16 20:04:40 archie Exp $
  */
 

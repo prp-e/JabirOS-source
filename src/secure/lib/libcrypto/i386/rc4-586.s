@@ -1,4 +1,4 @@
-	# $FreeBSD: stable/10/secure/lib/libcrypto/i386/rc4-586.s 238405 2012-07-12 19:30:53Z jkim $
+	# $FreeBSD: releng/10.1/secure/lib/libcrypto/i386/rc4-586.s 238405 2012-07-12 19:30:53Z jkim $
 .file	"rc4-586.s"
 .text
 .globl	RC4

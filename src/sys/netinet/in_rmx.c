@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/in_rmx.c 263478 2014-03-21 15:15:30Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/in_rmx.c 263478 2014-03-21 15:15:30Z glebius $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/devd/devd.h 249951 2013-04-26 19:49:37Z asomers $
+ * $FreeBSD: releng/10.1/sbin/devd/devd.h 249951 2013-04-26 19:49:37Z asomers $
  */
 
 #ifndef DEVD_H

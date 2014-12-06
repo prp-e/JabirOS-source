@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/secure/lib/libssl/Makefile 246772 2013-02-13 23:07:20Z jkim $
+# $FreeBSD: releng/10.1/secure/lib/libssl/Makefile 246772 2013-02-13 23:07:20Z jkim $
 
 LIB=		ssl
 SHLIB_MAJOR=	7

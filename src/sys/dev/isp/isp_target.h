@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/isp/isp_target.h 238869 2012-07-28 20:06:29Z mjacob $ */
+/* $FreeBSD: releng/10.1/sys/dev/isp/isp_target.h 238869 2012-07-28 20:06:29Z mjacob $ */
 /*-
  *  Copyright (c) 1997-2009 by Matthew Jacob
  *  All rights reserved.

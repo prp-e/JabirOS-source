@@ -41,7 +41,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/tty_info.c 231095 2012-02-06 18:15:46Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/tty_info.c 231095 2012-02-06 18:15:46Z ed $");
 
 #include <sys/param.h>
 #include <sys/lock.h>

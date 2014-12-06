@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libutil/auth.c 236965 2012-06-12 17:02:53Z des $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libutil/auth.c 236965 2012-06-12 17:02:53Z des $");
 
 #include <stdlib.h>
 

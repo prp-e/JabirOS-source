@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/include/md_var.h 262981 2014-03-10 20:47:24Z jkim $
+ * $FreeBSD: releng/10.1/sys/amd64/include/md_var.h 262981 2014-03-10 20:47:24Z jkim $
  */
 
 #ifndef _MACHINE_MD_VAR_H_

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/fs/ext2fs/ext2_extents.h 262723 2014-03-04 03:10:31Z pfg $
+ * $FreeBSD: releng/10.1/sys/fs/ext2fs/ext2_extents.h 262723 2014-03-04 03:10:31Z pfg $
  */
 #ifndef _FS_EXT2FS_EXT2_EXTENTS_H_
 #define	_FS_EXT2FS_EXT2_EXTENTS_H_

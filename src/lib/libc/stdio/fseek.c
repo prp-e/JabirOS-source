@@ -34,7 +34,7 @@
 static char sccsid[] = "@(#)fseek.c	8.3 (Berkeley) 1/2/94";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/stdio/fseek.c 249810 2013-04-23 14:36:44Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/stdio/fseek.c 249810 2013-04-23 14:36:44Z emaste $");
 
 #include "namespace.h"
 #include <sys/types.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/drm2/radeonkms/Makefile 266594 2014-05-23 19:43:20Z dumbbell $
+# $FreeBSD: releng/10.1/sys/modules/drm2/radeonkms/Makefile 266594 2014-05-23 19:43:20Z dumbbell $
 
 .include <bsd.own.mk>
 

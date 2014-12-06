@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/netstat/netgraph.c 263335 2014-03-19 09:36:29Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/netstat/netgraph.c 263335 2014-03-19 09:36:29Z glebius $");
 
 #include <sys/param.h>
 #include <sys/queue.h>

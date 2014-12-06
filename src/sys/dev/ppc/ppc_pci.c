@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ppc/ppc_pci.c 262230 2014-02-19 19:38:25Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ppc/ppc_pci.c 262230 2014-02-19 19:38:25Z eadler $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

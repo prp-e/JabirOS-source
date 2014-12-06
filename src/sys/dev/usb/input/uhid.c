@@ -5,7 +5,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/input/uhid.c 268738 2014-07-16 06:22:35Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/input/uhid.c 268738 2014-07-16 06:22:35Z hselasky $");
 
 /*-
  * Copyright (c) 1998 The NetBSD Foundation, Inc.

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/krpc/Makefile 269398 2014-08-01 21:10:41Z rmacklem $
+# $FreeBSD: releng/10.1/sys/modules/krpc/Makefile 269398 2014-08-01 21:10:41Z rmacklem $
 
 .PATH: ${.CURDIR}/../../rpc ${.CURDIR}/../../xdr
 KMOD=	krpc

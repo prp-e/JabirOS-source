@@ -30,7 +30,7 @@
  * Author : David C Somayajulu, Qlogic Corporation, Aliso Viejo, CA 92656.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/qlxge/qls_isr.c 252206 2013-06-25 17:50:22Z davidcs $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/qlxge/qls_isr.c 252206 2013-06-25 17:50:22Z davidcs $");
 
 
 

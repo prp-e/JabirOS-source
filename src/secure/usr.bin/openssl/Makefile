@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/secure/usr.bin/openssl/Makefile 238405 2012-07-12 19:30:53Z jkim $
+# $FreeBSD: releng/10.1/secure/usr.bin/openssl/Makefile 238405 2012-07-12 19:30:53Z jkim $
 
 PROG=	openssl
 

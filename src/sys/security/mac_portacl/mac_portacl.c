@@ -32,7 +32,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/security/mac_portacl/mac_portacl.c 227309 2011-11-07 15:43:11Z ed $
+ * $FreeBSD: releng/10.1/sys/security/mac_portacl/mac_portacl.c 227309 2011-11-07 15:43:11Z ed $
  */
 
 /*

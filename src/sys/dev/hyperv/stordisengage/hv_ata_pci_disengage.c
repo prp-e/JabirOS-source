@@ -52,7 +52,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/hyperv/stordisengage/hv_ata_pci_disengage.c 256758 2013-10-18 23:19:27Z gibbs $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/hyperv/stordisengage/hv_ata_pci_disengage.c 273581 2014-10-24 07:50:34Z delphij $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -116,7 +116,7 @@ hv_ata_pci_probe(device_t dev)
 
 	device_set_desc(dev, "Hyper-V ATA storage disengage driver");
 
-	return (BUS_PROBE_VENDOR);
+	return (BUS_PROBE_DEFAULT);
 }
 
 static int

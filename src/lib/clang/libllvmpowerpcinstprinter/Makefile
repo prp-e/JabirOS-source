@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/clang/libllvmpowerpcinstprinter/Makefile 246259 2013-02-02 22:28:29Z dim $
+# $FreeBSD: releng/10.1/lib/clang/libllvmpowerpcinstprinter/Makefile 246259 2013-02-02 22:28:29Z dim $
 
 .include <bsd.own.mk>
 

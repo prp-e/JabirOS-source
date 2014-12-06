@@ -5,7 +5,7 @@
 #
 # Please see src/share/examples/etc/bsd-style-copyright.
 #
-# $FreeBSD: stable/10/usr.sbin/mtree/test/test02.sh 121798 2003-10-31 13:39:19Z phk $
+# $FreeBSD: releng/10.1/usr.sbin/mtree/test/test02.sh 121798 2003-10-31 13:39:19Z phk $
 #
 
 set -e

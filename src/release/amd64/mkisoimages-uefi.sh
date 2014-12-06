@@ -4,7 +4,7 @@
 # Author: Jordan K Hubbard
 # Date:   22 June 2001
 #
-# $FreeBSD: stable/10/release/amd64/mkisoimages-uefi.sh 271470 2014-09-12 16:37:56Z emaste $
+# $FreeBSD: releng/10.1/release/amd64/mkisoimages-uefi.sh 271470 2014-09-12 16:37:56Z emaste $
 #
 # This script is used by release/Makefile to build the (optional) ISO images
 # for a FreeBSD release.  It is considered architecture dependent since each

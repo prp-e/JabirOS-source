@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/compat/ndis/subr_hal.c 232509 2012-03-04 17:08:43Z brucec $");
+__FBSDID("$FreeBSD: releng/10.1/sys/compat/ndis/subr_hal.c 232509 2012-03-04 17:08:43Z brucec $");
 
 #include <sys/param.h>
 #include <sys/types.h>

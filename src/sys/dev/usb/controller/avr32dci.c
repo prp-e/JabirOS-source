@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/controller/avr32dci.c 246125 2013-01-30 16:05:54Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/controller/avr32dci.c 246125 2013-01-30 16:05:54Z hselasky $ */
 /*-
  * Copyright (c) 2009 Hans Petter Selasky. All rights reserved.
  *

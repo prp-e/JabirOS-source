@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/mount_smbfs/Makefile 258125 2013-11-14 09:25:29Z glebius $
+# $FreeBSD: releng/10.1/usr.sbin/mount_smbfs/Makefile 258125 2013-11-14 09:25:29Z glebius $
 
 PROG=	mount_smbfs
 SRCS=	mount_smbfs.c getmntopts.c

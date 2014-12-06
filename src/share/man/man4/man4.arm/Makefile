@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/man/man4/man4.arm/Makefile 266338 2014-05-17 19:06:46Z loos $
+# $FreeBSD: releng/10.1/share/man/man4/man4.arm/Makefile 266338 2014-05-17 19:06:46Z loos $
 
 MAN=	devcfg.4 \
 	mge.4 \

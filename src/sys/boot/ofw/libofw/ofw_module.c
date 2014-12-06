@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/ofw/libofw/ofw_module.c 124140 2004-01-04 23:30:47Z obrien $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/ofw/libofw/ofw_module.c 124140 2004-01-04 23:30:47Z obrien $");
 
 /*
  * ofw-specific module functionality.

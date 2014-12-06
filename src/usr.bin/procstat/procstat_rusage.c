@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/procstat/procstat_rusage.c 268108 2014-07-01 18:23:00Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/procstat/procstat_rusage.c 268108 2014-07-01 18:23:00Z jhb $");
 
 #include <sys/param.h>
 #include <sys/sysctl.h>

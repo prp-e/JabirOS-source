@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/bin/pkill/tests/Makefile 270150 2014-08-18 20:21:12Z asomers $
+# $FreeBSD: releng/10.1/bin/pkill/tests/Makefile 270150 2014-08-18 20:21:12Z asomers $
 
 .include <bsd.own.mk>
 

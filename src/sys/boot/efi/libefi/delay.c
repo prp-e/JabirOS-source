@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/efi/libefi/delay.c 113038 2003-04-03 21:36:33Z obrien $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/efi/libefi/delay.c 113038 2003-04-03 21:36:33Z obrien $");
 
 #include <efi.h>
 #include <efilib.h>

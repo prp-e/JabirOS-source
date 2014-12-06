@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/bin/ed/Makefile 235654 2012-05-19 17:55:49Z marcel $
+# $FreeBSD: releng/10.1/bin/ed/Makefile 235654 2012-05-19 17:55:49Z marcel $
 
 .include <bsd.own.mk>
 

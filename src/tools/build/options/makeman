@@ -5,7 +5,7 @@
 set -o errexit
 LC_ALL=C
 
-ident='$FreeBSD: stable/10/tools/build/options/makeman 255964 2013-10-01 07:22:04Z des $'
+ident='$FreeBSD: releng/10.1/tools/build/options/makeman 255964 2013-10-01 07:22:04Z des $'
 
 t=$(mktemp -d -t makeman)
 trap 'test -d $t && rm -rf $t' exit

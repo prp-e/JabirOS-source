@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libmp/tests/Makefile 269534 2014-08-04 22:10:07Z ngie $
+# $FreeBSD: releng/10.1/lib/libmp/tests/Makefile 269534 2014-08-04 22:10:07Z ngie $
 
 TESTSDIR=	${TESTSBASE}/lib/libmp
 

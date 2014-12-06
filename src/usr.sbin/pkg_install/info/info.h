@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/usr.sbin/pkg_install/info/info.h 240682 2012-09-18 22:09:23Z bapt $ */
+/* $FreeBSD: releng/10.1/usr.sbin/pkg_install/info/info.h 240682 2012-09-18 22:09:23Z bapt $ */
 
 /*
  * FreeBSD install - a package for the installation and maintenance

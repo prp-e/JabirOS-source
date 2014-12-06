@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/md/Makefile 152309 2005-11-11 11:31:23Z pjd $
+# $FreeBSD: releng/10.1/sys/modules/md/Makefile 152309 2005-11-11 11:31:23Z pjd $
 
 .PATH: ${.CURDIR}/../../dev/md
 

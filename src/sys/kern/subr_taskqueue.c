@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/subr_taskqueue.c 262065 2014-02-17 15:32:08Z avg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/subr_taskqueue.c 262065 2014-02-17 15:32:08Z avg $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -1,6 +1,6 @@
 /*
  * $NetBSD: util.c,v 1.4 2000/08/03 00:04:30 fvdl Exp $
- * $FreeBSD: stable/10/usr.sbin/rpcbind/util.c 243187 2012-11-17 20:19:00Z hrs $
+ * $FreeBSD: releng/10.1/usr.sbin/rpcbind/util.c 243187 2012-11-17 20:19:00Z hrs $
  */
 
 /*-

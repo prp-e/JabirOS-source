@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/regression/lib/msun/Makefile 251241 2013-06-02 04:30:03Z das $
+# $FreeBSD: releng/10.1/tools/regression/lib/msun/Makefile 251241 2013-06-02 04:30:03Z das $
 
 TESTS=	test-cexp test-conj test-csqrt test-ctrig \
 	test-exponential test-fenv test-fma \

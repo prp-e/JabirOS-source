@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/nand/nand.h 259371 2013-12-14 00:54:05Z ian $
+ * $FreeBSD: releng/10.1/sys/dev/nand/nand.h 259371 2013-12-14 00:54:05Z ian $
  */
 
 #ifndef _DEV_NAND_H_

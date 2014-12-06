@@ -6,7 +6,7 @@
  * this stuff is worth it, you can buy me a beer in return.   Poul-Henning Kamp
  * ----------------------------------------------------------------------------
  *
- * $FreeBSD: stable/10/sbin/recoverdisk/recoverdisk.c 248279 2013-03-14 20:05:49Z delphij $
+ * $FreeBSD: releng/10.1/sbin/recoverdisk/recoverdisk.c 248279 2013-03-14 20:05:49Z delphij $
  */
 #include <sys/param.h>
 #include <sys/queue.h>

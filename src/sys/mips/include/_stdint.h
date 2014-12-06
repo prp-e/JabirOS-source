@@ -35,7 +35,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  *	from: src/sys/i386/include/_stdint.h,v 1.2 2004/05/18 16:04:57 stefanf
- * $FreeBSD: stable/10/sys/mips/include/_stdint.h 255194 2013-09-03 22:04:55Z imp $
+ * $FreeBSD: releng/10.1/sys/mips/include/_stdint.h 255194 2013-09-03 22:04:55Z imp $
  */
 
 #ifndef _MACHINE__STDINT_H_

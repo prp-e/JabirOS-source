@@ -1,4 +1,4 @@
-	# $FreeBSD: stable/10/secure/lib/libcrypto/amd64/x86_64-gf2m.S 238405 2012-07-12 19:30:53Z jkim $
+	# $FreeBSD: releng/10.1/secure/lib/libcrypto/amd64/x86_64-gf2m.S 238405 2012-07-12 19:30:53Z jkim $
 .text	
 
 .type	_mul_1x1,@function

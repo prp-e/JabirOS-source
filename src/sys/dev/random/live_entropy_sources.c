@@ -26,7 +26,7 @@
  */
 
 #include <sys/param.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/random/live_entropy_sources.c 256381 2013-10-12 15:31:36Z markm $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/random/live_entropy_sources.c 256381 2013-10-12 15:31:36Z markm $");
 
 #include <sys/kernel.h>
 #include <sys/libkern.h>

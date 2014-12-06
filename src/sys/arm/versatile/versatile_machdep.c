@@ -38,7 +38,7 @@
 #include "opt_global.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/versatile/versatile_machdep.c 259365 2013-12-14 00:16:08Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/versatile/versatile_machdep.c 259365 2013-12-14 00:16:08Z ian $");
 
 #define _ARM32_BUS_DMA_PRIVATE
 #include <sys/param.h>

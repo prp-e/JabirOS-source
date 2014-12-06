@@ -1,6 +1,6 @@
 #	@(#)Makefile	5.2 (Berkeley) 12/28/90
 #	$Id: Makefile,v 1.6 1994/06/30 05:33:39 cgd Exp $
-# $FreeBSD: stable/10/usr.bin/make/Makefile 264996 2014-04-27 01:15:10Z jmmv $
+# $FreeBSD: releng/10.1/usr.bin/make/Makefile 264996 2014-04-27 01:15:10Z jmmv $
 
 .include <bsd.own.mk>
 

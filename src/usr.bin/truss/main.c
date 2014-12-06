@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/truss/main.c 247975 2013-03-07 23:44:35Z cognet $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/truss/main.c 247975 2013-03-07 23:44:35Z cognet $");
 
 /*
  * The main module for truss.  Surprisingly simple, but, then, the other

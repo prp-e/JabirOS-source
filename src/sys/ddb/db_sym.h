@@ -23,7 +23,7 @@
  * any improvements or extensions that they make and grant Carnegie the
  * rights to redistribute these changes.
  *
- * $FreeBSD: stable/10/sys/ddb/db_sym.h 264210 2014-04-07 01:49:30Z pfg $
+ * $FreeBSD: releng/10.1/sys/ddb/db_sym.h 264210 2014-04-07 01:49:30Z pfg $
  */
 
 #ifndef _DDB_DB_SYM_H_

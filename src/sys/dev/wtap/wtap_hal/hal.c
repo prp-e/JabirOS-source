@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: stable/10/sys/dev/wtap/wtap_hal/hal.c 229970 2012-01-11 17:41:14Z adrian $
+ * $FreeBSD: releng/10.1/sys/dev/wtap/wtap_hal/hal.c 229970 2012-01-11 17:41:14Z adrian $
  */
 #include "hal.h"
 #include "../if_medium.h"

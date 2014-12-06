@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/netinet/tcp_offload.h 237263 2012-06-19 07:34:13Z np $
+ * $FreeBSD: releng/10.1/sys/netinet/tcp_offload.h 237263 2012-06-19 07:34:13Z np $
  *
  */
 

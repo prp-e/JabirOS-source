@@ -45,7 +45,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/ti/ti_i2c.c 270243 2014-08-20 19:37:05Z loos $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/ti/ti_i2c.c 270243 2014-08-20 19:37:05Z loos $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

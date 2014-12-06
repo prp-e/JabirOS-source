@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libstand/nfs.c 252468 2013-07-01 17:23:13Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libstand/nfs.c 252468 2013-07-01 17:23:13Z mav $");
 
 #include <sys/param.h>
 #include <sys/time.h>

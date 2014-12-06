@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/vt/keymaps/Makefile 271646 2014-09-15 20:08:07Z se $
+# $FreeBSD: releng/10.1/share/vt/keymaps/Makefile 271646 2014-09-15 20:08:07Z se $
 
 FILES=	INDEX.keymaps \
 	am.kbd \

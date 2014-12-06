@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/usr.bin/grep/regex/tre-fastmatch.c 265160 2014-04-30 20:39:08Z pfg $ */
+/* $FreeBSD: releng/10.1/usr.bin/grep/regex/tre-fastmatch.c 265160 2014-04-30 20:39:08Z pfg $ */
 
 /*-
  * Copyright (c) 1999 James Howard and Dag-Erling Coïdan Smørgrav

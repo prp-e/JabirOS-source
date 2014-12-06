@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/rc.d/kfd 235107 2012-05-06 20:46:04Z stas $
+# $FreeBSD: releng/10.1/etc/rc.d/kfd 273188 2014-10-16 22:00:24Z hrs $
 #
 
 # PROVIDE: kfd
@@ -10,8 +10,14 @@
 . /etc/rc.subr
 
 name=kfd
-rcvar=kfd_enable
-load_rc_config $name
-command_args="-i &"
+rcvar=${name}_enable
+start_precmd=${name}_start_precmd
 
+kfd_start_precmd()
+{
+
+	command_args="$command_args -i &"
+}
+
+load_rc_config $name
 run_rc_command "$1"

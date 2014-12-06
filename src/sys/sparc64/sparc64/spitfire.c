@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/sparc64/sparc64/spitfire.c 262620 2014-02-28 20:22:48Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/sys/sparc64/sparc64/spitfire.c 262620 2014-02-28 20:22:48Z dim $");
 
 #include "opt_pmap.h"
 

@@ -22,9 +22,9 @@
 .\" OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 .\" SUCH DAMAGE.
 .\"
-.\" $FreeBSD: stable/10/share/man/man5/rc.conf.5 271260 2014-09-08 11:18:27Z des $
+.\" $FreeBSD: releng/10.1/share/man/man5/rc.conf.5 273039 2014-10-13 14:52:54Z bdrewery $
 .\"
-.Dd August 27, 2014
+.Dd September 11, 2014
 .Dt RC.CONF 5
 .Os
 .Sh NAME
@@ -1159,6 +1159,19 @@ or
 .Li inet6 2001:db8:1-f::1/64 .
 This notation allows address and prefix length part only,
 not the other address modifiers.
+Note that the maximum number of the generated addresses from a range
+specification is limited to an integer value specified in
+.Va netif_ipexpand_max
+in
+.Xr rc.conf 5
+because a small typo can unexpectedly generate a large number of addresses.
+The default value is
+.Li 2048 .
+It can be increased by adding the following line into
+.Xr rc.conf 5 :
+.Bd -literal
+netif_ipexpand_max="4096"
+.Ed
 .Pp
 In the case of
 .Li 192.0.2.5-23/24 ,

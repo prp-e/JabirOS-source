@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sbin/dhclient/tests/fake.c 229001 2011-12-30 14:41:47Z dumbbell $ */
+/* $FreeBSD: releng/10.1/sbin/dhclient/tests/fake.c 229001 2011-12-30 14:41:47Z dumbbell $ */
 
 #include <setjmp.h>
 #include <stdarg.h>

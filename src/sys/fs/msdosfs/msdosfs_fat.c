@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/fs/msdosfs/msdosfs_fat.c 246921 2013-02-17 20:35:54Z kib $ */
+/* $FreeBSD: releng/10.1/sys/fs/msdosfs/msdosfs_fat.c 246921 2013-02-17 20:35:54Z kib $ */
 /*	$NetBSD: msdosfs_fat.c,v 1.28 1997/11/17 15:36:49 ws Exp $	*/
 
 /*-

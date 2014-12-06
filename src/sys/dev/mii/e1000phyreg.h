@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/mii/e1000phyreg.h 220938 2011-04-22 09:22:27Z marius $ */
+/* $FreeBSD: releng/10.1/sys/dev/mii/e1000phyreg.h 220938 2011-04-22 09:22:27Z marius $ */
 /*-
  * Principal Author: Parag Patel
  * Copyright (c) 2001

@@ -39,7 +39,7 @@ static char sccsid[] = "@(#)tftpd.c	8.1 (Berkeley) 6/4/93";
 #endif
 #endif /* not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/libexec/tftpd/tftpd.c 262435 2014-02-24 08:21:49Z brueffer $");
+__FBSDID("$FreeBSD: releng/10.1/libexec/tftpd/tftpd.c 262435 2014-02-24 08:21:49Z brueffer $");
 
 /*
  * Trivial file transfer protocol server.

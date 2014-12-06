@@ -35,7 +35,7 @@
 #include <sys/mount.h>
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/makefs/cd9660/cd9660_strings.c 219956 2011-03-24 12:35:59Z bapt $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/makefs/cd9660/cd9660_strings.c 219956 2011-03-24 12:35:59Z bapt $");
 #include <sys/param.h>
 #include <ctype.h>
 

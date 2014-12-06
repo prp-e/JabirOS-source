@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/subr_module.c 218494 2011-02-09 19:08:21Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/subr_module.c 218494 2011-02-09 19:08:21Z marcel $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

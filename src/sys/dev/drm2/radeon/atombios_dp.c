@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/atombios_dp.c 259236 2013-12-11 23:06:03Z dumbbell $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/radeon/atombios_dp.c 259236 2013-12-11 23:06:03Z dumbbell $");
 
 #include <dev/drm2/drmP.h>
 #include <dev/drm2/radeon/radeon_drm.h>

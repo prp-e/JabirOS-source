@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/fs/nfs/nfsrvstate.h 269398 2014-08-01 21:10:41Z rmacklem $
+ * $FreeBSD: releng/10.1/sys/fs/nfs/nfsrvstate.h 269398 2014-08-01 21:10:41Z rmacklem $
  */
 
 #ifndef _NFS_NFSRVSTATE_H_

@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
  * DAMAGE.
  *
- * $FreeBSD: stable/10/sys/cddl/dev/dtrace/dtrace_debug.c 244631 2012-12-23 15:50:37Z rstone $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/dtrace/dtrace_debug.c 244631 2012-12-23 15:50:37Z rstone $
  *
  */
 

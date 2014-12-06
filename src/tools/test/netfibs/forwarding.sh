@@ -27,7 +27,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/tools/test/netfibs/forwarding.sh 232114 2012-02-24 14:13:06Z bz $
+# $FreeBSD: releng/10.1/tools/test/netfibs/forwarding.sh 232114 2012-02-24 14:13:06Z bz $
 #
 
 # Test setup:

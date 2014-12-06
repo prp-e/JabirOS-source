@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/boot/efi/include/efilib.h 271135 2014-09-04 21:01:10Z emaste $
+ * $FreeBSD: releng/10.1/sys/boot/efi/include/efilib.h 271135 2014-09-04 21:01:10Z emaste $
  */
 
 #include <stand.h>

@@ -27,7 +27,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/priv/main.h 173679 2007-11-16 21:24:45Z bz $
+ * $FreeBSD: releng/10.1/tools/regression/priv/main.h 173679 2007-11-16 21:24:45Z bz $
  */
 
 #define	UID_ROOT	0

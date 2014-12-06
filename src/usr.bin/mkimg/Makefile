@@ -1,13 +1,16 @@
-# $FreeBSD: stable/10/usr.bin/mkimg/Makefile 269177 2014-07-28 02:07:16Z marcel $
+# $FreeBSD: releng/10.1/usr.bin/mkimg/Makefile 273098 2014-10-14 16:11:23Z marcel $
 
 PROG=	mkimg
 SRCS=	format.c image.c mkimg.c scheme.c
 MAN=	mkimg.1
 
+MKIMG_VERSION=20140927
+CFLAGS+=-DMKIMG_VERSION=${MKIMG_VERSION}
 CFLAGS+=-DSPARSE_WRITE
 
 # List of formats to support
 SRCS+= \
+	qcow.c \
 	raw.c \
 	vhd.c \
 	vmdk.c

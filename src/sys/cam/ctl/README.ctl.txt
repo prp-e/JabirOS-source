@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/cam/ctl/README.ctl.txt 265491 2014-05-07 06:20:35Z trasz $ */
+/* $FreeBSD: releng/10.1/sys/cam/ctl/README.ctl.txt 265491 2014-05-07 06:20:35Z trasz $ */
 
 CTL - CAM Target Layer Description
 

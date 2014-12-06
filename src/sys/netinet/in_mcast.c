@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/in_mcast.c 261425 2014-02-03 03:31:35Z gnn $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/in_mcast.c 261425 2014-02-03 03:31:35Z gnn $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

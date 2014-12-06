@@ -25,7 +25,7 @@
  *
  * LSI MPT-Fusion Host Adapter FreeBSD
  *
- * $FreeBSD: stable/10/sys/dev/mpr/mpr_mapping.h 265236 2014-05-02 20:25:09Z ken $
+ * $FreeBSD: releng/10.1/sys/dev/mpr/mpr_mapping.h 265236 2014-05-02 20:25:09Z ken $
  */
 
 #ifndef _MPR_MAPPING_H

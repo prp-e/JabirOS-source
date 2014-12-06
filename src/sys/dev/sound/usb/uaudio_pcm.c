@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/sound/usb/uaudio_pcm.c 246128 2013-01-30 18:01:20Z sbz $ */
+/* $FreeBSD: releng/10.1/sys/dev/sound/usb/uaudio_pcm.c 246128 2013-01-30 18:01:20Z sbz $ */
 
 /*-
  * Copyright (c) 2000-2002 Hiroyuki Aizu <aizu@navi.org>

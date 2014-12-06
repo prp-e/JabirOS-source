@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/nscd/agents/services.h 194112 2009-06-13 14:12:55Z des $
+ * $FreeBSD: releng/10.1/usr.sbin/nscd/agents/services.h 194112 2009-06-13 14:12:55Z des $
  */
 
 #include "../agent.h"

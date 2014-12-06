@@ -22,7 +22,7 @@
 \ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 \ SUCH DAMAGE.
 \ 
-\ $FreeBSD: stable/10/sys/boot/forth/shortcuts.4th 238431 2012-07-14 01:45:35Z dteske $
+\ $FreeBSD: releng/10.1/sys/boot/forth/shortcuts.4th 238431 2012-07-14 01:45:35Z dteske $
 
 \ FICL words intended to be used as shortcuts for carrying out common tasks or
 \ producing common results. Generally, words defined here are simply groupings

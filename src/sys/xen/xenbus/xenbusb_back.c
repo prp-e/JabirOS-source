@@ -36,7 +36,7 @@
  * Xen split devices.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/xen/xenbus/xenbusb_back.c 225704 2011-09-20 23:44:34Z gibbs $");
+__FBSDID("$FreeBSD: releng/10.1/sys/xen/xenbus/xenbusb_back.c 225704 2011-09-20 23:44:34Z gibbs $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

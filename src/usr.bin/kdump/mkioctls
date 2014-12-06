@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/usr.bin/kdump/mkioctls 263086 2014-03-12 10:45:58Z glebius $
+# $FreeBSD: releng/10.1/usr.bin/kdump/mkioctls 263086 2014-03-12 10:45:58Z glebius $
 #
 # When editing this script, keep in mind that truss also uses it.
 #

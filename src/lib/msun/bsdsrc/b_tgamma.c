@@ -33,7 +33,7 @@
 
 /* @(#)gamma.c	8.1 (Berkeley) 6/4/93 */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/msun/bsdsrc/b_tgamma.c 176449 2008-02-22 02:26:51Z das $");
+__FBSDID("$FreeBSD: releng/10.1/lib/msun/bsdsrc/b_tgamma.c 176449 2008-02-22 02:26:51Z das $");
 
 /*
  * This code by P. McIlroy, Oct 1992;

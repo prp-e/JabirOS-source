@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/tools/diag/dumpvfscache/dumpvfscache.c 88799 2002-01-02 06:25:39Z kbyanc $ */
+/* $FreeBSD: releng/10.1/tools/diag/dumpvfscache/dumpvfscache.c 88799 2002-01-02 06:25:39Z kbyanc $ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

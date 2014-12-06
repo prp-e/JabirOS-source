@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/kerberos5/tools/asn1_compile/Makefile 241298 2012-10-06 20:01:05Z marcel $
+# $FreeBSD: releng/10.1/kerberos5/tools/asn1_compile/Makefile 241298 2012-10-06 20:01:05Z marcel $
 
 PROG=	asn1_compile
 NO_MAN=

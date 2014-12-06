@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libc/powerpc64/Makefile.inc 246117 2013-01-30 12:48:16Z kib $
+# $FreeBSD: releng/10.1/lib/libc/powerpc64/Makefile.inc 246117 2013-01-30 12:48:16Z kib $
 
 SRCS+=	__vdso_gettc.c
 

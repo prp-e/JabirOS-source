@@ -25,7 +25,7 @@
  */
 
 #if 0
-__FBSDID("$FreeBSD: stable/10/usr.bin/indent/indent.h 93440 2002-03-30 17:10:20Z dwmalone $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/indent/indent.h 93440 2002-03-30 17:10:20Z dwmalone $");
 #endif
 
 void	addkey(char *, int);

@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/usb_pf.c 266257 2014-05-16 16:11:14Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/usb_pf.c 266257 2014-05-16 16:11:14Z hselasky $ */
 /*-
  * Copyright (c) 1990, 1991, 1993
  *	The Regents of the University of California.  All rights reserved.

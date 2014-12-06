@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/usr.bin/diff/Makefile 251468 2013-06-06 11:59:38Z jkim $
+# $FreeBSD: releng/10.1/gnu/usr.bin/diff/Makefile 251468 2013-06-06 11:59:38Z jkim $
 
 DIFFSRC=${.CURDIR}/../../../contrib/diff/src
 .PATH: ${DIFFSRC} \

@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/ispfw/asm_2300.h 238806 2012-07-26 13:58:43Z mjacob $ */
+/* $FreeBSD: releng/10.1/sys/dev/ispfw/asm_2300.h 238806 2012-07-26 13:58:43Z mjacob $ */
 /*-
  * Copyright (C) 2001, 2002, 2003, 2004, 2005 by Qlogic, Inc.
  * All rights reserved.

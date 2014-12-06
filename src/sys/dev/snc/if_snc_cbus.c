@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/snc/if_snc_cbus.c 242871 2012-11-10 14:58:06Z nyan $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/snc/if_snc_cbus.c 242871 2012-11-10 14:58:06Z nyan $");
 
 /*
  *	National Semiconductor  DP8393X SONIC Driver

@@ -14,7 +14,7 @@
  *
  * Ported to run under 386BSD by Julian Elischer (julian@tfs.com) Sept 1992
  *
- * $FreeBSD: stable/10/sys/cam/scsi/scsi_all.h 271903 2014-09-20 13:46:16Z mav $
+ * $FreeBSD: releng/10.1/sys/cam/scsi/scsi_all.h 271903 2014-09-20 13:46:16Z mav $
  */
 
 /*

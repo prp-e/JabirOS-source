@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/bin/ed/cbc.c 270756 2014-08-28 18:11:05Z pfg $");
+__FBSDID("$FreeBSD: releng/10.1/bin/ed/cbc.c 270756 2014-08-28 18:11:05Z pfg $");
 
 #include <sys/types.h>
 #include <errno.h>

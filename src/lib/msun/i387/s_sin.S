@@ -34,7 +34,7 @@
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: stable/10/lib/msun/i387/s_sin.S 240566 2012-09-16 16:58:49Z tijl $")
+__FBSDID("$FreeBSD: releng/10.1/lib/msun/i387/s_sin.S 240566 2012-09-16 16:58:49Z tijl $")
 
 ENTRY(sin)
 	fldl	4(%esp)

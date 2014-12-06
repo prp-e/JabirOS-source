@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/arm/stack_machdep.c 266404 2014-05-18 16:02:56Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/arm/stack_machdep.c 266404 2014-05-18 16:02:56Z ian $");
 
 #include <sys/systm.h>
 #include <sys/param.h>

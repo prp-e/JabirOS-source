@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_fork.c 270267 2014-08-21 12:30:01Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_fork.c 270267 2014-08-21 12:30:01Z kib $");
 
 #include "opt_kdtrace.h"
 #include "opt_ktrace.h"

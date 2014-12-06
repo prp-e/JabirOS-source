@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/nfsd/Makefile 249596 2013-04-17 22:42:43Z ken $
+# $FreeBSD: releng/10.1/sys/modules/nfsd/Makefile 249596 2013-04-17 22:42:43Z ken $
 
 .PATH: ${.CURDIR}/../../fs/nfsserver ${.CURDIR}/../../nfs
 KMOD=	nfsd

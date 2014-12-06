@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/netipsec/key.c 270053 2014-08-16 13:55:44Z bz $	*/
+/*	$FreeBSD: releng/10.1/sys/netipsec/key.c 270053 2014-08-16 13:55:44Z bz $	*/
 /*	$KAME: key.c,v 1.191 2001/06/27 10:46:49 sakane Exp $	*/
 
 /*-

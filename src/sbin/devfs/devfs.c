@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/devfs/devfs.c 159605 2006-06-14 15:09:52Z maxim $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/devfs/devfs.c 159605 2006-06-14 15:09:52Z maxim $");
 
 #include <sys/param.h>
 #include <sys/queue.h>

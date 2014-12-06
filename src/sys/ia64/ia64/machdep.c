@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/ia64/ia64/machdep.c 271998 2014-09-22 20:10:45Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/sys/ia64/ia64/machdep.c 271998 2014-09-22 20:10:45Z marcel $");
 
 #include "opt_compat.h"
 #include "opt_ddb.h"

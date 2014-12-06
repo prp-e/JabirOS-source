@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/netgraph/ipfw/Makefile 225586 2011-09-15 12:28:17Z ae $
+# $FreeBSD: releng/10.1/sys/modules/netgraph/ipfw/Makefile 225586 2011-09-15 12:28:17Z ae $
 
 .include <bsd.own.mk>
 

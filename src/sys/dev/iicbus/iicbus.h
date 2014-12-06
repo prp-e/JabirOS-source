@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/iicbus/iicbus.h 228257 2011-12-04 11:55:33Z adrian $
+ * $FreeBSD: releng/10.1/sys/dev/iicbus/iicbus.h 228257 2011-12-04 11:55:33Z adrian $
  *
  */
 #ifndef __IICBUS_H

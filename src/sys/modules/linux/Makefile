@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/linux/Makefile 272020 2014-09-23 07:50:04Z bz $
+# $FreeBSD: releng/10.1/sys/modules/linux/Makefile 272020 2014-09-23 07:50:04Z bz $
 
 .if ${MACHINE_CPUARCH} == "amd64"
 SFX= 32

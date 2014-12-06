@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/cddl/compat/opensolaris/sys/time.h 265679 2014-05-08 13:31:01Z mav $
+ * $FreeBSD: releng/10.1/sys/cddl/compat/opensolaris/sys/time.h 265679 2014-05-08 13:31:01Z mav $
  */
 
 #ifndef _OPENSOLARIS_SYS_TIME_H_

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/mips/gen/signalcontext.c 178580 2008-04-26 12:08:02Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/mips/gen/signalcontext.c 178580 2008-04-26 12:08:02Z imp $");
 
 #include <sys/param.h>
 #include <sys/signal.h>

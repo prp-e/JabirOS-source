@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/routed/input.c 190745 2009-04-05 18:28:42Z phk $
+ * $FreeBSD: releng/10.1/sbin/routed/input.c 273414 2014-10-21 20:20:36Z delphij $
  */
 
 #include "defs.h"
@@ -34,7 +34,7 @@
 #ifdef __NetBSD__
 __RCSID("$NetBSD$");
 #elif defined(__FreeBSD__)
-__RCSID("$FreeBSD: stable/10/sbin/routed/input.c 190745 2009-04-05 18:28:42Z phk $");
+__RCSID("$FreeBSD: releng/10.1/sbin/routed/input.c 273414 2014-10-21 20:20:36Z delphij $");
 #else
 __RCSID("$Revision: 2.26 $");
 #ident "$Revision: 2.26 $"
@@ -288,6 +288,10 @@ input(struct sockaddr_in *from,		/* received from this IP address */
 				/* Answer a query from a utility program
 				 * with all we know.
 				 */
+				if (aifp == NULL) {
+					trace_pkt("ignore remote query");
+					return;
+				}
 				if (from->sin_port != htons(RIP_PORT)) {
 					supply(from, aifp, OUT_QUERY, 0,
 					       rip->rip_vers, ap != 0);

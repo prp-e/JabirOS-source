@@ -25,7 +25,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- *      $FreeBSD: stable/10/sys/fs/pseudofs/pseudofs.h 232278 2012-02-29 00:30:18Z mm $
+ *      $FreeBSD: releng/10.1/sys/fs/pseudofs/pseudofs.h 232278 2012-02-29 00:30:18Z mm $
  */
 
 #ifndef _PSEUDOFS_H_INCLUDED

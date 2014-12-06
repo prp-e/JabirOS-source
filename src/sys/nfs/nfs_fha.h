@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  */
-/* $FreeBSD: stable/10/sys/nfs/nfs_fha.h 261054 2014-01-22 23:52:20Z mav $ */
+/* $FreeBSD: releng/10.1/sys/nfs/nfs_fha.h 261054 2014-01-22 23:52:20Z mav $ */
 
 #ifndef	_NFS_FHA_H
 #define	_NFS_FHA_H 1

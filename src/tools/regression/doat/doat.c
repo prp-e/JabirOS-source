@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/doat/doat.c 226523 2011-10-18 22:51:40Z jilles $
+ * $FreeBSD: releng/10.1/tools/regression/doat/doat.c 226523 2011-10-18 22:51:40Z jilles $
  */
 
 #include <sys/types.h>

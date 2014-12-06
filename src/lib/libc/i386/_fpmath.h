@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/i386/_fpmath.h 175402 2008-01-17 16:39:07Z bde $
+ * $FreeBSD: releng/10.1/lib/libc/i386/_fpmath.h 175402 2008-01-17 16:39:07Z bde $
  */
 
 union IEEEl2bits {

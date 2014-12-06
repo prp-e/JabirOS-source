@@ -1,5 +1,5 @@
 /*	$OpenBSD: if_upgt.c,v 1.35 2008/04/16 18:32:15 damien Exp $ */
-/*	$FreeBSD: stable/10/sys/dev/usb/wlan/if_upgt.c 262007 2014-02-17 01:36:53Z kevlo $ */
+/*	$FreeBSD: releng/10.1/sys/dev/usb/wlan/if_upgt.c 262007 2014-02-17 01:36:53Z kevlo $ */
 
 /*
  * Copyright (c) 2007 Marcus Glocker <mglocker@openbsd.org>

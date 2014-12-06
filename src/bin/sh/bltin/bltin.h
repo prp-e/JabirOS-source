@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)bltin.h	8.2 (Berkeley) 5/4/95
- * $FreeBSD: stable/10/bin/sh/bltin/bltin.h 223060 2011-06-13 21:03:27Z jilles $
+ * $FreeBSD: releng/10.1/bin/sh/bltin/bltin.h 223060 2011-06-13 21:03:27Z jilles $
  */
 
 /*

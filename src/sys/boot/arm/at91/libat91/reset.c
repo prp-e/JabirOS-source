@@ -21,7 +21,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/boot/arm/at91/libat91/reset.c 161370 2006-08-16 23:39:58Z imp $
+ * $FreeBSD: releng/10.1/sys/boot/arm/at91/libat91/reset.c 161370 2006-08-16 23:39:58Z imp $
  */
 
 #include "at91rm9200.h"

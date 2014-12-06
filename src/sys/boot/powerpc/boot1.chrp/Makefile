@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/powerpc/boot1.chrp/Makefile 255944 2013-09-29 20:20:17Z bdrewery $
+# $FreeBSD: releng/10.1/sys/boot/powerpc/boot1.chrp/Makefile 255944 2013-09-29 20:20:17Z bdrewery $
 
 SSP_CFLAGS=
 

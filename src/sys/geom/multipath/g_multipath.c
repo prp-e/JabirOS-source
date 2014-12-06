@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/geom/multipath/g_multipath.c 261391 2014-02-02 00:33:17Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/geom/multipath/g_multipath.c 261391 2014-02-02 00:33:17Z mav $");
 #include <sys/param.h>
 #include <sys/systm.h>
 #include <sys/kernel.h>

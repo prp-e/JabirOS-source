@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libstdthreads/Makefile 228904 2011-12-26 21:51:53Z ed $
+# $FreeBSD: releng/10.1/lib/libstdthreads/Makefile 228904 2011-12-26 21:51:53Z ed $
 
 LIB=	stdthreads
 SHLIB_MAJOR= 0

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/msun/src/s_tanl.c 240828 2012-09-22 15:38:29Z kargl $");
+__FBSDID("$FreeBSD: releng/10.1/lib/msun/src/s_tanl.c 240828 2012-09-22 15:38:29Z kargl $");
 
 /*
  * Limited testing on pseudorandom numbers drawn within [0:4e8] shows

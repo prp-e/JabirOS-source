@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/usb_debug.h 250205 2013-05-03 10:13:29Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/usb_debug.h 250205 2013-05-03 10:13:29Z hselasky $ */
 /*-
  * Copyright (c) 2008 Hans Petter Selasky. All rights reserved.
  *

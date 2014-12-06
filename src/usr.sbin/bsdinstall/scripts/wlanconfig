@@ -25,7 +25,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/usr.sbin/bsdinstall/scripts/wlanconfig 260682 2014-01-15 08:17:31Z dteske $
+# $FreeBSD: releng/10.1/usr.sbin/bsdinstall/scripts/wlanconfig 260682 2014-01-15 08:17:31Z dteske $
 #
 ############################################################ INCLUDES
 

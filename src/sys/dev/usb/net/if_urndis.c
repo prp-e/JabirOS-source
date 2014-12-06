@@ -21,7 +21,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/net/if_urndis.c 262363 2014-02-23 13:22:04Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/net/if_urndis.c 262363 2014-02-23 13:22:04Z hselasky $");
 
 #include <sys/stdint.h>
 #include <sys/stddef.h>

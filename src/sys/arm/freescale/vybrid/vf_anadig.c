@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/freescale/vybrid/vf_anadig.c 266198 2014-05-15 22:03:24Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/freescale/vybrid/vf_anadig.c 266198 2014-05-15 22:03:24Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

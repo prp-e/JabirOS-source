@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/camcontrol/Makefile 268700 2014-07-15 17:26:43Z mav $
+# $FreeBSD: releng/10.1/sbin/camcontrol/Makefile 268700 2014-07-15 17:26:43Z mav $
 
 PROG=	camcontrol
 SRCS=	camcontrol.c util.c

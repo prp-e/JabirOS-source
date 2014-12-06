@@ -33,7 +33,7 @@
  *
  *	@(#)dumprestore.h	8.2 (Berkeley) 1/21/94
  *
- * $FreeBSD: stable/10/include/protocols/dumprestore.h 235601 2012-05-18 10:01:31Z gleb $
+ * $FreeBSD: releng/10.1/include/protocols/dumprestore.h 235601 2012-05-18 10:01:31Z gleb $
  */
 
 #ifndef _PROTOCOLS_DUMPRESTORE_H_

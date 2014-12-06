@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/nlm/nlm_advlock.c 239328 2012-08-16 13:01:56Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/nlm/nlm_advlock.c 239328 2012-08-16 13:01:56Z kib $");
 
 #include <sys/param.h>
 #include <sys/fcntl.h>

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/sparc64/sparc64/ata_machdep.c 240518 2012-09-14 21:28:56Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/sys/sparc64/sparc64/ata_machdep.c 240518 2012-09-14 21:28:56Z eadler $");
 
 #include <sys/param.h>
 #include <geom/geom_disk.h>

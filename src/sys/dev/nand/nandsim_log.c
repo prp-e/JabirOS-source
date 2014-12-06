@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/nand/nandsim_log.c 235537 2012-05-17 10:11:18Z gber $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/nand/nandsim_log.c 235537 2012-05-17 10:11:18Z gber $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -12,7 +12,7 @@
  * warranties of merchantability and fitness for a particular
  * purpose.
  *
- * $FreeBSD: stable/10/sys/boot/i386/common/bootargs.h 235154 2012-05-09 08:04:29Z avg $
+ * $FreeBSD: releng/10.1/sys/boot/i386/common/bootargs.h 235154 2012-05-09 08:04:29Z avg $
  */
 
 #ifndef _BOOT_I386_ARGS_H_

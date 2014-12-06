@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/stdio/fwide.c 178287 2008-04-17 22:17:54Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/stdio/fwide.c 178287 2008-04-17 22:17:54Z jhb $");
 
 #include "namespace.h"
 #include <errno.h>

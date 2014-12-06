@@ -25,7 +25,7 @@
  * SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/mii/axphy.c 227908 2011-11-23 20:27:26Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/mii/axphy.c 227908 2011-11-23 20:27:26Z marius $");
 
 /*
  * driver for internal phy in the AX88x9x chips.

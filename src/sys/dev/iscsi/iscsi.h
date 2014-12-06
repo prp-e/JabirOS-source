@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/iscsi/iscsi.h 268703 2014-07-15 18:21:26Z mav $
+ * $FreeBSD: releng/10.1/sys/dev/iscsi/iscsi.h 268703 2014-07-15 18:21:26Z mav $
  */
 
 #ifndef ISCSI_H

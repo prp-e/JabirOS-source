@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/i386/xen/mptable.c 256073 2013-10-05 23:11:01Z gibbs $");
+__FBSDID("$FreeBSD: releng/10.1/sys/i386/xen/mptable.c 256073 2013-10-05 23:11:01Z gibbs $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

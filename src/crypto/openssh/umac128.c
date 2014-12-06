@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/crypto/openssh/umac128.c 255767 2013-09-21 21:36:09Z des $ */
+/* $FreeBSD: releng/10.1/crypto/openssh/umac128.c 255767 2013-09-21 21:36:09Z des $ */
 #define UMAC_OUTPUT_LEN		16
 #undef umac_ctx
 #define umac_ctx		umac128_ctx

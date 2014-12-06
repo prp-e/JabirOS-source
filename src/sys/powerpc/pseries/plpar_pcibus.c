@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/pseries/plpar_pcibus.c 259257 2013-12-12 12:36:40Z andreast $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/pseries/plpar_pcibus.c 259257 2013-12-12 12:36:40Z andreast $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

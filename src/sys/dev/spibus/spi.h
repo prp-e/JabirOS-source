@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/spibus/spi.h 239626 2012-08-23 22:38:37Z imp $ */
+/* $FreeBSD: releng/10.1/sys/dev/spibus/spi.h 239626 2012-08-23 22:38:37Z imp $ */
 
 struct spi_command {
 	void	*tx_cmd;

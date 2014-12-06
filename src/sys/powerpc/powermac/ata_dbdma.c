@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("* $FreeBSD: stable/10/sys/powerpc/powermac/ata_dbdma.c 249213 2013-04-06 19:12:49Z marius $");
+__FBSDID("* $FreeBSD: releng/10.1/sys/powerpc/powermac/ata_dbdma.c 249213 2013-04-06 19:12:49Z marius $");
 
 /*
  * Common routines for the DMA engine on both the Apple Kauai and MacIO

@@ -55,7 +55,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/powerpc/exec_machdep.c 271171 2014-09-05 15:13:41Z jhibbits $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/powerpc/exec_machdep.c 271171 2014-09-05 15:13:41Z jhibbits $");
 
 #include "opt_compat.h"
 #include "opt_fpu_emu.h"

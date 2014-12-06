@@ -26,7 +26,7 @@
  * OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/include/resource.h 236992 2012-06-13 05:02:51Z imp $
+ * $FreeBSD: releng/10.1/sys/arm/include/resource.h 236992 2012-06-13 05:02:51Z imp $
  */
 
 #ifndef _MACHINE_RESOURCE_H_

@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_proc.c 270264 2014-08-21 10:46:19Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_proc.c 270264 2014-08-21 10:46:19Z kib $");
 
 #include "opt_compat.h"
 #include "opt_ddb.h"

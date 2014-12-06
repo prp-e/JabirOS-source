@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/tools/net80211/wesside/udps/udps.c 161030 2006-08-07 00:05:04Z sam $
+ * $FreeBSD: releng/10.1/tools/tools/net80211/wesside/udps/udps.c 161030 2006-08-07 00:05:04Z sam $
  */
 #include <sys/types.h>
 #include <sys/socket.h>

@@ -1,4 +1,4 @@
-$FreeBSD: stable/10/LOCKS 255635 2013-09-17 14:19:05Z trasz $
+$FreeBSD: releng/10.1/LOCKS 255635 2013-09-17 14:19:05Z trasz $
 
 This file documents formal review/approval requirements that have been
 approved by core.

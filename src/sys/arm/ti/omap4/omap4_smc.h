@@ -23,7 +23,7 @@
  */
 
 /*
- * $FreeBSD: stable/10/sys/arm/ti/omap4/omap4_smc.h 244914 2012-12-31 21:19:44Z gonzo $
+ * $FreeBSD: releng/10.1/sys/arm/ti/omap4/omap4_smc.h 244914 2012-12-31 21:19:44Z gonzo $
  */
 
 #ifndef OMAP4_SMC_H_

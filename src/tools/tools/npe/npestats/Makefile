@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/npe/npestats/Makefile 192661 2009-05-23 19:16:34Z sam $
+# $FreeBSD: releng/10.1/tools/tools/npe/npestats/Makefile 192661 2009-05-23 19:16:34Z sam $
 
 PROG=	npestats
 SRCS=	main.c statfoo.c npestats.c

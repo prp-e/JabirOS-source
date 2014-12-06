@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/geom_nop/conf.sh 153186 2005-12-07 01:27:23Z pjd $
+# $FreeBSD: releng/10.1/tools/regression/geom_nop/conf.sh 153186 2005-12-07 01:27:23Z pjd $
 
 class="nop"
 base=`basename $0`

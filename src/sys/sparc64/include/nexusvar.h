@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sparc64/include/nexusvar.h 203844 2010-02-13 18:51:49Z marius $
+ * $FreeBSD: releng/10.1/sys/sparc64/include/nexusvar.h 203844 2010-02-13 18:51:49Z marius $
  */
 
 #ifndef _MACHINE_NEXUSVAR_H_

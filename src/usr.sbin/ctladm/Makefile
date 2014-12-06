@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/ctladm/Makefile 232604 2012-03-06 13:43:57Z trasz $
+# $FreeBSD: releng/10.1/usr.sbin/ctladm/Makefile 232604 2012-03-06 13:43:57Z trasz $
 
 PROG=		ctladm
 SRCS=		ctladm.c util.c ctl_util.c ctl_scsi_all.c

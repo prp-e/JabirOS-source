@@ -33,7 +33,7 @@ static const char sccsid[] = "@(#)table.c	8.3 (Berkeley) 4/2/94";
 #endif /* not lint */
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/chpass/table.c 227228 2011-11-06 17:20:44Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/chpass/table.c 227228 2011-11-06 17:20:44Z ed $");
 
 #include <sys/types.h>
 #include <stddef.h>

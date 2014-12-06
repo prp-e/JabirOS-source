@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/etc/root/dot.login 243153 2012-11-16 14:25:13Z eadler $
+# $FreeBSD: releng/10.1/etc/root/dot.login 243153 2012-11-16 14:25:13Z eadler $
 #
 # .login - csh login script, read by login shell, after `.cshrc' at login.
 #

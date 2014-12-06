@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/net/if_indextoname.c 235640 2012-05-19 02:39:43Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/net/if_indextoname.c 235640 2012-05-19 02:39:43Z marcel $");
 
 #include <sys/types.h>
 #include <sys/socket.h>

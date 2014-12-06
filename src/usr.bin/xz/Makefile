@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/xz/Makefile 213700 2010-10-11 21:16:50Z mm $
+# $FreeBSD: releng/10.1/usr.bin/xz/Makefile 213700 2010-10-11 21:16:50Z mm $
 
 PROG=	xz
 

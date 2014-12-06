@@ -1,4 +1,4 @@
-#  $FreeBSD: stable/10/sys/boot/arm/ixp425/boot2/Makefile 255939 2013-09-29 15:19:34Z andrew $
+#  $FreeBSD: releng/10.1/sys/boot/arm/ixp425/boot2/Makefile 255939 2013-09-29 15:19:34Z andrew $
 
 .include <bsd.own.mk>
 

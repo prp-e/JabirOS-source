@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/vmm/vmm_ioport.h 268976 2014-07-22 04:39:16Z jhb $
+ * $FreeBSD: releng/10.1/sys/amd64/vmm/vmm_ioport.h 268976 2014-07-22 04:39:16Z jhb $
  */
 
 #ifndef	_VMM_IOPORT_H_

@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/etc/mail/Makefile 130157 2004-06-06 17:28:31Z gshapiro $
+# $FreeBSD: releng/10.1/etc/mail/Makefile 130157 2004-06-06 17:28:31Z gshapiro $
 #
 # This Makefile provides an easy way to generate the configuration
 # file and database maps for the sendmail(8) daemon.

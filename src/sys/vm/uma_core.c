@@ -48,7 +48,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/vm/uma_core.c 267751 2014-06-22 21:19:19Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/vm/uma_core.c 267751 2014-06-22 21:19:19Z mav $");
 
 /* I should really use ktr.. */
 /*

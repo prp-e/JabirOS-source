@@ -1,4 +1,4 @@
- $FreeBSD: stable/10/sys/compat/freebsd32/syscalls.master 271010 2014-09-03 09:05:16Z kib $
+ $FreeBSD: releng/10.1/sys/compat/freebsd32/syscalls.master 271010 2014-09-03 09:05:16Z kib $
 ;	from: @(#)syscalls.master	8.2 (Berkeley) 1/13/94
 ;	from: src/sys/kern/syscalls.master 1.107
 ;

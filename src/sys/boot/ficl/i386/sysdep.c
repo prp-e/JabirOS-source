@@ -7,7 +7,7 @@
 **
 *******************************************************************/
 
-/* $FreeBSD: stable/10/sys/boot/ficl/i386/sysdep.c 51786 1999-09-29 04:43:16Z dcs $ */
+/* $FreeBSD: releng/10.1/sys/boot/ficl/i386/sysdep.c 51786 1999-09-29 04:43:16Z dcs $ */
 
 #ifdef TESTMAIN
 #include <stdio.h>

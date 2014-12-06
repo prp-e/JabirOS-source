@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/lib/libc/gen/Symbol.map 254499 2013-08-18 20:11:34Z pjd $
+ * $FreeBSD: releng/10.1/lib/libc/gen/Symbol.map 254499 2013-08-18 20:11:34Z pjd $
  */
 
 FBSD_1.0 {

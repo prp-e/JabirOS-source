@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netsmb/smb_iod.c 265243 2014-05-02 21:30:59Z ae $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netsmb/smb_iod.c 265243 2014-05-02 21:30:59Z ae $");
  
 #include <sys/param.h>
 #include <sys/systm.h>

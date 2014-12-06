@@ -72,7 +72,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/pccbb/pccbb_pci.c 271060 2014-09-03 23:08:21Z gavin $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/pccbb/pccbb_pci.c 271060 2014-09-03 23:08:21Z gavin $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

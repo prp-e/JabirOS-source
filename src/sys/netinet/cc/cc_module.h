@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/netinet/cc/cc_module.h 220560 2011-04-12 08:13:18Z lstewart $
+ * $FreeBSD: releng/10.1/sys/netinet/cc/cc_module.h 220560 2011-04-12 08:13:18Z lstewart $
  */
 
 /*

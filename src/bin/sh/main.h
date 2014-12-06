@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)main.h	8.2 (Berkeley) 5/4/95
- * $FreeBSD: stable/10/bin/sh/main.h 229220 2012-01-01 22:17:12Z jilles $
+ * $FreeBSD: releng/10.1/bin/sh/main.h 229220 2012-01-01 22:17:12Z jilles $
  */
 
 extern int rootpid;	/* pid of main shell */

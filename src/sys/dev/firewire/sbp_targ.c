@@ -31,7 +31,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  * 
- * $FreeBSD: stable/10/sys/dev/firewire/sbp_targ.c 261455 2014-02-04 03:36:42Z eadler $
+ * $FreeBSD: releng/10.1/sys/dev/firewire/sbp_targ.c 261455 2014-02-04 03:36:42Z eadler $
  */
 
 #include <sys/param.h>

@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/wii/wii_fbvar.h 239478 2012-08-21 06:31:26Z adrian $
+ * $FreeBSD: releng/10.1/sys/powerpc/wii/wii_fbvar.h 239478 2012-08-21 06:31:26Z adrian $
  */
 
 #ifndef	_POWERPC_WII_WIIFB_H

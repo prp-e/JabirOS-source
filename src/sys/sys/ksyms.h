@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/ksyms.h 192859 2009-05-26 21:39:09Z sson $
+ * $FreeBSD: releng/10.1/sys/sys/ksyms.h 192859 2009-05-26 21:39:09Z sson $
  */
 
 #ifndef _SYS_KSYMS_H_

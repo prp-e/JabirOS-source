@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/condvar.h 247785 2013-03-04 12:20:48Z davide $
+ * $FreeBSD: releng/10.1/sys/sys/condvar.h 247785 2013-03-04 12:20:48Z davide $
  */
 
 #ifndef	_SYS_CONDVAR_H_

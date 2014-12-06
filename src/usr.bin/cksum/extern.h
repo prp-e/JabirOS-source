@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)extern.h	8.1 (Berkeley) 6/6/93
- * $FreeBSD: stable/10/usr.bin/cksum/extern.h 241777 2012-10-20 10:33:15Z ed $
+ * $FreeBSD: releng/10.1/usr.bin/cksum/extern.h 241777 2012-10-20 10:33:15Z ed $
  */
 
 #include <sys/cdefs.h>

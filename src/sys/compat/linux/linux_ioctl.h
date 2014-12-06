@@ -25,7 +25,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/compat/linux/linux_ioctl.h 253338 2013-07-14 10:13:01Z hselasky $
+ * $FreeBSD: releng/10.1/sys/compat/linux/linux_ioctl.h 253338 2013-07-14 10:13:01Z hselasky $
  */
 
 #ifndef _LINUX_IOCTL_H_

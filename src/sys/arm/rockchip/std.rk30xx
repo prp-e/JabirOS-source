@@ -1,5 +1,5 @@
 # Rockchip rk30xx common options
-#$FreeBSD: stable/10/sys/arm/rockchip/std.rk30xx 266110 2014-05-15 02:41:23Z ian $
+#$FreeBSD: releng/10.1/sys/arm/rockchip/std.rk30xx 266110 2014-05-15 02:41:23Z ian $
 
 cpu		CPU_CORTEXA
 machine		arm armv6

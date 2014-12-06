@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/locale/lnumeric.h 227753 2011-11-20 14:45:42Z theraven $
+ * $FreeBSD: releng/10.1/lib/libc/locale/lnumeric.h 227753 2011-11-20 14:45:42Z theraven $
  */
 
 #ifndef _LNUMERIC_H_

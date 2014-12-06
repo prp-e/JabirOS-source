@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/net/if_stf.c 263478 2014-03-21 15:15:30Z glebius $	*/
+/*	$FreeBSD: releng/10.1/sys/net/if_stf.c 263478 2014-03-21 15:15:30Z glebius $	*/
 /*	$KAME: if_stf.c,v 1.73 2001/12/03 11:08:30 keiichi Exp $	*/
 
 /*-

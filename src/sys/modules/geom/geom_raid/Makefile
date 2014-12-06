@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/geom/geom_raid/Makefile 234848 2012-04-30 17:53:02Z mav $
+# $FreeBSD: releng/10.1/sys/modules/geom/geom_raid/Makefile 234848 2012-04-30 17:53:02Z mav $
 
 .PATH: ${.CURDIR}/../../../geom/raid
 

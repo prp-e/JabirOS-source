@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/sys/netpfil/ipfw/test/test_dn_sched.c 204736 2010-03-04 21:52:40Z luigi $
+ * $FreeBSD: releng/10.1/sys/netpfil/ipfw/test/test_dn_sched.c 204736 2010-03-04 21:52:40Z luigi $
  *
  * library functions for userland testing of dummynet schedulers
  */

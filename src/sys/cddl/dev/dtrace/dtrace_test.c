@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/cddl/dev/dtrace/dtrace_test.c 260817 2014-01-17 10:58:59Z avg $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/dtrace/dtrace_test.c 260817 2014-01-17 10:58:59Z avg $
  *
  */
 #include "opt_kdtrace.h"

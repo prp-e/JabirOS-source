@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/quot/quot.c 241015 2012-09-27 23:31:19Z mdf $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/quot/quot.c 241015 2012-09-27 23:31:19Z mdf $");
 
 #include <sys/param.h>
 #include <sys/stdint.h>

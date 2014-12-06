@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/sound/driver/via8233/Makefile 110498 2003-02-07 13:56:33Z nyan $
+# $FreeBSD: releng/10.1/sys/modules/sound/driver/via8233/Makefile 110498 2003-02-07 13:56:33Z nyan $
 
 .PATH: ${.CURDIR}/../../../../dev/sound/pci
 

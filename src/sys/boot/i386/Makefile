@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/i386/Makefile 200872 2009-12-22 20:56:33Z jhb $
+# $FreeBSD: releng/10.1/sys/boot/i386/Makefile 200872 2009-12-22 20:56:33Z jhb $
 
 .include <bsd.own.mk>
 

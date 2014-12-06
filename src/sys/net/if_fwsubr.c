@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/net/if_fwsubr.c 249925 2013-04-26 12:50:32Z glebius $
+ * $FreeBSD: releng/10.1/sys/net/if_fwsubr.c 249925 2013-04-26 12:50:32Z glebius $
  */
 
 #include "opt_inet.h"

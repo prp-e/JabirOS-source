@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/wpi/Makefile 236514 2012-06-03 12:19:16Z uqs $
+# $FreeBSD: releng/10.1/sys/modules/wpi/Makefile 236514 2012-06-03 12:19:16Z uqs $
 
 .PATH:  ${.CURDIR}/../../dev/wpi
 

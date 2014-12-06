@@ -53,7 +53,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/exca/exca.c 189579 2009-03-09 13:29:13Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/exca/exca.c 189579 2009-03-09 13:29:13Z imp $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/open/00.t 166232 2007-01-25 20:50:02Z pjd $
+# $FreeBSD: releng/10.1/tools/regression/pjdfstest/tests/open/00.t 166232 2007-01-25 20:50:02Z pjd $
 
 desc="open opens (and eventually creates) a file"
 

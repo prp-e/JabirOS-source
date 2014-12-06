@@ -59,4 +59,4 @@ particular service and module type may result in surprising behaviour.
 To get the intended semantics, add a "required" entry listing the
 pam_deny module at the end of the chain.
 
-$FreeBSD: stable/10/etc/pam.d/README 271067 2014-09-03 23:18:13Z gavin $
+$FreeBSD: releng/10.1/etc/pam.d/README 271067 2014-09-03 23:18:13Z gavin $

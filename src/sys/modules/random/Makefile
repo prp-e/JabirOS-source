@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/random/Makefile 256449 2013-10-14 18:24:30Z markm $
+# $FreeBSD: releng/10.1/sys/modules/random/Makefile 256449 2013-10-14 18:24:30Z markm $
 
 .PATH: ${.CURDIR}/../../dev/random
 .PATH: ${.CURDIR}/../../crypto/rijndael

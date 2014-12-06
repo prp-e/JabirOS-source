@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/5/93
-# $FreeBSD: stable/10/share/dict/Makefile 139103 2004-12-21 08:47:35Z ru $
+# $FreeBSD: releng/10.1/share/dict/Makefile 139103 2004-12-21 08:47:35Z ru $
 
 NO_OBJ=
 

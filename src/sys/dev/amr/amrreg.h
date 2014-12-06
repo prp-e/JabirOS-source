@@ -53,7 +53,7 @@
  * SUCH DAMAGE.
  *
  *
- *      $FreeBSD: stable/10/sys/dev/amr/amrreg.h 176041 2008-02-06 14:26:31Z scottl $
+ *      $FreeBSD: releng/10.1/sys/dev/amr/amrreg.h 176041 2008-02-06 14:26:31Z scottl $
  */
 
 /********************************************************************************

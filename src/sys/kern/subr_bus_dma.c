@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/subr_bus_dma.c 259510 2013-12-17 13:38:21Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/subr_bus_dma.c 259510 2013-12-17 13:38:21Z kib $");
 
 #include "opt_bus.h"
 

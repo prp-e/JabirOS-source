@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libgpib/Makefile 203356 2010-02-01 20:53:55Z joerg $
+# $FreeBSD: releng/10.1/lib/libgpib/Makefile 203356 2010-02-01 20:53:55Z joerg $
 
 LIB=		gpib
 SHLIB_MAJOR=	3

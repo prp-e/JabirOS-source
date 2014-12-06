@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/kern/kern_sdt.c 263283 2014-03-18 00:55:19Z markj $
+ * $FreeBSD: releng/10.1/sys/kern/kern_sdt.c 263283 2014-03-18 00:55:19Z markj $
  */
 
 #include "opt_kdtrace.h"

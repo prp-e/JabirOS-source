@@ -23,7 +23,7 @@
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 # THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/sys/dev/uart/uart_if.m 262649 2014-03-01 04:16:54Z imp $
+# $FreeBSD: releng/10.1/sys/dev/uart/uart_if.m 262649 2014-03-01 04:16:54Z imp $
 
 #include <sys/param.h>
 #include <sys/systm.h>

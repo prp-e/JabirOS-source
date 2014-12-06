@@ -37,7 +37,7 @@
  *
  * Author: Julian Elischer <julian@freebsd.org>
  *
- * $FreeBSD: stable/10/sys/netgraph/ng_pppoe.h 253564 2013-07-23 10:25:34Z glebius $
+ * $FreeBSD: releng/10.1/sys/netgraph/ng_pppoe.h 253564 2013-07-23 10:25:34Z glebius $
  * $Whistle: ng_pppoe.h,v 1.7 1999/10/16 10:16:43 julian Exp $
  */
 

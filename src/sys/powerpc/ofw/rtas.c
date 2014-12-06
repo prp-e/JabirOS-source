@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/ofw/rtas.c 259258 2013-12-12 13:00:07Z andreast $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/ofw/rtas.c 259258 2013-12-12 13:00:07Z andreast $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

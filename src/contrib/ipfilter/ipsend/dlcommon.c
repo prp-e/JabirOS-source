@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/contrib/ipfilter/ipsend/dlcommon.c 255332 2013-09-06 23:11:19Z cy $	*/
+/*	$FreeBSD: releng/10.1/contrib/ipfilter/ipsend/dlcommon.c 255332 2013-09-06 23:11:19Z cy $	*/
 
 /*
  * Common (shared) DLPI test routines.

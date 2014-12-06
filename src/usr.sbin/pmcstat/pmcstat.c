@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/pmcstat/pmcstat.c 266890 2014-05-30 15:02:29Z gnn $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/pmcstat/pmcstat.c 266890 2014-05-30 15:02:29Z gnn $");
 
 #include <sys/param.h>
 #include <sys/cpuset.h>

@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/file/flock/flock.c 268663 2014-07-15 10:05:52Z kib $
+ * $FreeBSD: releng/10.1/tools/regression/file/flock/flock.c 268663 2014-07-15 10:05:52Z kib $
  */
 
 #include <sys/file.h>

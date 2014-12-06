@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm_fops.c 239303 2012-08-15 16:19:39Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/drm_fops.c 239303 2012-08-15 16:19:39Z hselasky $");
 
 /** @file drm_fops.c
  * Support code for dealing with the file privates associated with each

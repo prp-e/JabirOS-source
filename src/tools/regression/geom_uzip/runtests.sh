@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/tools/regression/geom_uzip/runtests.sh 133641 2004-08-13 09:53:52Z fjoe $
+# $FreeBSD: releng/10.1/tools/regression/geom_uzip/runtests.sh 133641 2004-08-13 09:53:52Z fjoe $
 #
 
 dir=`dirname $0`

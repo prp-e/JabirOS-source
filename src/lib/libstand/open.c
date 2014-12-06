@@ -61,7 +61,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libstand/open.c 198542 2009-10-28 14:13:45Z brueffer $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libstand/open.c 198542 2009-10-28 14:13:45Z brueffer $");
 
 #include "stand.h"
 

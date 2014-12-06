@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/fdisk/fdisk.c 234345 2012-04-16 17:30:19Z marck $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/fdisk/fdisk.c 234345 2012-04-16 17:30:19Z marck $");
 
 #include <sys/disk.h>
 #include <sys/disklabel.h>

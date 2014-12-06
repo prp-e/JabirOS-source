@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/cddl/compat/opensolaris/sys/kmem.h 266667 2014-05-25 18:19:57Z markj $
+ * $FreeBSD: releng/10.1/sys/cddl/compat/opensolaris/sys/kmem.h 266667 2014-05-25 18:19:57Z markj $
  */
 
 #ifndef _OPENSOLARIS_SYS_KMEM_H_

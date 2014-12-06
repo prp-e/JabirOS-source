@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/sfxge/common/efx.h 265884 2014-05-11 17:18:09Z gnn $
+ * $FreeBSD: releng/10.1/sys/dev/sfxge/common/efx.h 265884 2014-05-11 17:18:09Z gnn $
  */
 
 #ifndef	_SYS_EFX_H

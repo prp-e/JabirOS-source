@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/lib/libcrypt/Makefile 260013 2013-12-28 20:05:31Z jmmv $
+# $FreeBSD: releng/10.1/lib/libcrypt/Makefile 260013 2013-12-28 20:05:31Z jmmv $
 #
 
 SHLIBDIR?=	/lib

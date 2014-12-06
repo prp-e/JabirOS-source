@@ -30,7 +30,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/stdio/xprintf_str.c 153486 2005-12-16 18:56:39Z phk $
+ * $FreeBSD: releng/10.1/lib/libc/stdio/xprintf_str.c 153486 2005-12-16 18:56:39Z phk $
  */
 
 #include <namespace.h>

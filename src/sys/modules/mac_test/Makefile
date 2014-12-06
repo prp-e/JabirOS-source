@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/mac_test/Makefile 105725 2002-10-22 17:10:15Z rwatson $
+# $FreeBSD: releng/10.1/sys/modules/mac_test/Makefile 105725 2002-10-22 17:10:15Z rwatson $
 
 .PATH: ${.CURDIR}/../../security/mac_test
 

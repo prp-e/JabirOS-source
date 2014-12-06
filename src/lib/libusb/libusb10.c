@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libusb/libusb10.c 264641 2014-04-18 07:50:25Z hselasky $ */
+/* $FreeBSD: releng/10.1/lib/libusb/libusb10.c 264641 2014-04-18 07:50:25Z hselasky $ */
 /*-
  * Copyright (c) 2009 Sylvestre Gallon. All rights reserved.
  * Copyright (c) 2009 Hans Petter Selasky. All rights reserved.

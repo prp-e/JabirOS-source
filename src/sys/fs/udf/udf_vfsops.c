@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/fs/udf/udf_vfsops.c 242833 2012-11-09 18:02:25Z attilio $
+ * $FreeBSD: releng/10.1/sys/fs/udf/udf_vfsops.c 242833 2012-11-09 18:02:25Z attilio $
  */
 
 /* udf_vfsops.c */

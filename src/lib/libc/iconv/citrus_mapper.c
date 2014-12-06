@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libc/iconv/citrus_mapper.c 264497 2014-04-15 09:49:44Z tijl $ */
+/* $FreeBSD: releng/10.1/lib/libc/iconv/citrus_mapper.c 264497 2014-04-15 09:49:44Z tijl $ */
 /*	$NetBSD: citrus_mapper.c,v 1.10 2012/06/08 07:49:42 martin Exp $	*/
 
 /*-

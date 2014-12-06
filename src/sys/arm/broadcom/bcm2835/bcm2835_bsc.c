@@ -27,7 +27,7 @@
  *
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/broadcom/bcm2835/bcm2835_bsc.c 270243 2014-08-20 19:37:05Z loos $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/broadcom/bcm2835/bcm2835_bsc.c 270243 2014-08-20 19:37:05Z loos $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

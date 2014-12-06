@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/altera/sdcard/altera_sdcard.h 245819 2013-01-22 18:51:14Z brooks $
+ * $FreeBSD: releng/10.1/sys/dev/altera/sdcard/altera_sdcard.h 245819 2013-01-22 18:51:14Z brooks $
  */
 
 #ifndef _DEV_ALTERA_SDCARD_H_

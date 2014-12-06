@@ -1,6 +1,6 @@
 #!/usr/bin/awk -f
 #
-# $FreeBSD: stable/10/sys/boot/common/merge_help.awk 162742 2006-09-28 19:06:20Z jhb $
+# $FreeBSD: releng/10.1/sys/boot/common/merge_help.awk 162742 2006-09-28 19:06:20Z jhb $
 #
 # Merge two boot loader help files for FreeBSD 3.0
 # Joe Abley <jabley@patho.gen.nz>

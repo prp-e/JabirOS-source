@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/acpi/acpi_asus_wmi/Makefile 237981 2012-07-02 08:31:29Z mav $
+# $FreeBSD: releng/10.1/sys/modules/acpi/acpi_asus_wmi/Makefile 237981 2012-07-02 08:31:29Z mav $
 
 .PATH:	${.CURDIR}/../../../dev/acpi_support
 

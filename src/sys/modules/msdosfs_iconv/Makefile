@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/msdosfs_iconv/Makefile 120492 2003-09-26 20:26:25Z fjoe $
+# $FreeBSD: releng/10.1/sys/modules/msdosfs_iconv/Makefile 120492 2003-09-26 20:26:25Z fjoe $
 
 .PATH:	${.CURDIR}/../../fs/msdosfs
 KMOD=	msdosfs_iconv

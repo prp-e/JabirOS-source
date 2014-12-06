@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/acpi/acpidb/Makefile 250838 2013-05-20 23:52:49Z jkim $
+# $FreeBSD: releng/10.1/usr.sbin/acpi/acpidb/Makefile 250838 2013-05-20 23:52:49Z jkim $
 
 PROG=	acpidb
 SRCS=	acpidb.c

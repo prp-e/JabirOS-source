@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/gadget/g_mouse.h 253544 2013-07-22 13:39:33Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/gadget/g_mouse.h 253544 2013-07-22 13:39:33Z hselasky $ */
 /*-
  * Copyright (c) 2010 Hans Petter Selasky. All rights reserved.
  *

@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/ia64/include/param.h 261985 2014-02-16 19:12:50Z marcel $ */
+/* $FreeBSD: releng/10.1/sys/ia64/include/param.h 261985 2014-02-16 19:12:50Z marcel $ */
 /* From: NetBSD: param.h,v 1.20 1997/09/19 13:52:53 leo Exp */
 
 /*-

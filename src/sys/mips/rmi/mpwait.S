@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/rmi/mpwait.S 208250 2010-05-18 04:08:58Z rrs $
+ * $FreeBSD: releng/10.1/sys/mips/rmi/mpwait.S 208250 2010-05-18 04:08:58Z rrs $
  */
 
 #include <machine/asm.h>

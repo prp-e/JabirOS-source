@@ -23,7 +23,7 @@
  * SUCH DAMAGE.
  */
 
-/* $FreeBSD: stable/10/sys/arm/include/board.h 238189 2012-07-07 05:02:39Z imp $ */
+/* $FreeBSD: releng/10.1/sys/arm/include/board.h 238189 2012-07-07 05:02:39Z imp $ */
 
 #ifndef _ARM_INCLUDE_BOARD_H_
 #define _ARM_INCLUDE_BOARD_H_

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/ifconfig/ifpfsync.c 233847 2012-04-03 18:10:48Z glebius $
+ * $FreeBSD: releng/10.1/sbin/ifconfig/ifpfsync.c 233847 2012-04-03 18:10:48Z glebius $
  */
 
 #include <sys/types.h>

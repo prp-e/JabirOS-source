@@ -25,7 +25,7 @@
  *
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/lpc/lpc_timer.c 266207 2014-05-16 02:21:51Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/lpc/lpc_timer.c 266207 2014-05-16 02:21:51Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

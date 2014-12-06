@@ -38,7 +38,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/i386/i386/trap.c 269752 2014-08-09 14:05:01Z markj $");
+__FBSDID("$FreeBSD: releng/10.1/sys/i386/i386/trap.c 269752 2014-08-09 14:05:01Z markj $");
 
 /*
  * 386 Trap and System call handling

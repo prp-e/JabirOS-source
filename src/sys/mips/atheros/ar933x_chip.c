@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/atheros/ar933x_chip.c 255764 2013-09-21 19:42:37Z adrian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/atheros/ar933x_chip.c 255764 2013-09-21 19:42:37Z adrian $");
 
 #include "opt_ddb.h"
 

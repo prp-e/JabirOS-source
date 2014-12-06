@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/tools/regression/posixsem2/semtest.c 205151 2010-03-14 13:29:09Z kib $ */
+/* $FreeBSD: releng/10.1/tools/regression/posixsem2/semtest.c 205151 2010-03-14 13:29:09Z kib $ */
 
 #include <sys/types.h>
 #include <sys/wait.h>

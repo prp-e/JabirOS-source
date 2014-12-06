@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/i386/i386/support.s 271071 2014-09-04 00:40:41Z pfg $
+ * $FreeBSD: releng/10.1/sys/i386/i386/support.s 271071 2014-09-04 00:40:41Z pfg $
  */
 
 #include "opt_npx.h"

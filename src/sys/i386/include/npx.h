@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  *
  *	from: @(#)npx.h	5.3 (Berkeley) 1/18/91
- * $FreeBSD: stable/10/sys/i386/include/npx.h 271999 2014-09-22 20:34:36Z jhb $
+ * $FreeBSD: releng/10.1/sys/i386/include/npx.h 271999 2014-09-22 20:34:36Z jhb $
  */
 
 /*

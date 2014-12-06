@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/cfi/cfi_dev.c 255207 2013-09-04 17:19:21Z brooks $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/cfi/cfi_dev.c 255207 2013-09-04 17:19:21Z brooks $");
 
 #include "opt_cfi.h"
 

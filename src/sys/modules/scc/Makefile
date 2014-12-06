@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/scc/Makefile 232176 2012-02-26 13:27:22Z jhibbits $
+# $FreeBSD: releng/10.1/sys/modules/scc/Makefile 232176 2012-02-26 13:27:22Z jhibbits $
 
 .PATH: ${.CURDIR}/../../dev/scc
 

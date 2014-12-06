@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/powermac/maciovar.h 264375 2014-04-12 19:57:15Z andreast $
+ * $FreeBSD: releng/10.1/sys/powerpc/powermac/maciovar.h 264375 2014-04-12 19:57:15Z andreast $
  */
 
 #ifndef _MACIO_MACIOVAR_H_

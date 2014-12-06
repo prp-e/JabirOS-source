@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/bin/sh/tests/builtins/type2.0 201344 2009-12-31 17:44:24Z jilles $
+# $FreeBSD: releng/10.1/bin/sh/tests/builtins/type2.0 201344 2009-12-31 17:44:24Z jilles $
 
 failures=0
 

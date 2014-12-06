@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/release/picobsd/tinyware/help/Makefile 139103 2004-12-21 08:47:35Z ru $
+# $FreeBSD: releng/10.1/release/picobsd/tinyware/help/Makefile 139103 2004-12-21 08:47:35Z ru $
 #
 PROG=help
 SRCS+=help.c

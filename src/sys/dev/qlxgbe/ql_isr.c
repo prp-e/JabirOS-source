@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/qlxgbe/ql_isr.c 251605 2013-06-10 17:12:22Z davidcs $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/qlxgbe/ql_isr.c 251605 2013-06-10 17:12:22Z davidcs $");
 
 
 #include "ql_os.h"

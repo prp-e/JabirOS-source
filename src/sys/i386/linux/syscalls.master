@@ -1,4 +1,4 @@
- $FreeBSD: stable/10/sys/i386/linux/syscalls.master 272020 2014-09-23 07:50:04Z bz $
+ $FreeBSD: releng/10.1/sys/i386/linux/syscalls.master 272020 2014-09-23 07:50:04Z bz $
 
 ;	@(#)syscalls.master	8.1 (Berkeley) 7/19/93
 ; System call name/number master file (or rather, slave, from LINUX).

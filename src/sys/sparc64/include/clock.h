@@ -1,7 +1,7 @@
 /*-
  * This file is in the public domain.
  *
- * $FreeBSD: stable/10/sys/sparc64/include/clock.h 230633 2012-01-27 23:21:54Z marius $
+ * $FreeBSD: releng/10.1/sys/sparc64/include/clock.h 230633 2012-01-27 23:21:54Z marius $
  */
 
 #ifndef	_MACHINE_CLOCK_H_

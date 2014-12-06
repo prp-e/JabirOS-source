@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/newsyslog/tests/Makefile 263226 2014-03-16 04:09:22Z jmmv $
+# $FreeBSD: releng/10.1/usr.sbin/newsyslog/tests/Makefile 263226 2014-03-16 04:09:22Z jmmv $
 
 TESTSDIR=	${TESTSBASE}/usr.sbin/newsyslog
 

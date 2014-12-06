@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/usr.bin/bc/extern.h 265533 2014-05-07 08:06:54Z delphij $						*/
+/*	$FreeBSD: releng/10.1/usr.bin/bc/extern.h 265533 2014-05-07 08:06:54Z delphij $						*/
 /*      $OpenBSD: extern.h,v 1.10 2013/09/19 16:12:01 otto Exp $	*/
 
 /*

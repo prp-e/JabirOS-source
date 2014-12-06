@@ -32,7 +32,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/etc/pam.d/convert.pl 130151 2004-06-06 11:46:29Z schweikh $
+# $FreeBSD: releng/10.1/etc/pam.d/convert.pl 130151 2004-06-06 11:46:29Z schweikh $
 #
 
 use strict;

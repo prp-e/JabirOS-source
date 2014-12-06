@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sparc64/pci/firereg.h 263763 2014-03-26 07:31:57Z dim $
+ * $FreeBSD: releng/10.1/sys/sparc64/pci/firereg.h 263763 2014-03-26 07:31:57Z dim $
  */
 
 #ifndef _SPARC64_PCI_FIREREG_H_

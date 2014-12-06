@@ -37,7 +37,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/fb/gallant12x22.c 271105 2014-09-04 16:51:45Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/fb/gallant12x22.c 271105 2014-09-04 16:51:45Z emaste $");
 
 #include <sys/param.h>
 

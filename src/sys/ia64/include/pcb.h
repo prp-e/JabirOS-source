@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: stable/10/sys/ia64/include/pcb.h 234785 2012-04-29 11:04:31Z dim $
+ *	$FreeBSD: releng/10.1/sys/ia64/include/pcb.h 234785 2012-04-29 11:04:31Z dim $
  */
 
 #ifndef _MACHINE_PCB_H_

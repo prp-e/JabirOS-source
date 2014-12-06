@@ -37,7 +37,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/autofs/popen.c 270897 2014-08-31 21:48:12Z trasz $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/autofs/popen.c 270897 2014-08-31 21:48:12Z trasz $");
 
 #include <sys/param.h>
 #include <sys/queue.h>

@@ -28,7 +28,7 @@
 #include "opt_xtrace.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/ia64/ia64/xtrace.c 271211 2014-09-06 22:17:54Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/sys/ia64/ia64/xtrace.c 271211 2014-09-06 22:17:54Z marcel $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

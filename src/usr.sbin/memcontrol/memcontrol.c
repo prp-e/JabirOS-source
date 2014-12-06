@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/memcontrol/memcontrol.c 241829 2012-10-22 02:12:15Z eadler $
+ * $FreeBSD: releng/10.1/usr.sbin/memcontrol/memcontrol.c 241829 2012-10-22 02:12:15Z eadler $
  */
 
 #include <sys/types.h>

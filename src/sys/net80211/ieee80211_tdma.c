@@ -26,7 +26,7 @@
 
 #include <sys/cdefs.h>
 #ifdef __FreeBSD__
-__FBSDID("$FreeBSD: stable/10/sys/net80211/ieee80211_tdma.c 254506 2013-08-18 23:40:30Z adrian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/net80211/ieee80211_tdma.c 254506 2013-08-18 23:40:30Z adrian $");
 #endif
 
 /*

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/common/md.c 200460 2009-12-13 01:20:32Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/common/md.c 200460 2009-12-13 01:20:32Z marcel $");
 
 #include <sys/param.h>
 #include <sys/endian.h>

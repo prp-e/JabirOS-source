@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/compat/freebsd32/freebsd32_ioctl.c 268139 2014-07-02 10:16:12Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/compat/freebsd32/freebsd32_ioctl.c 268139 2014-07-02 10:16:12Z mav $");
 
 #include "opt_compat.h"
 

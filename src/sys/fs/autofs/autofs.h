@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/fs/autofs/autofs.h 270900 2014-08-31 21:52:26Z trasz $
+ * $FreeBSD: releng/10.1/sys/fs/autofs/autofs.h 270900 2014-08-31 21:52:26Z trasz $
  */
 
 #ifndef AUTOFS_H

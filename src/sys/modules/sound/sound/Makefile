@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/sound/sound/Makefile 266576 2014-05-23 06:28:31Z hselasky $
+# $FreeBSD: releng/10.1/sys/modules/sound/sound/Makefile 266576 2014-05-23 06:28:31Z hselasky $
 
 .PATH: ${.CURDIR}/../../../dev/sound
 .PATH: ${.CURDIR}/../../../dev/sound/pcm

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/regression/include/stdatomic/Makefile 251558 2013-06-08 22:44:49Z ed $
+# $FreeBSD: releng/10.1/tools/regression/include/stdatomic/Makefile 251558 2013-06-08 22:44:49Z ed $
 
 PROG=	logic
 WARNS=6

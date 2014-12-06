@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/fxp/if_fxpvar.h 233586 2012-03-28 01:27:27Z yongari $
+ * $FreeBSD: releng/10.1/sys/dev/fxp/if_fxpvar.h 233586 2012-03-28 01:27:27Z yongari $
  */
 
 /*

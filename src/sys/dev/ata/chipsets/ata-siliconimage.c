@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ata/chipsets/ata-siliconimage.c 249213 2013-04-06 19:12:49Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ata/chipsets/ata-siliconimage.c 249213 2013-04-06 19:12:49Z marius $");
 
 #include <sys/param.h>
 #include <sys/module.h>

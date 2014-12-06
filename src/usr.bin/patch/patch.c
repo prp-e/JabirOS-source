@@ -24,7 +24,7 @@
  * behaviour
  *
  * $OpenBSD: patch.c,v 1.50 2012/05/15 19:32:02 millert Exp $
- * $FreeBSD: stable/10/usr.bin/patch/patch.c 267747 2014-06-22 20:29:51Z pfg $
+ * $FreeBSD: releng/10.1/usr.bin/patch/patch.c 267747 2014-06-22 20:29:51Z pfg $
  *
  */
 

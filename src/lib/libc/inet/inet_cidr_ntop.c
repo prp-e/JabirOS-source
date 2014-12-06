@@ -19,7 +19,7 @@
 static const char rcsid[] = "$Id: inet_cidr_ntop.c,v 1.7 2006/10/11 02:18:18 marka Exp $";
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/inet/inet_cidr_ntop.c 270838 2014-08-30 10:16:25Z ume $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/inet/inet_cidr_ntop.c 270838 2014-08-30 10:16:25Z ume $");
 
 #include "port_before.h"
 

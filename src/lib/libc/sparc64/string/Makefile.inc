@@ -1,1 +1,1 @@
-# $FreeBSD: stable/10/lib/libc/sparc64/string/Makefile.inc 85518 2001-10-26 05:40:07Z jake $
+# $FreeBSD: releng/10.1/lib/libc/sparc64/string/Makefile.inc 85518 2001-10-26 05:40:07Z jake $

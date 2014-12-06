@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/dev/iwi/if_iwivar.h 264954 2014-04-25 22:19:18Z marius $	*/
+/*	$FreeBSD: releng/10.1/sys/dev/iwi/if_iwivar.h 264954 2014-04-25 22:19:18Z marius $	*/
 
 /*-
  * Copyright (c) 2004, 2005

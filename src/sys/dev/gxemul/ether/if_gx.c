@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/gxemul/ether/if_gx.c 265999 2014-05-14 01:35:43Z ian $
+ * $FreeBSD: releng/10.1/sys/dev/gxemul/ether/if_gx.c 265999 2014-05-14 01:35:43Z ian $
  */
 
 #include "opt_inet.h"

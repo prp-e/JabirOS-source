@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ed/if_ed_sic.c 154924 2006-01-27 19:10:13Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ed/if_ed_sic.c 154924 2006-01-27 19:10:13Z imp $");
 
 #include "opt_ed.h"
 

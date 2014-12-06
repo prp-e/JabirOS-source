@@ -1,7 +1,7 @@
 #
 # Filesystem related tools
 #
-# $FreeBSD: stable/10/tools/bsdbox/Makefile.fs 239886 2012-08-29 22:54:39Z adrian $
+# $FreeBSD: releng/10.1/tools/bsdbox/Makefile.fs 239886 2012-08-29 22:54:39Z adrian $
 
 # mfs
 CRUNCH_PROGS_sbin+=	mdmfs mdconfig newfs

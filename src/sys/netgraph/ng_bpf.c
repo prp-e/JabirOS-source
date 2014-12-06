@@ -37,7 +37,7 @@
  *
  * Author: Archie Cobbs <archie@freebsd.org>
  *
- * $FreeBSD: stable/10/sys/netgraph/ng_bpf.c 227293 2011-11-07 06:44:47Z ed $
+ * $FreeBSD: releng/10.1/sys/netgraph/ng_bpf.c 227293 2011-11-07 06:44:47Z ed $
  * $Whistle: ng_bpf.c,v 1.3 1999/12/03 20:30:23 archie Exp $
  */
 

@@ -50,7 +50,7 @@
  * ON THE RADEON.  A FULL AUDIT OF THIS CODE IS NEEDED!  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/radeon_reg.h 261455 2014-02-04 03:36:42Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/radeon/radeon_reg.h 261455 2014-02-04 03:36:42Z eadler $");
 
 #ifndef _RADEON_REG_H_
 #define _RADEON_REG_H_

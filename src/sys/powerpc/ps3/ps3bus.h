@@ -22,7 +22,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/ps3/ps3bus.h 223313 2011-06-20 00:17:44Z nwhitehorn $
+ * $FreeBSD: releng/10.1/sys/powerpc/ps3/ps3bus.h 223313 2011-06-20 00:17:44Z nwhitehorn $
  */
 
 #ifndef _POWERPC_PS3_PS3BUS_H

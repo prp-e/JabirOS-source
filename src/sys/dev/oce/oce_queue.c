@@ -36,7 +36,7 @@
  * Costa Mesa, CA 92626
  */
 
-/* $FreeBSD: stable/10/sys/dev/oce/oce_queue.c 257187 2013-10-26 19:02:39Z delphij $ */
+/* $FreeBSD: releng/10.1/sys/dev/oce/oce_queue.c 257187 2013-10-26 19:02:39Z delphij $ */
 
 #include "oce_if.h"
 

@@ -1,7 +1,7 @@
 #
 # std.zedboard
 #
-# $FreeBSD: stable/10/sys/arm/xilinx/zedboard/std.zedboard 249997 2013-04-27 22:38:29Z wkoszek $
+# $FreeBSD: releng/10.1/sys/arm/xilinx/zedboard/std.zedboard 249997 2013-04-27 22:38:29Z wkoszek $
 
 include "../xilinx/std.zynq7"
 files	"../xilinx/zedboard/files.zedboard"

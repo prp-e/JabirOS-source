@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: stable/10/usr.sbin/mlxcontrol/util.c 59159 2000-04-11 23:04:17Z msmith $
+ *	$FreeBSD: releng/10.1/usr.sbin/mlxcontrol/util.c 59159 2000-04-11 23:04:17Z msmith $
  */
 
 #include <sys/types.h>

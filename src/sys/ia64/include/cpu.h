@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/ia64/include/cpu.h 253750 2013-07-28 18:44:17Z avg $ */
+/* $FreeBSD: releng/10.1/sys/ia64/include/cpu.h 253750 2013-07-28 18:44:17Z avg $ */
 /* From: NetBSD: cpu.h,v 1.18 1997/09/23 23:17:49 mjacob Exp */
 
 /*-

@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/hwpmc/hwpmc_powerpc.c 263151 2014-03-14 04:35:18Z jhibbits $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/hwpmc/hwpmc_powerpc.c 263151 2014-03-14 04:35:18Z jhibbits $");
 
 #include <sys/param.h>
 #include <sys/pmc.h>

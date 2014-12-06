@@ -23,7 +23,7 @@
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/mips/inckern.S 216474 2010-12-16 04:56:03Z jchandra $")
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/mips/inckern.S 216474 2010-12-16 04:56:03Z jchandra $")
 
 ENTRY(_start)
 	PTR_LA	t0, kernel_end

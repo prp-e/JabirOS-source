@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/rc.d/rtadvd 262557 2014-02-27 13:19:17Z des $
+# $FreeBSD: releng/10.1/etc/rc.d/rtadvd 262557 2014-02-27 13:19:17Z des $
 #
 
 # PROVIDE: rtadvd

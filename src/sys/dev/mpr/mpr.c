@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/mpr/mpr.c 266548 2014-05-22 16:34:00Z ken $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/mpr/mpr.c 266548 2014-05-22 16:34:00Z ken $");
 
 /* Communications core for LSI MPT2 */
 

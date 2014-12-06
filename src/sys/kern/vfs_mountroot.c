@@ -38,7 +38,7 @@
 #include "opt_rootdevname.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/vfs_mountroot.c 267752 2014-06-22 21:21:27Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/vfs_mountroot.c 267752 2014-06-22 21:21:27Z mav $");
 
 #include <sys/param.h>
 #include <sys/conf.h>

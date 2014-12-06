@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/link/17.t 166065 2007-01-17 01:42:12Z pjd $
+# $FreeBSD: releng/10.1/tools/regression/pjdfstest/tests/link/17.t 166065 2007-01-17 01:42:12Z pjd $
 
 desc="link returns EFAULT if one of the pathnames specified is outside the process's allocated address space"
 

@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/net/if_enc.c 255926 2013-09-28 14:14:23Z glebius $
+ * $FreeBSD: releng/10.1/sys/net/if_enc.c 255926 2013-09-28 14:14:23Z glebius $
  */
 
 #include "opt_inet.h"

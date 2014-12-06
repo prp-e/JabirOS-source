@@ -28,7 +28,7 @@
  * NETLOGIC_BSD */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/nlm/usb_init.c 227725 2011-11-19 14:33:14Z jchandra $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/nlm/usb_init.c 227725 2011-11-19 14:33:14Z jchandra $");
 #include <sys/types.h>
 #include <sys/systm.h>
 #include <sys/param.h>

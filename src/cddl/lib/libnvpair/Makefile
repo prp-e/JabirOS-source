@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/cddl/lib/libnvpair/Makefile 236884 2012-06-11 11:35:22Z mm $
+# $FreeBSD: releng/10.1/cddl/lib/libnvpair/Makefile 236884 2012-06-11 11:35:22Z mm $
 
 .PATH: ${.CURDIR}/../../../cddl/contrib/opensolaris/lib/libnvpair
 .PATH: ${.CURDIR}/../../../sys/cddl/contrib/opensolaris/common/nvpair

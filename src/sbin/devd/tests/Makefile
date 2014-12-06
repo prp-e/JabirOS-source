@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/devd/tests/Makefile 270004 2014-08-14 22:33:56Z asomers $
+# $FreeBSD: releng/10.1/sbin/devd/tests/Makefile 270004 2014-08-14 22:33:56Z asomers $
 
 TESTSDIR=	${TESTSBASE}/sbin/devd
 

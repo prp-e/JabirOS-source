@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/gnu/usr.bin/gdb/arch/ia64/init.c 203960 2010-02-16 16:38:57Z marcel $ */
+/* $FreeBSD: releng/10.1/gnu/usr.bin/gdb/arch/ia64/init.c 203960 2010-02-16 16:38:57Z marcel $ */
 
 /* Do not modify this file.  */
 /* It is created automatically by the Makefile.  */

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/ncurses/menu/Makefile 251250 2013-06-02 11:44:23Z tijl $
+# $FreeBSD: releng/10.1/lib/ncurses/menu/Makefile 251250 2013-06-02 11:44:23Z tijl $
 
 .include "${.CURDIR}/../config.mk"
 

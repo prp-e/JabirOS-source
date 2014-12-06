@@ -29,7 +29,7 @@
  *
  *	from: @(#)pmap_clnt.h 1.11 88/02/08 SMI 
  *	from: @(#)pmap_clnt.h	2.1 88/07/29 4.0 RPCSRC
- * $FreeBSD: stable/10/include/rpc/pmap_clnt.h 261046 2014-01-22 23:45:27Z mav $
+ * $FreeBSD: releng/10.1/include/rpc/pmap_clnt.h 261046 2014-01-22 23:45:27Z mav $
  */
 
 /*

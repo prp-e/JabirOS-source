@@ -18,7 +18,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/wlan/if_urtwn.c 270514 2014-08-25 02:59:58Z kevlo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/wlan/if_urtwn.c 270514 2014-08-25 02:59:58Z kevlo $");
 
 /*
  * Driver for Realtek RTL8188CE-VAU/RTL8188CUS/RTL8188EU/RTL8188RU/RTL8192CU.

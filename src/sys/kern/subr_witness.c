@@ -85,7 +85,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/subr_witness.c 270185 2014-08-19 23:08:47Z grehan $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/subr_witness.c 270185 2014-08-19 23:08:47Z grehan $");
 
 #include "opt_ddb.h"
 #include "opt_hwpmc_hooks.h"

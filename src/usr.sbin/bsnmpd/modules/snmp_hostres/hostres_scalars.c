@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bsnmpd/modules/snmp_hostres/hostres_scalars.c 240354 2012-09-11 08:33:16Z glebius $
+ * $FreeBSD: releng/10.1/usr.sbin/bsnmpd/modules/snmp_hostres/hostres_scalars.c 240354 2012-09-11 08:33:16Z glebius $
  */
 
 /*

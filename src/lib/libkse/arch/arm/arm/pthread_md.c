@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libkse/arch/arm/arm/pthread_md.c 172491 2007-10-09 13:42:34Z obrien $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libkse/arch/arm/arm/pthread_md.c 172491 2007-10-09 13:42:34Z obrien $");
 
 #include <sys/types.h>
 

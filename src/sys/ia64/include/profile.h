@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/ia64/include/profile.h 209617 2010-06-30 22:29:02Z marcel $
+ * $FreeBSD: releng/10.1/sys/ia64/include/profile.h 209617 2010-06-30 22:29:02Z marcel $
  */
 
 #ifndef _MACHINE_PROFILE_H_

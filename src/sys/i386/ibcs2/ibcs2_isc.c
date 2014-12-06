@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/i386/ibcs2/ibcs2_isc.c 230132 2012-01-15 13:23:18Z uqs $");
+__FBSDID("$FreeBSD: releng/10.1/sys/i386/ibcs2/ibcs2_isc.c 230132 2012-01-15 13:23:18Z uqs $");
 
 #include <sys/param.h>
 #include <sys/lock.h>

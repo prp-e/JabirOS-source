@@ -9,7 +9,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/ministat/ministat.c 243079 2012-11-15 15:06:12Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/ministat/ministat.c 243079 2012-11-15 15:06:12Z eadler $");
 
 #include <stdio.h>
 #include <math.h>

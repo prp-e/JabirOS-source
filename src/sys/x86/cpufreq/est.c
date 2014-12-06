@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/x86/cpufreq/est.c 260473 2014-01-09 10:44:27Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/x86/cpufreq/est.c 260473 2014-01-09 10:44:27Z mav $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

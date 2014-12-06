@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/subr_autoconf.c 217075 2011-01-06 22:09:37Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/subr_autoconf.c 217075 2011-01-06 22:09:37Z jhb $");
 
 #include "opt_ddb.h"
 

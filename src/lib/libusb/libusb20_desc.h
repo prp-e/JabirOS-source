@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libusb/libusb20_desc.h 248236 2013-03-13 12:23:14Z hselasky $ */
+/* $FreeBSD: releng/10.1/lib/libusb/libusb20_desc.h 248236 2013-03-13 12:23:14Z hselasky $ */
 /*-
  * Copyright (c) 2008 Hans Petter Selasky. All rights reserved.
  * Copyright (c) 2007-2008 Daniel Drake.  All rights reserved.

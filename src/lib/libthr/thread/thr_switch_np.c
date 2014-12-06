@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libthr/thread/thr_switch_np.c 157457 2006-04-04 02:57:49Z davidxu $
+ * $FreeBSD: releng/10.1/lib/libthr/thread/thr_switch_np.c 157457 2006-04-04 02:57:49Z davidxu $
  */
 
 #include "namespace.h"

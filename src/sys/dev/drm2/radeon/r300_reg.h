@@ -28,7 +28,7 @@
 #define _R300_REG_H_
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/r300_reg.h 261455 2014-02-04 03:36:42Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/radeon/r300_reg.h 261455 2014-02-04 03:36:42Z eadler $");
 
 #define R300_SURF_TILE_MACRO (1<<16)
 #define R300_SURF_TILE_MICRO (2<<16)

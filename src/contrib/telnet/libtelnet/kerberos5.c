@@ -53,7 +53,7 @@
 
 #include <sys/cdefs.h>
 
-__FBSDID("$FreeBSD: stable/10/contrib/telnet/libtelnet/kerberos5.c 233932 2012-04-06 00:03:45Z stas $");
+__FBSDID("$FreeBSD: releng/10.1/contrib/telnet/libtelnet/kerberos5.c 233932 2012-04-06 00:03:45Z stas $");
 
 #ifdef	KRB5
 

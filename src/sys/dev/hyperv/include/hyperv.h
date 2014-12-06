@@ -25,7 +25,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/hyperv/include/hyperv.h 272152 2014-09-26 03:03:58Z gjb $
+ * $FreeBSD: releng/10.1/sys/dev/hyperv/include/hyperv.h 272322 2014-09-30 17:54:57Z delphij $
  */
 
 /**
@@ -794,6 +794,35 @@ hv_get_phys_addr(void *virt)
 	ret = (vtophys(virt) | ((vm_offset_t) virt & PAGE_MASK));
 	return (ret);
 }
+
+
+/**
+ * KVP related structures
+ * 
+ */
+typedef struct hv_vmbus_service {
+        hv_guid       guid;             /* Hyper-V GUID */
+        char          *name;            /* name of service */
+        boolean_t     enabled;          /* service enabled */
+        hv_work_queue *work_queue;      /* background work queue */
+
+        /*
+         * function to initialize service
+         */
+        int (*init)(struct hv_vmbus_service *);
+
+        /*
+         * function to process Hyper-V messages
+         */
+        void (*callback)(void *);
+} hv_vmbus_service;
+
+extern uint8_t* receive_buffer[];
+extern hv_vmbus_service service_table[];
+
+void hv_kvp_callback(void *context);
+int hv_kvp_init(hv_vmbus_service *serv);
+void hv_kvp_deinit(void);
 
 #endif  /* __HYPERV_H__ */
 

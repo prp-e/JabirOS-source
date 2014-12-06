@@ -38,7 +38,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/sparc64/sparc64/mem.c 254025 2013-08-07 06:21:20Z jeff $");
+__FBSDID("$FreeBSD: releng/10.1/sys/sparc64/sparc64/mem.c 254025 2013-08-07 06:21:20Z jeff $");
 
 /*
  * Memory special file

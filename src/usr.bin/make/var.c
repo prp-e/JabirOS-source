@@ -40,7 +40,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/make/var.c 241280 2012-10-06 19:19:32Z avg $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/make/var.c 241280 2012-10-06 19:19:32Z avg $");
 
 /**
  * var.c --

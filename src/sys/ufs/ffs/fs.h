@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)fs.h	8.13 (Berkeley) 3/21/95
- * $FreeBSD: stable/10/sys/ufs/ffs/fs.h 262779 2014-03-05 04:23:19Z pfg $
+ * $FreeBSD: releng/10.1/sys/ufs/ffs/fs.h 262779 2014-03-05 04:23:19Z pfg $
  */
 
 #ifndef _UFS_FFS_FS_H_

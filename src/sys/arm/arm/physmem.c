@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/arm/physmem.c 266194 2014-05-15 20:58:23Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/arm/physmem.c 266194 2014-05-15 20:58:23Z ian $");
 
 #include "opt_ddb.h"
 

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/nvmecontrol/identify.c 253476 2013-07-19 21:40:57Z jimharris $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/nvmecontrol/identify.c 253476 2013-07-19 21:40:57Z jimharris $");
 
 #include <sys/param.h>
 

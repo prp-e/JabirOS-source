@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/geom/raid/md_jmicron.c 265669 2014-05-08 12:07:40Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/geom/raid/md_jmicron.c 265669 2014-05-08 12:07:40Z mav $");
 
 #include <sys/param.h>
 #include <sys/bio.h>

@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/kldxref/ef.c 269014 2014-07-23 14:30:58Z emaste $
+ * $FreeBSD: releng/10.1/usr.sbin/kldxref/ef.c 269014 2014-07-23 14:30:58Z emaste $
  */
 
 #include <sys/param.h>

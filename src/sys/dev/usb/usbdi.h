@@ -21,7 +21,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/usb/usbdi.h 267347 2014-06-11 05:39:08Z hselasky $
+ * $FreeBSD: releng/10.1/sys/dev/usb/usbdi.h 267347 2014-06-11 05:39:08Z hselasky $
  */
 #ifndef _USB_USBDI_H_
 #define _USB_USBDI_H_

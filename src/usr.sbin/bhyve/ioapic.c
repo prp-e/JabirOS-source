@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/bhyve/ioapic.c 267393 2014-06-12 13:13:15Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/bhyve/ioapic.c 267393 2014-06-12 13:13:15Z jhb $");
 
 #include <sys/types.h>
 

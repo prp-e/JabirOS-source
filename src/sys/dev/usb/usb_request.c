@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/usb_request.c 261105 2014-01-24 07:48:52Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/usb_request.c 261105 2014-01-24 07:48:52Z hselasky $ */
 /*-
  * Copyright (c) 1998 The NetBSD Foundation, Inc. All rights reserved.
  * Copyright (c) 1998 Lennart Augustsson. All rights reserved.

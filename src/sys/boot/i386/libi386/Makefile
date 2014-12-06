@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/i386/libi386/Makefile 271135 2014-09-04 21:01:10Z emaste $
+# $FreeBSD: releng/10.1/sys/boot/i386/libi386/Makefile 271135 2014-09-04 21:01:10Z emaste $
 #
 LIB=			i386
 INTERNALLIB=

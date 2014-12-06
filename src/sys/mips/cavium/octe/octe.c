@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/cavium/octe/octe.c 221407 2011-05-03 19:51:29Z marius $
+ * $FreeBSD: releng/10.1/sys/mips/cavium/octe/octe.c 221407 2011-05-03 19:51:29Z marius $
  */
 
 /*

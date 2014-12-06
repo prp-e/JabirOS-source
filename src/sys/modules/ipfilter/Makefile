@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/ipfilter/Makefile 260274 2014-01-04 18:33:28Z dim $ 
+# $FreeBSD: releng/10.1/sys/modules/ipfilter/Makefile 260274 2014-01-04 18:33:28Z dim $ 
 
 .include <bsd.own.mk>
 

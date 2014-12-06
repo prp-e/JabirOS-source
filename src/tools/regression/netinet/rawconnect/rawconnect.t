@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/netinet/rawconnect/rawconnect.t 158772 2006-05-20 19:18:24Z maxim $
+# $FreeBSD: releng/10.1/tools/regression/netinet/rawconnect/rawconnect.t 158772 2006-05-20 19:18:24Z maxim $
 
 cd `dirname $0`
 

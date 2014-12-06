@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libprocstat/common_kvm.h 252356 2013-06-28 21:00:08Z davide $
+ * $FreeBSD: releng/10.1/lib/libprocstat/common_kvm.h 252356 2013-06-28 21:00:08Z davide $
  */
 
 #ifndef	_COMMON_KVM_H_

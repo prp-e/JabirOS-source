@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/security/proc_to_proc/testuid.c 75422 2001-04-11 17:21:14Z rwatson $
+ * $FreeBSD: releng/10.1/tools/regression/security/proc_to_proc/testuid.c 75422 2001-04-11 17:21:14Z rwatson $
  */
 
 #include <sys/types.h>

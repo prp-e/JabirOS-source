@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/ifpifa/Makefile 236644 2012-06-05 21:35:47Z emax $
+# $FreeBSD: releng/10.1/tools/tools/ifpifa/Makefile 236644 2012-06-05 21:35:47Z emax $
 
 PROG=	ifpifa
 NO_MAN=

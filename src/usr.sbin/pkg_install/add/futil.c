@@ -19,7 +19,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/pkg_install/add/futil.c 240476 2012-09-14 00:19:06Z jkim $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/pkg_install/add/futil.c 240476 2012-09-14 00:19:06Z jkim $");
 
 #include <err.h>
 #include "lib.h"

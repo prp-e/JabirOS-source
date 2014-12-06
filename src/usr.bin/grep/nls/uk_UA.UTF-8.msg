@@ -1,4 +1,4 @@
-$ $FreeBSD: stable/10/usr.bin/grep/nls/uk_UA.UTF-8.msg 210927 2010-08-06 10:34:48Z gabor $
+$ $FreeBSD: releng/10.1/usr.bin/grep/nls/uk_UA.UTF-8.msg 210927 2010-08-06 10:34:48Z gabor $
 $set 1
 $quote "
 1 "(стандартний ввід)"

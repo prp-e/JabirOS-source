@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libmd/sha512c.c 220496 2011-04-09 13:56:29Z markm $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libmd/sha512c.c 220496 2011-04-09 13:56:29Z markm $");
 
 #include <sys/endian.h>
 #include <sys/types.h>

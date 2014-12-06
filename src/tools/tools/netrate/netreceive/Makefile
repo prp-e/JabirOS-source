@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/tools/tools/netrate/netreceive/Makefile 248564 2013-03-20 21:47:05Z neel $
+# $FreeBSD: releng/10.1/tools/tools/netrate/netreceive/Makefile 248564 2013-03-20 21:47:05Z neel $
 #
 
 PROG=	netreceive

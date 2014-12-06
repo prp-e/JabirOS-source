@@ -1,4 +1,4 @@
-$FreeBSD: stable/10/share/mklocale/README.locale_name 78020 2001-06-10 22:13:29Z ache $
+$FreeBSD: releng/10.1/share/mklocale/README.locale_name 78020 2001-06-10 22:13:29Z ache $
 
 Locale name string format must be compliant with XPG3 and
 using following format.

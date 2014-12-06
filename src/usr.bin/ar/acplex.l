@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/ar/acplex.l 250926 2013-05-23 05:42:35Z jkim $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/ar/acplex.l 250926 2013-05-23 05:42:35Z jkim $");
 
 #include <err.h>
 #include <errno.h>

@@ -40,7 +40,7 @@
 #include <machine/cpuconf.h>
 #include <machine/pte.h>
 
-__FBSDID("$FreeBSD: stable/10/sys/arm/arm/locore.S 271327 2014-09-09 18:17:43Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/arm/locore.S 271327 2014-09-09 18:17:43Z ian $");
 
 /* What size should this really be ? It is only used by initarm() */
 #define INIT_ARM_STACK_SIZE	(2048 * 4)

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/aic7xxx/aicasm/Makefile 139607 2005-01-03 07:27:17Z njl $
+# $FreeBSD: releng/10.1/sys/modules/aic7xxx/aicasm/Makefile 139607 2005-01-03 07:27:17Z njl $
 
 MAKESRCPATH=	${.CURDIR}/../../../dev/aic7xxx/aicasm
 

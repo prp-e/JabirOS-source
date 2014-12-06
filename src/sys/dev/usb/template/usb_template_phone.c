@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/template/usb_template_phone.c 269922 2014-08-13 08:21:52Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/template/usb_template_phone.c 269922 2014-08-13 08:21:52Z hselasky $ */
 /*-
  * Copyright (c) 2014 Hans Petter Selasky. All rights reserved.
  *

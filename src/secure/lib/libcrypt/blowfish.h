@@ -29,7 +29,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/secure/lib/libcrypt/blowfish.h 115719 2003-06-02 19:17:24Z markm $
+ * $FreeBSD: releng/10.1/secure/lib/libcrypt/blowfish.h 115719 2003-06-02 19:17:24Z markm $
  */
 
 /*

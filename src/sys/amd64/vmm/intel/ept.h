@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/vmm/intel/ept.h 266339 2014-05-17 19:11:08Z jhb $
+ * $FreeBSD: releng/10.1/sys/amd64/vmm/intel/ept.h 266339 2014-05-17 19:11:08Z jhb $
  */
 
 #ifndef	_EPT_H_

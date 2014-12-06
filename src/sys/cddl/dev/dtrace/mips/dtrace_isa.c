@@ -19,7 +19,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: stable/10/sys/cddl/dev/dtrace/mips/dtrace_isa.c 233525 2012-03-26 21:47:06Z gonzo $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/dtrace/mips/dtrace_isa.c 233525 2012-03-26 21:47:06Z gonzo $
  */
 /*
  * Copyright 2005 Sun Microsystems, Inc.  All rights reserved.

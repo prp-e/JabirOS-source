@@ -1,6 +1,6 @@
 #	$NetBSD: Makefile,v 1.1.1.1 1995/10/08 23:08:36 thorpej Exp $
 #	@(#)Makefile	8.1 (Berkeley) 6/5/93
-# $FreeBSD: stable/10/sbin/fsdb/Makefile 260178 2014-01-02 01:44:14Z scottl $
+# $FreeBSD: releng/10.1/sbin/fsdb/Makefile 260178 2014-01-02 01:44:14Z scottl $
 
 PROG=	fsdb
 MAN=	fsdb.8

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/doc/papers/contents/Makefile 88052 2001-12-17 13:45:56Z ru $
+# $FreeBSD: releng/10.1/share/doc/papers/contents/Makefile 88052 2001-12-17 13:45:56Z ru $
 
 VOLUME=	papers
 DOC=	contents

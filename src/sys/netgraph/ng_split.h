@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/netgraph/ng_split.h 151676 2005-10-25 20:56:12Z ru $
+ * $FreeBSD: releng/10.1/sys/netgraph/ng_split.h 151676 2005-10-25 20:56:12Z ru $
  *
  */
 

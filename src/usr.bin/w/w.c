@@ -29,7 +29,7 @@
 
 #include <sys/cdefs.h>
 
-__FBSDID("$FreeBSD: stable/10/usr.bin/w/w.c 253750 2013-07-28 18:44:17Z avg $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/w/w.c 253750 2013-07-28 18:44:17Z avg $");
 
 #ifndef lint
 static const char copyright[] =

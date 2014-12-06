@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/nscd/query.c 194104 2009-06-13 13:07:56Z des $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/nscd/query.c 273240 2014-10-17 20:39:39Z jhb $");
 
 #include <sys/types.h>
 #include <sys/event.h>
@@ -1253,8 +1253,8 @@ init_query_state(int sockfd, size_t kevent_watermark, uid_t euid, gid_t egid)
 	retval->read_func = query_socket_read;
 
 	get_time_func(&retval->creation_time);
-	memcpy(&retval->timeout, &s_configuration->query_timeout,
-		sizeof(struct timeval));
+	retval->timeout.tv_sec = s_configuration->query_timeout;
+	retval->timeout.tv_usec = 0;
 
 	TRACE_OUT(init_query_state);
 	return (retval);

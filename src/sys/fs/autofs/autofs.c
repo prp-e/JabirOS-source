@@ -61,7 +61,7 @@
  */
 
 #include <sys/cdefs.h>
- __FBSDID("$FreeBSD: stable/10/sys/fs/autofs/autofs.c 270900 2014-08-31 21:52:26Z trasz $");
+ __FBSDID("$FreeBSD: releng/10.1/sys/fs/autofs/autofs.c 270900 2014-08-31 21:52:26Z trasz $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

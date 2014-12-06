@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/bsdconfig/startup/include/Makefile 240684 2012-09-18 22:28:42Z dteske $
+# $FreeBSD: releng/10.1/usr.sbin/bsdconfig/startup/include/Makefile 240684 2012-09-18 22:28:42Z dteske $
 
 NO_OBJ=
 

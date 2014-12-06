@@ -1,4 +1,4 @@
-#  $FreeBSD: stable/10/sys/boot/arm/at91/libat91/Makefile 238187 2012-07-07 04:51:59Z imp $
+#  $FreeBSD: releng/10.1/sys/boot/arm/at91/libat91/Makefile 238187 2012-07-07 04:51:59Z imp $
 
 .include "${.CURDIR}/../Makefile.inc"
 

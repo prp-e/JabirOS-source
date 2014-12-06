@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/ppc/ppcvar.h 188173 2009-02-05 19:31:55Z imp $
+ * $FreeBSD: releng/10.1/sys/dev/ppc/ppcvar.h 188173 2009-02-05 19:31:55Z imp $
  *
  */
 

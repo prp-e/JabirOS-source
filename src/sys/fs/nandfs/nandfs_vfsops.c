@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/fs/nandfs/nandfs_vfsops.c 262211 2014-02-19 07:55:28Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/sys/fs/nandfs/nandfs_vfsops.c 262211 2014-02-19 07:55:28Z dim $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -36,7 +36,7 @@
  * Costa Mesa, CA 92626
  */
 
-/* $FreeBSD: stable/10/sys/dev/oce/oce_sysctl.c 259050 2013-12-06 23:30:46Z delphij $ */
+/* $FreeBSD: releng/10.1/sys/dev/oce/oce_sysctl.c 259050 2013-12-06 23:30:46Z delphij $ */
 
 #include "oce_if.h"
 

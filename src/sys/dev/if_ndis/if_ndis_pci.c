@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/if_ndis/if_ndis_pci.c 232854 2012-03-12 08:03:51Z scottl $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/if_ndis/if_ndis_pci.c 232854 2012-03-12 08:03:51Z scottl $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

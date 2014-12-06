@@ -52,7 +52,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/fs/fuse/fuse_debug.h 241521 2012-10-14 03:51:59Z attilio $
+ * $FreeBSD: releng/10.1/sys/fs/fuse/fuse_debug.h 241521 2012-10-14 03:51:59Z attilio $
  */
 
 #include <sys/cdefs.h>

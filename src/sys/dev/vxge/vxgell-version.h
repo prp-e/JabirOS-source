@@ -28,7 +28,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-/*$FreeBSD: stable/10/sys/dev/vxge/vxgell-version.h 221167 2011-04-28 14:33:15Z gnn $*/
+/*$FreeBSD: releng/10.1/sys/dev/vxge/vxgell-version.h 221167 2011-04-28 14:33:15Z gnn $*/
 
 #ifndef	_VXGELL_VERSION_H_
 #define	_VXGELL_VERSION_H_

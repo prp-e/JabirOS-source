@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/bhyve/pm.c 270159 2014-08-19 01:20:24Z grehan $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/bhyve/pm.c 270159 2014-08-19 01:20:24Z grehan $");
 
 #include <sys/types.h>
 #include <machine/vmm.h>

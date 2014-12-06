@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/fifolog/fifolog_reader/Makefile 178068 2008-04-10 14:02:00Z ru $
+# $FreeBSD: releng/10.1/usr.sbin/fifolog/fifolog_reader/Makefile 178068 2008-04-10 14:02:00Z ru $
 
 PROG=	fifolog_reader
 

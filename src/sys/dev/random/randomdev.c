@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/random/randomdev.c 256381 2013-10-12 15:31:36Z markm $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/random/randomdev.c 256381 2013-10-12 15:31:36Z markm $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

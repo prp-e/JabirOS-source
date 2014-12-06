@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/lib/libc/stdio/test-mkostemp.t 255302 2013-09-06 12:59:48Z jilles $
+# $FreeBSD: releng/10.1/tools/regression/lib/libc/stdio/test-mkostemp.t 255302 2013-09-06 12:59:48Z jilles $
 
 cd `dirname $0`
 

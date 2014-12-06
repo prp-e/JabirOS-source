@@ -49,7 +49,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/wlan/if_uath.c 262007 2014-02-17 01:36:53Z kevlo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/wlan/if_uath.c 262007 2014-02-17 01:36:53Z kevlo $");
 
 /*-
  * Driver for Atheros AR5523 USB parts.

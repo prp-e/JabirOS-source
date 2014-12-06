@@ -54,7 +54,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/fs/fuse/fuse_ipc.c 241521 2012-10-14 03:51:59Z attilio $");
+__FBSDID("$FreeBSD: releng/10.1/sys/fs/fuse/fuse_ipc.c 241521 2012-10-14 03:51:59Z attilio $");
 
 #include <sys/types.h>
 #include <sys/module.h>

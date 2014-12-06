@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/drm2/i915kms/Makefile 271816 2014-09-18 20:32:40Z dumbbell $
+# $FreeBSD: releng/10.1/sys/modules/drm2/i915kms/Makefile 271816 2014-09-18 20:32:40Z dumbbell $
 
 .PATH:	${.CURDIR}/../../../dev/drm2/i915
 KMOD	= i915kms

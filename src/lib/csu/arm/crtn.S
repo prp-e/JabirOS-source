@@ -1,5 +1,5 @@
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: stable/10/lib/csu/arm/crtn.S 216338 2010-12-09 21:31:21Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/lib/csu/arm/crtn.S 216338 2010-12-09 21:31:21Z dim $");
 
 	.section .init,"ax",%progbits
 	ldmea	fp, {fp, sp, pc}

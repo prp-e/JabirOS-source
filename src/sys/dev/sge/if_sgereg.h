@@ -32,7 +32,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
  * OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/sge/if_sgereg.h 264442 2014-04-14 04:51:59Z yongari $
+ * $FreeBSD: releng/10.1/sys/dev/sge/if_sgereg.h 264442 2014-04-14 04:51:59Z yongari $
  */
 
 #ifndef _IF_SGEREG_H

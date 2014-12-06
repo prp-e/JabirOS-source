@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/opencrypto/cryptodev.c 254356 2013-08-15 07:54:31Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/opencrypto/cryptodev.c 254356 2013-08-15 07:54:31Z glebius $");
 
 #include "opt_compat.h"
 

@@ -57,7 +57,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libmd/rmd160c.c 154479 2006-01-17 15:35:57Z phk $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libmd/rmd160c.c 154479 2006-01-17 15:35:57Z phk $");
 
 #include <sys/types.h>
 

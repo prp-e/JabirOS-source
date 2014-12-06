@@ -19,7 +19,7 @@ PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
 ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS
 SOFTWARE.
 
- $FreeBSD: stable/10/libexec/bootpd/hash.c 97417 2002-05-28 18:36:43Z alfred $
+ $FreeBSD: releng/10.1/libexec/bootpd/hash.c 97417 2002-05-28 18:36:43Z alfred $
 
 ************************************************************************/
 

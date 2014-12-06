@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/md4c.c 139804 2005-01-06 23:35:40Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/md4c.c 139804 2005-01-06 23:35:40Z imp $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

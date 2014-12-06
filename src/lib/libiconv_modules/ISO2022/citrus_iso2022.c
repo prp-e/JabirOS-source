@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libiconv_modules/ISO2022/citrus_iso2022.c 264497 2014-04-15 09:49:44Z tijl $ */
+/* $FreeBSD: releng/10.1/lib/libiconv_modules/ISO2022/citrus_iso2022.c 264497 2014-04-15 09:49:44Z tijl $ */
 /*	$NetBSD: citrus_iso2022.c,v 1.20 2010/12/07 22:01:45 joerg Exp $	*/
 
 /*-

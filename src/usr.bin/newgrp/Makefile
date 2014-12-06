@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/newgrp/Makefile 137164 2004-11-03 18:01:21Z ru $
+# $FreeBSD: releng/10.1/usr.bin/newgrp/Makefile 137164 2004-11-03 18:01:21Z ru $
 
 PROG=	newgrp
 DPADD=	${LIBCRYPT} ${LIBUTIL}

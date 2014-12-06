@@ -25,7 +25,7 @@
  * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
  * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/nlm/dev/net/ucore/ucore.h 233657 2012-03-29 11:46:29Z jchandra $
+ * $FreeBSD: releng/10.1/sys/mips/nlm/dev/net/ucore/ucore.h 233657 2012-03-29 11:46:29Z jchandra $
  */
 #ifndef __NLM_UCORE_H__
 #define	__NLM_UCORE_H__

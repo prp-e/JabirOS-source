@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/i386/i386/perfmon.c 220433 2011-04-07 23:28:28Z jkim $");
+__FBSDID("$FreeBSD: releng/10.1/sys/i386/i386/perfmon.c 220433 2011-04-07 23:28:28Z jkim $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

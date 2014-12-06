@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libprocstat/core.c 249731 2013-04-21 17:10:10Z trociny $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libprocstat/core.c 249731 2013-04-21 17:10:10Z trociny $");
 
 #include <sys/param.h>
 #include <sys/elf.h>

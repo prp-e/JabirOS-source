@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/yppush/yppush_extern.h 90297 2002-02-06 13:30:31Z des $
+ * $FreeBSD: releng/10.1/usr.sbin/yppush/yppush_extern.h 90297 2002-02-06 13:30:31Z des $
  */
 
 /* Privately defined error codes. */

@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/lib/libc/stdio/test-open_memstream.t 255301 2013-09-06 12:56:49Z jilles $
+# $FreeBSD: releng/10.1/tools/regression/lib/libc/stdio/test-open_memstream.t 255301 2013-09-06 12:56:49Z jilles $
 
 cd `dirname $0`
 

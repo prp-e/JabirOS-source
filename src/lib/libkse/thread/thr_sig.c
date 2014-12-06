@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libkse/thread/thr_sig.c 177626 2008-03-26 07:32:08Z brueffer $
+ * $FreeBSD: releng/10.1/lib/libkse/thread/thr_sig.c 177626 2008-03-26 07:32:08Z brueffer $
  */
 
 #include "namespace.h"

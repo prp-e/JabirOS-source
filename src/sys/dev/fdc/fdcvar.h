@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/fdc/fdcvar.h 140469 2005-01-19 07:46:38Z imp $
+ * $FreeBSD: releng/10.1/sys/dev/fdc/fdcvar.h 140469 2005-01-19 07:46:38Z imp $
  */
 
 /* XXX should audit this file to see if additional copyrights needed */

@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/ia64/include/asm.h 209618 2010-07-01 00:30:35Z marcel $ */
+/* $FreeBSD: releng/10.1/sys/ia64/include/asm.h 209618 2010-07-01 00:30:35Z marcel $ */
 /* From: NetBSD: asm.h,v 1.18 1997/11/03 04:22:06 ross Exp */
 
 /*-

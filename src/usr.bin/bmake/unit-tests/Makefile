@@ -1,7 +1,7 @@
 # This is a generated file, do NOT edit!
 # See contrib/bmake/bsd.after-import.mk
 #
-# $FreeBSD: stable/10/usr.bin/bmake/unit-tests/Makefile 255253 2013-09-05 15:57:26Z sjg $
+# $FreeBSD: releng/10.1/usr.bin/bmake/unit-tests/Makefile 255253 2013-09-05 15:57:26Z sjg $
 
 SRCTOP?= ${.CURDIR:H:H:H}
 

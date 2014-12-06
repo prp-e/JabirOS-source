@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/stdbuf/stdbuf.c 245419 2013-01-14 11:06:50Z jlh $
+ * $FreeBSD: releng/10.1/usr.bin/stdbuf/stdbuf.c 245419 2013-01-14 11:06:50Z jlh $
  */
 
 #include <err.h>

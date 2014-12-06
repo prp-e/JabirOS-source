@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/examples/libvgl/Makefile 139103 2004-12-21 08:47:35Z ru $
+# $FreeBSD: releng/10.1/share/examples/libvgl/Makefile 139103 2004-12-21 08:47:35Z ru $
 
 PROG=	demo
 NO_MAN=

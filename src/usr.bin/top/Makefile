@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/top/Makefile 266280 2014-05-17 02:39:20Z bdrewery $
+# $FreeBSD: releng/10.1/usr.bin/top/Makefile 266280 2014-05-17 02:39:20Z bdrewery $
 
 TOPDIR=	${.CURDIR}/../../contrib/top
 .PATH: ${TOPDIR}

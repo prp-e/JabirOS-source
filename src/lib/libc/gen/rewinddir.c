@@ -31,7 +31,7 @@
 static char sccsid[] = "@(#)rewinddir.c	8.1 (Berkeley) 6/8/93";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/gen/rewinddir.c 271263 2014-09-08 14:45:58Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/gen/rewinddir.c 271263 2014-09-08 14:45:58Z jhb $");
 
 #include "namespace.h"
 #include <sys/types.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/usr.bin/cc/cc1plus/Makefile 245539 2013-01-17 05:56:28Z andrew $
+# $FreeBSD: releng/10.1/gnu/usr.bin/cc/cc1plus/Makefile 245539 2013-01-17 05:56:28Z andrew $
 
 NO_MAN=
 .include <bsd.own.mk>

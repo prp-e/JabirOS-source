@@ -1,5 +1,5 @@
 #	@(#)Makefile.inc	8.1 (Berkeley) 6/4/93
-# $FreeBSD: stable/10/lib/libc/string/Makefile.inc 247899 2013-03-06 19:59:42Z zeising $
+# $FreeBSD: releng/10.1/lib/libc/string/Makefile.inc 247899 2013-03-06 19:59:42Z zeising $
 
 .PATH: ${.CURDIR}/${LIBC_ARCH}/string ${.CURDIR}/string
 

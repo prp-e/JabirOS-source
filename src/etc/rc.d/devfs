@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/rc.d/devfs 231194 2012-02-08 08:52:40Z dougb $
+# $FreeBSD: releng/10.1/etc/rc.d/devfs 231194 2012-02-08 08:52:40Z dougb $
 #
 
 # PROVIDE: devfs

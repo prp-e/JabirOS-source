@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/clang/libclangedit/Makefile 249423 2013-04-12 17:57:40Z dim $
+# $FreeBSD: releng/10.1/lib/clang/libclangedit/Makefile 249423 2013-04-12 17:57:40Z dim $
 
 .include <bsd.own.mk>
 

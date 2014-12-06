@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/ppp/Makefile 271075 2014-09-04 01:38:31Z neel $
+# $FreeBSD: releng/10.1/usr.sbin/ppp/Makefile 271075 2014-09-04 01:38:31Z neel $
 
 .include <bsd.own.mk>
 

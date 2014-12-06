@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/bwi/if_bwi.c 262007 2014-02-17 01:36:53Z kevlo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/bwi/if_bwi.c 262007 2014-02-17 01:36:53Z kevlo $");
 
 #include "opt_inet.h"
 #include "opt_bwi.h"

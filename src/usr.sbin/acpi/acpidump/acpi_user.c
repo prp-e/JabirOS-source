@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: stable/10/usr.sbin/acpi/acpidump/acpi_user.c 251186 2013-05-31 17:23:38Z jkim $
+ *	$FreeBSD: releng/10.1/usr.sbin/acpi/acpidump/acpi_user.c 251186 2013-05-31 17:23:38Z jkim $
  */
 
 #include <sys/param.h>

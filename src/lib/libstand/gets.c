@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libstand/gets.c 190593 2009-03-31 14:30:46Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libstand/gets.c 190593 2009-03-31 14:30:46Z jhb $");
 
 #include "stand.h"
 

@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/copyright.h 260126 2013-12-31 12:24:38Z gjb $
+ * $FreeBSD: releng/10.1/sys/sys/copyright.h 260126 2013-12-31 12:24:38Z gjb $
  */
 
 

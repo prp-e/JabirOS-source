@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)mntopts.h	8.7 (Berkeley) 3/29/95
- * $FreeBSD: stable/10/sbin/mount/mntopts.h 270892 2014-08-31 21:18:23Z trasz $
+ * $FreeBSD: releng/10.1/sbin/mount/mntopts.h 270892 2014-08-31 21:18:23Z trasz $
  */
 
 struct mntopt {

@@ -24,7 +24,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/include/tlb.h 265996 2014-05-14 00:51:26Z ian $
+ * $FreeBSD: releng/10.1/sys/powerpc/include/tlb.h 265996 2014-05-14 00:51:26Z ian $
  */
 
 #ifndef	_MACHINE_TLB_H_

@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/hyperv/netvsc/hv_rndis_filter.c 266794 2014-05-28 09:06:36Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/hyperv/netvsc/hv_rndis_filter.c 266794 2014-05-28 09:06:36Z marius $");
 
 #include <sys/param.h>
 #include <sys/mbuf.h>

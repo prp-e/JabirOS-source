@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/net/usb_ethernet.c 262436 2014-02-24 08:50:06Z rodrigc $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/net/usb_ethernet.c 262436 2014-02-24 08:50:06Z rodrigc $ */
 /*-
  * Copyright (c) 2009 Andrew Thompson (thompsa@FreeBSD.org)
  *
@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/net/usb_ethernet.c 262436 2014-02-24 08:50:06Z rodrigc $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/net/usb_ethernet.c 262436 2014-02-24 08:50:06Z rodrigc $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

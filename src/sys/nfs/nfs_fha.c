@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/nfs/nfs_fha.c 267753 2014-06-22 21:26:46Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/nfs/nfs_fha.c 267753 2014-06-22 21:26:46Z mav $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

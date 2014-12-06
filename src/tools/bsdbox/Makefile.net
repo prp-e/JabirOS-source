@@ -1,7 +1,7 @@
 #
 # This builds network tools.
 #
-# $FreeBSD: stable/10/tools/bsdbox/Makefile.net 229675 2012-01-06 00:56:31Z adrian $
+# $FreeBSD: releng/10.1/tools/bsdbox/Makefile.net 229675 2012-01-06 00:56:31Z adrian $
 #
 
 CRUNCH_PROGS_sbin+=	route ping

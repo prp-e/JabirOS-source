@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/ksyms/Makefile 192859 2009-05-26 21:39:09Z sson $
+# $FreeBSD: releng/10.1/sys/modules/ksyms/Makefile 192859 2009-05-26 21:39:09Z sson $
 
 .PATH: ${.CURDIR}/../../dev/ksyms
 

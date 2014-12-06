@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/fb/splash_txt.c 228445 2011-12-12 21:12:07Z eadler $
+ * $FreeBSD: releng/10.1/sys/dev/fb/splash_txt.c 228445 2011-12-12 21:12:07Z eadler $
  */
 
 #include <sys/param.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/usr.bin/grep/doc/Makefile 53566 1999-11-22 08:56:30Z obrien $
+# $FreeBSD: releng/10.1/gnu/usr.bin/grep/doc/Makefile 53566 1999-11-22 08:56:30Z obrien $
 
 INFO=		grep
 INFOSECTION=	"System Utilities"

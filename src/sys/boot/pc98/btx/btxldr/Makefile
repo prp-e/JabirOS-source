@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/pc98/btx/btxldr/Makefile 235264 2012-05-11 09:46:17Z avg $
+# $FreeBSD: releng/10.1/sys/boot/pc98/btx/btxldr/Makefile 235264 2012-05-11 09:46:17Z avg $
 
 PROG=	btxldr
 INTERNALPROG=

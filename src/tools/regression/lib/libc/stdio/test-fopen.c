@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/regression/lib/libc/stdio/test-fopen.c 255303 2013-09-06 13:47:16Z jilles $");
+__FBSDID("$FreeBSD: releng/10.1/tools/regression/lib/libc/stdio/test-fopen.c 255303 2013-09-06 13:47:16Z jilles $");
 
 #include	<fcntl.h>
 #include	<stdio.h>

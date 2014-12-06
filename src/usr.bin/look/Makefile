@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/9/93
-# $FreeBSD: stable/10/usr.bin/look/Makefile 226359 2011-10-14 07:24:48Z ed $
+# $FreeBSD: releng/10.1/usr.bin/look/Makefile 226359 2011-10-14 07:24:48Z ed $
 
 PROG=	look
 

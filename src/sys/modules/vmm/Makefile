@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/vmm/Makefile 268891 2014-07-19 22:06:46Z jhb $
+# $FreeBSD: releng/10.1/sys/modules/vmm/Makefile 268891 2014-07-19 22:06:46Z jhb $
 
 KMOD=	vmm
 

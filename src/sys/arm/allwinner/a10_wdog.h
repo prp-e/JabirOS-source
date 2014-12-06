@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/allwinner/a10_wdog.h 246660 2013-02-11 11:31:23Z gonzo $
+ * $FreeBSD: releng/10.1/sys/arm/allwinner/a10_wdog.h 246660 2013-02-11 11:31:23Z gonzo $
  *
  */
 #ifndef	__A10_WDOG_H__

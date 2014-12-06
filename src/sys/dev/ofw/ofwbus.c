@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ofw/ofwbus.c 270078 2014-08-17 01:59:54Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ofw/ofwbus.c 270078 2014-08-17 01:59:54Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

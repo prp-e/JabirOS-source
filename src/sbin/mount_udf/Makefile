@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/mount_udf/Makefile 247861 2013-03-06 00:36:33Z jkim $
+# $FreeBSD: releng/10.1/sbin/mount_udf/Makefile 247861 2013-03-06 00:36:33Z jkim $
 
 PROG=	mount_udf
 SRCS=	mount_udf.c getmntopts.c

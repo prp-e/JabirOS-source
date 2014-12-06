@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/cddl/dev/cyclic/cyclic_test.c 179260 2008-05-23 22:21:58Z jb $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/cyclic/cyclic_test.c 179260 2008-05-23 22:21:58Z jb $
  *
  */
 

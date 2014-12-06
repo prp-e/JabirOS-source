@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/compat/svr4/imgact_svr4.c 255426 2013-09-09 18:11:59Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/compat/svr4/imgact_svr4.c 255426 2013-09-09 18:11:59Z jhb $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

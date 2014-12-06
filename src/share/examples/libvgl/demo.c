@@ -25,7 +25,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/share/examples/libvgl/demo.c 222175 2011-05-22 14:03:21Z uqs $
+ * $FreeBSD: releng/10.1/share/examples/libvgl/demo.c 222175 2011-05-22 14:03:21Z uqs $
  */
 
 #include <sys/types.h>

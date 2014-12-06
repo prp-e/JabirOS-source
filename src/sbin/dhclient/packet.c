@@ -41,7 +41,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/dhclient/packet.c 252615 2013-07-03 21:49:10Z pjd $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/dhclient/packet.c 252615 2013-07-03 21:49:10Z pjd $");
 
 #include "dhcpd.h"
 

@@ -3,7 +3,7 @@
 # Makefile for amd
 # 	This file is under a "BSD" copyright (c) by David O'Brien 1998
 #
-# $FreeBSD: stable/10/usr.sbin/amd/amd/Makefile 177718 2008-03-29 18:13:15Z ru $
+# $FreeBSD: releng/10.1/usr.sbin/amd/amd/Makefile 177718 2008-03-29 18:13:15Z ru $
 #
 
 .include <bsd.own.mk>

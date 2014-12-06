@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libarchive/Makefile 255893 2013-09-26 17:55:36Z delphij $
+# $FreeBSD: releng/10.1/lib/libarchive/Makefile 255893 2013-09-26 17:55:36Z delphij $
 .include <bsd.own.mk>
 
 LIBARCHIVEDIR=	${.CURDIR}/../../contrib/libarchive

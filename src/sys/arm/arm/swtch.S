@@ -86,7 +86,7 @@
 #include <machine/armreg.h>
 #include <machine/vfp.h>
 
-__FBSDID("$FreeBSD: stable/10/sys/arm/arm/swtch.S 266311 2014-05-17 13:53:38Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/arm/swtch.S 266311 2014-05-17 13:53:38Z ian $");
 
 #define DOMAIN_CLIENT	0x01
 

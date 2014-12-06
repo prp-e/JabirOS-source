@@ -26,7 +26,7 @@
  * THE POSSIBILITY OF SUCH DAMAGE.
  *
  * NETLOGIC_BSD
- * $FreeBSD: stable/10/sys/mips/nlm/clock.h 225394 2011-09-05 10:45:29Z jchandra $
+ * $FreeBSD: releng/10.1/sys/mips/nlm/clock.h 225394 2011-09-05 10:45:29Z jchandra $
  */
 
 #ifndef _RMI_CLOCK_H_

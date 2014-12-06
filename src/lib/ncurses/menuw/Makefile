@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/ncurses/menuw/Makefile 167359 2007-03-09 12:11:58Z rafan $
+# $FreeBSD: releng/10.1/lib/ncurses/menuw/Makefile 167359 2007-03-09 12:11:58Z rafan $
 
 ENABLE_WIDEC=
 

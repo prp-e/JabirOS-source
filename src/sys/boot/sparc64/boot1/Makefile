@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/sparc64/boot1/Makefile 263763 2014-03-26 07:31:57Z dim $
+# $FreeBSD: releng/10.1/sys/boot/sparc64/boot1/Makefile 263763 2014-03-26 07:31:57Z dim $
 
 PROG=	boot1.elf
 INTERNALPROG=

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/msun/src/catrig.c 251404 2013-06-05 05:33:01Z das $");
+__FBSDID("$FreeBSD: releng/10.1/lib/msun/src/catrig.c 251404 2013-06-05 05:33:01Z das $");
 
 #include <complex.h>
 #include <float.h>

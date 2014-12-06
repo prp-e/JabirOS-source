@@ -12,7 +12,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/msun/src/e_jn.c 215237 2010-11-13 10:54:10Z uqs $");
+__FBSDID("$FreeBSD: releng/10.1/lib/msun/src/e_jn.c 215237 2010-11-13 10:54:10Z uqs $");
 
 /*
  * __ieee754_jn(n, x), __ieee754_yn(n, x)

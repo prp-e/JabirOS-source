@@ -29,7 +29,7 @@
 
 #include <sys/cdefs.h>
 
-__FBSDID("$FreeBSD: stable/10/usr.bin/vgrind/vfontedpr.c 228992 2011-12-30 11:02:40Z uqs $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/vgrind/vfontedpr.c 228992 2011-12-30 11:02:40Z uqs $");
 
 #ifndef lint
 static const char copyright[] =

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/rc.d/hostapd 252230 2013-06-26 04:00:52Z rpaulo $
+# $FreeBSD: releng/10.1/etc/rc.d/hostapd 252230 2013-06-26 04:00:52Z rpaulo $
 #
 
 # PROVIDE: hostapd

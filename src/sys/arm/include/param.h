@@ -35,7 +35,7 @@
  * SUCH DAMAGE.
  *
  *	from: @(#)param.h	5.8 (Berkeley) 6/28/91
- * $FreeBSD: stable/10/sys/arm/include/param.h 266337 2014-05-17 18:53:36Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/include/param.h 266337 2014-05-17 18:53:36Z ian $
  */
 
 #ifndef _ARM_INCLUDE_PARAM_H_

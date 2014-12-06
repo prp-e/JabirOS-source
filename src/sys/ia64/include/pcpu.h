@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/ia64/include/pcpu.h 271239 2014-09-07 21:40:14Z marcel $
+ * $FreeBSD: releng/10.1/sys/ia64/include/pcpu.h 271239 2014-09-07 21:40:14Z marcel $
  */
 
 #ifndef	_MACHINE_PCPU_H_

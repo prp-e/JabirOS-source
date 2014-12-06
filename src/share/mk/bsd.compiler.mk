@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/mk/bsd.compiler.mk 247527 2013-03-01 03:25:43Z brooks $
+# $FreeBSD: releng/10.1/share/mk/bsd.compiler.mk 247527 2013-03-01 03:25:43Z brooks $
 
 .if !defined(COMPILER_TYPE)
 . if ${CC:T:Mgcc*}

@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/mambo/mambocall.S 210677 2010-07-31 13:22:34Z nwhitehorn $
+ * $FreeBSD: releng/10.1/sys/powerpc/mambo/mambocall.S 210677 2010-07-31 13:22:34Z nwhitehorn $
  */
 
 #include <machine/asm.h>	

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/sockets/reconnect/reconnect.c 140109 2005-01-12 09:57:18Z sobomax $
+ * $FreeBSD: releng/10.1/tools/regression/sockets/reconnect/reconnect.c 140109 2005-01-12 09:57:18Z sobomax $
  */
 
 /*

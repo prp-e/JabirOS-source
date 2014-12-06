@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/lib/libc/sys/Symbol.map 255708 2013-09-19 18:53:42Z jhb $
+ * $FreeBSD: releng/10.1/lib/libc/sys/Symbol.map 255708 2013-09-19 18:53:42Z jhb $
  */
 
 /*

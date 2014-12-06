@@ -30,7 +30,7 @@
 static char sccsid[] = "@(#)des_soft.c	2.2 88/08/10 4.0 RPCSRC; from 1.13 88/02/08 SMI";
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/rpc/des_soft.c 261046 2014-01-22 23:45:27Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/rpc/des_soft.c 261046 2014-01-22 23:45:27Z mav $");
 
 /*
  * Table giving odd parity in the low bit for ASCII characters

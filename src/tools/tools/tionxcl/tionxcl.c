@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/tools/tionxcl/tionxcl.c 186284 2008-12-18 15:12:04Z bms $
+ * $FreeBSD: releng/10.1/tools/tools/tionxcl/tionxcl.c 186284 2008-12-18 15:12:04Z bms $
  */
 
 #include <sys/param.h>

@@ -1,5 +1,5 @@
 #	@(#)Makefile	5.3 (Berkeley) 5/12/90
-# $FreeBSD: stable/10/usr.bin/yacc/Makefile 268899 2014-07-20 00:21:38Z bapt $
+# $FreeBSD: releng/10.1/usr.bin/yacc/Makefile 268899 2014-07-20 00:21:38Z bapt $
 
 .include <bsd.own.mk>
 

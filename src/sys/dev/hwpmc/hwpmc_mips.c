@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/hwpmc/hwpmc_mips.c 234598 2012-04-23 08:58:01Z fabient $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/hwpmc/hwpmc_mips.c 234598 2012-04-23 08:58:01Z fabient $");
 
 #include "opt_hwpmc_hooks.h"
 

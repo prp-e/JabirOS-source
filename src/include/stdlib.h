@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)stdlib.h	8.5 (Berkeley) 5/19/95
- * $FreeBSD: stable/10/include/stdlib.h 264496 2014-04-15 09:41:52Z tijl $
+ * $FreeBSD: releng/10.1/include/stdlib.h 264496 2014-04-15 09:41:52Z tijl $
  */
 
 #ifndef _STDLIB_H_

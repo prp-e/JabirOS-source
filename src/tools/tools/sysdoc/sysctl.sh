@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/tools/tools/sysdoc/sysctl.sh 142871 2005-03-01 05:48:37Z trhodes $
+# $FreeBSD: releng/10.1/tools/tools/sysdoc/sysctl.sh 142871 2005-03-01 05:48:37Z trhodes $
 #
 # For each sysctl, repeat:
 #	if it has a short description

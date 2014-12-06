@@ -39,7 +39,7 @@
  *
  * $Id: //depot/aic7xxx/aic7xxx/aic79xx.h#107 $
  *
- * $FreeBSD: stable/10/sys/dev/aic7xxx/aic79xx.h 199260 2009-11-13 22:57:20Z attilio $
+ * $FreeBSD: releng/10.1/sys/dev/aic7xxx/aic79xx.h 199260 2009-11-13 22:57:20Z attilio $
  */
 
 #ifndef _AIC79XX_H_

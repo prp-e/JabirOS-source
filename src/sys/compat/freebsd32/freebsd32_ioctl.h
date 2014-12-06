@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/compat/freebsd32/freebsd32_ioctl.h 268139 2014-07-02 10:16:12Z mav $
+ * $FreeBSD: releng/10.1/sys/compat/freebsd32/freebsd32_ioctl.h 268139 2014-07-02 10:16:12Z mav $
  */
 
 #ifndef _COMPAT_FREEBSD32_IOCTL_H_

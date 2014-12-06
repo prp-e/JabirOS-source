@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/allwinner/bus_space.c 245455 2013-01-15 09:56:20Z ganbold $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/allwinner/bus_space.c 245455 2013-01-15 09:56:20Z ganbold $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

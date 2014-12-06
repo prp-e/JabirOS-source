@@ -33,7 +33,7 @@ static char sccsid[] = "@(#)edit.c	8.1 (Berkeley) 6/6/93";
 #endif
 #endif /* not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/mail/edit.c 270756 2014-08-28 18:11:05Z pfg $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/mail/edit.c 270756 2014-08-28 18:11:05Z pfg $");
 
 #include "rcv.h"
 #include <fcntl.h>

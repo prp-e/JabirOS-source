@@ -15,7 +15,7 @@
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/arm/gen/divsi3.S 271337 2014-09-09 22:24:01Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/arm/gen/divsi3.S 271337 2014-09-09 22:24:01Z ian $");
 
 /* 
  * stack is aligned as there's a possibility of branching to L_overflow

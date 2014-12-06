@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/fifolog/fifolog_create/fifolog_create.c 219027 2011-02-25 09:40:17Z phk $
+ * $FreeBSD: releng/10.1/usr.sbin/fifolog/fifolog_create/fifolog_create.c 219027 2011-02-25 09:40:17Z phk $
  */
 
 #include <stdio.h>

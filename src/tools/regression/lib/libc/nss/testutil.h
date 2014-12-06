@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/lib/libc/nss/testutil.h 251818 2013-06-16 19:35:01Z eadler $
+ * $FreeBSD: releng/10.1/tools/regression/lib/libc/nss/testutil.h 251818 2013-06-16 19:35:01Z eadler $
  */
 
 #include <sys/queue.h>

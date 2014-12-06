@@ -52,7 +52,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/fs/fuse/fuse_io.h 241519 2012-10-13 23:54:26Z attilio $
+ * $FreeBSD: releng/10.1/sys/fs/fuse/fuse_io.h 241519 2012-10-13 23:54:26Z attilio $
  */
 
 #ifndef _FUSE_IO_H_

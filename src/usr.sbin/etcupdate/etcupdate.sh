@@ -25,7 +25,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/usr.sbin/etcupdate/etcupdate.sh 259960 2013-12-27 19:53:42Z jhb $
+# $FreeBSD: releng/10.1/usr.sbin/etcupdate/etcupdate.sh 259960 2013-12-27 19:53:42Z jhb $
 
 # This is a tool to manage updating files that are not updated as part
 # of 'make installworld' such as files in /etc.  Unlike other tools,

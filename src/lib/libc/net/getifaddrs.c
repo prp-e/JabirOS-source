@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/net/getifaddrs.c 231506 2012-02-11 06:05:40Z bz $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/net/getifaddrs.c 231506 2012-02-11 06:05:40Z bz $");
 
 #include "namespace.h"
 #include <sys/types.h>

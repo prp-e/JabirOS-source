@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/ggate/shared/ggate.h 239106 2012-08-06 21:02:40Z dim $
+ * $FreeBSD: releng/10.1/sbin/ggate/shared/ggate.h 239106 2012-08-06 21:02:40Z dim $
  */
 
 #ifndef _GGATE_H_

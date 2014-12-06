@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/c89/c89.c 247951 2013-03-07 21:34:16Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/c89/c89.c 247951 2013-03-07 21:34:16Z dim $");
 
 #include <err.h>
 #include <stdio.h>

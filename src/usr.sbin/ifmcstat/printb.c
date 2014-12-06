@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/ifmcstat/printb.c 189341 2009-03-04 02:12:29Z bms $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/ifmcstat/printb.c 189341 2009-03-04 02:12:29Z bms $");
 
 #include <stdio.h>
 

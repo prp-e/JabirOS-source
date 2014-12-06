@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/amdtemp/amdtemp.c 263869 2014-03-28 08:55:34Z brueffer $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/amdtemp/amdtemp.c 263869 2014-03-28 08:55:34Z brueffer $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/userboot/userboot/Makefile 268932 2014-07-20 22:54:03Z jhb $
+# $FreeBSD: releng/10.1/sys/boot/userboot/userboot/Makefile 268932 2014-07-20 22:54:03Z jhb $
 
 NO_MAN=
 

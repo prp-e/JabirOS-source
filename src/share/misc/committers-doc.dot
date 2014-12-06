@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/misc/committers-doc.dot 251102 2013-05-29 13:36:33Z crees $
+# $FreeBSD: releng/10.1/share/misc/committers-doc.dot 251102 2013-05-29 13:36:33Z crees $
 
 # This file is meant to list all FreeBSD doc+www committers and describe the
 # mentor-mentee relationships between them.

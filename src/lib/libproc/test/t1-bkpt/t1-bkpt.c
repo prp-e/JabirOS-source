@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF 
  * SUCH DAMAGE. 
  *
- * $FreeBSD: stable/10/lib/libproc/test/t1-bkpt/t1-bkpt.c 244692 2012-12-26 05:11:48Z pluknet $
+ * $FreeBSD: releng/10.1/lib/libproc/test/t1-bkpt/t1-bkpt.c 244692 2012-12-26 05:11:48Z pluknet $
  */
 #include <sys/types.h>
 #include <sys/wait.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/hpt27xx/Makefile 252867 2013-07-06 07:49:41Z delphij $
+# $FreeBSD: releng/10.1/sys/modules/hpt27xx/Makefile 252867 2013-07-06 07:49:41Z delphij $
 HPT27XX=	${.CURDIR}/../../dev/hpt27xx
 .PATH:	${HPT27XX}
 

@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/amd64/support.S 271071 2014-09-04 00:40:41Z pfg $
+ * $FreeBSD: releng/10.1/sys/amd64/amd64/support.S 271071 2014-09-04 00:40:41Z pfg $
  */
 
 #include "opt_ddb.h"

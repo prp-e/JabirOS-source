@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/agp/agp_ati.c 244926 2013-01-01 18:16:49Z antoine $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/agp/agp_ati.c 244926 2013-01-01 18:16:49Z antoine $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

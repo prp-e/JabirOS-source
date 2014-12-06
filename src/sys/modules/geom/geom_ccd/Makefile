@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/geom/geom_ccd/Makefile 116125 2003-06-09 21:49:54Z phk $
+# $FreeBSD: releng/10.1/sys/modules/geom/geom_ccd/Makefile 116125 2003-06-09 21:49:54Z phk $
 
 .PATH: ${.CURDIR}/../../../geom
 

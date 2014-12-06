@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/sio/sio_pccard.c 162294 2006-09-14 03:47:59Z jmg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/sio/sio_pccard.c 162294 2006-09-14 03:47:59Z jmg $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -23,10 +23,10 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/rmi/bus_space_rmi_pci.c 204175 2010-02-21 17:27:20Z rrs $
+ * $FreeBSD: releng/10.1/sys/mips/rmi/bus_space_rmi_pci.c 204175 2010-02-21 17:27:20Z rrs $
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/rmi/bus_space_rmi_pci.c 204175 2010-02-21 17:27:20Z rrs $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/rmi/bus_space_rmi_pci.c 204175 2010-02-21 17:27:20Z rrs $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

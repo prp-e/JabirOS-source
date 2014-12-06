@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/contrib/ipfilter/mlh_rule.c 259073 2013-12-07 18:23:29Z peter $	*/
+/*	$FreeBSD: releng/10.1/contrib/ipfilter/mlh_rule.c 259073 2013-12-07 18:23:29Z peter $	*/
 
 /*
  * Copyright (C) 2012 by Darren Reed.

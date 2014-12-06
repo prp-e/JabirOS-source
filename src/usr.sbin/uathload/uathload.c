@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: stable/10/usr.sbin/uathload/uathload.c 190688 2009-04-04 11:23:00Z weongyo $
+ * $FreeBSD: releng/10.1/usr.sbin/uathload/uathload.c 190688 2009-04-04 11:23:00Z weongyo $
  */
 
 /*

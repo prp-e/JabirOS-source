@@ -1,5 +1,5 @@
 #! /bin/sh
-# $FreeBSD: stable/10/usr.bin/make/tests/archives/fmt_oldbsd/legacy_test.sh 263346 2014-03-19 12:29:20Z jmmv $
+# $FreeBSD: releng/10.1/usr.bin/make/tests/archives/fmt_oldbsd/legacy_test.sh 263346 2014-03-19 12:29:20Z jmmv $
 
 . $(dirname $0)/../../common.sh
 

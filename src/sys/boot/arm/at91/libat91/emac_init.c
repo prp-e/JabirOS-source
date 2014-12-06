@@ -24,7 +24,7 @@
  * This software is derived from software provide by Kwikbyte who specifically
  * disclaimed copyright on the code.
  *
- * $FreeBSD: stable/10/sys/boot/arm/at91/libat91/emac_init.c 238463 2012-07-15 05:35:14Z imp $
+ * $FreeBSD: releng/10.1/sys/boot/arm/at91/libat91/emac_init.c 238463 2012-07-15 05:35:14Z imp $
  */
 
 /******************************************************************************

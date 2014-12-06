@@ -27,7 +27,7 @@
  * POSSIBILITY OF SUCH DAMAGE. 
  *
  * P4: //depot/projects/trustedbsd/openbsm/sys/bsm/audit_fcntl.h#2
- * $FreeBSD: stable/10/sys/bsm/audit_fcntl.h 191147 2009-04-16 20:17:32Z rwatson $
+ * $FreeBSD: releng/10.1/sys/bsm/audit_fcntl.h 191147 2009-04-16 20:17:32Z rwatson $
  */
 
 #ifndef	_BSM_AUDIT_FCNTL_H_

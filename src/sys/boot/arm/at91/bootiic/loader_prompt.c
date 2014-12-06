@@ -19,7 +19,7 @@
  * only.
  * END_BLOCK
  *
- * $FreeBSD: stable/10/sys/boot/arm/at91/bootiic/loader_prompt.c 163596 2006-10-21 22:43:39Z imp $
+ * $FreeBSD: releng/10.1/sys/boot/arm/at91/bootiic/loader_prompt.c 163596 2006-10-21 22:43:39Z imp $
  *****************************************************************************/
 
 #include "at91rm9200_lowlevel.h"

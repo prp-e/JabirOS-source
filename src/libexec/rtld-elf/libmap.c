@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/libexec/rtld-elf/libmap.c 270756 2014-08-28 18:11:05Z pfg $
+ * $FreeBSD: releng/10.1/libexec/rtld-elf/libmap.c 270756 2014-08-28 18:11:05Z pfg $
  */
 
 #include <sys/types.h>

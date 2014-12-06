@@ -23,7 +23,7 @@
  * any improvements or extensions that they make and grant Carnegie the
  * rights to redistribute these changes.
  *
- * $FreeBSD: stable/10/sys/ddb/db_break.h 264210 2014-04-07 01:49:30Z pfg $
+ * $FreeBSD: releng/10.1/sys/ddb/db_break.h 264210 2014-04-07 01:49:30Z pfg $
  */
 
 /*

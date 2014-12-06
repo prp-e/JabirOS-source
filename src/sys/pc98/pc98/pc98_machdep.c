@@ -28,7 +28,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/pc98/pc98/pc98_machdep.c 208349 2010-05-20 12:46:19Z marius $
+ * $FreeBSD: releng/10.1/sys/pc98/pc98/pc98_machdep.c 208349 2010-05-20 12:46:19Z marius $
  */
 
 #include "opt_pc98.h"

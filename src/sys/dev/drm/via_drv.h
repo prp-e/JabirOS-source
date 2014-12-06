@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm/via_drv.h 203288 2010-01-31 14:30:39Z rnoland $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm/via_drv.h 203288 2010-01-31 14:30:39Z rnoland $");
 
 #ifndef _VIA_DRV_H_
 #define _VIA_DRV_H_

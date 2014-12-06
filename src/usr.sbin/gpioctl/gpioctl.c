@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/gpioctl/gpioctl.c 255629 2013-09-17 11:48:47Z sbruno $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/gpioctl/gpioctl.c 255629 2013-09-17 11:48:47Z sbruno $");
 
 #include <fcntl.h>
 #include <getopt.h>

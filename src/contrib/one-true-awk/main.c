@@ -23,7 +23,7 @@ THIS SOFTWARE.
 ****************************************************************/
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/contrib/one-true-awk/main.c 244988 2013-01-03 07:25:30Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/contrib/one-true-awk/main.c 244988 2013-01-03 07:25:30Z delphij $");
 
 const char	*version = "version 20121220 (FreeBSD)";
 

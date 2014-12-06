@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/ip_icmp.c 264221 2014-04-07 12:50:08Z ae $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/ip_icmp.c 264221 2014-04-07 12:50:08Z ae $");
 
 #include "opt_inet.h"
 #include "opt_ipsec.h"

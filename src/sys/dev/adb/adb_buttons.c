@@ -28,7 +28,7 @@
  * OpenBSD: abtn.c,v 1.12 2009/01/10 18:00:59 robert Exp
  * NetBSD: abtn.c,v 1.1 1999/07/12 17:48:26 tsubai Exp
  *
- * $FreeBSD: stable/10/sys/dev/adb/adb_buttons.c 226449 2011-10-16 21:01:42Z nwhitehorn $
+ * $FreeBSD: releng/10.1/sys/dev/adb/adb_buttons.c 226449 2011-10-16 21:01:42Z nwhitehorn $
  */
 
 #include <sys/param.h>

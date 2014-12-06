@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/services_mkdb/Makefile 241777 2012-10-20 10:33:15Z ed $
+# $FreeBSD: releng/10.1/usr.sbin/services_mkdb/Makefile 241777 2012-10-20 10:33:15Z ed $
 
 PROG=	services_mkdb
 MAN=	services_mkdb.8

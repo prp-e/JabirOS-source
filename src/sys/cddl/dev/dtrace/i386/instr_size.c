@@ -19,7 +19,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: stable/10/sys/cddl/dev/dtrace/i386/instr_size.c 211607 2010-08-22 10:40:15Z rpaulo $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/dtrace/i386/instr_size.c 211607 2010-08-22 10:40:15Z rpaulo $
  */
 /*
  * Copyright 2005 Sun Microsystems, Inc.  All rights reserved.

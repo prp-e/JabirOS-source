@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/vt/hw/ofwfb/ofwfb.c 271952 2014-09-22 10:21:08Z ray $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/vt/hw/ofwfb/ofwfb.c 271952 2014-09-22 10:21:08Z ray $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

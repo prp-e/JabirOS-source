@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libutil/pidfile.c 255007 2013-08-28 21:10:37Z jilles $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libutil/pidfile.c 255007 2013-08-28 21:10:37Z jilles $");
 
 #include <sys/param.h>
 #include <sys/file.h>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/ppp/tcp.h 52942 1999-11-06 22:50:59Z brian $
+ * $FreeBSD: releng/10.1/usr.sbin/ppp/tcp.h 52942 1999-11-06 22:50:59Z brian $
  */
 
 struct physical;

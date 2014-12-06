@@ -42,7 +42,7 @@
  *
  * Created      : 08/02/95
  *
- * $FreeBSD: stable/10/sys/arm/include/undefined.h 259329 2013-12-13 20:43:11Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/include/undefined.h 259329 2013-12-13 20:43:11Z ian $
  */
 
 

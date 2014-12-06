@@ -58,7 +58,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)in.h	8.3 (Berkeley) 1/3/94
- * $FreeBSD: stable/10/sys/netinet6/in6.h 263307 2014-03-18 16:56:05Z glebius $
+ * $FreeBSD: releng/10.1/sys/netinet6/in6.h 272991 2014-10-12 17:07:15Z tuexen $
  */
 
 #ifndef __KAME_NETINET_IN_H_INCLUDED_
@@ -641,6 +641,8 @@ struct ip6_hdr;
 
 int	in6_cksum_pseudo(struct ip6_hdr *, uint32_t, uint8_t, uint16_t);
 int	in6_cksum(struct mbuf *, u_int8_t, u_int32_t, u_int32_t);
+int	in6_cksum_partial(struct mbuf *, u_int8_t, u_int32_t, u_int32_t,
+			  u_int32_t);
 int	in6_localaddr(struct in6_addr *);
 int	in6_localip(struct in6_addr *);
 int	in6_addrscope(struct in6_addr *);

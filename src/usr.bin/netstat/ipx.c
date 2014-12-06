@@ -39,7 +39,7 @@ static char sccsid[] = "@(#)ns.c	8.1 (Berkeley) 6/6/93";
 #endif
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/netstat/ipx.c 228992 2011-12-30 11:02:40Z uqs $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/netstat/ipx.c 228992 2011-12-30 11:02:40Z uqs $");
 
 #include <sys/param.h>
 #include <sys/queue.h>

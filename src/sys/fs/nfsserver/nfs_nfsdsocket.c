@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/fs/nfsserver/nfs_nfsdsocket.c 270066 2014-08-16 21:36:22Z rmacklem $");
+__FBSDID("$FreeBSD: releng/10.1/sys/fs/nfsserver/nfs_nfsdsocket.c 270066 2014-08-16 21:36:22Z rmacklem $");
 
 /*
  * Socket operations for use by the nfs server.

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/x86/x86/tsc.c 249625 2013-04-18 17:07:04Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/x86/x86/tsc.c 249625 2013-04-18 17:07:04Z mav $");
 
 #include "opt_compat.h"
 #include "opt_clock.h"

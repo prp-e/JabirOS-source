@@ -27,7 +27,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/usr.sbin/crashinfo/crashinfo.sh 261207 2014-01-27 08:15:21Z glebius $
+# $FreeBSD: releng/10.1/usr.sbin/crashinfo/crashinfo.sh 261207 2014-01-27 08:15:21Z glebius $
 
 usage()
 {

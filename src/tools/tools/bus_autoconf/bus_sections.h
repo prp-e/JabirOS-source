@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/tools/tools/bus_autoconf/bus_sections.h 223534 2011-06-25 13:44:05Z hselasky $ */
+/* $FreeBSD: releng/10.1/tools/tools/bus_autoconf/bus_sections.h 223534 2011-06-25 13:44:05Z hselasky $ */
 
 /*-
  * Copyright (c) 2011 Hans Petter Selasky. All rights reserved.

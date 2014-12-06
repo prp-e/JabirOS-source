@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/utx/Makefile 231530 2012-02-11 20:28:42Z ed $
+# $FreeBSD: releng/10.1/usr.sbin/utx/Makefile 231530 2012-02-11 20:28:42Z ed $
 
 PROG=	utx
 MAN=	utx.8

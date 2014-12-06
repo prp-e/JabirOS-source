@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/xscale/ixp425/cambria_fled.c 205705 2010-03-26 18:49:43Z rpaulo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/xscale/ixp425/cambria_fled.c 205705 2010-03-26 18:49:43Z rpaulo $");
 /*
  * Cambria Front Panel LED sitting on the I2C bus.
  */

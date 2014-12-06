@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/less/Makefile 207842 2010-05-10 06:59:50Z mm $
+# $FreeBSD: releng/10.1/usr.bin/less/Makefile 207842 2010-05-10 06:59:50Z mm $
 
 PROG=	less
 SRCS=	main.c screen.c brac.c ch.c charset.c cmdbuf.c command.c cvt.c \

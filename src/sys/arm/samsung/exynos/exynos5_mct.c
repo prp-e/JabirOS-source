@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/samsung/exynos/exynos5_mct.c 266332 2014-05-17 17:54:38Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/samsung/exynos/exynos5_mct.c 266332 2014-05-17 17:54:38Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

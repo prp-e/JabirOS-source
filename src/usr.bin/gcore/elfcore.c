@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/gcore/elfcore.c 249704 2013-04-20 15:37:33Z trociny $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/gcore/elfcore.c 249704 2013-04-20 15:37:33Z trociny $");
 
 #include <sys/param.h>
 #include <sys/procfs.h>

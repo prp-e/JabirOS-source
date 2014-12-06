@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/sparc64/sys/__sparc_utrap_setup.c 263763 2014-03-26 07:31:57Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/sparc64/sys/__sparc_utrap_setup.c 263763 2014-03-26 07:31:57Z dim $");
 
 #include <sys/types.h>
 

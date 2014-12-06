@@ -29,7 +29,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/compat/ndis/ndis_var.h 254842 2013-08-25 10:57:09Z andre $
+ * $FreeBSD: releng/10.1/sys/compat/ndis/ndis_var.h 254842 2013-08-25 10:57:09Z andre $
  */
 
 #ifndef _NDIS_VAR_H_

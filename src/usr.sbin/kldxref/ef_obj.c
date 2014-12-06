@@ -31,7 +31,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/kldxref/ef_obj.c 251440 2013-06-05 21:56:29Z delphij $
+ * $FreeBSD: releng/10.1/usr.sbin/kldxref/ef_obj.c 251440 2013-06-05 21:56:29Z delphij $
  */
 
 #include <sys/param.h>

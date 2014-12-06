@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/mips/cavium/usb/octusb.h 230405 2012-01-20 23:37:04Z gonzo $ */
+/* $FreeBSD: releng/10.1/sys/mips/cavium/usb/octusb.h 230405 2012-01-20 23:37:04Z gonzo $ */
 
 /*-
  * Copyright (c) 2010 Hans Petter Selasky. All rights reserved.

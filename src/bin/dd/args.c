@@ -37,7 +37,7 @@ static char sccsid[] = "@(#)args.c	8.3 (Berkeley) 4/2/94";
 #endif
 #endif /* not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/bin/dd/args.c 264577 2014-04-17 00:31:20Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/bin/dd/args.c 264577 2014-04-17 00:31:20Z delphij $");
 
 #include <sys/types.h>
 

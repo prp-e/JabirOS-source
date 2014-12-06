@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/cavium/octopcivar.h 210311 2010-07-20 19:25:11Z jmallett $
+ * $FreeBSD: releng/10.1/sys/mips/cavium/octopcivar.h 210311 2010-07-20 19:25:11Z jmallett $
  */
 #ifndef	_MIPS_CAVIUM_OCTOPCIVAR_H
 #define	_MIPS_CAVIUM_OCTOPCIVAR_H

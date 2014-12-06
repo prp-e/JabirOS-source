@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/procstat/Makefile 267979 2014-06-27 20:34:22Z jhb $
+# $FreeBSD: releng/10.1/usr.bin/procstat/Makefile 267979 2014-06-27 20:34:22Z jhb $
 
 PROG=	procstat
 MAN=	procstat.1

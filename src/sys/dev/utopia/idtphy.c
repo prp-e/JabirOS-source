@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/utopia/idtphy.c 142384 2005-02-24 16:56:36Z harti $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/utopia/idtphy.c 142384 2005-02-24 16:56:36Z harti $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

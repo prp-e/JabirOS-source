@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/regression/lib/libc/stdio/test-open_memstream.c 247411 2013-02-27 19:50:46Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/tools/regression/lib/libc/stdio/test-open_memstream.c 247411 2013-02-27 19:50:46Z jhb $");
 
 #include <err.h>
 #include <errno.h>

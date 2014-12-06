@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	From: @(#)if_loop.c	8.1 (Berkeley) 6/10/93
- * $FreeBSD: stable/10/sys/net/if_disc.c 263478 2014-03-21 15:15:30Z glebius $
+ * $FreeBSD: releng/10.1/sys/net/if_disc.c 263478 2014-03-21 15:15:30Z glebius $
  */
 
 /*

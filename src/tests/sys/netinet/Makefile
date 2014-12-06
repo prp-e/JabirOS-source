@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tests/sys/netinet/Makefile 263445 2014-03-20 20:39:41Z asomers $
+# $FreeBSD: releng/10.1/tests/sys/netinet/Makefile 263445 2014-03-20 20:39:41Z asomers $
 
 TESTSDIR=	${TESTSBASE}/sys/netinet
 BINDIR=		${TESTSDIR}

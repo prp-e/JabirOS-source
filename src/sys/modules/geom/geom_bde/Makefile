@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/geom/geom_bde/Makefile 159466 2006-06-09 17:36:50Z pjd $
+# $FreeBSD: releng/10.1/sys/modules/geom/geom_bde/Makefile 159466 2006-06-09 17:36:50Z pjd $
 
 .PATH: ${.CURDIR}/../../../geom/bde
 .PATH: ${.CURDIR}/../../../crypto/rijndael

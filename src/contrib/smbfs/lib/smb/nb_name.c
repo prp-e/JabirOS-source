@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/contrib/smbfs/lib/smb/nb_name.c 184567 2008-11-02 19:48:15Z rwatson $");
+__FBSDID("$FreeBSD: releng/10.1/contrib/smbfs/lib/smb/nb_name.c 184567 2008-11-02 19:48:15Z rwatson $");
 
 #include <sys/param.h>
 #include <sys/endian.h>

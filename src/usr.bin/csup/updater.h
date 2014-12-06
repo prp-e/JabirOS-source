@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/csup/updater.h 251862 2013-06-17 20:11:04Z pluknet $
+ * $FreeBSD: releng/10.1/usr.bin/csup/updater.h 251862 2013-06-17 20:11:04Z pluknet $
  */
 #ifndef _UPDATER_H_
 #define _UPDATER_H_

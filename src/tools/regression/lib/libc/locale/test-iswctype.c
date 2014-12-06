@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/regression/lib/libc/locale/test-iswctype.c 250989 2013-05-25 18:04:24Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/tools/regression/lib/libc/locale/test-iswctype.c 250989 2013-05-25 18:04:24Z ed $");
 
 #include <assert.h>
 #include <locale.h>

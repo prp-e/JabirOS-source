@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/iscsictl/parse.y 262841 2014-03-06 11:07:51Z trasz $
+ * $FreeBSD: releng/10.1/usr.bin/iscsictl/parse.y 262841 2014-03-06 11:07:51Z trasz $
  */
 
 #include <sys/queue.h>

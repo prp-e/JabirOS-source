@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/mkesdb/Makefile 250938 2013-05-23 18:07:01Z ed $
+# $FreeBSD: releng/10.1/usr.bin/mkesdb/Makefile 250938 2013-05-23 18:07:01Z ed $
 
 .PATH: ${.CURDIR}/../../lib/libc/iconv
 

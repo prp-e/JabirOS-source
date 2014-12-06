@@ -2,7 +2,7 @@
 /*	$NetBSD$	*/
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/cam/scsi/scsi_low.c 265632 2014-05-08 06:55:48Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/cam/scsi/scsi_low.c 265632 2014-05-08 06:55:48Z mav $");
 
 #define	SCSI_LOW_STATICS
 #define	SCSI_LOW_DEBUG

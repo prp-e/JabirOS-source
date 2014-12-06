@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/usb/input/uep.c 233774 2012-04-02 10:50:42Z hselasky $
+ * $FreeBSD: releng/10.1/sys/dev/usb/input/uep.c 233774 2012-04-02 10:50:42Z hselasky $
  */
 
 /*

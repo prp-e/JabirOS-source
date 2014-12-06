@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/tinybsd/conf/wireless/etc/pf.os 162485 2006-09-20 22:24:20Z julian $
+# $FreeBSD: releng/10.1/tools/tools/tinybsd/conf/wireless/etc/pf.os 162485 2006-09-20 22:24:20Z julian $
 # passive OS fingerprinting
 # -------------------------
 #

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/rc.d/ipmon 255450 2013-09-10 13:48:33Z cy $
+# $FreeBSD: releng/10.1/etc/rc.d/ipmon 255450 2013-09-10 13:48:33Z cy $
 #
 
 # PROVIDE: ipmon

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/streams/Makefile 160063 2006-07-01 10:51:55Z markm $ 
+# $FreeBSD: releng/10.1/sys/modules/streams/Makefile 160063 2006-07-01 10:51:55Z markm $ 
 
 .PATH: ${.CURDIR}/../../dev/streams
 

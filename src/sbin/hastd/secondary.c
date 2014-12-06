@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/hastd/secondary.c 260006 2013-12-28 19:21:22Z trociny $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/hastd/secondary.c 260006 2013-12-28 19:21:22Z trociny $");
 
 #include <sys/param.h>
 #include <sys/time.h>

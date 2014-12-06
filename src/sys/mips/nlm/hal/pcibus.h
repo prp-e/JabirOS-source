@@ -26,7 +26,7 @@
  * THE POSSIBILITY OF SUCH DAMAGE.
  *
  * NETLOGIC_BSD
- * $FreeBSD: stable/10/sys/mips/nlm/hal/pcibus.h 233563 2012-03-27 15:39:55Z jchandra $
+ * $FreeBSD: releng/10.1/sys/mips/nlm/hal/pcibus.h 233563 2012-03-27 15:39:55Z jchandra $
  */
 
 #ifndef __XLP_PCIBUS_H__

@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libgeom/geom_ctl.c 214129 2010-10-21 10:38:14Z pjd $
+ * $FreeBSD: releng/10.1/lib/libgeom/geom_ctl.c 214129 2010-10-21 10:38:14Z pjd $
  */
 
 #include <stdio.h>

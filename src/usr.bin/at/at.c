@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/at/at.c 249406 2013-04-12 14:32:16Z gahr $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/at/at.c 272438 2014-10-02 18:26:40Z delphij $");
 
 #define _USE_BSD 1
 
@@ -367,6 +367,7 @@ writefile(time_t runtimer, char queue)
 
 	if (export)
 	{
+	    (void)fputs("export ", fp);
 	    fwrite(*atenv, sizeof(char), eqp-*atenv, fp);
 	    for(ap = eqp;*ap != '\0'; ap++)
 	    {
@@ -389,8 +390,6 @@ writefile(time_t runtimer, char queue)
 		    fputc(*ap, fp);
 		}
 	    }
-	    fputs("; export ", fp);
-	    fwrite(*atenv, sizeof(char), eqp-*atenv -1, fp);
 	    fputc('\n', fp);
 	    
 	}

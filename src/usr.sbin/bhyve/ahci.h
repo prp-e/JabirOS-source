@@ -24,7 +24,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bhyve/ahci.h 256056 2013-10-04 18:31:38Z grehan $
+ * $FreeBSD: releng/10.1/usr.sbin/bhyve/ahci.h 256056 2013-10-04 18:31:38Z grehan $
  */
 
 #ifndef _AHCI_H_

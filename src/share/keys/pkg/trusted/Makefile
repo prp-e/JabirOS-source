@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/keys/pkg/trusted/Makefile 257344 2013-10-29 15:07:54Z bdrewery $
+# $FreeBSD: releng/10.1/share/keys/pkg/trusted/Makefile 257344 2013-10-29 15:07:54Z bdrewery $
 
 NO_OBJ=
 

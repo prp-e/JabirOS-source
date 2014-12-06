@@ -26,7 +26,7 @@
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: stable/10/sys/libkern/arm/memcpy.S 248367 2013-03-16 04:08:01Z andrew $");
+__FBSDID("$FreeBSD: releng/10.1/sys/libkern/arm/memcpy.S 248367 2013-03-16 04:08:01Z andrew $");
 
 #ifdef __ARM_EABI__
 

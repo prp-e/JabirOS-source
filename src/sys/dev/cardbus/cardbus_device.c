@@ -26,7 +26,7 @@
  *
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/cardbus/cardbus_device.c 188216 2009-02-06 00:55:19Z wkoszek $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/cardbus/cardbus_device.c 188216 2009-02-06 00:55:19Z wkoszek $");
 
 #include <sys/param.h>
 #include <sys/conf.h>

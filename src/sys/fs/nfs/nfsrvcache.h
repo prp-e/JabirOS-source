@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/fs/nfs/nfsrvcache.h 269655 2014-08-07 03:50:30Z kib $
+ * $FreeBSD: releng/10.1/sys/fs/nfs/nfsrvcache.h 269655 2014-08-07 03:50:30Z kib $
  */
 
 #ifndef _NFS_NFSRVCACHE_H_

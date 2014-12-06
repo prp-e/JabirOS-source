@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/evergreen_blit_kms.c 261455 2014-02-04 03:36:42Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/radeon/evergreen_blit_kms.c 261455 2014-02-04 03:36:42Z eadler $");
 
 #include <dev/drm2/drmP.h>
 #include <dev/drm2/radeon/radeon_drm.h>

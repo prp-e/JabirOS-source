@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libc/iconv/citrus_lock.h 252584 2013-07-03 18:35:21Z peter $ */
+/* $FreeBSD: releng/10.1/lib/libc/iconv/citrus_lock.h 252584 2013-07-03 18:35:21Z peter $ */
 /*-
  * Copyright (C) 2010 Gabor Kovesdan <gabor@FreeBSD.org>
  * All rights reserved.

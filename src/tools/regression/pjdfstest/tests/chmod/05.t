@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/chmod/05.t 211336 2010-08-15 14:44:48Z pjd $
+# $FreeBSD: releng/10.1/tools/regression/pjdfstest/tests/chmod/05.t 211336 2010-08-15 14:44:48Z pjd $
 
 desc="chmod returns EACCES when search permission is denied for a component of the path prefix"
 

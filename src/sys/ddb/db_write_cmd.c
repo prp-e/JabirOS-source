@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/ddb/db_write_cmd.c 139747 2005-01-06 01:34:41Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/ddb/db_write_cmd.c 139747 2005-01-06 01:34:41Z imp $");
 
 #include <sys/param.h>
 

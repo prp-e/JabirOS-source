@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/arm/_fpmath.h 255361 2013-09-07 14:04:10Z andrew $
+ * $FreeBSD: releng/10.1/lib/libc/arm/_fpmath.h 255361 2013-09-07 14:04:10Z andrew $
  */
 
 #if defined(__VFP_FP__) || defined(__ARM_EABI__)

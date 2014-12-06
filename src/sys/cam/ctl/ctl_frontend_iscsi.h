@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/cam/ctl/ctl_frontend_iscsi.h 268692 2014-07-15 17:14:53Z mav $
+ * $FreeBSD: releng/10.1/sys/cam/ctl/ctl_frontend_iscsi.h 268692 2014-07-15 17:14:53Z mav $
  */
 
 #ifndef CTL_FRONTEND_ISCSI_H

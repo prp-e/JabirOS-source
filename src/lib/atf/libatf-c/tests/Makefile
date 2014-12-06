@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/atf/libatf-c/tests/Makefile 270905 2014-08-31 23:09:23Z ngie $
+# $FreeBSD: releng/10.1/lib/atf/libatf-c/tests/Makefile 270905 2014-08-31 23:09:23Z ngie $
 
 .include <bsd.init.mk>
 

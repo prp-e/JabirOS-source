@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/net/if_axge.c 268737 2014-07-16 06:20:18Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/net/if_axge.c 268737 2014-07-16 06:20:18Z hselasky $");
 
 /*
  * ASIX Electronics AX88178A/AX88179 USB 2.0/3.0 gigabit ethernet driver.

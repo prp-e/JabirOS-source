@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/gnu/usr.bin/cc/cc_tools/freebsd-native.h 259563 2013-12-18 19:07:29Z pfg $ */
+/* $FreeBSD: releng/10.1/gnu/usr.bin/cc/cc_tools/freebsd-native.h 259563 2013-12-18 19:07:29Z pfg $ */
 
 /* FREEBSD_NATIVE is defined when gcc is integrated into the FreeBSD
    source tree so it can be configured appropriately without using

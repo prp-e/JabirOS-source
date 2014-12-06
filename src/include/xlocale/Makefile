@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/include/xlocale/Makefile 267465 2014-06-14 02:57:40Z pfg $ 
+# $FreeBSD: releng/10.1/include/xlocale/Makefile 267465 2014-06-14 02:57:40Z pfg $ 
 
 NO_OBJ=
 INCS=	_ctype.h _inttypes.h _langinfo.h _locale.h _monetary.h _stdio.h\

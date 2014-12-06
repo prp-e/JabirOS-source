@@ -41,7 +41,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/mpt/mpt_raid.c 264949 2014-04-25 22:01:02Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/mpt/mpt_raid.c 264949 2014-04-25 22:01:02Z marius $");
 
 #include <dev/mpt/mpt.h>
 #include <dev/mpt/mpt_raid.h>

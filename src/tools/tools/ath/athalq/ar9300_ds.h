@@ -13,7 +13,7 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * $FreeBSD: stable/10/tools/tools/ath/athalq/ar9300_ds.h 248632 2013-03-23 01:25:11Z adrian $
+ * $FreeBSD: releng/10.1/tools/tools/ath/athalq/ar9300_ds.h 248632 2013-03-23 01:25:11Z adrian $
  */
 #ifndef	__AR9300_DS_H__
 #define	__AR9300_DS_H__

@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/sfxge/common/siena_impl.h 228078 2011-11-28 17:19:05Z philip $
+ * $FreeBSD: releng/10.1/sys/dev/sfxge/common/siena_impl.h 228078 2011-11-28 17:19:05Z philip $
  */
 
 #ifndef _SYS_SIENA_IMPL_H

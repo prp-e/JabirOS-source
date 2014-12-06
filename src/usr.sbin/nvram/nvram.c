@@ -23,7 +23,7 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/nvram/nvram.c 253162 2013-07-10 18:07:01Z rdivacky $
+ * $FreeBSD: releng/10.1/usr.sbin/nvram/nvram.c 253162 2013-07-10 18:07:01Z rdivacky $
  */
 
 #include <sys/types.h>

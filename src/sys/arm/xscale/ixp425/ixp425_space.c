@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/xscale/ixp425/ixp425_space.c 177887 2008-04-03 18:22:08Z raj $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/xscale/ixp425/ixp425_space.c 177887 2008-04-03 18:22:08Z raj $");
 
 /*
  * bus_space I/O functions for ixp425

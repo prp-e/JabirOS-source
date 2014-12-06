@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/lib/libstand/powerpc/_setjmp.S 271129 2014-09-04 20:21:30Z emaste $  */
+/*	$FreeBSD: releng/10.1/lib/libstand/powerpc/_setjmp.S 271129 2014-09-04 20:21:30Z emaste $  */
 /*	from:	NetBSD: setjmp.S,v 1.1 1998/01/27 15:13:12 sakamoto Exp $  */
 /*	from:	OpenBSD: setjmp.S,v 1.2 1996/12/28 06:22:18 rahnds Exp 	*/
 /* kernel version of this file, does not have signal goop */

@@ -1,7 +1,7 @@
 #
 # XBOX -- kernel for an XBOX
 #
-# $FreeBSD: stable/10/sys/i386/conf/XBOX 253845 2013-07-31 17:21:18Z obrien $
+# $FreeBSD: releng/10.1/sys/i386/conf/XBOX 253845 2013-07-31 17:21:18Z obrien $
 cpu		I686_CPU		# Celeron
 ident		XBOX
 

@@ -19,7 +19,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: stable/10/sys/cddl/dev/dtrace/mips/regset.h 233409 2012-03-24 05:14:37Z gonzo $ 
+ * $FreeBSD: releng/10.1/sys/cddl/dev/dtrace/mips/regset.h 233409 2012-03-24 05:14:37Z gonzo $ 
  */
 /*
  * Copyright 2004 Sun Microsystems, Inc.  All rights reserved.

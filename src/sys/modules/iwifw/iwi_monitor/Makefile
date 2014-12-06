@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/iwifw/iwi_monitor/Makefile 167165 2007-03-02 11:42:56Z flz $
+# $FreeBSD: releng/10.1/sys/modules/iwifw/iwi_monitor/Makefile 167165 2007-03-02 11:42:56Z flz $
 
 .PATH: ${.CURDIR}/../../../contrib/dev/iwi
 

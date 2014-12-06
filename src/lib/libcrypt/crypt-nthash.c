@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libcrypt/crypt-nthash.c 115720 2003-06-02 19:29:27Z markm $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libcrypt/crypt-nthash.c 115720 2003-06-02 19:29:27Z markm $");
 
 #include <sys/types.h>
 

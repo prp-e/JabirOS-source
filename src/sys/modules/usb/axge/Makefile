@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/usb/axge/Makefile 258331 2013-11-19 00:37:53Z markj $
+# $FreeBSD: releng/10.1/sys/modules/usb/axge/Makefile 258331 2013-11-19 00:37:53Z markj $
 
 .PATH: ${.CURDIR}/../../../dev/usb/net
 

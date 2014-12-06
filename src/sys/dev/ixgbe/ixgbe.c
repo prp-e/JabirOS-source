@@ -30,7 +30,7 @@
   POSSIBILITY OF SUCH DAMAGE.
 
 ******************************************************************************/
-/*$FreeBSD: stable/10/sys/dev/ixgbe/ixgbe.c 271620 2014-09-15 12:36:40Z brueffer $*/
+/*$FreeBSD: releng/10.1/sys/dev/ixgbe/ixgbe.c 271620 2014-09-15 12:36:40Z brueffer $*/
 
 
 #include "opt_inet.h"

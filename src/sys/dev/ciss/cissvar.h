@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: stable/10/sys/dev/ciss/cissvar.h 246713 2013-02-12 16:57:20Z kib $
+ *	$FreeBSD: releng/10.1/sys/dev/ciss/cissvar.h 246713 2013-02-12 16:57:20Z kib $
  */
 
 /*

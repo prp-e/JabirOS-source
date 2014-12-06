@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet6/send.c 254889 2013-08-25 21:54:41Z markj $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet6/send.c 254889 2013-08-25 21:54:41Z markj $");
 
 #include "opt_kdtrace.h"
 

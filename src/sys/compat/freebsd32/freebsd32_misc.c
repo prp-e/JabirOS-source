@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/compat/freebsd32/freebsd32_misc.c 271010 2014-09-03 09:05:16Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/compat/freebsd32/freebsd32_misc.c 272246 2014-09-28 11:08:32Z kib $");
 
 #include "opt_compat.h"
 #include "opt_inet.h"
@@ -3076,7 +3076,7 @@ freebsd32_procctl(struct thread *td, struct freebsd32_procctl_args *uap)
 int
 freebsd32_fcntl(struct thread *td, struct freebsd32_fcntl_args *uap)
 {
-	intptr_t tmp;
+	long tmp;
 
 	switch (uap->cmd) {
 	/*
@@ -3095,5 +3095,5 @@ freebsd32_fcntl(struct thread *td, struct freebsd32_fcntl_args *uap)
 		tmp = uap->arg;
 		break;
 	}
-	return (kern_fcntl(td, uap->fd, uap->cmd, tmp));
+	return (kern_fcntl_freebsd(td, uap->fd, uap->cmd, tmp));
 }

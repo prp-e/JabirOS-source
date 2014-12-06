@@ -73,7 +73,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/vm/vm_pageout.c 270996 2014-09-03 07:20:09Z alc $");
+__FBSDID("$FreeBSD: releng/10.1/sys/vm/vm_pageout.c 272221 2014-09-27 18:20:45Z smh $");
 
 #include "opt_vm.h"
 #include <sys/param.h>
@@ -921,7 +921,7 @@ vm_pageout_scan(struct vm_domain *vmd, int pass)
 	 * some.  We rate limit to avoid thrashing.
 	 */
 	if (vmd == &vm_dom[0] && pass > 0 &&
-	    lowmem_ticks + (lowmem_period * hz) < ticks) {
+	    (ticks - lowmem_ticks) / hz >= lowmem_period) {
 		/*
 		 * Decrease registered cache sizes.
 		 */

@@ -33,7 +33,7 @@
 #  totally clean, fresh trees.
 # Based on release/generate-release.sh written by Nathan Whitehorn
 #
-# $FreeBSD: stable/10/release/release.sh 270688 2014-08-27 00:50:51Z gjb $
+# $FreeBSD: releng/10.1/release/release.sh 273101 2014-10-14 17:13:47Z gjb $
 #
 
 PATH="/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin"
@@ -84,6 +84,11 @@ NOPORTS=
 # Set to non-empty value to build dvd1.iso as part of the release.
 WITH_DVD=
 WITH_COMPRESSED_IMAGES=
+
+# Set to non-empty value to build virtual machine images as part of
+# the release.
+WITH_VMIMAGES=
+WITH_COMPRESSED_VMIMAGES=
 
 usage() {
 	echo "Usage: $0 [-c release.conf]"
@@ -168,7 +173,7 @@ CHROOT_DMAKEFLAGS="${CONF_FILES}"
 RELEASE_WMAKEFLAGS="${MAKE_FLAGS} ${WORLD_FLAGS} ${ARCH_FLAGS} ${CONF_FILES}"
 RELEASE_KMAKEFLAGS="${MAKE_FLAGS} ${KERNEL_FLAGS} KERNCONF=\"${KERNEL}\" ${ARCH_FLAGS} ${CONF_FILES}"
 RELEASE_RMAKEFLAGS="${ARCH_FLAGS} KERNCONF=\"${KERNEL}\" ${CONF_FILES} \
-	${DOCPORTS} WITH_DVD=${WITH_DVD}"
+	${DOCPORTS} WITH_DVD=${WITH_DVD} WITH_VMIMAGES=${WITH_VMIMAGES}"
 
 # Force src checkout if configured
 FORCE_SRC_KEY=
@@ -271,4 +276,5 @@ eval chroot ${CHROOTDIR} make -C /usr/src ${RELEASE_KMAKEFLAGS} buildkernel
 eval chroot ${CHROOTDIR} make -C /usr/src/release ${RELEASE_RMAKEFLAGS} \
 	release
 eval chroot ${CHROOTDIR} make -C /usr/src/release ${RELEASE_RMAKEFLAGS} \
-	install DESTDIR=/R WITH_COMPRESSED_IMAGES=${WITH_COMPRESSED_IMAGES}
+	install DESTDIR=/R WITH_COMPRESSED_IMAGES=${WITH_COMPRESSED_IMAGES} \
+	WITH_COMPRESSED_VMIMAGES=${WITH_COMPRESSED_VMIMAGES}

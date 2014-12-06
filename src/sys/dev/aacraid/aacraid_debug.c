@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/aacraid/aacraid_debug.c 250963 2013-05-24 09:22:43Z achim $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/aacraid/aacraid_debug.c 250963 2013-05-24 09:22:43Z achim $");
 
 /*
  * Debugging support.

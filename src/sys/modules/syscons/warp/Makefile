@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/syscons/warp/Makefile 106762 2002-11-11 10:11:59Z mux $
+# $FreeBSD: releng/10.1/sys/modules/syscons/warp/Makefile 106762 2002-11-11 10:11:59Z mux $
 
 .PATH:	${.CURDIR}/../../../dev/syscons/warp
 

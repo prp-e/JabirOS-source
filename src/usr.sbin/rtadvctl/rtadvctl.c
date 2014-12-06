@@ -23,7 +23,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/rtadvctl/rtadvctl.c 253970 2013-08-05 20:13:02Z hrs $
+ * $FreeBSD: releng/10.1/usr.sbin/rtadvctl/rtadvctl.c 253970 2013-08-05 20:13:02Z hrs $
  *
  */
 

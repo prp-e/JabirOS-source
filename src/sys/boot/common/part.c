@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/common/part.c 270917 2014-09-01 07:34:16Z ae $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/common/part.c 270917 2014-09-01 07:34:16Z ae $");
 
 #include <stand.h>
 #include <sys/param.h>

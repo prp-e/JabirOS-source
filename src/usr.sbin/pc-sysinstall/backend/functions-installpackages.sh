@@ -23,7 +23,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/usr.sbin/pc-sysinstall/backend/functions-installpackages.sh 247734 2013-03-03 23:01:46Z jpaetzel $
+# $FreeBSD: releng/10.1/usr.sbin/pc-sysinstall/backend/functions-installpackages.sh 247734 2013-03-03 23:01:46Z jpaetzel $
 
 # Functions which check and load any optional packages specified in the config
 

@@ -13,7 +13,7 @@ char *copyright =
  *  Copyright (c) 1994, 1995, William LeFebvre, Argonne National Laboratory
  *  Copyright (c) 1996, William LeFebvre, Group sys Consulting
  *
- * $FreeBSD: stable/10/contrib/top/top.c 266280 2014-05-17 02:39:20Z bdrewery $
+ * $FreeBSD: releng/10.1/contrib/top/top.c 266280 2014-05-17 02:39:20Z bdrewery $
  */
 
 /*

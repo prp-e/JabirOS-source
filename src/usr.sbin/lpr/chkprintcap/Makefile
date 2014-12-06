@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/lpr/chkprintcap/Makefile 98702 2002-06-23 20:57:18Z gad $
+# $FreeBSD: releng/10.1/usr.sbin/lpr/chkprintcap/Makefile 98702 2002-06-23 20:57:18Z gad $
 
 .PATH: ${.CURDIR}/../common_source
 

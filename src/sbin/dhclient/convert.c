@@ -44,7 +44,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/dhclient/convert.c 149399 2005-08-23 23:59:55Z brooks $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/dhclient/convert.c 149399 2005-08-23 23:59:55Z brooks $");
 
 #include "dhcpd.h"
 

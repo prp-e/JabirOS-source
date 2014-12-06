@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/fs/smbfs/smbfs_subr.h 265243 2014-05-02 21:30:59Z ae $
+ * $FreeBSD: releng/10.1/sys/fs/smbfs/smbfs_subr.h 265243 2014-05-02 21:30:59Z ae $
  */
 #ifndef _FS_SMBFS_SMBFS_SUBR_H_
 #define _FS_SMBFS_SMBFS_SUBR_H_

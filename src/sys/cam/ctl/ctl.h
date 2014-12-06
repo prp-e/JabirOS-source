@@ -28,7 +28,7 @@
  * POSSIBILITY OF SUCH DAMAGES.
  *
  * $Id: //depot/users/kenm/FreeBSD-test2/sys/cam/ctl/ctl.h#5 $
- * $FreeBSD: stable/10/sys/cam/ctl/ctl.h 268694 2014-07-15 17:16:06Z mav $
+ * $FreeBSD: releng/10.1/sys/cam/ctl/ctl.h 272203 2014-09-27 08:14:15Z mav $
  */
 /*
  * Function definitions used both within CTL and potentially in various CTL
@@ -119,7 +119,7 @@ typedef enum {
 	CTL_UA_I_T_NEXUS_LOSS	= 0x0008,
 	CTL_UA_LUN_RESET	= 0x0010,
 	CTL_UA_LUN_CHANGE	= 0x0020,
-	CTL_UA_MODE_CHANGE	= 0x0030,
+	CTL_UA_MODE_CHANGE	= 0x0040,
 	CTL_UA_LOG_CHANGE	= 0x0080,
 	CTL_UA_LVD		= 0x0100,
 	CTL_UA_SE		= 0x0200,

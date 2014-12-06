@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/services_mkdb/services_mkdb.c 263028 2014-03-11 15:28:41Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/services_mkdb/services_mkdb.c 263028 2014-03-11 15:28:41Z jhb $");
 
 #include <sys/param.h>
 #include <sys/stat.h>

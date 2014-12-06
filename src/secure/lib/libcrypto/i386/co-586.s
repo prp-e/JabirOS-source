@@ -1,4 +1,4 @@
-	# $FreeBSD: stable/10/secure/lib/libcrypto/i386/co-586.s 238405 2012-07-12 19:30:53Z jkim $
+	# $FreeBSD: releng/10.1/secure/lib/libcrypto/i386/co-586.s 238405 2012-07-12 19:30:53Z jkim $
 .file	"co-586.s"
 .text
 .globl	bn_mul_comba8

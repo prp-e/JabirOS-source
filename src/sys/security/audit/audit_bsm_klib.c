@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/security/audit/audit_bsm_klib.c 263960 2014-03-31 02:24:29Z mjg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/security/audit/audit_bsm_klib.c 263960 2014-03-31 02:24:29Z mjg $");
 
 #include <sys/param.h>
 #include <sys/fcntl.h>

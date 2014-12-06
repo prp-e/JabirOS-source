@@ -33,7 +33,7 @@
 
 #ifdef __FreeBSD__
 #include <sys/cdefs.h> /* prerequisite */
-__FBSDID("$FreeBSD: stable/10/sys/dev/netmap/netmap_mem2.c 270252 2014-08-20 23:34:36Z luigi $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/netmap/netmap_mem2.c 270252 2014-08-20 23:34:36Z luigi $");
 
 #include <sys/types.h>
 #include <sys/malloc.h>

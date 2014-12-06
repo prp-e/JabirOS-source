@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/clang/macho-dump/Makefile 246705 2013-02-12 05:56:00Z andrew $
+# $FreeBSD: releng/10.1/usr.bin/clang/macho-dump/Makefile 246705 2013-02-12 05:56:00Z andrew $
 
 NO_MAN=
 .include <bsd.own.mk>

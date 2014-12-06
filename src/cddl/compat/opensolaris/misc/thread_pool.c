@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/cddl/compat/opensolaris/misc/thread_pool.c 266612 2014-05-24 10:44:40Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/cddl/compat/opensolaris/misc/thread_pool.c 266612 2014-05-24 10:44:40Z mav $");
 
 #pragma ident	"%Z%%M%	%I%	%E% SMI"
 

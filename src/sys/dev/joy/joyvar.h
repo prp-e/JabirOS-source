@@ -25,7 +25,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/joy/joyvar.h 130585 2004-06-16 09:47:26Z phk $
+ * $FreeBSD: releng/10.1/sys/dev/joy/joyvar.h 130585 2004-06-16 09:47:26Z phk $
  */
 
 struct joy_softc {

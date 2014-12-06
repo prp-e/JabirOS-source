@@ -27,7 +27,7 @@ POSSIBILITY OF SUCH DAMAGE.
 
 ***************************************************************************/
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/cxgb/ulp/iw_cxgb/iw_cxgb_qp.c 254731 2013-08-23 18:45:39Z np $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/cxgb/ulp/iw_cxgb/iw_cxgb_qp.c 254731 2013-08-23 18:45:39Z np $");
 
 #include "opt_inet.h"
 

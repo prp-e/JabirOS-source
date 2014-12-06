@@ -32,7 +32,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/en/midway.c 260275 2014-01-04 18:48:29Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/en/midway.c 260275 2014-01-04 18:48:29Z dim $");
 
 /*
  *

@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/tcp_debug.c 241913 2012-10-22 21:09:03Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/tcp_debug.c 241913 2012-10-22 21:09:03Z glebius $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"

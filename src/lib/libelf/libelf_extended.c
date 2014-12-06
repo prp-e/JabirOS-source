@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libelf/libelf_extended.c 165535 2006-12-25 02:22:22Z jkoshy $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libelf/libelf_extended.c 165535 2006-12-25 02:22:22Z jkoshy $");
 
 #include <assert.h>
 #include <libelf.h>

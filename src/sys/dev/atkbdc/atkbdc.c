@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/atkbdc/atkbdc.c 216592 2010-12-20 16:39:43Z tijl $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/atkbdc/atkbdc.c 216592 2010-12-20 16:39:43Z tijl $");
 
 #include "opt_kbd.h"
 

@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet6/frag6.c 255792 2013-09-22 14:53:07Z bz $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet6/frag6.c 255792 2013-09-22 14:53:07Z bz $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

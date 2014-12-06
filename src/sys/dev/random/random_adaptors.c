@@ -27,7 +27,7 @@
  */
 
 #include <sys/param.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/random/random_adaptors.c 256414 2013-10-13 00:13:57Z markm $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/random/random_adaptors.c 256414 2013-10-13 00:13:57Z markm $");
 
 #include <sys/systm.h>
 #include <sys/kernel.h>

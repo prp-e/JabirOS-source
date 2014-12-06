@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/kerberos5/libexec/kdc/Makefile 233294 2012-03-22 08:48:42Z stas $
+# $FreeBSD: releng/10.1/kerberos5/libexec/kdc/Makefile 233294 2012-03-22 08:48:42Z stas $
 
 PROG=	kdc
 MAN=	kdc.8

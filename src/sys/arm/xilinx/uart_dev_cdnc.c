@@ -36,7 +36,7 @@
 
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/xilinx/uart_dev_cdnc.c 262649 2014-03-01 04:16:54Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/xilinx/uart_dev_cdnc.c 262649 2014-03-01 04:16:54Z imp $");
 
 #include "opt_global.h"
 

@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/powerpc/aim/locore64.S 242723 2012-11-07 23:45:09Z jhibbits $ */
+/* $FreeBSD: releng/10.1/sys/powerpc/aim/locore64.S 242723 2012-11-07 23:45:09Z jhibbits $ */
 /* $NetBSD: locore.S,v 1.24 2000/05/31 05:09:17 thorpej Exp $ */
 
 /*-

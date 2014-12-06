@@ -29,7 +29,7 @@
  *
  *	from: @(#)svc.h 1.35 88/12/17 SMI
  *	from: @(#)svc.h      1.27    94/04/25 SMI
- * $FreeBSD: stable/10/include/rpc/svc.h 261046 2014-01-22 23:45:27Z mav $
+ * $FreeBSD: releng/10.1/include/rpc/svc.h 261046 2014-01-22 23:45:27Z mav $
  */
 
 /*

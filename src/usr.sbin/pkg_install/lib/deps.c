@@ -20,7 +20,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/pkg_install/lib/deps.c 228990 2011-12-30 10:58:14Z uqs $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/pkg_install/lib/deps.c 228990 2011-12-30 10:58:14Z uqs $");
 
 #include "lib.h"
 #include <err.h>

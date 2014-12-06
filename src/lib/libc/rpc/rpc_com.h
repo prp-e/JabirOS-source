@@ -27,7 +27,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/rpc/rpc_com.h 261046 2014-01-22 23:45:27Z mav $
+ * $FreeBSD: releng/10.1/lib/libc/rpc/rpc_com.h 261046 2014-01-22 23:45:27Z mav $
  */
 /*
  * Copyright (c) 1986 - 1991 by Sun Microsystems, Inc.

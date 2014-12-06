@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/mk/bsd.links.mk 245752 2013-01-21 22:40:39Z brooks $
+# $FreeBSD: releng/10.1/share/mk/bsd.links.mk 245752 2013-01-21 22:40:39Z brooks $
 
 .if !target(__<bsd.init.mk>__)
 .error bsd.links.mk cannot be included directly.

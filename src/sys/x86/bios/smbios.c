@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/x86/bios/smbios.c 241073 2012-09-30 15:42:20Z kevlo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/x86/bios/smbios.c 241073 2012-09-30 15:42:20Z kevlo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

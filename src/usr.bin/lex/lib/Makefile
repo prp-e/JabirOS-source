@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/lex/lib/Makefile 250881 2013-05-21 19:32:35Z jkim $
+# $FreeBSD: releng/10.1/usr.bin/lex/lib/Makefile 250881 2013-05-21 19:32:35Z jkim $
 
 .include <bsd.own.mk>
 

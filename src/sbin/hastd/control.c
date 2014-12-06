@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/hastd/control.c 260006 2013-12-28 19:21:22Z trociny $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/hastd/control.c 260006 2013-12-28 19:21:22Z trociny $");
 
 #include <sys/types.h>
 #include <sys/wait.h>

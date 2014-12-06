@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/rc/Makefile 181905 2008-08-20 08:31:58Z ed $
+# $FreeBSD: releng/10.1/sys/modules/rc/Makefile 181905 2008-08-20 08:31:58Z ed $
 
 .PATH: ${.CURDIR}/../../dev/rc
 

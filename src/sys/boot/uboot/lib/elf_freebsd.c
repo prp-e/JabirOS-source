@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/uboot/lib/elf_freebsd.c 247200 2013-02-23 20:27:03Z kientzle $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/uboot/lib/elf_freebsd.c 247200 2013-02-23 20:27:03Z kientzle $");
 
 #include <sys/param.h>
 #include <sys/linker.h>

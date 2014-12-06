@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/controller/ehci_pci.c 269864 2014-08-12 12:22:39Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/controller/ehci_pci.c 269864 2014-08-12 12:22:39Z hselasky $");
 
 /*
  * USB Enhanced Host Controller Driver, a.k.a. USB 2.0 controller.

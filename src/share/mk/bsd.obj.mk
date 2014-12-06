@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/mk/bsd.obj.mk 241298 2012-10-06 20:01:05Z marcel $
+# $FreeBSD: releng/10.1/share/mk/bsd.obj.mk 241298 2012-10-06 20:01:05Z marcel $
 #
 # The include file <bsd.obj.mk> handles creating the 'obj' directory
 # and cleaning up object files, etc.

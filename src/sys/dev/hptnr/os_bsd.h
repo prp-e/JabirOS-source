@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/hptnr/os_bsd.h 255871 2013-09-25 17:16:21Z scottl $
+ * $FreeBSD: releng/10.1/sys/dev/hptnr/os_bsd.h 255871 2013-09-25 17:16:21Z scottl $
  */
 
 #include <dev/hptnr/hptnr_config.h>

@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/sbin/mdconfig/tests/legacy_test.sh 264996 2014-04-27 01:15:10Z jmmv $
+# $FreeBSD: releng/10.1/sbin/mdconfig/tests/legacy_test.sh 264996 2014-04-27 01:15:10Z jmmv $
 #
 
 # This is a wrapper script to run mdconfig.test.

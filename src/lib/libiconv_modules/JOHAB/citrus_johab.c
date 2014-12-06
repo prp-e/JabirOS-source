@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libiconv_modules/JOHAB/citrus_johab.c 260264 2014-01-04 17:27:43Z dim $ */
+/* $FreeBSD: releng/10.1/lib/libiconv_modules/JOHAB/citrus_johab.c 260264 2014-01-04 17:27:43Z dim $ */
 /* $NetBSD: citrus_johab.c,v 1.4 2008/06/14 16:01:07 tnozaki Exp $ */
 
 /*-

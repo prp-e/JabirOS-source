@@ -24,7 +24,7 @@
 \ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 \ SUCH DAMAGE.
 \ 
-\ $FreeBSD: stable/10/sys/boot/forth/menu.4th 262701 2014-03-03 07:16:39Z dteske $
+\ $FreeBSD: releng/10.1/sys/boot/forth/menu.4th 262701 2014-03-03 07:16:39Z dteske $
 
 marker task-menu.4th
 

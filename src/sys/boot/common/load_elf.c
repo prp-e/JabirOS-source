@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/common/load_elf.c 248121 2013-03-10 00:43:01Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/common/load_elf.c 248121 2013-03-10 00:43:01Z ian $");
 
 #include <sys/param.h>
 #include <sys/exec.h>

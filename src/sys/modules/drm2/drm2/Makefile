@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/drm2/drm2/Makefile 262861 2014-03-06 18:30:56Z jhb $
+# $FreeBSD: releng/10.1/sys/modules/drm2/drm2/Makefile 262861 2014-03-06 18:30:56Z jhb $
 
 .PATH:	${.CURDIR}/../../../dev/drm2 ${.CURDIR}/../../../dev/drm2/ttm
 KMOD	= drm2

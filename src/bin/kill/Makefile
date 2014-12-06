@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 5/31/93
-# $FreeBSD: stable/10/bin/kill/Makefile 87323 2001-12-04 01:57:47Z obrien $
+# $FreeBSD: releng/10.1/bin/kill/Makefile 87323 2001-12-04 01:57:47Z obrien $
 
 PROG=	kill
 

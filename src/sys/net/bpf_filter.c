@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/net/bpf_filter.c 264457 2014-04-14 13:30:08Z jmmv $");
+__FBSDID("$FreeBSD: releng/10.1/sys/net/bpf_filter.c 264457 2014-04-14 13:30:08Z jmmv $");
 
 #include <sys/param.h>
 

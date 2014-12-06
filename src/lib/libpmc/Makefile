@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libpmc/Makefile 266911 2014-05-31 00:40:13Z hiren $
+# $FreeBSD: releng/10.1/lib/libpmc/Makefile 266911 2014-05-31 00:40:13Z hiren $
 
 LIB=	pmc
 

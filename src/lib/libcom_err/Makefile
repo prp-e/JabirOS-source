@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libcom_err/Makefile 233294 2012-03-22 08:48:42Z stas $
+# $FreeBSD: releng/10.1/lib/libcom_err/Makefile 233294 2012-03-22 08:48:42Z stas $
 
 LIB=	com_err
 SRCS=	com_err.c error.c

@@ -43,7 +43,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_malloc.c 270811 2014-08-29 13:12:45Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_malloc.c 270811 2014-08-29 13:12:45Z delphij $");
 
 #include "opt_ddb.h"
 #include "opt_kdtrace.h"

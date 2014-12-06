@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: stable/10/sys/dev/twe/twe_tables.h 123103 2003-12-02 07:57:20Z ps $
+ *	$FreeBSD: releng/10.1/sys/dev/twe/twe_tables.h 123103 2003-12-02 07:57:20Z ps $
  */
 
 /*

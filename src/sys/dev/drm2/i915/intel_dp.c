@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/i915/intel_dp.c 254818 2013-08-24 23:47:31Z dumbbell $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/i915/intel_dp.c 254818 2013-08-24 23:47:31Z dumbbell $");
 
 #include <dev/drm2/drmP.h>
 #include <dev/drm2/drm.h>

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/mkimg/format.c 268161 2014-07-02 14:54:41Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/mkimg/format.c 268161 2014-07-02 14:54:41Z marcel $");
 
 #include <sys/types.h>
 #include <sys/linker_set.h>

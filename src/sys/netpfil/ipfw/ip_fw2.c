@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netpfil/ipfw/ip_fw2.c 265700 2014-05-08 19:11:41Z melifaro $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netpfil/ipfw/ip_fw2.c 265700 2014-05-08 19:11:41Z melifaro $");
 
 /*
  * The FreeBSD IP packet firewall, main file

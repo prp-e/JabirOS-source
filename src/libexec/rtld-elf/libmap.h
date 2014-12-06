@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/libexec/rtld-elf/libmap.h 255765 2013-09-21 21:03:52Z des $
+ * $FreeBSD: releng/10.1/libexec/rtld-elf/libmap.h 255765 2013-09-21 21:03:52Z des $
  */
 
 int	lm_init (char *);

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/regression/include/tgmath/Makefile 189801 2009-03-14 17:55:16Z rdivacky $
+# $FreeBSD: releng/10.1/tools/regression/include/tgmath/Makefile 189801 2009-03-14 17:55:16Z rdivacky $
 
 PROG=	tgmath
 CSTD=	c99

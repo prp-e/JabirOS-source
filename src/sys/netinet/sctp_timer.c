@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/sctp_timer.c 270357 2014-08-22 20:01:35Z tuexen $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/sctp_timer.c 270357 2014-08-22 20:01:35Z tuexen $");
 
 #define _IP_VHL
 #include <netinet/sctp_os.h>

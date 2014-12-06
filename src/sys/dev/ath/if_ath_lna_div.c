@@ -26,10 +26,10 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: stable/10/sys/dev/ath/if_ath_lna_div.c 251730 2013-06-14 03:42:10Z adrian $
+ * $FreeBSD: releng/10.1/sys/dev/ath/if_ath_lna_div.c 251730 2013-06-14 03:42:10Z adrian $
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ath/if_ath_lna_div.c 251730 2013-06-14 03:42:10Z adrian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ath/if_ath_lna_div.c 251730 2013-06-14 03:42:10Z adrian $");
 
 /*
  * This module handles LNA diversity for those chips which implement LNA

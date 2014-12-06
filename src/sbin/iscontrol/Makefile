@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/iscontrol/Makefile 234425 2012-04-18 16:47:57Z jpaetzel $
+# $FreeBSD: releng/10.1/sbin/iscontrol/Makefile 234425 2012-04-18 16:47:57Z jpaetzel $
 
 SRCS= iscontrol.c pdu.c fsm.c config.c login.c auth_subr.c misc.c
 PROG= iscontrol

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/include/atags.h 237069 2012-06-14 14:38:55Z imp $
+ * $FreeBSD: releng/10.1/sys/arm/include/atags.h 237069 2012-06-14 14:38:55Z imp $
  */
 
 #ifndef	__MACHINE_ATAGS_H__

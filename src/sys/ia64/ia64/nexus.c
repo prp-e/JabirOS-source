@@ -26,7 +26,7 @@
  * OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/ia64/ia64/nexus.c 270296 2014-08-21 19:51:07Z emaste $
+ * $FreeBSD: releng/10.1/sys/ia64/ia64/nexus.c 270296 2014-08-21 19:51:07Z emaste $
  */
 
 /*

@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/vt/hw/vga/vt_vga_reg.h 268366 2014-07-07 14:16:05Z ray $
+ * $FreeBSD: releng/10.1/sys/dev/vt/hw/vga/vt_vga_reg.h 268366 2014-07-07 14:16:05Z ray $
  */
 
 #ifndef _DEV_VT_HW_VGA_VGA_REG_H_

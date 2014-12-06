@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/sys/modules/usb/zyd/Makefile 193422 2009-06-04 03:59:20Z weongyo $
+# $FreeBSD: releng/10.1/sys/modules/usb/zyd/Makefile 193422 2009-06-04 03:59:20Z weongyo $
 #
 # Copyright (c) 2008 Hans Petter Selasky. All rights reserved.
 #

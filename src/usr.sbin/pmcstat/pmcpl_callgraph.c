@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/pmcstat/pmcpl_callgraph.c 212176 2010-09-03 13:54:02Z fabient $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/pmcstat/pmcpl_callgraph.c 212176 2010-09-03 13:54:02Z fabient $");
 
 #include <sys/param.h>
 #include <sys/endian.h>

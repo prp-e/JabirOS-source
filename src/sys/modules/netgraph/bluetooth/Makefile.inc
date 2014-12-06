@@ -1,3 +1,3 @@
-# $FreeBSD: stable/10/sys/modules/netgraph/bluetooth/Makefile.inc 107457 2002-12-01 16:07:53Z nyan $
+# $FreeBSD: releng/10.1/sys/modules/netgraph/bluetooth/Makefile.inc 107457 2002-12-01 16:07:53Z nyan $
 
 .include "../Makefile.inc"

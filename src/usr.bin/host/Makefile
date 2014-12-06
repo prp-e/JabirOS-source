@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/host/Makefile 270776 2014-08-29 01:20:31Z gjb $
+# $FreeBSD: releng/10.1/usr.bin/host/Makefile 270776 2014-08-29 01:20:31Z gjb $
 
 LDNSDIR=	${.CURDIR}/../../contrib/ldns
 LDNSHOSTDIR=	${.CURDIR}/../../contrib/ldns-host

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/include/mmuvar.h 212627 2010-09-15 00:17:52Z grehan $
+ * $FreeBSD: releng/10.1/sys/powerpc/include/mmuvar.h 212627 2010-09-15 00:17:52Z grehan $
  */
 
 #ifndef _MACHINE_MMUVAR_H_

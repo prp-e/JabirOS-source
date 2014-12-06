@@ -49,7 +49,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/isci/scil/scic_io_request.h 240520 2012-09-14 21:59:55Z eadler $
+ * $FreeBSD: releng/10.1/sys/dev/isci/scil/scic_io_request.h 240520 2012-09-14 21:59:55Z eadler $
  */
 #ifndef _SCIC_IO_REQUEST_H_
 #define _SCIC_IO_REQUEST_H_

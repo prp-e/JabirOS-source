@@ -42,7 +42,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/subr_trap.c 263875 2014-03-28 15:38:38Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/subr_trap.c 263875 2014-03-28 15:38:38Z kib $");
 
 #include "opt_hwpmc_hooks.h"
 #include "opt_ktrace.h"

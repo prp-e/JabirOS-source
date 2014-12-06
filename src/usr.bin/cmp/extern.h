@@ -28,7 +28,7 @@
  *
  *	@(#)extern.h	8.3 (Berkeley) 4/2/94
  *
- * $FreeBSD: stable/10/usr.bin/cmp/extern.h 227156 2011-11-06 08:14:16Z ed $
+ * $FreeBSD: releng/10.1/usr.bin/cmp/extern.h 227156 2011-11-06 08:14:16Z ed $
  *
  */
 

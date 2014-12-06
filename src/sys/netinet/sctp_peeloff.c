@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/sctp_peeloff.c 270362 2014-08-22 20:22:12Z tuexen $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/sctp_peeloff.c 270362 2014-08-22 20:22:12Z tuexen $");
 
 #include <netinet/sctp_os.h>
 #include <netinet/sctp_pcb.h>

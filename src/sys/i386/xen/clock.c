@@ -37,7 +37,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/i386/xen/clock.c 255046 2013-08-29 23:11:58Z gibbs $");
+__FBSDID("$FreeBSD: releng/10.1/sys/i386/xen/clock.c 255046 2013-08-29 23:11:58Z gibbs $");
 
 /* #define DELAYDEBUG */
 /*

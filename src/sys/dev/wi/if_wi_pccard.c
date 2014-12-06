@@ -39,7 +39,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/wi/if_wi_pccard.c 182250 2008-08-27 05:39:44Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/wi/if_wi_pccard.c 182250 2008-08-27 05:39:44Z imp $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

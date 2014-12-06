@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/ucycom/Makefile 139399 2004-12-29 08:50:35Z imp $
+# $FreeBSD: releng/10.1/sys/modules/ucycom/Makefile 139399 2004-12-29 08:50:35Z imp $
 
 S=	${.CURDIR}/../..
 .PATH: $S/dev/usb

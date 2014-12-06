@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/net80211/ieee80211_regdomain.c 233845 2012-04-03 17:48:42Z bschmidt $");
+__FBSDID("$FreeBSD: releng/10.1/sys/net80211/ieee80211_regdomain.c 233845 2012-04-03 17:48:42Z bschmidt $");
 
 /*
  * IEEE 802.11 regdomain support.

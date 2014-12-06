@@ -35,7 +35,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/include/armreg.h 266341 2014-05-17 19:37:04Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/include/armreg.h 266341 2014-05-17 19:37:04Z ian $
  */
 
 #ifndef MACHINE_ARMREG_H

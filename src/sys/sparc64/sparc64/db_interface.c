@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sparc64/sparc64/db_interface.c 163192 2006-10-10 07:26:54Z bde $
+ * $FreeBSD: releng/10.1/sys/sparc64/sparc64/db_interface.c 163192 2006-10-10 07:26:54Z bde $
  */
 
 #include <sys/param.h> 

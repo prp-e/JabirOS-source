@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/net/sourcefilter.c 269480 2014-08-03 18:03:00Z pfg $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/net/sourcefilter.c 269480 2014-08-03 18:03:00Z pfg $");
 
 #include "namespace.h"
 

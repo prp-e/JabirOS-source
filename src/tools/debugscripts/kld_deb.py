@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/tools/debugscripts/kld_deb.py 228975 2011-12-30 00:04:11Z uqs $
+# $FreeBSD: releng/10.1/tools/debugscripts/kld_deb.py 228975 2011-12-30 00:04:11Z uqs $
 
 import sys
 import os

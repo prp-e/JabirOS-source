@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/iscsictl/Makefile 270907 2014-09-01 01:39:20Z ngie $
+# $FreeBSD: releng/10.1/usr.bin/iscsictl/Makefile 270907 2014-09-01 01:39:20Z ngie $
 
 PROG=		iscsictl
 SRCS=		iscsictl.c periphs.c parse.y token.l y.tab.h

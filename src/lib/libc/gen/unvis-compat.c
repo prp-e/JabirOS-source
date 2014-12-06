@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/gen/unvis-compat.c 244401 2012-12-18 16:37:24Z brooks $
+ * $FreeBSD: releng/10.1/lib/libc/gen/unvis-compat.c 244401 2012-12-18 16:37:24Z brooks $
  */
 
 #include <vis.h>

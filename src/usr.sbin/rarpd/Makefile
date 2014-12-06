@@ -1,5 +1,5 @@
 #	from: @(#)Makefile	5.8 (Berkeley) 7/28/90
-# $FreeBSD: stable/10/usr.sbin/rarpd/Makefile 238282 2012-07-09 08:11:16Z hrs $
+# $FreeBSD: releng/10.1/usr.sbin/rarpd/Makefile 238282 2012-07-09 08:11:16Z hrs $
 
 PROG=	rarpd
 MAN=	rarpd.8

@@ -29,7 +29,7 @@
  */
 
 #include <sys/param.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/script/script.c 260924 2014-01-20 20:33:40Z trociny $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/script/script.c 260924 2014-01-20 20:33:40Z trociny $");
 #ifndef lint
 static const char copyright[] =
 "@(#) Copyright (c) 1980, 1992, 1993\n\

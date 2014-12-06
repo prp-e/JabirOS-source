@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bhyve/mptbl.h 259301 2013-12-13 06:59:18Z grehan $
+ * $FreeBSD: releng/10.1/usr.sbin/bhyve/mptbl.h 259301 2013-12-13 06:59:18Z grehan $
  */
 
 #ifndef _MPTBL_H_

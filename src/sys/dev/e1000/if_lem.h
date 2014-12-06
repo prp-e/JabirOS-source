@@ -30,7 +30,7 @@
   POSSIBILITY OF SUCH DAMAGE.
 
 ******************************************************************************/
-/*$FreeBSD: stable/10/sys/dev/e1000/if_lem.h 250414 2013-05-09 17:07:30Z luigi $*/
+/*$FreeBSD: releng/10.1/sys/dev/e1000/if_lem.h 250414 2013-05-09 17:07:30Z luigi $*/
 
 
 #ifndef _LEM_H_DEFINED_

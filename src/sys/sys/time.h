@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)time.h	8.5 (Berkeley) 5/4/95
- * $FreeBSD: stable/10/sys/sys/time.h 270240 2014-08-20 18:40:29Z davide $
+ * $FreeBSD: releng/10.1/sys/sys/time.h 270240 2014-08-20 18:40:29Z davide $
  */
 
 #ifndef _SYS_TIME_H_

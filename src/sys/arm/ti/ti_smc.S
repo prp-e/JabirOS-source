@@ -24,7 +24,7 @@
 
 #include <machine/armreg.h>
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/ti/ti_smc.S 269797 2014-08-11 01:48:00Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/ti/ti_smc.S 269797 2014-08-11 01:48:00Z ian $");
 
 	.arch armv7a
 	.arch_extension sec

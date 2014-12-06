@@ -19,7 +19,7 @@
 ## Software Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301,
 ## USA.
 
-## $FreeBSD: stable/10/gnu/lib/libsupc++/Version.map 251820 2013-06-16 21:15:35Z theraven $
+## $FreeBSD: releng/10.1/gnu/lib/libsupc++/Version.map 251820 2013-06-16 21:15:35Z theraven $
 
 
 # Symbols in the support library (libsupc++) have their own tag.

@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/netipsec/keysock.c 253088 2013-07-09 10:08:13Z ae $	*/
+/*	$FreeBSD: releng/10.1/sys/netipsec/keysock.c 253088 2013-07-09 10:08:13Z ae $	*/
 /*	$KAME: keysock.c,v 1.25 2001/08/13 20:07:41 itojun Exp $	*/
 
 /*-

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/secure/lib/libssh/Makefile 264377 2014-04-12 20:22:59Z des $
+# $FreeBSD: releng/10.1/secure/lib/libssh/Makefile 264377 2014-04-12 20:22:59Z des $
 
 .include <bsd.own.mk>
 

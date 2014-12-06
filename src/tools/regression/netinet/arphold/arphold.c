@@ -40,7 +40,7 @@
  * important not to run this code in a fast loop or the test will
  * fail.
  *
- * $FreeBSD: stable/10/tools/regression/netinet/arphold/arphold.c 243319 2012-11-20 01:42:18Z emaste $
+ * $FreeBSD: releng/10.1/tools/regression/netinet/arphold/arphold.c 243319 2012-11-20 01:42:18Z emaste $
  */
 
 #include <unistd.h>

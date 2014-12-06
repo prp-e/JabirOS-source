@@ -32,7 +32,7 @@
  * This source is for version 10 revision 01 units with NOR SPI flash.
  * These units are marked "1001" on the serial number label.
  *
- * $FreeBSD: stable/10/sys/boot/fdt/dts/arm/dreamplug-1001.dts 262614 2014-02-28 18:29:09Z imp $
+ * $FreeBSD: releng/10.1/sys/boot/fdt/dts/arm/dreamplug-1001.dts 262614 2014-02-28 18:29:09Z imp $
  */
 
 /dts-v1/;

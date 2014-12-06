@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/sys/sigwait.c 212405 2010-09-10 01:47:37Z davidxu $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/sys/sigwait.c 212405 2010-09-10 01:47:37Z davidxu $");
 
 #include <errno.h>
 #include <signal.h>

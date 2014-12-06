@@ -26,7 +26,7 @@
 #include "opt_uart.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/at91/uart_bus_at91usart.c 266095 2014-05-14 23:17:33Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/at91/uart_bus_at91usart.c 266095 2014-05-14 23:17:33Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

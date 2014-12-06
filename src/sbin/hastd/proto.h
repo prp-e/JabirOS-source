@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/hastd/proto.h 219818 2011-03-21 08:54:59Z pjd $
+ * $FreeBSD: releng/10.1/sbin/hastd/proto.h 219818 2011-03-21 08:54:59Z pjd $
  */
 
 #ifndef	_PROTO_H_

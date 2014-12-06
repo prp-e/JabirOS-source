@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_umtx.c 270789 2014-08-29 08:42:20Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_umtx.c 270789 2014-08-29 08:42:20Z kib $");
 
 #include "opt_compat.h"
 #include "opt_umtx_profiling.h"

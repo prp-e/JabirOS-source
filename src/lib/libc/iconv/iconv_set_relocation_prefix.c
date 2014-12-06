@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/iconv/iconv_set_relocation_prefix.c 258750 2013-11-29 19:44:30Z gjb $
+ * $FreeBSD: releng/10.1/lib/libc/iconv/iconv_set_relocation_prefix.c 258750 2013-11-29 19:44:30Z gjb $
  */
 
 #include <sys/types.h>

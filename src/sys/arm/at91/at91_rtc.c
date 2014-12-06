@@ -39,7 +39,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/at91/at91_rtc.c 241333 2012-10-07 20:36:46Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/at91/at91_rtc.c 241333 2012-10-07 20:36:46Z imp $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

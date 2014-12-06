@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/tools/tools/bus_autoconf/bus_autoconf.c 228975 2011-12-30 00:04:11Z uqs $ */
+/* $FreeBSD: releng/10.1/tools/tools/bus_autoconf/bus_autoconf.c 228975 2011-12-30 00:04:11Z uqs $ */
 
 /*-
  * Copyright (c) 2011 Hans Petter Selasky. All rights reserved.

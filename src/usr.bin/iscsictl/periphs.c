@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/iscsictl/periphs.c 265532 2014-05-07 08:04:41Z trasz $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/iscsictl/periphs.c 265532 2014-05-07 08:04:41Z trasz $");
 
 #include <sys/ioctl.h>
 #include <sys/stdint.h>

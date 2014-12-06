@@ -27,7 +27,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  *	$NetBSD: read.h,v 1.6 2008/04/29 06:53:01 martin Exp $
- * $FreeBSD: stable/10/lib/libedit/read.h 268782 2014-07-17 02:14:25Z pfg $
+ * $FreeBSD: releng/10.1/lib/libedit/read.h 268782 2014-07-17 02:14:25Z pfg $
  */
 
 /*

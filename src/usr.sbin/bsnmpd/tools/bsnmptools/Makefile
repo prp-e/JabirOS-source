@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/bsnmpd/tools/bsnmptools/Makefile 216323 2010-12-09 12:25:45Z syrinx $
+# $FreeBSD: releng/10.1/usr.sbin/bsnmpd/tools/bsnmptools/Makefile 216323 2010-12-09 12:25:45Z syrinx $
 # Author: Shteryana Shopova <syrinx@FreeBSD.org>
 
 .include <bsd.own.mk>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libvmmapi/Makefile 245678 2013-01-20 03:42:49Z neel $
+# $FreeBSD: releng/10.1/lib/libvmmapi/Makefile 245678 2013-01-20 03:42:49Z neel $
 
 LIB=	vmmapi
 SRCS=	vmmapi.c vmmapi_freebsd.c

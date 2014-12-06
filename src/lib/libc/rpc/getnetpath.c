@@ -32,7 +32,7 @@
 static char sccsid[] = "@(#)getnetpath.c	1.11 91/12/19 SMI";
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/rpc/getnetpath.c 261046 2014-01-22 23:45:27Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/rpc/getnetpath.c 261046 2014-01-22 23:45:27Z mav $");
 
 /*
  * Copyright (c) 1989 by Sun Microsystems, Inc.

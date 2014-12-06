@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/ale/Makefile 184870 2008-11-12 09:52:06Z yongari $
+# $FreeBSD: releng/10.1/sys/modules/ale/Makefile 184870 2008-11-12 09:52:06Z yongari $
 
 .PATH: ${.CURDIR}/../../dev/ale
 

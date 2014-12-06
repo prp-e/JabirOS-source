@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/sockets/unix_bindconnect/unix_bindconnect.c 142146 2005-02-20 22:21:53Z rwatson $
+ * $FreeBSD: releng/10.1/tools/regression/sockets/unix_bindconnect/unix_bindconnect.c 142146 2005-02-20 22:21:53Z rwatson $
  */
 
 #include <sys/types.h>

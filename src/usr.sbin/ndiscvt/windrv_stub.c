@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/ndiscvt/windrv_stub.c 186507 2008-12-27 08:03:32Z weongyo $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/ndiscvt/windrv_stub.c 186507 2008-12-27 08:03:32Z weongyo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

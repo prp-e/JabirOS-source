@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/pc98/conf/GENERIC.hints 209979 2010-07-13 06:57:27Z mav $
+# $FreeBSD: releng/10.1/sys/pc98/conf/GENERIC.hints 209979 2010-07-13 06:57:27Z mav $
 
 hint.atacbus.0.at="isa"
 hint.atacbus.0.port="0x640"

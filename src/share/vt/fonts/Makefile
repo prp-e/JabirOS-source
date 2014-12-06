@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/vt/fonts/Makefile 271333 2014-09-09 20:36:56Z emaste $
+# $FreeBSD: releng/10.1/share/vt/fonts/Makefile 271333 2014-09-09 20:36:56Z emaste $
 
 FILES=	gallant.fnt \
 	vgarom-8x8.fnt \

@@ -33,7 +33,7 @@
  *
  *	from: @(#)asm.h	5.5 (Berkeley) 5/7/91
  *
- * $FreeBSD: stable/10/sys/arm/include/asm.h 271337 2014-09-09 22:24:01Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/include/asm.h 271337 2014-09-09 22:24:01Z ian $
  */
 
 #ifndef _MACHINE_ASM_H_

@@ -1,5 +1,5 @@
 /* $OpenBSD: sshd.c,v 1.420 2014/02/26 21:53:37 markus Exp $ */
-/* $FreeBSD: stable/10/crypto/openssh/sshd.c 264692 2014-04-20 12:46:18Z des $ */
+/* $FreeBSD: releng/10.1/crypto/openssh/sshd.c 264692 2014-04-20 12:46:18Z des $ */
 /*
  * Author: Tatu Ylonen <ylo@cs.hut.fi>
  * Copyright (c) 1995 Tatu Ylonen <ylo@cs.hut.fi>, Espoo, Finland
@@ -44,7 +44,7 @@
  */
 
 #include "includes.h"
-__RCSID("$FreeBSD: stable/10/crypto/openssh/sshd.c 264692 2014-04-20 12:46:18Z des $");
+__RCSID("$FreeBSD: releng/10.1/crypto/openssh/sshd.c 264692 2014-04-20 12:46:18Z des $");
 
 #include <sys/types.h>
 #include <sys/ioctl.h>

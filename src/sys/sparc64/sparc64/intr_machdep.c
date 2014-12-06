@@ -59,7 +59,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/sparc64/sparc64/intr_machdep.c 241780 2012-10-20 12:07:48Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/sparc64/sparc64/intr_machdep.c 241780 2012-10-20 12:07:48Z marius $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

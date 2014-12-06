@@ -28,7 +28,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/syscons/syscons.h 262674 2014-03-02 01:46:44Z jmmv $
+ * $FreeBSD: releng/10.1/sys/dev/syscons/syscons.h 262674 2014-03-02 01:46:44Z jmmv $
  */
 
 #ifndef _DEV_SYSCONS_SYSCONS_H_

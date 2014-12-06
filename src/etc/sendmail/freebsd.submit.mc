@@ -15,7 +15,7 @@ divert(-1)
 #
 
 divert(0)dnl
-VERSIONID(`$FreeBSD: stable/10/etc/sendmail/freebsd.submit.mc 266698 2014-05-26 15:42:39Z gshapiro $')
+VERSIONID(`$FreeBSD: releng/10.1/etc/sendmail/freebsd.submit.mc 266698 2014-05-26 15:42:39Z gshapiro $')
 define(`confCF_VERSION', `Submit')dnl
 define(`__OSTYPE__',`')dnl dirty hack to keep proto.m4 from complaining
 define(`_USE_DECNET_SYNTAX_', `1')dnl support DECnet

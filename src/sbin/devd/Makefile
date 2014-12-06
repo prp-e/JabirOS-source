@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/devd/Makefile 270242 2014-08-20 19:30:58Z asomers $
+# $FreeBSD: releng/10.1/sbin/devd/Makefile 270242 2014-08-20 19:30:58Z asomers $
 
 .include <bsd.own.mk>
 

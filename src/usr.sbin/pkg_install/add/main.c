@@ -19,7 +19,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/pkg_install/add/main.c 254525 2013-08-19 14:04:35Z gjb $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/pkg_install/add/main.c 254525 2013-08-19 14:04:35Z gjb $");
 
 #include <sys/param.h>
 #include <sys/sysctl.h>

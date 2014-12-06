@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/pseries/phyp_llan.c 257292 2013-10-28 23:47:52Z nwhitehorn $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/pseries/phyp_llan.c 257292 2013-10-28 23:47:52Z nwhitehorn $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

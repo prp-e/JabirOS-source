@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/aim/uma_machdep.c 243040 2012-11-14 20:01:40Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/aim/uma_machdep.c 243040 2012-11-14 20:01:40Z kib $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

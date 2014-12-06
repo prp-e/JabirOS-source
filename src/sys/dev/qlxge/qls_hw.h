@@ -24,7 +24,7 @@
  *  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  *  POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/qlxge/qls_hw.h 252206 2013-06-25 17:50:22Z davidcs $
+ * $FreeBSD: releng/10.1/sys/dev/qlxge/qls_hw.h 252206 2013-06-25 17:50:22Z davidcs $
  */
 /*
  * File: qls_hw.h

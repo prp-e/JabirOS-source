@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/security/cap_test/cap_test_capmode.c 232312 2012-02-29 19:50:49Z brueffer $
+ * $FreeBSD: releng/10.1/tools/regression/security/cap_test/cap_test_capmode.c 232312 2012-02-29 19:50:49Z brueffer $
  */
 
 /*
@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/regression/security/cap_test/cap_test_capmode.c 232312 2012-02-29 19:50:49Z brueffer $");
+__FBSDID("$FreeBSD: releng/10.1/tools/regression/security/cap_test/cap_test_capmode.c 232312 2012-02-29 19:50:49Z brueffer $");
 
 #include <sys/param.h>
 #include <sys/capability.h>

@@ -32,7 +32,7 @@
 static char sccsid[] = "@(#)measure.c	8.1 (Berkeley) 6/6/93";
 #endif
 static const char rcsid[] =
-  "$FreeBSD: stable/10/usr.sbin/timed/timed/measure.c 246209 2013-02-01 14:26:54Z charnier $";
+  "$FreeBSD: releng/10.1/usr.sbin/timed/timed/measure.c 246209 2013-02-01 14:26:54Z charnier $";
 #endif /* not lint */
 
 #include "globals.h"

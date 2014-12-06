@@ -28,7 +28,7 @@
 #include "opt_platform.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/freescale/vybrid/vf_machdep.c 258057 2013-11-12 18:02:56Z br $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/freescale/vybrid/vf_machdep.c 258057 2013-11-12 18:02:56Z br $");
 
 #define	_ARM32_BUS_DMA_PRIVATE
 #include <sys/param.h>

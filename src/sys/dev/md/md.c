@@ -6,7 +6,7 @@
  * this stuff is worth it, you can buy me a beer in return.   Poul-Henning Kamp
  * ----------------------------------------------------------------------------
  *
- * $FreeBSD: stable/10/sys/dev/md/md.c 269495 2014-08-04 01:14:27Z kib $
+ * $FreeBSD: releng/10.1/sys/dev/md/md.c 269495 2014-08-04 01:14:27Z kib $
  *
  */
 

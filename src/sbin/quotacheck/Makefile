@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/quotacheck/Makefile 207736 2010-05-07 00:41:12Z mckusick $
+# $FreeBSD: releng/10.1/sbin/quotacheck/Makefile 207736 2010-05-07 00:41:12Z mckusick $
 #	@(#)Makefile	8.1 (Berkeley) 6/5/93
 
 PROG=	quotacheck

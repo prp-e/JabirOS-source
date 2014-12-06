@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/mii/atphy.c 266000 2014-05-14 01:53:20Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/mii/atphy.c 266000 2014-05-14 01:53:20Z ian $");
 
 /*
  * Driver for the Attansic/Atheros F1 10/100/1000 PHY.

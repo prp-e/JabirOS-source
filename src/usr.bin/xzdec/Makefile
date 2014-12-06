@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/xzdec/Makefile 226421 2011-10-16 08:04:43Z ed $
+# $FreeBSD: releng/10.1/usr.bin/xzdec/Makefile 226421 2011-10-16 08:04:43Z ed $
 
 PROG=	xzdec
 

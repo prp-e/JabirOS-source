@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/arm/pl310.c 270075 2014-08-17 01:28:03Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/arm/pl310.c 270075 2014-08-17 01:28:03Z ian $");
 #include <sys/param.h>
 #include <sys/systm.h>
 #include <sys/bus.h>

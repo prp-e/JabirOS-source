@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/cddl/usr.bin/zlook/Makefile 219089 2011-02-27 19:41:40Z pjd $
+# $FreeBSD: releng/10.1/cddl/usr.bin/zlook/Makefile 219089 2011-02-27 19:41:40Z pjd $
 
 .PATH: ${.CURDIR}/../../contrib/opensolaris/cmd/zlook
 

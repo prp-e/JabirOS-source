@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/mv/mv_localbus.c 266386 2014-05-18 00:32:35Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/mv/mv_localbus.c 266386 2014-05-18 00:32:35Z ian $");
 
 #include "opt_platform.h"
 #include <sys/param.h>

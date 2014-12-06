@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/vm/uma_dbg.c 252040 2013-06-20 19:08:12Z jeff $");
+__FBSDID("$FreeBSD: releng/10.1/sys/vm/uma_dbg.c 252040 2013-06-20 19:08:12Z jeff $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

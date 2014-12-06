@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/keylogout/Makefile 125433 2004-02-04 11:59:08Z ru $
+# $FreeBSD: releng/10.1/usr.bin/keylogout/Makefile 125433 2004-02-04 11:59:08Z ru $
 
 PROG=	keylogout
 

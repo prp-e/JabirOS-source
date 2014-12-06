@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/amd64/linux32/linux32_dummy.c 272020 2014-09-23 07:50:04Z bz $");
+__FBSDID("$FreeBSD: releng/10.1/sys/amd64/linux32/linux32_dummy.c 272020 2014-09-23 07:50:04Z bz $");
 
 #include "opt_compat.h"
 #include "opt_kdtrace.h"

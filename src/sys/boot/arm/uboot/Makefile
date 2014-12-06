@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/arm/uboot/Makefile 265064 2014-04-28 23:46:04Z ian $
+# $FreeBSD: releng/10.1/sys/boot/arm/uboot/Makefile 265064 2014-04-28 23:46:04Z ian $
 
 .include <bsd.own.mk>
 

@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/mac/mac_portacl/root.t 189832 2009-03-14 21:54:19Z pjd $
+# $FreeBSD: releng/10.1/tools/regression/mac/mac_portacl/root.t 189832 2009-03-14 21:54:19Z pjd $
 
 dir=`dirname $0`
 . ${dir}/misc.sh

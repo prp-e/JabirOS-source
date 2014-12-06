@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bhyve/uart_emul.h 257396 2013-10-30 20:42:09Z neel $
+ * $FreeBSD: releng/10.1/usr.sbin/bhyve/uart_emul.h 257396 2013-10-30 20:42:09Z neel $
  */
 
 #ifndef _UART_EMUL_H_

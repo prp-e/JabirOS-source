@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)route.h	8.4 (Berkeley) 1/9/95
- * $FreeBSD: stable/10/sys/net/route.h 265717 2014-05-08 21:03:31Z melifaro $
+ * $FreeBSD: releng/10.1/sys/net/route.h 265717 2014-05-08 21:03:31Z melifaro $
  */
 
 #ifndef _NET_ROUTE_H_

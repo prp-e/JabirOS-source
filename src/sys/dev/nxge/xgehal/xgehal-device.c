@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/nxge/xgehal/xgehal-device.c 242692 2012-11-07 07:00:59Z kevlo $
+ * $FreeBSD: releng/10.1/sys/dev/nxge/xgehal/xgehal-device.c 242692 2012-11-07 07:00:59Z kevlo $
  */
 
 #include <dev/nxge/include/xgehal-device.h>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libdwarf/dwarf_errno.c 179187 2008-05-22 02:14:23Z jb $
+ * $FreeBSD: releng/10.1/lib/libdwarf/dwarf_errno.c 179187 2008-05-22 02:14:23Z jb $
  */
 
 #include "_libdwarf.h"

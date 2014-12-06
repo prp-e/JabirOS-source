@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/ct/ct_machdep.h 242871 2012-11-10 14:58:06Z nyan $ */
+/* $FreeBSD: releng/10.1/sys/dev/ct/ct_machdep.h 242871 2012-11-10 14:58:06Z nyan $ */
 /*	$NecBSD: ct_machdep.h,v 1.4.12.2 2001/06/20 06:13:34 honda Exp $	*/
 /*	$NetBSD$	*/
 

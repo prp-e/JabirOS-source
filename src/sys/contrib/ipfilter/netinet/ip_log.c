@@ -1,11 +1,11 @@
-/*	$FreeBSD: stable/10/sys/contrib/ipfilter/netinet/ip_log.c 267020 2014-06-03 19:06:47Z cy $	*/
+/*	$FreeBSD: releng/10.1/sys/contrib/ipfilter/netinet/ip_log.c 267020 2014-06-03 19:06:47Z cy $	*/
 
 /*
  * Copyright (C) 2012 by Darren Reed.
  *
  * See the IPFILTER.LICENCE file for details on licencing.
  *
- * $FreeBSD: stable/10/sys/contrib/ipfilter/netinet/ip_log.c 267020 2014-06-03 19:06:47Z cy $
+ * $FreeBSD: releng/10.1/sys/contrib/ipfilter/netinet/ip_log.c 267020 2014-06-03 19:06:47Z cy $
  * Id: ip_log.c,v 2.75.2.19 2007/09/09 11:32:06 darrenr Exp $
  */
 #include <sys/param.h>

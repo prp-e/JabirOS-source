@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/make/lst.c 218909 2011-02-21 09:01:34Z brucec $
+ * $FreeBSD: releng/10.1/usr.bin/make/lst.c 218909 2011-02-21 09:01:34Z brucec $
  */
 
 /*-

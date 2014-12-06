@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/bios/smapi/Makefile 232263 2012-02-28 18:30:18Z dim $
+# $FreeBSD: releng/10.1/sys/modules/bios/smapi/Makefile 232263 2012-02-28 18:30:18Z dim $
 #
 
 .PATH:  ${.CURDIR}/../../../i386/bios

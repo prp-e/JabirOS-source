@@ -18,7 +18,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: stable/10/sys/cddl/contrib/opensolaris/uts/common/dtrace/dtrace.c 270294 2014-08-21 19:45:52Z markj $
+ * $FreeBSD: releng/10.1/sys/cddl/contrib/opensolaris/uts/common/dtrace/dtrace.c 270294 2014-08-21 19:45:52Z markj $
  */
 
 /*

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libproc/Makefile 268775 2014-07-16 21:04:31Z dim $
+# $FreeBSD: releng/10.1/lib/libproc/Makefile 268775 2014-07-16 21:04:31Z dim $
 
 .include <bsd.own.mk>
 

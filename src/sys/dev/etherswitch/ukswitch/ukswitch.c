@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/etherswitch/ukswitch/ukswitch.c 250384 2013-05-08 20:56:43Z adrian $
+ * $FreeBSD: releng/10.1/sys/dev/etherswitch/ukswitch/ukswitch.c 250384 2013-05-08 20:56:43Z adrian $
  */
 
 #include <sys/param.h>

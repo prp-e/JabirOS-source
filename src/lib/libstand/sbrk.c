@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libstand/sbrk.c 269101 2014-07-25 23:12:22Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libstand/sbrk.c 269101 2014-07-25 23:12:22Z ian $");
 
 /*
  * Minimal sbrk() emulation required for malloc support.

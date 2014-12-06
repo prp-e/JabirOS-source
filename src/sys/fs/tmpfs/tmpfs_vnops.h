@@ -29,7 +29,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/fs/tmpfs/tmpfs_vnops.h 269164 2014-07-28 00:43:42Z kib $
+ * $FreeBSD: releng/10.1/sys/fs/tmpfs/tmpfs_vnops.h 269164 2014-07-28 00:43:42Z kib $
  */
 
 #ifndef _FS_TMPFS_TMPFS_VNOPS_H_

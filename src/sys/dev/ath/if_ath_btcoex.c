@@ -26,10 +26,10 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: stable/10/sys/dev/ath/if_ath_btcoex.c 251742 2013-06-14 08:18:17Z adrian $
+ * $FreeBSD: releng/10.1/sys/dev/ath/if_ath_btcoex.c 251742 2013-06-14 08:18:17Z adrian $
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ath/if_ath_btcoex.c 251742 2013-06-14 08:18:17Z adrian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ath/if_ath_btcoex.c 251742 2013-06-14 08:18:17Z adrian $");
 
 /*
  * This implements some very basic bluetooth coexistence methods for

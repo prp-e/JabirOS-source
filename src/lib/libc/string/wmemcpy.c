@@ -32,7 +32,7 @@
 __RCSID("$NetBSD: wmemcpy.c,v 1.1 2000/12/23 23:14:37 itojun Exp $");
 #endif /* LIBC_SCCS and not lint */
 #endif
-__FBSDID("$FreeBSD: stable/10/lib/libc/string/wmemcpy.c 188080 2009-02-03 17:58:20Z danger $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/string/wmemcpy.c 188080 2009-02-03 17:58:20Z danger $");
 
 #include <string.h>
 #include <wchar.h>

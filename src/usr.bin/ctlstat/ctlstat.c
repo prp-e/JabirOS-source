@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/ctlstat/ctlstat.c 249384 2013-04-11 21:18:04Z ken $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/ctlstat/ctlstat.c 249384 2013-04-11 21:18:04Z ken $");
 
 #include <sys/ioctl.h>
 #include <sys/types.h>

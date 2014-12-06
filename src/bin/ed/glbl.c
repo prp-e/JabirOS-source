@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/bin/ed/glbl.c 241720 2012-10-19 05:43:38Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/bin/ed/glbl.c 241720 2012-10-19 05:43:38Z ed $");
 
 #include <sys/types.h>
 #include <sys/ioctl.h>

@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/x86/iommu/busdma_dmar.h 257251 2013-10-28 13:33:29Z kib $
+ * $FreeBSD: releng/10.1/sys/x86/iommu/busdma_dmar.h 257251 2013-10-28 13:33:29Z kib $
  */
 
 #ifndef __X86_IOMMU_BUSDMA_DMAR_H

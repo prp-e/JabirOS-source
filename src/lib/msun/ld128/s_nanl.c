@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/msun/ld128/s_nanl.c 176747 2008-03-02 20:16:55Z das $
+ * $FreeBSD: releng/10.1/lib/msun/ld128/s_nanl.c 176747 2008-03-02 20:16:55Z das $
  */
 
 #include <math.h>

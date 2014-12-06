@@ -25,7 +25,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)ed.h,v 1.5 1994/02/01 00:34:39 alm Exp
- * $FreeBSD: stable/10/bin/ed/ed.h 241737 2012-10-19 14:49:42Z ed $
+ * $FreeBSD: releng/10.1/bin/ed/ed.h 241737 2012-10-19 14:49:42Z ed $
  */
 
 #include <sys/param.h>

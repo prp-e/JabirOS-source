@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/boot/userboot/userboot/libuserboot.h 267399 2014-06-12 15:20:59Z jhb $
+ * $FreeBSD: releng/10.1/sys/boot/userboot/userboot/libuserboot.h 267399 2014-06-12 15:20:59Z jhb $
  */
 
 #include "userboot.h"

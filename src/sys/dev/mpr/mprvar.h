@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/mpr/mprvar.h 265236 2014-05-02 20:25:09Z ken $
+ * $FreeBSD: releng/10.1/sys/dev/mpr/mprvar.h 265236 2014-05-02 20:25:09Z ken $
  */
 
 #ifndef _MPRVAR_H

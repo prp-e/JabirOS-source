@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/fs/nfsclient/nfs_clcomsubs.c 265469 2014-05-06 21:54:52Z rmacklem $");
+__FBSDID("$FreeBSD: releng/10.1/sys/fs/nfsclient/nfs_clcomsubs.c 265469 2014-05-06 21:54:52Z rmacklem $");
 
 /*
  * These functions support the macros and help fiddle mbuf chains for

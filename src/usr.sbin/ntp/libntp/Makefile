@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/ntp/libntp/Makefile 182128 2008-08-24 23:28:56Z roberto $
+# $FreeBSD: releng/10.1/usr.sbin/ntp/libntp/Makefile 182128 2008-08-24 23:28:56Z roberto $
 
 .PATH: ${.CURDIR}/../../../contrib/ntp/libntp \
 	${.CURDIR}/../../../contrib/ntp/libisc

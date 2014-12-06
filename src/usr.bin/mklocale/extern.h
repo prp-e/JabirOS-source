@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/mklocale/extern.h 235789 2012-05-22 16:33:10Z bapt $
+ * $FreeBSD: releng/10.1/usr.bin/mklocale/extern.h 235789 2012-05-22 16:33:10Z bapt $
  */
 
 int yylex(void);

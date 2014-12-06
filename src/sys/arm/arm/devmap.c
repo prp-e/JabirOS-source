@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/arm/devmap.c 266086 2014-05-14 20:17:31Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/arm/devmap.c 266086 2014-05-14 20:17:31Z ian $");
 
 /*
  * Routines for mapping device memory.

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/build/Makefile 245311 2013-01-11 20:51:02Z brooks $
+# $FreeBSD: releng/10.1/tools/build/Makefile 245311 2013-01-11 20:51:02Z brooks $
 
 .PATH: ${.CURDIR}/../../include
 

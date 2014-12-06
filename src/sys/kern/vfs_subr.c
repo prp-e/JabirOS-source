@@ -39,7 +39,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/vfs_subr.c 270095 2014-08-17 09:07:21Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/vfs_subr.c 270095 2014-08-17 09:07:21Z kib $");
 
 #include "opt_compat.h"
 #include "opt_ddb.h"

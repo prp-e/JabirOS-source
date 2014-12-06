@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/examples/kld/cdev/Makefile 99771 2002-07-11 13:38:05Z ru $
+# $FreeBSD: releng/10.1/share/examples/kld/cdev/Makefile 99771 2002-07-11 13:38:05Z ru $
 
 SUBDIR=	module test
 

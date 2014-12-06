@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/pkg/config.h 259613 2013-12-19 12:33:24Z bdrewery $
+ * $FreeBSD: releng/10.1/usr.sbin/pkg/config.h 259613 2013-12-19 12:33:24Z bdrewery $
  */
 
 #ifndef _PKG_CONFIG_H

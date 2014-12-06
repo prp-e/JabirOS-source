@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libkse/arch/amd64/include/pthread_md.h 174112 2007-11-30 17:20:29Z deischen $
+ * $FreeBSD: releng/10.1/lib/libkse/arch/amd64/include/pthread_md.h 174112 2007-11-30 17:20:29Z deischen $
  */
 /*
  * Machine-dependent thread prototypes/definitions for the thread kernel.

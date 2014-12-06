@@ -18,7 +18,7 @@
  * WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
  * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
  *
- * $FreeBSD: stable/10/contrib/tcpdump/print-icmp.c 235530 2012-05-17 05:11:57Z delphij $
+ * $FreeBSD: releng/10.1/contrib/tcpdump/print-icmp.c 235530 2012-05-17 05:11:57Z delphij $
  */
 
 #ifndef lint

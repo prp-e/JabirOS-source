@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/powerpc/powerpc/swtch64.S 266001 2014-05-14 03:09:37Z ian $ */
+/* $FreeBSD: releng/10.1/sys/powerpc/powerpc/swtch64.S 266001 2014-05-14 03:09:37Z ian $ */
 /* $NetBSD: locore.S,v 1.24 2000/05/31 05:09:17 thorpej Exp $ */
 
 /*-

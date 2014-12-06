@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/mfi/mfi_syspd.c 267084 2014-06-05 00:43:32Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/mfi/mfi_syspd.c 267084 2014-06-05 00:43:32Z kib $");
 
 #include "opt_mfi.h"
 

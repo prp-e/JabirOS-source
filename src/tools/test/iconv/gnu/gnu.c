@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/test/iconv/gnu/gnu.c 219019 2011-02-25 00:04:39Z gabor $");
+__FBSDID("$FreeBSD: releng/10.1/tools/test/iconv/gnu/gnu.c 219019 2011-02-25 00:04:39Z gabor $");
 
 #include <sys/endian.h>
 #include <sys/types.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/ipwfw/Makefile 167165 2007-03-02 11:42:56Z flz $
+# $FreeBSD: releng/10.1/sys/modules/ipwfw/Makefile 167165 2007-03-02 11:42:56Z flz $
 
 SUBDIR=	ipw_bss	\
 	ipw_ibss \

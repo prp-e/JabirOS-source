@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/zfs/Makefile 260096 2013-12-30 20:15:46Z dim $
+# $FreeBSD: releng/10.1/sys/boot/zfs/Makefile 260096 2013-12-30 20:15:46Z dim $
 
 LIB=		zfsboot
 INTERNALLIB=

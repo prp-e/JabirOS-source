@@ -11,7 +11,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/enigma/enigma.c 231994 2012-02-22 06:27:20Z kevlo $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/enigma/enigma.c 231994 2012-02-22 06:27:20Z kevlo $");
 
 #include <sys/types.h>
 

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/etc/periodic/security/Makefile 220049 2011-03-27 03:06:58Z dougb $
+# $FreeBSD: releng/10.1/etc/periodic/security/Makefile 220049 2011-03-27 03:06:58Z dougb $
 
 .include <bsd.own.mk>
 

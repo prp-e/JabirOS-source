@@ -30,7 +30,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/pcn/if_pcnreg.h 199560 2009-11-19 22:14:23Z jhb $
+ * $FreeBSD: releng/10.1/sys/dev/pcn/if_pcnreg.h 199560 2009-11-19 22:14:23Z jhb $
  */
 
 /*

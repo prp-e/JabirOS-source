@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/x86/iommu/intel_ctx.c 263747 2014-03-25 20:17:57Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/x86/iommu/intel_ctx.c 263747 2014-03-25 20:17:57Z kib $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

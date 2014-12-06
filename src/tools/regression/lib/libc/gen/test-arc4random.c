@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/regression/lib/libc/gen/test-arc4random.c 227522 2011-11-15 05:55:15Z das $");
+__FBSDID("$FreeBSD: releng/10.1/tools/regression/lib/libc/gen/test-arc4random.c 227522 2011-11-15 05:55:15Z das $");
 
 #include <sys/mman.h>
 #include <sys/types.h>

@@ -35,7 +35,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/make/GNode.h 228992 2011-12-30 11:02:40Z uqs $
+ * $FreeBSD: releng/10.1/usr.bin/make/GNode.h 228992 2011-12-30 11:02:40Z uqs $
  */
 
 #ifndef GNode_h_39503bf2

@@ -24,7 +24,7 @@
  * SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/allwinner/a10_wdog.c 266405 2014-05-18 16:03:34Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/allwinner/a10_wdog.c 266405 2014-05-18 16:03:34Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

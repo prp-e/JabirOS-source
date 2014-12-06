@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/ip_input.c 266210 2014-05-16 05:05:53Z yongari $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/ip_input.c 266210 2014-05-16 05:05:53Z yongari $");
 
 #include "opt_bootp.h"
 #include "opt_ipfw.h"

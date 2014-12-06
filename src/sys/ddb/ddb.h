@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/ddb/ddb.h 264210 2014-04-07 01:49:30Z pfg $
+ * $FreeBSD: releng/10.1/sys/ddb/ddb.h 264210 2014-04-07 01:49:30Z pfg $
  */
 
 /*

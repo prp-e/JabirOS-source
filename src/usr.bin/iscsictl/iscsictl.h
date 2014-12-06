@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/iscsictl/iscsictl.h 255570 2013-09-14 15:29:06Z trasz $
+ * $FreeBSD: releng/10.1/usr.bin/iscsictl/iscsictl.h 255570 2013-09-14 15:29:06Z trasz $
  */
 
 #ifndef ISCSICTL_H

@@ -1,5 +1,5 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/tools/regression/posixshm/posixshm.t 175383 2008-01-16 15:51:24Z jhb $
+# $FreeBSD: releng/10.1/tools/regression/posixshm/posixshm.t 175383 2008-01-16 15:51:24Z jhb $
 
 ./posixshm

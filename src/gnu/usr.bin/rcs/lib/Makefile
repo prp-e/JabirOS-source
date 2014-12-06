@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/usr.bin/rcs/lib/Makefile 136910 2004-10-24 15:33:08Z ru $
+# $FreeBSD: releng/10.1/gnu/usr.bin/rcs/lib/Makefile 136910 2004-10-24 15:33:08Z ru $
 
 # Define FSYNC_ALL to get slower but safer writes in case of crashes in
 # the middle of CVS/RCS changes

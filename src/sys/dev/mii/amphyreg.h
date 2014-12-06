@@ -29,7 +29,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/mii/amphyreg.h 139749 2005-01-06 01:43:34Z imp $
+ * $FreeBSD: releng/10.1/sys/dev/mii/amphyreg.h 139749 2005-01-06 01:43:34Z imp $
  */
 
 #ifndef _DEV_MII_AMTPHYREG_H_

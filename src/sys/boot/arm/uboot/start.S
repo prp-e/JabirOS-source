@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/boot/arm/uboot/start.S 265064 2014-04-28 23:46:04Z ian $
+ * $FreeBSD: releng/10.1/sys/boot/arm/uboot/start.S 265064 2014-04-28 23:46:04Z ian $
  */
 
 #include <machine/asm.h>

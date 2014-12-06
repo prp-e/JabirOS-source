@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/ObsoleteFiles.inc 272152 2014-09-26 03:03:58Z gjb $
+# $FreeBSD: releng/10.1/ObsoleteFiles.inc 273399 2014-10-21 19:00:32Z delphij $
 #
 # This file lists old files (OLD_FILES), libraries (OLD_LIBS) and
 # directories (OLD_DIRS) which should get removed at an update. Recently
@@ -38,9 +38,13 @@
 #   xargs -n1 | sort | uniq -d;
 # done
 
+# 20141015: OpenSSL 1.0.1j import
+OLD_FILES+=usr/share/openssl/man/man3/CMS_sign_add1_signer.3.gz
+# 20140917: hv_kvpd rc.d script removed in favor of devd configuration
+OLD_FILES+=etc/rc.d/hv_kvpd
 # 20140814: libopie version bump
-OLD_LIBS+=usr/lib/libopie.so.7
-OLD_LIBS+=usr/lib32/libopie.so.7
+OLD_LIBS+=usr/lib/libopie.so.8
+OLD_LIBS+=usr/lib32/libopie.so.8
 # 20140811: otp-sha renamed to otp-sha1
 OLD_FILES+=usr/bin/otp-sha
 OLD_FILES+=usr/share/man/man1/otp-sha.1.gz

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/bktr/msp34xx.c 250088 2013-04-30 05:08:17Z pluknet $
+ * $FreeBSD: releng/10.1/sys/dev/bktr/msp34xx.c 250088 2013-04-30 05:08:17Z pluknet $
  */
 
 /*

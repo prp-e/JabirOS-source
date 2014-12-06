@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/sound/pci/cs461x_dsp.h 230897 2012-02-01 21:38:01Z pfg $ */
+/* $FreeBSD: releng/10.1/sys/dev/sound/pci/cs461x_dsp.h 230897 2012-02-01 21:38:01Z pfg $ */
 /*-
  * Copyright (C) 1996-2008, 4Front Technologies
  * All rights reserved.

@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/sys/ia64/include/smp.h 268200 2014-07-02 23:47:43Z marcel $
+ * $FreeBSD: releng/10.1/sys/ia64/include/smp.h 268200 2014-07-02 23:47:43Z marcel $
  */
 #ifndef _MACHINE_SMP_H_
 #define _MACHINE_SMP_H_

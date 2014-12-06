@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm/tdfx_drv.h 152909 2005-11-28 23:13:57Z anholt $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm/tdfx_drv.h 152909 2005-11-28 23:13:57Z anholt $");
 
 #ifndef __TDFX_H__
 #define __TDFX_H__

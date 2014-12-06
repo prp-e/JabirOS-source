@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/mkimg/vhd.c 269225 2014-07-29 07:36:38Z pluknet $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/mkimg/vhd.c 269225 2014-07-29 07:36:38Z pluknet $");
 
 #include <sys/types.h>
 #include <sys/endian.h>

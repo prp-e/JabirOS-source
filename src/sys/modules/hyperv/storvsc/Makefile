@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/hyperv/storvsc/Makefile 255923 2013-09-28 07:04:03Z uqs $
+# $FreeBSD: releng/10.1/sys/modules/hyperv/storvsc/Makefile 255923 2013-09-28 07:04:03Z uqs $
 
 .PATH:  ${.CURDIR}/../../../dev/hyperv/storvsc
 

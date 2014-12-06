@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libthread_db/arch/powerpc/libpthread_md.c 181341 2008-08-06 03:14:18Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libthread_db/arch/powerpc/libpthread_md.c 181341 2008-08-06 03:14:18Z marcel $");
 
 #include <sys/types.h>
 #include <string.h>

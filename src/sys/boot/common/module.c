@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/common/module.c 265068 2014-04-29 00:31:32Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/common/module.c 265068 2014-04-29 00:31:32Z ian $");
 
 /*
  * file/module function dispatcher, support, etc.

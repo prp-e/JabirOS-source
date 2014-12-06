@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/sound/pci/emu10kx.c 254263 2013-08-12 23:30:01Z scottl $
+ * $FreeBSD: releng/10.1/sys/dev/sound/pci/emu10kx.c 254263 2013-08-12 23:30:01Z scottl $
  */
 
 #include <sys/param.h>

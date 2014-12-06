@@ -56,7 +56,7 @@
 
 #include <sys/cdefs.h>
 
-__FBSDID("$FreeBSD: stable/10/usr.bin/systat/devs.c 229403 2012-01-03 18:51:58Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/systat/devs.c 229403 2012-01-03 18:51:58Z ed $");
 
 #ifdef lint
 static const char sccsid[] = "@(#)disks.c	8.1 (Berkeley) 6/6/93";

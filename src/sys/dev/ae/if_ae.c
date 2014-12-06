@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ae/if_ae.c 264444 2014-04-14 04:58:50Z yongari $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ae/if_ae.c 264444 2014-04-14 04:58:50Z yongari $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

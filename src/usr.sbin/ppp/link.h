@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/ppp/link.h 131327 2004-06-30 12:24:56Z brian $
+ * $FreeBSD: releng/10.1/usr.sbin/ppp/link.h 131327 2004-06-30 12:24:56Z brian $
  *
  */
 

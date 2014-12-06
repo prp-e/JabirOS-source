@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libutil/tests/humanize_number_test.c 269904 2014-08-13 04:56:27Z ngie $
+ * $FreeBSD: releng/10.1/lib/libutil/tests/humanize_number_test.c 269904 2014-08-13 04:56:27Z ngie $
  *
  */
 

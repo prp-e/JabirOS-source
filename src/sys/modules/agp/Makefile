@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/agp/Makefile 243100 2012-11-15 20:25:09Z eadler $
+# $FreeBSD: releng/10.1/sys/modules/agp/Makefile 243100 2012-11-15 20:25:09Z eadler $
 
 .PATH: ${.CURDIR}/../../dev/agp
 

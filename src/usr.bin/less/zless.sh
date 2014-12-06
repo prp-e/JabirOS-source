@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/usr.bin/less/zless.sh 243834 2012-12-03 21:49:37Z delphij $
+# $FreeBSD: releng/10.1/usr.bin/less/zless.sh 243834 2012-12-03 21:49:37Z delphij $
 #
 
 export LESSOPEN="||/usr/bin/lesspipe.sh %s"

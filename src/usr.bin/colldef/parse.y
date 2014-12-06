@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/colldef/parse.y 175038 2008-01-01 10:04:10Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/colldef/parse.y 175038 2008-01-01 10:04:10Z imp $");
 
 #include <sys/types.h>
 #include <arpa/inet.h>

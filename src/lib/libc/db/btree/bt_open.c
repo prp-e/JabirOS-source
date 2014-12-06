@@ -34,7 +34,7 @@
 static char sccsid[] = "@(#)bt_open.c	8.10 (Berkeley) 8/17/94";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/db/btree/bt_open.c 254289 2013-08-13 19:20:50Z jilles $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/db/btree/bt_open.c 254289 2013-08-13 19:20:50Z jilles $");
 
 /*
  * Implementation of btree access method for 4.4BSD.

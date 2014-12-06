@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/release/doc/Makefile 260242 2014-01-03 20:27:15Z gjb $
+# $FreeBSD: releng/10.1/release/doc/Makefile 260242 2014-01-03 20:27:15Z gjb $
 #
 # The user can override the default language to build and install
 # with the RELNOTES_LANG variable.

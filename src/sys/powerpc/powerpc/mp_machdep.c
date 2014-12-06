@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/powerpc/mp_machdep.c 266676 2014-05-26 01:37:43Z nwhitehorn $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/powerpc/mp_machdep.c 266676 2014-05-26 01:37:43Z nwhitehorn $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

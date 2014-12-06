@@ -48,7 +48,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/sysv_msg.c 225617 2011-09-16 13:58:51Z kmacy $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/sysv_msg.c 225617 2011-09-16 13:58:51Z kmacy $");
 
 #include "opt_compat.h"
 #include "opt_sysvipc.h"

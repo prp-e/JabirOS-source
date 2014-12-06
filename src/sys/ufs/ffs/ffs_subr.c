@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/ufs/ffs/ffs_subr.c 207141 2010-04-24 07:05:35Z jeff $");
+__FBSDID("$FreeBSD: releng/10.1/sys/ufs/ffs/ffs_subr.c 207141 2010-04-24 07:05:35Z jeff $");
 
 #include <sys/param.h>
 

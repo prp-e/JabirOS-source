@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/ia64/include/atomic.h 262004 2014-02-16 23:08:21Z marcel $
+ * $FreeBSD: releng/10.1/sys/ia64/include/atomic.h 262004 2014-02-16 23:08:21Z marcel $
  */
 
 #ifndef _MACHINE_ATOMIC_H_

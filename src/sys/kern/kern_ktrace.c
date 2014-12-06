@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_ktrace.c 267443 2014-06-13 12:39:06Z jilles $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_ktrace.c 267443 2014-06-13 12:39:06Z jilles $");
 
 #include "opt_ktrace.h"
 

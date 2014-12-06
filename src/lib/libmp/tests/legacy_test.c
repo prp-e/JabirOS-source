@@ -25,7 +25,7 @@
  *
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libmp/tests/legacy_test.c 269534 2014-08-04 22:10:07Z ngie $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libmp/tests/legacy_test.c 269534 2014-08-04 22:10:07Z ngie $");
 
 #include <mp.h>
 #include <stdio.h>

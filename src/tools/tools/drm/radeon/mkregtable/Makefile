@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/drm/radeon/mkregtable/Makefile 254885 2013-08-25 19:37:15Z dumbbell $
+# $FreeBSD: releng/10.1/tools/tools/drm/radeon/mkregtable/Makefile 254885 2013-08-25 19:37:15Z dumbbell $
 
 all: regtables
 

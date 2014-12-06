@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/watch/Makefile 113091 2003-04-04 17:49:21Z obrien $
+# $FreeBSD: releng/10.1/usr.sbin/watch/Makefile 113091 2003-04-04 17:49:21Z obrien $
 
 PROG=	watch
 MAN=	watch.8

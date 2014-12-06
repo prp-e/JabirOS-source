@@ -31,7 +31,7 @@
 static char sccsid[] = "@(#)getgrouplist.c	8.2 (Berkeley) 12/8/94";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/gen/getgrouplist.c 174547 2007-12-12 10:08:03Z bushman $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/gen/getgrouplist.c 174547 2007-12-12 10:08:03Z bushman $");
 
 /*
  * get credential

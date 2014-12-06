@@ -28,7 +28,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-/*$FreeBSD: stable/10/sys/dev/vxge/vxge.c 246128 2013-01-30 18:01:20Z sbz $*/
+/*$FreeBSD: releng/10.1/sys/dev/vxge/vxge.c 246128 2013-01-30 18:01:20Z sbz $*/
 
 #include <dev/vxge/vxge.h>
 

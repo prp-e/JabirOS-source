@@ -28,7 +28,7 @@
  * SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/pcf/pcf_ebus.c 233018 2012-03-15 22:53:39Z nwhitehorn $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/pcf/pcf_ebus.c 233018 2012-03-15 22:53:39Z nwhitehorn $");
 
 /*
  * Device specific driver for the EBus i2c devices found on some sun4u

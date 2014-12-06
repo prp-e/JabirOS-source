@@ -2,7 +2,7 @@
 #include <arm/at91/at91_rstreg.h>
 #include <arm/at91/at91reg.h>
 #include <arm/at91/at91sam9g20reg.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/at91/at91_reset.S 238330 2012-07-10 02:14:50Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/at91/at91_reset.S 238330 2012-07-10 02:14:50Z imp $");
 
 #define SDRAM_TR  (AT91_BASE + \
 	AT91SAM9G20_SDRAMC_BASE + AT91SAM9G20_SDRAMC_TR)

@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/mv/mvreg.h 266277 2014-05-17 00:53:12Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/mv/mvreg.h 266277 2014-05-17 00:53:12Z ian $
  */
 
 #ifndef _MVREG_H_

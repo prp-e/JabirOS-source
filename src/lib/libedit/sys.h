@@ -31,7 +31,7 @@
  *
  *	@(#)sys.h	8.1 (Berkeley) 6/4/93
  *	$NetBSD: sys.h,v 1.12 2009/08/31 00:05:43 christos Exp $
- * $FreeBSD: stable/10/lib/libedit/sys.h 268782 2014-07-17 02:14:25Z pfg $
+ * $FreeBSD: releng/10.1/lib/libedit/sys.h 268782 2014-07-17 02:14:25Z pfg $
  */
 
 /*

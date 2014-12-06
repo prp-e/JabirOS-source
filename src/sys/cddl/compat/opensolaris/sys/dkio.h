@@ -18,7 +18,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: stable/10/sys/cddl/compat/opensolaris/sys/dkio.h 270312 2014-08-21 22:44:08Z smh $
+ * $FreeBSD: releng/10.1/sys/cddl/compat/opensolaris/sys/dkio.h 270312 2014-08-21 22:44:08Z smh $
  */
 /*
  * Copyright 2006 Sun Microsystems, Inc.  All rights reserved.

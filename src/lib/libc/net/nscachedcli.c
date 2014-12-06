@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/net/nscachedcli.c 255328 2013-09-06 21:02:06Z jilles $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/net/nscachedcli.c 255328 2013-09-06 21:02:06Z jilles $");
 
 #include "namespace.h"
 #include <sys/types.h>

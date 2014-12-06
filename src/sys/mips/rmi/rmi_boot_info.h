@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  * RMI_BSD
- * $FreeBSD: stable/10/sys/mips/rmi/rmi_boot_info.h 211994 2010-08-30 13:05:21Z jchandra $
+ * $FreeBSD: releng/10.1/sys/mips/rmi/rmi_boot_info.h 211994 2010-08-30 13:05:21Z jchandra $
  */
 #ifndef _SHARED_STRUCTS_H
 #define _SHARED_STRUCTS_H

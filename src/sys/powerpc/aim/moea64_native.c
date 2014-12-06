@@ -84,7 +84,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/aim/moea64_native.c 263687 2014-03-24 13:48:04Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/aim/moea64_native.c 263687 2014-03-24 13:48:04Z emaste $");
 
 /*
  * Native 64-bit page table operations for running without a hypervisor.

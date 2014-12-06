@@ -14,7 +14,7 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * $FreeBSD: stable/10/sys/dev/ath/ath_hal/ah_devid.h 250166 2013-05-02 00:59:39Z adrian $
+ * $FreeBSD: releng/10.1/sys/dev/ath/ath_hal/ah_devid.h 250166 2013-05-02 00:59:39Z adrian $
  */
 
 #ifndef _DEV_ATH_DEVID_H_

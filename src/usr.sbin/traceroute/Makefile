@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/traceroute/Makefile 216184 2010-12-04 14:19:27Z uqs $
+# $FreeBSD: releng/10.1/usr.sbin/traceroute/Makefile 216184 2010-12-04 14:19:27Z uqs $
 
 TRACEROUTE_DISTDIR?= ${.CURDIR}/../../contrib/traceroute
 .PATH: ${TRACEROUTE_DISTDIR}

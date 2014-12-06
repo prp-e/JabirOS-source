@@ -48,7 +48,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/arm/disassem.c 248119 2013-03-09 23:55:23Z andrew $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/arm/disassem.c 248119 2013-03-09 23:55:23Z andrew $");
 #include <sys/param.h>
 
 

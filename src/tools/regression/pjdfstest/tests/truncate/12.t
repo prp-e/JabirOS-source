@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/truncate/12.t 166065 2007-01-17 01:42:12Z pjd $
+# $FreeBSD: releng/10.1/tools/regression/pjdfstest/tests/truncate/12.t 166065 2007-01-17 01:42:12Z pjd $
 
 desc="truncate returns EFBIG or EINVAL if the length argument was greater than the maximum file size"
 

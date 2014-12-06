@@ -1,5 +1,5 @@
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/input/ukbd.c 263261 2014-03-17 06:38:40Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/input/ukbd.c 263261 2014-03-17 06:38:40Z hselasky $");
 
 
 /*-

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/netipsec/ipsec_mbuf.c 252026 2013-06-20 09:55:53Z ae $
+ * $FreeBSD: releng/10.1/sys/netipsec/ipsec_mbuf.c 252026 2013-06-20 09:55:53Z ae $
  */
 
 /*

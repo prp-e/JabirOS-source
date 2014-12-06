@@ -39,7 +39,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/geom/geom_event.c 266970 2014-06-02 10:14:03Z ae $");
+__FBSDID("$FreeBSD: releng/10.1/sys/geom/geom_event.c 266970 2014-06-02 10:14:03Z ae $");
 
 #include <sys/param.h>
 #include <sys/malloc.h>

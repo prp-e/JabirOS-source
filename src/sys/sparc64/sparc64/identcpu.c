@@ -8,7 +8,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/sparc64/sparc64/identcpu.c 227309 2011-11-07 15:43:11Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/sys/sparc64/sparc64/identcpu.c 227309 2011-11-07 15:43:11Z ed $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

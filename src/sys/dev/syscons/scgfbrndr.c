@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/syscons/scgfbrndr.c 174985 2007-12-29 23:26:59Z wkoszek $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/syscons/scgfbrndr.c 174985 2007-12-29 23:26:59Z wkoszek $");
 
 #include "opt_syscons.h"
 #include "opt_gfb.h"

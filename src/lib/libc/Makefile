@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.2 (Berkeley) 2/3/94
-# $FreeBSD: stable/10/lib/libc/Makefile 270837 2014-08-30 09:55:38Z ume $
+# $FreeBSD: releng/10.1/lib/libc/Makefile 270837 2014-08-30 09:55:38Z ume $
 
 SHLIBDIR?= /lib
 

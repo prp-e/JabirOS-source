@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/ggate/ggatel/ggatel.c 241720 2012-10-19 05:43:38Z ed $
+ * $FreeBSD: releng/10.1/sbin/ggate/ggatel/ggatel.c 241720 2012-10-19 05:43:38Z ed $
  */
 
 #include <stdio.h>

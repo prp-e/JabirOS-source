@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libc/isc/Makefile.inc 156956 2006-03-21 15:37:16Z ume $
+# $FreeBSD: releng/10.1/lib/libc/isc/Makefile.inc 156956 2006-03-21 15:37:16Z ume $
 
 # isc sources
 .PATH: ${.CURDIR}/isc

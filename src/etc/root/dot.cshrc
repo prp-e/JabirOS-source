@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/etc/root/dot.cshrc 243893 2012-12-05 13:56:39Z eadler $
+# $FreeBSD: releng/10.1/etc/root/dot.cshrc 243893 2012-12-05 13:56:39Z eadler $
 #
 # .cshrc - csh resource script, read at beginning of execution by each shell
 #

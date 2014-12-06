@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/ufs/Makefile 267494 2014-06-15 05:15:38Z kib $
+# $FreeBSD: releng/10.1/sys/modules/ufs/Makefile 267494 2014-06-15 05:15:38Z kib $
 
 .PATH:	${.CURDIR}/../../ufs/ufs ${.CURDIR}/../../ufs/ffs
 

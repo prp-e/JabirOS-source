@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/geom_stripe/test-2.t 153189 2005-12-07 01:30:44Z pjd $
+# $FreeBSD: releng/10.1/tools/regression/geom_stripe/test-2.t 153189 2005-12-07 01:30:44Z pjd $
 
 . `dirname $0`/conf.sh
 

@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/tcp_timer.c 247777 2013-03-04 11:09:56Z davide $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/tcp_timer.c 247777 2013-03-04 11:09:56Z davide $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/boot/fdt/dts/arm/sun4i-a10.dtsi 266376 2014-05-17 23:16:18Z ian $
+ * $FreeBSD: releng/10.1/sys/boot/fdt/dts/arm/sun4i-a10.dtsi 266376 2014-05-17 23:16:18Z ian $
  */
 
 / {

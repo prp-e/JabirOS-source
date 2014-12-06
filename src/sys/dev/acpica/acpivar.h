@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/acpica/acpivar.h 265653 2014-05-08 08:20:23Z smh $
+ * $FreeBSD: releng/10.1/sys/dev/acpica/acpivar.h 265653 2014-05-08 08:20:23Z smh $
  */
 
 #ifndef _ACPIVAR_H_

@@ -59,7 +59,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/mips/pmap.c 270920 2014-09-01 07:58:15Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/mips/pmap.c 270920 2014-09-01 07:58:15Z kib $");
 
 #include "opt_ddb.h"
 #include "opt_pmap.h"

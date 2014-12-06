@@ -31,7 +31,7 @@
 
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ed/if_ed_rtl80x9.c 264942 2014-04-25 21:32:34Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ed/if_ed_rtl80x9.c 264942 2014-04-25 21:32:34Z marius $");
 
 #include "opt_ed.h"
 

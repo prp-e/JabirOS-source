@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/mfiutil/mfi_flash.c 241776 2012-10-20 10:20:06Z ed $
+ * $FreeBSD: releng/10.1/usr.sbin/mfiutil/mfi_flash.c 241776 2012-10-20 10:20:06Z ed $
  */
 
 #include <sys/param.h>

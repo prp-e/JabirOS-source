@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/isci/isci_oem_parameters.c 231136 2012-02-07 17:43:58Z jimharris $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/isci/isci_oem_parameters.c 231136 2012-02-07 17:43:58Z jimharris $");
 
 #include <dev/isci/isci.h>
 #include <vm/vm.h>

@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/devd/tests/client_test.c 270242 2014-08-20 19:30:58Z asomers $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/devd/tests/client_test.c 270242 2014-08-20 19:30:58Z asomers $");
 
 #include <stdbool.h>
 #include <stdio.h>

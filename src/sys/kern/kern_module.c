@@ -27,7 +27,7 @@
 #include "opt_compat.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_module.c 239586 2012-08-22 20:01:57Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_module.c 239586 2012-08-22 20:01:57Z jhb $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bsdinstall/partedit/diskeditor.c 251854 2013-06-17 15:16:14Z bapt $
+ * $FreeBSD: releng/10.1/usr.sbin/bsdinstall/partedit/diskeditor.c 251854 2013-06-17 15:16:14Z bapt $
  */
 
 #include <stdio.h>

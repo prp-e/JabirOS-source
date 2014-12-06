@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/string/wcpncpy.c 199096 2009-11-09 18:50:34Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/string/wcpncpy.c 199096 2009-11-09 18:50:34Z jhb $");
 
 #include <wchar.h>
 

@@ -41,7 +41,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libprocstat/cd9660.c 235602 2012-05-18 10:15:46Z gleb $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libprocstat/cd9660.c 235602 2012-05-18 10:15:46Z gleb $");
 
 #include <sys/param.h>
 #include <sys/stat.h>

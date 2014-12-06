@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bhyve/pci_virtio_net.c 271685 2014-09-16 19:08:54Z grehan $
+ * $FreeBSD: releng/10.1/usr.sbin/bhyve/pci_virtio_net.c 271685 2014-09-16 19:08:54Z grehan $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/bhyve/pci_virtio_net.c 271685 2014-09-16 19:08:54Z grehan $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/bhyve/pci_virtio_net.c 271685 2014-09-16 19:08:54Z grehan $");
 
 #include <sys/param.h>
 #include <sys/linker_set.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libmd/Makefile 234746 2012-04-28 02:48:51Z obrien $
+# $FreeBSD: releng/10.1/lib/libmd/Makefile 234746 2012-04-28 02:48:51Z obrien $
 
 LIB=	md
 SHLIB_MAJOR= 6

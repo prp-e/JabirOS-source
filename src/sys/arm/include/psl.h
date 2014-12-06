@@ -41,7 +41,7 @@
  *
  * Created      : 21/07/95
  *
- * $FreeBSD: stable/10/sys/arm/include/psl.h 266084 2014-05-14 19:18:58Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/include/psl.h 266084 2014-05-14 19:18:58Z ian $
  */
 
 #ifndef _MACHINE_PSL_H_

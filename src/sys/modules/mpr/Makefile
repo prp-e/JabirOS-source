@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/mpr/Makefile 265236 2014-05-02 20:25:09Z ken $
+# $FreeBSD: releng/10.1/sys/modules/mpr/Makefile 265236 2014-05-02 20:25:09Z ken $
 
 .PATH: ${.CURDIR}/../../dev/mpr
 

@@ -22,7 +22,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/sdhci/sdhci.h 271051 2014-09-03 20:07:26Z marius $
+ * $FreeBSD: releng/10.1/sys/dev/sdhci/sdhci.h 271051 2014-09-03 20:07:26Z marius $
  */
 
 #ifndef	__SDHCI_H__

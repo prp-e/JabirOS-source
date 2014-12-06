@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/pbio/pbio.c 183397 2008-09-27 08:51:18Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/pbio/pbio.c 183397 2008-09-27 08:51:18Z ed $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

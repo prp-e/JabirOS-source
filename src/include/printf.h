@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/include/printf.h 238111 2012-07-04 17:35:07Z pjd $
+ * $FreeBSD: releng/10.1/include/printf.h 238111 2012-07-04 17:35:07Z pjd $
  */
 
 #ifndef _PRINTF_H_

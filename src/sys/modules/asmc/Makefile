@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/asmc/Makefile 177973 2008-04-07 11:26:13Z rpaulo $
+# $FreeBSD: releng/10.1/sys/modules/asmc/Makefile 177973 2008-04-07 11:26:13Z rpaulo $
 
 .PATH: ${.CURDIR}/../../dev/asmc
 

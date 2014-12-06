@@ -1,5 +1,5 @@
 /* $OpenBSD: serverloop.c,v 1.170 2014/02/02 03:44:31 djm Exp $ */
-/* $FreeBSD: stable/10/crypto/openssh/serverloop.c 264377 2014-04-12 20:22:59Z des $ */
+/* $FreeBSD: releng/10.1/crypto/openssh/serverloop.c 264377 2014-04-12 20:22:59Z des $ */
 /*
  * Author: Tatu Ylonen <ylo@cs.hut.fi>
  * Copyright (c) 1995 Tatu Ylonen <ylo@cs.hut.fi>, Espoo, Finland

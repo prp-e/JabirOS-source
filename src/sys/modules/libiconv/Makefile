@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/libiconv/Makefile 227650 2011-11-18 03:05:20Z kevlo $
+# $FreeBSD: releng/10.1/sys/modules/libiconv/Makefile 227650 2011-11-18 03:05:20Z kevlo $
 
 .PATH: ${.CURDIR}/../../libkern ${.CURDIR}/../../sys
 

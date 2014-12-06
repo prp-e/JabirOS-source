@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/ti/am335x/am335x_prcm.c 266338 2014-05-17 19:06:46Z loos $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/ti/am335x/am335x_prcm.c 266338 2014-05-17 19:06:46Z loos $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

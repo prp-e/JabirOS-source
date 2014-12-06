@@ -18,7 +18,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: stable/10/sys/cddl/dev/dtrace/dtrace_sysctl.c 269520 2014-08-04 15:36:22Z markj $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/dtrace/dtrace_sysctl.c 269520 2014-08-04 15:36:22Z markj $
  *
  */
 

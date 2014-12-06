@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/monetdef/Makefile 253425 2013-07-17 14:00:51Z bapt $
+# $FreeBSD: releng/10.1/share/monetdef/Makefile 253425 2013-07-17 14:00:51Z bapt $
 
 LOCALES=	af_ZA.ISO8859-1 \
 		am_ET.UTF-8 \

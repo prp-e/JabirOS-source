@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/hptrr/hptrr_osm_bsd.c 267457 2014-06-14 00:44:57Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/hptrr/hptrr_osm_bsd.c 267457 2014-06-14 00:44:57Z delphij $");
 
 #include <dev/hptrr/hptrr_config.h>
 /* $Id: osm_bsd.c,v 1.27 2007/11/22 07:35:49 gmm Exp $

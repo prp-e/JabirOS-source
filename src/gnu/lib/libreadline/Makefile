@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/lib/libreadline/Makefile 56804 2000-01-29 12:01:52Z obrien $
+# $FreeBSD: releng/10.1/gnu/lib/libreadline/Makefile 56804 2000-01-29 12:01:52Z obrien $
 
 SUBDIR = history readline
 

@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/acpica/Osd/OsdSynch.c 254300 2013-08-13 21:34:03Z jkim $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/acpica/Osd/OsdSynch.c 254300 2013-08-13 21:34:03Z jkim $");
 
 #include <contrib/dev/acpica/include/acpi.h>
 #include <contrib/dev/acpica/include/accommon.h>

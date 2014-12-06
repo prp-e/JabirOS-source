@@ -5,7 +5,7 @@
  * $Id: //depot/aic7xxx/aic7xxx/aic79xx.seq#119 $
  * $Id: //depot/aic7xxx/aic7xxx/aic79xx.reg#76 $
  *
- * $FreeBSD: stable/10/sys/dev/aic7xxx/aic79xx_reg.h 270284 2014-08-21 17:18:21Z ian $
+ * $FreeBSD: releng/10.1/sys/dev/aic7xxx/aic79xx_reg.h 270284 2014-08-21 17:18:21Z ian $
  */
 typedef int (ahd_reg_print_t)(u_int, u_int *, u_int);
 typedef struct ahd_reg_parse_entry {

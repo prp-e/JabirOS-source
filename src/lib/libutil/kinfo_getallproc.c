@@ -24,11 +24,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libutil/kinfo_getallproc.c 221807 2011-05-12 10:11:39Z stas $
+ * $FreeBSD: releng/10.1/lib/libutil/kinfo_getallproc.c 221807 2011-05-12 10:11:39Z stas $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libutil/kinfo_getallproc.c 221807 2011-05-12 10:11:39Z stas $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libutil/kinfo_getallproc.c 221807 2011-05-12 10:11:39Z stas $");
 
 #include <sys/param.h>
 #include <sys/user.h>

@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/i386/svr4/svr4_machdep.c 177145 2008-03-13 10:54:38Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/i386/svr4/svr4_machdep.c 177145 2008-03-13 10:54:38Z kib $");
 
 #include <sys/types.h>
 #include <sys/param.h>

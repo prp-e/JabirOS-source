@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/vt/font/vt_font_default.c 267381 2014-06-12 01:33:01Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/vt/font/vt_font_default.c 267381 2014-06-12 01:33:01Z emaste $");
 
 #include <dev/vt/vt.h>
 

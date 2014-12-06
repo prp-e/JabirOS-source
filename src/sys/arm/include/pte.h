@@ -31,7 +31,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/include/pte.h 254918 2013-08-26 17:12:30Z raj $
+ * $FreeBSD: releng/10.1/sys/arm/include/pte.h 254918 2013-08-26 17:12:30Z raj $
  */
 
 #ifndef _MACHINE_PTE_H_

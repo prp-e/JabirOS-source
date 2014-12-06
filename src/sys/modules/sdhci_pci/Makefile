@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/sdhci_pci/Makefile 241600 2012-10-16 01:10:43Z gonzo $
+# $FreeBSD: releng/10.1/sys/modules/sdhci_pci/Makefile 241600 2012-10-16 01:10:43Z gonzo $
 
 .PATH: ${.CURDIR}/../../dev/sdhci
 

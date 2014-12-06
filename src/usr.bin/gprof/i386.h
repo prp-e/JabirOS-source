@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)i386.h	8.1 (Berkeley) 6/6/93
- * $FreeBSD: stable/10/usr.bin/gprof/i386.h 216370 2010-12-11 08:32:16Z joel $
+ * $FreeBSD: releng/10.1/usr.bin/gprof/i386.h 216370 2010-12-11 08:32:16Z joel $
  */
 
     /*

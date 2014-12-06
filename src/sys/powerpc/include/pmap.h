@@ -26,7 +26,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/include/pmap.h 270439 2014-08-24 07:53:15Z kib $
+ * $FreeBSD: releng/10.1/sys/powerpc/include/pmap.h 270439 2014-08-24 07:53:15Z kib $
  */
 /*-
  * Copyright (C) 1995, 1996 Wolfgang Solfrank.

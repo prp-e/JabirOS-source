@@ -38,7 +38,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/security/mac_mls/mac_mls.c 254603 2013-08-21 17:45:00Z kib $
+ * $FreeBSD: releng/10.1/sys/security/mac_mls/mac_mls.c 254603 2013-08-21 17:45:00Z kib $
  */
 
 /*

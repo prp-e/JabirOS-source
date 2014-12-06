@@ -24,7 +24,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/ia64/include/pci_cfgreg.h 203884 2010-02-14 17:03:20Z marcel $
+ * $FreeBSD: releng/10.1/sys/ia64/include/pci_cfgreg.h 203884 2010-02-14 17:03:20Z marcel $
  */
 
 #ifndef _MACHINE_PCI_CFGREG_H_

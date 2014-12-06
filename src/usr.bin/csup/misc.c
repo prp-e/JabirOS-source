@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/csup/misc.c 228857 2011-12-24 12:16:38Z marius $
+ * $FreeBSD: releng/10.1/usr.bin/csup/misc.c 228857 2011-12-24 12:16:38Z marius $
  */
 
 #include <sys/types.h>

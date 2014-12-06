@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bsdinstall/partedit/partedit.c 245796 2013-01-22 17:06:28Z nwhitehorn $
+ * $FreeBSD: releng/10.1/usr.sbin/bsdinstall/partedit/partedit.c 245796 2013-01-22 17:06:28Z nwhitehorn $
  */
 
 #include <sys/param.h>
@@ -85,7 +85,7 @@ main(int argc, const char **argv)
 
 	init_dialog(stdin, stdout);
 	if (!sade_mode)
-		dialog_vars.backtitle = __DECONST(char *, "JabirOS Installer");
+		dialog_vars.backtitle = __DECONST(char *, "FreeBSD Installer");
 	dialog_vars.item_help = TRUE;
 	nscroll = i = 0;
 

@@ -31,7 +31,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)auth-proto.h	8.1 (Berkeley) 6/4/93
- * $FreeBSD: stable/10/contrib/telnet/libtelnet/auth-proto.h 87155 2001-11-30 22:28:07Z markm $
+ * $FreeBSD: releng/10.1/contrib/telnet/libtelnet/auth-proto.h 87155 2001-11-30 22:28:07Z markm $
  */
 
 /*

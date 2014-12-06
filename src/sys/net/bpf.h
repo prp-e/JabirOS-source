@@ -34,7 +34,7 @@
  *      @(#)bpf.h	8.1 (Berkeley) 6/10/93
  *	@(#)bpf.h	1.34 (LBL)     6/16/96
  *
- * $FreeBSD: stable/10/sys/net/bpf.h 244090 2012-12-10 16:14:44Z ghelmer $
+ * $FreeBSD: releng/10.1/sys/net/bpf.h 244090 2012-12-10 16:14:44Z ghelmer $
  */
 
 #ifndef _NET_BPF_H_

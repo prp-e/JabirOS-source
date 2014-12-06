@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/include/elf.h 269792 2014-08-10 22:26:29Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/include/elf.h 269792 2014-08-10 22:26:29Z ian $
  */
 
 #ifndef _MACHINE_ELF_H_

@@ -22,11 +22,11 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/csu/i386-elf/crt1_s.S 217383 2011-01-13 23:00:22Z kib $
+ * $FreeBSD: releng/10.1/lib/csu/i386-elf/crt1_s.S 217383 2011-01-13 23:00:22Z kib $
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: stable/10/lib/csu/i386-elf/crt1_s.S 217383 2011-01-13 23:00:22Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/lib/csu/i386-elf/crt1_s.S 217383 2011-01-13 23:00:22Z kib $");
 
 	.text
 	.align	4

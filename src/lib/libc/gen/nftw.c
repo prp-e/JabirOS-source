@@ -21,7 +21,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/gen/nftw.c 239160 2012-08-09 22:05:40Z jilles $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/gen/nftw.c 239160 2012-08-09 22:05:40Z jilles $");
 
 #include <sys/types.h>
 #include <sys/stat.h>

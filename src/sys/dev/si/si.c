@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/si/si.c 247089 2013-02-21 07:19:50Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/si/si.c 247089 2013-02-21 07:19:50Z imp $");
 
 #ifndef lint
 static const char si_copyright1[] =  "@(#) Copyright (C) Specialix International, 1990,1992,1998",

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/allwinner/if_emacreg.h 266337 2014-05-17 18:53:36Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/allwinner/if_emacreg.h 266337 2014-05-17 18:53:36Z ian $
  */
 
 #ifndef	__IF_EMACREG_H__

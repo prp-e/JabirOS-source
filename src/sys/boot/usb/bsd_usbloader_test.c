@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/boot/usb/bsd_usbloader_test.c 246145 2013-01-31 11:00:57Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/boot/usb/bsd_usbloader_test.c 246145 2013-01-31 11:00:57Z hselasky $ */
 /*-
  * Copyright (c) 2013 Hans Petter Selasky. All rights reserved.
  *

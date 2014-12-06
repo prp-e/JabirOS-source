@@ -33,7 +33,7 @@
 #include "opt_inet6.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/net/flowtable.c 262772 2014-03-05 03:16:23Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/net/flowtable.c 262772 2014-03-05 03:16:23Z glebius $");
 
 #include <sys/param.h>
 #include <sys/types.h>

@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ips/ips.c 249595 2013-04-17 21:21:27Z hiren $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ips/ips.c 249595 2013-04-17 21:21:27Z hiren $");
 
 #include <dev/ips/ipsreg.h>
 #include <dev/ips/ips.h>

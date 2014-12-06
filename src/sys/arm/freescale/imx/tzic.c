@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/freescale/imx/tzic.c 266160 2014-05-15 17:30:16Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/freescale/imx/tzic.c 266160 2014-05-15 17:30:16Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

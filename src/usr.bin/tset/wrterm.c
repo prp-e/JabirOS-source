@@ -29,7 +29,7 @@
 
 #include <sys/cdefs.h>
 
-__FBSDID("$FreeBSD: stable/10/usr.bin/tset/wrterm.c 229403 2012-01-03 18:51:58Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/tset/wrterm.c 229403 2012-01-03 18:51:58Z ed $");
 
 #ifndef lint
 static const char sccsid[] = "@(#)wrterm.c	8.1 (Berkeley) 6/9/93";

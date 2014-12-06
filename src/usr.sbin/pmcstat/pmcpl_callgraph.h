@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/pmcstat/pmcpl_callgraph.h 203790 2010-02-11 22:51:44Z fabient $
+ * $FreeBSD: releng/10.1/usr.sbin/pmcstat/pmcpl_callgraph.h 203790 2010-02-11 22:51:44Z fabient $
  */
 
 #ifndef	_PMCSTAT_PL_CALLGRAPH_H_

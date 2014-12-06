@@ -22,7 +22,7 @@
 \ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 \ SUCH DAMAGE.
 \ 
-\ $FreeBSD: stable/10/sys/boot/forth/delay.4th 238431 2012-07-14 01:45:35Z dteske $
+\ $FreeBSD: releng/10.1/sys/boot/forth/delay.4th 238431 2012-07-14 01:45:35Z dteske $
 
 marker task-delay.4th
 

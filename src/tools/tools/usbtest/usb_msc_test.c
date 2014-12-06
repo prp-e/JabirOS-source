@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/tools/tools/usbtest/usb_msc_test.c 254241 2013-08-12 09:15:33Z hselasky $ */
+/* $FreeBSD: releng/10.1/tools/tools/usbtest/usb_msc_test.c 254241 2013-08-12 09:15:33Z hselasky $ */
 /*-
  * Copyright (c) 2007-2012 Hans Petter Selasky. All rights reserved.
  *

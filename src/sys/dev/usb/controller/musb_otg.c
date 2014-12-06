@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/controller/musb_otg.c 262213 2014-02-19 08:05:42Z dim $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/controller/musb_otg.c 262213 2014-02-19 08:05:42Z dim $ */
 /*-
  * Copyright (c) 2008 Hans Petter Selasky. All rights reserved.
  *

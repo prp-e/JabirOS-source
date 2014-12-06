@@ -39,7 +39,7 @@
  *
  * $Id: //depot/aic7xxx/aic7xxx/aicasm/aicasm.c#23 $
  *
- * $FreeBSD: stable/10/sys/dev/aic7xxx/aicasm/aicasm.c 236571 2012-06-04 17:22:43Z dim $
+ * $FreeBSD: releng/10.1/sys/dev/aic7xxx/aicasm/aicasm.c 236571 2012-06-04 17:22:43Z dim $
  */
 #include <sys/types.h>
 #include <sys/mman.h>

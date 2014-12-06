@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libkiconv/kiconv_sysctl.c 194663 2009-06-22 21:49:55Z delphij $
+ * $FreeBSD: releng/10.1/lib/libkiconv/kiconv_sysctl.c 194663 2009-06-22 21:49:55Z delphij $
  */
 
 #include <sys/types.h>

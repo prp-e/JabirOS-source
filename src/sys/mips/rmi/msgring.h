@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  * RMI_BSD
- * $FreeBSD: stable/10/sys/mips/rmi/msgring.h 213377 2010-10-03 04:33:58Z jchandra $
+ * $FreeBSD: releng/10.1/sys/mips/rmi/msgring.h 213377 2010-10-03 04:33:58Z jchandra $
  */
 #ifndef _RMI_MSGRING_H_
 #define _RMI_MSGRING_H_

@@ -34,7 +34,7 @@
 #include <dev/sound/version.h>
 #include <sys/sx.h>
 
-SND_DECLARE_FILE("$FreeBSD: stable/10/sys/dev/sound/pcm/sndstat.c 248381 2013-03-16 17:57:00Z joel $");
+SND_DECLARE_FILE("$FreeBSD: releng/10.1/sys/dev/sound/pcm/sndstat.c 248381 2013-03-16 17:57:00Z joel $");
 
 #define	SS_TYPE_MODULE		0
 #define	SS_TYPE_FIRST		1

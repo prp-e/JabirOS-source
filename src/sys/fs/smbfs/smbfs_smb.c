@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/fs/smbfs/smbfs_smb.c 265243 2014-05-02 21:30:59Z ae $
+ * $FreeBSD: releng/10.1/sys/fs/smbfs/smbfs_smb.c 265243 2014-05-02 21:30:59Z ae $
  */
 #include <sys/param.h>
 #include <sys/systm.h>

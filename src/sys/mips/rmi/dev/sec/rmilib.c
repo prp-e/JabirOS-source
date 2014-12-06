@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/rmi/dev/sec/rmilib.c 212763 2010-09-16 20:23:22Z jchandra $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/rmi/dev/sec/rmilib.c 212763 2010-09-16 20:23:22Z jchandra $");
 
 #include <sys/param.h>
 #include <sys/types.h>

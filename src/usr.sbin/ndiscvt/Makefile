@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/ndiscvt/Makefile 228665 2011-12-17 22:16:27Z dim $
+# $FreeBSD: releng/10.1/usr.sbin/ndiscvt/Makefile 228665 2011-12-17 22:16:27Z dim $
 
 .PATH:	${.CURDIR}/../../sys/compat/ndis
 

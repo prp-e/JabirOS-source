@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/usr.bin/groff/tmac/Makefile 239640 2012-08-24 06:55:16Z ru $
+# $FreeBSD: releng/10.1/gnu/usr.bin/groff/tmac/Makefile 239640 2012-08-24 06:55:16Z ru $
 
 .include <bsd.own.mk>			# SHAREDIR
 

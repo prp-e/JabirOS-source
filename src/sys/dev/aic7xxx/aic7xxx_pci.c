@@ -48,7 +48,7 @@
 #include "aic7xxx_93cx6.h"
 #else
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/aic7xxx/aic7xxx_pci.c 253646 2013-07-25 09:30:00Z uqs $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/aic7xxx/aic7xxx_pci.c 253646 2013-07-25 09:30:00Z uqs $");
 #include <dev/aic7xxx/aic7xxx_osm.h>
 #include <dev/aic7xxx/aic7xxx_inline.h>
 #include <dev/aic7xxx/aic7xxx_93cx6.h>

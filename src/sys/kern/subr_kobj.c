@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/subr_kobj.c 227537 2011-11-15 20:11:03Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/subr_kobj.c 227537 2011-11-15 20:11:03Z marius $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

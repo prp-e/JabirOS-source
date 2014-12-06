@@ -24,7 +24,7 @@
  * SUCH DAMAGE.
  */
 
-/* $FreeBSD: stable/10/sys/mips/atheros/ar724x_chip.h 211503 2010-08-19 11:53:55Z adrian $ */
+/* $FreeBSD: releng/10.1/sys/mips/atheros/ar724x_chip.h 211503 2010-08-19 11:53:55Z adrian $ */
 
 #ifndef	__AR724X_CHIP_H__
 #define	__AR724X_CHIP_H__

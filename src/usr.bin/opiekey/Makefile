@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/opiekey/Makefile 270120 2014-08-18 02:13:45Z ache $
+# $FreeBSD: releng/10.1/usr.bin/opiekey/Makefile 270120 2014-08-18 02:13:45Z ache $
 #
 OPIE_DIST?=	${.CURDIR}/../../contrib/opie
 

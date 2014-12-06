@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/boot/common/disk.h 241809 2012-10-21 12:14:58Z ae $
+ * $FreeBSD: releng/10.1/sys/boot/common/disk.h 241809 2012-10-21 12:14:58Z ae $
  */
 
 /*

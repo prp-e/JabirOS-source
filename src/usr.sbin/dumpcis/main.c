@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/dumpcis/main.c 185125 2008-11-20 08:32:19Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/dumpcis/main.c 185125 2008-11-20 08:32:19Z imp $");
 
 #include <fcntl.h>
 #include <stdio.h>

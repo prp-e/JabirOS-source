@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/gnu/usr.bin/gdb/arch/powerpc/init.c 169188 2007-05-01 18:29:34Z marcel $ */
+/* $FreeBSD: releng/10.1/gnu/usr.bin/gdb/arch/powerpc/init.c 169188 2007-05-01 18:29:34Z marcel $ */
 
 /* Do not modify this file.  */
 /* It is created automatically by the Makefile.  */

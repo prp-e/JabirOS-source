@@ -35,7 +35,7 @@
  */
 
 #include "includes.h"
-__RCSID("$FreeBSD: stable/10/crypto/openssh/ssh-agent.c 264377 2014-04-12 20:22:59Z des $");
+__RCSID("$FreeBSD: releng/10.1/crypto/openssh/ssh-agent.c 264377 2014-04-12 20:22:59Z des $");
 
 #include <sys/types.h>
 #include <sys/param.h>

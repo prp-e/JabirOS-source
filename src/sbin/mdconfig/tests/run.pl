@@ -27,7 +27,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/sbin/mdconfig/tests/run.pl 263220 2014-03-16 02:07:08Z jmmv $
+# $FreeBSD: releng/10.1/sbin/mdconfig/tests/run.pl 263220 2014-03-16 02:07:08Z jmmv $
 #
 
 #

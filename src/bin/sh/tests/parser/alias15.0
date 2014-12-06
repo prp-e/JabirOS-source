@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/bin/sh/tests/parser/alias15.0 262951 2014-03-09 17:04:31Z jmmv $
+# $FreeBSD: releng/10.1/bin/sh/tests/parser/alias15.0 262951 2014-03-09 17:04:31Z jmmv $
 
 f_echoanddo() {
 	printf '%s\n' "$*"

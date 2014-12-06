@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/clang/include/llvm/Config/config.h 270100 2014-08-17 13:12:07Z dim $ */
+/* $FreeBSD: releng/10.1/lib/clang/include/llvm/Config/config.h 270100 2014-08-17 13:12:07Z dim $ */
 /* include/llvm/Config/config.h.  Generated from config.h.in by configure.  */
 /* include/llvm/Config/config.h.in.  Generated from autoconf/configure.ac by autoheader.  */
 

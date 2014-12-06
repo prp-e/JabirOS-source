@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/zic/zic/Makefile 204347 2010-02-26 06:44:00Z edwin $
+# $FreeBSD: releng/10.1/usr.sbin/zic/zic/Makefile 204347 2010-02-26 06:44:00Z edwin $
 
 .PATH: ${.CURDIR}/../../../contrib/tzcode/zic
 

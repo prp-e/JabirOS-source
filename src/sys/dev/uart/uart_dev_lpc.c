@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/uart/uart_dev_lpc.c 266084 2014-05-14 19:18:58Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/uart/uart_dev_lpc.c 266084 2014-05-14 19:18:58Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

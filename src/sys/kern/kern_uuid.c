@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_uuid.c 262239 2014-02-20 08:55:59Z brueffer $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_uuid.c 262239 2014-02-20 08:55:59Z brueffer $");
 
 #include <sys/param.h>
 #include <sys/endian.h>

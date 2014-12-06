@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/amr/amr_cam/Makefile 184577 2008-11-03 04:13:27Z scottl $
+# $FreeBSD: releng/10.1/sys/modules/amr/amr_cam/Makefile 184577 2008-11-03 04:13:27Z scottl $
 
 .PATH: ${.CURDIR}/../../../dev/amr
 

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/aac/aac_linux/Makefile 103952 2002-09-25 05:00:25Z scottl $
+# $FreeBSD: releng/10.1/sys/modules/aac/aac_linux/Makefile 103952 2002-09-25 05:00:25Z scottl $
 
 .PATH: ${.CURDIR}/../../../dev/aac
 

@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)hash.h	8.3 (Berkeley) 5/31/94
- * $FreeBSD: stable/10/lib/libc/db/hash/hash.h 206178 2010-04-05 10:12:21Z avg $
+ * $FreeBSD: releng/10.1/lib/libc/db/hash/hash.h 206178 2010-04-05 10:12:21Z avg $
  */
 
 /* Operations */

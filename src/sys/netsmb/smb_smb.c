@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netsmb/smb_smb.c 227650 2011-11-18 03:05:20Z kevlo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netsmb/smb_smb.c 227650 2011-11-18 03:05:20Z kevlo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

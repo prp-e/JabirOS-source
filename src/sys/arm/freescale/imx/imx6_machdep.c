@@ -27,7 +27,7 @@
 #include "opt_platform.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/freescale/imx/imx6_machdep.c 270076 2014-08-17 01:32:33Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/freescale/imx/imx6_machdep.c 270076 2014-08-17 01:32:33Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/ia64/ia64/busdma_machdep.c 259510 2013-12-17 13:38:21Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/ia64/ia64/busdma_machdep.c 259510 2013-12-17 13:38:21Z kib $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

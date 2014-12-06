@@ -14,7 +14,7 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * $FreeBSD: stable/10/sys/dev/ath/ath_hal/ah_internal.h 252236 2013-06-26 04:46:03Z adrian $
+ * $FreeBSD: releng/10.1/sys/dev/ath/ath_hal/ah_internal.h 252236 2013-06-26 04:46:03Z adrian $
  */
 #ifndef _ATH_AH_INTERAL_H_
 #define _ATH_AH_INTERAL_H_

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/ath/ath_prom_read/Makefile 239161 2012-08-09 23:04:20Z adrian $
+# $FreeBSD: releng/10.1/tools/tools/ath/ath_prom_read/Makefile 239161 2012-08-09 23:04:20Z adrian $
 
 PROG=	ath_prom_read
 

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/bin/freebsd-version/Makefile 256241 2013-10-09 20:47:20Z des $
+# $FreeBSD: releng/10.1/bin/freebsd-version/Makefile 256241 2013-10-09 20:47:20Z des $
 
 SCRIPTS = freebsd-version
 MAN = freebsd-version.1

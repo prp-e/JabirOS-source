@@ -23,7 +23,7 @@
  * SUCH DAMAGE.
  */
 
-/* $FreeBSD: stable/10/sys/dev/netmap/netmap_offloadings.c 270252 2014-08-20 23:34:36Z luigi $ */
+/* $FreeBSD: releng/10.1/sys/dev/netmap/netmap_offloadings.c 270252 2014-08-20 23:34:36Z luigi $ */
 
 #if defined(__FreeBSD__)
 #include <sys/cdefs.h> /* prerequisite */

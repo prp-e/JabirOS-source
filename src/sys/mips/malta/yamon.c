@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/malta/yamon.c 254944 2013-08-27 01:08:55Z gonzo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/malta/yamon.c 254944 2013-08-27 01:08:55Z gonzo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

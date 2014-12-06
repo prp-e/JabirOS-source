@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/examples/ipfilter/Makefile 156190 2006-03-01 22:59:00Z ru $
+# $FreeBSD: releng/10.1/share/examples/ipfilter/Makefile 156190 2006-03-01 22:59:00Z ru $
 
 FILES=	README
 

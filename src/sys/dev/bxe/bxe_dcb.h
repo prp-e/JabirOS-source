@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/bxe/bxe_dcb.h 265797 2014-05-10 02:10:32Z davidcs $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/bxe/bxe_dcb.h 265797 2014-05-10 02:10:32Z davidcs $");
 
 #ifndef BXE_DCB_H
 #define BXE_DCB_H

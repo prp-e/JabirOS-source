@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libprocstat/libprocstat.c 262947 2014-03-09 13:23:49Z rwatson $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libprocstat/libprocstat.c 262947 2014-03-09 13:23:49Z rwatson $");
 
 #include <sys/param.h>
 #include <sys/elf.h>

@@ -22,7 +22,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/at/perm.h 87208 2001-12-02 12:26:18Z markm $
+ * $FreeBSD: releng/10.1/usr.bin/at/perm.h 87208 2001-12-02 12:26:18Z markm $
  */
 
 int check_permission(void);

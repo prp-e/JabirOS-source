@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/usr.sbin/rtadvd/config.h 224144 2011-07-17 19:24:54Z hrs $	*/
+/*	$FreeBSD: releng/10.1/usr.sbin/rtadvd/config.h 224144 2011-07-17 19:24:54Z hrs $	*/
 /*	$KAME: config.h,v 1.8 2003/06/17 08:26:22 itojun Exp $	*/
 
 /*

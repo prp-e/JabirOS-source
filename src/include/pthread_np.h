@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/include/pthread_np.h 218414 2011-02-07 21:26:46Z jkim $
+ * $FreeBSD: releng/10.1/include/pthread_np.h 218414 2011-02-07 21:26:46Z jkim $
  */
 #ifndef _PTHREAD_NP_H_
 #define _PTHREAD_NP_H_

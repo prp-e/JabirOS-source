@@ -1,4 +1,4 @@
-	# $FreeBSD: stable/10/secure/lib/libcrypto/amd64/sha256-x86_64.S 238405 2012-07-12 19:30:53Z jkim $
+	# $FreeBSD: releng/10.1/secure/lib/libcrypto/amd64/sha256-x86_64.S 238405 2012-07-12 19:30:53Z jkim $
 .text	
 
 .globl	sha256_block_data_order

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/freescale/vybrid/vf_dmamux.h 266170 2014-05-15 18:38:19Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/freescale/vybrid/vf_dmamux.h 266170 2014-05-15 18:38:19Z ian $
  */
 
 int dmamux_configure(int mux, int source, int channel, int enable);

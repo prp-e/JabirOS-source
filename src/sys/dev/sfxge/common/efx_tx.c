@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/sfxge/common/efx_tx.c 265884 2014-05-11 17:18:09Z gnn $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/sfxge/common/efx_tx.c 265884 2014-05-11 17:18:09Z gnn $");
 
 #include "efsys.h"
 #include "efx.h"

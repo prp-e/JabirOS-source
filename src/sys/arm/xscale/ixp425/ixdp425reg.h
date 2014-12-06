@@ -32,7 +32,7 @@
  * SUCH DAMAGE.
  */
 
-/* $FreeBSD: stable/10/sys/arm/xscale/ixp425/ixdp425reg.h 164763 2006-11-30 06:30:01Z kevlo $ */
+/* $FreeBSD: releng/10.1/sys/arm/xscale/ixp425/ixdp425reg.h 164763 2006-11-30 06:30:01Z kevlo $ */
 #ifndef	_IXDP425REG_H_
 #define	_IXDP425REG_H_
 /* GPIOs */

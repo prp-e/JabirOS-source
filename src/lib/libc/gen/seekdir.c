@@ -31,7 +31,7 @@
 static char sccsid[] = "@(#)seekdir.c	8.1 (Berkeley) 6/4/93";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/gen/seekdir.c 235647 2012-05-19 12:44:27Z gleb $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/gen/seekdir.c 235647 2012-05-19 12:44:27Z gleb $");
 
 #include "namespace.h"
 #include <sys/param.h>

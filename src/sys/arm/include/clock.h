@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/include/clock.h 162954 2006-10-02 12:59:59Z phk $
+ * $FreeBSD: releng/10.1/sys/arm/include/clock.h 162954 2006-10-02 12:59:59Z phk $
  */
 
 #ifndef	_MACHINE_CLOCK_H_

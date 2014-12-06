@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/cavium/cns11xx/econa.c 257342 2013-10-29 14:32:33Z nwhitehorn $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/cavium/cns11xx/econa.c 257342 2013-10-29 14:32:33Z nwhitehorn $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

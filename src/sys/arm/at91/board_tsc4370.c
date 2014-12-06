@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/at91/board_tsc4370.c 238465 2012-07-15 05:41:43Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/at91/board_tsc4370.c 238465 2012-07-15 05:41:43Z imp $");
 #include <sys/param.h>
 #include <sys/systm.h>
 

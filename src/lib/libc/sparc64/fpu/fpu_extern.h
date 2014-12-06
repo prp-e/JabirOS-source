@@ -27,7 +27,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  *	$NetBSD: fpu_extern.h,v 1.4 2000/08/03 18:32:08 eeh Exp $
- * $FreeBSD: stable/10/lib/libc/sparc64/fpu/fpu_extern.h 205393 2010-03-20 21:04:47Z marius $
+ * $FreeBSD: releng/10.1/lib/libc/sparc64/fpu/fpu_extern.h 205393 2010-03-20 21:04:47Z marius $
  */
 
 #ifndef _SPARC64_FPU_FPU_EXTERN_H_

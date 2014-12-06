@@ -1,7 +1,7 @@
 #
 # Custom kernel for EA3250 boards.
 #
-# $FreeBSD: stable/10/sys/arm/conf/EA3250 271428 2014-09-11 15:36:36Z ian $
+# $FreeBSD: releng/10.1/sys/arm/conf/EA3250 271428 2014-09-11 15:36:36Z ian $
 #
 
 ident		EA3250

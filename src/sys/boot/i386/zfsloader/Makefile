@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/i386/zfsloader/Makefile 212066 2010-08-31 19:01:12Z delphij $
+# $FreeBSD: releng/10.1/sys/boot/i386/zfsloader/Makefile 212066 2010-08-31 19:01:12Z delphij $
 
 .PATH:	${.CURDIR}/../loader
 

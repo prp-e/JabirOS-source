@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 5/31/93
-# $FreeBSD: stable/10/bin/cp/Makefile 192586 2009-05-22 15:56:43Z trasz $
+# $FreeBSD: releng/10.1/bin/cp/Makefile 192586 2009-05-22 15:56:43Z trasz $
 
 PROG=	cp
 SRCS=	cp.c utils.c

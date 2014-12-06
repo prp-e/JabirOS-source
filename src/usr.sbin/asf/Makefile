@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/asf/Makefile 201390 2010-01-02 11:07:44Z ed $
+# $FreeBSD: releng/10.1/usr.sbin/asf/Makefile 201390 2010-01-02 11:07:44Z ed $
 
 PROG=	asf
 SRCS=	asf.c asf_kld.c asf_kvm.c asf_prog.c

@@ -28,7 +28,7 @@
  * POSSIBILITY OF SUCH DAMAGES.
  *
  * $Id: //depot/users/kenm/FreeBSD-test2/sys/cam/ctl/ctl_debug.h#2 $
- * $FreeBSD: stable/10/sys/cam/ctl/ctl_debug.h 229997 2012-01-12 00:34:33Z ken $
+ * $FreeBSD: releng/10.1/sys/cam/ctl/ctl_debug.h 229997 2012-01-12 00:34:33Z ken $
  */
 /*
  * CAM Target Layer debugging interface.

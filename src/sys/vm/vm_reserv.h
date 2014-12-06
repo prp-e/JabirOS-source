@@ -28,7 +28,7 @@
  * WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/vm/vm_reserv.h 250577 2013-05-12 16:50:18Z alc $
+ * $FreeBSD: releng/10.1/sys/vm/vm_reserv.h 250577 2013-05-12 16:50:18Z alc $
  */
 
 /*

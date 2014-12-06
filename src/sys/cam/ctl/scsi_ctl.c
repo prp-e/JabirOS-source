@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/cam/ctl/scsi_ctl.c 269296 2014-07-30 07:18:32Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/cam/ctl/scsi_ctl.c 269296 2014-07-30 07:18:32Z mav $");
 
 #include <sys/param.h>
 #include <sys/queue.h>

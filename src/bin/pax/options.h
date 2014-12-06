@@ -31,7 +31,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)options.h	8.2 (Berkeley) 4/18/94
- * $FreeBSD: stable/10/bin/pax/options.h 127958 2004-04-06 20:06:54Z markm $
+ * $FreeBSD: releng/10.1/bin/pax/options.h 127958 2004-04-06 20:06:54Z markm $
  */
 
 /*

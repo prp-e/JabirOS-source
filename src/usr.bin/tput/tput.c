@@ -29,7 +29,7 @@
 
 #include <sys/cdefs.h>
 
-__FBSDID("$FreeBSD: stable/10/usr.bin/tput/tput.c 216370 2010-12-11 08:32:16Z joel $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/tput/tput.c 216370 2010-12-11 08:32:16Z joel $");
 
 #ifndef lint
 static const char copyright[] =

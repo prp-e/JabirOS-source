@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/tools/regression/tls/ttls2/ttls2.c 133066 2004-08-03 09:04:01Z dfr $ */
+/* $FreeBSD: releng/10.1/tools/regression/tls/ttls2/ttls2.c 133066 2004-08-03 09:04:01Z dfr $ */
 
 #include <stdio.h>
 #include <pthread.h>

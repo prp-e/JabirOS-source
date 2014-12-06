@@ -41,7 +41,7 @@ static char sccsid[] = "@(#)recvjob.c	8.2 (Berkeley) 4/27/95";
 #endif
 
 #include "lp.cdefs.h"		/* A cross-platform version of <sys/cdefs.h> */
-__FBSDID("$FreeBSD: stable/10/usr.sbin/lpr/lpd/recvjob.c 216372 2010-12-11 09:38:12Z joel $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/lpr/lpd/recvjob.c 216372 2010-12-11 09:38:12Z joel $");
 
 /*
  * Receive printer jobs from the network, queue them and

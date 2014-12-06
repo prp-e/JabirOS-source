@@ -34,7 +34,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/locate/code/locate.code.c 209571 2010-06-28 12:04:55Z gavin $
+ * $FreeBSD: releng/10.1/usr.bin/locate/code/locate.code.c 209571 2010-06-28 12:04:55Z gavin $
  */
 
 #if 0

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/powermac/atibl.c 271205 2014-09-06 19:38:40Z jhibbits $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/powermac/atibl.c 271205 2014-09-06 19:38:40Z jhibbits $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/regression/nfsmmap/test2/Makefile 139103 2004-12-21 08:47:35Z ru $
+# $FreeBSD: releng/10.1/tools/regression/nfsmmap/test2/Makefile 139103 2004-12-21 08:47:35Z ru $
 
 PROG= test2
 NO_MAN=

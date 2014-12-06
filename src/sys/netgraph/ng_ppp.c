@@ -58,7 +58,7 @@
  *
  * Authors: Archie Cobbs <archie@freebsd.org>, Alexander Motin <mav@alkar.net>
  *
- * $FreeBSD: stable/10/sys/netgraph/ng_ppp.c 243882 2012-12-05 08:04:20Z glebius $
+ * $FreeBSD: releng/10.1/sys/netgraph/ng_ppp.c 243882 2012-12-05 08:04:20Z glebius $
  * $Whistle: ng_ppp.c,v 1.24 1999/11/01 09:24:52 julian Exp $
  */
 

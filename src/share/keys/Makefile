@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/keys/Makefile 257150 2013-10-26 03:53:24Z bdrewery $
+# $FreeBSD: releng/10.1/share/keys/Makefile 257150 2013-10-26 03:53:24Z bdrewery $
 
 SUBDIR= pkg
 

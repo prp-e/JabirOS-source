@@ -7,7 +7,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/speaker/spkr.c 228443 2011-12-12 18:43:24Z mdf $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/speaker/spkr.c 228443 2011-12-12 18:43:24Z mdf $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

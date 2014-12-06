@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/usr.sbin/rtadvd/advcap.h 173412 2007-11-07 10:53:41Z kevlo $	*/
+/*	$FreeBSD: releng/10.1/usr.sbin/rtadvd/advcap.h 173412 2007-11-07 10:53:41Z kevlo $	*/
 /*	$KAME: advcap.h,v 1.5 2003/06/09 05:40:54 t-momose Exp $	*/
 
 /*

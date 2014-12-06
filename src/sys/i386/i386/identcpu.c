@@ -39,7 +39,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/i386/i386/identcpu.c 258159 2013-11-15 07:10:42Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/i386/i386/identcpu.c 258159 2013-11-15 07:10:42Z kib $");
 
 #include "opt_cpu.h"
 

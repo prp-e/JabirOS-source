@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/netipsec/key.h 220206 2011-03-31 15:23:32Z fabient $	*/
+/*	$FreeBSD: releng/10.1/sys/netipsec/key.h 220206 2011-03-31 15:23:32Z fabient $	*/
 /*	$KAME: key.h,v 1.21 2001/07/27 03:51:30 itojun Exp $	*/
 
 /*-

@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/dev/usb/wlan/if_rum.c 269266 2014-07-29 21:59:24Z hselasky $	*/
+/*	$FreeBSD: releng/10.1/sys/dev/usb/wlan/if_rum.c 269266 2014-07-29 21:59:24Z hselasky $	*/
 
 /*-
  * Copyright (c) 2005-2007 Damien Bergamini <damien.bergamini@free.fr>
@@ -19,7 +19,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/wlan/if_rum.c 269266 2014-07-29 21:59:24Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/wlan/if_rum.c 269266 2014-07-29 21:59:24Z hselasky $");
 
 /*-
  * Ralink Technology RT2501USB/RT2601USB chipset driver

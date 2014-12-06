@@ -16,7 +16,7 @@
 # Kerberos services are for Kerberos v4, and are unofficial.  Sites running
 # v5 should uncomment v5 entries and comment v4 entries.
 #
-# $FreeBSD: stable/10/etc/services 233506 2012-03-26 11:48:47Z ivoras $
+# $FreeBSD: releng/10.1/etc/services 233506 2012-03-26 11:48:47Z ivoras $
 #	From: @(#)services	5.8 (Berkeley) 5/9/91
 #
 # WELL KNOWN PORT NUMBERS

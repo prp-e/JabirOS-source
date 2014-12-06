@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/libkern/strchr.c 229366 2012-01-03 07:05:30Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/sys/libkern/strchr.c 229366 2012-01-03 07:05:30Z ed $");
 
 #include <sys/param.h>
 #include <sys/libkern.h>

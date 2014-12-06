@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/security/audit/audit_syscalls.c 241896 2012-10-22 17:50:54Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/security/audit/audit_syscalls.c 241896 2012-10-22 17:50:54Z kib $");
 
 #include <sys/param.h>
 #include <sys/mount.h>

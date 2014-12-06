@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/contrib/ipfilter/netinet/ip_fil_freebsd.c 267868 2014-06-25 13:33:31Z cy $	*/
+/*	$FreeBSD: releng/10.1/sys/contrib/ipfilter/netinet/ip_fil_freebsd.c 267868 2014-06-25 13:33:31Z cy $	*/
 
 /*
  * Copyright (C) 2012 by Darren Reed.

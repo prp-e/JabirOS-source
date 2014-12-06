@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/lindev/Makefile 197518 2009-09-26 12:45:28Z bz $
+# $FreeBSD: releng/10.1/sys/modules/lindev/Makefile 197518 2009-09-26 12:45:28Z bz $
 
 .PATH: ${.CURDIR}/../../dev/lindev
 

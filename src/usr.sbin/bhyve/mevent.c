@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bhyve/mevent.c 268953 2014-07-21 19:08:02Z jhb $
+ * $FreeBSD: releng/10.1/usr.sbin/bhyve/mevent.c 268953 2014-07-21 19:08:02Z jhb $
  */
 
 /*
@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/bhyve/mevent.c 268953 2014-07-21 19:08:02Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/bhyve/mevent.c 268953 2014-07-21 19:08:02Z jhb $");
 
 #include <assert.h>
 #include <errno.h>

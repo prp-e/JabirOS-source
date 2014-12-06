@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/gen/clock_getcpuclockid.c 239485 2012-08-21 09:17:13Z davidxu $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/gen/clock_getcpuclockid.c 239485 2012-08-21 09:17:13Z davidxu $");
 
 #include <errno.h>
 #include <time.h>

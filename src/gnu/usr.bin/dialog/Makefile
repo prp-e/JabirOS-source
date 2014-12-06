@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/usr.bin/dialog/Makefile 262643 2014-03-01 03:09:16Z brooks $
+# $FreeBSD: releng/10.1/gnu/usr.bin/dialog/Makefile 262643 2014-03-01 03:09:16Z brooks $
 
 DIALOG=	${.CURDIR}/../../../contrib/dialog
 PROG=   dialog

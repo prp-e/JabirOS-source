@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/net80211/wlanstats/Makefile 260096 2013-12-30 20:15:46Z dim $
+# $FreeBSD: releng/10.1/tools/tools/net80211/wlanstats/Makefile 260096 2013-12-30 20:15:46Z dim $
 
 .include <bsd.compiler.mk>
 

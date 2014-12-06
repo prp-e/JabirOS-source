@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/vt/vt_buf.c 271973 2014-09-22 16:13:33Z dumbbell $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/vt/vt_buf.c 271973 2014-09-22 16:13:33Z dumbbell $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/lib/libc/mips/Symbol.map 226606 2011-10-21 06:40:36Z das $
+ * $FreeBSD: releng/10.1/lib/libc/mips/Symbol.map 226606 2011-10-21 06:40:36Z das $
  */
 
 /*

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/mmc/Makefile 163519 2006-10-20 06:52:59Z imp $
+# $FreeBSD: releng/10.1/sys/modules/mmc/Makefile 163519 2006-10-20 06:52:59Z imp $
 
 .PATH: ${.CURDIR}/../../dev/mmc
 

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/iicbus/if_ic.c 255471 2013-09-11 09:19:44Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/iicbus/if_ic.c 255471 2013-09-11 09:19:44Z glebius $");
 
 /*
  * I2C bus IP driver

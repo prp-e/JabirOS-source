@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/net/if_faith.c 263478 2014-03-21 15:15:30Z glebius $
+ * $FreeBSD: releng/10.1/sys/net/if_faith.c 263478 2014-03-21 15:15:30Z glebius $
  */
 /*
  * derived from

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/ntp/ntpdc/Makefile 220370 2011-04-05 18:41:01Z obrien $
+# $FreeBSD: releng/10.1/usr.sbin/ntp/ntpdc/Makefile 220370 2011-04-05 18:41:01Z obrien $
 
 NO_MAN=
 

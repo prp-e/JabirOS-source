@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/compat/linux/linux_dtrace.h 260817 2014-01-17 10:58:59Z avg $
+ * $FreeBSD: releng/10.1/sys/compat/linux/linux_dtrace.h 260817 2014-01-17 10:58:59Z avg $
  */
 
 #ifndef _LINUX_DTRACE_H_

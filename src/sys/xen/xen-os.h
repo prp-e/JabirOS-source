@@ -24,7 +24,7 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
  * DEALINGS IN THE SOFTWARE.
  *
- * $FreeBSD: stable/10/sys/xen/xen-os.h 256747 2013-10-18 17:08:23Z dim $
+ * $FreeBSD: releng/10.1/sys/xen/xen-os.h 256747 2013-10-18 17:08:23Z dim $
  */
 
 #ifndef _XEN_XEN_OS_H_

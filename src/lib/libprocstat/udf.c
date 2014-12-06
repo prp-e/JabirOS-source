@@ -24,7 +24,7 @@
  * SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libprocstat/udf.c 221807 2011-05-12 10:11:39Z stas $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libprocstat/udf.c 221807 2011-05-12 10:11:39Z stas $");
 
 #include <sys/param.h>
 #include <sys/stat.h>

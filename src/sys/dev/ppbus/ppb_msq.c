@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ppbus/ppb_msq.c 227814 2011-11-22 11:35:24Z attilio $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ppbus/ppb_msq.c 227814 2011-11-22 11:35:24Z attilio $");
 #include <machine/stdarg.h>
 
 #include <sys/param.h>

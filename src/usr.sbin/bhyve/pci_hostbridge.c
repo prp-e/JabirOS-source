@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bhyve/pci_hostbridge.c 256755 2013-10-18 22:05:17Z grehan $
+ * $FreeBSD: releng/10.1/usr.sbin/bhyve/pci_hostbridge.c 256755 2013-10-18 22:05:17Z grehan $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/bhyve/pci_hostbridge.c 256755 2013-10-18 22:05:17Z grehan $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/bhyve/pci_hostbridge.c 256755 2013-10-18 22:05:17Z grehan $");
 
 #include "pci_emul.h"
 

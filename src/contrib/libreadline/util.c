@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/contrib/libreadline/util.c 157188 2006-03-27 23:11:32Z ache $ */
+/* $FreeBSD: releng/10.1/contrib/libreadline/util.c 157188 2006-03-27 23:11:32Z ache $ */
 /* util.c -- readline utility functions */
 
 /* Copyright (C) 1987-2005 Free Software Foundation, Inc.

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/ntp/doc/Makefile 201447 2010-01-03 22:29:06Z antoine $
+# $FreeBSD: releng/10.1/usr.sbin/ntp/doc/Makefile 201447 2010-01-03 22:29:06Z antoine $
 
 .include <bsd.own.mk>
 

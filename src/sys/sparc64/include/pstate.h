@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sparc64/include/pstate.h 88626 2001-12-29 07:01:34Z jake $
+ * $FreeBSD: releng/10.1/sys/sparc64/include/pstate.h 88626 2001-12-29 07:01:34Z jake $
  */
 
 #ifndef	_MACHINE_PSTATE_H_

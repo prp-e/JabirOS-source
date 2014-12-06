@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/wpa/wpa_passphrase/Makefile 252726 2013-07-04 21:12:58Z rpaulo $
+# $FreeBSD: releng/10.1/usr.sbin/wpa/wpa_passphrase/Makefile 252726 2013-07-04 21:12:58Z rpaulo $
 
 .include "${.CURDIR}/../Makefile.inc"
 

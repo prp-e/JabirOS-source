@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/netinet/ip_dummynet.h 239124 2012-08-07 07:52:25Z luigi $
+ * $FreeBSD: releng/10.1/sys/netinet/ip_dummynet.h 239124 2012-08-07 07:52:25Z luigi $
  */
 
 #ifndef _IP_DUMMYNET_H

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/mk/bsd.files.mk 260005 2013-12-28 16:08:10Z jmmv $
+# $FreeBSD: releng/10.1/share/mk/bsd.files.mk 260005 2013-12-28 16:08:10Z jmmv $
 
 .if !target(__<bsd.init.mk>__)
 .error bsd.files.mk cannot be included directly.

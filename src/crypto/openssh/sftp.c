@@ -1,5 +1,5 @@
 /* $OpenBSD: sftp.c,v 1.158 2013/11/20 20:54:10 deraadt Exp $ */
-/* $FreeBSD: stable/10/crypto/openssh/sftp.c 262566 2014-02-27 17:29:02Z des $ */
+/* $FreeBSD: releng/10.1/crypto/openssh/sftp.c 262566 2014-02-27 17:29:02Z des $ */
 /*
  * Copyright (c) 2001-2004 Damien Miller <djm@openbsd.org>
  *

@@ -27,7 +27,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: stable/10/sys/dev/mwl/mwlhal.h 218909 2011-02-21 09:01:34Z brucec $
+ * $FreeBSD: releng/10.1/sys/dev/mwl/mwlhal.h 218909 2011-02-21 09:01:34Z brucec $
  */
 
 #ifndef _MWL_HAL_H_

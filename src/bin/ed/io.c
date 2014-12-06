@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/bin/ed/io.c 241737 2012-10-19 14:49:42Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/bin/ed/io.c 241737 2012-10-19 14:49:42Z ed $");
 
 #include "ed.h"
 

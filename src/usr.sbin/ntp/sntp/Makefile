@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/ntp/sntp/Makefile 264598 2014-04-17 12:16:27Z des $
+# $FreeBSD: releng/10.1/usr.sbin/ntp/sntp/Makefile 264598 2014-04-17 12:16:27Z des $
 
 .PATH: ${.CURDIR}/../../../contrib/ntp/sntp
 

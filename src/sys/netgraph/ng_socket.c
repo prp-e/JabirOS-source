@@ -37,7 +37,7 @@
  *
  * Author: Julian Elischer <julian@freebsd.org>
  *
- * $FreeBSD: stable/10/sys/netgraph/ng_socket.c 231823 2012-02-16 14:44:52Z glebius $
+ * $FreeBSD: releng/10.1/sys/netgraph/ng_socket.c 231823 2012-02-16 14:44:52Z glebius $
  * $Whistle: ng_socket.c,v 1.28 1999/11/01 09:24:52 julian Exp $
  */
 

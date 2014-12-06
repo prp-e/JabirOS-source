@@ -21,7 +21,7 @@
  *
  * Portions Copyright 2008 John Birrell <jb@freebsd.org>
  *
- * $FreeBSD: stable/10/sys/cddl/dev/cyclic/cyclic.c 227293 2011-11-07 06:44:47Z ed $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/cyclic/cyclic.c 227293 2011-11-07 06:44:47Z ed $
  *
  * This is a simplified version of the cyclic timer subsystem from
  * OpenSolaris. In the FreeBSD version, we don't use interrupt levels.

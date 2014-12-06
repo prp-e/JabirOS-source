@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/event.h 264368 2014-04-12 14:08:53Z kib $
+ * $FreeBSD: releng/10.1/sys/sys/event.h 264368 2014-04-12 14:08:53Z kib $
  */
 
 #ifndef _SYS_EVENT_H_

@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/smbus/smbus.c 227843 2011-11-22 21:28:20Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/smbus/smbus.c 227843 2011-11-22 21:28:20Z marius $");
 #include <sys/param.h>
 #include <sys/systm.h>
 #include <sys/lock.h>

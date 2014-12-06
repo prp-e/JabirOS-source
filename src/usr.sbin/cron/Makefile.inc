@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/cron/Makefile.inc 147225 2005-06-10 06:12:53Z des $
+# $FreeBSD: releng/10.1/usr.sbin/cron/Makefile.inc 147225 2005-06-10 06:12:53Z des $
 
 LIBCRON= ${.OBJDIR}/../lib/libcron.a
 

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libdwarf/dwarf_loc.c 252430 2013-06-30 21:06:47Z kaiw $
+ * $FreeBSD: releng/10.1/lib/libdwarf/dwarf_loc.c 252430 2013-06-30 21:06:47Z kaiw $
  */
 
 #include <stdlib.h>

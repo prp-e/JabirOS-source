@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/drm/drm/Makefile 203287 2010-01-31 14:25:29Z rnoland $
+# $FreeBSD: releng/10.1/sys/modules/drm/drm/Makefile 203287 2010-01-31 14:25:29Z rnoland $
 
 .PATH:	${.CURDIR}/../../../dev/drm
 KMOD	= drm

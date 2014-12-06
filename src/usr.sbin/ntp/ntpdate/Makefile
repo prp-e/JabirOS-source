@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/ntp/ntpdate/Makefile 182008 2008-08-22 16:00:48Z roberto $
+# $FreeBSD: releng/10.1/usr.sbin/ntp/ntpdate/Makefile 182008 2008-08-22 16:00:48Z roberto $
 
 .PATH: ${.CURDIR}/../../../contrib/ntp/ntpdate
 

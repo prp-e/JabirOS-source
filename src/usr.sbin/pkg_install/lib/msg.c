@@ -19,7 +19,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/pkg_install/lib/msg.c 236213 2012-05-29 01:48:06Z kevlo $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/pkg_install/lib/msg.c 236213 2012-05-29 01:48:06Z kevlo $");
 
 #include "lib.h"
 #include <err.h>

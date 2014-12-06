@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_ntptime.c 253604 2013-07-24 09:45:31Z avg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_ntptime.c 253604 2013-07-24 09:45:31Z avg $");
 
 #include "opt_ntp.h"
 

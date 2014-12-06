@@ -60,7 +60,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/ufs/ffs/ffs_balloc.c 262779 2014-03-05 04:23:19Z pfg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/ufs/ffs/ffs_balloc.c 262779 2014-03-05 04:23:19Z pfg $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

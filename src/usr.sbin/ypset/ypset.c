@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/ypset/ypset.c 167128 2007-02-28 22:49:12Z jmallett $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/ypset/ypset.c 167128 2007-02-28 22:49:12Z jmallett $");
 
 #include <err.h>
 #include <netdb.h>

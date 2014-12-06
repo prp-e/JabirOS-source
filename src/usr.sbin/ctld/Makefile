@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/ctld/Makefile 270970 2014-09-02 16:14:16Z ngie $
+# $FreeBSD: releng/10.1/usr.sbin/ctld/Makefile 270970 2014-09-02 16:14:16Z ngie $
 
 PROG=		ctld
 SRCS=		ctld.c discovery.c kernel.c keys.c log.c login.c parse.y pdu.c token.l y.tab.h

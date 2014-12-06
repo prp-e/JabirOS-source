@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/mdconfig/mdconfig.c 253833 2013-07-31 07:06:58Z delphij $
+ * $FreeBSD: releng/10.1/sbin/mdconfig/mdconfig.c 273188 2014-10-16 22:00:24Z hrs $
  */
 
 #include <sys/param.h>
@@ -481,12 +481,18 @@ md_list(const char *units, int opt, const char *fflag)
 		printf("\n");
 	/* XXX: Check if it's enough to clean everything. */
 	geom_stats_snapshot_free(sq);
-	if (((opt & OPT_UNIT) && (fflag == NULL) && ufound) ||
-	    ((opt & OPT_UNIT) == 0 && (fflag != NULL) && ffound) ||
-	    ((opt & OPT_UNIT) && (fflag != NULL) && ufound && ffound))
-		return (0);
-	else
-		return (-1);
+	if (opt & OPT_UNIT) {
+		if (((fflag == NULL) && ufound) ||
+		    ((fflag == NULL) && (units != NULL) && ufound) ||
+		    ((fflag != NULL) && ffound) ||
+		    ((fflag != NULL) && (units != NULL) && ufound && ffound))
+			return (0);
+	} else if (opt & OPT_LIST) {
+		if ((fflag == NULL) ||
+		    ((fflag != NULL) && ffound))
+			return (0);
+	}
+	return (-1);
 }
 
 /*

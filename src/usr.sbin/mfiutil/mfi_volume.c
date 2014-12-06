@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/mfiutil/mfi_volume.c 249257 2013-04-08 17:46:45Z markj $
+ * $FreeBSD: releng/10.1/usr.sbin/mfiutil/mfi_volume.c 249257 2013-04-08 17:46:45Z markj $
  */
 
 #include <sys/types.h>

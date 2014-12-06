@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/booke/machdep_e500.c 265996 2014-05-14 00:51:26Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/booke/machdep_e500.c 265996 2014-05-14 00:51:26Z ian $");
 
 #include <sys/types.h>
 #include <sys/reboot.h>

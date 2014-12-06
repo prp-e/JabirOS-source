@@ -34,7 +34,7 @@
 static char sccsid[] = "@(#)fflush.c	8.1 (Berkeley) 6/4/93";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/stdio/fflush.c 270035 2014-08-16 01:29:49Z pfg $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/stdio/fflush.c 270035 2014-08-16 01:29:49Z pfg $");
 
 #include "namespace.h"
 #include <errno.h>

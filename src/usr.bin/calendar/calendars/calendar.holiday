@@ -1,7 +1,7 @@
 /*
  * Holiday
  *
- * $FreeBSD: stable/10/usr.bin/calendar/calendars/calendar.holiday 268752 2014-07-16 12:37:36Z gavin $
+ * $FreeBSD: releng/10.1/usr.bin/calendar/calendars/calendar.holiday 268752 2014-07-16 12:37:36Z gavin $
  */
 
 #ifndef _calendar_holiday_

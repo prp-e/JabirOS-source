@@ -25,7 +25,7 @@
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: stable/10/sys/sparc64/sparc64/support.S 239941 2012-08-31 11:15:01Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/sparc64/sparc64/support.S 239941 2012-08-31 11:15:01Z marius $");
 
 #include <sys/errno.h>
 

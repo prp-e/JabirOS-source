@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bsdinstall/partedit/partedit_sparc64.c 271636 2014-09-15 17:49:46Z emaste $
+ * $FreeBSD: releng/10.1/usr.sbin/bsdinstall/partedit/partedit_sparc64.c 271636 2014-09-15 17:49:46Z emaste $
  */
 
 #include <string.h>

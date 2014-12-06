@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/kerberos5/lib/libvers/Makefile 236422 2012-06-01 21:26:28Z obrien $
+# $FreeBSD: releng/10.1/kerberos5/lib/libvers/Makefile 236422 2012-06-01 21:26:28Z obrien $
 
 LIB=	vers
 INTERNALLIB=

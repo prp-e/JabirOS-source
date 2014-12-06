@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/vmm/io/vatpit.h 268891 2014-07-19 22:06:46Z jhb $
+ * $FreeBSD: releng/10.1/sys/amd64/vmm/io/vatpit.h 268891 2014-07-19 22:06:46Z jhb $
  */
 
 #ifndef _VATPIT_H_

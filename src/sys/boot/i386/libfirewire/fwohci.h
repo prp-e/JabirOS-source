@@ -30,7 +30,7 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  * 
- * $FreeBSD: stable/10/sys/boot/i386/libfirewire/fwohci.h 261455 2014-02-04 03:36:42Z eadler $
+ * $FreeBSD: releng/10.1/sys/boot/i386/libfirewire/fwohci.h 261455 2014-02-04 03:36:42Z eadler $
  *
  */
 

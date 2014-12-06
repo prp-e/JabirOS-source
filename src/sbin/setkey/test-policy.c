@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/setkey/test-policy.c 171135 2007-07-01 12:08:08Z gnn $
+ * $FreeBSD: releng/10.1/sbin/setkey/test-policy.c 171135 2007-07-01 12:08:08Z gnn $
  */
 
 #include <sys/types.h>

@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/gbde/gbde.c 264808 2014-04-23 09:22:24Z brueffer $
+ * $FreeBSD: releng/10.1/sbin/gbde/gbde.c 264808 2014-04-23 09:22:24Z brueffer $
  *
  * XXX: Future stuff
  *

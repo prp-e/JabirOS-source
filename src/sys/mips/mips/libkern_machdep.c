@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/mips/libkern_machdep.c 232896 2012-03-12 21:25:32Z jmallett $
+ * $FreeBSD: releng/10.1/sys/mips/mips/libkern_machdep.c 232896 2012-03-12 21:25:32Z jmallett $
  */
 
 /*

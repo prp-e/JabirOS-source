@@ -7,7 +7,7 @@
 #
 # Usage: make-memstick.sh <directory tree> <image filename>
 #
-# $FreeBSD: stable/10/release/amd64/make-uefi-memstick.sh 271318 2014-09-09 16:11:04Z emaste $
+# $FreeBSD: releng/10.1/release/amd64/make-uefi-memstick.sh 271318 2014-09-09 16:11:04Z emaste $
 #
 
 PATH=/bin:/usr/bin:/sbin:/usr/sbin

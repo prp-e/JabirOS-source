@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/i386/gptzfsboot/Makefile 271130 2014-09-04 20:35:53Z emaste $
+# $FreeBSD: releng/10.1/sys/boot/i386/gptzfsboot/Makefile 271130 2014-09-04 20:35:53Z emaste $
 
 .PATH:		${.CURDIR}/../boot2 ${.CURDIR}/../gptboot \
 		${.CURDIR}/../zfsboot ${.CURDIR}/../common \

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/regression/mac/mac_bsdextended/Makefile 145141 2005-04-16 12:06:40Z rwatson $
+# $FreeBSD: releng/10.1/tools/regression/mac/mac_bsdextended/Makefile 145141 2005-04-16 12:06:40Z rwatson $
 
 PROG=	test_ugidfw
 DPADD=	${LIBUGIDFW}

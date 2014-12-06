@@ -25,7 +25,7 @@
  */
 
 /*
- * $FreeBSD: stable/10/tools/tools/netmap/pkt-gen.c 270252 2014-08-20 23:34:36Z luigi $
+ * $FreeBSD: releng/10.1/tools/tools/netmap/pkt-gen.c 270252 2014-08-20 23:34:36Z luigi $
  * $Id: pkt-gen.c 12346 2013-06-12 17:36:25Z luigi $
  *
  * Example program to show how to build a multithreaded packet

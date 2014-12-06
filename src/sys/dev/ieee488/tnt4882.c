@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/ieee488/tnt4882.c 203360 2010-02-01 21:21:10Z joerg $
+ * $FreeBSD: releng/10.1/sys/dev/ieee488/tnt4882.c 203360 2010-02-01 21:21:10Z joerg $
  */
 
 #include <sys/param.h>

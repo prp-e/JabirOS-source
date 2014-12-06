@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/lockf/Makefile 90415 2002-02-08 22:31:43Z markm $
+# $FreeBSD: releng/10.1/usr.bin/lockf/Makefile 90415 2002-02-08 22:31:43Z markm $
 
 PROG=	lockf
 

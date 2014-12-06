@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/string/memmem.c 188080 2009-02-03 17:58:20Z danger $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/string/memmem.c 188080 2009-02-03 17:58:20Z danger $");
 
 #include <string.h>
 

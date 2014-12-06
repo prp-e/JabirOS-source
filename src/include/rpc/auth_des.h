@@ -1,5 +1,5 @@
 /*	@(#)auth_des.h	2.2 88/07/29 4.0 RPCSRC; from 1.3 88/02/08 SMI */
-/*	$FreeBSD: stable/10/include/rpc/auth_des.h 261046 2014-01-22 23:45:27Z mav $ */
+/*	$FreeBSD: releng/10.1/include/rpc/auth_des.h 261046 2014-01-22 23:45:27Z mav $ */
 /*-
  * Copyright (c) 2009, Sun Microsystems, Inc.
  * All rights reserved.

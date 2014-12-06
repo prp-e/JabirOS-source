@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/ntp/ntptime/Makefile 140941 2005-01-28 16:08:11Z ru $
+# $FreeBSD: releng/10.1/usr.sbin/ntp/ntptime/Makefile 140941 2005-01-28 16:08:11Z ru $
 
 .PATH: ${.CURDIR}/../../../contrib/ntp/util
 

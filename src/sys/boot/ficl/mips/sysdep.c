@@ -7,7 +7,7 @@
 **
 *******************************************************************/
 
-/* $FreeBSD: stable/10/sys/boot/ficl/mips/sysdep.c 188824 2009-02-19 18:52:31Z imp $ */
+/* $FreeBSD: releng/10.1/sys/boot/ficl/mips/sysdep.c 188824 2009-02-19 18:52:31Z imp $ */
 
 #ifdef TESTMAIN
 #include <stdio.h>

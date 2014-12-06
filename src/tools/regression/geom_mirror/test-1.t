@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/geom_mirror/test-1.t 153186 2005-12-07 01:27:23Z pjd $
+# $FreeBSD: releng/10.1/tools/regression/geom_mirror/test-1.t 153186 2005-12-07 01:27:23Z pjd $
 
 . `dirname $0`/conf.sh
 

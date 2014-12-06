@@ -76,7 +76,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/fpu/fpu_emu.c 266005 2014-05-14 04:57:55Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/fpu/fpu_emu.c 266005 2014-05-14 04:57:55Z ian $");
 
 #include "opt_ddb.h"
 

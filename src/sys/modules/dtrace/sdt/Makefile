@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/dtrace/sdt/Makefile 254319 2013-08-14 08:03:57Z uqs $
+# $FreeBSD: releng/10.1/sys/modules/dtrace/sdt/Makefile 254319 2013-08-14 08:03:57Z uqs $
 
 .PATH: ${.CURDIR}/../../../cddl/dev/sdt
 

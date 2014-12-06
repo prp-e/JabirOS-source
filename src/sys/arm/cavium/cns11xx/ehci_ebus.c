@@ -32,7 +32,7 @@
 
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/cavium/cns11xx/ehci_ebus.c 228483 2011-12-14 00:28:54Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/cavium/cns11xx/ehci_ebus.c 228483 2011-12-14 00:28:54Z hselasky $");
 
 #include "opt_bus.h"
 

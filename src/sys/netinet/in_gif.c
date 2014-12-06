@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/in_gif.c 243882 2012-12-05 08:04:20Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/in_gif.c 273188 2014-10-16 22:00:24Z hrs $");
 
 #include "opt_mrouting.h"
 #include "opt_inet.h"
@@ -169,6 +169,7 @@ in_gif_output(struct ifnet *ifp, int family, struct mbuf *m)
  			return ENOBUFS;
  		bcopy(&eiphdr, mtod(m, struct etherip_header *),
 		    sizeof(struct etherip_header));
+		tos = 0;
 		break;
 
 	default:
@@ -256,6 +257,7 @@ in_gif_output(struct ifnet *ifp, int family, struct mbuf *m)
 #endif
 	}
 
+	m->m_flags &= ~(M_BCAST|M_MCAST);
 	error = ip_output(m, NULL, &sc->gif_ro, 0, NULL, NULL);
 
 	if (!(GIF2IFP(sc)->if_flags & IFF_LINK0) &&

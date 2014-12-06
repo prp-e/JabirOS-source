@@ -44,7 +44,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/advansys/adwcam.c 259977 2013-12-28 00:16:58Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/advansys/adwcam.c 259977 2013-12-28 00:16:58Z dim $");
 
 #include <sys/param.h>
 #include <sys/conf.h>

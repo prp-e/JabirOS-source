@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/mii/smscphy.c 240851 2012-09-23 08:44:12Z kevlo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/mii/smscphy.c 240851 2012-09-23 08:44:12Z kevlo $");
 
 /*
  * Driver for the SMSC LAN8710A

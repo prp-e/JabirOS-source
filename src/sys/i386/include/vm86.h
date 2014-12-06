@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/i386/include/vm86.h 258559 2013-11-25 15:58:48Z emaste $
+ * $FreeBSD: releng/10.1/sys/i386/include/vm86.h 258559 2013-11-25 15:58:48Z emaste $
  */
 
 #ifndef _MACHINE_VM86_H_

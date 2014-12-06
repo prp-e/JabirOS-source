@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/compat/freebsd32/freebsd32_capability.c 255657 2013-09-17 20:48:19Z jilles $");
+__FBSDID("$FreeBSD: releng/10.1/sys/compat/freebsd32/freebsd32_capability.c 255657 2013-09-17 20:48:19Z jilles $");
 
 #include "opt_capsicum.h"
 

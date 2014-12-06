@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/net80211/ieee80211_ratectl.c 214894 2010-11-06 18:17:20Z bschmidt $");
+__FBSDID("$FreeBSD: releng/10.1/sys/net80211/ieee80211_ratectl.c 214894 2010-11-06 18:17:20Z bschmidt $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

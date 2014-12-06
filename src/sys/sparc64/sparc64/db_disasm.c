@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/sparc64/sparc64/db_disasm.c 190003 2009-03-18 23:52:20Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/sparc64/sparc64/db_disasm.c 190003 2009-03-18 23:52:20Z marius $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

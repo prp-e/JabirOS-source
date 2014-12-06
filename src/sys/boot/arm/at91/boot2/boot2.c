@@ -16,7 +16,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/arm/at91/boot2/boot2.c 235988 2012-05-25 09:36:39Z gleb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/arm/at91/boot2/boot2.c 235988 2012-05-25 09:36:39Z gleb $");
 
 #include <sys/param.h>
 #include <sys/disklabel.h>

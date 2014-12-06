@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/vt/hw/fb/vt_fb.h 271769 2014-09-18 14:38:18Z dumbbell $
+ * $FreeBSD: releng/10.1/sys/dev/vt/hw/fb/vt_fb.h 271769 2014-09-18 14:38:18Z dumbbell $
  */
 
 #ifndef _DEV_VT_HW_FB_VT_FB_H_

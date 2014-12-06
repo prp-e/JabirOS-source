@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/security/audit/audit.c 253078 2013-07-09 09:03:01Z avg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/security/audit/audit.c 253078 2013-07-09 09:03:01Z avg $");
 
 #include <sys/param.h>
 #include <sys/condvar.h>

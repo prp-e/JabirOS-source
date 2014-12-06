@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: stable/10/sys/ia64/include/pal.h 219841 2011-03-21 18:20:53Z marcel $
+ *	$FreeBSD: releng/10.1/sys/ia64/include/pal.h 219841 2011-03-21 18:20:53Z marcel $
  */
 
 #ifndef _MACHINE_PAL_H_

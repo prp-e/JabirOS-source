@@ -113,7 +113,7 @@
  * valid on the LANCE.
  */
 
-/* $FreeBSD: stable/10/sys/dev/le/lancereg.h 263687 2014-03-24 13:48:04Z emaste $ */
+/* $FreeBSD: releng/10.1/sys/dev/le/lancereg.h 263687 2014-03-24 13:48:04Z emaste $ */
 
 #ifndef _DEV_LE_LANCEREG_H_
 #define	_DEV_LE_LANCEREG_H_

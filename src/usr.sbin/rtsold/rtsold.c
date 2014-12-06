@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/rtsold/rtsold.c 254462 2013-08-17 19:23:35Z hrs $
+ * $FreeBSD: releng/10.1/usr.sbin/rtsold/rtsold.c 254462 2013-08-17 19:23:35Z hrs $
  */
 
 #include <sys/types.h>

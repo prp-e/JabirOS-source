@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/agp/agp_nvidia.c 243095 2012-11-15 18:49:17Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/agp/agp_nvidia.c 243095 2012-11-15 18:49:17Z eadler $");
 
 /*
  * Written using information gleaned from the

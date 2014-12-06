@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/iscsid/login.c 271706 2014-09-17 08:47:58Z trasz $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/iscsid/login.c 271706 2014-09-17 08:47:58Z trasz $");
 
 #include <sys/types.h>
 #include <sys/ioctl.h>

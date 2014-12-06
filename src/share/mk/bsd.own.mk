@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/mk/bsd.own.mk 272152 2014-09-26 03:03:58Z gjb $
+# $FreeBSD: releng/10.1/share/mk/bsd.own.mk 272322 2014-09-30 17:54:57Z delphij $
 #
 # The include file <bsd.own.mk> set common variables for owner,
 # group, mode, and directories. Defaults are in brackets.
@@ -437,6 +437,12 @@ __DEFAULT_YES_OPTIONS+=GNUCXX
 __DEFAULT_YES_OPTIONS+=FDT
 .else
 __DEFAULT_NO_OPTIONS+=FDT
+.endif
+# HyperV is only available for x86 and amd64.
+.if ${__T} == "amd64" || ${__T} == "i386"
+__DEFAULT_YES_OPTIONS+=HYPERV
+.else
+__DEFAULT_NO_OPTIONS+=HYPERV
 .endif
 .undef __T
 

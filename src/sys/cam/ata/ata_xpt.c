@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/cam/ata/ata_xpt.c 270645 2014-08-26 03:45:54Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/cam/ata/ata_xpt.c 270645 2014-08-26 03:45:54Z imp $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

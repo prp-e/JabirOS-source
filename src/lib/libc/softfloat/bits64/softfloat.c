@@ -45,7 +45,7 @@ this code that are retained.
 */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/softfloat/bits64/softfloat.c 230380 2012-01-20 14:44:21Z das $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/softfloat/bits64/softfloat.c 230380 2012-01-20 14:44:21Z das $");
 
 #ifdef SOFTFLOAT_FOR_GCC
 #include "softfloat-for-gcc.h"

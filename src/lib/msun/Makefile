@@ -1,5 +1,5 @@
 #  @(#)Makefile 5.1beta 93/09/24
-# $FreeBSD: stable/10/lib/msun/Makefile 271779 2014-09-18 15:10:22Z tijl $
+# $FreeBSD: releng/10.1/lib/msun/Makefile 271779 2014-09-18 15:10:22Z tijl $
 #
 #  ====================================================
 #  Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.

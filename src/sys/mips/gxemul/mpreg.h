@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/gxemul/mpreg.h 255212 2013-09-04 20:34:36Z gonzo $
+ * $FreeBSD: releng/10.1/sys/mips/gxemul/mpreg.h 255212 2013-09-04 20:34:36Z gonzo $
  */
 
 #ifndef	_MIPS_GXEMUL_MPREG_H_

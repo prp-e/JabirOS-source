@@ -37,7 +37,7 @@ static const char rcsid[] =
 #endif
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/systat/tcp.c 240605 2012-09-17 13:36:47Z melifaro $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/systat/tcp.c 240605 2012-09-17 13:36:47Z melifaro $");
 
 #include <sys/param.h>
 #include <sys/types.h>

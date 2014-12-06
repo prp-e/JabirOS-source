@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/crypto/openssh/krb5_config.h 255829 2013-09-23 20:35:54Z des $ */
+/* $FreeBSD: releng/10.1/crypto/openssh/krb5_config.h 255829 2013-09-23 20:35:54Z des $ */
 #define GSSAPI 1
 #define HAVE_DECL_GSS_C_NT_HOSTBASED_SERVICE 1
 #define HAVE_GSSAPI_GSSAPI_H 1

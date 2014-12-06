@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/sys/modules/usb/g_keyboard/Makefile 253544 2013-07-22 13:39:33Z hselasky $
+# $FreeBSD: releng/10.1/sys/modules/usb/g_keyboard/Makefile 253544 2013-07-22 13:39:33Z hselasky $
 #
 # Copyright (c) 2008 Hans Petter Selasky. All rights reserved.
 #

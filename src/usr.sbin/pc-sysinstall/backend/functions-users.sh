@@ -23,7 +23,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/usr.sbin/pc-sysinstall/backend/functions-users.sh 220059 2011-03-27 16:57:54Z jpaetzel $
+# $FreeBSD: releng/10.1/usr.sbin/pc-sysinstall/backend/functions-users.sh 220059 2011-03-27 16:57:54Z jpaetzel $
 
 # Functions which runs commands on the system
 

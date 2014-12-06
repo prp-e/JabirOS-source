@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/modules/dtrace/dtraceall/dtraceall.c 260813 2014-01-17 10:34:01Z avg $
+ * $FreeBSD: releng/10.1/sys/modules/dtrace/dtraceall/dtraceall.c 260813 2014-01-17 10:34:01Z avg $
  */
 
 #include <sys/cdefs.h>

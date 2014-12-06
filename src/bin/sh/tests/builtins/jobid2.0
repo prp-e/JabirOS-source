@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/bin/sh/tests/builtins/jobid2.0 254413 2013-08-16 13:56:43Z jilles $
+# $FreeBSD: releng/10.1/bin/sh/tests/builtins/jobid2.0 254413 2013-08-16 13:56:43Z jilles $
 
 : &
 p1=$(jobid)

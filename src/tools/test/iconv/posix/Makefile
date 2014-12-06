@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/test/iconv/posix/Makefile 219019 2011-02-25 00:04:39Z gabor $
+# $FreeBSD: releng/10.1/tools/test/iconv/posix/Makefile 219019 2011-02-25 00:04:39Z gabor $
 
 PROG=	posix
 NO_MAN=	yes

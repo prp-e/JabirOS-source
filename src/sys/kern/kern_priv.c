@@ -31,7 +31,7 @@
 #include "opt_kdtrace.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_priv.c 260817 2014-01-17 10:58:59Z avg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_priv.c 260817 2014-01-17 10:58:59Z avg $");
 
 #include <sys/param.h>
 #include <sys/jail.h>

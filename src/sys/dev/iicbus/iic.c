@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/iicbus/iic.c 270241 2014-08-20 19:12:19Z loos $
+ * $FreeBSD: releng/10.1/sys/dev/iicbus/iic.c 270241 2014-08-20 19:12:19Z loos $
  *
  */
 #include <sys/param.h>

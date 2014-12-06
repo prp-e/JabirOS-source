@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/vt/vt.h 271973 2014-09-22 16:13:33Z dumbbell $
+ * $FreeBSD: releng/10.1/sys/dev/vt/vt.h 273103 2014-10-14 19:01:11Z dumbbell $
  */
 
 #ifndef _DEV_VT_VT_H_
@@ -261,6 +261,7 @@ struct vt_window {
 	unsigned int		 vw_number;	/* (c) Window number. */
 	int			 vw_kbdmode;	/* (?) Keyboard mode. */
 	int			 vw_prev_kbdmode;/* (?) Previous mode. */
+	int			 vw_kbdstate;	/* (?) Keyboard state. */
 	int			 vw_grabbed;	/* (?) Grab count. */
 	char			*vw_kbdsq;	/* Escape sequence queue*/
 	unsigned int		 vw_flags;	/* (d) Per-window flags. */

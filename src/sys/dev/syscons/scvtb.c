@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/syscons/scvtb.c 146476 2005-05-21 20:28:15Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/syscons/scvtb.c 146476 2005-05-21 20:28:15Z marius $");
 
 #include "opt_syscons.h"
 

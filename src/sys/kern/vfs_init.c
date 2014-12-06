@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/vfs_init.c 270095 2014-08-17 09:07:21Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/vfs_init.c 270095 2014-08-17 09:07:21Z kib $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

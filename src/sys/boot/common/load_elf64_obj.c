@@ -1,5 +1,5 @@
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/common/load_elf64_obj.c 134459 2004-08-29 00:48:42Z iedowse $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/common/load_elf64_obj.c 134459 2004-08-29 00:48:42Z iedowse $");
 
 #define __ELF_WORD_SIZE 64
 

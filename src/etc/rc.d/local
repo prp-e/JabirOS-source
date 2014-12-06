@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/rc.d/local 179931 2008-06-22 16:23:39Z mtm $
+# $FreeBSD: releng/10.1/etc/rc.d/local 179931 2008-06-22 16:23:39Z mtm $
 #
 
 # PROVIDE: local

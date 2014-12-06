@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libz/zlib.pc 268902 2014-07-20 00:32:22Z bapt $
+# $FreeBSD: releng/10.1/lib/libz/zlib.pc 268902 2014-07-20 00:32:22Z bapt $
 prefix=/usr
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib

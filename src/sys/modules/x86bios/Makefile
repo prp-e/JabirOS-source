@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/x86bios/Makefile 211058 2010-08-08 06:18:05Z jkim $
+# $FreeBSD: releng/10.1/sys/modules/x86bios/Makefile 211058 2010-08-08 06:18:05Z jkim $
 
 KMOD=	x86bios
 SRCS=	opt_x86bios.h

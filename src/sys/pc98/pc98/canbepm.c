@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/pc98/pc98/canbepm.c 110333 2003-02-04 16:17:13Z nyan $
+ * $FreeBSD: releng/10.1/sys/pc98/pc98/canbepm.c 110333 2003-02-04 16:17:13Z nyan $
  */
 
 #include <sys/param.h>

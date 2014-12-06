@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/rpc.statd/procs.c 168276 2007-04-02 18:59:48Z matteo $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/rpc.statd/procs.c 168276 2007-04-02 18:59:48Z matteo $");
 
 #include <errno.h>
 #include <stdio.h>

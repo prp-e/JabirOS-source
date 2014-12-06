@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/aacraid/aacraid_linux/Makefile 250963 2013-05-24 09:22:43Z achim $
+# $FreeBSD: releng/10.1/sys/modules/aacraid/aacraid_linux/Makefile 250963 2013-05-24 09:22:43Z achim $
 
 .PATH: ${.CURDIR}/../../../dev/aacraid
 

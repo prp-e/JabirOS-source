@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/portsnap/make_index/make_index.c 152997 2005-12-01 22:14:44Z cperciva $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/portsnap/make_index/make_index.c 152997 2005-12-01 22:14:44Z cperciva $");
 
 #include <err.h>
 #include <stdio.h>

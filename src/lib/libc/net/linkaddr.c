@@ -31,7 +31,7 @@
 static char sccsid[] = "@(#)linkaddr.c	8.1 (Berkeley) 6/4/93";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/net/linkaddr.c 270032 2014-08-16 01:00:37Z pfg $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/net/linkaddr.c 270032 2014-08-16 01:00:37Z pfg $");
 
 #include <sys/types.h>
 #include <sys/socket.h>

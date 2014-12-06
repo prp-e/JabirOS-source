@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/efi/libefi/Makefile 271880 2014-09-19 21:30:45Z emaste $
+# $FreeBSD: releng/10.1/sys/boot/efi/libefi/Makefile 271880 2014-09-19 21:30:45Z emaste $
 
 LIB=	efi
 INTERNALLIB=

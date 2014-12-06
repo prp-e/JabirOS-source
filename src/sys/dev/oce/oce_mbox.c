@@ -36,7 +36,7 @@
  * Costa Mesa, CA 92626
  */
 
-/* $FreeBSD: stable/10/sys/dev/oce/oce_mbox.c 268046 2014-06-30 16:23:31Z delphij $ */
+/* $FreeBSD: releng/10.1/sys/dev/oce/oce_mbox.c 268046 2014-06-30 16:23:31Z delphij $ */
 
 #include "oce_if.h"
 extern uint32_t sfp_vpd_dump_buffer[TRANSCEIVER_DATA_NUM_ELE];

@@ -23,7 +23,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/sys/powerpc/powerpc/mmu_if.m 270920 2014-09-01 07:58:15Z kib $
+# $FreeBSD: releng/10.1/sys/powerpc/powerpc/mmu_if.m 270920 2014-09-01 07:58:15Z kib $
 #
 
 #include <sys/param.h>

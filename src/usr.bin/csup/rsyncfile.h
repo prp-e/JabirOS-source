@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/csup/rsyncfile.h 204556 2010-03-02 07:26:07Z lulf $
+ * $FreeBSD: releng/10.1/usr.bin/csup/rsyncfile.h 204556 2010-03-02 07:26:07Z lulf $
  */
 
 #ifndef _RSYNCFILE_H_

@@ -29,7 +29,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/usb/net/if_cuereg.h 251674 2013-06-13 01:33:01Z kevlo $
+ * $FreeBSD: releng/10.1/sys/dev/usb/net/if_cuereg.h 251674 2013-06-13 01:33:01Z kevlo $
  */
 
 /*

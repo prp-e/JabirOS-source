@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/gstat/gstat.c 268791 2014-07-17 06:36:22Z delphij $
+ * $FreeBSD: releng/10.1/usr.sbin/gstat/gstat.c 268791 2014-07-17 06:36:22Z delphij $
  */
 
 

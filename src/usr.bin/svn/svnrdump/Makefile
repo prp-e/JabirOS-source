@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/svn/svnrdump/Makefile 251886 2013-06-18 02:53:45Z peter $
+# $FreeBSD: releng/10.1/usr.bin/svn/svnrdump/Makefile 251886 2013-06-18 02:53:45Z peter $
 
 NO_MAN=	svnrdump.1
 

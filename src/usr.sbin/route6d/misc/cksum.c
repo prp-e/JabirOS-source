@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/route6d/misc/cksum.c 55163 1999-12-28 02:37:14Z shin $
+ * $FreeBSD: releng/10.1/usr.sbin/route6d/misc/cksum.c 55163 1999-12-28 02:37:14Z shin $
  */
 
 #include <stdio.h>

@@ -22,7 +22,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/limits/limits.c 230549 2012-01-25 20:14:41Z trociny $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/limits/limits.c 230549 2012-01-25 20:14:41Z trociny $");
 
 #include <err.h>
 #include <stdio.h>

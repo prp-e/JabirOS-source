@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/powerd/Makefile 203482 2010-02-04 07:26:26Z imp $
+# $FreeBSD: releng/10.1/usr.sbin/powerd/Makefile 203482 2010-02-04 07:26:26Z imp $
 
 PROG=	powerd
 MAN=	powerd.8

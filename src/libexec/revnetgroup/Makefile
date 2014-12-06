@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/libexec/revnetgroup/Makefile 201380 2010-01-02 09:50:19Z ed $
+# $FreeBSD: releng/10.1/libexec/revnetgroup/Makefile 201380 2010-01-02 09:50:19Z ed $
 
 PROG=	revnetgroup
 SRCS=	revnetgroup.c hash.c parse_netgroup.c

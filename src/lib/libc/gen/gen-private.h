@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/gen/gen-private.h 270002 2014-08-14 20:20:21Z jhb $
+ * $FreeBSD: releng/10.1/lib/libc/gen/gen-private.h 270002 2014-08-14 20:20:21Z jhb $
  */
 
 #ifndef _GEN_PRIVATE_H_

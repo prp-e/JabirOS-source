@@ -39,7 +39,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/ttm/ttm_page_alloc.c 254879 2013-08-25 15:33:17Z dumbbell $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/ttm/ttm_page_alloc.c 254879 2013-08-25 15:33:17Z dumbbell $");
 
 #include <dev/drm2/drmP.h>
 #include <dev/drm2/ttm/ttm_bo_driver.h>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/include/metadata.h 270974 2014-09-02 18:54:40Z emaste $
+ * $FreeBSD: releng/10.1/sys/amd64/include/metadata.h 270974 2014-09-02 18:54:40Z emaste $
  */
 
 #ifndef _MACHINE_METADATA_H_

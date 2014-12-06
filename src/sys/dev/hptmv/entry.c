@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/hptmv/entry.c 267457 2014-06-14 00:44:57Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/hptmv/entry.c 267457 2014-06-14 00:44:57Z delphij $");
  
 #include <sys/param.h>
 #include <sys/systm.h>

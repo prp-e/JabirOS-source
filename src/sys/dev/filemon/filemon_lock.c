@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/filemon/filemon_lock.c 236592 2012-06-04 22:54:19Z obrien $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/filemon/filemon_lock.c 236592 2012-06-04 22:54:19Z obrien $");
 
 static void
 filemon_filemon_lock(struct filemon *filemon)

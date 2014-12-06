@@ -1,7 +1,7 @@
 /*
  * 16 Feb 93	Julian Elischer	(julian@dialix.oz.au)
  *
- * $FreeBSD: stable/10/sys/sys/cdio.h 141031 2005-01-30 08:12:37Z sobomax $
+ * $FreeBSD: releng/10.1/sys/sys/cdio.h 141031 2005-01-30 08:12:37Z sobomax $
  */
 
 /*

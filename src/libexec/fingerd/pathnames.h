@@ -28,7 +28,7 @@
  *
  *	@(#)pathnames.h	8.1 (Berkeley) 6/4/93
  *
- * $FreeBSD: stable/10/libexec/fingerd/pathnames.h 262435 2014-02-24 08:21:49Z brueffer $
+ * $FreeBSD: releng/10.1/libexec/fingerd/pathnames.h 262435 2014-02-24 08:21:49Z brueffer $
  */
 
 #define	_PATH_FINGER	"/usr/bin/finger"

@@ -1,5 +1,5 @@
 # From:	@(#)Makefile	8.3 (Berkeley) 4/2/94
-# $FreeBSD: stable/10/usr.bin/passwd/Makefile 243617 2012-11-27 16:23:12Z pjd $
+# $FreeBSD: releng/10.1/usr.bin/passwd/Makefile 243617 2012-11-27 16:23:12Z pjd $
 
 .include <bsd.own.mk>
 

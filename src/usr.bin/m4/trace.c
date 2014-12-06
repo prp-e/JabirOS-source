@@ -24,7 +24,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/m4/trace.c 228063 2011-11-28 13:32:39Z bapt $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/m4/trace.c 228063 2011-11-28 13:32:39Z bapt $");
 
 #include <err.h>
 #include <stddef.h>

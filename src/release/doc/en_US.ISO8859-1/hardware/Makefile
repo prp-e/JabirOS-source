@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/release/doc/en_US.ISO8859-1/hardware/Makefile 250805 2013-05-19 05:49:21Z hrs $
+# $FreeBSD: releng/10.1/release/doc/en_US.ISO8859-1/hardware/Makefile 250805 2013-05-19 05:49:21Z hrs $
 
 RELN_ROOT?= ${.CURDIR}/../..
 

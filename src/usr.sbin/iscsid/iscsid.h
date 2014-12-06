@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/iscsid/iscsid.h 268703 2014-07-15 18:21:26Z mav $
+ * $FreeBSD: releng/10.1/usr.sbin/iscsid/iscsid.h 268703 2014-07-15 18:21:26Z mav $
  */
 
 #ifndef ISCSID_H

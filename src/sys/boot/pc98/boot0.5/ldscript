@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/sys/boot/pc98/boot0.5/ldscript 168457 2007-04-07 08:37:04Z kato $
+ * $FreeBSD: releng/10.1/sys/boot/pc98/boot0.5/ldscript 168457 2007-04-07 08:37:04Z kato $
  */
 
 SECTIONS

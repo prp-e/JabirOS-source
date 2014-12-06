@@ -31,7 +31,7 @@
 static char sccsid[] = "@(#)signal.c	8.1 (Berkeley) 6/4/93";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/gen/signal.c 252429 2013-06-30 20:51:15Z jilles $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/gen/signal.c 252429 2013-06-30 20:51:15Z jilles $");
 
 /*
  * Almost backwards compatible signal.

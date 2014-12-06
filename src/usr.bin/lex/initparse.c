@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/usr.bin/lex/initparse.c 250881 2013-05-21 19:32:35Z jkim $ */
+/* $FreeBSD: releng/10.1/usr.bin/lex/initparse.c 250881 2013-05-21 19:32:35Z jkim $ */
 #ifndef lint
 static const char yysccsid[] = "@(#)yaccpar	1.9 (Berkeley) 02/21/93";
 #endif

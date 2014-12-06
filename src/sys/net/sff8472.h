@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/net/sff8472.h 261860 2014-02-14 00:26:30Z gnn $
+ * $FreeBSD: releng/10.1/sys/net/sff8472.h 261860 2014-02-14 00:26:30Z gnn $
  */
 
 /*

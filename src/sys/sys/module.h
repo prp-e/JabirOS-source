@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/module.h 213716 2010-10-12 09:18:17Z kib $
+ * $FreeBSD: releng/10.1/sys/sys/module.h 213716 2010-10-12 09:18:17Z kib $
  */
 
 #ifndef _SYS_MODULE_H_

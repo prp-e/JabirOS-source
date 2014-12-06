@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/gxemul/disk/gxemul_diskreg.h 255212 2013-09-04 20:34:36Z gonzo $
+ * $FreeBSD: releng/10.1/sys/dev/gxemul/disk/gxemul_diskreg.h 255212 2013-09-04 20:34:36Z gonzo $
  */
 
 #ifndef	_DEV_GXEMUL_DISK_GXEMUL_DISK_H_

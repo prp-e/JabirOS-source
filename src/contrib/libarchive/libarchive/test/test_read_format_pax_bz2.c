@@ -23,7 +23,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 #include "test.h"
-__FBSDID("$FreeBSD: stable/10/contrib/libarchive/libarchive/test/test_read_format_pax_bz2.c 248616 2013-03-22 13:36:03Z mm $");
+__FBSDID("$FreeBSD: releng/10.1/contrib/libarchive/libarchive/test/test_read_format_pax_bz2.c 248616 2013-03-22 13:36:03Z mm $");
 
 static unsigned char archive[] = {
 'B','Z','h','9','1','A','Y','&','S','Y',152,180,30,185,0,0,140,127,176,212,

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libc/powerpc64/sys/Makefile.inc 209878 2010-07-10 14:45:03Z nwhitehorn $
+# $FreeBSD: releng/10.1/lib/libc/powerpc64/sys/Makefile.inc 209878 2010-07-10 14:45:03Z nwhitehorn $
 
 MDASM+=	brk.S cerror.S exect.S pipe.S ptrace.S sbrk.S setlogin.S
 

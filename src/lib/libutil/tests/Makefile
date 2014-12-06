@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libutil/tests/Makefile 269904 2014-08-13 04:56:27Z ngie $
+# $FreeBSD: releng/10.1/lib/libutil/tests/Makefile 269904 2014-08-13 04:56:27Z ngie $
 
 TESTSDIR=	${TESTSBASE}/lib/libutil
 

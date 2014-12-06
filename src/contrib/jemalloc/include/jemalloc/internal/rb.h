@@ -23,7 +23,7 @@
 #define	RB_H_
 
 #if 0
-__FBSDID("$FreeBSD: stable/10/contrib/jemalloc/include/jemalloc/internal/rb.h 234370 2012-04-17 07:22:14Z jasone $");
+__FBSDID("$FreeBSD: releng/10.1/contrib/jemalloc/include/jemalloc/internal/rb.h 234370 2012-04-17 07:22:14Z jasone $");
 #endif
 
 #ifdef RB_COMPACT

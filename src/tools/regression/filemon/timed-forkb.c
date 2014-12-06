@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/filemon/timed-forkb.c 251174 2013-05-31 04:27:41Z obrien $
+ * $FreeBSD: releng/10.1/tools/regression/filemon/timed-forkb.c 251174 2013-05-31 04:27:41Z obrien $
  */
 
 #include <sys/types.h>

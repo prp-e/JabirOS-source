@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/iscsi/icl.h 265513 2014-05-07 07:37:55Z trasz $
+ * $FreeBSD: releng/10.1/sys/dev/iscsi/icl.h 265513 2014-05-07 07:37:55Z trasz $
  */
 
 #ifndef ICL_H

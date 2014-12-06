@@ -28,7 +28,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/makefs/ffs/ufs_bswap.h 253675 2013-07-26 14:22:03Z marius $
+ * $FreeBSD: releng/10.1/usr.sbin/makefs/ffs/ufs_bswap.h 253675 2013-07-26 14:22:03Z marius $
  */
 
 #ifndef _UFS_UFS_BSWAP_H_

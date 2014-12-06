@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/cam/ctl/ctl_tpc.h 269296 2014-07-30 07:18:32Z mav $
+ * $FreeBSD: releng/10.1/sys/cam/ctl/ctl_tpc.h 269296 2014-07-30 07:18:32Z mav $
  */
 
 #ifndef	_CTL_TPC_H

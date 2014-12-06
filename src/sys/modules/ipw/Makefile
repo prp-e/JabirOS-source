@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/ipw/Makefile 150636 2005-09-27 18:10:43Z mlaier $
+# $FreeBSD: releng/10.1/sys/modules/ipw/Makefile 150636 2005-09-27 18:10:43Z mlaier $
 
 .PATH: ${.CURDIR}/../../dev/ipw
 

@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/net/if_mosreg.h 232257 2012-02-28 15:45:42Z kevlo $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/net/if_mosreg.h 232257 2012-02-28 15:45:42Z kevlo $ */
 /*-
  * Copyright (c) 2010, 2011 Rick van der Zwet <info@rickvanderzwet.nl>
  *

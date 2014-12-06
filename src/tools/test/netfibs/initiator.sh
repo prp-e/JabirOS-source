@@ -27,7 +27,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/tools/test/netfibs/initiator.sh 232609 2012-03-06 14:19:36Z bz $
+# $FreeBSD: releng/10.1/tools/test/netfibs/initiator.sh 232609 2012-03-06 14:19:36Z bz $
 #
 
 # We will use the RFC5180 (and Errata) benchmarking working group prefix

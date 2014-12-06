@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/sound/driver/ai2s/Makefile 264375 2014-04-12 19:57:15Z andreast $
+# $FreeBSD: releng/10.1/sys/modules/sound/driver/ai2s/Makefile 264375 2014-04-12 19:57:15Z andreast $
 
 .PATH: ${.CURDIR}/../../../../dev/sound/macio
 

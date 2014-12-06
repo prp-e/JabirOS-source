@@ -23,7 +23,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/usr.sbin/pc-sysinstall/backend-query/xkeyboard-variants.sh 211730 2010-08-24 06:11:46Z imp $
+# $FreeBSD: releng/10.1/usr.sbin/pc-sysinstall/backend-query/xkeyboard-variants.sh 211730 2010-08-24 06:11:46Z imp $
 
 FOUND="0"
 

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/zfsboottest/Makefile 260735 2014-01-16 14:24:33Z avg $
+# $FreeBSD: releng/10.1/tools/tools/zfsboottest/Makefile 260735 2014-01-16 14:24:33Z avg $
 
 .PATH:		${.CURDIR}/../../../sys/boot/zfs ${.CURDIR}/../../../sys/cddl/boot/zfs
 

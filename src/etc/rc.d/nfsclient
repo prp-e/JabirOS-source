@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/rc.d/nfsclient 222993 2011-06-11 21:14:22Z rmacklem $
+# $FreeBSD: releng/10.1/etc/rc.d/nfsclient 222993 2011-06-11 21:14:22Z rmacklem $
 #
 
 # PROVIDE: nfsclient

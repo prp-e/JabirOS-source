@@ -1,5 +1,5 @@
 # Makefile for libpcap
-# $FreeBSD: stable/10/lib/libpcap/Makefile 235426 2012-05-14 05:12:56Z delphij $
+# $FreeBSD: releng/10.1/lib/libpcap/Makefile 235426 2012-05-14 05:12:56Z delphij $
 
 SHLIBDIR?= /lib
 

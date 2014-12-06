@@ -1,5 +1,5 @@
 # $Id: Makefile,v 1.1 2005/06/23 00:30:50 max Exp $
-# $FreeBSD: stable/10/sys/modules/kbdmux/Makefile 162711 2006-09-27 19:57:02Z ru $
+# $FreeBSD: releng/10.1/sys/modules/kbdmux/Makefile 162711 2006-09-27 19:57:02Z ru $
 
 .PATH: ${.CURDIR}/../../dev/kbdmux
 

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/cxgb/sys/uipc_mvec.c 251263 2013-06-02 18:10:16Z alc $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/cxgb/sys/uipc_mvec.c 251263 2013-06-02 18:10:16Z alc $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

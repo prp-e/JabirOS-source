@@ -28,7 +28,7 @@
  *
  * LSI MPT-Fusion Host Adapter FreeBSD
  *
- * $FreeBSD: stable/10/sys/dev/mpr/mpi/mpi2_ioc.h 265236 2014-05-02 20:25:09Z ken $
+ * $FreeBSD: releng/10.1/sys/dev/mpr/mpi/mpi2_ioc.h 265236 2014-05-02 20:25:09Z ken $
  */
 
 /*

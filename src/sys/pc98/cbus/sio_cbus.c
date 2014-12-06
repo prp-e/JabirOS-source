@@ -22,7 +22,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/pc98/cbus/sio_cbus.c 146216 2005-05-14 10:51:16Z nyan $
+ * $FreeBSD: releng/10.1/sys/pc98/cbus/sio_cbus.c 146216 2005-05-14 10:51:16Z nyan $
  */
 
 #include <sys/param.h>

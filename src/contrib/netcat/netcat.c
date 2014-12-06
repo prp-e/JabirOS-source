@@ -25,7 +25,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/contrib/netcat/netcat.c 264911 2014-04-25 04:49:27Z delphij $
+ * $FreeBSD: releng/10.1/contrib/netcat/netcat.c 264911 2014-04-25 04:49:27Z delphij $
  */
 
 /*

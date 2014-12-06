@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/csu/ia64/crtn.S 216338 2010-12-09 21:31:21Z dim $
+ * $FreeBSD: releng/10.1/lib/csu/ia64/crtn.S 216338 2010-12-09 21:31:21Z dim $
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: stable/10/lib/csu/ia64/crtn.S 216338 2010-12-09 21:31:21Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/lib/csu/ia64/crtn.S 216338 2010-12-09 21:31:21Z dim $");
 
 	.file	"crtn.S"
 

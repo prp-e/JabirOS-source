@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/amd64/sys/amd64_get_fsbase.c 124296 2004-01-09 16:52:09Z nectar $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/amd64/sys/amd64_get_fsbase.c 124296 2004-01-09 16:52:09Z nectar $");
 
 #include <machine/sysarch.h>
 

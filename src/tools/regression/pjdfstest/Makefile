@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/regression/pjdfstest/Makefile 248603 2013-03-21 23:07:04Z pjd $
+# $FreeBSD: releng/10.1/tools/regression/pjdfstest/Makefile 248603 2013-03-21 23:07:04Z pjd $
 
 PROG=	pjdfstest
 

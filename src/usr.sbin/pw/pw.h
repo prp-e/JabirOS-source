@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/pw/pw.h 268346 2014-07-06 23:24:06Z bapt $
+ * $FreeBSD: releng/10.1/usr.sbin/pw/pw.h 268346 2014-07-06 23:24:06Z bapt $
  */
 
 #define _WITH_GETLINE

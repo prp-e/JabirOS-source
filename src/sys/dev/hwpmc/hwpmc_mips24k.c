@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/hwpmc/hwpmc_mips24k.c 233319 2012-03-22 18:01:23Z gonzo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/hwpmc/hwpmc_mips24k.c 233319 2012-03-22 18:01:23Z gonzo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

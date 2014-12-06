@@ -25,7 +25,7 @@
  * SUCH DAMAGE.
  */
 
-/* $FreeBSD: stable/10/sys/arm/at91/at91sam9g45reg.h 266110 2014-05-15 02:41:23Z ian $ */
+/* $FreeBSD: releng/10.1/sys/arm/at91/at91sam9g45reg.h 266110 2014-05-15 02:41:23Z ian $ */
 
 #ifndef AT91SAM9G45REG_H_
 #define	AT91SAM9G45REG_H_

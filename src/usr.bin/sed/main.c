@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/sed/main.c 268325 2014-07-06 17:29:19Z pfg $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/sed/main.c 268325 2014-07-06 17:29:19Z pfg $");
 
 #ifndef lint
 static const char copyright[] =

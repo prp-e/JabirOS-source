@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/spray/Makefile 80029 2001-07-20 06:20:32Z obrien $
+# $FreeBSD: releng/10.1/usr.sbin/spray/Makefile 80029 2001-07-20 06:20:32Z obrien $
 
 PROG=	spray
 MAN=	spray.8

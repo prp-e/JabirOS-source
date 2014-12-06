@@ -41,7 +41,7 @@
 static char sccsid[] = "@(#)trace.c	8.1 (Berkeley) 6/5/93";
 #endif
 static const char rcsid[] =
-  "$FreeBSD: stable/10/usr.sbin/IPXrouted/trace.c 173709 2007-11-17 23:09:39Z jb $";
+  "$FreeBSD: releng/10.1/usr.sbin/IPXrouted/trace.c 173709 2007-11-17 23:09:39Z jb $";
 #endif /* not lint */
 
 /*

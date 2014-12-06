@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/i18n/esdb/UTF/UTF.alias 260249 2014-01-03 23:36:03Z peter $ 
+# $FreeBSD: releng/10.1/share/i18n/esdb/UTF/UTF.alias 260249 2014-01-03 23:36:03Z peter $ 
 # $NetBSD: UTF.alias,v 1.5 2007/12/17 14:06:57 joerg Exp $
 
 7		csunicode11utf7

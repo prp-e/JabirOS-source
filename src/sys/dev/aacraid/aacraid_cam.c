@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/aacraid/aacraid_cam.c 263024 2014-03-11 14:59:34Z achim $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/aacraid/aacraid_cam.c 263024 2014-03-11 14:59:34Z achim $");
 
 /*
  * CAM front-end for communicating with non-DASD devices

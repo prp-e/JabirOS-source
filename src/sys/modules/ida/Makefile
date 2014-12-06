@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/ida/Makefile 124367 2004-01-11 07:01:30Z mdodd $
+# $FreeBSD: releng/10.1/sys/modules/ida/Makefile 124367 2004-01-11 07:01:30Z mdodd $
 
 .PATH:	${.CURDIR}/../../dev/ida
 

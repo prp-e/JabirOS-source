@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm/r600_blit.c 261455 2014-02-04 03:36:42Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm/r600_blit.c 261455 2014-02-04 03:36:42Z eadler $");
 
 #include "dev/drm/drmP.h"
 #include "dev/drm/drm.h"

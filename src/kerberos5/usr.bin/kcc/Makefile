@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/kerberos5/usr.bin/kcc/Makefile 236422 2012-06-01 21:26:28Z obrien $
+# $FreeBSD: releng/10.1/kerberos5/usr.bin/kcc/Makefile 236422 2012-06-01 21:26:28Z obrien $
 
 PROG=	kcc
 MAN=	klist.1 kswitch.1

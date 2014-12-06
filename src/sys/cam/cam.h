@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/cam/cam.h 259204 2013-12-10 22:55:22Z nwhitehorn $
+ * $FreeBSD: releng/10.1/sys/cam/cam.h 259204 2013-12-10 22:55:22Z nwhitehorn $
  */
 
 #ifndef _CAM_CAM_H

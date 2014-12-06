@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/ata/ataisa/Makefile 249213 2013-04-06 19:12:49Z marius $
+# $FreeBSD: releng/10.1/sys/modules/ata/ataisa/Makefile 249213 2013-04-06 19:12:49Z marius $
 
 .PATH: ${.CURDIR}/../../../dev/ata
 

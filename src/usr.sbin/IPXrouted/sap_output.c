@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/IPXrouted/sap_output.c 97638 2002-05-30 21:49:15Z wollman $
+ * $FreeBSD: releng/10.1/usr.sbin/IPXrouted/sap_output.c 97638 2002-05-30 21:49:15Z wollman $
  */
 
 /*

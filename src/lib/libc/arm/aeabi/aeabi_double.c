@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/arm/aeabi/aeabi_double.c 266314 2014-05-17 14:22:37Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/arm/aeabi/aeabi_double.c 266314 2014-05-17 14:22:37Z ian $");
 
 #include "softfloat-for-gcc.h"
 #include "milieu.h"

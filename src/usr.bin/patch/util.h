@@ -24,7 +24,7 @@
  * behaviour
  *
  * $OpenBSD: util.h,v 1.15 2005/06/20 07:14:06 otto Exp $
- * $FreeBSD: stable/10/usr.bin/patch/util.h 246091 2013-01-29 20:05:16Z delphij $
+ * $FreeBSD: releng/10.1/usr.bin/patch/util.h 246091 2013-01-29 20:05:16Z delphij $
  */
 
 char		*fetchname(const char *, bool *, int);

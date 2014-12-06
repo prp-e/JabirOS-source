@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/boot/fdt/dts/arm/exynos5250-chromebook.dts 266341 2014-05-17 19:37:04Z ian $
+ * $FreeBSD: releng/10.1/sys/boot/fdt/dts/arm/exynos5250-chromebook.dts 266341 2014-05-17 19:37:04Z ian $
  */
 
 /dts-v1/;

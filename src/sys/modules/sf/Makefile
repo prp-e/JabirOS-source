@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/sf/Makefile 175521 2008-01-21 04:27:32Z yongari $
+# $FreeBSD: releng/10.1/sys/modules/sf/Makefile 175521 2008-01-21 04:27:32Z yongari $
 
 .PATH: ${.CURDIR}/../../dev/sf
 

@@ -48,7 +48,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/tcp_input.c 271667 2014-09-16 09:48:35Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/tcp_input.c 271667 2014-09-16 09:48:35Z delphij $");
 
 #include "opt_ipfw.h"		/* for ipfw_fwd	*/
 #include "opt_inet.h"

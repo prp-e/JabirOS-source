@@ -62,7 +62,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/net/bpf_buffer.c 244090 2012-12-10 16:14:44Z ghelmer $");
+__FBSDID("$FreeBSD: releng/10.1/sys/net/bpf_buffer.c 244090 2012-12-10 16:14:44Z ghelmer $");
 
 #include "opt_bpf.h"
 

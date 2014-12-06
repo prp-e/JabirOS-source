@@ -22,7 +22,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/pseries/phyp-hvcall.S 257292 2013-10-28 23:47:52Z nwhitehorn $
+ * $FreeBSD: releng/10.1/sys/powerpc/pseries/phyp-hvcall.S 257292 2013-10-28 23:47:52Z nwhitehorn $
  */
 #include <machine/asm.h>
 

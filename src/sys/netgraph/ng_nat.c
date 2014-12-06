@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/netgraph/ng_nat.c 248570 2013-03-21 08:36:15Z glebius $
+ * $FreeBSD: releng/10.1/sys/netgraph/ng_nat.c 248570 2013-03-21 08:36:15Z glebius $
  */
 
 #include <sys/param.h>

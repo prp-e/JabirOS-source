@@ -57,7 +57,7 @@
  * any improvements or extensions that they make and grant Carnegie the
  * rights to redistribute these changes.
  *
- * $FreeBSD: stable/10/sys/vm/vm_map.h 267901 2014-06-26 08:30:08Z kib $
+ * $FreeBSD: releng/10.1/sys/vm/vm_map.h 267901 2014-06-26 08:30:08Z kib $
  */
 
 /*

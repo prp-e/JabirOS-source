@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/geom/Makefile 266220 2014-05-16 14:28:55Z loos $
+# $FreeBSD: releng/10.1/sys/modules/geom/Makefile 266220 2014-05-16 14:28:55Z loos $
 
 SUBDIR=	geom_bde \
 	geom_bsd \

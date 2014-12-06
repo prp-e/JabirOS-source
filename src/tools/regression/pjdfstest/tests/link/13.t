@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/link/13.t 210984 2010-08-06 23:58:54Z pjd $
+# $FreeBSD: releng/10.1/tools/regression/pjdfstest/tests/link/13.t 210984 2010-08-06 23:58:54Z pjd $
 
 desc="link returns EPERM if the parent directory of the destination file has its immutable flag set"
 

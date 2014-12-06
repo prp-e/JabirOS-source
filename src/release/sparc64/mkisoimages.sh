@@ -4,7 +4,7 @@
 # Author: Jordan K Hubbard
 # Date:   22 June 2001
 #
-# $FreeBSD: stable/10/release/sparc64/mkisoimages.sh 253676 2013-07-26 14:23:25Z marius $
+# $FreeBSD: releng/10.1/release/sparc64/mkisoimages.sh 253676 2013-07-26 14:23:25Z marius $
 #
 # This script is used by release/Makefile to build the (optional) ISO images
 # for a FreeBSD release.  It is considered architecture dependent since each

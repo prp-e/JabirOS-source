@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libelf/elf_phnum.c 210345 2010-07-21 12:14:50Z kaiw $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libelf/elf_phnum.c 210345 2010-07-21 12:14:50Z kaiw $");
 
 #include <ar.h>
 #include <libelf.h>

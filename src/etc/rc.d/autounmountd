@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/rc.d/autounmountd 270892 2014-08-31 21:18:23Z trasz $
+# $FreeBSD: releng/10.1/etc/rc.d/autounmountd 270892 2014-08-31 21:18:23Z trasz $
 #
 
 # PROVIDE: autounmountd

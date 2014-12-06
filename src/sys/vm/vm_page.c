@@ -82,7 +82,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/vm/vm_page.c 270440 2014-08-24 07:57:50Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/vm/vm_page.c 270440 2014-08-24 07:57:50Z kib $");
 
 #include "opt_vm.h"
 

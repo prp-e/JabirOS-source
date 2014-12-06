@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libfetch/common.c 268900 2014-07-20 00:29:41Z bapt $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libfetch/common.c 268900 2014-07-20 00:29:41Z bapt $");
 
 #include <sys/param.h>
 #include <sys/socket.h>

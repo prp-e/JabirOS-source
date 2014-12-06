@@ -20,7 +20,7 @@
  *
  * Portions Copyright 2006-2008 John Birrell jb@freebsd.org
  *
- * $FreeBSD: stable/10/sys/cddl/dev/profile/profile.c 242723 2012-11-07 23:45:09Z jhibbits $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/profile/profile.c 242723 2012-11-07 23:45:09Z jhibbits $
  *
  */
 

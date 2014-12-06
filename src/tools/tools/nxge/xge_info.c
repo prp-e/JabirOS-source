@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/tools/nxge/xge_info.c 173139 2007-10-29 14:19:32Z rwatson $
+ * $FreeBSD: releng/10.1/tools/tools/nxge/xge_info.c 173139 2007-10-29 14:19:32Z rwatson $
  */
 
 #include "xge_info.h"

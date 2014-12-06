@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/pc98/libpc98/comconsole.c 261573 2014-02-07 04:09:15Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/pc98/libpc98/comconsole.c 261573 2014-02-07 04:09:15Z mav $");
 
 #include <stand.h>
 #include <bootstrap.h>

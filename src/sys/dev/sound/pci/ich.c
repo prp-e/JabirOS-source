@@ -36,7 +36,7 @@
 #include <dev/pci/pcireg.h>
 #include <dev/pci/pcivar.h>
 
-SND_DECLARE_FILE("$FreeBSD: stable/10/sys/dev/sound/pci/ich.c 216518 2010-12-18 14:21:28Z tijl $");
+SND_DECLARE_FILE("$FreeBSD: releng/10.1/sys/dev/sound/pci/ich.c 216518 2010-12-18 14:21:28Z tijl $");
 
 /* -------------------------------------------------------------------- */
 

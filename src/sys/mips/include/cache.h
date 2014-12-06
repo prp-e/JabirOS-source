@@ -34,7 +34,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/include/cache.h 232855 2012-03-12 08:13:04Z jmallett $
+ * $FreeBSD: releng/10.1/sys/mips/include/cache.h 232855 2012-03-12 08:13:04Z jmallett $
  */
 
 #ifndef	_MACHINE_CACHE_H_

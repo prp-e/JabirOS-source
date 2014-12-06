@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/bktr/bktr_audio.c 242692 2012-11-07 07:00:59Z kevlo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/bktr/bktr_audio.c 242692 2012-11-07 07:00:59Z kevlo $");
 
 /*
  * This is part of the Driver for Video Capture Cards (Frame grabbers)

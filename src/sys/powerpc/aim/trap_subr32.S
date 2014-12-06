@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/powerpc/aim/trap_subr32.S 266532 2014-05-22 05:20:21Z jhibbits $ */
+/* $FreeBSD: releng/10.1/sys/powerpc/aim/trap_subr32.S 266532 2014-05-22 05:20:21Z jhibbits $ */
 /* $NetBSD: trap_subr.S,v 1.20 2002/04/22 23:20:08 kleink Exp $	*/
 
 /*-

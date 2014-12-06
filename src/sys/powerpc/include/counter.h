@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/include/counter.h 266004 2014-05-14 04:42:38Z ian $
+ * $FreeBSD: releng/10.1/sys/powerpc/include/counter.h 266004 2014-05-14 04:42:38Z ian $
  */
 
 #ifndef __MACHINE_COUNTER_H__

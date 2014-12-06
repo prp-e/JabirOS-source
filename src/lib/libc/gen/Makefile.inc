@@ -1,5 +1,5 @@
 #	@(#)Makefile.inc	8.6 (Berkeley) 5/4/95
-# $FreeBSD: stable/10/lib/libc/gen/Makefile.inc 267953 2014-06-27 09:11:24Z pluknet $
+# $FreeBSD: releng/10.1/lib/libc/gen/Makefile.inc 267953 2014-06-27 09:11:24Z pluknet $
 
 # machine-independent gen sources
 .PATH: ${.CURDIR}/${LIBC_ARCH}/gen ${.CURDIR}/gen

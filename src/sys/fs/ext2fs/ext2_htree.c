@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/fs/ext2fs/ext2_htree.c 262943 2014-03-09 04:16:00Z pfg $
+ * $FreeBSD: releng/10.1/sys/fs/ext2fs/ext2_htree.c 262943 2014-03-09 04:16:00Z pfg $
  */
 
 #include <sys/param.h>

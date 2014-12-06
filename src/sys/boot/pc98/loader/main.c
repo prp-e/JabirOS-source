@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/pc98/loader/main.c 240854 2012-09-23 08:50:54Z nyan $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/pc98/loader/main.c 240854 2012-09-23 08:50:54Z nyan $");
 
 /*
  * MD bootstrap main() and assorted miscellaneous

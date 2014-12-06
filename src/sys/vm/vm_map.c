@@ -63,7 +63,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/vm/vm_map.c 270920 2014-09-01 07:58:15Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/vm/vm_map.c 272202 2014-09-27 07:54:27Z kib $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -2209,7 +2209,14 @@ vm_map_madvise(
 
 			vm_object_madvise(current->object.vm_object, pstart,
 			    pend, behav);
-			if (behav == MADV_WILLNEED) {
+
+			/*
+			 * Pre-populate paging structures in the
+			 * WILLNEED case.  For wired entries, the
+			 * paging structures are already populated.
+			 */
+			if (behav == MADV_WILLNEED &&
+			    current->wired_count == 0) {
 				vm_map_pmap_enter(map,
 				    useStart,
 				    current->protection,

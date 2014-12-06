@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/joy/joy_pccard.c 150396 2005-09-20 19:54:11Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/joy/joy_pccard.c 150396 2005-09-20 19:54:11Z imp $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

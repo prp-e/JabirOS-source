@@ -22,7 +22,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/tsec/if_tsec.h 259235 2013-12-11 22:36:20Z andreast $
+ * $FreeBSD: releng/10.1/sys/dev/tsec/if_tsec.h 259235 2013-12-11 22:36:20Z andreast $
  */
 
 #ifndef _IF_TSEC_H

@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/serial/umoscom.c 239299 2012-08-15 15:42:57Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/serial/umoscom.c 239299 2012-08-15 15:42:57Z hselasky $ */
 /*	$OpenBSD: umoscom.c,v 1.2 2006/10/26 06:02:43 jsg Exp $	*/
 
 /*

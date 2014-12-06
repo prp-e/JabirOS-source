@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libc/iconv/citrus_module.h 219019 2011-02-25 00:04:39Z gabor $ */
+/* $FreeBSD: releng/10.1/lib/libc/iconv/citrus_module.h 219019 2011-02-25 00:04:39Z gabor $ */
 /* $NetBSD: citrus_module.h,v 1.1 2002/03/17 22:14:20 tshiozak Exp $ */
 
 /*-

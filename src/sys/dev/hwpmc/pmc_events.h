@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/hwpmc/pmc_events.h 266911 2014-05-31 00:40:13Z hiren $
+ * $FreeBSD: releng/10.1/sys/dev/hwpmc/pmc_events.h 266911 2014-05-31 00:40:13Z hiren $
  */
 
 #ifndef _DEV_HWPMC_PMC_EVENTS_H_

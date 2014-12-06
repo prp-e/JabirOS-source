@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/etherswitchcfg/etherswitchcfg.c 255730 2013-09-20 15:57:50Z hiren $
+ * $FreeBSD: releng/10.1/sbin/etherswitchcfg/etherswitchcfg.c 255730 2013-09-20 15:57:50Z hiren $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/etherswitchcfg/etherswitchcfg.c 255730 2013-09-20 15:57:50Z hiren $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/etherswitchcfg/etherswitchcfg.c 255730 2013-09-20 15:57:50Z hiren $");
 
 #include <ctype.h>
 #include <err.h>

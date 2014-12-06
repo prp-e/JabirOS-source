@@ -1,6 +1,6 @@
 # Common defines for all of /sys/boot/i386/
 #
-# $FreeBSD: stable/10/sys/boot/i386/Makefile.inc 260291 2014-01-04 22:00:07Z dim $
+# $FreeBSD: releng/10.1/sys/boot/i386/Makefile.inc 260291 2014-01-04 22:00:07Z dim $
 
 BINDIR?=	/boot
 

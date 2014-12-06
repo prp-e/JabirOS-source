@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/ddb/db_capture.c 217326 2011-01-12 19:54:19Z mdf $");
+__FBSDID("$FreeBSD: releng/10.1/sys/ddb/db_capture.c 217326 2011-01-12 19:54:19Z mdf $");
 
 #include "opt_ddb.h"
 

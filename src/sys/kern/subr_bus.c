@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/subr_bus.c 270091 2014-08-17 07:16:03Z mjg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/subr_bus.c 270091 2014-08-17 07:16:03Z mjg $");
 
 #include "opt_bus.h"
 #include "opt_random.h"

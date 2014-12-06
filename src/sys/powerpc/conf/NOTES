@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/powerpc/conf/NOTES 266331 2014-05-17 17:34:37Z ian $
+# $FreeBSD: releng/10.1/sys/powerpc/conf/NOTES 266331 2014-05-17 17:34:37Z ian $
 #
 # This file contains machine dependent kernel configuration notes.  For
 # machine independent notes, look in /sys/conf/NOTES.

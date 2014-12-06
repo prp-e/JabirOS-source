@@ -15,7 +15,7 @@
  * AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
  * OF OR IN CONNECTION WITH THE USE, ABUSE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * $FreeBSD: stable/10/sbin/dhclient/privsep.h 252624 2013-07-03 22:07:55Z pjd $
+ * $FreeBSD: releng/10.1/sbin/dhclient/privsep.h 252624 2013-07-03 22:07:55Z pjd $
  */
 
 #include <sys/types.h>

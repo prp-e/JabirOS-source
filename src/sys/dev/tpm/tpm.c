@@ -19,7 +19,7 @@
 /* #define	TPM_DEBUG */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/tpm/tpm.c 260279 2014-01-04 19:13:25Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/tpm/tpm.c 260279 2014-01-04 19:13:25Z dim $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

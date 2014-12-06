@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/alc/Makefile 193880 2009-06-10 02:07:58Z yongari $
+# $FreeBSD: releng/10.1/sys/modules/alc/Makefile 193880 2009-06-10 02:07:58Z yongari $
 
 .PATH: ${.CURDIR}/../../dev/alc
 

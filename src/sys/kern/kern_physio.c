@@ -18,7 +18,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_physio.c 255032 2013-08-29 16:41:40Z ken $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_physio.c 255032 2013-08-29 16:41:40Z ken $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

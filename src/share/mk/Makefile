@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/mk/Makefile 269946 2014-08-13 16:11:57Z rpaulo $
+# $FreeBSD: releng/10.1/share/mk/Makefile 269946 2014-08-13 16:11:57Z rpaulo $
 #	@(#)Makefile	8.1 (Berkeley) 6/8/93
 
 .include <bsd.own.mk>

@@ -31,7 +31,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/IPXrouted/af.c 133248 2004-08-07 04:19:37Z imp $
+ * $FreeBSD: releng/10.1/usr.sbin/IPXrouted/af.c 133248 2004-08-07 04:19:37Z imp $
  */
 
 #ifndef lint

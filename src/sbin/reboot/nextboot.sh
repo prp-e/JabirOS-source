@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/sbin/reboot/nextboot.sh 231129 2012-02-07 14:06:30Z emaste $
+# $FreeBSD: releng/10.1/sbin/reboot/nextboot.sh 231129 2012-02-07 14:06:30Z emaste $
 
 delete="NO"
 kenv=

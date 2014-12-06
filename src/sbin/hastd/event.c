@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/hastd/event.c 229945 2012-01-10 22:39:07Z pjd $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/hastd/event.c 229945 2012-01-10 22:39:07Z pjd $");
 
 #include <errno.h>
 

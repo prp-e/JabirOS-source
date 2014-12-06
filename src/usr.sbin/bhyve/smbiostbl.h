@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bhyve/smbiostbl.h 267450 2014-06-13 21:30:40Z jhb $
+ * $FreeBSD: releng/10.1/usr.sbin/bhyve/smbiostbl.h 267450 2014-06-13 21:30:40Z jhb $
  */
 
 #ifndef _SMBIOSTBL_H_

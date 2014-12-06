@@ -24,7 +24,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/cxgb/ulp/tom/cxgb_toepcb.h 239544 2012-08-21 22:23:17Z np $
+ * $FreeBSD: releng/10.1/sys/dev/cxgb/ulp/tom/cxgb_toepcb.h 239544 2012-08-21 22:23:17Z np $
  */
 #ifndef CXGB_TOEPCB_H_
 #define CXGB_TOEPCB_H_

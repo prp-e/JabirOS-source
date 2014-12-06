@@ -25,7 +25,7 @@
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/i386/string/wcschr.S 217106 2011-01-07 16:08:40Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/i386/string/wcschr.S 217106 2011-01-07 16:08:40Z kib $");
 
 /*
  * wchar_t *

@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/security/mac/mac_atalk.c 193391 2009-06-03 18:46:28Z rwatson $");
+__FBSDID("$FreeBSD: releng/10.1/sys/security/mac/mac_atalk.c 193391 2009-06-03 18:46:28Z rwatson $");
 
 #include "opt_mac.h"
 

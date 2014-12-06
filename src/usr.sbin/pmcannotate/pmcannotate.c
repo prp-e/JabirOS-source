@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/pmcannotate/pmcannotate.c 266889 2014-05-30 15:00:50Z gnn $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/pmcannotate/pmcannotate.c 266889 2014-05-30 15:00:50Z gnn $");
 
 #include <sys/param.h>
 #include <sys/queue.h>

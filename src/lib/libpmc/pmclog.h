@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libpmc/pmclog.h 233628 2012-03-28 20:58:30Z fabient $
+ * $FreeBSD: releng/10.1/lib/libpmc/pmclog.h 233628 2012-03-28 20:58:30Z fabient $
  */
 
 #ifndef	_PMCLOG_H_

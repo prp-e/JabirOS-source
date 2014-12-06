@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/cam/ctl/ctl_backend.c 268681 2014-07-15 17:01:39Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/cam/ctl/ctl_backend.c 268681 2014-07-15 17:01:39Z mav $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

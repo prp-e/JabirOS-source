@@ -6,7 +6,7 @@
  * this stuff is worth it, you can buy me a beer in return.   Poul-Henning Kamp
  * ----------------------------------------------------------------------------
  *
- * $FreeBSD: stable/10/usr.sbin/ctm/ctm/ctm_syntax.c 93150 2002-03-25 13:53:46Z phk $
+ * $FreeBSD: releng/10.1/usr.sbin/ctm/ctm/ctm_syntax.c 93150 2002-03-25 13:53:46Z phk $
  *
  */
 

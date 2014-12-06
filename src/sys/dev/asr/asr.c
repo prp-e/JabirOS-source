@@ -160,7 +160,7 @@
 
 #include	<dev/asr/sys_info.h>
 
-__FBSDID("$FreeBSD: stable/10/sys/dev/asr/asr.c 255871 2013-09-25 17:16:21Z scottl $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/asr/asr.c 255871 2013-09-25 17:16:21Z scottl $");
 
 #define	ASR_VERSION	1
 #define	ASR_REVISION	'1'

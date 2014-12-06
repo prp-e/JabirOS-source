@@ -26,7 +26,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 
 
-$FreeBSD: stable/10/sys/dev/cxgb/t3b_tp_eeprom.h 176613 2008-02-26 23:05:05Z kmacy $
+$FreeBSD: releng/10.1/sys/dev/cxgb/t3b_tp_eeprom.h 176613 2008-02-26 23:05:05Z kmacy $
 
 ***************************************************************************/
 

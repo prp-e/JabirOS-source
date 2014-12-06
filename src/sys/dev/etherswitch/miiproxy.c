@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/etherswitch/miiproxy.c 234861 2012-05-01 06:11:38Z adrian $
+ * $FreeBSD: releng/10.1/sys/dev/etherswitch/miiproxy.c 234861 2012-05-01 06:11:38Z adrian $
  */
 
 #include <sys/param.h>

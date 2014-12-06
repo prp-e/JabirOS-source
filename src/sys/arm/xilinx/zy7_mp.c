@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/xilinx/zy7_mp.c 266379 2014-05-17 23:25:20Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/xilinx/zy7_mp.c 266379 2014-05-17 23:25:20Z ian $");
 #include <sys/param.h>
 #include <sys/systm.h>
 #include <sys/bus.h>

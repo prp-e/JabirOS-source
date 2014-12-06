@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/geom/geom_mirror/Makefile 132904 2004-07-30 23:13:45Z pjd $
+# $FreeBSD: releng/10.1/sys/modules/geom/geom_mirror/Makefile 132904 2004-07-30 23:13:45Z pjd $
 
 .PATH: ${.CURDIR}/../../../geom/mirror
 

@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/i386/ibcs2/ibcs2_msg.c 160138 2006-07-06 21:29:05Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/i386/ibcs2/ibcs2_msg.c 160138 2006-07-06 21:29:05Z jhb $");
 
 /*
  * IBCS2 message compatibility module.

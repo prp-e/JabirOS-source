@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libiconv_modules/HZ/citrus_hz.c 267665 2014-06-20 07:32:03Z tijl $ */
+/* $FreeBSD: releng/10.1/lib/libiconv_modules/HZ/citrus_hz.c 267665 2014-06-20 07:32:03Z tijl $ */
 /* $NetBSD: citrus_hz.c,v 1.2 2008/06/14 16:01:07 tnozaki Exp $ */
 
 /*-

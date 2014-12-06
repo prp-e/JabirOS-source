@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/test/iconv/const-gnuism.c 219020 2011-02-25 00:10:26Z gabor $");
+__FBSDID("$FreeBSD: releng/10.1/tools/test/iconv/const-gnuism.c 219020 2011-02-25 00:10:26Z gabor $");
 
 #include <sys/types.h>
 

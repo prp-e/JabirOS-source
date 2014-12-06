@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/serial/ugensa.c 239299 2012-08-15 15:42:57Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/serial/ugensa.c 239299 2012-08-15 15:42:57Z hselasky $ */
 /*	$NetBSD: ugensa.c,v 1.9.2.1 2007/03/24 14:55:50 yamt Exp $	*/
 
 /*

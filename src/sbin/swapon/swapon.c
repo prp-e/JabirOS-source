@@ -39,7 +39,7 @@ static char sccsid[] = "@(#)swapon.c	8.1 (Berkeley) 6/5/93";
 #endif /* not lint */
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/swapon/swapon.c 259820 2013-12-24 13:46:54Z jilles $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/swapon/swapon.c 273188 2014-10-16 22:00:24Z hrs $");
 
 #include <sys/param.h>
 #include <sys/types.h>
@@ -172,15 +172,8 @@ main(int argc, char **argv)
 					continue;
 				if (strstr(fsp->fs_mntops, "noauto") != NULL)
 					continue;
-				/*
-				 * Forcibly enable "late" option when file= is
-				 * specified.  This is because mounting file
-				 * systems with rw option is typically
-				 * required to make the backing store ready.
-				 */
 				if (which_prog != SWAPOFF &&
-				    (strstr(fsp->fs_mntops, "late") != NULL ||
-				     strstr(fsp->fs_mntops, "file=") != NULL) &&
+				    strstr(fsp->fs_mntops, "late") &&
 				    late == 0)
 					continue;
 				swfile = swap_on_off(fsp->fs_spec, 1,

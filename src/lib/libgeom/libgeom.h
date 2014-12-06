@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libgeom/libgeom.h 253469 2013-07-19 06:42:15Z scottl $
+ * $FreeBSD: releng/10.1/lib/libgeom/libgeom.h 253469 2013-07-19 06:42:15Z scottl $
  */
 #ifndef _LIBGEOM_H_
 #define _LIBGEOM_H_

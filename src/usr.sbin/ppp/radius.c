@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/ppp/radius.c 241844 2012-10-22 03:00:37Z eadler $
+ * $FreeBSD: releng/10.1/usr.sbin/ppp/radius.c 241844 2012-10-22 03:00:37Z eadler $
  *
  */
 

@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libusbhid/descr.c 240762 2012-09-20 18:56:27Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libusbhid/descr.c 240762 2012-09-20 18:56:27Z mav $");
 
 #include <sys/types.h>
 

@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/usb_controller.h 259603 2013-12-19 07:13:59Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/usb_controller.h 259603 2013-12-19 07:13:59Z hselasky $ */
 /*-
  * Copyright (c) 2008 Hans Petter Selasky. All rights reserved.
  *

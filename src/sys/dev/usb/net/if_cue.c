@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/net/if_cue.c 246128 2013-01-30 18:01:20Z sbz $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/net/if_cue.c 246128 2013-01-30 18:01:20Z sbz $");
 
 /*
  * CATC USB-EL1210A USB to ethernet driver. Used in the CATC Netmate

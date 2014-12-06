@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libiconv_modules/mapper_std/citrus_mapper_std.c 264497 2014-04-15 09:49:44Z tijl $ */
+/* $FreeBSD: releng/10.1/lib/libiconv_modules/mapper_std/citrus_mapper_std.c 264497 2014-04-15 09:49:44Z tijl $ */
 /*	$NetBSD: citrus_mapper_std.c,v 1.10 2011/11/19 18:48:39 tnozaki Exp $	*/
 
 /*-

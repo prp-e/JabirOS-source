@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/hastd/hast.h 260006 2013-12-28 19:21:22Z trociny $
+ * $FreeBSD: releng/10.1/sbin/hastd/hast.h 260006 2013-12-28 19:21:22Z trociny $
  */
 
 #ifndef	_HAST_H_

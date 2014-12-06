@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libcxxrt/Makefile 236442 2012-06-02 11:00:48Z dim $
+# $FreeBSD: releng/10.1/lib/libcxxrt/Makefile 236442 2012-06-02 11:00:48Z dim $
 
 SRCDIR=		${.CURDIR}/../../contrib/libcxxrt
 

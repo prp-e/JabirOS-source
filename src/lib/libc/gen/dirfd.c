@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/gen/dirfd.c 235649 2012-05-19 14:30:49Z gleb $
+ * $FreeBSD: releng/10.1/lib/libc/gen/dirfd.c 235649 2012-05-19 14:30:49Z gleb $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/gen/dirfd.c 235649 2012-05-19 14:30:49Z gleb $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/gen/dirfd.c 235649 2012-05-19 14:30:49Z gleb $");
 
 #include "namespace.h"
 #include <sys/param.h>

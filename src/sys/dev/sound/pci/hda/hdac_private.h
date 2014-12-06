@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/sound/pci/hda/hdac_private.h 230326 2012-01-19 01:55:48Z mav $
+ * $FreeBSD: releng/10.1/sys/dev/sound/pci/hda/hdac_private.h 230326 2012-01-19 01:55:48Z mav $
  */
 
 #ifndef _HDAC_PRIVATE_H_

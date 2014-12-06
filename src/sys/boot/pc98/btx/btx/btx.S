@@ -12,7 +12,7 @@
  * warranties of merchantability and fitness for a particular
  * purpose.
  *
- * $FreeBSD: stable/10/sys/boot/pc98/btx/btx/btx.S 249846 2013-04-24 17:20:45Z dim $
+ * $FreeBSD: releng/10.1/sys/boot/pc98/btx/btx/btx.S 249846 2013-04-24 17:20:45Z dim $
  */
 
 #include <bootargs.h>

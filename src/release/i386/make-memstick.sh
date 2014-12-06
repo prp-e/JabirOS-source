@@ -7,7 +7,7 @@
 #
 # Usage: make-memstick.sh <directory tree> <image filename>
 #
-# $FreeBSD: stable/10/release/i386/make-memstick.sh 265296 2014-05-04 00:13:07Z gjb $
+# $FreeBSD: releng/10.1/release/i386/make-memstick.sh 265296 2014-05-04 00:13:07Z gjb $
 #
 
 PATH=/bin:/usr/bin:/sbin:/usr/sbin

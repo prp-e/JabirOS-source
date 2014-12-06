@@ -25,7 +25,7 @@
  * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
  * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/nlm/dev/sec/nlmseclib.h 233541 2012-03-27 11:43:46Z jchandra $
+ * $FreeBSD: releng/10.1/sys/mips/nlm/dev/sec/nlmseclib.h 233541 2012-03-27 11:43:46Z jchandra $
  */
 
 #ifndef _NLMSECLIB_H_

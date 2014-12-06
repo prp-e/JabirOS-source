@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/mlx4ib/Makefile 271127 2014-09-04 20:12:36Z hselasky $
+# $FreeBSD: releng/10.1/sys/modules/mlx4ib/Makefile 271127 2014-09-04 20:12:36Z hselasky $
 .PATH:  ${.CURDIR}/../../ofed/drivers/infiniband/hw/mlx4
 .PATH:  ${.CURDIR}/../../ofed/include/linux
 

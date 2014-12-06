@@ -1,6 +1,6 @@
 /*
  * $NetBSD: rpcb_svc_4.c,v 1.1 2000/06/02 23:15:41 fvdl Exp $
- * $FreeBSD: stable/10/usr.sbin/rpcbind/rpcb_svc_4.c 173412 2007-11-07 10:53:41Z kevlo $
+ * $FreeBSD: releng/10.1/usr.sbin/rpcbind/rpcb_svc_4.c 173412 2007-11-07 10:53:41Z kevlo $
  */
 
 /*

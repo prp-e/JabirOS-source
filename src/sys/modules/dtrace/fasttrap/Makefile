@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/dtrace/fasttrap/Makefile 268734 2014-07-16 02:02:46Z pfg $
+# $FreeBSD: releng/10.1/sys/modules/dtrace/fasttrap/Makefile 268734 2014-07-16 02:02:46Z pfg $
 
 .PATH:	${.CURDIR}/../../../cddl/contrib/opensolaris/uts/common/dtrace
 

@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/acpica/acpi_wakecode.S 237037 2012-06-13 22:53:56Z jkim $
+ * $FreeBSD: releng/10.1/sys/amd64/acpica/acpi_wakecode.S 237037 2012-06-13 22:53:56Z jkim $
  */
 
 #include <machine/asmacros.h>

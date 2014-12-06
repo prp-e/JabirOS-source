@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/autofs/Makefile 270096 2014-08-17 09:44:42Z trasz $
+# $FreeBSD: releng/10.1/usr.sbin/autofs/Makefile 270096 2014-08-17 09:44:42Z trasz $
 
 PROG=	automountd
 SRCS=	automount.c

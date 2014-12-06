@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/usb_msctest.c 250986 2013-05-25 17:09:58Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/usb_msctest.c 250986 2013-05-25 17:09:58Z hselasky $ */
 /*-
  * Copyright (c) 2008,2011 Hans Petter Selasky. All rights reserved.
  *

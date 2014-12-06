@@ -28,7 +28,7 @@
 /* Driver for Atheros AR8121/AR8113/AR8114 PCIe Ethernet. */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ale/if_ale.c 264446 2014-04-14 05:04:23Z yongari $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ale/if_ale.c 264446 2014-04-14 05:04:23Z yongari $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

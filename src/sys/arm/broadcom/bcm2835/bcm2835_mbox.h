@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/broadcom/bcm2835/bcm2835_mbox.h 253006 2013-07-07 21:23:58Z rpaulo $
+ * $FreeBSD: releng/10.1/sys/arm/broadcom/bcm2835/bcm2835_mbox.h 253006 2013-07-07 21:23:58Z rpaulo $
  */
 
 #ifndef _BCM2835_MBOX_H_

@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/nlm/dev/sec/nlmrsa.c 256046 2013-10-04 11:11:51Z jchandra $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/nlm/dev/sec/nlmrsa.c 256046 2013-10-04 11:11:51Z jchandra $");
 
 #include <sys/cdefs.h>
 #include <sys/param.h>

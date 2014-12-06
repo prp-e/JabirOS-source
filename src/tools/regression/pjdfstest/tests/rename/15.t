@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/rename/15.t 211186 2010-08-11 17:34:58Z pjd $
+# $FreeBSD: releng/10.1/tools/regression/pjdfstest/tests/rename/15.t 211186 2010-08-11 17:34:58Z pjd $
 
 desc="rename returns EXDEV if the link named by 'to' and the file named by 'from' are on different file systems"
 

@@ -52,4 +52,4 @@ The goal in this specific case is for /usr/tests/lib/ to be generated
 entirely from src/lib/.
 
 -- 
-$FreeBSD: stable/10/tests/README 260013 2013-12-28 20:05:31Z jmmv $
+$FreeBSD: releng/10.1/tests/README 260013 2013-12-28 20:05:31Z jmmv $

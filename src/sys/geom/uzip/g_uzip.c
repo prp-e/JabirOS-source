@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/geom/uzip/g_uzip.c 269456 2014-08-03 03:06:00Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/sys/geom/uzip/g_uzip.c 269456 2014-08-03 03:06:00Z marcel $");
 
 #include <sys/param.h>
 #include <sys/bio.h>

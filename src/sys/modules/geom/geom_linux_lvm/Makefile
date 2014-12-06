@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/geom/geom_linux_lvm/Makefile 176418 2008-02-20 07:50:13Z thompsa $
+# $FreeBSD: releng/10.1/sys/modules/geom/geom_linux_lvm/Makefile 176418 2008-02-20 07:50:13Z thompsa $
 
 .PATH: ${.CURDIR}/../../../geom/linux_lvm
 

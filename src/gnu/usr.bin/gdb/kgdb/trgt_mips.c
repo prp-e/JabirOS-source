@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/gnu/usr.bin/gdb/kgdb/trgt_mips.c 249878 2013-04-25 04:53:01Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/gnu/usr.bin/gdb/kgdb/trgt_mips.c 249878 2013-04-25 04:53:01Z imp $");
 
 #include <sys/types.h>
 #include <machine/asm.h>

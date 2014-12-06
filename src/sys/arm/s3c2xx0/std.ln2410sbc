@@ -1,4 +1,4 @@
-#$FreeBSD: stable/10/sys/arm/s3c2xx0/std.ln2410sbc 266110 2014-05-15 02:41:23Z ian $
+#$FreeBSD: releng/10.1/sys/arm/s3c2xx0/std.ln2410sbc 266110 2014-05-15 02:41:23Z ian $
 include "../s3c2xx0/std.s3c2410"
 
 makeoptions	KERNPHYSADDR=0x30000000

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/mfi/Makefile 165725 2007-01-01 23:50:04Z scottl $
+# $FreeBSD: releng/10.1/tools/tools/mfi/Makefile 165725 2007-01-01 23:50:04Z scottl $
 
 PROG=	mfi_checkq
 NO_MAN=

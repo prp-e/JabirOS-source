@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/ed/if_ed_pccard.c 264942 2014-04-25 21:32:34Z marius $
+ * $FreeBSD: releng/10.1/sys/dev/ed/if_ed_pccard.c 264942 2014-04-25 21:32:34Z marius $
  */
 
 /*

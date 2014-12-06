@@ -30,7 +30,7 @@
 .\" SUCH DAMAGE.
 .\"
 .\"	@(#)0.t	5.1 (Berkeley) 4/17/91
-.\" $FreeBSD: stable/10/share/doc/papers/relengr/0.t 106202 2002-10-30 13:07:34Z ru $
+.\" $FreeBSD: releng/10.1/share/doc/papers/relengr/0.t 106202 2002-10-30 13:07:34Z ru $
 .\"
 .rm CM
 .nr PO 1.25i

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/who/who.c 231537 2012-02-11 21:50:44Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/who/who.c 231537 2012-02-11 21:50:44Z ed $");
 
 #include <sys/param.h>
 #include <sys/types.h>

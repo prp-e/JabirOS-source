@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/i386/boot2/Makefile 260497 2014-01-09 23:08:56Z dim $
+# $FreeBSD: releng/10.1/sys/boot/i386/boot2/Makefile 260497 2014-01-09 23:08:56Z dim $
 
 .include <bsd.own.mk>
 

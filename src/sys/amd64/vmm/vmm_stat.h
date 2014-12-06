@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/vmm/vmm_stat.h 270074 2014-08-17 01:23:52Z grehan $
+ * $FreeBSD: releng/10.1/sys/amd64/vmm/vmm_stat.h 270074 2014-08-17 01:23:52Z grehan $
  */
 
 #ifndef _VMM_STAT_H_

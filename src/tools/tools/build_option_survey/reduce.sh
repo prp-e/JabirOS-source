@@ -1,6 +1,6 @@
 #!/bin/sh
 # This file is in the public domain
-# $FreeBSD: stable/10/tools/tools/build_option_survey/reduce.sh 157118 2006-03-25 10:50:40Z phk $
+# $FreeBSD: releng/10.1/tools/tools/build_option_survey/reduce.sh 157118 2006-03-25 10:50:40Z phk $
 
 set -e
 

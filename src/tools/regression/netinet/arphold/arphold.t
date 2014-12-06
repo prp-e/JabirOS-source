@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/tools/regression/netinet/arphold/arphold.t 215207 2010-11-12 22:03:02Z gnn $
+# $FreeBSD: releng/10.1/tools/regression/netinet/arphold/arphold.t 215207 2010-11-12 22:03:02Z gnn $
 
 make arphold 2>&1 > /dev/null
 

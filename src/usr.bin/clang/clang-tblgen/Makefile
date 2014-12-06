@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/clang/clang-tblgen/Makefile 263508 2014-03-21 17:53:59Z dim $
+# $FreeBSD: releng/10.1/usr.bin/clang/clang-tblgen/Makefile 263508 2014-03-21 17:53:59Z dim $
 
 NO_MAN=
 .include <bsd.own.mk>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/taskqueue.h 262065 2014-02-17 15:32:08Z avg $
+ * $FreeBSD: releng/10.1/sys/sys/taskqueue.h 262065 2014-02-17 15:32:08Z avg $
  */
 
 #ifndef _SYS_TASKQUEUE_H_

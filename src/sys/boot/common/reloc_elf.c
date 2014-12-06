@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/common/reloc_elf.c 240782 2012-09-21 18:21:31Z andreast $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/common/reloc_elf.c 240782 2012-09-21 18:21:31Z andreast $");
 
 #include <sys/types.h>
 #include <machine/elf.h>

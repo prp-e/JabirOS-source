@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/ti/Makefile 255608 2013-09-16 06:25:54Z kib $
+# $FreeBSD: releng/10.1/sys/modules/ti/Makefile 255608 2013-09-16 06:25:54Z kib $
 
 .PATH: ${.CURDIR}/../../dev/ti
 

@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/cdcontrol/cdcontrol.c 227225 2011-11-06 16:52:26Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/cdcontrol/cdcontrol.c 227225 2011-11-06 16:52:26Z ed $");
 
 #include <sys/cdio.h>
 #include <sys/cdrio.h>

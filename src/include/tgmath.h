@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/include/tgmath.h 249995 2013-04-27 21:18:34Z ed $
+ * $FreeBSD: releng/10.1/include/tgmath.h 249995 2013-04-27 21:18:34Z ed $
  */
 
 #ifndef _TGMATH_H_

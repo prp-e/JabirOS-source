@@ -1,5 +1,5 @@
 %/*-
-% * $FreeBSD: stable/10/include/rpc/rpcb_prot.x 261046 2014-01-22 23:45:27Z mav $
+% * $FreeBSD: releng/10.1/include/rpc/rpcb_prot.x 261046 2014-01-22 23:45:27Z mav $
 % *
 % * Copyright (c) 2009, Sun Microsystems, Inc.
 % * All rights reserved.

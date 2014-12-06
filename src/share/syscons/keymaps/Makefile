@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/syscons/keymaps/Makefile 243935 2012-12-06 01:44:19Z eadler $
+# $FreeBSD: releng/10.1/share/syscons/keymaps/Makefile 243935 2012-12-06 01:44:19Z eadler $
 
 FILES=	INDEX.keymaps \
 	be.iso.kbd be.iso.acc.kbd \

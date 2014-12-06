@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libvgl/simple.c 229784 2012-01-07 16:13:56Z uqs $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libvgl/simple.c 229784 2012-01-07 16:13:56Z uqs $");
 
 #include <signal.h>
 #include <sys/fbio.h>

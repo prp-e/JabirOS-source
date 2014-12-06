@@ -43,7 +43,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/uipc_mqueue.c 258324 2013-11-18 22:37:01Z pjd $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/uipc_mqueue.c 258324 2013-11-18 22:37:01Z pjd $");
 
 #include "opt_capsicum.h"
 #include "opt_compat.h"

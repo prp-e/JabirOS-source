@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  * RMI_BSD
- * $FreeBSD: stable/10/sys/mips/rmi/interrupt.h 211994 2010-08-30 13:05:21Z jchandra $
+ * $FreeBSD: releng/10.1/sys/mips/rmi/interrupt.h 211994 2010-08-30 13:05:21Z jchandra $
  */
 #ifndef _RMI_INTERRUPT_H_
 #define _RMI_INTERRUPT_H_

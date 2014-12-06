@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/6/93
-# $FreeBSD: stable/10/usr.bin/split/Makefile 87765 2001-12-12 23:09:07Z markm $
+# $FreeBSD: releng/10.1/usr.bin/split/Makefile 87765 2001-12-12 23:09:07Z markm $
 
 PROG=	split
 

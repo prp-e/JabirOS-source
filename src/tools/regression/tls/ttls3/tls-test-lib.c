@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: stable/10/tools/regression/tls/ttls3/tls-test-lib.c 133066 2004-08-03 09:04:01Z dfr $
+ *	$FreeBSD: releng/10.1/tools/regression/tls/ttls3/tls-test-lib.c 133066 2004-08-03 09:04:01Z dfr $
  */
 
 #include <stdio.h>

@@ -6,7 +6,7 @@
   * 
   * Author: Wietse Venema, Eindhoven University of Technology, The Netherlands.
   *
-  * $FreeBSD: stable/10/contrib/tcp_wrappers/refuse.c 56977 2000-02-03 10:27:03Z shin $
+  * $FreeBSD: releng/10.1/contrib/tcp_wrappers/refuse.c 56977 2000-02-03 10:27:03Z shin $
   */
 
 #ifndef lint

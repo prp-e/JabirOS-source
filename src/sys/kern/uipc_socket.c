@@ -101,7 +101,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/uipc_socket.c 270233 2014-08-20 17:26:05Z davide $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/uipc_socket.c 270233 2014-08-20 17:26:05Z davide $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"

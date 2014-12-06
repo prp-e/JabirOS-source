@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/geom/geom_slice.c 260385 2014-01-07 01:32:23Z scottl $");
+__FBSDID("$FreeBSD: releng/10.1/sys/geom/geom_slice.c 260385 2014-01-07 01:32:23Z scottl $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/mkimg/image.h 269177 2014-07-28 02:07:16Z marcel $
+ * $FreeBSD: releng/10.1/usr.bin/mkimg/image.h 269177 2014-07-28 02:07:16Z marcel $
  */
 
 #ifndef _MKIMG_IMAGE_H_

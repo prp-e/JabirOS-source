@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/lib/libc/powerpc/Symbol.map 236006 2012-05-25 16:30:42Z marcel $
+ * $FreeBSD: releng/10.1/lib/libc/powerpc/Symbol.map 236006 2012-05-25 16:30:42Z marcel $
  */
 
 /*

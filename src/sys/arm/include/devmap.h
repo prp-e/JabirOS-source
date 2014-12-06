@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/include/devmap.h 266086 2014-05-14 20:17:31Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/include/devmap.h 266086 2014-05-14 20:17:31Z ian $
  */
 
 #ifndef	_MACHINE_DEVMAP_H_

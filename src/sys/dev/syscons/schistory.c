@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/syscons/schistory.c 239696 2012-08-25 23:59:31Z gonzo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/syscons/schistory.c 239696 2012-08-25 23:59:31Z gonzo $");
 
 #include "opt_syscons.h"
 

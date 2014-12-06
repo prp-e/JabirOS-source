@@ -1,5 +1,5 @@
 #	from: Makefile.inc,v 1.1 1993/09/03 19:04:23 jtc Exp
-# $FreeBSD: stable/10/lib/libc/amd64/sys/Makefile.inc 237434 2012-06-22 07:13:30Z kib $
+# $FreeBSD: releng/10.1/lib/libc/amd64/sys/Makefile.inc 237434 2012-06-22 07:13:30Z kib $
 
 SRCS+=	amd64_get_fsbase.c amd64_get_gsbase.c amd64_set_fsbase.c \
 	amd64_set_gsbase.c __vdso_gettc.c

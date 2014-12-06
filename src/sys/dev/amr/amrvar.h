@@ -53,7 +53,7 @@
  * SUCH DAMAGE.
  *
  *
- *      $FreeBSD: stable/10/sys/dev/amr/amrvar.h 239939 2012-08-31 09:42:46Z scottl $
+ *      $FreeBSD: releng/10.1/sys/dev/amr/amrvar.h 239939 2012-08-31 09:42:46Z scottl $
  */
 
 #include <geom/geom_disk.h>

@@ -31,7 +31,7 @@
  * SUCH DAMAGE.
  *
  *	from: @(#)igmp_var.h	8.1 (Berkeley) 7/19/93
- * $FreeBSD: stable/10/sys/netinet/igmp_var.h 254925 2013-08-26 18:16:05Z jhb $
+ * $FreeBSD: releng/10.1/sys/netinet/igmp_var.h 254925 2013-08-26 18:16:05Z jhb $
  */
 
 #ifndef _NETINET_IGMP_VAR_H_

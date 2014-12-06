@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: stable/10/tools/tools/ath/athdebug/athdebug.c 244961 2013-01-02 18:05:31Z adrian $
+ * $FreeBSD: releng/10.1/tools/tools/ath/athdebug/athdebug.c 244961 2013-01-02 18:05:31Z adrian $
  */
 
 /*

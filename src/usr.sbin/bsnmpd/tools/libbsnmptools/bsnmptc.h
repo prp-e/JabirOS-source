@@ -28,7 +28,7 @@
  *
  * Textual conventions for snmp
  *
- * $FreeBSD: stable/10/usr.sbin/bsnmpd/tools/libbsnmptools/bsnmptc.h 216295 2010-12-08 14:30:25Z syrinx $
+ * $FreeBSD: releng/10.1/usr.sbin/bsnmpd/tools/libbsnmptools/bsnmptc.h 216295 2010-12-08 14:30:25Z syrinx $
  */
 
 #ifndef	_BSNMP_TEXT_CONV_H_

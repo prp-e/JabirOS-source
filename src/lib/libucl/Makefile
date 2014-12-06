@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libucl/Makefile 268896 2014-07-19 23:44:57Z bapt $
+# $FreeBSD: releng/10.1/lib/libucl/Makefile 268896 2014-07-19 23:44:57Z bapt $
 
 LIBUCL=	${.CURDIR}/../../contrib/libucl
 

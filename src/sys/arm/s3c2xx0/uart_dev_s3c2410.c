@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/s3c2xx0/uart_dev_s3c2410.c 262649 2014-03-01 04:16:54Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/s3c2xx0/uart_dev_s3c2410.c 262649 2014-03-01 04:16:54Z imp $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

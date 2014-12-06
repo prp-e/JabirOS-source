@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/5/93
-# $FreeBSD: stable/10/usr.sbin/ifmcstat/Makefile 189592 2009-03-09 17:53:05Z bms $
+# $FreeBSD: releng/10.1/usr.sbin/ifmcstat/Makefile 189592 2009-03-09 17:53:05Z bms $
 
 .include <bsd.own.mk>
 

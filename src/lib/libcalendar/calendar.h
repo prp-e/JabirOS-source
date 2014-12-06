@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libcalendar/calendar.h 50476 1999-08-28 00:22:10Z peter $
+ * $FreeBSD: releng/10.1/lib/libcalendar/calendar.h 50476 1999-08-28 00:22:10Z peter $
  */
 struct date {
 	int y;	/* year */

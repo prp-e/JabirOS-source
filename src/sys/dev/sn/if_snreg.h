@@ -28,7 +28,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- *   $FreeBSD: stable/10/sys/dev/sn/if_snreg.h 150459 2005-09-22 05:56:32Z imp $
+ *   $FreeBSD: releng/10.1/sys/dev/sn/if_snreg.h 150459 2005-09-22 05:56:32Z imp $
  */
 
 /*

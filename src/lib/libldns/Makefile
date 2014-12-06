@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libldns/Makefile 269257 2014-07-29 20:57:38Z des $
+# $FreeBSD: releng/10.1/lib/libldns/Makefile 269257 2014-07-29 20:57:38Z des $
 
 # Vendor sources and generated files
 LDNSDIR = ${.CURDIR}/../../contrib/ldns

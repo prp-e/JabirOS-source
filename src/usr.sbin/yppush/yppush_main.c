@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/yppush/yppush_main.c 201389 2010-01-02 11:06:39Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/yppush/yppush_main.c 201389 2010-01-02 11:06:39Z ed $");
 
 #include <errno.h>
 #include <signal.h>

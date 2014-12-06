@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/Makefile.arm 232908 2012-03-13 00:45:27Z jmallett $
+# $FreeBSD: releng/10.1/usr.sbin/Makefile.arm 232908 2012-03-13 00:45:27Z jmallett $
 
 SUBDIR+=	ofwdump
 SUBDIR+=	kgmon

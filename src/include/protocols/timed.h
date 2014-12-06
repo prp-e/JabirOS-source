@@ -28,7 +28,7 @@
  *
  *	@(#)timed.h	8.1 (Berkeley) 6/2/93
  *
- * $FreeBSD: stable/10/include/protocols/timed.h 249311 2013-04-09 16:16:34Z ed $
+ * $FreeBSD: releng/10.1/include/protocols/timed.h 249311 2013-04-09 16:16:34Z ed $
  */
 
 #ifndef	_PROTOCOLS_TIMED_H_

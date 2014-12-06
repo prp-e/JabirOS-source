@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/pci/hostb_pci.c 232472 2012-03-03 18:08:57Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/pci/hostb_pci.c 232472 2012-03-03 18:08:57Z jhb $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tests/Makefile 262854 2014-03-06 13:38:23Z jmmv $
+# $FreeBSD: releng/10.1/tests/Makefile 262854 2014-03-06 13:38:23Z jmmv $
 
 .include <bsd.own.mk>
 

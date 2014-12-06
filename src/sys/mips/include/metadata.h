@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/include/metadata.h 245330 2013-01-12 13:20:21Z rwatson $
+ * $FreeBSD: releng/10.1/sys/mips/include/metadata.h 245330 2013-01-12 13:20:21Z rwatson $
  */
 
 #ifndef _MACHINE_METADATA_H_

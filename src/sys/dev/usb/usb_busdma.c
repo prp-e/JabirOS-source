@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/usb_busdma.c 261579 2014-02-07 07:18:52Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/usb_busdma.c 261579 2014-02-07 07:18:52Z hselasky $ */
 /*-
  * Copyright (c) 2008 Hans Petter Selasky. All rights reserved.
  *

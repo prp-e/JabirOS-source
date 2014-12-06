@@ -11,7 +11,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/msun/src/s_remquol.c 233973 2012-04-07 03:59:12Z das $");
+__FBSDID("$FreeBSD: releng/10.1/lib/msun/src/s_remquol.c 233973 2012-04-07 03:59:12Z das $");
 
 #include <float.h>
 #include <stdint.h>

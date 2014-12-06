@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/sctp_bsd_addr.h 237540 2012-06-24 21:25:54Z tuexen $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/sctp_bsd_addr.h 237540 2012-06-24 21:25:54Z tuexen $");
 
 #ifndef _NETINET_SCTP_BSD_ADDR_H_
 #define _NETINET_SCTP_BSD_ADDR_H_

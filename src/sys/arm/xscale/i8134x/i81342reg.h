@@ -24,7 +24,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-/* $FreeBSD: stable/10/sys/arm/xscale/i8134x/i81342reg.h 261455 2014-02-04 03:36:42Z eadler $ */
+/* $FreeBSD: releng/10.1/sys/arm/xscale/i8134x/i81342reg.h 261455 2014-02-04 03:36:42Z eadler $ */
 
 #ifndef I83142_REG_H_
 #define I83142_REG_H_

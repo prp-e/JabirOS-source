@@ -22,7 +22,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/aim/mmu_oea64.h 255418 2013-09-09 12:51:24Z nwhitehorn $
+ * $FreeBSD: releng/10.1/sys/powerpc/aim/mmu_oea64.h 255418 2013-09-09 12:51:24Z nwhitehorn $
  */
 
 #ifndef _POWERPC_AIM_MMU_OEA64_H

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/ppp/ncpaddr.c 146187 2005-05-13 16:31:11Z ume $
+ * $FreeBSD: releng/10.1/usr.sbin/ppp/ncpaddr.c 146187 2005-05-13 16:31:11Z ume $
  */
 
 #include <sys/types.h>

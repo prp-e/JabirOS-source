@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/cddl/compat/opensolaris/misc/zone.c 185029 2008-11-17 20:49:29Z pjd $
+ * $FreeBSD: releng/10.1/cddl/compat/opensolaris/misc/zone.c 185029 2008-11-17 20:49:29Z pjd $
  */
 
 #include <stdlib.h>

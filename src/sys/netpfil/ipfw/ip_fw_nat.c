@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netpfil/ipfw/ip_fw_nat.c 266678 2014-05-26 07:02:03Z ae $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netpfil/ipfw/ip_fw_nat.c 266678 2014-05-26 07:02:03Z ae $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

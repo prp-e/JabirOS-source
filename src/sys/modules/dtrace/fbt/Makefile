@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/dtrace/fbt/Makefile 253996 2013-08-06 15:51:56Z avg $
+# $FreeBSD: releng/10.1/sys/modules/dtrace/fbt/Makefile 253996 2013-08-06 15:51:56Z avg $
 
 .PATH: ${.CURDIR}/../../../cddl/dev/fbt
 

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/ia64/acpica/madt.c 203883 2010-02-14 16:56:24Z marcel $
+ * $FreeBSD: releng/10.1/sys/ia64/acpica/madt.c 203883 2010-02-14 16:56:24Z marcel $
  */
 
 #include <contrib/dev/acpica/include/acpi.h>

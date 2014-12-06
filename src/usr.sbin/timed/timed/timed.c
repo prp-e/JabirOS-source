@@ -40,7 +40,7 @@ static char sccsid[] = "@(#)timed.c	8.1 (Berkeley) 6/6/93";
 #endif
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/timed/timed/timed.c 246209 2013-02-01 14:26:54Z charnier $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/timed/timed/timed.c 246209 2013-02-01 14:26:54Z charnier $");
 
 #include "globals.h"
 #include <net/if.h>

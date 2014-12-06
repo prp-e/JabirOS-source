@@ -46,7 +46,7 @@
 
 #include "mixer_if.h"
 
-SND_DECLARE_FILE("$FreeBSD: stable/10/sys/dev/sound/pci/als4000.c 254263 2013-08-12 23:30:01Z scottl $");
+SND_DECLARE_FILE("$FreeBSD: releng/10.1/sys/dev/sound/pci/als4000.c 254263 2013-08-12 23:30:01Z scottl $");
 
 /* Debugging macro's */
 #undef DEB

@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/p1003_1b/fifo.c 57257 2000-02-16 14:28:42Z dufault $
+ * $FreeBSD: releng/10.1/tools/regression/p1003_1b/fifo.c 57257 2000-02-16 14:28:42Z dufault $
  */
 #include <unistd.h>
 #include <stdlib.h>

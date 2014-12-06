@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/arm/tegra/files.tegra2 266311 2014-05-17 13:53:38Z ian $
+# $FreeBSD: releng/10.1/sys/arm/tegra/files.tegra2 266311 2014-05-17 13:53:38Z ian $
 
 arm/arm/bus_space_asm_generic.S		standard
 arm/arm/bus_space_generic.c		standard

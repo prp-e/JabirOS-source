@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/wlandebug/Makefile 201390 2010-01-02 11:07:44Z ed $
+# $FreeBSD: releng/10.1/usr.sbin/wlandebug/Makefile 201390 2010-01-02 11:07:44Z ed $
 
 PROG=	wlandebug
 MAN=	wlandebug.8

@@ -27,7 +27,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/ti/omap4/pandaboard/pandaboard.c 259329 2013-12-13 20:43:11Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/ti/omap4/pandaboard/pandaboard.c 259329 2013-12-13 20:43:11Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

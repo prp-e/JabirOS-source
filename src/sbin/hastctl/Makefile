@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/hastctl/Makefile 250503 2013-05-11 09:51:44Z trociny $
+# $FreeBSD: releng/10.1/sbin/hastctl/Makefile 250503 2013-05-11 09:51:44Z trociny $
 
 .include <bsd.own.mk>
 

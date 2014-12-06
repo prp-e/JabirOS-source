@@ -33,7 +33,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libutil/libutil.h 247919 2013-03-07 19:00:00Z db $
+ * $FreeBSD: releng/10.1/lib/libutil/libutil.h 247919 2013-03-07 19:00:00Z db $
  */
 
 #ifndef _LIBUTIL_H_

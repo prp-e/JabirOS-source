@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/x86/xen/hvm.c 267068 2014-06-04 17:50:47Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/x86/xen/hvm.c 267068 2014-06-04 17:50:47Z jhb $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

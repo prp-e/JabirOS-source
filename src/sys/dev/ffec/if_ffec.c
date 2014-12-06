@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ffec/if_ffec.c 266277 2014-05-17 00:53:12Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ffec/if_ffec.c 266277 2014-05-17 00:53:12Z ian $");
 
 /*
  * Driver for Freescale Fast Ethernet Controller, found on imx-series SoCs among

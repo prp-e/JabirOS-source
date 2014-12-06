@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/usr.bin/cc/Makefile.inc 259563 2013-12-18 19:07:29Z pfg $
+# $FreeBSD: releng/10.1/gnu/usr.bin/cc/Makefile.inc 259563 2013-12-18 19:07:29Z pfg $
 
 .include "../Makefile.inc"
 

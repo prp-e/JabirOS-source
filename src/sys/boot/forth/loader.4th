@@ -22,7 +22,7 @@
 \ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 \ SUCH DAMAGE.
 \
-\ $FreeBSD: stable/10/sys/boot/forth/loader.4th 262704 2014-03-03 07:31:55Z dteske $
+\ $FreeBSD: releng/10.1/sys/boot/forth/loader.4th 262704 2014-03-03 07:31:55Z dteske $
 
 s" arch-i386" environment? [if] [if]
 	s" loader_version" environment?  [if]

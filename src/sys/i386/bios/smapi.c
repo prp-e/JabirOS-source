@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/i386/bios/smapi.c 241073 2012-09-30 15:42:20Z kevlo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/i386/bios/smapi.c 241073 2012-09-30 15:42:20Z kevlo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -57,7 +57,7 @@
 
 #ifndef lint
 static const char rcsid[] =
-  "$FreeBSD: stable/10/sbin/nos-tun/nos-tun.c 204966 2010-03-10 18:51:13Z uqs $";
+  "$FreeBSD: releng/10.1/sbin/nos-tun/nos-tun.c 204966 2010-03-10 18:51:13Z uqs $";
 #endif /* not lint */
 
 #include <sys/types.h>

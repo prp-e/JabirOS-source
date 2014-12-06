@@ -33,7 +33,7 @@
 
 #include <sys/cdefs.h>
 
-__FBSDID("$FreeBSD: stable/10/contrib/telnet/libtelnet/kerberos.c 110049 2003-01-29 18:14:29Z nectar $");
+__FBSDID("$FreeBSD: releng/10.1/contrib/telnet/libtelnet/kerberos.c 110049 2003-01-29 18:14:29Z nectar $");
 
 #ifndef lint
 static const char sccsid[] = "@(#)kerberos.c	8.3 (Berkeley) 5/30/95";

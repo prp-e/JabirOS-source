@@ -25,7 +25,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/compat/linux/linux_misc.h 246085 2013-01-29 18:41:30Z jhb $
+ * $FreeBSD: releng/10.1/sys/compat/linux/linux_misc.h 246085 2013-01-29 18:41:30Z jhb $
  */
 
 #ifndef _LINUX_MISC_H_

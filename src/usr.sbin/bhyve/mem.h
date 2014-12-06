@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bhyve/mem.h 270159 2014-08-19 01:20:24Z grehan $
+ * $FreeBSD: releng/10.1/usr.sbin/bhyve/mem.h 270159 2014-08-19 01:20:24Z grehan $
  */
 
 #ifndef _MEM_H_

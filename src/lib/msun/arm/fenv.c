@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/msun/arm/fenv.c 266314 2014-05-17 14:22:37Z ian $
+ * $FreeBSD: releng/10.1/lib/msun/arm/fenv.c 266314 2014-05-17 14:22:37Z ian $
  */
 
 #define	__fenv_static

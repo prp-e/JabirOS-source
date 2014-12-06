@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/stdtime/timelocal.c 267798 2014-06-23 15:03:51Z pfg $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/stdtime/timelocal.c 267798 2014-06-23 15:03:51Z pfg $");
 
 #include <stddef.h>
 

@@ -26,7 +26,7 @@
  * THE POSSIBILITY OF SUCH DAMAGE.
  *
  * NETLOGIC_BSD
- * $FreeBSD: stable/10/sys/mips/nlm/xlp.h 238290 2012-07-09 10:24:45Z jchandra $
+ * $FreeBSD: releng/10.1/sys/mips/nlm/xlp.h 238290 2012-07-09 10:24:45Z jchandra $
  */
 
 #ifndef __NLM_XLP_H__

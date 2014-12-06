@@ -60,7 +60,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/include/bus.h 263687 2014-03-24 13:48:04Z emaste $
+ * $FreeBSD: releng/10.1/sys/mips/include/bus.h 263687 2014-03-24 13:48:04Z emaste $
  */
 
 #ifndef _MACHINE_BUS_H_

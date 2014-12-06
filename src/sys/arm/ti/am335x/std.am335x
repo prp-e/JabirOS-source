@@ -1,5 +1,5 @@
 # AM335x generic configuration
-#$FreeBSD: stable/10/sys/arm/ti/am335x/std.am335x 266110 2014-05-15 02:41:23Z ian $
+#$FreeBSD: releng/10.1/sys/arm/ti/am335x/std.am335x 266110 2014-05-15 02:41:23Z ian $
 files		"../ti/am335x/files.am335x"
 include		"../ti/std.ti"
 makeoption	ARM_LITTLE_ENDIAN

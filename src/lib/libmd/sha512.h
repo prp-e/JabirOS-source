@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libmd/sha512.h 220496 2011-04-09 13:56:29Z markm $
+ * $FreeBSD: releng/10.1/lib/libmd/sha512.h 220496 2011-04-09 13:56:29Z markm $
  */
 
 #ifndef _SHA512_H_

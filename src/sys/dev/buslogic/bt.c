@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/buslogic/bt.c 260344 2014-01-05 22:43:40Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/buslogic/bt.c 260344 2014-01-05 22:43:40Z mav $");
 
  /*
   * Special thanks to Leonard N. Zubkoff for writing such a complete and

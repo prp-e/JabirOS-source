@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/crypto/aesni/aesni.h 268034 2014-06-30 09:51:27Z kib $
+ * $FreeBSD: releng/10.1/sys/crypto/aesni/aesni.h 268034 2014-06-30 09:51:27Z kib $
  */
 
 #ifndef _AESNI_H_

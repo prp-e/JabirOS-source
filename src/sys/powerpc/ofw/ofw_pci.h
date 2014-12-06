@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/ofw/ofw_pci.h 265954 2014-05-13 16:59:50Z ian $
+ * $FreeBSD: releng/10.1/sys/powerpc/ofw/ofw_pci.h 265954 2014-05-13 16:59:50Z ian $
  */
 
 #ifndef POWERPC_OFW_OFW_PCI_H

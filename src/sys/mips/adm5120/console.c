@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/adm5120/console.c 228631 2011-12-17 15:08:43Z avg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/adm5120/console.c 228631 2011-12-17 15:08:43Z avg $");
 
 #include <sys/types.h>
 #include <sys/param.h>

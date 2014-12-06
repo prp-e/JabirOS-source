@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/fs/nfsclient/nfs_clnfsiod.c 249630 2013-04-18 23:20:16Z rmacklem $");
+__FBSDID("$FreeBSD: releng/10.1/sys/fs/nfsclient/nfs_clnfsiod.c 249630 2013-04-18 23:20:16Z rmacklem $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

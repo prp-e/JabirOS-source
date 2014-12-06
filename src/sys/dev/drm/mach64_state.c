@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm/mach64_state.c 198332 2009-10-21 15:54:45Z brueffer $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm/mach64_state.c 198332 2009-10-21 15:54:45Z brueffer $");
 
 #include "dev/drm/drmP.h"
 #include "dev/drm/drm.h"

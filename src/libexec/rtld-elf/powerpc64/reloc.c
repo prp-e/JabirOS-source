@@ -26,7 +26,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/libexec/rtld-elf/powerpc64/reloc.c 271469 2014-09-12 16:22:01Z kib $
+ * $FreeBSD: releng/10.1/libexec/rtld-elf/powerpc64/reloc.c 271469 2014-09-12 16:22:01Z kib $
  */
 
 #include <sys/param.h>

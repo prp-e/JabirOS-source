@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/msun/src/k_expf.c 230371 2012-01-20 07:02:42Z das $");
+__FBSDID("$FreeBSD: releng/10.1/lib/msun/src/k_expf.c 230371 2012-01-20 07:02:42Z das $");
 
 #include <complex.h>
 

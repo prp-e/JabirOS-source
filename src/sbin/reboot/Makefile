@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/5/93
-# $FreeBSD: stable/10/sbin/reboot/Makefile 202195 2010-01-13 17:59:23Z ed $
+# $FreeBSD: releng/10.1/sbin/reboot/Makefile 202195 2010-01-13 17:59:23Z ed $
 
 PROG=	reboot
 MAN=	reboot.8 nextboot.8

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/kerberos5/lib/libgssapi_spnego/Makefile 262254 2014-02-20 20:51:27Z peter $
+# $FreeBSD: releng/10.1/kerberos5/lib/libgssapi_spnego/Makefile 262254 2014-02-20 20:51:27Z peter $
 
 LIB=	gssapi_spnego
 LDFLAGS= -Wl,-Bsymbolic -Wl,--no-undefined

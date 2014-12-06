@@ -1,7 +1,7 @@
 /*-
  * Test 0004:	BPF_LD+BPF_W+BPF_ABS
  *
- * $FreeBSD: stable/10/tools/regression/bpf/bpf_filter/tests/test0004.h 182393 2008-08-28 18:38:55Z jkim $
+ * $FreeBSD: releng/10.1/tools/regression/bpf/bpf_filter/tests/test0004.h 182393 2008-08-28 18:38:55Z jkim $
  */
 
 /* BPF program */

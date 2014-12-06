@@ -35,7 +35,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/IPXrouted/output.c 122760 2003-11-15 17:10:56Z trhodes $
+ * $FreeBSD: releng/10.1/usr.sbin/IPXrouted/output.c 122760 2003-11-15 17:10:56Z trhodes $
  */
 
 #ifndef lint

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/geom/mirror/g_mirror.h 260503 2014-01-10 07:48:36Z ae $
+ * $FreeBSD: releng/10.1/sys/geom/mirror/g_mirror.h 260503 2014-01-10 07:48:36Z ae $
  */
 
 #ifndef	_G_MIRROR_H_

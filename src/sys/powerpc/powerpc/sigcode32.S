@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/powerpc/powerpc/sigcode32.S 267040 2014-06-04 06:21:54Z nwhitehorn $ */
+/* $FreeBSD: releng/10.1/sys/powerpc/powerpc/sigcode32.S 267040 2014-06-04 06:21:54Z nwhitehorn $ */
 /* $NetBSD: sigcode.S,v 1.1 1999/11/17 14:56:11 kleink Exp $	*/
 
 /*-

@@ -43,7 +43,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/hastd/crc32.c 219351 2011-03-06 22:56:14Z pjd $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/hastd/crc32.c 219351 2011-03-06 22:56:14Z pjd $");
 
 #include <stdint.h>
 

@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/imgact_binmisc.h 266272 2014-05-16 21:56:33Z sbruno $
+ * $FreeBSD: releng/10.1/sys/sys/imgact_binmisc.h 266272 2014-05-16 21:56:33Z sbruno $
  */
 
 #ifndef	_IMGACT_BINMISC_H_

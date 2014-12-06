@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/i386/include/runq.h 139790 2005-01-06 22:18:23Z imp $
+ * $FreeBSD: releng/10.1/sys/i386/include/runq.h 139790 2005-01-06 22:18:23Z imp $
  */
 
 #ifndef	_MACHINE_RUNQ_H_

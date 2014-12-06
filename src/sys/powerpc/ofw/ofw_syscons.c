@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/ofw/ofw_syscons.c 266019 2014-05-14 14:08:45Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/ofw/ofw_syscons.c 266019 2014-05-14 14:08:45Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

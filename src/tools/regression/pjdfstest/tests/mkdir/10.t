@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/mkdir/10.t 211186 2010-08-11 17:34:58Z pjd $
+# $FreeBSD: releng/10.1/tools/regression/pjdfstest/tests/mkdir/10.t 211186 2010-08-11 17:34:58Z pjd $
 
 desc="mkdir returns EEXIST if the named file exists"
 

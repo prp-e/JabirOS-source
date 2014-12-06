@@ -55,7 +55,7 @@
  * SUCH DAMAGE.
  */
 
-/* $FreeBSD: stable/10/sys/dev/sym/sym_fw2.h 220950 2011-04-22 12:46:39Z marius $ */
+/* $FreeBSD: releng/10.1/sys/dev/sym/sym_fw2.h 220950 2011-04-22 12:46:39Z marius $ */
 
 /*
  *  Scripts for SYMBIOS-Processor

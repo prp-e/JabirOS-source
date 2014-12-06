@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/rctl.h 242139 2012-10-26 16:01:08Z trasz $
+ * $FreeBSD: releng/10.1/sys/sys/rctl.h 242139 2012-10-26 16:01:08Z trasz $
  */
 
 /*

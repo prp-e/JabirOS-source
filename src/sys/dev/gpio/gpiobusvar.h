@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/gpio/gpiobusvar.h 266135 2014-05-15 15:15:23Z loos $
+ * $FreeBSD: releng/10.1/sys/dev/gpio/gpiobusvar.h 266135 2014-05-15 15:15:23Z loos $
  *
  */
 

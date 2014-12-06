@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)endian.h	7.8 (Berkeley) 4/3/91
- * $FreeBSD: stable/10/sys/x86/include/endian.h 233684 2012-03-29 23:31:48Z dim $
+ * $FreeBSD: releng/10.1/sys/x86/include/endian.h 233684 2012-03-29 23:31:48Z dim $
  */
 
 #ifndef _MACHINE_ENDIAN_H_

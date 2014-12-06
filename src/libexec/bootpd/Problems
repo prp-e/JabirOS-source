@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/libexec/bootpd/Problems 50476 1999-08-28 00:22:10Z peter $
+# $FreeBSD: releng/10.1/libexec/bootpd/Problems 50476 1999-08-28 00:22:10Z peter $
 
 Common problems and ways to work around them:
 

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/etc/defaults/Makefile 223543 2011-06-25 17:01:46Z hselasky $
+# $FreeBSD: releng/10.1/etc/defaults/Makefile 223543 2011-06-25 17:01:46Z hselasky $
 
 FILES=	bluetooth.device.conf devfs.rules periodic.conf rc.conf
 NO_OBJ=

@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/sys/dev/drm2/drm_pciids.h 254852 2013-08-25 12:20:57Z dumbbell $
+ * $FreeBSD: releng/10.1/sys/dev/drm2/drm_pciids.h 254852 2013-08-25 12:20:57Z dumbbell $
  */
 
 /*

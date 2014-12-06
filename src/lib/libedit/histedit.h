@@ -31,7 +31,7 @@
  *
  *	@(#)histedit.h	8.2 (Berkeley) 1/3/94
  *	$NetBSD: histedit.h,v 1.41 2009/09/07 21:24:33 christos Exp $
- * $FreeBSD: stable/10/lib/libedit/histedit.h 268782 2014-07-17 02:14:25Z pfg $
+ * $FreeBSD: releng/10.1/lib/libedit/histedit.h 268782 2014-07-17 02:14:25Z pfg $
  */
 
 /*

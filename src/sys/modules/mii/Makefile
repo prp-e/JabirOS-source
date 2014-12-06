@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/mii/Makefile 239275 2012-08-15 04:03:55Z gonzo $
+# $FreeBSD: releng/10.1/sys/modules/mii/Makefile 239275 2012-08-15 04:03:55Z gonzo $
 
 .PATH: ${.CURDIR}/../../dev/mii
 

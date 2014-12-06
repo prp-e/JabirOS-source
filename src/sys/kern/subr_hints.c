@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/subr_hints.c 267902 2014-06-26 08:41:54Z pluknet $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/subr_hints.c 267902 2014-06-26 08:41:54Z pluknet $");
 
 #include <sys/param.h>
 #include <sys/lock.h>

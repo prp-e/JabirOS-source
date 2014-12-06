@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/ddb/ddb_capture.c 198820 2009-11-02 20:18:50Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/ddb/ddb_capture.c 198820 2009-11-02 20:18:50Z jhb $");
 
 #include <sys/types.h>
 #include <sys/sysctl.h>

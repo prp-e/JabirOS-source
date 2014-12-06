@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/arm/allwinner/files.a10 266311 2014-05-17 13:53:38Z ian $
+# $FreeBSD: releng/10.1/sys/arm/allwinner/files.a10 266311 2014-05-17 13:53:38Z ian $
 kern/kern_clocksource.c			standard
 
 arm/arm/bus_space_asm_generic.S		standard

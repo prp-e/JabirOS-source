@@ -37,7 +37,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ie/if_ie_isa.c 241066 2012-09-30 09:21:10Z kevlo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ie/if_ie_isa.c 241066 2012-09-30 09:21:10Z kevlo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

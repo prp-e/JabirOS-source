@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/at91/at91_cfata.c 193934 2009-06-10 17:39:19Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/at91/at91_cfata.c 193934 2009-06-10 17:39:19Z imp $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

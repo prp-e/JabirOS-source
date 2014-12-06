@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/amd64/linux32/linux32_locore.s 190620 2009-04-01 13:09:26Z kib $ */
+/* $FreeBSD: releng/10.1/sys/amd64/linux32/linux32_locore.s 190620 2009-04-01 13:09:26Z kib $ */
 
 #include "linux32_assym.h"			/* system definitions */
 #include <machine/asmacros.h>			/* miscellaneous asm macros */

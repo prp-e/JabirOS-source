@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/i386/libi386/biosacpi.c 254733 2013-08-23 18:52:36Z jkim $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/i386/libi386/biosacpi.c 254733 2013-08-23 18:52:36Z jkim $");
 
 #include <stand.h>
 #include <machine/stdarg.h>

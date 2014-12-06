@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/tty.c 271773 2014-09-18 14:44:47Z grehan $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/tty.c 272752 2014-10-08 15:39:24Z neel $");
 
 #include "opt_capsicum.h"
 #include "opt_compat.h"
@@ -1055,13 +1055,13 @@ tty_rel_free(struct tty *tp)
 	tp->t_dev = NULL;
 	tty_unlock(tp);
 
-	sx_xlock(&tty_list_sx);
-	TAILQ_REMOVE(&tty_list, tp, t_list);
-	tty_list_count--;
-	sx_xunlock(&tty_list_sx);
-
-	if (dev != NULL)
+	if (dev != NULL) {
+		sx_xlock(&tty_list_sx);
+		TAILQ_REMOVE(&tty_list, tp, t_list);
+		tty_list_count--;
+		sx_xunlock(&tty_list_sx);
 		destroy_dev_sched_cb(dev, tty_dealloc, tp);
+	}
 }
 
 void

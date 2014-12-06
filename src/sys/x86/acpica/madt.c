@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/x86/acpica/madt.c 270873 2014-08-31 10:42:52Z akiyama $");
+__FBSDID("$FreeBSD: releng/10.1/sys/x86/acpica/madt.c 270873 2014-08-31 10:42:52Z akiyama $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -28,7 +28,7 @@
  * FreeBSD Version.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/isp/isp_pci.c 260347 2014-01-05 22:48:12Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/isp/isp_pci.c 260347 2014-01-05 22:48:12Z mav $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

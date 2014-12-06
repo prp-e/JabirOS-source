@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/controller/at91dci.c 269916 2014-08-13 06:59:40Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/controller/at91dci.c 269916 2014-08-13 06:59:40Z hselasky $ */
 /*-
  * Copyright (c) 2007-2008 Hans Petter Selasky. All rights reserved.
  *

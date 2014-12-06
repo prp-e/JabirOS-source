@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/man/man4/man4.sparc64/Makefile 147531 2005-06-22 15:35:14Z ru $
+# $FreeBSD: releng/10.1/share/man/man4/man4.sparc64/Makefile 147531 2005-06-22 15:35:14Z ru $
 
 MAN=	auxio.4 \
 	central.4 \

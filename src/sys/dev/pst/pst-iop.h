@@ -25,7 +25,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/pst/pst-iop.h 230132 2012-01-15 13:23:18Z uqs $
+ * $FreeBSD: releng/10.1/sys/dev/pst/pst-iop.h 230132 2012-01-15 13:23:18Z uqs $
  */
 
 /* misc defines */

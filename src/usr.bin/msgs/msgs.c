@@ -40,7 +40,7 @@ static char sccsid[] = "@(#)msgs.c	8.2 (Berkeley) 4/28/95";
 #endif
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/msgs/msgs.c 241848 2012-10-22 03:07:05Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/msgs/msgs.c 241848 2012-10-22 03:07:05Z eadler $");
 
 /*
  * msgs - a user bulletin board program

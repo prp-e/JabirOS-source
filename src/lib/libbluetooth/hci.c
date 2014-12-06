@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libbluetooth/hci.c 192113 2009-05-14 17:10:19Z emax $
+ * $FreeBSD: releng/10.1/lib/libbluetooth/hci.c 192113 2009-05-14 17:10:19Z emax $
  */
 
 #include <assert.h>

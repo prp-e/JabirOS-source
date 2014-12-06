@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/crypto/sha2/sha2.c 253119 2013-07-09 22:04:35Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/sys/crypto/sha2/sha2.c 253119 2013-07-09 22:04:35Z delphij $");
 
 #include <sys/types.h>
 #include <sys/time.h>

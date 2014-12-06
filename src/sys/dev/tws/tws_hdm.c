@@ -31,7 +31,7 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/tws/tws_hdm.c 247551 2013-03-01 15:48:31Z kevlo $
+ * $FreeBSD: releng/10.1/sys/dev/tws/tws_hdm.c 247551 2013-03-01 15:48:31Z kevlo $
  */
 
 

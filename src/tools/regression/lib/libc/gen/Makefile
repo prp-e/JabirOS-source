@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/regression/lib/libc/gen/Makefile 250825 2013-05-20 13:05:51Z jilles $
+# $FreeBSD: releng/10.1/tools/regression/lib/libc/gen/Makefile 250825 2013-05-20 13:05:51Z jilles $
 
 TESTS=	test-arc4random test-fmtcheck test-fmtmsg test-fnmatch \
 	test-fpclassify test-ftw test-popen test-posix_spawn test-wordexp

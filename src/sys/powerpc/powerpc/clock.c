@@ -56,7 +56,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/powerpc/clock.c 265954 2014-05-13 16:59:50Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/powerpc/clock.c 265954 2014-05-13 16:59:50Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

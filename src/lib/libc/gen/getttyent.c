@@ -31,7 +31,7 @@
 static char sccsid[] = "@(#)getttyent.c	8.1 (Berkeley) 6/4/93";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/gen/getttyent.c 267236 2014-06-08 17:50:07Z nwhitehorn $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/gen/getttyent.c 267236 2014-06-08 17:50:07Z nwhitehorn $");
 
 #include <ttyent.h>
 #include <stdio.h>

@@ -1,4 +1,4 @@
-#	$FreeBSD: stable/10/tools/tools/ath/Makefile.inc 252207 2013-06-25 17:50:48Z adrian $
+#	$FreeBSD: releng/10.1/tools/tools/ath/Makefile.inc 252207 2013-06-25 17:50:48Z adrian $
 
 BINDIR=	/usr/local/bin
 NO_MAN=

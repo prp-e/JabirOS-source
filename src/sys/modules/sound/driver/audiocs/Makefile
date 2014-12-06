@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/sound/driver/audiocs/Makefile 136944 2004-10-25 10:29:57Z yongari $
+# $FreeBSD: releng/10.1/sys/modules/sound/driver/audiocs/Makefile 136944 2004-10-25 10:29:57Z yongari $
 
 .PATH: ${.CURDIR}/../../../../dev/sound/sbus
 

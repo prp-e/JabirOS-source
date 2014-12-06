@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/tinybsd/conf/firewall/TINYBSD 248798 2013-03-27 15:10:40Z rene $
+# $FreeBSD: releng/10.1/tools/tools/tinybsd/conf/firewall/TINYBSD 248798 2013-03-27 15:10:40Z rene $
 machine		i386
 cpu		I486_CPU
 cpu		I586_CPU

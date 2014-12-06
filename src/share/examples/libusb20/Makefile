@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/examples/libusb20/Makefile 269879 2014-08-12 14:53:02Z emaste $
+# $FreeBSD: releng/10.1/share/examples/libusb20/Makefile 269879 2014-08-12 14:53:02Z emaste $
 TARGETS=	bulk control
 CFLAGS+=	-Wall
 

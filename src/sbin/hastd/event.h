@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/hastd/event.h 212049 2010-08-31 09:38:43Z pjd $
+ * $FreeBSD: releng/10.1/sbin/hastd/event.h 212049 2010-08-31 09:38:43Z pjd $
  */
 
 #ifndef	_EVENT_H_

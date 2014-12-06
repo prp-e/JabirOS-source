@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/mips/conf/std.XLP 266331 2014-05-17 17:34:37Z ian $
+# $FreeBSD: releng/10.1/sys/mips/conf/std.XLP 266331 2014-05-17 17:34:37Z ian $
 
 include		"../nlm/std.xlp"
 makeoptions	MODULES_OVERRIDE=""

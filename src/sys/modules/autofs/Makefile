@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/autofs/Makefile 270096 2014-08-17 09:44:42Z trasz $
+# $FreeBSD: releng/10.1/sys/modules/autofs/Makefile 270096 2014-08-17 09:44:42Z trasz $
 
 .PATH: ${.CURDIR}/../../fs/autofs
 

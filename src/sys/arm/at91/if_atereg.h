@@ -23,7 +23,7 @@
  * SUCH DAMAGE.
  */
 
-/* $FreeBSD: stable/10/sys/arm/at91/if_atereg.h 213496 2010-10-06 22:25:21Z cognet $ */
+/* $FreeBSD: releng/10.1/sys/arm/at91/if_atereg.h 213496 2010-10-06 22:25:21Z cognet $ */
 
 #ifndef ARM_AT91_IF_ATEREG_H
 #define ARM_AT91_IF_ATEREG_H

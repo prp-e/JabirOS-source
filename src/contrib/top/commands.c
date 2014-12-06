@@ -8,7 +8,7 @@
  *  Copyright (c) 1984, 1989, William LeFebvre, Rice University
  *  Copyright (c) 1989, 1990, 1992, William LeFebvre, Northwestern University
  *
- * $FreeBSD: stable/10/contrib/top/commands.c 266280 2014-05-17 02:39:20Z bdrewery $
+ * $FreeBSD: releng/10.1/contrib/top/commands.c 266280 2014-05-17 02:39:20Z bdrewery $
  */
 
 /*

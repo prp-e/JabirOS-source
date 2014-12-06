@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/nfscl/Makefile 223483 2011-06-23 20:31:52Z uqs $
+# $FreeBSD: releng/10.1/sys/modules/nfscl/Makefile 223483 2011-06-23 20:31:52Z uqs $
 
 .PATH: ${.CURDIR}/../../fs/nfsclient ${.CURDIR}/../../nfs
 KMOD=	nfscl

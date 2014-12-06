@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/aic7xxx/aic79xx_osm.c 246713 2013-02-12 16:57:20Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/aic7xxx/aic79xx_osm.c 246713 2013-02-12 16:57:20Z kib $");
 
 #include <dev/aic7xxx/aic79xx_osm.h>
 #include <dev/aic7xxx/aic79xx_inline.h>

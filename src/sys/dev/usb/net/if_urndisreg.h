@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/dev/usb/net/if_urndisreg.h 262363 2014-02-23 13:22:04Z hselasky $ */
+/*	$FreeBSD: releng/10.1/sys/dev/usb/net/if_urndisreg.h 262363 2014-02-23 13:22:04Z hselasky $ */
 /*	$OpenBSD: if_urndisreg.h,v 1.19 2013/11/21 14:08:05 mpi Exp $ */
 
 /*

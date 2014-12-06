@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/9/93
-# $FreeBSD: stable/10/usr.bin/rev/Makefile 90415 2002-02-08 22:31:43Z markm $
+# $FreeBSD: releng/10.1/usr.bin/rev/Makefile 90415 2002-02-08 22:31:43Z markm $
 
 PROG=	rev
 

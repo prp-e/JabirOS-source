@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/virtio/virtqueue.h 270270 2014-08-21 13:27:05Z bryanv $
+ * $FreeBSD: releng/10.1/sys/dev/virtio/virtqueue.h 270270 2014-08-21 13:27:05Z bryanv $
  */
 
 #ifndef _VIRTIO_VIRTQUEUE_H

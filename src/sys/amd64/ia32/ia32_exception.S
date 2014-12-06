@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/ia32/ia32_exception.S 220451 2011-04-08 13:30:48Z jhb $
+ * $FreeBSD: releng/10.1/sys/amd64/ia32/ia32_exception.S 220451 2011-04-08 13:30:48Z jhb $
  */
 
 #include <machine/asmacros.h>

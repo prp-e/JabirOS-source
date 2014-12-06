@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/toecore.c 245932 2013-01-26 00:57:29Z np $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/toecore.c 245932 2013-01-26 00:57:29Z np $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"

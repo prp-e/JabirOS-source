@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/kerberos5/lib/libkrb5/Makefile 255455 2013-09-10 18:40:43Z des $
+# $FreeBSD: releng/10.1/kerberos5/lib/libkrb5/Makefile 255455 2013-09-10 18:40:43Z des $
 
 LIB=	krb5
 LDFLAGS=	-Wl,--no-undefined

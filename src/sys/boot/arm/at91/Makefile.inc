@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/arm/at91/Makefile.inc 251250 2013-06-02 11:44:23Z tijl $
+# $FreeBSD: releng/10.1/sys/boot/arm/at91/Makefile.inc 251250 2013-06-02 11:44:23Z tijl $
 
 .if !target(__at91_boot_Makefile.inc__)
 .PATH:	${.CURDIR}/../../../../libkern ${.CURDIR}/../../../../libkern/arm

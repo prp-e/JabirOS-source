@@ -57,7 +57,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/sparc64/sbus/lsi64854.c 227578 2011-11-16 18:42:43Z pjd $");
+__FBSDID("$FreeBSD: releng/10.1/sys/sparc64/sbus/lsi64854.c 227578 2011-11-16 18:42:43Z pjd $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

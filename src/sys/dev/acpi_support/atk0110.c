@@ -18,7 +18,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/acpi_support/atk0110.c 252276 2013-06-26 23:52:10Z jkim $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/acpi_support/atk0110.c 252276 2013-06-26 23:52:10Z jkim $");
 
 #include <machine/_inttypes.h>
 #include <sys/param.h>

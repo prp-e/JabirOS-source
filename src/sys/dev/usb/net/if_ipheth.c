@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/net/if_ipheth.c 253670 2013-07-26 09:58:56Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/net/if_ipheth.c 253670 2013-07-26 09:58:56Z hselasky $");
 
 #include <sys/stdint.h>
 #include <sys/stddef.h>

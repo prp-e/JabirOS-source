@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/usr.sbin/ndp/ndp.c 270655 2014-08-26 10:32:08Z ae $	*/
+/*	$FreeBSD: releng/10.1/usr.sbin/ndp/ndp.c 270655 2014-08-26 10:32:08Z ae $	*/
 /*	$KAME: ndp.c,v 1.104 2003/06/27 07:48:39 itojun Exp $	*/
 
 /*

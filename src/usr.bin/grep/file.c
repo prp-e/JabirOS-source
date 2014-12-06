@@ -1,5 +1,5 @@
 /*	$NetBSD: file.c,v 1.5 2011/02/16 18:35:39 joerg Exp $	*/
-/*	$FreeBSD: stable/10/usr.bin/grep/file.c 245171 2013-01-08 18:37:12Z obrien $	*/
+/*	$FreeBSD: releng/10.1/usr.bin/grep/file.c 245171 2013-01-08 18:37:12Z obrien $	*/
 /*	$OpenBSD: file.c,v 1.11 2010/07/02 20:48:48 nicm Exp $	*/
 
 /*-
@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/grep/file.c 245171 2013-01-08 18:37:12Z obrien $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/grep/file.c 245171 2013-01-08 18:37:12Z obrien $");
 
 #include <sys/param.h>
 #include <sys/mman.h>

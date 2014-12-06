@@ -37,7 +37,7 @@ static char sccsid[] = "@(#)mount.c	8.25 (Berkeley) 5/8/95";
 #endif /* not lint */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/mount/mount.c 270892 2014-08-31 21:18:23Z trasz $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/mount/mount.c 270892 2014-08-31 21:18:23Z trasz $");
 
 #include <sys/param.h>
 #include <sys/mount.h>

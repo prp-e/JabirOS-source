@@ -24,11 +24,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/vmm/vmm_instruction_emul.c 271659 2014-09-16 01:59:19Z grehan $
+ * $FreeBSD: releng/10.1/sys/amd64/vmm/vmm_instruction_emul.c 271659 2014-09-16 01:59:19Z grehan $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/amd64/vmm/vmm_instruction_emul.c 271659 2014-09-16 01:59:19Z grehan $");
+__FBSDID("$FreeBSD: releng/10.1/sys/amd64/vmm/vmm_instruction_emul.c 271659 2014-09-16 01:59:19Z grehan $");
 
 #ifdef _KERNEL
 #include <sys/param.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/nfsclient/Makefile 221032 2011-04-25 22:22:51Z rmacklem $
+# $FreeBSD: releng/10.1/sys/modules/nfsclient/Makefile 221032 2011-04-25 22:22:51Z rmacklem $
 
 .PATH: ${.CURDIR}/../../nfsclient ${.CURDIR}/../../nfs ${.CURDIR}/../../rpc
 

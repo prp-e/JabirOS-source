@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/sys/modules/vmware/vmxnet3/Makefile 264866 2014-04-24 04:43:50Z bryanv $
+# $FreeBSD: releng/10.1/sys/modules/vmware/vmxnet3/Makefile 264866 2014-04-24 04:43:50Z bryanv $
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions

@@ -69,7 +69,7 @@ static const char sccsid[] = "@(#)inet_addr.c	8.1 (Berkeley) 6/17/93";
 static const char rcsid[] = "$Id: inet_addr.c,v 1.5 2005/04/27 04:56:19 sra Exp $";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/inet/inet_addr.c 270838 2014-08-30 10:16:25Z ume $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/inet/inet_addr.c 270838 2014-08-30 10:16:25Z ume $");
 
 #include "port_before.h"
 

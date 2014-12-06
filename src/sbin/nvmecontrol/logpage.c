@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/nvmecontrol/logpage.c 253114 2013-07-09 21:31:21Z jimharris $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/nvmecontrol/logpage.c 253114 2013-07-09 21:31:21Z jimharris $");
 
 #include <sys/param.h>
 #include <sys/ioccom.h>

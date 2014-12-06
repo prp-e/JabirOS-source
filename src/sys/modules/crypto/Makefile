@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/crypto/Makefile 260004 2013-12-28 15:19:47Z peter $
+# $FreeBSD: releng/10.1/sys/modules/crypto/Makefile 260004 2013-12-28 15:19:47Z peter $
 
 .PATH:	${.CURDIR}/../../opencrypto
 .PATH:	${.CURDIR}/../../crypto

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/sockets/listenclose/listenclose.c 146250 2005-05-16 00:53:38Z rwatson $
+ * $FreeBSD: releng/10.1/tools/regression/sockets/listenclose/listenclose.c 146250 2005-05-16 00:53:38Z rwatson $
  */
 
 #include <sys/types.h>

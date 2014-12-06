@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/stdio/getline.c 189136 2009-02-28 06:00:58Z das $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/stdio/getline.c 189136 2009-02-28 06:00:58Z das $");
 
 #define	_WITH_GETLINE
 #include <stdio.h>

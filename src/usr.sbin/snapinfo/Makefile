@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/snapinfo/Makefile 148197 2005-07-20 18:59:25Z marks $
+# $FreeBSD: releng/10.1/usr.sbin/snapinfo/Makefile 148197 2005-07-20 18:59:25Z marks $
 #
 
 PROG=	snapinfo

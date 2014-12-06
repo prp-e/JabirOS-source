@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/usr.bin/bc/tty.c 265533 2014-05-07 08:06:54Z delphij $	*/
+/*	$FreeBSD: releng/10.1/usr.bin/bc/tty.c 265533 2014-05-07 08:06:54Z delphij $	*/
 /*      $OpenBSD: tty.c,v 1.2 2013/11/12 13:54:51 deraadt Exp $	*/
 
 /*

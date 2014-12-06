@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/nc/Makefile 214047 2010-10-19 00:01:53Z delphij $
+# $FreeBSD: releng/10.1/usr.bin/nc/Makefile 214047 2010-10-19 00:01:53Z delphij $
 
 .PATH: ${.CURDIR}/../../contrib/netcat
 

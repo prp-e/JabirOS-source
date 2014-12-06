@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/ath/athkey/Makefile 220534 2011-04-11 06:53:45Z adrian $
+# $FreeBSD: releng/10.1/tools/tools/ath/athkey/Makefile 220534 2011-04-11 06:53:45Z adrian $
 
 PROG=	athkey
 

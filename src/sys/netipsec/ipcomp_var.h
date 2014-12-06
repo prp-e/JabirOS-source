@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/netipsec/ipcomp_var.h 253088 2013-07-09 10:08:13Z ae $	*/
+/*	$FreeBSD: releng/10.1/sys/netipsec/ipcomp_var.h 253088 2013-07-09 10:08:13Z ae $	*/
 /*	$KAME: ipcomp.h,v 1.8 2000/09/26 07:55:14 itojun Exp $	*/
 
 /*-

@@ -38,7 +38,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/agp/agp_i810.c 261455 2014-02-04 03:36:42Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/agp/agp_i810.c 261455 2014-02-04 03:36:42Z eadler $");
 
 #if 0
 #define	KTR_AGP_I810	KTR_DEV

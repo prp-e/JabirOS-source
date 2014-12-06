@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/netgraph/device/Makefile 136673 2004-10-18 20:13:57Z glebius $
+# $FreeBSD: releng/10.1/sys/modules/netgraph/device/Makefile 136673 2004-10-18 20:13:57Z glebius $
 KMOD=   ng_device
 SRCS=   ng_device.c
 

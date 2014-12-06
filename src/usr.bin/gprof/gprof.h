@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)gprof.h	8.1 (Berkeley) 6/6/93
- * $FreeBSD: stable/10/usr.bin/gprof/gprof.h 246783 2013-02-14 08:16:03Z charnier $
+ * $FreeBSD: releng/10.1/usr.bin/gprof/gprof.h 246783 2013-02-14 08:16:03Z charnier $
  */
 
 #include <sys/types.h>

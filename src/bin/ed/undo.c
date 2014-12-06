@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/bin/ed/undo.c 241720 2012-10-19 05:43:38Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/bin/ed/undo.c 241720 2012-10-19 05:43:38Z ed $");
 
 #include "ed.h"
 

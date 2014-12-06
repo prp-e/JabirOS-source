@@ -36,7 +36,7 @@
 #include <machine/asm.h>
 #include <machine/armreg.h>
 #include "assym.s"
-__FBSDID("$FreeBSD: stable/10/sys/arm/arm/fusu.S 269796 2014-08-11 01:29:28Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/arm/fusu.S 269796 2014-08-11 01:29:28Z ian $");
 
 #ifdef _ARM_ARCH_6
 #define GET_PCB(tmp) \

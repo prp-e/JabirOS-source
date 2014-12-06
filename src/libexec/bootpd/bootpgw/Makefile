@@ -1,5 +1,5 @@
 # Makefile
-# $FreeBSD: stable/10/libexec/bootpd/bootpgw/Makefile 139103 2004-12-21 08:47:35Z ru $
+# $FreeBSD: releng/10.1/libexec/bootpd/bootpgw/Makefile 139103 2004-12-21 08:47:35Z ru $
 
 PROG=	bootpgw
 NO_MAN=

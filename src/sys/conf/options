@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/conf/options 270892 2014-08-31 21:18:23Z trasz $
+# $FreeBSD: releng/10.1/sys/conf/options 270892 2014-08-31 21:18:23Z trasz $
 #
 #        On the handling of kernel options
 #

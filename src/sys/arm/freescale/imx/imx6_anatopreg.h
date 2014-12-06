@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/freescale/imx/imx6_anatopreg.h 266201 2014-05-15 22:50:06Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/freescale/imx/imx6_anatopreg.h 266201 2014-05-15 22:50:06Z ian $
  */
 
 #ifndef	IMX6_ANATOPREG_H

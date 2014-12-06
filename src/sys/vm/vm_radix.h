@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/vm/vm_radix.h 266591 2014-05-23 17:47:49Z alc $
+ * $FreeBSD: releng/10.1/sys/vm/vm_radix.h 266591 2014-05-23 17:47:49Z alc $
  */
 
 #ifndef _VM_RADIX_H_

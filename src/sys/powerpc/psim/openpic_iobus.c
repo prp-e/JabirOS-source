@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/psim/openpic_iobus.c 218075 2011-01-29 20:58:38Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/psim/openpic_iobus.c 218075 2011-01-29 20:58:38Z marcel $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

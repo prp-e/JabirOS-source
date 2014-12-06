@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/include/xlocale/_string.h 267465 2014-06-14 02:57:40Z pfg $
+ * $FreeBSD: releng/10.1/include/xlocale/_string.h 267465 2014-06-14 02:57:40Z pfg $
  */
 
 #ifndef _LOCALE_T_DEFINED

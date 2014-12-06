@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/ccdconfig/ccdconfig.c 241848 2012-10-22 03:07:05Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/ccdconfig/ccdconfig.c 241848 2012-10-22 03:07:05Z eadler $");
 
 #include <sys/param.h>
 #include <sys/linker.h>

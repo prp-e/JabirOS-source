@@ -27,7 +27,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/isci/isci.h 268073 2014-07-01 06:23:48Z scottl $
+ * $FreeBSD: releng/10.1/sys/dev/isci/isci.h 268073 2014-07-01 06:23:48Z scottl $
  */
 
 #ifndef _ISCI_H

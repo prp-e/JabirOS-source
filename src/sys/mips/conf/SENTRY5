@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/sys/mips/conf/SENTRY5 266331 2014-05-17 17:34:37Z ian $
+# $FreeBSD: releng/10.1/sys/mips/conf/SENTRY5 266331 2014-05-17 17:34:37Z ian $
 #
 # The Broadcom Sentry5 series of processors and boards is very commonly
 # used in COTS hardware including the Netgear WGT634U.

@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/net/if_gif.h 249925 2013-04-26 12:50:32Z glebius $	*/
+/*	$FreeBSD: releng/10.1/sys/net/if_gif.h 249925 2013-04-26 12:50:32Z glebius $	*/
 /*	$KAME: if_gif.h,v 1.17 2000/09/11 11:36:41 sumikawa Exp $	*/
 
 /*-

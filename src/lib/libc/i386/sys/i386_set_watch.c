@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/i386/sys/i386_set_watch.c 105604 2002-10-21 03:47:22Z sam $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/i386/sys/i386_set_watch.c 105604 2002-10-21 03:47:22Z sam $");
 
 #include <machine/reg.h>
 #include <machine/sysarch.h>

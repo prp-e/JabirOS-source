@@ -79,7 +79,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet6/ip6_mroute.c 263069 2014-03-12 08:15:15Z brueffer $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet6/ip6_mroute.c 263069 2014-03-12 08:15:15Z brueffer $");
 
 #include "opt_inet6.h"
 #include "opt_kdtrace.h"

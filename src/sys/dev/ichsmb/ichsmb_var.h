@@ -35,7 +35,7 @@
  *
  * Author: Archie Cobbs <archie@freebsd.org>
  *
- * $FreeBSD: stable/10/sys/dev/ichsmb/ichsmb_var.h 179622 2008-06-06 18:29:56Z jhb $
+ * $FreeBSD: releng/10.1/sys/dev/ichsmb/ichsmb_var.h 179622 2008-06-06 18:29:56Z jhb $
  */
 
 #ifndef _DEV_ICHSMB_ICHSMB_VAR_H

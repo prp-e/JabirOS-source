@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/rockchip/rk30xx_mp.c 266397 2014-05-18 13:05:07Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/rockchip/rk30xx_mp.c 266397 2014-05-18 13:05:07Z ian $");
 #include <sys/param.h>
 #include <sys/systm.h>
 #include <sys/bus.h>

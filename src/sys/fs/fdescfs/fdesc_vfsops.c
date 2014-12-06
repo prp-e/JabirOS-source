@@ -31,7 +31,7 @@
  *
  *	@(#)fdesc_vfsops.c	8.4 (Berkeley) 1/21/94
  *
- * $FreeBSD: stable/10/sys/fs/fdescfs/fdesc_vfsops.c 247602 2013-03-02 00:53:12Z pjd $
+ * $FreeBSD: releng/10.1/sys/fs/fdescfs/fdesc_vfsops.c 247602 2013-03-02 00:53:12Z pjd $
  */
 
 /*

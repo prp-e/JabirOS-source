@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/mkimg/pc98.c 272030 2014-09-23 16:05:23Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/mkimg/pc98.c 272030 2014-09-23 16:05:23Z marcel $");
 
 #include <sys/types.h>
 #include <sys/diskpc98.h>

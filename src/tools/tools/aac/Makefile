@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/aac/Makefile 219522 2011-03-11 18:51:42Z brucec $
+# $FreeBSD: releng/10.1/tools/tools/aac/Makefile 219522 2011-03-11 18:51:42Z brucec $
 
 PROG=	aac_checkq
 NO_MAN=

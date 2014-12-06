@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/cddl/lib/libdtrace/Makefile 265273 2014-05-03 16:08:52Z markj $
+# $FreeBSD: releng/10.1/cddl/lib/libdtrace/Makefile 265273 2014-05-03 16:08:52Z markj $
 
 .PATH: ${.CURDIR}/../../../cddl/contrib/opensolaris/lib/libdtrace/common
 .PATH: ${.CURDIR}/../../../cddl/contrib/opensolaris/lib/libgen/common

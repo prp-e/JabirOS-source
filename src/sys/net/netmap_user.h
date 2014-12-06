@@ -25,7 +25,7 @@
  */
 
 /*
- * $FreeBSD: stable/10/sys/net/netmap_user.h 270292 2014-08-21 19:42:03Z np $
+ * $FreeBSD: releng/10.1/sys/net/netmap_user.h 270292 2014-08-21 19:42:03Z np $
  *
  * Functions and macros to manipulate netmap structures and packets
  * in userspace. See netmap(4) for more information.

@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/crypto/aesni/aesni.c 268034 2014-06-30 09:51:27Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/crypto/aesni/aesni.c 268034 2014-06-30 09:51:27Z kib $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

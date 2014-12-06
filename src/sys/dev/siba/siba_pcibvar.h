@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/siba/siba_pcibvar.h 183371 2008-09-26 03:57:23Z imp $
+ * $FreeBSD: releng/10.1/sys/dev/siba/siba_pcibvar.h 183371 2008-09-26 03:57:23Z imp $
  */
 
 #ifndef _SIBA_PCIBVAR_H_

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/tools/regression/acct/regress.t 217064 2011-01-06 20:05:24Z keramida $
+# $FreeBSD: releng/10.1/tools/regression/acct/regress.t 217064 2011-01-06 20:05:24Z keramida $
 #
 
 if test -z "${DIR}" ; then

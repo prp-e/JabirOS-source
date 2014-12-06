@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/usr.bin/groff/src/preproc/grn/Makefile 114412 2003-05-01 13:22:21Z ru $
+# $FreeBSD: releng/10.1/gnu/usr.bin/groff/src/preproc/grn/Makefile 114412 2003-05-01 13:22:21Z ru $
 
 PROG_CXX=	grn
 SRCS=		hdb.cpp hpoint.cpp hgraph.cpp main.cpp

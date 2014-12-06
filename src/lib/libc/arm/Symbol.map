@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/lib/libc/arm/Symbol.map 269792 2014-08-10 22:26:29Z ian $
+ * $FreeBSD: releng/10.1/lib/libc/arm/Symbol.map 269792 2014-08-10 22:26:29Z ian $
  */
 
 /*

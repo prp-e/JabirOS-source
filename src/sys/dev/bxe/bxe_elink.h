@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/bxe/bxe_elink.h 265797 2014-05-10 02:10:32Z davidcs $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/bxe/bxe_elink.h 265797 2014-05-10 02:10:32Z davidcs $");
 
 #ifndef ELINK_H
 #define ELINK_H

@@ -25,7 +25,7 @@
  * SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/net/if_llatbl.h 254963 2013-08-27 16:45:00Z alfred $");
+__FBSDID("$FreeBSD: releng/10.1/sys/net/if_llatbl.h 254963 2013-08-27 16:45:00Z alfred $");
 
 #ifndef	_NET_IF_LLATBL_H_
 #define	_NET_IF_LLATBL_H_

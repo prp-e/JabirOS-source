@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/jls/jls.c 250736 2013-05-17 08:48:16Z des $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/jls/jls.c 250736 2013-05-17 08:48:16Z des $");
 
 #include <sys/param.h>
 #include <sys/jail.h>

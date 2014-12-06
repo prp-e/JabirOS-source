@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/cddl/usr.bin/ztest/Makefile 254949 2013-08-27 04:01:31Z will $
+# $FreeBSD: releng/10.1/cddl/usr.bin/ztest/Makefile 254949 2013-08-27 04:01:31Z will $
 
 .PATH: ${.CURDIR}/../..//contrib/opensolaris/cmd/ztest
 

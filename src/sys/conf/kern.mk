@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/conf/kern.mk 268882 2014-07-19 18:33:09Z dim $
+# $FreeBSD: releng/10.1/sys/conf/kern.mk 268882 2014-07-19 18:33:09Z dim $
 
 #
 # Warning flags for compiling the kernel and components of the kernel:

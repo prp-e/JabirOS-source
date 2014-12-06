@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/atheros/ar71xx_gpio.c 255335 2013-09-06 23:47:50Z loos $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/atheros/ar71xx_gpio.c 255335 2013-09-06 23:47:50Z loos $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

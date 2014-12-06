@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm_linux_list.h 254841 2013-08-25 10:28:02Z dumbbell $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/drm_linux_list.h 254841 2013-08-25 10:28:02Z dumbbell $");
 
 #ifndef _DRM_LINUX_LIST_H_
 #define _DRM_LINUX_LIST_H_

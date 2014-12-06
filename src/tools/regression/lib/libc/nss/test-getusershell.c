@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/regression/lib/libc/nss/test-getusershell.c 251867 2013-06-17 20:27:20Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/tools/regression/lib/libc/nss/test-getusershell.c 251867 2013-06-17 20:27:20Z eadler $");
 
 #include <assert.h>
 #include <errno.h>

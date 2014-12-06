@@ -50,7 +50,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/i386/isa/spic.c 249588 2013-04-17 11:56:11Z gabor $");
+__FBSDID("$FreeBSD: releng/10.1/sys/i386/isa/spic.c 249588 2013-04-17 11:56:11Z gabor $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

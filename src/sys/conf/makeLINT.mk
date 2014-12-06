@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/conf/makeLINT.mk 249390 2013-04-11 22:18:20Z bz $
+# $FreeBSD: releng/10.1/sys/conf/makeLINT.mk 249390 2013-04-11 22:18:20Z bz $
 
 all:
 	@echo "make LINT only"

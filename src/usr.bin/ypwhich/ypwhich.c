@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/ypwhich/ypwhich.c 209342 2010-06-19 16:24:55Z gavin $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/ypwhich/ypwhich.c 209342 2010-06-19 16:24:55Z gavin $");
 
 #include <sys/param.h>
 #include <sys/types.h>

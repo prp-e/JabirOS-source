@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/rpc/replay.c 211853 2010-08-26 23:33:04Z pjd $");
+__FBSDID("$FreeBSD: releng/10.1/sys/rpc/replay.c 211853 2010-08-26 23:33:04Z pjd $");
 
 #include <sys/param.h>
 #include <sys/hash.h>

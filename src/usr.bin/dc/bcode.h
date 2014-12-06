@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/usr.bin/dc/bcode.h 265533 2014-05-07 08:06:54Z delphij $						*/
+/*	$FreeBSD: releng/10.1/usr.bin/dc/bcode.h 265533 2014-05-07 08:06:54Z delphij $						*/
 /*	$OpenBSD: bcode.h,v 1.7 2012/11/07 11:06:14 otto Exp $	*/
 
 /*

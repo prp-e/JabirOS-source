@@ -38,7 +38,7 @@
  *
  * Author: Julian Elischer <julian@freebsd.org>
  *
- * $FreeBSD: stable/10/sys/netgraph/ng_tee.c 243882 2012-12-05 08:04:20Z glebius $
+ * $FreeBSD: releng/10.1/sys/netgraph/ng_tee.c 243882 2012-12-05 08:04:20Z glebius $
  * $Whistle: ng_tee.c,v 1.18 1999/11/01 09:24:52 julian Exp $
  */
 

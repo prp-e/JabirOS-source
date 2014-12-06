@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/xscale/pxa/uart_bus_pxa.c 234004 2012-04-07 23:47:08Z stas $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/xscale/pxa/uart_bus_pxa.c 234004 2012-04-07 23:47:08Z stas $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

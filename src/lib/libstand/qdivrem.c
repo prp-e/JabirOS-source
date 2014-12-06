@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libstand/qdivrem.c 271134 2014-09-04 20:49:11Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libstand/qdivrem.c 271134 2014-09-04 20:49:11Z emaste $");
 
 /*
  * Multiprecision divide.  This algorithm is from Knuth vol. 2 (2nd ed),

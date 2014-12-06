@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: stable/10/sys/dev/ath/if_ath_misc.h 251014 2013-05-26 22:23:39Z adrian $
+ * $FreeBSD: releng/10.1/sys/dev/ath/if_ath_misc.h 251014 2013-05-26 22:23:39Z adrian $
  */
 #ifndef	__IF_ATH_MISC_H__
 #define	__IF_ATH_MISC_H__

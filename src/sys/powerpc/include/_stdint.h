@@ -34,7 +34,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/include/_stdint.h 255194 2013-09-03 22:04:55Z imp $
+ * $FreeBSD: releng/10.1/sys/powerpc/include/_stdint.h 255194 2013-09-03 22:04:55Z imp $
  */
 
 #ifndef _MACHINE__STDINT_H_

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/arm/freescale/imx/files.imx53 266365 2014-05-17 22:00:10Z ian $
+# $FreeBSD: releng/10.1/sys/arm/freescale/imx/files.imx53 266365 2014-05-17 22:00:10Z ian $
 arm/arm/bus_space_asm_generic.S		standard
 arm/arm/bus_space_generic.c		standard
 arm/arm/cpufunc_asm_armv5.S		standard

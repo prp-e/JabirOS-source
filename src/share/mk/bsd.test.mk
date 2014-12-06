@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/mk/bsd.test.mk 270187 2014-08-19 23:33:51Z ian $
+# $FreeBSD: releng/10.1/share/mk/bsd.test.mk 270187 2014-08-19 23:33:51Z ian $
 #
 # Generic build infrastructure for test programs.
 #

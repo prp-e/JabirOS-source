@@ -56,7 +56,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ofw/ofw_standard.c 212477 2010-09-11 18:55:00Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ofw/ofw_standard.c 212477 2010-09-11 18:55:00Z marius $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

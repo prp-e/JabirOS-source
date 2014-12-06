@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ppbus/ppbconf.c 249585 2013-04-17 11:45:15Z gabor $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ppbus/ppbconf.c 249585 2013-04-17 11:45:15Z gabor $");
 #include "opt_ppb_1284.h"
 
 #include <sys/param.h>

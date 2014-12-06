@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/syscons/scterm-teken.c 262861 2014-03-06 18:30:56Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/syscons/scterm-teken.c 262861 2014-03-06 18:30:56Z jhb $");
 
 #include "opt_syscons.h"
 #include "opt_teken.h"

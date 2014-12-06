@@ -30,7 +30,7 @@
   POSSIBILITY OF SUCH DAMAGE.
 
 ******************************************************************************/
-/*$FreeBSD: stable/10/sys/dev/ixgbe/ixgbe_82599.h 247822 2013-03-04 23:07:40Z jfv $*/
+/*$FreeBSD: releng/10.1/sys/dev/ixgbe/ixgbe_82599.h 247822 2013-03-04 23:07:40Z jfv $*/
 
 #ifndef _IXGBE_82599_H_
 #define _IXGBE_82599_H_

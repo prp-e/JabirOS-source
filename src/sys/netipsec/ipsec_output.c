@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/netipsec/ipsec_output.c 264814 2014-04-23 11:22:54Z ae $
+ * $FreeBSD: releng/10.1/sys/netipsec/ipsec_output.c 264814 2014-04-23 11:22:54Z ae $
  */
 
 /*

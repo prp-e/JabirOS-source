@@ -25,7 +25,7 @@
 # IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
-# $FreeBSD: stable/10/usr.sbin/portsnap/portsnap/portsnap.sh 265742 2014-05-09 07:07:25Z delphij $
+# $FreeBSD: releng/10.1/usr.sbin/portsnap/portsnap/portsnap.sh 265742 2014-05-09 07:07:25Z delphij $
 
 #### Usage function -- called from command-line handling code.
 

@@ -40,7 +40,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/make/cond.c 146625 2005-05-25 16:06:14Z harti $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/make/cond.c 146625 2005-05-25 16:06:14Z harti $");
 
 /*
  * Functions to handle conditionals in a makefile.

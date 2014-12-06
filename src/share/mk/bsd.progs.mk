@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/mk/bsd.progs.mk 260005 2013-12-28 16:08:10Z jmmv $
+# $FreeBSD: releng/10.1/share/mk/bsd.progs.mk 260005 2013-12-28 16:08:10Z jmmv $
 # $Id: progs.mk,v 1.11 2012/11/06 17:18:54 sjg Exp $
 #
 #	@(#) Copyright (c) 2006, Simon J. Gerraty

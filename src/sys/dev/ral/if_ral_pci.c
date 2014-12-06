@@ -16,7 +16,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ral/if_ral_pci.c 264952 2014-04-25 22:04:40Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ral/if_ral_pci.c 264952 2014-04-25 22:04:40Z marius $");
 
 /*
  * PCI/Cardbus front-end for the Ralink RT2560/RT2561/RT2561S/RT2661 driver.

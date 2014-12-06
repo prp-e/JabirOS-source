@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/sys/modules/virtio/Makefile 268933 2014-07-21 00:21:56Z jhb $
+# $FreeBSD: releng/10.1/sys/modules/virtio/Makefile 268933 2014-07-21 00:21:56Z jhb $
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions

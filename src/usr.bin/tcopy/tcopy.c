@@ -29,7 +29,7 @@
 
 #include <sys/cdefs.h>
 
-__FBSDID("$FreeBSD: stable/10/usr.bin/tcopy/tcopy.c 227186 2011-11-06 08:17:29Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/tcopy/tcopy.c 227186 2011-11-06 08:17:29Z ed $");
 
 #ifndef lint
 static const char copyright[] =

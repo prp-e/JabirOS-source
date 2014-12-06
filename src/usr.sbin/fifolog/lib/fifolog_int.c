@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/fifolog/lib/fifolog_int.c 219097 2011-02-28 14:48:00Z phk $
+ * $FreeBSD: releng/10.1/usr.sbin/fifolog/lib/fifolog_int.c 219097 2011-02-28 14:48:00Z phk $
  */
 
 #include <assert.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/periodic/Makefile 75286 2001-04-07 11:21:35Z ru $
+# $FreeBSD: releng/10.1/usr.sbin/periodic/Makefile 75286 2001-04-07 11:21:35Z ru $
 
 SCRIPTS=periodic.sh
 MAN=	periodic.8

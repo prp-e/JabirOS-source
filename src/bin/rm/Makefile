@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 5/31/93
-# $FreeBSD: stable/10/bin/rm/Makefile 140909 2005-01-27 14:52:47Z delphij $
+# $FreeBSD: releng/10.1/bin/rm/Makefile 140909 2005-01-27 14:52:47Z delphij $
 
 PROG=	rm
 

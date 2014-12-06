@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/clang/include/llvm/Config/AsmParsers.def 263763 2014-03-26 07:31:57Z dim $ */
+/* $FreeBSD: releng/10.1/lib/clang/include/llvm/Config/AsmParsers.def 263763 2014-03-26 07:31:57Z dim $ */
 
 LLVM_ASM_PARSER(ARM)
 LLVM_ASM_PARSER(Mips)

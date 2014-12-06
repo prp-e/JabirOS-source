@@ -30,13 +30,13 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/netgraph/atm/ccatm/ng_ccatm.c 243882 2012-12-05 08:04:20Z glebius $
+ * $FreeBSD: releng/10.1/sys/netgraph/atm/ccatm/ng_ccatm.c 243882 2012-12-05 08:04:20Z glebius $
  *
  * ATM call control and API
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netgraph/atm/ccatm/ng_ccatm.c 243882 2012-12-05 08:04:20Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netgraph/atm/ccatm/ng_ccatm.c 243882 2012-12-05 08:04:20Z glebius $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

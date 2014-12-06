@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/sctp_constants.h 271746 2014-09-18 08:58:22Z tuexen $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/sctp_constants.h 271746 2014-09-18 08:58:22Z tuexen $");
 
 #ifndef _NETINET_SCTP_CONSTANTS_H_
 #define _NETINET_SCTP_CONSTANTS_H_

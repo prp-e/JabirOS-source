@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/fs/ext2fs/ext2_hash.c 259904 2013-12-26 01:12:35Z pfg $
+ * $FreeBSD: releng/10.1/sys/fs/ext2fs/ext2_hash.c 259904 2013-12-26 01:12:35Z pfg $
  */
 
 /*

@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/include/xlocale/_stdlib.h 231673 2012-02-14 12:03:23Z theraven $
+ * $FreeBSD: releng/10.1/include/xlocale/_stdlib.h 231673 2012-02-14 12:03:23Z theraven $
  */
 
 /*

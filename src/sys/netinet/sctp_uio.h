@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/sctp_uio.h 270363 2014-08-22 20:26:20Z tuexen $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/sctp_uio.h 270363 2014-08-22 20:26:20Z tuexen $");
 
 #ifndef _NETINET_SCTP_UIO_H_
 #define _NETINET_SCTP_UIO_H_

@@ -30,7 +30,7 @@
   POSSIBILITY OF SUCH DAMAGE.
 
 ******************************************************************************/
-/*$FreeBSD: stable/10/sys/dev/ixl/i40e_adminq.h 270631 2014-08-25 22:04:29Z jfv $*/
+/*$FreeBSD: releng/10.1/sys/dev/ixl/i40e_adminq.h 270631 2014-08-25 22:04:29Z jfv $*/
 
 #ifndef _I40E_ADMINQ_H_
 #define _I40E_ADMINQ_H_

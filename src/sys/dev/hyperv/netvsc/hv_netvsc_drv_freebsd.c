@@ -53,7 +53,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/hyperv/netvsc/hv_netvsc_drv_freebsd.c 266794 2014-05-28 09:06:36Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/hyperv/netvsc/hv_netvsc_drv_freebsd.c 273581 2014-10-24 07:50:34Z delphij $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -218,7 +218,7 @@ netvsc_probe(device_t dev)
 		if (bootverbose)
 			printf("Netvsc probe... DONE \n");
 
-		return (0);
+		return (BUS_PROBE_DEFAULT);
 	}
 
 	return (ENXIO);

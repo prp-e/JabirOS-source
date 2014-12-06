@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/chown/05.t 211410 2010-08-17 06:08:09Z pjd $
+# $FreeBSD: releng/10.1/tools/regression/pjdfstest/tests/chown/05.t 211410 2010-08-17 06:08:09Z pjd $
 
 desc="chown returns EACCES when search permission is denied for a component of the path prefix"
 

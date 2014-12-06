@@ -28,7 +28,7 @@
 #define RV770_H
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/rv770d.h 261455 2014-02-04 03:36:42Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/radeon/rv770d.h 261455 2014-02-04 03:36:42Z eadler $");
 
 #define R7XX_MAX_SH_GPRS           256
 #define R7XX_MAX_TEMP_GPRS         16

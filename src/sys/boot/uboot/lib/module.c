@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/uboot/lib/module.c 265069 2014-04-29 00:36:51Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/uboot/lib/module.c 265069 2014-04-29 00:36:51Z ian $");
 
 /*
  * U-Boot-specific module functionality.

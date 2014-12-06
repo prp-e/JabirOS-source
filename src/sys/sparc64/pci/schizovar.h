@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sparc64/pci/schizovar.h 230664 2012-01-28 22:42:33Z marius $
+ * $FreeBSD: releng/10.1/sys/sparc64/pci/schizovar.h 230664 2012-01-28 22:42:33Z marius $
  */
 
 #ifndef _SPARC64_PCI_SCHIZOVAR_H_

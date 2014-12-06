@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/lib/msun/test-lround.t 140089 2005-01-11 23:13:36Z das $
+# $FreeBSD: releng/10.1/tools/regression/lib/msun/test-lround.t 140089 2005-01-11 23:13:36Z das $
 
 cd `dirname $0`
 

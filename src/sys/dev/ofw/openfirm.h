@@ -54,7 +54,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/ofw/openfirm.h 259255 2013-12-12 12:17:20Z andreast $
+ * $FreeBSD: releng/10.1/sys/dev/ofw/openfirm.h 259255 2013-12-12 12:17:20Z andreast $
  */
 
 #ifndef _DEV_OPENFIRM_H_

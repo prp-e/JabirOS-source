@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/rip6query/rip6query.c 227258 2011-11-06 19:02:31Z ed $
+ * $FreeBSD: releng/10.1/usr.sbin/rip6query/rip6query.c 227258 2011-11-06 19:02:31Z ed $
  */
 
 #include <stdio.h>

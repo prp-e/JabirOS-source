@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/ath/ath_ee_v14_print/Makefile 217682 2011-01-21 03:14:08Z adrian $
+# $FreeBSD: releng/10.1/tools/tools/ath/ath_ee_v14_print/Makefile 217682 2011-01-21 03:14:08Z adrian $
 
 .PATH:  ${.CURDIR}/../../../../sys/dev/ath/ath_hal
 

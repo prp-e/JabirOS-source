@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/ppp/defs.h 252826 2013-07-05 19:26:01Z rmh $
+ * $FreeBSD: releng/10.1/usr.sbin/ppp/defs.h 252826 2013-07-05 19:26:01Z rmh $
  */
 
 /* Check the following definitions for your machine environment */

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/mpr/mpr_table.c 265236 2014-05-02 20:25:09Z ken $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/mpr/mpr_table.c 265236 2014-05-02 20:25:09Z ken $");
 
 /* Debugging tables for MPT2 */
 

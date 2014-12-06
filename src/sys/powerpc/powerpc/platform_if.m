@@ -23,7 +23,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/sys/powerpc/powerpc/platform_if.m 266020 2014-05-14 14:17:51Z ian $
+# $FreeBSD: releng/10.1/sys/powerpc/powerpc/platform_if.m 266020 2014-05-14 14:17:51Z ian $
 #
 
 #include <sys/param.h>

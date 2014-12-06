@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/tools/bootparttest/malloc.c 239070 2012-08-05 15:40:16Z ae $");
+__FBSDID("$FreeBSD: releng/10.1/tools/tools/bootparttest/malloc.c 239070 2012-08-05 15:40:16Z ae $");
 
 #include <stdlib.h>
 

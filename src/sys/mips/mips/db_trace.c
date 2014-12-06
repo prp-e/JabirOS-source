@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/mips/db_trace.c 251103 2013-05-29 16:51:03Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/mips/db_trace.c 251103 2013-05-29 16:51:03Z marcel $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

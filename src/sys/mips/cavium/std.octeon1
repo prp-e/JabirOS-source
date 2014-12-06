@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/mips/cavium/std.octeon1 253539 2013-07-22 03:55:15Z imp $
+# $FreeBSD: releng/10.1/sys/mips/cavium/std.octeon1 253539 2013-07-22 03:55:15Z imp $
 # 
 files	"../cavium/files.octeon1"
 machine	mips mips64

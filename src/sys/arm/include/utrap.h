@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/include/utrap.h 129198 2004-05-14 11:46:45Z cognet $
+ * $FreeBSD: releng/10.1/sys/arm/include/utrap.h 129198 2004-05-14 11:46:45Z cognet $
  */
 
 #ifndef	_MACHINE_UTRAP_H_

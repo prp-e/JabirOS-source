@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/hastd/Makefile 270911 2014-09-01 03:22:47Z ngie $
+# $FreeBSD: releng/10.1/sbin/hastd/Makefile 270911 2014-09-01 03:22:47Z ngie $
 
 .include <bsd.own.mk>
 

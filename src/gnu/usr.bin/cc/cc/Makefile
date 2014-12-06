@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/usr.bin/cc/cc/Makefile 234782 2012-04-29 09:32:44Z kib $
+# $FreeBSD: releng/10.1/gnu/usr.bin/cc/cc/Makefile 234782 2012-04-29 09:32:44Z kib $
 
 .include <bsd.own.mk>
 

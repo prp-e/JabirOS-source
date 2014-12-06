@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/ppp/sig.c 97140 2002-05-22 21:08:58Z brian $
+ * $FreeBSD: releng/10.1/usr.sbin/ppp/sig.c 97140 2002-05-22 21:08:58Z brian $
  */
 
 #include <sys/types.h>

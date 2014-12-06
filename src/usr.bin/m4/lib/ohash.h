@@ -18,7 +18,7 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * $FreeBSD: stable/10/usr.bin/m4/lib/ohash.h 228063 2011-11-28 13:32:39Z bapt $
+ * $FreeBSD: releng/10.1/usr.bin/m4/lib/ohash.h 228063 2011-11-28 13:32:39Z bapt $
  */
 
 /* Open hashing support. 

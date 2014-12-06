@@ -1,5 +1,5 @@
 /*	$NetBSD: rpcbind.c,v 1.3 2002/11/08 00:16:40 fvdl Exp $	*/
-/*	$FreeBSD: stable/10/usr.sbin/rpcbind/rpcbind.c 244538 2012-12-21 15:54:13Z kevlo $ */
+/*	$FreeBSD: releng/10.1/usr.sbin/rpcbind/rpcbind.c 244538 2012-12-21 15:54:13Z kevlo $ */
 
 /*
  * Sun RPC is a product of Sun Microsystems, Inc. and is provided for

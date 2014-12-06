@@ -18,7 +18,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/wlan/if_run.c 270843 2014-08-30 14:24:20Z kevlo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/wlan/if_run.c 270843 2014-08-30 14:24:20Z kevlo $");
 
 /*-
  * Ralink Technology RT2700U/RT2800U/RT3000U/RT3900E chipset driver.

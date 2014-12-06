@@ -30,7 +30,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/usr.sbin/manctl/manctl.sh 71293 2001-01-20 04:30:41Z jedgar $
+# $FreeBSD: releng/10.1/usr.sbin/manctl/manctl.sh 71293 2001-01-20 04:30:41Z jedgar $
 #
 # manctl: 
 #	a utility for manipulating manual pages

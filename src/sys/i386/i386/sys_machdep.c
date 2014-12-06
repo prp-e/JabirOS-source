@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/i386/i386/sys_machdep.c 267714 2014-06-22 08:32:31Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/i386/i386/sys_machdep.c 267714 2014-06-22 08:32:31Z kib $");
 
 #include "opt_capsicum.h"
 #include "opt_kstack_pages.h"

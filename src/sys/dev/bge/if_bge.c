@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/bge/if_bge.c 264940 2014-04-25 21:28:39Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/bge/if_bge.c 264940 2014-04-25 21:28:39Z marius $");
 
 /*
  * Broadcom BCM57xx(x)/BCM590x NetXtreme and NetLink family Ethernet driver

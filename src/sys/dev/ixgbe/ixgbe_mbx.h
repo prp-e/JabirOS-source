@@ -30,7 +30,7 @@
   POSSIBILITY OF SUCH DAMAGE.
 
 ******************************************************************************/
-/*$FreeBSD: stable/10/sys/dev/ixgbe/ixgbe_mbx.h 247822 2013-03-04 23:07:40Z jfv $*/
+/*$FreeBSD: releng/10.1/sys/dev/ixgbe/ixgbe_mbx.h 247822 2013-03-04 23:07:40Z jfv $*/
 
 #ifndef _IXGBE_MBX_H_
 #define _IXGBE_MBX_H_

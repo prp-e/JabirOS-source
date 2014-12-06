@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/fs/cd9660/cd9660_vnops.c 248282 2013-03-14 20:28:26Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/fs/cd9660/cd9660_vnops.c 248282 2013-03-14 20:28:26Z kib $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ata/ata-lowlevel.c 250576 2013-05-12 16:43:26Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ata/ata-lowlevel.c 250576 2013-05-12 16:43:26Z eadler $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/tools/shlib-compat/test/regress.t 248693 2013-03-25 00:31:14Z gleb $
+# $FreeBSD: releng/10.1/tools/tools/shlib-compat/test/regress.t 248693 2013-03-25 00:31:14Z gleb $
 
 cd `dirname $0`
 

@@ -14,7 +14,7 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  * 
  * $OpenBSD: if_urtwnreg.h,v 1.3 2010/11/16 18:02:59 damien Exp $
- * $FreeBSD: stable/10/sys/dev/usb/wlan/if_urtwnreg.h 266578 2014-05-23 06:47:47Z hselasky $
+ * $FreeBSD: releng/10.1/sys/dev/usb/wlan/if_urtwnreg.h 266578 2014-05-23 06:47:47Z hselasky $
  */
 
 #define URTWN_CONFIG_INDEX	0

@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/5/93
-# $FreeBSD: stable/10/share/man/man8/Makefile 263330 2014-03-19 01:43:03Z gjb $
+# $FreeBSD: releng/10.1/share/man/man8/Makefile 273386 2014-10-21 16:20:23Z emaste $
 
 MAN=	crash.8 \
 	diskless.8 \
@@ -11,6 +11,7 @@ MAN=	crash.8 \
 	rc.sendmail.8 \
 	rc.subr.8 \
 	rescue.8 \
+	${_uefi.8} \
 	yp.8
 
 MLINKS=	rc.8 rc.atm.8 \
@@ -24,5 +25,9 @@ MLINKS=	rc.8 rc.atm.8 \
 MLINKS+=yp.8 NIS.8 \
 	yp.8 nis.8 \
 	yp.8 YP.8
+
+.if ${MACHINE_CPUARCH} == "amd64"
+_uefi.8= uefi.8
+.endif
 
 .include <bsd.prog.mk>

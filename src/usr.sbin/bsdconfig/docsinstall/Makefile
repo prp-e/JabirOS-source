@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/bsdconfig/docsinstall/Makefile 238438 2012-07-14 03:16:57Z dteske $
+# $FreeBSD: releng/10.1/usr.sbin/bsdconfig/docsinstall/Makefile 238438 2012-07-14 03:16:57Z dteske $
 
 NO_OBJ=
 

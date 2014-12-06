@@ -1,7 +1,7 @@
 # This file tells config what files go into building a kernel,
 # files marked standard are always included.
 #
-# $FreeBSD: stable/10/sys/conf/files.amd64 272152 2014-09-26 03:03:58Z gjb $
+# $FreeBSD: releng/10.1/sys/conf/files.amd64 272322 2014-09-30 17:54:57Z delphij $
 #
 # The long compile-with and dependency lines are required because of
 # limitations in config: backslash-newline doesn't work in strings, and
@@ -203,6 +203,26 @@ dev/ipmi/ipmi_smbios.c		optional	ipmi
 dev/ipmi/ipmi_ssif.c		optional	ipmi smbus
 dev/ipmi/ipmi_pci.c		optional	ipmi pci
 dev/ipmi/ipmi_linux.c		optional	ipmi compat_linux32
+dev/ixl/if_ixl.c		optional	ixl pci \
+	compile-with "${NORMAL_C} -I$S/dev/ixl"
+dev/ixl/if_ixlv.c		optional	ixlv pci \
+	compile-with "${NORMAL_C} -I$S/dev/ixl"
+dev/ixl/ixlvc.c			optional	ixlv pci \
+	compile-with "${NORMAL_C} -I$S/dev/ixl"
+dev/ixl/ixl_txrx.c		optional	ixl pci | ixlv pci \
+	compile-with "${NORMAL_C} -I$S/dev/ixl"
+dev/ixl/i40e_osdep.c		optional	ixl pci | ixlv pci \
+	compile-with "${NORMAL_C} -I$S/dev/ixl"
+dev/ixl/i40e_lan_hmc.c		optional	ixl pci | ixlv pci \
+	compile-with "${NORMAL_C} -I$S/dev/ixl"
+dev/ixl/i40e_hmc.c		optional	ixl pci | ixlv pci \
+	compile-with "${NORMAL_C} -I$S/dev/ixl"
+dev/ixl/i40e_common.c		optional	ixl pci | ixlv pci \
+	compile-with "${NORMAL_C} -I$S/dev/ixl"
+dev/ixl/i40e_nvm.c		optional	ixl pci | ixlv pci \
+	compile-with "${NORMAL_C} -I$S/dev/ixl"
+dev/ixl/i40e_adminq.c		optional	ixl pci | ixlv pci \
+	compile-with "${NORMAL_C} -I$S/dev/ixl"
 dev/fdc/fdc.c			optional	fdc
 dev/fdc/fdc_acpi.c		optional	fdc
 dev/fdc/fdc_isa.c		optional	fdc isa
@@ -234,6 +254,7 @@ dev/hyperv/netvsc/hv_netvsc_drv_freebsd.c		optional	hyperv
 dev/hyperv/netvsc/hv_rndis_filter.c			optional	hyperv
 dev/hyperv/stordisengage/hv_ata_pci_disengage.c		optional	hyperv
 dev/hyperv/storvsc/hv_storvsc_drv_freebsd.c		optional	hyperv
+dev/hyperv/utilities/hv_kvp.c				optional	hyperv
 dev/hyperv/utilities/hv_util.c				optional	hyperv
 dev/hyperv/vmbus/hv_channel.c				optional	hyperv
 dev/hyperv/vmbus/hv_channel_mgmt.c			optional	hyperv

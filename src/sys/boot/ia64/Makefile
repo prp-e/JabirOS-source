@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/ia64/Makefile 239377 2012-08-18 23:17:42Z marcel $
+# $FreeBSD: releng/10.1/sys/boot/ia64/Makefile 239377 2012-08-18 23:17:42Z marcel $
 
 SUBDIR= common efi
 

@@ -1,4 +1,4 @@
-#$FreeBSD: stable/10/sys/arm/ti/omap4/files.omap4 266751 2014-05-27 15:30:24Z ian $
+#$FreeBSD: releng/10.1/sys/arm/ti/omap4/files.omap4 266751 2014-05-27 15:30:24Z ian $
 
 arm/arm/gic.c					standard
 arm/arm/mpcore_timer.c				standard

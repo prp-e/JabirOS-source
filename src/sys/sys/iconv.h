@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/iconv.h 235711 2012-05-21 02:30:22Z kevlo $
+ * $FreeBSD: releng/10.1/sys/sys/iconv.h 235711 2012-05-21 02:30:22Z kevlo $
  */
 #ifndef _SYS_ICONV_H_
 #define _SYS_ICONV_H_

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/cddl/compat/opensolaris/sys/atomic.h 271003 2014-09-03 08:24:11Z delphij $
+ * $FreeBSD: releng/10.1/sys/cddl/compat/opensolaris/sys/atomic.h 271003 2014-09-03 08:24:11Z delphij $
  */
 
 #ifndef _OPENSOLARIS_SYS_ATOMIC_H_

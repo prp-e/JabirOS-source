@@ -23,7 +23,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/share/doc/atf/Makefile 241823 2012-10-22 01:18:41Z marcel $
+# $FreeBSD: releng/10.1/share/doc/atf/Makefile 241823 2012-10-22 01:18:41Z marcel $
 
 ATF=		${.CURDIR}/../../../contrib/atf
 .PATH:		${ATF}

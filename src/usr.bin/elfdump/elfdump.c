@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/elfdump/elfdump.c 270969 2014-09-02 15:49:33Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/elfdump/elfdump.c 270969 2014-09-02 15:49:33Z emaste $");
 
 #include <sys/types.h>
 #include <sys/elf32.h>

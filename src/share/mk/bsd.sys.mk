@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/mk/bsd.sys.mk 263763 2014-03-26 07:31:57Z dim $
+# $FreeBSD: releng/10.1/share/mk/bsd.sys.mk 263763 2014-03-26 07:31:57Z dim $
 #
 # This file contains common settings used for building FreeBSD
 # sources.

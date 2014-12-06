@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/contrib/altq/altq/altq_rmclass.c 263086 2014-03-12 10:45:58Z glebius $	*/
+/*	$FreeBSD: releng/10.1/sys/contrib/altq/altq/altq_rmclass.c 263086 2014-03-12 10:45:58Z glebius $	*/
 /*	$KAME: altq_rmclass.c,v 1.19 2005/04/13 03:44:25 suz Exp $	*/
 
 /*

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/aout/Makefile 103226 2002-09-11 18:03:03Z peter $
+# $FreeBSD: releng/10.1/sys/modules/aout/Makefile 103226 2002-09-11 18:03:03Z peter $
 
 .PATH: ${.CURDIR}/../../kern
 

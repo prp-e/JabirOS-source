@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/cxgb/tom/Makefile 237263 2012-06-19 07:34:13Z np $
+# $FreeBSD: releng/10.1/sys/modules/cxgb/tom/Makefile 237263 2012-06-19 07:34:13Z np $
 
 .include <bsd.own.mk>
 

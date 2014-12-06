@@ -35,4 +35,4 @@ things)).  Patches will be appreciated.
    - Mark Newton
      newton@atdot.dotat.org
 
-$FreeBSD: stable/10/sys/modules/svr4/README 267734 2014-06-22 16:48:21Z gavin $
+$FreeBSD: releng/10.1/sys/modules/svr4/README 267734 2014-06-22 16:48:21Z gavin $

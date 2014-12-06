@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/spkrtest/Makefile 96748 2002-05-16 18:51:57Z markm $
+# $FreeBSD: releng/10.1/usr.sbin/spkrtest/Makefile 96748 2002-05-16 18:51:57Z markm $
 
 SCRIPTS=spkrtest.sh
 MAN=	spkrtest.8

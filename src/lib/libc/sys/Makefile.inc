@@ -1,5 +1,5 @@
 #	@(#)Makefile.inc	8.3 (Berkeley) 10/24/94
-# $FreeBSD: stable/10/lib/libc/sys/Makefile.inc 260623 2014-01-14 09:49:42Z pluknet $
+# $FreeBSD: releng/10.1/lib/libc/sys/Makefile.inc 260623 2014-01-14 09:49:42Z pluknet $
 
 # sys sources
 .PATH: ${.CURDIR}/${LIBC_ARCH}/sys ${.CURDIR}/sys

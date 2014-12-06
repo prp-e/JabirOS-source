@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/tools/tools/bus_autoconf/bus_load_file.c 255122 2013-09-01 14:06:57Z ian $ */
+/* $FreeBSD: releng/10.1/tools/tools/bus_autoconf/bus_load_file.c 255122 2013-09-01 14:06:57Z ian $ */
 
 /*-
  * Copyright (c) 2011 Hans Petter Selasky. All rights reserved.

@@ -29,7 +29,7 @@
  *
  *	from: @(#)svc_auth.h 1.6 86/07/16 SMI
  *	@(#)svc_auth.h	2.1 88/07/29 4.0 RPCSRC
- * $FreeBSD: stable/10/sys/rpc/svc_auth.h 261046 2014-01-22 23:45:27Z mav $
+ * $FreeBSD: releng/10.1/sys/rpc/svc_auth.h 261046 2014-01-22 23:45:27Z mav $
  */
 
 /*

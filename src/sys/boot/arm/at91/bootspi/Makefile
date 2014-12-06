@@ -1,4 +1,4 @@
-#  $FreeBSD: stable/10/sys/boot/arm/at91/bootspi/Makefile 164323 2006-11-16 00:53:28Z imp $
+#  $FreeBSD: releng/10.1/sys/boot/arm/at91/bootspi/Makefile 164323 2006-11-16 00:53:28Z imp $
 
 .PATH:	${.CURDIR}/../libat91
 

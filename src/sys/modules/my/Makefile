@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/my/Makefile 167453 2007-03-11 15:20:04Z brueffer $
+# $FreeBSD: releng/10.1/sys/modules/my/Makefile 167453 2007-03-11 15:20:04Z brueffer $
 
 .PATH: ${.CURDIR}/../../dev/my
 

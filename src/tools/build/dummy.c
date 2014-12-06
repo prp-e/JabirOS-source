@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/tools/build/dummy.c 113136 2003-04-05 20:30:30Z imp $
+ * $FreeBSD: releng/10.1/tools/build/dummy.c 113136 2003-04-05 20:30:30Z imp $
  *
  * Empty file to keep linker happy.
  */

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/booke/mp_cpudep.c 266001 2014-05-14 03:09:37Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/booke/mp_cpudep.c 266001 2014-05-14 03:09:37Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

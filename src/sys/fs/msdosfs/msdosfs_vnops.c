@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/fs/msdosfs/msdosfs_vnops.c 267816 2014-06-24 08:21:43Z kib $ */
+/* $FreeBSD: releng/10.1/sys/fs/msdosfs/msdosfs_vnops.c 267816 2014-06-24 08:21:43Z kib $ */
 /*	$NetBSD: msdosfs_vnops.c,v 1.68 1998/02/10 14:10:04 mrg Exp $	*/
 
 /*-

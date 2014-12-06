@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/libexec/getty/chat.c 228582 2011-12-16 15:44:12Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/libexec/getty/chat.c 228582 2011-12-16 15:44:12Z dim $");
 
 #include <sys/types.h>
 #include <sys/ioctl.h>

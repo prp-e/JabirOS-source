@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/iwi/if_iwi.c 264954 2014-04-25 22:19:18Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/iwi/if_iwi.c 264954 2014-04-25 22:19:18Z marius $");
 
 /*-
  * Intel(R) PRO/Wireless 2200BG/2225BG/2915ABG driver

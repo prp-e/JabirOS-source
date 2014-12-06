@@ -28,7 +28,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)if.c	8.5 (Berkeley) 1/9/95
- * $FreeBSD: stable/10/sys/net/if_clone.c 241650 2012-10-17 21:19:27Z glebius $
+ * $FreeBSD: releng/10.1/sys/net/if_clone.c 241650 2012-10-17 21:19:27Z glebius $
  */
 
 #include <sys/param.h>

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/ti/ti_adc.c 270238 2014-08-20 18:10:12Z loos $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/ti/ti_adc.c 270238 2014-08-20 18:10:12Z loos $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

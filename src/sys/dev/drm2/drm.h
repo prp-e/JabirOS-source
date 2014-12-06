@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm.h 258706 2013-11-28 09:30:05Z dumbbell $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/drm.h 258706 2013-11-28 09:30:05Z dumbbell $");
 
 /**
  * \mainpage

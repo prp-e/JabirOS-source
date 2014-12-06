@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/controller/ohcireg.h 204632 2010-03-03 10:18:03Z joel $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/controller/ohcireg.h 204632 2010-03-03 10:18:03Z joel $ */
 /*-
  * Copyright (c) 1998 The NetBSD Foundation, Inc.
  * All rights reserved.

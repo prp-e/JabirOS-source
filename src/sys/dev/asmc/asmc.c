@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/asmc/asmc.c 271069 2014-09-03 23:29:06Z gavin $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/asmc/asmc.c 271069 2014-09-03 23:29:06Z gavin $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

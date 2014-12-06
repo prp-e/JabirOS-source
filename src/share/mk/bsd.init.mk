@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/mk/bsd.init.mk 245269 2013-01-10 22:44:19Z des $
+# $FreeBSD: releng/10.1/share/mk/bsd.init.mk 245269 2013-01-10 22:44:19Z des $
 
 # The include file <bsd.init.mk> includes ../Makefile.inc and
 # <bsd.own.mk>; this is used at the top of all <bsd.*.mk> files

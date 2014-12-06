@@ -25,11 +25,11 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/logins/logins.c 228991 2011-12-30 10:59:15Z uqs $
+ * $FreeBSD: releng/10.1/usr.bin/logins/logins.c 228991 2011-12-30 10:59:15Z uqs $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/logins/logins.c 228991 2011-12-30 10:59:15Z uqs $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/logins/logins.c 228991 2011-12-30 10:59:15Z uqs $");
 
 #include <err.h>
 #include <grp.h>

@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/daemon/daemon.c 265781 2014-05-09 15:55:45Z jh $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/daemon/daemon.c 265781 2014-05-09 15:55:45Z jh $");
 
 #include <sys/param.h>
 #include <sys/mman.h>

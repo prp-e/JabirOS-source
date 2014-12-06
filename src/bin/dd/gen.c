@@ -1,7 +1,7 @@
 /*-
  * This program is in the public domain
  *
- * $FreeBSD: stable/10/bin/dd/gen.c 139969 2005-01-10 08:39:26Z imp $
+ * $FreeBSD: releng/10.1/bin/dd/gen.c 139969 2005-01-10 08:39:26Z imp $
  */
 
 #include <stdio.h>

@@ -30,7 +30,7 @@
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/mips/net/ntohs.S 251091 2013-05-29 01:54:10Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/mips/net/ntohs.S 251091 2013-05-29 01:54:10Z emaste $");
 
 LEAF(ntohs)
 #ifdef __MIPSEB__

@@ -25,7 +25,7 @@
  * SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/versatile/versatile_pci_bus_space.c 244197 2012-12-13 23:19:13Z gonzo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/versatile/versatile_pci_bus_space.c 244197 2012-12-13 23:19:13Z gonzo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

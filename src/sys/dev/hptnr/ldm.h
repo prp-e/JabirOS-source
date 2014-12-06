@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/hptnr/ldm.h 252867 2013-07-06 07:49:41Z delphij $
+ * $FreeBSD: releng/10.1/sys/dev/hptnr/ldm.h 252867 2013-07-06 07:49:41Z delphij $
  */
 #include <dev/hptnr/hptnr_config.h>
 #ifndef _HPT_LDM_H_

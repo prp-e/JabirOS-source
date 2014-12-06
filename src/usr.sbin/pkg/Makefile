@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/pkg/Makefile 268918 2014-07-20 10:54:45Z bapt $
+# $FreeBSD: releng/10.1/usr.sbin/pkg/Makefile 268918 2014-07-20 10:54:45Z bapt $
 
 PROG=	pkg
 SRCS=	pkg.c dns_utils.c config.c

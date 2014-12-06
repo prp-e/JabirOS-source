@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/atheros/ar724x_pci.c 265999 2014-05-14 01:35:43Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/atheros/ar724x_pci.c 265999 2014-05-14 01:35:43Z ian $");
 
 #include "opt_ar71xx.h"
 

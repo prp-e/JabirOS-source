@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/nlm/board_cpld.c 255368 2013-09-07 18:26:16Z jchandra $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/nlm/board_cpld.c 255368 2013-09-07 18:26:16Z jchandra $");
 #include <sys/param.h>
 #include <sys/systm.h>
 #include <sys/endian.h>

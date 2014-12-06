@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/pseries/mmu_phyp.c 259227 2013-12-11 20:56:23Z andreast $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/pseries/mmu_phyp.c 259227 2013-12-11 20:56:23Z andreast $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

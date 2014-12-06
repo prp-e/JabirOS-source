@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/ctl/Makefile 269296 2014-07-30 07:18:32Z mav $
+# $FreeBSD: releng/10.1/sys/modules/ctl/Makefile 269296 2014-07-30 07:18:32Z mav $
 
 .PATH: ${.CURDIR}/../../cam/ctl
 

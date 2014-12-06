@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/regression/lib/libc/gen/test-fmtcheck.c 181155 2008-08-02 06:03:04Z das $");
+__FBSDID("$FreeBSD: releng/10.1/tools/regression/lib/libc/gen/test-fmtcheck.c 181155 2008-08-02 06:03:04Z das $");
 
 #include <err.h>
 #include <stdio.h>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/hwpmc/hwpmc_powerpc.h 263122 2014-03-14 00:12:53Z jhibbits $
+ * $FreeBSD: releng/10.1/sys/dev/hwpmc/hwpmc_powerpc.h 263122 2014-03-14 00:12:53Z jhibbits $
  */
 
 #ifndef _DEV_HWPMC_POWERPC_H_

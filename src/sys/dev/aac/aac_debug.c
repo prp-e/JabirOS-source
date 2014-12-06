@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/aac/aac_debug.c 242823 2012-11-09 13:58:52Z rdivacky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/aac/aac_debug.c 242823 2012-11-09 13:58:52Z rdivacky $");
 
 /*
  * Debugging support.

@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/pc98/cbus/cbus_dmareg.h 146214 2005-05-14 10:14:56Z nyan $
+ * $FreeBSD: releng/10.1/sys/pc98/cbus/cbus_dmareg.h 146214 2005-05-14 10:14:56Z nyan $
  */
 
 #ifndef _PC98_CBUS_CBUS_DMAREG_H_

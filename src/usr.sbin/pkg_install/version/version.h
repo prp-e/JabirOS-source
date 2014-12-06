@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/usr.sbin/pkg_install/version/version.h 228990 2011-12-30 10:58:14Z uqs $ */
+/* $FreeBSD: releng/10.1/usr.sbin/pkg_install/version/version.h 228990 2011-12-30 10:58:14Z uqs $ */
 
 /*
  * FreeBSD install - a package for the installation and maintenance

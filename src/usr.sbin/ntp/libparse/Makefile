@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/ntp/libparse/Makefile 256009 2013-10-02 21:47:25Z roberto $
+# $FreeBSD: releng/10.1/usr.sbin/ntp/libparse/Makefile 256009 2013-10-02 21:47:25Z roberto $
 
 .PATH: ${.CURDIR}/../../../contrib/ntp/libparse
 

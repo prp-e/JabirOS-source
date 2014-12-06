@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/libexec/atf/atf-sh/tests/Makefile 267181 2014-06-06 18:58:06Z jmmv $
+# $FreeBSD: releng/10.1/libexec/atf/atf-sh/tests/Makefile 267181 2014-06-06 18:58:06Z jmmv $
 
 .include <bsd.init.mk>
 

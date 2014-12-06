@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/services_mkdb/extern.h 263028 2014-03-11 15:28:41Z jhb $
+ * $FreeBSD: releng/10.1/usr.sbin/services_mkdb/extern.h 263028 2014-03-11 15:28:41Z jhb $
  */
 
 extern HASHINFO hinfo;

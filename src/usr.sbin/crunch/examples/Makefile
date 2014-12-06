@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/crunch/examples/Makefile 241298 2012-10-06 20:01:05Z marcel $
+# $FreeBSD: releng/10.1/usr.sbin/crunch/examples/Makefile 241298 2012-10-06 20:01:05Z marcel $
 
 CRUNCHED=	fixit
 

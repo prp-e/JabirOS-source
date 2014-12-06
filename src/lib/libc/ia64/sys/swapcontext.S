@@ -25,7 +25,7 @@
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/ia64/sys/swapcontext.S 118332 2003-08-02 00:49:36Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/ia64/sys/swapcontext.S 118332 2003-08-02 00:49:36Z marcel $");
 
 #include "SYS.h"
 

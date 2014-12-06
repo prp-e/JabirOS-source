@@ -11,7 +11,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/msun/src/s_frexp.c 176451 2008-02-22 02:30:36Z das $");
+__FBSDID("$FreeBSD: releng/10.1/lib/msun/src/s_frexp.c 176451 2008-02-22 02:30:36Z das $");
 
 /*
  * for non-zero x

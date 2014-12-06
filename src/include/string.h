@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)string.h	8.1 (Berkeley) 6/2/93
- * $FreeBSD: stable/10/include/string.h 246803 2013-02-14 19:26:58Z zeising $
+ * $FreeBSD: releng/10.1/include/string.h 246803 2013-02-14 19:26:58Z zeising $
  */
 
 #ifndef _STRING_H_

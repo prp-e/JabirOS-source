@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libthr/thread/thr_affinity.c 212552 2010-09-13 11:58:42Z davidxu $
+ * $FreeBSD: releng/10.1/lib/libthr/thread/thr_affinity.c 212552 2010-09-13 11:58:42Z davidxu $
  *
  */
 

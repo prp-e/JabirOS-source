@@ -1,6 +1,6 @@
 #! /bin/sh -
 #	@(#)makesyscalls.sh	8.1 (Berkeley) 6/10/93
-# $FreeBSD: stable/10/sys/kern/makesyscalls.sh 255777 2013-09-21 23:05:44Z markj $
+# $FreeBSD: releng/10.1/sys/kern/makesyscalls.sh 255777 2013-09-21 23:05:44Z markj $
 
 set -e
 

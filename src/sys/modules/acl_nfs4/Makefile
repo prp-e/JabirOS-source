@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/acl_nfs4/Makefile 232937 2012-03-13 20:28:42Z adrian $
+# $FreeBSD: releng/10.1/sys/modules/acl_nfs4/Makefile 232937 2012-03-13 20:28:42Z adrian $
 
 .include <bsd.own.mk>
 

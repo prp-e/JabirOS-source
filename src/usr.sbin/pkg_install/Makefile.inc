@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/pkg_install/Makefile.inc 222035 2011-05-17 19:11:47Z flz $
+# $FreeBSD: releng/10.1/usr.sbin/pkg_install/Makefile.inc 222035 2011-05-17 19:11:47Z flz $
 
 .include <bsd.own.mk>
 

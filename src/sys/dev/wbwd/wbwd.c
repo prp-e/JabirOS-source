@@ -38,7 +38,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/wbwd/wbwd.c 245297 2013-01-11 10:22:09Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/wbwd/wbwd.c 245297 2013-01-11 10:22:09Z delphij $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

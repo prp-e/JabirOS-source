@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/hptnr/hptnr_config.c 270810 2014-08-29 13:06:30Z delphij $
+ * $FreeBSD: releng/10.1/sys/dev/hptnr/hptnr_config.c 270810 2014-08-29 13:06:30Z delphij $
  */
 
 #include <dev/hptnr/hptnr_config.h>

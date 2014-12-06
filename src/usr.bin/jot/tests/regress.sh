@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/jot/tests/regress.sh 208728 2010-06-02 07:47:29Z brian $
+# $FreeBSD: releng/10.1/usr.bin/jot/tests/regress.sh 208728 2010-06-02 07:47:29Z brian $
 
 echo 1..60
 

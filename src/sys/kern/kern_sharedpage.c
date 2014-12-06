@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_sharedpage.c 254649 2013-08-22 07:39:53Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_sharedpage.c 254649 2013-08-22 07:39:53Z kib $");
 
 #include "opt_compat.h"
 #include "opt_vm.h"

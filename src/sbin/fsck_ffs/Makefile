@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/fsck_ffs/Makefile 260178 2014-01-02 01:44:14Z scottl $
+# $FreeBSD: releng/10.1/sbin/fsck_ffs/Makefile 260178 2014-01-02 01:44:14Z scottl $
 #	@(#)Makefile	8.2 (Berkeley) 4/27/95
 
 PROG=	fsck_ffs

@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: stable/10/tools/tools/ath/athaggrstats/athaggrstats.c 236834 2012-06-10 06:44:04Z adrian $
+ * $FreeBSD: releng/10.1/tools/tools/ath/athaggrstats/athaggrstats.c 236834 2012-06-10 06:44:04Z adrian $
  */
 
 #include "opt_ah.h"

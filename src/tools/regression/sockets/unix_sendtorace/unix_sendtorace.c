@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/sockets/unix_sendtorace/unix_sendtorace.c 164298 2006-11-15 12:43:45Z rwatson $
+ * $FreeBSD: releng/10.1/tools/regression/sockets/unix_sendtorace/unix_sendtorace.c 164298 2006-11-15 12:43:45Z rwatson $
  */
 
 /*

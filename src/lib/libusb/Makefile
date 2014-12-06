@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/lib/libusb/Makefile 261482 2014-02-04 10:18:29Z hselasky $
+# $FreeBSD: releng/10.1/lib/libusb/Makefile 261482 2014-02-04 10:18:29Z hselasky $
 #
 # Makefile for the FreeBSD specific LibUSB 2.0
 #

@@ -28,11 +28,11 @@
 # SUCH DAMAGE.
 #
 #	@(#)newvers.sh	8.1 (Berkeley) 4/20/94
-# $FreeBSD: stable/10/sys/conf/newvers.sh 272167 2014-09-26 09:52:39Z gjb $
+# $FreeBSD: releng/10.1/sys/conf/newvers.sh 274401 2014-11-11 19:52:24Z gjb $
 
 TYPE="JabirOS"
 REVISION="2.1"
-BRANCH="BETA"
+BRANCH="RELEASE"
 if [ "X${BRANCH_OVERRIDE}" != "X" ]; then
 	BRANCH=${BRANCH_OVERRIDE}
 fi
@@ -58,8 +58,8 @@ for bsd_copyright in ../$b ../../$b ../../../$b /usr/src/$b /usr/$b
 do
 	if [ -r "$bsd_copyright" ]; then
 		COPYRIGHT=`sed \
-		    -e "s/\[year\]/2011-$year/" \
-		    -e 's/\[your name here\]\.* /The Jabir Project./' \
+		    -e "s/\[year\]/1992-$year/" \
+		    -e 's/\[your name here\]\.* /The FreeBSD Project./' \
 		    -e 's/\[your name\]\.*/The FreeBSD Project./' \
 		    -e '/\[id for your version control system, if any\]/d' \
 		    $bsd_copyright` 

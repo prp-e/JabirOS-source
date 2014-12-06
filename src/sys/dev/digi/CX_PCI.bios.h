@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/digi/CX_PCI.bios.h 145975 2005-05-06 20:53:34Z anholt $
+ * $FreeBSD: releng/10.1/sys/dev/digi/CX_PCI.bios.h 145975 2005-05-06 20:53:34Z anholt $
  */
 
 static const u_char CX_PCI_bios[] = {

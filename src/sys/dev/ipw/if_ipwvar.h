@@ -1,4 +1,4 @@
-/*      $FreeBSD: stable/10/sys/dev/ipw/if_ipwvar.h 232874 2012-03-12 18:15:08Z scottl $	*/
+/*      $FreeBSD: releng/10.1/sys/dev/ipw/if_ipwvar.h 232874 2012-03-12 18:15:08Z scottl $	*/
 
 /*-
  * Copyright (c) 2004-2006

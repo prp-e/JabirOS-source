@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/boot/uboot/lib/glue.h 185099 2008-11-19 17:34:28Z raj $
+ * $FreeBSD: releng/10.1/sys/boot/uboot/lib/glue.h 185099 2008-11-19 17:34:28Z raj $
  */
 
 /*

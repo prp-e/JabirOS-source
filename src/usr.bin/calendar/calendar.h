@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/calendar/calendar.h 255715 2013-09-19 20:17:50Z db $
+ * $FreeBSD: releng/10.1/usr.bin/calendar/calendar.h 255715 2013-09-19 20:17:50Z db $
  */
 
 #include <sys/types.h>

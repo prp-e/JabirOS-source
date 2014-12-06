@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/i915/intel_fb.c 269064 2014-07-24 15:18:19Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/i915/intel_fb.c 269064 2014-07-24 15:18:19Z emaste $");
 
 #include "opt_syscons.h"
 #include <dev/drm2/drmP.h>

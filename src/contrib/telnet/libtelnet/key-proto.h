@@ -52,7 +52,7 @@
  * this software for any purpose.  It is provided "as is" without express
  * or implied warranty.
  *
- * $FreeBSD: stable/10/contrib/telnet/libtelnet/key-proto.h 87139 2001-11-30 21:06:38Z markm $
+ * $FreeBSD: releng/10.1/contrib/telnet/libtelnet/key-proto.h 87139 2001-11-30 21:06:38Z markm $
  */
 
 #ifndef	__KEY_PROTO__

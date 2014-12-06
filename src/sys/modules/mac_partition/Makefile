@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/mac_partition/Makefile 105841 2002-10-24 02:04:03Z rwatson $
+# $FreeBSD: releng/10.1/sys/modules/mac_partition/Makefile 105841 2002-10-24 02:04:03Z rwatson $
 
 .PATH: ${.CURDIR}/../../security/mac_partition
 

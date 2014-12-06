@@ -14,7 +14,7 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * $FreeBSD: stable/10/sys/dev/ath/ath_hal/ar5210/ar5210_power.c 204644 2010-03-03 17:32:32Z rpaulo $
+ * $FreeBSD: releng/10.1/sys/dev/ath/ath_hal/ar5210/ar5210_power.c 204644 2010-03-03 17:32:32Z rpaulo $
  */
 #include "opt_ah.h"
 

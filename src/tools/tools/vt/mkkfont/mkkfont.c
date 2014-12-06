@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/tools/vt/mkkfont/mkkfont.c 268950 2014-07-21 18:13:14Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/tools/tools/vt/mkkfont/mkkfont.c 268950 2014-07-21 18:13:14Z emaste $");
 
 #include <sys/endian.h>
 #include <sys/param.h>

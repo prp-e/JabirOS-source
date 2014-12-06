@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/netmap/Makefile 262151 2014-02-18 05:01:04Z luigi $
+# $FreeBSD: releng/10.1/sys/modules/netmap/Makefile 262151 2014-02-18 05:01:04Z luigi $
 #
 # Compile netmap as a module, useful if you want a netmap bridge
 # or loadable drivers.

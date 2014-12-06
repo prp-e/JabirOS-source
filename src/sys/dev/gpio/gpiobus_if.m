@@ -23,7 +23,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/sys/dev/gpio/gpiobus_if.m 213237 2010-09-28 03:24:53Z gonzo $
+# $FreeBSD: releng/10.1/sys/dev/gpio/gpiobus_if.m 213237 2010-09-28 03:24:53Z gonzo $
 #
 
 #include <sys/bus.h>

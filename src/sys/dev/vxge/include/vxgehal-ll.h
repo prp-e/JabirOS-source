@@ -28,7 +28,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-/*$FreeBSD: stable/10/sys/dev/vxge/include/vxgehal-ll.h 240520 2012-09-14 21:59:55Z eadler $*/
+/*$FreeBSD: releng/10.1/sys/dev/vxge/include/vxgehal-ll.h 240520 2012-09-14 21:59:55Z eadler $*/
 
 #ifndef	VXGE_HAL_LL_H
 #define	VXGE_HAL_LL_H

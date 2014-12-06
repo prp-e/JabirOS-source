@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/lib/libstdc++/doc/Makefile 97517 2002-05-29 21:14:48Z obrien $
+# $FreeBSD: releng/10.1/gnu/lib/libstdc++/doc/Makefile 97517 2002-05-29 21:14:48Z obrien $
 
 SRCDIR= ${.CURDIR}/../../../../contrib/libstdc++
 

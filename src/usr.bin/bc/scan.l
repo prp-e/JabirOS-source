@@ -18,7 +18,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/bc/scan.l 265533 2014-05-07 08:06:54Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/bc/scan.l 265533 2014-05-07 08:06:54Z delphij $");
 
 #include <err.h>
 #include <errno.h>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/cavium/octe/mv88e61xxphyreg.h 213762 2010-10-13 09:17:44Z jmallett $
+ * $FreeBSD: releng/10.1/sys/mips/cavium/octe/mv88e61xxphyreg.h 213762 2010-10-13 09:17:44Z jmallett $
  */
 
 /*

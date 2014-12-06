@@ -15,7 +15,7 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/tools/ath/athalq/main.c 250899 2013-05-22 01:03:41Z adrian $");
+__FBSDID("$FreeBSD: releng/10.1/tools/tools/ath/athalq/main.c 250899 2013-05-22 01:03:41Z adrian $");
 
 #include <stdio.h>
 #include <stdlib.h>

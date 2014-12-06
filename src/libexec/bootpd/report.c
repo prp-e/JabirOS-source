@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/libexec/bootpd/report.c 97416 2002-05-28 18:31:41Z alfred $ */
+/* $FreeBSD: releng/10.1/libexec/bootpd/report.c 97416 2002-05-28 18:31:41Z alfred $ */
 
 /*
  * report() - calls syslog

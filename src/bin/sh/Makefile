@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.4 (Berkeley) 5/5/95
-# $FreeBSD: stable/10/bin/sh/Makefile 262951 2014-03-09 17:04:31Z jmmv $
+# $FreeBSD: releng/10.1/bin/sh/Makefile 262951 2014-03-09 17:04:31Z jmmv $
 
 .include <bsd.own.mk>
 

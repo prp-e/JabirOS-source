@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/csu/sparc64/Makefile 200038 2009-12-02 16:34:20Z kib $
+# $FreeBSD: releng/10.1/lib/csu/sparc64/Makefile 200038 2009-12-02 16:34:20Z kib $
 
 .PATH: ${.CURDIR}/../common
 

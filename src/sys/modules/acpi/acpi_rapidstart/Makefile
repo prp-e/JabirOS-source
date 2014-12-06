@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/acpi/acpi_rapidstart/Makefile 250363 2013-05-08 12:53:21Z takawata $
+# $FreeBSD: releng/10.1/sys/modules/acpi/acpi_rapidstart/Makefile 250363 2013-05-08 12:53:21Z takawata $
 
 .PATH:		${.CURDIR}/../../../dev/acpi_support
 

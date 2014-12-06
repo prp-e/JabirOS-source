@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/pw/Makefile 242349 2012-10-30 08:00:53Z bapt $
+# $FreeBSD: releng/10.1/usr.sbin/pw/Makefile 242349 2012-10-30 08:00:53Z bapt $
 
 PROG=	pw
 MAN=	pw.conf.5 pw.8

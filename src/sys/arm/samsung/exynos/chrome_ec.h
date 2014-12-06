@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/samsung/exynos/chrome_ec.h 266341 2014-05-17 19:37:04Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/samsung/exynos/chrome_ec.h 266341 2014-05-17 19:37:04Z ian $
  */
 
 #define	EC_CMD_HELLO		0x01

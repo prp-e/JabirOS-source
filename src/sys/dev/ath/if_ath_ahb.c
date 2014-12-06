@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ath/if_ath_ahb.c 252239 2013-06-26 04:58:25Z adrian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ath/if_ath_ahb.c 252239 2013-06-26 04:58:25Z adrian $");
 
 /*
  * AHB bus front-end for the Atheros Wireless LAN controller driver.

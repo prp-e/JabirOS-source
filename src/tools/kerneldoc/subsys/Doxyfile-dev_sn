@@ -1,6 +1,6 @@
 # Doxyfile 1.5.2
 
-# $FreeBSD: stable/10/tools/kerneldoc/subsys/Doxyfile-dev_sn 230862 2012-02-01 10:59:19Z netchild $
+# $FreeBSD: releng/10.1/tools/kerneldoc/subsys/Doxyfile-dev_sn 230862 2012-02-01 10:59:19Z netchild $
 
 #---------------------------------------------------------------------------
 # Project related configuration options

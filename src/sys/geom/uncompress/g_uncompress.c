@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/geom/uncompress/g_uncompress.c 266220 2014-05-16 14:28:55Z loos $");
+__FBSDID("$FreeBSD: releng/10.1/sys/geom/uncompress/g_uncompress.c 266220 2014-05-16 14:28:55Z loos $");
 
 #include <sys/param.h>
 #include <sys/bio.h>

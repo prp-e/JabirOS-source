@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/rename/06.t 211186 2010-08-11 17:34:58Z pjd $
+# $FreeBSD: releng/10.1/tools/regression/pjdfstest/tests/rename/06.t 211186 2010-08-11 17:34:58Z pjd $
 
 desc="rename returns EPERM if the file pointed at by the 'from' argument has its immutable, undeletable or append-only flag set"
 

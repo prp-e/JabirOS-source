@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/fs/msdosfs/msdosfs_conv.c 249588 2013-04-17 11:56:11Z gabor $ */
+/* $FreeBSD: releng/10.1/sys/fs/msdosfs/msdosfs_conv.c 249588 2013-04-17 11:56:11Z gabor $ */
 /*	$NetBSD: msdosfs_conv.c,v 1.25 1997/11/17 15:36:40 ws Exp $	*/
 
 /*-

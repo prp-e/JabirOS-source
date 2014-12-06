@@ -28,7 +28,7 @@
 /* Driver for Attansic Technology Corp. L1 Gigabit Ethernet. */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/age/if_age.c 251872 2013-06-17 22:59:47Z markj $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/age/if_age.c 251872 2013-06-17 22:59:47Z markj $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

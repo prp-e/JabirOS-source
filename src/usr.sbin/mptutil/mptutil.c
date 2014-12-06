@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__RCSID("$FreeBSD: stable/10/usr.sbin/mptutil/mptutil.c 213672 2010-10-10 20:37:38Z randi $");
+__RCSID("$FreeBSD: releng/10.1/usr.sbin/mptutil/mptutil.c 213672 2010-10-10 20:37:38Z randi $");
 
 #include <sys/param.h>
 #include <sys/errno.h>

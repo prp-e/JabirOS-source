@@ -1,7 +1,7 @@
 /*
  * FreeBSD
  *
- * $FreeBSD: stable/10/usr.bin/calendar/calendars/calendar.freebsd 260002 2013-12-28 13:08:47Z jmmv $
+ * $FreeBSD: releng/10.1/usr.bin/calendar/calendars/calendar.freebsd 260002 2013-12-28 13:08:47Z jmmv $
  */
 
 #ifndef _calendar_freebsd_

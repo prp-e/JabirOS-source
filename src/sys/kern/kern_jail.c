@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_jail.c 271622 2014-09-15 13:01:47Z trasz $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_jail.c 271622 2014-09-15 13:01:47Z trasz $");
 
 #include "opt_compat.h"
 #include "opt_ddb.h"

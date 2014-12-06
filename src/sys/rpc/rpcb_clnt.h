@@ -1,5 +1,5 @@
 /*	$NetBSD: rpcb_clnt.h,v 1.1 2000/06/02 22:57:56 fvdl Exp $	*/
-/*	$FreeBSD: stable/10/sys/rpc/rpcb_clnt.h 261046 2014-01-22 23:45:27Z mav $ */
+/*	$FreeBSD: releng/10.1/sys/rpc/rpcb_clnt.h 261046 2014-01-22 23:45:27Z mav $ */
 
 /*-
  * Copyright (c) 2009, Sun Microsystems, Inc.

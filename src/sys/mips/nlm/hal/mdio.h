@@ -25,7 +25,7 @@
  * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
  * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/nlm/hal/mdio.h 245881 2013-01-24 15:14:22Z jchandra $
+ * $FreeBSD: releng/10.1/sys/mips/nlm/hal/mdio.h 245881 2013-01-24 15:14:22Z jchandra $
  */
 
 #ifndef __NLM_MDIO_H__

@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/uart/uart_dev_imx.c 266372 2014-05-17 22:31:40Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/uart/uart_dev_imx.c 266372 2014-05-17 22:31:40Z ian $");
 
 #include "opt_ddb.h"
 

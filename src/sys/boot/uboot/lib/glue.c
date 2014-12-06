@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/uboot/lib/glue.c 265071 2014-04-29 00:45:42Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/uboot/lib/glue.c 265071 2014-04-29 00:45:42Z ian $");
 
 #include <sys/types.h>
 

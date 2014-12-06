@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/periodic/daily/420.status-network 235132 2012-05-07 15:41:31Z jhb $
+# $FreeBSD: releng/10.1/etc/periodic/daily/420.status-network 235132 2012-05-07 15:41:31Z jhb $
 #
 
 # If there is a global system configuration file, suck it in.

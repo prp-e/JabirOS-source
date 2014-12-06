@@ -27,7 +27,7 @@
 # SUCH DAMAGE.
 #
 #	@(#)vnode_if.src	8.12 (Berkeley) 5/14/95
-# $FreeBSD: stable/10/sys/kern/vnode_if.src 259296 2013-12-13 06:12:21Z kib $
+# $FreeBSD: releng/10.1/sys/kern/vnode_if.src 259296 2013-12-13 06:12:21Z kib $
 #
 
 #

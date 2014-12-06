@@ -29,7 +29,7 @@
  *
  *	from: @(#)types.h 1.18 87/07/24 SMI
  *	from: @(#)types.h	2.3 88/08/15 4.0 RPCSRC
- * $FreeBSD: stable/10/sys/rpc/types.h 261046 2014-01-22 23:45:27Z mav $
+ * $FreeBSD: releng/10.1/sys/rpc/types.h 261046 2014-01-22 23:45:27Z mav $
  */
 
 /*

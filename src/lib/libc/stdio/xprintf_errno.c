@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/stdio/xprintf_errno.c 255108 2013-08-31 22:32:42Z jilles $
+ * $FreeBSD: releng/10.1/lib/libc/stdio/xprintf_errno.c 255108 2013-08-31 22:32:42Z jilles $
  */
 
 #include <namespace.h>

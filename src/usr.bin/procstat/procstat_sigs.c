@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/procstat/procstat_sigs.c 249668 2013-04-20 07:50:59Z trociny $
+ * $FreeBSD: releng/10.1/usr.bin/procstat/procstat_sigs.c 249668 2013-04-20 07:50:59Z trociny $
  */
 
 #include <sys/param.h>

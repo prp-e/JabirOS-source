@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/boot/usb/bsd_kernel.h 269921 2014-08-13 08:18:49Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/boot/usb/bsd_kernel.h 269921 2014-08-13 08:18:49Z hselasky $ */
 /*-
  * Copyright (c) 2011 Hans Petter Selasky. All rights reserved.
  *

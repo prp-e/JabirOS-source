@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/release/generate-release.sh 261706 2014-02-10 07:16:46Z gjb $
+# $FreeBSD: releng/10.1/release/generate-release.sh 261706 2014-02-10 07:16:46Z gjb $
 #
 
 # generate-release.sh: check out source trees, and build release components with

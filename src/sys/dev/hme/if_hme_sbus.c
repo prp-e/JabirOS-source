@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/hme/if_hme_sbus.c 227843 2011-11-22 21:28:20Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/hme/if_hme_sbus.c 227843 2011-11-22 21:28:20Z marius $");
 
 /*
  * SBus front-end device driver for the HME ethernet device.

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/sound/pci/hda/hdac.h 269546 2014-08-05 01:03:10Z markj $
+ * $FreeBSD: releng/10.1/sys/dev/sound/pci/hda/hdac.h 269546 2014-08-05 01:03:10Z markj $
  */
 
 #ifndef _HDAC_H_

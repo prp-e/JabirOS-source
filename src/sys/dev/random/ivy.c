@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/random/ivy.c 268519 2014-07-11 00:26:57Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/random/ivy.c 268519 2014-07-11 00:26:57Z delphij $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

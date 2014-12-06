@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/libexec/rtld-elf/ia64/rtld_start.S 154957 2006-01-28 17:56:16Z marcel $	*/
+/* $FreeBSD: releng/10.1/libexec/rtld-elf/ia64/rtld_start.S 154957 2006-01-28 17:56:16Z marcel $	*/
 /*	From: NetBSD: rtld_start.S,v 1.1 1996/12/16 20:38:09 cgd Exp 	*/
 
 /*

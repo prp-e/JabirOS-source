@@ -22,7 +22,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/powerpc/openpic.c 222813 2011-06-07 08:46:13Z attilio $
+ * $FreeBSD: releng/10.1/sys/powerpc/powerpc/openpic.c 222813 2011-06-07 08:46:13Z attilio $
  */
 
 #include <sys/param.h>

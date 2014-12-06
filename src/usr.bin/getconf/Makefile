@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/getconf/Makefile 107224 2002-11-25 09:00:05Z ru $
+# $FreeBSD: releng/10.1/usr.bin/getconf/Makefile 107224 2002-11-25 09:00:05Z ru $
 
 PROG=	getconf
 

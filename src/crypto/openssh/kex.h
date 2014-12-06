@@ -1,5 +1,5 @@
 /* $OpenBSD: kex.h,v 1.62 2014/01/27 18:58:14 markus Exp $ */
-/* $FreeBSD: stable/10/crypto/openssh/kex.h 264377 2014-04-12 20:22:59Z des $ */
+/* $FreeBSD: releng/10.1/crypto/openssh/kex.h 264377 2014-04-12 20:22:59Z des $ */
 
 /*
  * Copyright (c) 2000, 2001 Markus Friedl.  All rights reserved.

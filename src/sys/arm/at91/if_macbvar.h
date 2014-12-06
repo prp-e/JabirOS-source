@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/sys/arm/at91/if_macbvar.h 261455 2014-02-04 03:36:42Z eadler $
+ * $FreeBSD: releng/10.1/sys/arm/at91/if_macbvar.h 261455 2014-02-04 03:36:42Z eadler $
  */
 
 #ifndef	_IF_MACB_H

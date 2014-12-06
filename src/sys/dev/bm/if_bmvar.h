@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/bm/if_bmvar.h 226995 2011-11-01 16:13:59Z marius $
+ * $FreeBSD: releng/10.1/sys/dev/bm/if_bmvar.h 226995 2011-11-01 16:13:59Z marius $
  */
 
 /*

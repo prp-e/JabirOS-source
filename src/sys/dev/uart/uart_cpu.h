@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/uart/uart_cpu.h 262649 2014-03-01 04:16:54Z imp $
+ * $FreeBSD: releng/10.1/sys/dev/uart/uart_cpu.h 262649 2014-03-01 04:16:54Z imp $
  */
 
 #ifndef _DEV_UART_CPU_H_

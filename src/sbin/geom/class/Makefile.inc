@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/geom/class/Makefile.inc 249657 2013-04-19 19:45:00Z ed $
+# $FreeBSD: releng/10.1/sbin/geom/class/Makefile.inc 249657 2013-04-19 19:45:00Z ed $
 
 SHLIBDIR?=${GEOM_CLASS_DIR}
 SHLIB_NAME?=geom_${GEOM_CLASS}.so

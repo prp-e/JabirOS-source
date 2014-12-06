@@ -1,5 +1,5 @@
 # 	@(#)Makefile	8.1 (Berkeley) 6/6/93
-# $FreeBSD: stable/10/usr.sbin/config/Makefile 249657 2013-04-19 19:45:00Z ed $
+# $FreeBSD: releng/10.1/usr.sbin/config/Makefile 249657 2013-04-19 19:45:00Z ed $
 
 PROG=	config
 MAN=	config.5 config.8

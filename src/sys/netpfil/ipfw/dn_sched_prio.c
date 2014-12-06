@@ -25,7 +25,7 @@
  */
 
 /*
- * $FreeBSD: stable/10/sys/netpfil/ipfw/dn_sched_prio.c 240494 2012-09-14 11:51:49Z glebius $
+ * $FreeBSD: releng/10.1/sys/netpfil/ipfw/dn_sched_prio.c 240494 2012-09-14 11:51:49Z glebius $
  */
 #ifdef _KERNEL
 #include <sys/malloc.h>

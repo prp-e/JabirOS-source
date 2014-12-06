@@ -32,7 +32,7 @@
  * SUCH DAMAGE.
  *
  *	from: @(#)cons.h	7.2 (Berkeley) 5/9/91
- * $FreeBSD: stable/10/sys/sys/cons.h 270988 2014-09-02 22:01:14Z emaste $
+ * $FreeBSD: releng/10.1/sys/sys/cons.h 270988 2014-09-02 22:01:14Z emaste $
  */
 
 #ifndef _MACHINE_CONS_H_

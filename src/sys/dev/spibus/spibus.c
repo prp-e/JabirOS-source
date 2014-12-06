@@ -1,5 +1,5 @@
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/spibus/spibus.c 260489 2014-01-09 18:28:58Z loos $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/spibus/spibus.c 260489 2014-01-09 18:28:58Z loos $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

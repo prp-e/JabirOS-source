@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/controller/ohci_fdt.c 266217 2014-05-16 12:43:45Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/controller/ohci_fdt.c 266217 2014-05-16 12:43:45Z ian $");
 
 #include <sys/stdint.h>
 #include <sys/stddef.h>

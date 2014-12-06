@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/nmdm/nmdm.c 271800 2014-09-18 19:20:08Z grehan $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/nmdm/nmdm.c 271800 2014-09-18 19:20:08Z grehan $");
 
 /*
  * Pseudo-nulmodem driver

@@ -24,7 +24,7 @@
  */
 
 /*
- * $FreeBSD: stable/10/sys/arm/at91/at91_wdtreg.h 236989 2012-06-13 04:52:19Z imp $
+ * $FreeBSD: releng/10.1/sys/arm/at91/at91_wdtreg.h 236989 2012-06-13 04:52:19Z imp $
  */
 
 #ifndef ARM_AT91_AT91WDTREG_H

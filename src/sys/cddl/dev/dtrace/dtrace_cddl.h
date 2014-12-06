@@ -18,7 +18,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: stable/10/sys/cddl/dev/dtrace/dtrace_cddl.h 269342 2014-07-31 17:10:03Z markj $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/dtrace/dtrace_cddl.h 269342 2014-07-31 17:10:03Z markj $
  *
  */
 

@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/contrib/libreadline/display.c 173406 2007-11-07 04:42:20Z ache $ */
+/* $FreeBSD: releng/10.1/contrib/libreadline/display.c 173406 2007-11-07 04:42:20Z ache $ */
 /* display.c -- readline redisplay facility. */
 
 /* Copyright (C) 1987-2006 Free Software Foundation, Inc.

@@ -25,7 +25,7 @@
  */
 
 /*
- * $FreeBSD: stable/10/sys/net/netmap.h 270292 2014-08-21 19:42:03Z np $
+ * $FreeBSD: releng/10.1/sys/net/netmap.h 270292 2014-08-21 19:42:03Z np $
  *
  * Definitions of constants and the structures used by the netmap
  * framework, for the part visible to both kernel and userspace.

@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/autofs/common.c 272117 2014-09-25 17:38:42Z trasz $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/autofs/common.c 272117 2014-09-25 17:38:42Z trasz $");
 
 #include <sys/types.h>
 #include <sys/time.h>

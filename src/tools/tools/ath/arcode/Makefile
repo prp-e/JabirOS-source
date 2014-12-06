@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/ath/arcode/Makefile 220364 2011-04-05 15:11:09Z adrian $
+# $FreeBSD: releng/10.1/tools/tools/ath/arcode/Makefile 220364 2011-04-05 15:11:09Z adrian $
 
 PROG=	arcode
 NOMAN=	yes

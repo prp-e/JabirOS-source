@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/c89/Makefile 140941 2005-01-28 16:08:11Z ru $
+# $FreeBSD: releng/10.1/usr.bin/c89/Makefile 140941 2005-01-28 16:08:11Z ru $
 
 PROG=	c89
 

@@ -1,7 +1,7 @@
 /*	$NetBSD: umodem.c,v 1.45 2002/09/23 05:51:23 simonb Exp $	*/
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/serial/umodem.c 263687 2014-03-24 13:48:04Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/serial/umodem.c 263687 2014-03-24 13:48:04Z emaste $");
 
 /*-
  * Copyright (c) 2003, M. Warner Losh <imp@FreeBSD.org>.

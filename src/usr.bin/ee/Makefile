@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/ee/Makefile 246592 2013-02-09 13:31:59Z antoine $
+# $FreeBSD: releng/10.1/usr.bin/ee/Makefile 246592 2013-02-09 13:31:59Z antoine $
 
 .PATH:	${.CURDIR}/../../contrib/ee
 

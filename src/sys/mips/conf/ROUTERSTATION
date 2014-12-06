@@ -1,7 +1,7 @@
 #
 # Ubiquiti Routerstation: Boot from onboard flash
 #
-# $FreeBSD: stable/10/sys/mips/conf/ROUTERSTATION 266331 2014-05-17 17:34:37Z ian $
+# $FreeBSD: releng/10.1/sys/mips/conf/ROUTERSTATION 266331 2014-05-17 17:34:37Z ian $
 #
 
 include		"AR71XX_BASE"

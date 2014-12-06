@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/gen/frexp.c 132366 2004-07-18 21:23:39Z das $
+ * $FreeBSD: releng/10.1/lib/libc/gen/frexp.c 132366 2004-07-18 21:23:39Z das $
  */
 
 #include <math.h>

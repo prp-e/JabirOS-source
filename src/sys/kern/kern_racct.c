@@ -26,11 +26,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/kern/kern_racct.c 260817 2014-01-17 10:58:59Z avg $
+ * $FreeBSD: releng/10.1/sys/kern/kern_racct.c 260817 2014-01-17 10:58:59Z avg $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_racct.c 260817 2014-01-17 10:58:59Z avg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_racct.c 260817 2014-01-17 10:58:59Z avg $");
 
 #include "opt_kdtrace.h"
 #include "opt_sched.h"

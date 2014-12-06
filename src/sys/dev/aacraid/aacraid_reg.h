@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: stable/10/sys/dev/aacraid/aacraid_reg.h 263024 2014-03-11 14:59:34Z achim $
+ *	$FreeBSD: releng/10.1/sys/dev/aacraid/aacraid_reg.h 263024 2014-03-11 14:59:34Z achim $
  */
 
 /*

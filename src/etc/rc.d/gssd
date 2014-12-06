@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/rc.d/gssd 184588 2008-11-03 10:38:00Z dfr $
+# $FreeBSD: releng/10.1/etc/rc.d/gssd 273188 2014-10-16 22:00:24Z hrs $
 #
 
 # PROVIDE: gssd
@@ -9,10 +9,8 @@
 
 . /etc/rc.subr
 
-name="gssd"
+name=gssd
+rcvar=gssd_enable
 
 load_rc_config $name
-rcvar="gssd_enable"
-command="${gssd:-/usr/sbin/${name}}"
-eval ${name}_flags=\"${gssd_flags}\"
 run_rc_command "$1"

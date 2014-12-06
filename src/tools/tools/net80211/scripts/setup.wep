@@ -2,7 +2,7 @@
 #
 # Script for testing ap mode w/ WEP.
 #
-# $FreeBSD: stable/10/tools/tools/net80211/scripts/setup.wep 178361 2008-04-20 20:43:42Z sam $
+# $FreeBSD: releng/10.1/tools/tools/net80211/scripts/setup.wep 178361 2008-04-20 20:43:42Z sam $
 #
 PATH=.:$PATH
 . config

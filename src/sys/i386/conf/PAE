@@ -1,7 +1,7 @@
 #
 # PAE -- Generic kernel configuration file for FreeBSD/i386 PAE
 #
-# $FreeBSD: stable/10/sys/i386/conf/PAE 267050 2014-06-04 12:03:51Z marius $
+# $FreeBSD: releng/10.1/sys/i386/conf/PAE 267050 2014-06-04 12:03:51Z marius $
 
 include GENERIC
 

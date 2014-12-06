@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/i386/linux/linux_machdep.c 272020 2014-09-23 07:50:04Z bz $");
+__FBSDID("$FreeBSD: releng/10.1/sys/i386/linux/linux_machdep.c 272020 2014-09-23 07:50:04Z bz $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

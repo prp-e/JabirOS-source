@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/powermac/macgpio.c 218184 2011-02-02 05:58:51Z marcel $
+ * $FreeBSD: releng/10.1/sys/powerpc/powermac/macgpio.c 218184 2011-02-02 05:58:51Z marcel $
  */
 
 /*

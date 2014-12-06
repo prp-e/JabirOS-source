@@ -7,7 +7,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/opencrypto/cast.c 171238 2007-07-05 06:59:14Z peter $");
+__FBSDID("$FreeBSD: releng/10.1/sys/opencrypto/cast.c 171238 2007-07-05 06:59:14Z peter $");
 
 #include <sys/types.h>
 #include <opencrypto/cast.h>

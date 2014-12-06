@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/cpuctl.h 268157 2014-07-02 13:09:26Z kib $
+ * $FreeBSD: releng/10.1/sys/sys/cpuctl.h 268157 2014-07-02 13:09:26Z kib $
  */
 
 #ifndef _CPUCTL_H_

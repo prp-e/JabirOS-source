@@ -27,7 +27,7 @@
 /* Driver for the VirtIO PCI interface. */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/virtio/pci/virtio_pci.c 268010 2014-06-29 00:37:59Z bryanv $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/virtio/pci/virtio_pci.c 268010 2014-06-29 00:37:59Z bryanv $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/_rwlock.h 262192 2014-02-18 20:27:17Z jhb $
+ * $FreeBSD: releng/10.1/sys/sys/_rwlock.h 262192 2014-02-18 20:27:17Z jhb $
  */
 
 #ifndef _SYS__RWLOCK_H_

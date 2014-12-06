@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/boot/usb/bsd_global.h 246616 2013-02-10 10:56:13Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/boot/usb/bsd_global.h 246616 2013-02-10 10:56:13Z hselasky $ */
 /*-
  * Copyright (c) 2013 Hans Petter Selasky. All rights reserved.
  *

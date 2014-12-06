@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: stable/10/sys/dev/fxp/inphyreg.h 226154 2011-10-08 12:33:10Z marius $
+ *	$FreeBSD: releng/10.1/sys/dev/fxp/inphyreg.h 226154 2011-10-08 12:33:10Z marius $
  */
 
 #ifndef _INPHYREG_H

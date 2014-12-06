@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/gen/_thread_init.c 218824 2011-02-18 21:44:53Z nwhitehorn $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/gen/_thread_init.c 218824 2011-02-18 21:44:53Z nwhitehorn $");
 
 #include <sys/types.h>
 

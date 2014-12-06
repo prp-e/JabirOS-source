@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/librtld_db/Makefile 225227 2011-08-28 09:26:48Z kib $
+# $FreeBSD: releng/10.1/lib/librtld_db/Makefile 225227 2011-08-28 09:26:48Z kib $
 
 .include <bsd.own.mk>
 

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/bus.h 270075 2014-08-17 01:28:03Z ian $
+ * $FreeBSD: releng/10.1/sys/sys/bus.h 270075 2014-08-17 01:28:03Z ian $
  */
 
 #ifndef _SYS_BUS_H_

@@ -25,7 +25,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/imgact_elf.h 267561 2014-06-17 05:21:48Z dchagin $
+ * $FreeBSD: releng/10.1/sys/sys/imgact_elf.h 267561 2014-06-17 05:21:48Z dchagin $
  */
 
 #ifndef _SYS_IMGACT_ELF_H_

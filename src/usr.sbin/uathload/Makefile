@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/uathload/Makefile 218749 2011-02-16 21:04:47Z dim $
+# $FreeBSD: releng/10.1/usr.sbin/uathload/Makefile 218749 2011-02-16 21:04:47Z dim $
 
 PROG=	uathload
 MAN=	uathload.8

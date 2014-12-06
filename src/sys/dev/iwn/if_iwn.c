@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/iwn/if_iwn.c 264948 2014-04-25 21:58:28Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/iwn/if_iwn.c 264948 2014-04-25 21:58:28Z marius $");
 
 #include "opt_wlan.h"
 #include "opt_iwn.h"

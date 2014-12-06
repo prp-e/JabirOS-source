@@ -19,7 +19,7 @@
  * improvements that they make and grant CSL redistribution rights.
  *
  *      Utah $Hdr$
- * $FreeBSD: stable/10/sys/fs/ext2fs/ext2_inode_cnv.c 262723 2014-03-04 03:10:31Z pfg $
+ * $FreeBSD: releng/10.1/sys/fs/ext2fs/ext2_inode_cnv.c 262723 2014-03-04 03:10:31Z pfg $
  */
 
 /*

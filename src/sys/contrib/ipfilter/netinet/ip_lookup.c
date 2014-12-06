@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/contrib/ipfilter/netinet/ip_lookup.c 255332 2013-09-06 23:11:19Z cy $ */
+/* $FreeBSD: releng/10.1/sys/contrib/ipfilter/netinet/ip_lookup.c 255332 2013-09-06 23:11:19Z cy $ */
 /*
  * Copyright (C) 2012 by Darren Reed.
  *

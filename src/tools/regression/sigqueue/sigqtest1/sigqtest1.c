@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/tools/regression/sigqueue/sigqtest1/sigqtest1.c 197965 2009-10-11 17:04:13Z kib $ */
+/* $FreeBSD: releng/10.1/tools/regression/sigqueue/sigqtest1/sigqtest1.c 197965 2009-10-11 17:04:13Z kib $ */
 #include <err.h>
 #include <errno.h>
 #include <signal.h>

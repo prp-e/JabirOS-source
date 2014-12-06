@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/cddl/compat/opensolaris/sys/kstat.h 244155 2012-12-12 16:14:14Z smh $
+ * $FreeBSD: releng/10.1/sys/cddl/compat/opensolaris/sys/kstat.h 244155 2012-12-12 16:14:14Z smh $
  */
 
 #ifndef _OPENSOLARIS_SYS_KSTAT_H_

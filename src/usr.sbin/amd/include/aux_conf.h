@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/usr.sbin/amd/include/aux_conf.h 174311 2007-12-05 16:50:48Z obrien $ */
+/* $FreeBSD: releng/10.1/usr.sbin/amd/include/aux_conf.h 174311 2007-12-05 16:50:48Z obrien $ */
 
 /*
  * aux_conf.h:

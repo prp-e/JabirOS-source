@@ -30,7 +30,7 @@
  *
  *	@(#)saioctl.h	8.1 (Berkeley) 6/11/93
  *
- * $FreeBSD: stable/10/lib/libstand/saioctl.h 165906 2007-01-09 01:02:06Z imp $
+ * $FreeBSD: releng/10.1/lib/libstand/saioctl.h 165906 2007-01-09 01:02:06Z imp $
  */
 
 /* ioctl's -- for disks just now */

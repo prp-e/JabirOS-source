@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/fsck_ffs/suj.c 260178 2014-01-02 01:44:14Z scottl $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/fsck_ffs/suj.c 260178 2014-01-02 01:44:14Z scottl $");
 
 #include <sys/param.h>
 #include <sys/disk.h>

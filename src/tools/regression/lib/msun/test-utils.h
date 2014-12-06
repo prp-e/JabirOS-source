@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/lib/msun/test-utils.h 251241 2013-06-02 04:30:03Z das $
+ * $FreeBSD: releng/10.1/tools/regression/lib/msun/test-utils.h 251241 2013-06-02 04:30:03Z das $
  */
 
 #ifndef	_TEST_UTILS_H_

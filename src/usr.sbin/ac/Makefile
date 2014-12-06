@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/ac/Makefile 239910 2012-08-30 16:45:27Z ed $
+# $FreeBSD: releng/10.1/usr.sbin/ac/Makefile 239910 2012-08-30 16:45:27Z ed $
 
 PROG=	ac
 MAN=	ac.8

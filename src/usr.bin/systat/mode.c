@@ -58,7 +58,7 @@
 
 #include <sys/cdefs.h>
 
-__FBSDID("$FreeBSD: stable/10/usr.bin/systat/mode.c 226396 2011-10-15 13:20:36Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/systat/mode.c 226396 2011-10-15 13:20:36Z ed $");
 
 #include <sys/types.h>
 

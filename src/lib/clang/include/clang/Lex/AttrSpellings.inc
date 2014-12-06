@@ -1,2 +1,2 @@
-/* $FreeBSD: stable/10/lib/clang/include/clang/Lex/AttrSpellings.inc 218893 2011-02-20 19:33:47Z dim $ */
+/* $FreeBSD: releng/10.1/lib/clang/include/clang/Lex/AttrSpellings.inc 218893 2011-02-20 19:33:47Z dim $ */
 #include "AttrSpellings.inc.h"

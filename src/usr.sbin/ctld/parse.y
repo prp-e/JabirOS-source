@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/ctld/parse.y 267962 2014-06-27 17:10:28Z jpaetzel $
+ * $FreeBSD: releng/10.1/usr.sbin/ctld/parse.y 267962 2014-06-27 17:10:28Z jpaetzel $
  */
 
 #include <sys/queue.h>

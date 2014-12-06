@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/isp/isp_freebsd.h 260347 2014-01-05 22:48:12Z mav $ */
+/* $FreeBSD: releng/10.1/sys/dev/isp/isp_freebsd.h 260347 2014-01-05 22:48:12Z mav $ */
 /*-
  * Qlogic ISP SCSI Host Adapter FreeBSD Wrapper Definitions
  *

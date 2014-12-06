@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/autofs/token.l 271704 2014-09-17 08:25:48Z trasz $
+ * $FreeBSD: releng/10.1/usr.sbin/autofs/token.l 271704 2014-09-17 08:25:48Z trasz $
  */
 
 #include <stdio.h>

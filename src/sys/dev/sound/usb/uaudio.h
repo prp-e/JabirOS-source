@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/sound/usb/uaudio.h 228484 2011-12-14 00:48:20Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/sound/usb/uaudio.h 228484 2011-12-14 00:48:20Z hselasky $ */
 
 /*-
  * Copyright (c) 2000-2002 Hiroyuki Aizu <aizu@navi.org>

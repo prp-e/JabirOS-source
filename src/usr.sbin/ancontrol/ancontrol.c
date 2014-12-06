@@ -37,7 +37,7 @@ static const char copyright[] = "@(#) Copyright (c) 1997, 1998, 1999\
 #endif
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/ancontrol/ancontrol.c 238221 2012-07-08 00:52:54Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/ancontrol/ancontrol.c 238221 2012-07-08 00:52:54Z eadler $");
 
 #include <sys/types.h>
 #include <sys/socket.h>

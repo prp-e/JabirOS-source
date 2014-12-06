@@ -42,7 +42,7 @@
  * Created      : 30/01/97
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/arm/cpufunc.c 266387 2014-05-18 00:55:26Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/arm/cpufunc.c 266387 2014-05-18 00:55:26Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

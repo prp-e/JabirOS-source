@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/tools/ath/ath_ee_v14_print/ath_ee_v14_print.c 232807 2012-03-11 02:00:59Z adrian $
+ * $FreeBSD: releng/10.1/tools/tools/ath/ath_ee_v14_print/ath_ee_v14_print.c 232807 2012-03-11 02:00:59Z adrian $
  */
 
 #include <stdio.h>

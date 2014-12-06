@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/nvmecontrol/firmware.c 265567 2014-05-07 16:52:29Z jimharris $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/nvmecontrol/firmware.c 265567 2014-05-07 16:52:29Z jimharris $");
 
 #include <sys/param.h>
 #include <sys/ioccom.h>

@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)extern.h	8.1 (Berkeley) 5/31/93
- * $FreeBSD: stable/10/bin/stty/extern.h 238508 2012-07-15 21:12:22Z jilles $
+ * $FreeBSD: releng/10.1/bin/stty/extern.h 238508 2012-07-15 21:12:22Z jilles $
  */
 
 int	c_cchars(const void *, const void *);

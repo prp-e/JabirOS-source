@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/altera/jtag_uart/altera_jtag_uart_tty.c 239676 2012-08-25 11:30:36Z rwatson $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/altera/jtag_uart/altera_jtag_uart_tty.c 239676 2012-08-25 11:30:36Z rwatson $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

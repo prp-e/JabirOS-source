@@ -30,7 +30,7 @@
   POSSIBILITY OF SUCH DAMAGE.
 
 ******************************************************************************/
-/*$FreeBSD: stable/10/sys/dev/ixgbe/ixv.h 230775 2012-01-30 16:42:02Z jfv $*/
+/*$FreeBSD: releng/10.1/sys/dev/ixgbe/ixv.h 230775 2012-01-30 16:42:02Z jfv $*/
 
 
 #ifndef _IXV_H_

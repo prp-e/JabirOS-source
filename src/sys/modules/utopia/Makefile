@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/utopia/Makefile 142445 2005-02-25 09:49:29Z harti $
+# $FreeBSD: releng/10.1/sys/modules/utopia/Makefile 142445 2005-02-25 09:49:29Z harti $
 
 .PATH: ${.CURDIR}/../../dev/utopia
 

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/geom/geom_bsd/Makefile 150373 2005-09-20 11:16:05Z imura $
+# $FreeBSD: releng/10.1/sys/modules/geom/geom_bsd/Makefile 150373 2005-09-20 11:16:05Z imura $
 
 .PATH: ${.CURDIR}/../../../geom
 

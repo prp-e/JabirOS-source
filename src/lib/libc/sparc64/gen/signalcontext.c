@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/sparc64/gen/signalcontext.c 253266 2013-07-12 14:24:52Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/sparc64/gen/signalcontext.c 253266 2013-07-12 14:24:52Z marius $");
 
 #include <sys/param.h>
 #include <sys/ucontext.h>

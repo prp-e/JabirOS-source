@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libthr/support/Makefile.inc 212516 2010-09-13 01:43:10Z imp $
+# $FreeBSD: releng/10.1/lib/libthr/support/Makefile.inc 212516 2010-09-13 01:43:10Z imp $
 
 .PATH: ${.CURDIR}/support ${.CURDIR}/../libc/gen ${.CURDIR}/../libc/string
 

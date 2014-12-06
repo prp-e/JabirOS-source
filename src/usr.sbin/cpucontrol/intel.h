@@ -22,7 +22,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/cpucontrol/intel.h 181430 2008-08-08 16:26:53Z stas $
+ * $FreeBSD: releng/10.1/usr.sbin/cpucontrol/intel.h 181430 2008-08-08 16:26:53Z stas $
  */
 
 #ifndef INTEL_H

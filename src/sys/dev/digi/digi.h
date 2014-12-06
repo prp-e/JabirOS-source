@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/digi/digi.h 136516 2004-10-14 18:37:59Z phk $
+ * $FreeBSD: releng/10.1/sys/dev/digi/digi.h 136516 2004-10-14 18:37:59Z phk $
  */
 
 #define	W(p)				(*(u_int16_t *)(p))

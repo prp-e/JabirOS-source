@@ -31,7 +31,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
  * OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/makefs/cd9660.h 230795 2012-01-31 00:32:37Z jkim $
+ * $FreeBSD: releng/10.1/usr.sbin/makefs/cd9660.h 230795 2012-01-31 00:32:37Z jkim $
  */
 
 #ifndef _MAKEFS_CD9660_H

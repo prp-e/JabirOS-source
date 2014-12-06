@@ -43,7 +43,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/contrib/amd/amd/amd.c 174298 2007-12-05 16:00:42Z obrien $");
+__FBSDID("$FreeBSD: releng/10.1/contrib/amd/amd/amd.c 174298 2007-12-05 16:00:42Z obrien $");
 
 /*
  * Automounter

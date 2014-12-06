@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.19 (Berkeley) 1/14/97
-# $FreeBSD: stable/10/etc/sendmail/Makefile 124839 2004-01-22 17:51:02Z ru $
+# $FreeBSD: releng/10.1/etc/sendmail/Makefile 124839 2004-01-22 17:51:02Z ru $
 
 M4=		m4
 CHMOD=		chmod

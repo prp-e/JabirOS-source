@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/conf/files 270892 2014-08-31 21:18:23Z trasz $
+# $FreeBSD: releng/10.1/sys/conf/files 272407 2014-10-02 10:46:12Z hselasky $
 #
 # The long compile-with and dependency lines are required because of
 # limitations in config: backslash-newline doesn't work in strings, and
@@ -3745,7 +3745,7 @@ ofed/drivers/net/mlx4/sys_tune.c		optional mlx4ib | mlxen	\
 ofed/drivers/net/mlx4/en_cq.c			optional mlxen		\
 	no-depend obj-prefix "mlx4_"					\
 	compile-with "${OFED_C_NOIMP} -I$S/ofed/drivers/net/mlx4/"
-ofed/drivers/net/mlx4/en_frag.c			optional mlxen		\
+ofed/drivers/net/mlx4/utils.c			optional mlxen		\
 	no-depend obj-prefix "mlx4_"					\
 	compile-with "${OFED_C_NOIMP} -I$S/ofed/drivers/net/mlx4/"
 ofed/drivers/net/mlx4/en_main.c			optional mlxen		\

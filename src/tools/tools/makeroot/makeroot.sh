@@ -29,7 +29,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/tools/tools/makeroot/makeroot.sh 262652 2014-03-01 04:49:55Z brooks $
+# $FreeBSD: releng/10.1/tools/tools/makeroot/makeroot.sh 262652 2014-03-01 04:49:55Z brooks $
 
 usage()
 {

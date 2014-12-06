@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/x86/iommu/intel_quirks.c 257251 2013-10-28 13:33:29Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/x86/iommu/intel_quirks.c 257251 2013-10-28 13:33:29Z kib $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

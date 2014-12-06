@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/at91/at91sam9260.c 266087 2014-05-14 20:31:54Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/at91/at91sam9260.c 266087 2014-05-14 20:31:54Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

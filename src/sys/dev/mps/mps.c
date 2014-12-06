@@ -26,11 +26,11 @@
  *
  * LSI MPT-Fusion Host Adapter FreeBSD
  *
- * $FreeBSD: stable/10/sys/dev/mps/mps.c 270250 2014-08-20 23:09:27Z slm $
+ * $FreeBSD: releng/10.1/sys/dev/mps/mps.c 270250 2014-08-20 23:09:27Z slm $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/mps/mps.c 270250 2014-08-20 23:09:27Z slm $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/mps/mps.c 270250 2014-08-20 23:09:27Z slm $");
 
 /* Communications core for LSI MPT2 */
 

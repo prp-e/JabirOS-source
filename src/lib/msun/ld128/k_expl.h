@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/msun/ld128/k_expl.h 271779 2014-09-18 15:10:22Z tijl $");
+__FBSDID("$FreeBSD: releng/10.1/lib/msun/ld128/k_expl.h 271779 2014-09-18 15:10:22Z tijl $");
 
 /*
  * ld128 version of k_expl.h.  See ../ld80/s_expl.c for most comments.

@@ -54,4 +54,4 @@ license:
  * SUCH DAMAGE.
  */
 
-$FreeBSD: stable/10/tools/tools/netrate/README 135042 2004-09-10 19:09:50Z rwatson $
+$FreeBSD: releng/10.1/tools/tools/netrate/README 135042 2004-09-10 19:09:50Z rwatson $

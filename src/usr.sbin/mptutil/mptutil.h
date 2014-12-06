@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/mptutil/mptutil.h 196212 2009-08-14 13:13:12Z scottl $
+ * $FreeBSD: releng/10.1/usr.sbin/mptutil/mptutil.h 196212 2009-08-14 13:13:12Z scottl $
  */
 
 #ifndef __MPTUTIL_H__

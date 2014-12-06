@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/subr_prf.c 266197 2014-05-15 21:41:32Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/subr_prf.c 266197 2014-05-15 21:41:32Z ian $");
 
 #include "opt_ddb.h"
 #include "opt_printf.h"

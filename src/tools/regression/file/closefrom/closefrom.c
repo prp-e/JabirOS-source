@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/regression/file/closefrom/closefrom.c 194262 2009-06-15 20:38:55Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/tools/regression/file/closefrom/closefrom.c 194262 2009-06-15 20:38:55Z jhb $");
 
 /*
  * Regression tests for the closefrom(2) system call.

@@ -41,7 +41,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/string/wcswidth.c 251069 2013-05-28 20:57:40Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/string/wcswidth.c 251069 2013-05-28 20:57:40Z emaste $");
 
 #include <wchar.h>
 #include "xlocale_private.h"

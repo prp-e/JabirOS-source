@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/5/93
-# $FreeBSD: stable/10/sbin/tunefs/Makefile 207145 2010-04-24 07:59:45Z jeff $
+# $FreeBSD: releng/10.1/sbin/tunefs/Makefile 207145 2010-04-24 07:59:45Z jeff $
 
 PROG=	tunefs
 DPADD=	${LIBUFS}

@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/syscallsubr.h 270042 2014-08-16 12:59:47Z bz $
+ * $FreeBSD: releng/10.1/sys/sys/syscallsubr.h 272246 2014-09-28 11:08:32Z kib $
  */
 
 #ifndef _SYS_SYSCALLSUBR_H_
@@ -97,6 +97,7 @@ int	kern_fchmodat(struct thread *td, int fd, char *path,
 int	kern_fchownat(struct thread *td, int fd, char *path,
 	    enum uio_seg pathseg, int uid, int gid, int flag);
 int	kern_fcntl(struct thread *td, int fd, int cmd, intptr_t arg);
+int	kern_fcntl_freebsd(struct thread *td, int fd, int cmd, long arg);
 int	kern_fhstat(struct thread *td, fhandle_t fh, struct stat *buf);
 int	kern_fhstatfs(struct thread *td, fhandle_t fh, struct statfs *buf);
 int	kern_fstat(struct thread *td, int fd, struct stat *sbp);

@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/contrib/altq/altq/altq_cdnr.c 263086 2014-03-12 10:45:58Z glebius $	*/
+/*	$FreeBSD: releng/10.1/sys/contrib/altq/altq/altq_cdnr.c 263086 2014-03-12 10:45:58Z glebius $	*/
 /*	$KAME: altq_cdnr.c,v 1.15 2005/04/13 03:44:24 suz Exp $	*/
 
 /*

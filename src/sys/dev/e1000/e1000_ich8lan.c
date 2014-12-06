@@ -30,7 +30,7 @@
   POSSIBILITY OF SUCH DAMAGE.
 
 ******************************************************************************/
-/*$FreeBSD: stable/10/sys/dev/e1000/e1000_ich8lan.c 269196 2014-07-28 21:11:18Z jfv $*/
+/*$FreeBSD: releng/10.1/sys/dev/e1000/e1000_ich8lan.c 269196 2014-07-28 21:11:18Z jfv $*/
 
 /* 82562G 10/100 Network Connection
  * 82562G-2 10/100 Network Connection

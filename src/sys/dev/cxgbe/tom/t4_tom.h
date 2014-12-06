@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/cxgbe/tom/t4_tom.h 270297 2014-08-21 19:54:02Z np $
+ * $FreeBSD: releng/10.1/sys/dev/cxgbe/tom/t4_tom.h 270297 2014-08-21 19:54:02Z np $
  *
  */
 

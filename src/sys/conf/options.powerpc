@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/conf/options.powerpc 255643 2013-09-17 17:37:04Z nwhitehorn $
+# $FreeBSD: releng/10.1/sys/conf/options.powerpc 255643 2013-09-17 17:37:04Z nwhitehorn $
 # Options specific to the powerpc platform kernels
 
 AIM			opt_global.h

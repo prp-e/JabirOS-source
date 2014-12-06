@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libradius/radlib.c 243964 2012-12-07 01:36:53Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libradius/radlib.c 243964 2012-12-07 01:36:53Z delphij $");
 
 #include <sys/types.h>
 #include <sys/socket.h>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/geom/multipath/g_multipath.h 260478 2014-01-09 11:11:47Z mav $
+ * $FreeBSD: releng/10.1/sys/geom/multipath/g_multipath.h 260478 2014-01-09 11:11:47Z mav $
  */
 /*
  * Based upon work by Pawel Jakub Dawidek <pjd@FreeBSD.org> for all of the

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/glxsb/glxsb_hash.c 181593 2008-08-11 08:41:08Z pjd $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/glxsb/glxsb_hash.c 181593 2008-08-11 08:41:08Z pjd $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

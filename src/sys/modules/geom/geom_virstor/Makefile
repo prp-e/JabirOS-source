@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/geom/geom_virstor/Makefile 172302 2007-09-23 07:34:23Z pjd $
+# $FreeBSD: releng/10.1/sys/modules/geom/geom_virstor/Makefile 172302 2007-09-23 07:34:23Z pjd $
 
 .PATH: ${.CURDIR}/../../../geom/virstor
 

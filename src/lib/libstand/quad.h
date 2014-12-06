@@ -31,7 +31,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)quad.h	8.1 (Berkeley) 6/4/93
- * $FreeBSD: stable/10/lib/libstand/quad.h 271134 2014-09-04 20:49:11Z emaste $
+ * $FreeBSD: releng/10.1/lib/libstand/quad.h 271134 2014-09-04 20:49:11Z emaste $
  */
 
 /*

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libc/inet/Makefile.inc 157049 2006-03-23 16:55:13Z des $
+# $FreeBSD: releng/10.1/lib/libc/inet/Makefile.inc 157049 2006-03-23 16:55:13Z des $
 
 # inet sources
 .PATH: ${.CURDIR}/inet

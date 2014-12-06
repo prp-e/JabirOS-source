@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libcom_err/doc/Makefile 50476 1999-08-28 00:22:10Z peter $
+# $FreeBSD: releng/10.1/lib/libcom_err/doc/Makefile 50476 1999-08-28 00:22:10Z peter $
 
 INFO=	com_err
 INFOSECTION= "Programming & development tools."

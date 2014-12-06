@@ -28,7 +28,7 @@
 #include "opt_inet6.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/nlm/nlm_prot_impl.c 263781 2014-03-26 23:57:09Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/sys/nlm/nlm_prot_impl.c 263781 2014-03-26 23:57:09Z delphij $");
 
 #include <sys/param.h>
 #include <sys/fail.h>

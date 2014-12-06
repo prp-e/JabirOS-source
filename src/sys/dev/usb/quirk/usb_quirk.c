@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/quirk/usb_quirk.c 271370 2014-09-10 09:40:51Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/quirk/usb_quirk.c 271370 2014-09-10 09:40:51Z hselasky $ */
 /*-
  * Copyright (c) 1998 The NetBSD Foundation, Inc. All rights reserved.
  * Copyright (c) 1998 Lennart Augustsson. All rights reserved.

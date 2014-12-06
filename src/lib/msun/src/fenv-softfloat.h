@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/msun/src/fenv-softfloat.h 266133 2014-05-15 15:02:48Z ian $
+ * $FreeBSD: releng/10.1/lib/msun/src/fenv-softfloat.h 266133 2014-05-15 15:02:48Z ian $
  */
 
 #ifndef	_FENV_H_

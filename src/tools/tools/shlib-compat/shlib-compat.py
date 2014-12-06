@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/tools/tools/shlib-compat/shlib-compat.py 248693 2013-03-25 00:31:14Z gleb $
+# $FreeBSD: releng/10.1/tools/tools/shlib-compat/shlib-compat.py 248693 2013-03-25 00:31:14Z gleb $
 
 import os
 import sys

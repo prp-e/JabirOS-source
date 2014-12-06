@@ -27,7 +27,7 @@
 /*
  * Authors: Thomas Hellstrom <thellstrom-at-vmware-dot-com>
  */
-/* $FreeBSD: stable/10/sys/dev/drm2/ttm/ttm_module.h 247835 2013-03-05 09:49:34Z kib $ */
+/* $FreeBSD: releng/10.1/sys/dev/drm2/ttm/ttm_module.h 247835 2013-03-05 09:49:34Z kib $ */
 
 #ifndef _TTM_MODULE_H_
 #define _TTM_MODULE_H_

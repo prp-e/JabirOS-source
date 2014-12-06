@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/atheros/ar71xx_fixup.c 234485 2012-04-20 08:26:05Z adrian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/atheros/ar71xx_fixup.c 234485 2012-04-20 08:26:05Z adrian $");
 
 #include "opt_ar71xx.h"
 

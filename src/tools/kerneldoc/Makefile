@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/kerneldoc/Makefile 160171 2006-07-08 12:31:33Z netchild $
+# $FreeBSD: releng/10.1/tools/kerneldoc/Makefile 160171 2006-07-08 12:31:33Z netchild $
 
 .PATH:	${.CURDIR}/../kern
 

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/csup/fixups.c 228992 2011-12-30 11:02:40Z uqs $
+ * $FreeBSD: releng/10.1/usr.bin/csup/fixups.c 228992 2011-12-30 11:02:40Z uqs $
  */
 
 #include <assert.h>

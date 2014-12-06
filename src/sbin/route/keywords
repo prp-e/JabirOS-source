@@ -1,5 +1,5 @@
 #	@(#)keywords	8.2 (Berkeley) 3/19/94
-# $FreeBSD: stable/10/sbin/route/keywords 265701 2014-05-08 19:35:12Z melifaro $
+# $FreeBSD: releng/10.1/sbin/route/keywords 273188 2014-10-16 22:00:24Z hrs $
 
 4
 6
@@ -41,6 +41,7 @@ osi
 prefixlen
 proto1
 proto2
+proto3
 proxy
 recvpipe
 reject

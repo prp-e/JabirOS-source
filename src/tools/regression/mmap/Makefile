@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/regression/mmap/Makefile 197543 2009-09-27 21:03:33Z bz $
+# $FreeBSD: releng/10.1/tools/regression/mmap/Makefile 197543 2009-09-27 21:03:33Z bz $
 
 PROG=	mmap
 NO_MAN=

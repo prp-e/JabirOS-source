@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/syscons/syscons.c 268366 2014-07-07 14:16:05Z ray $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/syscons/syscons.c 268366 2014-07-07 14:16:05Z ray $");
 
 #include "opt_compat.h"
 #include "opt_syscons.h"

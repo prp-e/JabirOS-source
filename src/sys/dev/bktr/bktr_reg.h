@@ -1,5 +1,5 @@
 /*-
- * $FreeBSD: stable/10/sys/dev/bktr/bktr_reg.h 227503 2011-11-14 18:21:27Z rmh $
+ * $FreeBSD: releng/10.1/sys/dev/bktr/bktr_reg.h 227503 2011-11-14 18:21:27Z rmh $
  *
  * Copyright (c) 1999 Roger Hardiman
  * Copyright (c) 1998 Amancio Hasty

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/ath/athpow/Makefile 185743 2008-12-07 19:17:33Z sam $
+# $FreeBSD: releng/10.1/tools/tools/ath/athpow/Makefile 185743 2008-12-07 19:17:33Z sam $
 
 PROG=	athpow
 

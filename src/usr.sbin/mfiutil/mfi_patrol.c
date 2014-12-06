@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/mfiutil/mfi_patrol.c 237260 2012-06-19 06:18:42Z eadler $
+ * $FreeBSD: releng/10.1/usr.sbin/mfiutil/mfi_patrol.c 237260 2012-06-19 06:18:42Z eadler $
  */
 
 #include <sys/types.h>

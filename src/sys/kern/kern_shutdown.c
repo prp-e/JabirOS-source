@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_shutdown.c 260431 2014-01-08 02:19:39Z cperciva $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_shutdown.c 260431 2014-01-08 02:19:39Z cperciva $");
 
 #include "opt_ddb.h"
 #include "opt_kdb.h"

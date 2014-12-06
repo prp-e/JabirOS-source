@@ -43,7 +43,7 @@ static char sccsid[] = "From: @(#)comm.c	8.4 (Berkeley) 5/4/95";
 #endif
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/comm/comm.c 227235 2011-11-06 18:49:10Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/comm/comm.c 227235 2011-11-06 18:49:10Z ed $");
 
 #include <err.h>
 #include <limits.h>

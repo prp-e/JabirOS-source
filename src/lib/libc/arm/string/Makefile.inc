@@ -1,5 +1,5 @@
 #	@(#)Makefile.inc	8.1 (Berkeley) 6/4/93
-# $FreeBSD: stable/10/lib/libc/arm/string/Makefile.inc 229368 2012-01-03 07:14:01Z ed $
+# $FreeBSD: releng/10.1/lib/libc/arm/string/Makefile.inc 229368 2012-01-03 07:14:01Z ed $
 
 MDSRCS+=bcmp.c bcopy.S bzero.S ffs.S memchr.c memcmp.S memcpy.S \
 	memmove.S memset.S strcat.c strchr.c strcmp.S strcpy.c strlen.S \

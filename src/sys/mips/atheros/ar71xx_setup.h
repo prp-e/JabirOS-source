@@ -24,7 +24,7 @@
  * SUCH DAMAGE.
  */
 
-/* $FreeBSD: stable/10/sys/mips/atheros/ar71xx_setup.h 253027 2013-07-08 06:10:29Z adrian $ */
+/* $FreeBSD: releng/10.1/sys/mips/atheros/ar71xx_setup.h 253027 2013-07-08 06:10:29Z adrian $ */
 
 #ifndef	__AR71XX_SETUP_H__
 #define	__AR71XX_SETUP_H__

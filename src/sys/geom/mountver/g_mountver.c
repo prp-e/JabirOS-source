@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/geom/mountver/g_mountver.c 243333 2012-11-20 12:32:18Z jh $");
+__FBSDID("$FreeBSD: releng/10.1/sys/geom/mountver/g_mountver.c 243333 2012-11-20 12:32:18Z jh $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

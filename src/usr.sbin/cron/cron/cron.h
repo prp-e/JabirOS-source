@@ -17,7 +17,7 @@
 
 /* cron.h - header for vixie's cron
  *
- * $FreeBSD: stable/10/usr.sbin/cron/cron/cron.h 242101 2012-10-25 22:54:29Z sobomax $
+ * $FreeBSD: releng/10.1/usr.sbin/cron/cron/cron.h 242101 2012-10-25 22:54:29Z sobomax $
  *
  * vix 14nov88 [rest of log is in RCS]
  * vix 14jan87 [0 or 7 can be sunday; thanks, mwm@berkeley]

@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/sn/if_sn_pccard.c 199414 2009-11-17 18:22:14Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/sn/if_sn_pccard.c 199414 2009-11-17 18:22:14Z jhb $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

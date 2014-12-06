@@ -1,4 +1,4 @@
-	# $FreeBSD: stable/10/secure/lib/libcrypto/amd64/bsaes-x86_64.S 264331 2014-04-10 22:39:22Z jkim $
+	# $FreeBSD: releng/10.1/secure/lib/libcrypto/amd64/bsaes-x86_64.S 264331 2014-04-10 22:39:22Z jkim $
 .text	
 
 

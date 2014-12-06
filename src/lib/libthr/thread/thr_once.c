@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libthr/thread/thr_once.c 220888 2011-04-20 14:19:34Z rstone $
+ * $FreeBSD: releng/10.1/lib/libthr/thread/thr_once.c 220888 2011-04-20 14:19:34Z rstone $
  *
  */
 

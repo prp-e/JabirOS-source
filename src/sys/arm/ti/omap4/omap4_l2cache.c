@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/ti/omap4/omap4_l2cache.c 266375 2014-05-17 23:07:26Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/ti/omap4/omap4_l2cache.c 266375 2014-05-17 23:07:26Z ian $");
 #include <sys/types.h>
 #include <sys/param.h>
 #include <sys/systm.h>

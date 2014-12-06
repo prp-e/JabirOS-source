@@ -15,7 +15,7 @@
 # If you are in doubt as to the purpose or necessity of a line, check first
 # in NOTES.
 #
-# $FreeBSD: stable/10/sys/arm/conf/EXYNOS5250.common 266341 2014-05-17 19:37:04Z ian $
+# $FreeBSD: releng/10.1/sys/arm/conf/EXYNOS5250.common 266341 2014-05-17 19:37:04Z ian $
 
 include		"../samsung/exynos/std.exynos5"
 

@@ -18,7 +18,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: stable/10/sys/cddl/dev/dtrace/dtrace_load.c 262054 2014-02-17 13:36:35Z avg $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/dtrace/dtrace_load.c 262054 2014-02-17 13:36:35Z avg $
  *
  */
 

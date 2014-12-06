@@ -23,7 +23,7 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/fdformat/fdformat.c 218910 2011-02-21 09:56:08Z brucec $
+ * $FreeBSD: releng/10.1/usr.sbin/fdformat/fdformat.c 218910 2011-02-21 09:56:08Z brucec $
  */
 
 #include <sys/types.h>

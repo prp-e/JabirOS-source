@@ -57,7 +57,7 @@
  * any improvements or extensions that they make and grant Carnegie the
  * rights to redistribute these changes.
  *
- * $FreeBSD: stable/10/sys/vm/vm_param.h 254168 2013-08-09 23:47:43Z zont $
+ * $FreeBSD: releng/10.1/sys/vm/vm_param.h 254168 2013-08-09 23:47:43Z zont $
  */
 
 /*

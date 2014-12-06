@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/vmm/intel/vmx_msr.h 270159 2014-08-19 01:20:24Z grehan $
+ * $FreeBSD: releng/10.1/sys/amd64/vmm/intel/vmx_msr.h 270159 2014-08-19 01:20:24Z grehan $
  */
 
 #ifndef _VMX_MSR_H_

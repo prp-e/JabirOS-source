@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/ctm/Makefile.inc 50479 1999-08-28 01:35:59Z peter $
+# $FreeBSD: releng/10.1/usr.sbin/ctm/Makefile.inc 50479 1999-08-28 01:35:59Z peter $
 
 .if exists(${.CURDIR}/../../Makefile.inc)
 .include "${.CURDIR}/../../Makefile.inc"

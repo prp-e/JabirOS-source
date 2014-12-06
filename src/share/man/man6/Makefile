@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/man/man6/Makefile 74856 2001-03-27 13:48:25Z ru $
+# $FreeBSD: releng/10.1/share/man/man6/Makefile 74856 2001-03-27 13:48:25Z ru $
 
 MAN=	intro.6
 

@@ -37,7 +37,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/nghook/main.c 121464 2003-10-24 10:01:36Z harti $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/nghook/main.c 121464 2003-10-24 10:01:36Z harti $");
 
 #include <stdio.h>
 #include <stdlib.h>

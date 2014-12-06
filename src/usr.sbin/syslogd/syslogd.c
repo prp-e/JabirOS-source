@@ -40,7 +40,7 @@ static char sccsid[] = "@(#)syslogd.c	8.3 (Berkeley) 4/4/94";
 #endif /* not lint */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/syslogd/syslogd.c 259368 2013-12-14 00:25:57Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/syslogd/syslogd.c 259368 2013-12-14 00:25:57Z ian $");
 
 /*
  *  syslogd -- log system messages

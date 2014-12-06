@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/rc.d/dumpon 208307 2010-05-19 19:03:19Z dougb $
+# $FreeBSD: releng/10.1/etc/rc.d/dumpon 208307 2010-05-19 19:03:19Z dougb $
 #
 
 # PROVIDE: dumpon

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/build/mk/Makefile.boot 142640 2005-02-27 11:22:58Z ru $
+# $FreeBSD: releng/10.1/tools/build/mk/Makefile.boot 142640 2005-02-27 11:22:58Z ru $
 
 CFLAGS+=	-I${WORLDTMP}/legacy/usr/include
 DPADD+=		${WORLDTMP}/legacy/usr/lib/libegacy.a

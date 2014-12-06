@@ -1,4 +1,4 @@
-$FreeBSD: stable/10/MAINTAINERS 270415 2014-08-23 15:07:09Z des $
+$FreeBSD: releng/10.1/MAINTAINERS 270415 2014-08-23 15:07:09Z des $
 
 Please note that the content of this file is strictly advisory.
 No locks listed here are valid.  The only strict review requirements

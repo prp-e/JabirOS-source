@@ -25,7 +25,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/hyperv/netvsc/hv_net_vsc.c 266794 2014-05-28 09:06:36Z marius $
+ * $FreeBSD: releng/10.1/sys/dev/hyperv/netvsc/hv_net_vsc.c 266794 2014-05-28 09:06:36Z marius $
  */
 
 /**

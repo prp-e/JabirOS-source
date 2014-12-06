@@ -40,7 +40,7 @@ static char sccsid[] = "@(#)vmstat.c	8.1 (Berkeley) 6/6/93";
 #endif
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/vmstat/vmstat.c 246034 2013-01-28 12:58:37Z zont $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/vmstat/vmstat.c 273188 2014-10-16 22:00:24Z hrs $");
 
 #include <sys/param.h>
 #include <sys/proc.h>
@@ -650,6 +650,8 @@ dovmstat(unsigned int interval, int reps)
 	uptime = getuptime();
 	halfuptime = uptime / 2;
 	rate_adj = 1;
+	ncpus = 1;
+	maxid = 0;
 
 	/*
 	 * If the user stops the program (control-Z) and then resumes it,
@@ -695,7 +697,7 @@ dovmstat(unsigned int interval, int reps)
 	}
 	for (hdrcnt = 1;;) {
 		if (!--hdrcnt)
-			printhdr(ncpus, cpumask);
+			printhdr(maxid, cpumask);
 		if (kd != NULL) {
 			if (kvm_getcptime(kd, cur.cp_time) < 0)
 				errx(1, "kvm_getcptime: %s", kvm_geterr(kd));
@@ -746,7 +748,7 @@ dovmstat(unsigned int interval, int reps)
 				errx(1, "%s", devstat_errbuf);
 				break;
 			case 1:
-				printhdr(ncpus, cpumask);
+				printhdr(maxid, cpumask);
 				break;
 			default:
 				break;
@@ -815,7 +817,7 @@ dovmstat(unsigned int interval, int reps)
 }
 
 static void
-printhdr(int ncpus, u_long cpumask)
+printhdr(int maxid, u_long cpumask)
 {
 	int i, num_shown;
 
@@ -827,7 +829,7 @@ printhdr(int ncpus, u_long cpumask)
 		(void)printf("disk");
 	(void)printf("   faults         ");
 	if (Pflag) {
-		for (i = 0; i < ncpus; i++) {
+		for (i = 0; i <= maxid; i++) {
 			if (cpumask & (1ul << i))
 				printf("cpu%-2d    ", i);
 		}
@@ -843,8 +845,10 @@ printhdr(int ncpus, u_long cpumask)
 				     dev_select[i].unit_number);
 	(void)printf("  in   sy   cs");
 	if (Pflag) {
-		for (i = 0; i < ncpus; i++)
-			printf(" us sy id");
+		for (i = 0; i <= maxid; i++) {
+			if (cpumask & (1ul << i))
+				printf(" us sy id");
+		}
 		printf("\n");
 	} else
 		printf(" us sy id\n");

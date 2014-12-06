@@ -1,7 +1,7 @@
 #
 # Custom kernel for the Nintendo Wii.
 #
-# $FreeBSD: stable/10/sys/powerpc/conf/WII 253845 2013-07-31 17:21:18Z obrien $
+# $FreeBSD: releng/10.1/sys/powerpc/conf/WII 253845 2013-07-31 17:21:18Z obrien $
 
 cpu		AIM
 ident		WII

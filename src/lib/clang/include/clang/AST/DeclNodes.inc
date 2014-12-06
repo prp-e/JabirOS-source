@@ -1,2 +1,2 @@
-/* $FreeBSD: stable/10/lib/clang/include/clang/AST/DeclNodes.inc 210299 2010-07-20 17:16:57Z ed $ */
+/* $FreeBSD: releng/10.1/lib/clang/include/clang/AST/DeclNodes.inc 210299 2010-07-20 17:16:57Z ed $ */
 #include "DeclNodes.inc.h"

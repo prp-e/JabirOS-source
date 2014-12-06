@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/autofs/common.h 270096 2014-08-17 09:44:42Z trasz $
+ * $FreeBSD: releng/10.1/usr.sbin/autofs/common.h 270096 2014-08-17 09:44:42Z trasz $
  */
 
 #ifndef AUTOMOUNTD_H

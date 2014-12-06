@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/freescale/imx/imx_nop_usbphy.c 266371 2014-05-17 22:29:24Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/freescale/imx/imx_nop_usbphy.c 266371 2014-05-17 22:29:24Z ian $");
 
 /*
  * USBPHY "no-op" driver for Freescale family of SoCs.  This driver is used on

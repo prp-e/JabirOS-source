@@ -41,7 +41,7 @@
 #include "opt_global.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/broadcom/bcm2835/bcm2835_machdep.c 266084 2014-05-14 19:18:58Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/broadcom/bcm2835/bcm2835_machdep.c 266084 2014-05-14 19:18:58Z ian $");
 
 #define _ARM32_BUS_DMA_PRIVATE
 #include <sys/param.h>

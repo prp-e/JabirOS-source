@@ -30,7 +30,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/net/if_iso88025subr.c 254831 2013-08-25 09:41:37Z andre $
+ * $FreeBSD: releng/10.1/sys/net/if_iso88025subr.c 254831 2013-08-25 09:41:37Z andre $
  *
  */
 

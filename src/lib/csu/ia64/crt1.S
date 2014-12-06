@@ -25,7 +25,7 @@
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: stable/10/lib/csu/ia64/crt1.S 216338 2010-12-09 21:31:21Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/lib/csu/ia64/crt1.S 216338 2010-12-09 21:31:21Z dim $");
 
 		.text
 

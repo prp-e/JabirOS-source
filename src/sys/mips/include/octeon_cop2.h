@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/include/octeon_cop2.h 229677 2012-01-06 01:23:26Z gonzo $
+ * $FreeBSD: releng/10.1/sys/mips/include/octeon_cop2.h 229677 2012-01-06 01:23:26Z gonzo $
  *
  */
 

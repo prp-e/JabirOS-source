@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/ata/ata-all.h 249213 2013-04-06 19:12:49Z marius $
+ * $FreeBSD: releng/10.1/sys/dev/ata/ata-all.h 249213 2013-04-06 19:12:49Z marius $
  */
 
 #if 0

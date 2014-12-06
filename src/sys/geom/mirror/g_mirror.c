@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/geom/mirror/g_mirror.c 264713 2014-04-21 02:49:41Z bdrewery $");
+__FBSDID("$FreeBSD: releng/10.1/sys/geom/mirror/g_mirror.c 264713 2014-04-21 02:49:41Z bdrewery $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/pkg/pkg.c 269937 2014-08-13 12:44:44Z gavin $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/pkg/pkg.c 269937 2014-08-13 12:44:44Z gavin $");
 
 #include <sys/param.h>
 #include <sys/queue.h>

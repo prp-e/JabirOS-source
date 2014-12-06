@@ -31,7 +31,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)dd.h	8.3 (Berkeley) 4/2/94
- * $FreeBSD: stable/10/bin/dd/dd.h 264577 2014-04-17 00:31:20Z delphij $
+ * $FreeBSD: releng/10.1/bin/dd/dd.h 264577 2014-04-17 00:31:20Z delphij $
  */
 
 /* Input/output stream state. */

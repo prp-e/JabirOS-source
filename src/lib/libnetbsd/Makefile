@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libnetbsd/Makefile 244557 2012-12-21 20:37:38Z brooks $
+# $FreeBSD: releng/10.1/lib/libnetbsd/Makefile 244557 2012-12-21 20:37:38Z brooks $
 
 .include <bsd.own.mk>
 

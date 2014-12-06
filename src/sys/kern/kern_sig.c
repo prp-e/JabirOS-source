@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_sig.c 270788 2014-08-29 08:38:34Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_sig.c 270788 2014-08-29 08:38:34Z kib $");
 
 #include "opt_compat.h"
 #include "opt_kdtrace.h"

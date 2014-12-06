@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/gdb/gdb_main.c 234196 2012-04-12 21:34:58Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/gdb/gdb_main.c 234196 2012-04-12 21:34:58Z jhb $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

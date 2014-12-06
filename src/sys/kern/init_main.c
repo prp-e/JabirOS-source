@@ -42,7 +42,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/init_main.c 255708 2013-09-19 18:53:42Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/init_main.c 255708 2013-09-19 18:53:42Z jhb $");
 
 #include "opt_ddb.h"
 #include "opt_init_path.h"

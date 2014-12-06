@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/usbhid.h 246122 2013-01-30 15:26:04Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/usbhid.h 246122 2013-01-30 15:26:04Z hselasky $ */
 /*-
  * Copyright (c) 2008 Hans Petter Selasky. All rights reserved.
  * Copyright (c) 1998 The NetBSD Foundation, Inc. All rights reserved.

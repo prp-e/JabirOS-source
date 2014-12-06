@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/netipsec/xform_ipcomp.c 253088 2013-07-09 10:08:13Z ae $	*/
+/*	$FreeBSD: releng/10.1/sys/netipsec/xform_ipcomp.c 253088 2013-07-09 10:08:13Z ae $	*/
 /* $OpenBSD: ip_ipcomp.c,v 1.1 2001/07/05 12:08:52 jjbg Exp $ */
 
 /*-

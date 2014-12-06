@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/netstat/flowtable.c 262743 2014-03-04 15:14:47Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/netstat/flowtable.c 262743 2014-03-04 15:14:47Z glebius $");
 #include <sys/param.h>
 #include <sys/sysctl.h>
 #include <net/flowtable.h>

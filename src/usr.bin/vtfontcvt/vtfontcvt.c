@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/vtfontcvt/vtfontcvt.c 269041 2014-07-24 01:35:41Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/vtfontcvt/vtfontcvt.c 269041 2014-07-24 01:35:41Z emaste $");
 
 #include <sys/types.h>
 #include <sys/fnv_hash.h>

@@ -28,7 +28,7 @@
  * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
- * $FreeBSD: stable/10/tools/regression/p1003_1b/yield.c 95258 2002-04-22 13:44:47Z des $
+ * $FreeBSD: releng/10.1/tools/regression/p1003_1b/yield.c 95258 2002-04-22 13:44:47Z des $
  *
  */
 #include <sys/types.h>

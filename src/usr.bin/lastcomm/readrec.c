@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/lastcomm/readrec.c 223375 2011-06-21 20:36:10Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/lastcomm/readrec.c 223375 2011-06-21 20:36:10Z delphij $");
 
 #include <sys/param.h>
 #include <sys/stat.h>

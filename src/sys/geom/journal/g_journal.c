@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/geom/journal/g_journal.c 253141 2013-07-10 10:11:43Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/geom/journal/g_journal.c 253141 2013-07-10 10:11:43Z kib $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

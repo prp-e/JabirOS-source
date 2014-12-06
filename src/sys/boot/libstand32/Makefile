@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/libstand32/Makefile 271131 2014-09-04 20:44:41Z emaste $
+# $FreeBSD: releng/10.1/sys/boot/libstand32/Makefile 271131 2014-09-04 20:44:41Z emaste $
 # Originally from	$NetBSD: Makefile,v 1.21 1997/10/26 22:08:38 lukem Exp $
 #
 # Notes:

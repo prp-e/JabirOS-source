@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/joy/joy.c 191054 2009-04-14 11:23:09Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/joy/joy.c 191054 2009-04-14 11:23:09Z ed $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

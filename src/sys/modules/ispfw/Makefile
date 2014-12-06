@@ -24,7 +24,7 @@
 # SUCH DAMAGE.
 #
 
-# $FreeBSD: stable/10/sys/modules/ispfw/Makefile 196007 2009-08-01 00:57:34Z mjacob $ 
+# $FreeBSD: releng/10.1/sys/modules/ispfw/Makefile 196007 2009-08-01 00:57:34Z mjacob $ 
 
 
 SUBDIR = ispfw

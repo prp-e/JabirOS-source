@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/hastd/hastd.h 218044 2011-01-28 21:56:47Z pjd $
+ * $FreeBSD: releng/10.1/sbin/hastd/hastd.h 218044 2011-01-28 21:56:47Z pjd $
  */
 
 #ifndef	_HASTD_H_

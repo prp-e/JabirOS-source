@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/usr.bin/sort/coll.h 265160 2014-04-30 20:39:08Z pfg $	*/
+/*	$FreeBSD: releng/10.1/usr.bin/sort/coll.h 265160 2014-04-30 20:39:08Z pfg $	*/
 
 /*-
  * Copyright (C) 2009 Gabor Kovesdan <gabor@FreeBSD.org>

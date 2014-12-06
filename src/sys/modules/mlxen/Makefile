@@ -1,12 +1,12 @@
-# $FreeBSD: stable/10/sys/modules/mlxen/Makefile 271127 2014-09-04 20:12:36Z hselasky $
+# $FreeBSD: releng/10.1/sys/modules/mlxen/Makefile 272407 2014-10-02 10:46:12Z hselasky $
 .PATH:  ${.CURDIR}/../../ofed/drivers/net/mlx4
 
 .include <bsd.own.mk>
 
 KMOD    = mlxen
 SRCS    = device_if.h bus_if.h pci_if.h vnode_if.h
-SRCS	+= en_cq.c en_frag.c en_main.c en_netdev.c en_port.c en_resources.c
-SRCS	+= en_rx.c en_tx.c
+SRCS	+= en_cq.c en_main.c en_netdev.c en_port.c en_resources.c
+SRCS	+= en_rx.c en_tx.c utils.c
 SRCS	+= opt_inet.h opt_inet6.h
 CFLAGS+= -I${.CURDIR}/../../ofed/drivers/net/mlx4
 CFLAGS+= -I${.CURDIR}/../../ofed/include/

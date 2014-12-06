@@ -52,7 +52,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/fsck_ffs/gjournal.c 241012 2012-09-27 23:30:58Z mdf $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/fsck_ffs/gjournal.c 241012 2012-09-27 23:30:58Z mdf $");
 
 #include <sys/param.h>
 #include <sys/disklabel.h>

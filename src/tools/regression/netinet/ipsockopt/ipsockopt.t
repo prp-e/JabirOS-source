@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/netinet/ipsockopt/ipsockopt.t 137587 2004-11-11 19:47:55Z nik $
+# $FreeBSD: releng/10.1/tools/regression/netinet/ipsockopt/ipsockopt.t 137587 2004-11-11 19:47:55Z nik $
 
 cd `dirname $0`
 

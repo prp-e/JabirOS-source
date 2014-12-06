@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/mk/tap.test.mk 271298 2014-09-09 04:00:30Z ngie $
+# $FreeBSD: releng/10.1/share/mk/tap.test.mk 271298 2014-09-09 04:00:30Z ngie $
 #
 # You must include bsd.test.mk instead of this file from your Makefile.
 #

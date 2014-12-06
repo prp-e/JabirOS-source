@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/puc/puc_cfg.h 251862 2013-06-17 20:11:04Z pluknet $
+ * $FreeBSD: releng/10.1/sys/dev/puc/puc_cfg.h 251862 2013-06-17 20:11:04Z pluknet $
  */
 
 #ifndef _DEV_PUC_CFG_H_

@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/bin/csh/config.h 231990 2012-02-22 03:36:15Z mp $ */
+/* $FreeBSD: releng/10.1/bin/csh/config.h 231990 2012-02-22 03:36:15Z mp $ */
 /* config.h.  Generated from config.h.in by configure.  */
 /* config.h.in.  Generated from configure.in by autoheader.  */
 

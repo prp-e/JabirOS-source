@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/hptmv/osbsd.h 255871 2013-09-25 17:16:21Z scottl $
+ * $FreeBSD: releng/10.1/sys/dev/hptmv/osbsd.h 255871 2013-09-25 17:16:21Z scottl $
  */
 #ifndef _OSBSD_H_
 #define _OSBSD_H_

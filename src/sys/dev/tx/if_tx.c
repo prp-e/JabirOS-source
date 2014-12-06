@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/tx/if_tx.c 266921 2014-05-31 11:08:22Z brueffer $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/tx/if_tx.c 266921 2014-05-31 11:08:22Z brueffer $");
 
 /*
  * EtherPower II 10/100 Fast Ethernet (SMC 9432 serie)

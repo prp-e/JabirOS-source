@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libalias/modules/dummy/Makefile 163128 2006-10-08 14:02:00Z piso $
+# $FreeBSD: releng/10.1/lib/libalias/modules/dummy/Makefile 163128 2006-10-08 14:02:00Z piso $
 
 NAME=	dummy
 SRCS=	alias_dummy.c

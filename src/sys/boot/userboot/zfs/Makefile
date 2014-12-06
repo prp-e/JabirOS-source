@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/userboot/zfs/Makefile 262331 2014-02-22 07:18:06Z grehan $
+# $FreeBSD: releng/10.1/sys/boot/userboot/zfs/Makefile 262331 2014-02-22 07:18:06Z grehan $
 
 S=		${.CURDIR}/../../zfs
 

@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm_gem_names.c 271816 2014-09-18 20:32:40Z dumbbell $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/drm_gem_names.c 271816 2014-09-18 20:32:40Z dumbbell $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

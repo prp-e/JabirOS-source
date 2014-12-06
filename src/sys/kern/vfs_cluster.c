@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/vfs_cluster.c 254945 2013-08-27 01:31:12Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/vfs_cluster.c 254945 2013-08-27 01:31:12Z kib $");
 
 #include "opt_debug_cluster.h"
 

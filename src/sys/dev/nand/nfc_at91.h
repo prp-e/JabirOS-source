@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/nand/nfc_at91.h 266087 2014-05-14 20:31:54Z ian $
+ * $FreeBSD: releng/10.1/sys/dev/nand/nfc_at91.h 266087 2014-05-14 20:31:54Z ian $
  */
 
 /*

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/uboot/Makefile 177152 2008-03-13 17:54:21Z obrien $
+# $FreeBSD: releng/10.1/sys/boot/uboot/Makefile 177152 2008-03-13 17:54:21Z obrien $
 
 SUBDIR=	lib
 

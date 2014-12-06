@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/sysent.h 237476 2012-06-23 10:14:51Z kib $
+ * $FreeBSD: releng/10.1/sys/sys/sysent.h 237476 2012-06-23 10:14:51Z kib $
  */
 
 #ifndef _SYS_SYSENT_H_

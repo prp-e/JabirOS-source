@@ -22,7 +22,7 @@
  * This file was copied from tcpdump-2.1.1 and modified.
  * There is an e-mail list for tcpdump: <tcpdump@ee.lbl.gov>
  *
- * $FreeBSD: stable/10/libexec/bootpd/tools/bootptest/print-bootp.c 263830 2014-03-27 20:13:53Z brueffer $
+ * $FreeBSD: releng/10.1/libexec/bootpd/tools/bootptest/print-bootp.c 263830 2014-03-27 20:13:53Z brueffer $
  */
 
 #include <stdio.h>

@@ -31,7 +31,7 @@
  *
  *	@(#)fdesc.h	8.5 (Berkeley) 1/21/94
  *
- * $FreeBSD: stable/10/sys/fs/fdescfs/fdesc.h 191990 2009-05-11 15:33:26Z attilio $
+ * $FreeBSD: releng/10.1/sys/fs/fdescfs/fdesc.h 191990 2009-05-11 15:33:26Z attilio $
  */
 
 #ifdef _KERNEL

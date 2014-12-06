@@ -26,7 +26,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/usr.bin/unifdef/unifdefall.sh 248849 2013-03-28 20:33:07Z fanf $
+# $FreeBSD: releng/10.1/usr.bin/unifdef/unifdefall.sh 248849 2013-03-28 20:33:07Z fanf $
 
 set -e
 

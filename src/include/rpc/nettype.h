@@ -1,5 +1,5 @@
 /*	$NetBSD: nettype.h,v 1.2 2000/07/06 03:17:19 christos Exp $	*/
-/*	$FreeBSD: stable/10/include/rpc/nettype.h 261046 2014-01-22 23:45:27Z mav $ */
+/*	$FreeBSD: releng/10.1/include/rpc/nettype.h 261046 2014-01-22 23:45:27Z mav $ */
 
 /*-
  * Copyright (c) 2009, Sun Microsystems, Inc.

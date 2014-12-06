@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/ia64/conf/NOTES 239376 2012-08-18 22:59:06Z marcel $
+# $FreeBSD: releng/10.1/sys/ia64/conf/NOTES 239376 2012-08-18 22:59:06Z marcel $
 #
 # This file contains machine dependent kernel configuration notes.  For
 # machine independent notes, look in /sys/conf/NOTES.

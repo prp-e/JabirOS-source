@@ -24,7 +24,7 @@
 
 
 /*
- * $FreeBSD: stable/10/sys/arm/ti/ti_smc.h 239281 2012-08-15 06:31:32Z gonzo $
+ * $FreeBSD: releng/10.1/sys/arm/ti/ti_smc.h 239281 2012-08-15 06:31:32Z gonzo $
  */
 
 #ifndef TI_SMC_H_

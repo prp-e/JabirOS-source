@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/boot/amd64/efi/framebuffer.h 264095 2014-04-04 00:16:46Z emaste $
+ * $FreeBSD: releng/10.1/sys/boot/amd64/efi/framebuffer.h 264095 2014-04-04 00:16:46Z emaste $
  */
 
 #ifndef	_EFIFB_H_

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/libexec/atrun/Makefile 201380 2010-01-02 09:50:19Z ed $
+# $FreeBSD: releng/10.1/libexec/atrun/Makefile 201380 2010-01-02 09:50:19Z ed $
 
 MAINSRC=${.CURDIR}/../../usr.bin/at
 

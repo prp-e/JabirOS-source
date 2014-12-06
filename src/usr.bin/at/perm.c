@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/at/perm.c 87628 2001-12-10 21:13:08Z dwmalone $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/at/perm.c 87628 2001-12-10 21:13:08Z dwmalone $");
 
 /* System Headers */
 

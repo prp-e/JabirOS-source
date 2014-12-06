@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libutil/humanize_number.c 256130 2013-10-07 22:22:57Z jmg $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libutil/humanize_number.c 256130 2013-10-07 22:22:57Z jmg $");
 
 #include <sys/types.h>
 #include <assert.h>

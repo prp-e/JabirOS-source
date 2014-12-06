@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/nandfs/nandfs.h 235537 2012-05-17 10:11:18Z gber $
+ * $FreeBSD: releng/10.1/sbin/nandfs/nandfs.h 235537 2012-05-17 10:11:18Z gber $
  */
 
 #ifndef NANDFS_H

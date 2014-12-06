@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/secure/lib/Makefile.inc 114283 2003-04-30 07:54:39Z ru $
+# $FreeBSD: releng/10.1/secure/lib/Makefile.inc 114283 2003-04-30 07:54:39Z ru $
 
 .include "../Makefile.inc"
 .if exists(${.CURDIR}/../../../lib/Makefile.inc)

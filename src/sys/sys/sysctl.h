@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)sysctl.h	8.1 (Berkeley) 6/2/93
- * $FreeBSD: stable/10/sys/sys/sysctl.h 269446 2014-08-02 20:58:46Z hselasky $
+ * $FreeBSD: releng/10.1/sys/sys/sysctl.h 269446 2014-08-02 20:58:46Z hselasky $
  */
 
 #ifndef _SYS_SYSCTL_H_

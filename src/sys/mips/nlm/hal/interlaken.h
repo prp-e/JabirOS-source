@@ -25,7 +25,7 @@
  * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
  * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/nlm/hal/interlaken.h 233545 2012-03-27 14:05:12Z jchandra $
+ * $FreeBSD: releng/10.1/sys/mips/nlm/hal/interlaken.h 233545 2012-03-27 14:05:12Z jchandra $
  */
 #ifndef __NLM_ILAKEN_H__
 #define	__NLM_ILAKEN_H__

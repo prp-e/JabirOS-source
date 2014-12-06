@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/clang/clang.build.mk 270908 2014-09-01 02:53:32Z ngie $
+# $FreeBSD: releng/10.1/lib/clang/clang.build.mk 270908 2014-09-01 02:53:32Z ngie $
 
 CLANG_SRCS=	${LLVM_SRCS}/tools/clang
 

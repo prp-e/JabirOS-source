@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libiconv_modules/GBK2K/citrus_gbk2k.c 260264 2014-01-04 17:27:43Z dim $ */
+/* $FreeBSD: releng/10.1/lib/libiconv_modules/GBK2K/citrus_gbk2k.c 260264 2014-01-04 17:27:43Z dim $ */
 /* $NetBSD: citrus_gbk2k.c,v 1.7 2008/06/14 16:01:07 tnozaki Exp $ */
 
 /*-

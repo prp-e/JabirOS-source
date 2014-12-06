@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/dhclient/tests/Makefile 270385 2014-08-23 02:20:49Z ngie $
+# $FreeBSD: releng/10.1/sbin/dhclient/tests/Makefile 270385 2014-08-23 02:20:49Z ngie $
 
 TESTSDIR=	${TESTSBASE}/sbin/dhclient
 

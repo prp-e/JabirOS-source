@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/age/Makefile 179101 2008-05-19 01:53:47Z yongari $
+# $FreeBSD: releng/10.1/sys/modules/age/Makefile 179101 2008-05-19 01:53:47Z yongari $
 
 .PATH: ${.CURDIR}/../../dev/age
 

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/fs/nandfs/nandfs_segment.c 251171 2013-05-31 00:43:41Z jeff $");
+__FBSDID("$FreeBSD: releng/10.1/sys/fs/nandfs/nandfs_segment.c 251171 2013-05-31 00:43:41Z jeff $");
 
 #include "opt_ddb.h"
 

@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/subr_param.c 258127 2013-11-14 09:33:54Z pluknet $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/subr_param.c 258127 2013-11-14 09:33:54Z pluknet $");
 
 #include "opt_param.h"
 #include "opt_msgbuf.h"

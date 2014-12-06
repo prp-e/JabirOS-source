@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/cam/cam_xpt.c 265635 2014-05-08 07:01:54Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/cam/cam_xpt.c 265635 2014-05-08 07:01:54Z mav $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

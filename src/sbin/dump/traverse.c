@@ -32,7 +32,7 @@
 static char sccsid[] = "@(#)traverse.c	8.7 (Berkeley) 6/15/95";
 #endif
 static const char rcsid[] =
-  "$FreeBSD: stable/10/sbin/dump/traverse.c 241013 2012-09-27 23:31:06Z mdf $";
+  "$FreeBSD: releng/10.1/sbin/dump/traverse.c 273188 2014-10-16 22:00:24Z hrs $";
 #endif /* not lint */
 
 #include <sys/param.h>
@@ -673,7 +673,12 @@ ufs2_blksout(union dinode *dp, ufs2_daddr_t *blkp, int frags, ino_t ino,
 	 */
 	blks = howmany(frags * sblock->fs_fsize, TP_BSIZE);
 	if (last) {
-		resid = howmany(fragoff(sblock, dp->dp2.di_size), TP_BSIZE);
+		if (writingextdata)
+			resid = howmany(fragoff(sblock, spcl.c_extsize),
+			    TP_BSIZE);
+		else
+			resid = howmany(fragoff(sblock, dp->dp2.di_size),
+			    TP_BSIZE);
 		if (resid > 0)
 			blks -= howmany(sblock->fs_fsize, TP_BSIZE) - resid;
 	}

@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/sched_ule.c 271707 2014-09-17 14:06:21Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/sched_ule.c 271707 2014-09-17 14:06:21Z mav $");
 
 #include "opt_hwpmc_hooks.h"
 #include "opt_kdtrace.h"

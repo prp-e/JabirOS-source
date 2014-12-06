@@ -58,7 +58,7 @@
  *
  *	@(#)spx_var.h
  *
- * $FreeBSD: stable/10/sys/netipx/spx_var.h 194547 2009-06-20 18:24:25Z rwatson $
+ * $FreeBSD: releng/10.1/sys/netipx/spx_var.h 194547 2009-06-20 18:24:25Z rwatson $
  */
 
 #ifndef _NETIPX_SPX_VAR_H_

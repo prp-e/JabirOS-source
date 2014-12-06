@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  * 
- * $FreeBSD: stable/10/sys/boot/fdt/dts/arm/zedboard.dts 266382 2014-05-18 00:15:48Z ian $
+ * $FreeBSD: releng/10.1/sys/boot/fdt/dts/arm/zedboard.dts 266382 2014-05-18 00:15:48Z ian $
  */
 
 /dts-v1/;

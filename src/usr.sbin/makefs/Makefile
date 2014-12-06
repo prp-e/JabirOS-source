@@ -1,4 +1,4 @@
-#	$FreeBSD: stable/10/usr.sbin/makefs/Makefile 250407 2013-05-09 14:43:36Z brooks $
+#	$FreeBSD: releng/10.1/usr.sbin/makefs/Makefile 250407 2013-05-09 14:43:36Z brooks $
 
 PROG=	makefs
 

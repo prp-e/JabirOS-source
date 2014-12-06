@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/ftp-proxy/Makefile 171173 2007-07-03 12:46:08Z mlaier $
+# $FreeBSD: releng/10.1/usr.sbin/ftp-proxy/Makefile 171173 2007-07-03 12:46:08Z mlaier $
 
 SUBDIR= libevent ftp-proxy
 

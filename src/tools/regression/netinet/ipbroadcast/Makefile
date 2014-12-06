@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/tools/regression/netinet/ipbroadcast/Makefile 167140 2007-03-01 13:26:13Z bms $
+# $FreeBSD: releng/10.1/tools/regression/netinet/ipbroadcast/Makefile 167140 2007-03-01 13:26:13Z bms $
 #
 
 PROG=	ipbroadcast

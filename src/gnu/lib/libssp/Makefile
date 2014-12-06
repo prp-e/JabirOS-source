@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/lib/libssp/Makefile 188995 2009-02-24 16:14:15Z ru $
+# $FreeBSD: releng/10.1/gnu/lib/libssp/Makefile 188995 2009-02-24 16:14:15Z ru $
 
 SHLIBDIR?=	/lib
 

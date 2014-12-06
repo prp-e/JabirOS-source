@@ -39,7 +39,7 @@
  *
  * $Id: //depot/aic7xxx/aic7xxx/aic7xxx_inline.h#47 $
  *
- * $FreeBSD: stable/10/sys/dev/aic7xxx/aic7xxx_inline.h 168873 2007-04-19 18:53:52Z scottl $
+ * $FreeBSD: releng/10.1/sys/dev/aic7xxx/aic7xxx_inline.h 168873 2007-04-19 18:53:52Z scottl $
  */
 
 #ifndef _AIC7XXX_INLINE_H_

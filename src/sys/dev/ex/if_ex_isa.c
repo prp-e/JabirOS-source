@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ex/if_ex_isa.c 182088 2008-08-24 00:22:42Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ex/if_ex_isa.c 182088 2008-08-24 00:22:42Z imp $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

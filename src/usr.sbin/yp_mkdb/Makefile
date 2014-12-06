@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/yp_mkdb/Makefile 201390 2010-01-02 11:07:44Z ed $
+# $FreeBSD: releng/10.1/usr.sbin/yp_mkdb/Makefile 201390 2010-01-02 11:07:44Z ed $
 
 .PATH: ${.CURDIR}/../../libexec/ypxfr ${.CURDIR}/../ypserv
 

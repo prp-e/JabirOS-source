@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/freescale/imx/imx51_gpio.c 269104 2014-07-25 23:36:39Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/freescale/imx/imx51_gpio.c 269104 2014-07-25 23:36:39Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

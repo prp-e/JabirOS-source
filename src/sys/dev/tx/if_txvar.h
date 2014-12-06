@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/tx/if_txvar.h 179706 2008-06-10 17:59:43Z jhb $
+ * $FreeBSD: releng/10.1/sys/dev/tx/if_txvar.h 179706 2008-06-10 17:59:43Z jhb $
  */
 
 /*

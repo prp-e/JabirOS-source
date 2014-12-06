@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libpam/modules/pam_ssh/pam_ssh.c 236106 2012-05-26 17:03:45Z des $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libpam/modules/pam_ssh/pam_ssh.c 236106 2012-05-26 17:03:45Z des $");
 
 #include <sys/param.h>
 #include <sys/wait.h>

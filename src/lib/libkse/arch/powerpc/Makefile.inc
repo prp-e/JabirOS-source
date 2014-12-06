@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libkse/arch/powerpc/Makefile.inc 209118 2010-06-13 01:27:29Z imp $
+# $FreeBSD: releng/10.1/lib/libkse/arch/powerpc/Makefile.inc 209118 2010-06-13 01:27:29Z imp $
 
 # XXX temporary
 CFLAGS+=-DSYSTEM_SCOPE_ONLY

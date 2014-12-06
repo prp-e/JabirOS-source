@@ -38,7 +38,7 @@
  *
  *	from: @(#)vm_machdep.c	7.3 (Berkeley) 5/13/91
  *	Utah $Hdr: vm_machdep.c 1.16.1.1 89/06/23$
- * $FreeBSD: stable/10/sys/powerpc/powerpc/vm_machdep.c 265952 2014-05-13 16:50:10Z ian $
+ * $FreeBSD: releng/10.1/sys/powerpc/powerpc/vm_machdep.c 265952 2014-05-13 16:50:10Z ian $
  */
 /*-
  * Copyright (c) 1994, 1995, 1996 Carnegie-Mellon University.

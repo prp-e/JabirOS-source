@@ -38,7 +38,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_cons.c 270988 2014-09-02 22:01:14Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_cons.c 270988 2014-09-02 22:01:14Z emaste $");
 
 #include "opt_ddb.h"
 #include "opt_syscons.h"

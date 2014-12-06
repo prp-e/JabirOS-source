@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libthr/thread/thr_stack.c 270040 2014-08-16 08:38:53Z kib $
+ * $FreeBSD: releng/10.1/lib/libthr/thread/thr_stack.c 270040 2014-08-16 08:38:53Z kib $
  */
 
 #include <sys/types.h>

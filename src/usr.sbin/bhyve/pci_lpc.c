@@ -24,11 +24,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bhyve/pci_lpc.c 270070 2014-08-17 00:52:07Z grehan $
+ * $FreeBSD: releng/10.1/usr.sbin/bhyve/pci_lpc.c 270070 2014-08-17 00:52:07Z grehan $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/bhyve/pci_lpc.c 270070 2014-08-17 00:52:07Z grehan $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/bhyve/pci_lpc.c 270070 2014-08-17 00:52:07Z grehan $");
 
 #include <sys/types.h>
 #include <machine/vmm.h>

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/string/strspn.c 144545 2005-04-02 18:52:44Z das $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/string/strspn.c 144545 2005-04-02 18:52:44Z das $");
 
 #include <sys/types.h>
 #include <limits.h>

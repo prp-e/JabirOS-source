@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/ichwd/ichwd.h 253475 2013-07-19 21:37:40Z jfv $
+ * $FreeBSD: releng/10.1/sys/dev/ichwd/ichwd.h 253475 2013-07-19 21:37:40Z jfv $
  */
 
 #ifndef _ICHWD_H_

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/ncurses/Makefile 262643 2014-03-01 03:09:16Z brooks $
+# $FreeBSD: releng/10.1/lib/ncurses/Makefile 262643 2014-03-01 03:09:16Z brooks $
 
 .include <bsd.own.mk>
 

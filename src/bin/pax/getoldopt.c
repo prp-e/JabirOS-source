@@ -11,7 +11,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/bin/pax/getoldopt.c 205942 2010-03-30 23:14:35Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/bin/pax/getoldopt.c 205942 2010-03-30 23:14:35Z delphij $");
 
 #include <sys/types.h>
 #include <sys/stat.h>

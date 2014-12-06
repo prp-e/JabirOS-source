@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/geom/raid3/g_raid3_ctl.c 245456 2013-01-15 10:06:35Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/geom/raid3/g_raid3_ctl.c 245456 2013-01-15 10:06:35Z mav $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/syscons/fire/fire_saver.c 174985 2007-12-29 23:26:59Z wkoszek $
+ * $FreeBSD: releng/10.1/sys/dev/syscons/fire/fire_saver.c 174985 2007-12-29 23:26:59Z wkoszek $
  */
 
 /*

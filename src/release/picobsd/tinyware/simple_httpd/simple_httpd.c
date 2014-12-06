@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/release/picobsd/tinyware/simple_httpd/simple_httpd.c 189936 2009-03-17 19:51:04Z dwmalone $
+ * $FreeBSD: releng/10.1/release/picobsd/tinyware/simple_httpd/simple_httpd.c 189936 2009-03-17 19:51:04Z dwmalone $
  */
 
 #include <sys/stat.h>

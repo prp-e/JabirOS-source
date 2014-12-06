@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/secure/lib/libcrypto/engines/Makefile.inc 238405 2012-07-12 19:30:53Z jkim $
+# $FreeBSD: releng/10.1/secure/lib/libcrypto/engines/Makefile.inc 238405 2012-07-12 19:30:53Z jkim $
 
 LCRYPTO_SRC=	${.CURDIR}/../../../../../crypto/openssl
 .PATH: ${LCRYPTO_SRC}/engines ${LCRYPTO_SRC}/engines/ccgost

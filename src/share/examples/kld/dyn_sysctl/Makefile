@@ -1,4 +1,4 @@
-#	$FreeBSD: stable/10/share/examples/kld/dyn_sysctl/Makefile 76814 2001-05-18 13:56:29Z ru $
+#	$FreeBSD: releng/10.1/share/examples/kld/dyn_sysctl/Makefile 76814 2001-05-18 13:56:29Z ru $
 
 SRCS	= dyn_sysctl.c
 KMOD	= dyn_sysctl

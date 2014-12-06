@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/msun/src/e_remainderl.c 177765 2008-03-30 20:47:42Z das $");
+__FBSDID("$FreeBSD: releng/10.1/lib/msun/src/e_remainderl.c 177765 2008-03-30 20:47:42Z das $");
 
 #include <math.h>
 

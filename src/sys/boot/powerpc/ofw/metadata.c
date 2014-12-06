@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/powerpc/ofw/metadata.c 271132 2014-09-04 20:47:14Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/powerpc/ofw/metadata.c 271132 2014-09-04 20:47:14Z emaste $");
 
 #include <stand.h>
 #include <sys/param.h>

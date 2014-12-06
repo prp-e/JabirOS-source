@@ -5,7 +5,7 @@
  * this stuff is worth it, you can buy me a beer in return.        Joerg Wunsch
  * ----------------------------------------------------------------------------
  *
- * $FreeBSD: stable/10/share/examples/libusb20/control.c 269879 2014-08-12 14:53:02Z emaste $
+ * $FreeBSD: releng/10.1/share/examples/libusb20/control.c 269879 2014-08-12 14:53:02Z emaste $
  */
 
 /*

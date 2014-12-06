@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/samsung/exynos/chrome_kb.c 266352 2014-05-17 20:52:10Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/samsung/exynos/chrome_kb.c 266352 2014-05-17 20:52:10Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -45,7 +45,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/fpu/fpu_subr.c 178030 2008-04-09 08:50:37Z grehan $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/fpu/fpu_subr.c 178030 2008-04-09 08:50:37Z grehan $");
 
 #include <sys/types.h>
 #include <sys/systm.h>

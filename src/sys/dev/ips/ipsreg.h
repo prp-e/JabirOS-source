@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/ips/ipsreg.h 163024 2006-10-05 07:28:43Z maxim $
+ * $FreeBSD: releng/10.1/sys/dev/ips/ipsreg.h 163024 2006-10-05 07:28:43Z maxim $
  */
 
 #include <sys/param.h>

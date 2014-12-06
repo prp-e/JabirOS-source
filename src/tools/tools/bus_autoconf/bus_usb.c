@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/tools/tools/bus_autoconf/bus_usb.c 233110 2012-03-18 09:47:27Z hselasky $ */
+/* $FreeBSD: releng/10.1/tools/tools/bus_autoconf/bus_usb.c 233110 2012-03-18 09:47:27Z hselasky $ */
 
 /*-
  * Copyright (c) 2011 Hans Petter Selasky. All rights reserved.

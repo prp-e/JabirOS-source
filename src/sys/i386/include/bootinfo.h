@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/i386/include/bootinfo.h 235391 2012-05-13 09:25:39Z avg $
+ * $FreeBSD: releng/10.1/sys/i386/include/bootinfo.h 235391 2012-05-13 09:25:39Z avg $
  */
 
 #ifndef	_MACHINE_BOOTINFO_H_

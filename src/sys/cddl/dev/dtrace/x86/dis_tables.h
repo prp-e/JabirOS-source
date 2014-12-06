@@ -27,7 +27,7 @@
 /*	  All Rights Reserved  	*/
 
 /*
- * $FreeBSD: stable/10/sys/cddl/dev/dtrace/x86/dis_tables.h 262542 2014-02-27 01:04:35Z markj $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/dtrace/x86/dis_tables.h 262542 2014-02-27 01:04:35Z markj $
  */
 
 #ifndef _DIS_TABLES_H

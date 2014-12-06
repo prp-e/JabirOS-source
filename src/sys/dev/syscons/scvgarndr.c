@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/syscons/scvgarndr.c 251961 2013-06-18 20:19:09Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/syscons/scvgarndr.c 251961 2013-06-18 20:19:09Z kib $");
 
 #include "opt_syscons.h"
 #include "opt_vga.h"

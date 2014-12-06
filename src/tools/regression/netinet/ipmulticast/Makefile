@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/tools/regression/netinet/ipmulticast/Makefile 170614 2007-06-12 16:29:22Z bms $
+# $FreeBSD: releng/10.1/tools/regression/netinet/ipmulticast/Makefile 170614 2007-06-12 16:29:22Z bms $
 #
 
 PROG=	ipmulticast

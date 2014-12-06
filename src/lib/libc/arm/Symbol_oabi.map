@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/lib/libc/arm/Symbol_oabi.map 245651 2013-01-19 04:11:45Z andrew $
+ * $FreeBSD: releng/10.1/lib/libc/arm/Symbol_oabi.map 245651 2013-01-19 04:11:45Z andrew $
  */
 
 /*

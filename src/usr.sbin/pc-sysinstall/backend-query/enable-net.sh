@@ -28,7 +28,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/usr.sbin/pc-sysinstall/backend-query/enable-net.sh 222528 2011-05-31 15:02:30Z bz $
+# $FreeBSD: releng/10.1/usr.sbin/pc-sysinstall/backend-query/enable-net.sh 222528 2011-05-31 15:02:30Z bz $
 
 # Script which enables networking with specified options
 ###########################################################################

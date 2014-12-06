@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/freescale/imx/imx_gptreg.h 261455 2014-02-04 03:36:42Z eadler $
+ * $FreeBSD: releng/10.1/sys/arm/freescale/imx/imx_gptreg.h 261455 2014-02-04 03:36:42Z eadler $
  */
 
 /* Registers definition for Freescale i.MX515 Generic Periodic Timer */

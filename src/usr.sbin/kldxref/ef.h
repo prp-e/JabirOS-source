@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/usr.sbin/kldxref/ef.h 153504 2005-12-18 04:52:37Z marcel $ */
+/* $FreeBSD: releng/10.1/usr.sbin/kldxref/ef.h 153504 2005-12-18 04:52:37Z marcel $ */
 
 #ifndef _EF_H_
 #define _EF_H_

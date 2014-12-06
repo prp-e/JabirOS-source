@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libkiconv/Makefile 236972 2012-06-12 20:24:57Z dim $
+# $FreeBSD: releng/10.1/lib/libkiconv/Makefile 236972 2012-06-12 20:24:57Z dim $
 
 SHLIBDIR?=	/lib
 

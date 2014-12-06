@@ -28,7 +28,7 @@
  *
  * Based on patches subitted by: David Madole, edited by M. Warner Losh.
  *
- * $FreeBSD: stable/10/sys/dev/ed/rtl80x9reg.h 150957 2005-10-05 05:21:07Z imp $
+ * $FreeBSD: releng/10.1/sys/dev/ed/rtl80x9reg.h 150957 2005-10-05 05:21:07Z imp $
  */
 
 /*

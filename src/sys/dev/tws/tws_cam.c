@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/tws/tws_cam.c 263125 2014-03-14 00:57:32Z delphij $
+ * $FreeBSD: releng/10.1/sys/dev/tws/tws_cam.c 263125 2014-03-14 00:57:32Z delphij $
  */
 
 #include <dev/tws/tws.h>

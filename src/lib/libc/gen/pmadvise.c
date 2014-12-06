@@ -5,7 +5,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/gen/pmadvise.c 261560 2014-02-06 19:47:17Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/gen/pmadvise.c 261560 2014-02-06 19:47:17Z kib $");
 
 #include <sys/mman.h>
 #include <errno.h>

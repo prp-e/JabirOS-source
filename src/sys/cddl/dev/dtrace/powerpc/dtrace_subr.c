@@ -19,7 +19,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: stable/10/sys/cddl/dev/dtrace/powerpc/dtrace_subr.c 255161 2013-09-02 23:22:05Z jhibbits $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/dtrace/powerpc/dtrace_subr.c 255161 2013-09-02 23:22:05Z jhibbits $
  *
  */
 /*
@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/cddl/dev/dtrace/powerpc/dtrace_subr.c 255161 2013-09-02 23:22:05Z jhibbits $");
+__FBSDID("$FreeBSD: releng/10.1/sys/cddl/dev/dtrace/powerpc/dtrace_subr.c 255161 2013-09-02 23:22:05Z jhibbits $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

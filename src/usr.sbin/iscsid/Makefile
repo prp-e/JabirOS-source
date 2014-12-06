@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/iscsid/Makefile 270909 2014-09-01 03:04:59Z ngie $
+# $FreeBSD: releng/10.1/usr.sbin/iscsid/Makefile 270909 2014-09-01 03:04:59Z ngie $
 
 PROG=		iscsid
 SRCS=		discovery.c iscsid.c keys.c log.c login.c pdu.c

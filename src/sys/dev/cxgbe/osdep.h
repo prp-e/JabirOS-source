@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/cxgbe/osdep.h 255005 2013-08-28 20:45:45Z np $
+ * $FreeBSD: releng/10.1/sys/dev/cxgbe/osdep.h 255005 2013-08-28 20:45:45Z np $
  *
  */
 

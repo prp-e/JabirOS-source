@@ -38,7 +38,7 @@ static const char copyright[] =
 static char sccsid[] = "@(#)tee.c	8.1 (Berkeley) 6/6/93";
 #endif
 static const char rcsid[] =
-  "$FreeBSD: stable/10/usr.bin/tee/tee.c 231524 2012-02-11 16:34:03Z cracauer $";
+  "$FreeBSD: releng/10.1/usr.bin/tee/tee.c 231524 2012-02-11 16:34:03Z cracauer $";
 #endif /* not lint */
 
 #include <sys/types.h>

@@ -34,7 +34,7 @@ static char sccsid[] = "@(#)arcs.c	8.1 (Berkeley) 6/6/93";
 #endif
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/gprof/arcs.c 246783 2013-02-14 08:16:03Z charnier $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/gprof/arcs.c 246783 2013-02-14 08:16:03Z charnier $");
 
 #include <err.h>
 #include "gprof.h"

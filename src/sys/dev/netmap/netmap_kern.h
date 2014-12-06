@@ -25,7 +25,7 @@
  */
 
 /*
- * $FreeBSD: stable/10/sys/dev/netmap/netmap_kern.h 270298 2014-08-21 19:58:46Z np $
+ * $FreeBSD: releng/10.1/sys/dev/netmap/netmap_kern.h 270298 2014-08-21 19:58:46Z np $
  *
  * The header contains the definitions of constants and function
  * prototypes used only in kernelspace.

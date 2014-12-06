@@ -19,7 +19,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: stable/10/sys/cddl/dev/dtrace/x86/regset.h 265277 2014-05-03 16:24:18Z markj $ 
+ * $FreeBSD: releng/10.1/sys/cddl/dev/dtrace/x86/regset.h 265277 2014-05-03 16:24:18Z markj $ 
  */
 /*
  * Copyright 2004 Sun Microsystems, Inc.  All rights reserved.

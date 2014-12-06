@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sbin/ifconfig/carp.c 228577 2011-12-16 14:30:58Z glebius $ */
+/*	$FreeBSD: releng/10.1/sbin/ifconfig/carp.c 228577 2011-12-16 14:30:58Z glebius $ */
 /*	from $OpenBSD: ifconfig.c,v 1.82 2003/10/19 05:43:35 mcbride Exp $ */
 
 /*

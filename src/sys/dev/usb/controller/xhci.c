@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/controller/xhci.c 272097 2014-09-25 07:37:41Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/controller/xhci.c 272608 2014-10-06 11:05:56Z hselasky $ */
 /*-
  * Copyright (c) 2010 Hans Petter Selasky. All rights reserved.
  *
@@ -617,6 +617,10 @@ xhci_init(struct xhci_softc *sc, device_t self)
 	/* setup devices array */
 	sc->sc_bus.devices = sc->sc_devices;
 	sc->sc_bus.devices_max = XHCI_MAX_DEVICES;
+
+	/* set default cycle state in case of early interrupts */
+	sc->sc_event_ccs = 1;
+	sc->sc_command_ccs = 1;
 
 	/* setup command queue mutex and condition varible */
 	cv_init(&sc->sc_cmd_cv, "CMDQ");
@@ -2271,14 +2275,17 @@ xhci_configure_mask(struct usb_device *udev, uint32_t mask, uint8_t drop)
 		/* adjust */
 		x--;
 
-		/* figure out maximum */
-		if (x > sc->sc_hw.devs[index].context_num) {
+		/* figure out the maximum number of contexts */
+		if (x > sc->sc_hw.devs[index].context_num)
 			sc->sc_hw.devs[index].context_num = x;
-			temp = xhci_ctx_get_le32(sc, &pinp->ctx_slot.dwSctx0);
-			temp &= ~XHCI_SCTX_0_CTX_NUM_SET(31);
-			temp |= XHCI_SCTX_0_CTX_NUM_SET(x + 1);
-			xhci_ctx_set_le32(sc, &pinp->ctx_slot.dwSctx0, temp);
-		}
+		else
+			x = sc->sc_hw.devs[index].context_num;
+
+		/* update number of contexts */
+		temp = xhci_ctx_get_le32(sc, &pinp->ctx_slot.dwSctx0);
+		temp &= ~XHCI_SCTX_0_CTX_NUM_SET(31);
+		temp |= XHCI_SCTX_0_CTX_NUM_SET(x + 1);
+		xhci_ctx_set_le32(sc, &pinp->ctx_slot.dwSctx0, temp);
 	}
 	return (0);
 }

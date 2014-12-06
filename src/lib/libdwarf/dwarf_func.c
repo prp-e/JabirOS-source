@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libdwarf/dwarf_func.c 221569 2011-05-07 01:05:31Z obrien $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libdwarf/dwarf_func.c 221569 2011-05-07 01:05:31Z obrien $");
 
 #include <stdlib.h>
 #include <string.h>

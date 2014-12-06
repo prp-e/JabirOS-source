@@ -1,4 +1,4 @@
-#$FreeBSD: stable/10/kerberos5/lib/libheimbase/Makefile 236337 2012-05-30 22:21:25Z obrien $
+#$FreeBSD: releng/10.1/kerberos5/lib/libheimbase/Makefile 236337 2012-05-30 22:21:25Z obrien $
 
 LIB=	heimbase
 LDFLAGS=	-Wl,--no-undefined

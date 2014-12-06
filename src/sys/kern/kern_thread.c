@@ -31,7 +31,7 @@
 #include "opt_hwpmc_hooks.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_thread.c 271372 2014-09-10 09:47:16Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_thread.c 271372 2014-09-10 09:47:16Z kib $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/radeon_device.c 267042 2014-06-04 09:44:05Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/radeon/radeon_device.c 267042 2014-06-04 09:44:05Z marius $");
 
 #include <dev/drm2/drmP.h>
 #include <dev/drm2/drm_crtc_helper.h>

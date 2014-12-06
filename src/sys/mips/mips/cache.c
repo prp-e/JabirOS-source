@@ -68,7 +68,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/mips/cache.c 261277 2014-01-29 22:01:42Z brooks $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/mips/cache.c 261277 2014-01-29 22:01:42Z brooks $");
 
 #include <sys/types.h>
 #include <sys/systm.h>

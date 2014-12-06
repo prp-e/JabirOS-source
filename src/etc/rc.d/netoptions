@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/rc.d/netoptions 225521 2011-09-13 00:06:11Z hrs $
+# $FreeBSD: releng/10.1/etc/rc.d/netoptions 225521 2011-09-13 00:06:11Z hrs $
 #
 
 # PROVIDE: netoptions

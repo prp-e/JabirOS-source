@@ -40,7 +40,7 @@ static char sccsid[] = "@(#)mt.c	8.2 (Berkeley) 5/4/95";
 #endif /* not lint */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/mt/mt.c 228619 2011-12-17 02:23:30Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/mt/mt.c 228619 2011-12-17 02:23:30Z dim $");
 
 /*
  * mt --

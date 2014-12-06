@@ -31,7 +31,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/amd64/exception.S 267083 2014-06-05 00:40:48Z kib $
+ * $FreeBSD: releng/10.1/sys/amd64/amd64/exception.S 267083 2014-06-05 00:40:48Z kib $
  */
 
 #include "opt_atpic.h"

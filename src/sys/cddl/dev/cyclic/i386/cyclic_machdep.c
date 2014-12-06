@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/cddl/dev/cyclic/i386/cyclic_machdep.c 222813 2011-06-07 08:46:13Z attilio $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/cyclic/i386/cyclic_machdep.c 222813 2011-06-07 08:46:13Z attilio $
  *
  */
 

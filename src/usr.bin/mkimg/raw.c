@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/mkimg/raw.c 269177 2014-07-28 02:07:16Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/mkimg/raw.c 269177 2014-07-28 02:07:16Z marcel $");
 
 #include <sys/types.h>
 #include <sys/endian.h>

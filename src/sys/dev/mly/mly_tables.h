@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: stable/10/sys/dev/mly/mly_tables.h 91448 2002-02-27 23:57:18Z peter $
+ *	$FreeBSD: releng/10.1/sys/dev/mly/mly_tables.h 91448 2002-02-27 23:57:18Z peter $
  */
 
 /*

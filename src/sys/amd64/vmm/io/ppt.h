@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/vmm/io/ppt.h 267070 2014-06-04 17:57:48Z jhb $
+ * $FreeBSD: releng/10.1/sys/amd64/vmm/io/ppt.h 267070 2014-06-04 17:57:48Z jhb $
  */
 
 #ifndef _IO_PPT_H_

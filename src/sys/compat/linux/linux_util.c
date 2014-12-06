@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/compat/linux/linux_util.c 235063 2012-05-05 19:42:38Z netchild $");
+__FBSDID("$FreeBSD: releng/10.1/sys/compat/linux/linux_util.c 235063 2012-05-05 19:42:38Z netchild $");
 
 #include "opt_compat.h"
 #include "opt_kdtrace.h"

@@ -31,7 +31,7 @@
 
 #ident	"@(#)key_call.c	1.25	94/04/24 SMI"
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/rpc/key_call.c 261046 2014-01-22 23:45:27Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/rpc/key_call.c 261046 2014-01-22 23:45:27Z mav $");
 
 /*
  * key_call.c, Interface to keyserver

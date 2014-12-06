@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/usr.bin/send-pr/send-pr.sh 267577 2014-06-17 12:59:03Z gavin $
+# $FreeBSD: releng/10.1/usr.bin/send-pr/send-pr.sh 267577 2014-06-17 12:59:03Z gavin $
 #
 
 echo

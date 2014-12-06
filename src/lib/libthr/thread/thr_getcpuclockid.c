@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libthr/thread/thr_getcpuclockid.c 239347 2012-08-17 02:26:31Z davidxu $
+ * $FreeBSD: releng/10.1/lib/libthr/thread/thr_getcpuclockid.c 239347 2012-08-17 02:26:31Z davidxu $
  */
 
 #include "namespace.h"

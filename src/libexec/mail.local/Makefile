@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 7/19/93
-# $FreeBSD: stable/10/libexec/mail.local/Makefile 246880 2013-02-16 20:17:31Z dim $
+# $FreeBSD: releng/10.1/libexec/mail.local/Makefile 246880 2013-02-16 20:17:31Z dim $
 
 SENDMAIL_DIR=${.CURDIR}/../../contrib/sendmail
 .PATH:	${SENDMAIL_DIR}/mail.local

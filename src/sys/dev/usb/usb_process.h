@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/usb_process.h 263799 2014-03-27 06:59:56Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/usb_process.h 263799 2014-03-27 06:59:56Z hselasky $ */
 /*-
  * Copyright (c) 2008 Hans Petter Selasky. All rights reserved.
  *

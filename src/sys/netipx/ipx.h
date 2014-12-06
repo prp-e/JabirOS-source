@@ -58,7 +58,7 @@
  *
  *	@(#)ipx.h
  *
- * $FreeBSD: stable/10/sys/netipx/ipx.h 170664 2007-06-13 14:01:43Z rwatson $
+ * $FreeBSD: releng/10.1/sys/netipx/ipx.h 170664 2007-06-13 14:01:43Z rwatson $
  */
 
 #ifndef _NETIPX_IPX_H_

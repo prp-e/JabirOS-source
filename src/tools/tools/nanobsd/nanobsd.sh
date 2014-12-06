@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/tools/tools/nanobsd/nanobsd.sh 266441 2014-05-19 10:08:05Z thomas $
+# $FreeBSD: releng/10.1/tools/tools/nanobsd/nanobsd.sh 266441 2014-05-19 10:08:05Z thomas $
 #
 
 set -e

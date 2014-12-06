@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libc/amd64/Makefile.inc 174204 2007-12-03 07:17:33Z das $
+# $FreeBSD: releng/10.1/lib/libc/amd64/Makefile.inc 174204 2007-12-03 07:17:33Z das $
 #
 # Machine dependent definitions for the amd64 architecture.
 #

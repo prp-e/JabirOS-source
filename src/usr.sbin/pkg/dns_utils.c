@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/pkg/dns_utils.c 257309 2013-10-29 07:33:53Z bapt $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/pkg/dns_utils.c 257309 2013-10-29 07:33:53Z bapt $");
 
 #include <stdlib.h>
 #include <string.h>

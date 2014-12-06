@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/pcpu.h 262739 2014-03-04 14:46:30Z glebius $
+ * $FreeBSD: releng/10.1/sys/sys/pcpu.h 262739 2014-03-04 14:46:30Z glebius $
  */
 
 #ifndef _SYS_PCPU_H_

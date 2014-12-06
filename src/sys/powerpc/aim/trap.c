@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/aim/trap.c 271212 2014-09-06 22:37:47Z jhibbits $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/aim/trap.c 271212 2014-09-06 22:37:47Z jhibbits $");
 
 #include "opt_kdtrace.h"
 

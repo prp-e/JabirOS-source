@@ -23,7 +23,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/include/mk-osreldate.sh 255957 2013-09-30 21:01:04Z ian $
+# $FreeBSD: releng/10.1/include/mk-osreldate.sh 255957 2013-09-30 21:01:04Z ian $
 
 set -e
 

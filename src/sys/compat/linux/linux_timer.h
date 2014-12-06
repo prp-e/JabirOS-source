@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/compat/linux/linux_timer.h 272020 2014-09-23 07:50:04Z bz $
+ * $FreeBSD: releng/10.1/sys/compat/linux/linux_timer.h 272020 2014-09-23 07:50:04Z bz $
  */
 
 #ifndef	_LINUX_TIMER_H

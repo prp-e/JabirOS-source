@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netpfil/ipfw/ip_dummynet.c 254781 2013-08-24 13:34:36Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netpfil/ipfw/ip_dummynet.c 254781 2013-08-24 13:34:36Z mav $");
 
 /*
  * Configuration and internal object management for dummynet.

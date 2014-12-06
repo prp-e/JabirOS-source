@@ -26,7 +26,7 @@
  * SUCH DAMAGE.
  *
  * $Id: uuid.c,v 1.1 2004/12/09 18:20:26 max Exp $
- * $FreeBSD: stable/10/usr.sbin/bluetooth/sdpd/uuid.c 139721 2005-01-05 18:37:37Z emax $
+ * $FreeBSD: releng/10.1/usr.sbin/bluetooth/sdpd/uuid.c 139721 2005-01-05 18:37:37Z emax $
  */
 
 #include <bluetooth.h>

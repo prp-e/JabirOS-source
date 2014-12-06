@@ -53,7 +53,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/freescale/imx/imx51_ccmreg.h 259343 2013-12-13 22:12:37Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/freescale/imx/imx51_ccmreg.h 259343 2013-12-13 22:12:37Z ian $
  */
 
 #ifndef	_IMX51_CCMREG_H

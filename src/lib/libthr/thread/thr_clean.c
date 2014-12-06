@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libthr/thread/thr_clean.c 213163 2010-09-25 09:43:24Z davidxu $
+ * $FreeBSD: releng/10.1/lib/libthr/thread/thr_clean.c 213163 2010-09-25 09:43:24Z davidxu $
  */
 
 #include "namespace.h"

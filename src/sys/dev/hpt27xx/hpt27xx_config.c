@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/hpt27xx/hpt27xx_config.c 252852 2013-07-05 23:13:54Z delphij $
+ * $FreeBSD: releng/10.1/sys/dev/hpt27xx/hpt27xx_config.c 252852 2013-07-05 23:13:54Z delphij $
  */
 
 #include <dev/hpt27xx/hpt27xx_config.h>

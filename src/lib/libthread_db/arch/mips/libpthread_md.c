@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libthread_db/arch/mips/libpthread_md.c 182372 2008-08-28 15:41:12Z obrien $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libthread_db/arch/mips/libpthread_md.c 182372 2008-08-28 15:41:12Z obrien $");
 
 #include <sys/types.h>
 #include <sys/procfs.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/locale/Makefile 204585 2010-03-02 16:58:04Z uqs $
+# $FreeBSD: releng/10.1/usr.bin/locale/Makefile 204585 2010-03-02 16:58:04Z uqs $
 
 PROG=	locale
 WARNS?=	3

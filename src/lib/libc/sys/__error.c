@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/sys/__error.c 200150 2009-12-05 19:31:38Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/sys/__error.c 200150 2009-12-05 19:31:38Z ed $");
 
 extern int errno;
 

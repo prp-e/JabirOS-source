@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)filedesc.h	8.1 (Berkeley) 6/2/93
- * $FreeBSD: stable/10/sys/sys/filedesc.h 268345 2014-07-06 23:23:01Z mjg $
+ * $FreeBSD: releng/10.1/sys/sys/filedesc.h 273137 2014-10-15 16:54:18Z mjg $
  */
 
 #ifndef _SYS_FILEDESC_H_
@@ -38,6 +38,7 @@
 #include <sys/event.h>
 #include <sys/lock.h>
 #include <sys/priority.h>
+#include <sys/seq.h>
 #include <sys/sx.h>
 
 #include <machine/_limits.h>
@@ -50,14 +51,16 @@ struct filecaps {
 };
 
 struct filedescent {
-	struct file	*fde_file;		/* file structure for open file */
-	struct filecaps	 fde_caps;		/* per-descriptor rights */
-	uint8_t		 fde_flags;		/* per-process open file flags */
+	struct file	*fde_file;	/* file structure for open file */
+	struct filecaps	 fde_caps;	/* per-descriptor rights */
+	uint8_t		 fde_flags;	/* per-process open file flags */
+	seq_t		 fde_seq;	/* keep file and caps in sync */
 };
 #define	fde_rights	fde_caps.fc_rights
 #define	fde_fcntls	fde_caps.fc_fcntls
 #define	fde_ioctls	fde_caps.fc_ioctls
 #define	fde_nioctls	fde_caps.fc_nioctls
+#define	fde_change_size	(offsetof(struct filedescent, fde_seq))
 
 /*
  * This structure is used for the management of descriptors.  It may be
@@ -82,6 +85,7 @@ struct filedesc {
 	int	fd_holdleaderscount;	/* block fdfree() for shared close() */
 	int	fd_holdleaderswakeup;	/* fdfree() needs wakeup */
 };
+#define	fd_seq(fdp, fd)	(&(fdp)->fd_ofiles[(fd)].fde_seq)
 
 /*
  * Structure to keep track of (process leader, struct fildedesc) tuples.

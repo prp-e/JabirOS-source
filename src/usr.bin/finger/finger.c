@@ -53,7 +53,7 @@ static char sccsid[] = "@(#)finger.c	8.5 (Berkeley) 5/4/95";
 #endif
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/finger/finger.c 241737 2012-10-19 14:49:42Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/finger/finger.c 241737 2012-10-19 14:49:42Z ed $");
 
 /*
  * Finger prints out information about users.  It is not portable since

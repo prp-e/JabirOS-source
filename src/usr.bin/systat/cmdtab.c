@@ -29,7 +29,7 @@
 
 #include <sys/cdefs.h>
 
-__FBSDID("$FreeBSD: stable/10/usr.bin/systat/cmdtab.c 253360 2013-07-15 12:15:14Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/systat/cmdtab.c 253360 2013-07-15 12:15:14Z glebius $");
 
 #ifdef lint
 static const char sccsid[] = "@(#)cmdtab.c	8.1 (Berkeley) 6/6/93";

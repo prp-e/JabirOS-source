@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/boot/userboot/test/test.c 242935 2012-11-12 22:38:54Z neel $
+ * $FreeBSD: releng/10.1/sys/boot/userboot/test/test.c 242935 2012-11-12 22:38:54Z neel $
  */
 
 #include <sys/types.h>

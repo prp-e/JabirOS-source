@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.2 (Berkeley) 1/4/94
-# $FreeBSD: stable/10/include/Makefile 267666 2014-06-20 07:35:55Z tijl $
+# $FreeBSD: releng/10.1/include/Makefile 267666 2014-06-20 07:35:55Z tijl $
 #
 # Doing a "make install" builds /usr/include.
 

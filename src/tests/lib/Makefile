@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tests/lib/Makefile 257097 2013-10-25 05:25:19Z rpaulo $
+# $FreeBSD: releng/10.1/tests/lib/Makefile 257097 2013-10-25 05:25:19Z rpaulo $
 
 .include <bsd.own.mk>
 

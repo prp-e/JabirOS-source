@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/ia64/include/iodev.h 207329 2010-04-28 15:38:01Z attilio $
+ * $FreeBSD: releng/10.1/sys/ia64/include/iodev.h 207329 2010-04-28 15:38:01Z attilio $
  */
 
 #ifndef _MACHINE_IODEV_H_

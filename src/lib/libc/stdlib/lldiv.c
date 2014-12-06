@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/stdlib/lldiv.c 86368 2001-11-15 02:05:03Z mike $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/stdlib/lldiv.c 86368 2001-11-15 02:05:03Z mike $");
 
 #include <stdlib.h>
 

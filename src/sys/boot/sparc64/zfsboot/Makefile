@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/sparc64/zfsboot/Makefile 235207 2012-05-09 19:08:54Z marius $
+# $FreeBSD: releng/10.1/sys/boot/sparc64/zfsboot/Makefile 235207 2012-05-09 19:08:54Z marius $
 
 .PATH: ${.CURDIR}/../boot1
 

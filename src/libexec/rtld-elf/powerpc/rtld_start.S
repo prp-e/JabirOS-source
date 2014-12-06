@@ -26,7 +26,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/libexec/rtld-elf/powerpc/rtld_start.S 217397 2011-01-14 11:32:31Z kib $
+ * $FreeBSD: releng/10.1/libexec/rtld-elf/powerpc/rtld_start.S 217397 2011-01-14 11:32:31Z kib $
  */
 
 #include <machine/asm.h>

@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/net/if_aue.c 271355 2014-09-10 06:48:23Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/net/if_aue.c 271355 2014-09-10 06:48:23Z hselasky $");
 
 /*
  * ADMtek AN986 Pegasus and AN8511 Pegasus II USB to ethernet driver.

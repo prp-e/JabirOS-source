@@ -67,7 +67,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/ip_mroute.c 261208 2014-01-27 09:33:30Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/ip_mroute.c 261208 2014-01-27 09:33:30Z glebius $");
 
 #include "opt_inet.h"
 #include "opt_mrouting.h"

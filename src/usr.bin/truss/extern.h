@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/truss/extern.h 247975 2013-03-07 23:44:35Z cognet $
+ * $FreeBSD: releng/10.1/usr.bin/truss/extern.h 247975 2013-03-07 23:44:35Z cognet $
  */
 
 extern int setup_and_wait(char **);

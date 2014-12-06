@@ -38,7 +38,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/net/ether_addr.c 264592 2014-04-17 11:49:19Z jmmv $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/net/ether_addr.c 264592 2014-04-17 11:49:19Z jmmv $");
 
 #include <sys/types.h>
 #include <sys/param.h>

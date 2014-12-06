@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/ddb/db_break.c 225214 2011-08-27 14:24:27Z rwatson $");
+__FBSDID("$FreeBSD: releng/10.1/sys/ddb/db_break.c 225214 2011-08-27 14:24:27Z rwatson $");
 
 #include <sys/param.h>
 

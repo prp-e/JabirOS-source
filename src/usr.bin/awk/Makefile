@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/awk/Makefile 201989 2010-01-10 08:02:07Z ru $
+# $FreeBSD: releng/10.1/usr.bin/awk/Makefile 201989 2010-01-10 08:02:07Z ru $
 
 AWKSRC=	${.CURDIR}/../../contrib/one-true-awk
 .PATH: ${AWKSRC}

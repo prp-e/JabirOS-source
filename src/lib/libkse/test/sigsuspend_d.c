@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libkse/test/sigsuspend_d.c 172491 2007-10-09 13:42:34Z obrien $
+ * $FreeBSD: releng/10.1/lib/libkse/test/sigsuspend_d.c 172491 2007-10-09 13:42:34Z obrien $
  */
 #include <stdlib.h>
 #include <unistd.h>

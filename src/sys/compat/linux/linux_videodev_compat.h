@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/sys/compat/linux/linux_videodev_compat.h 200110 2009-12-04 21:06:54Z netchild $
+ * $FreeBSD: releng/10.1/sys/compat/linux/linux_videodev_compat.h 200110 2009-12-04 21:06:54Z netchild $
  */
 
 /*

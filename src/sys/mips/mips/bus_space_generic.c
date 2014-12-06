@@ -62,10 +62,10 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  *	from: src/sys/alpha/include/bus.h,v 1.5 1999/08/28 00:38:40 peter
- * $FreeBSD: stable/10/sys/mips/mips/bus_space_generic.c 263687 2014-03-24 13:48:04Z emaste $
+ * $FreeBSD: releng/10.1/sys/mips/mips/bus_space_generic.c 263687 2014-03-24 13:48:04Z emaste $
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/mips/bus_space_generic.c 263687 2014-03-24 13:48:04Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/mips/bus_space_generic.c 263687 2014-03-24 13:48:04Z emaste $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

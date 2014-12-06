@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/gvinum/gvinum.c 266043 2014-05-14 16:18:08Z marius $
+ * $FreeBSD: releng/10.1/sbin/gvinum/gvinum.c 266043 2014-05-14 16:18:08Z marius $
  */
 
 #include <sys/param.h>

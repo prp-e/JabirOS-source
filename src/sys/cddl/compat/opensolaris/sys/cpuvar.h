@@ -18,7 +18,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: stable/10/sys/cddl/compat/opensolaris/sys/cpuvar.h 182448 2008-08-29 15:55:49Z scottl $
+ * $FreeBSD: releng/10.1/sys/cddl/compat/opensolaris/sys/cpuvar.h 182448 2008-08-29 15:55:49Z scottl $
  */
 
 /*

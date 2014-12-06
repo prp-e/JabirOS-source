@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/contrib/altq/altq/altq_hfsc.c 263086 2014-03-12 10:45:58Z glebius $	*/
+/*	$FreeBSD: releng/10.1/sys/contrib/altq/altq/altq_hfsc.c 263086 2014-03-12 10:45:58Z glebius $	*/
 /*	$KAME: altq_hfsc.c,v 1.24 2003/12/05 05:40:46 kjc Exp $	*/
 
 /*

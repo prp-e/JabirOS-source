@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/open/16.t 219621 2011-03-13 19:35:13Z pjd $
+# $FreeBSD: releng/10.1/tools/regression/pjdfstest/tests/open/16.t 219621 2011-03-13 19:35:13Z pjd $
 
 desc="open returns ELOOP when O_NOFOLLOW was specified and the target is a symbolic link"
 

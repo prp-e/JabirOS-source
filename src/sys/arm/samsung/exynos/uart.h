@@ -31,7 +31,7 @@
  * OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/samsung/exynos/uart.h 252391 2013-06-29 23:39:05Z ray $
+ * $FreeBSD: releng/10.1/sys/arm/samsung/exynos/uart.h 252391 2013-06-29 23:39:05Z ray $
  */
 
 /* s3c2410-specific registers */

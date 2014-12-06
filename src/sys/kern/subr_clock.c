@@ -39,7 +39,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/subr_clock.c 265687 2014-05-08 16:12:38Z brooks $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/subr_clock.c 265687 2014-05-08 16:12:38Z brooks $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

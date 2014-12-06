@@ -4,7 +4,7 @@
 # This file contains machine dependent kernel configuration notes.  For
 # machine independent notes, look in /sys/conf/NOTES.
 #
-# $FreeBSD: stable/10/sys/pc98/conf/NOTES 249083 2013-04-04 07:12:24Z mav $
+# $FreeBSD: releng/10.1/sys/pc98/conf/NOTES 249083 2013-04-04 07:12:24Z mav $
 #
 
 #

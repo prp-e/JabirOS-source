@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/msun/src/s_isnan.c 242879 2012-11-10 21:22:10Z dim $
+ * $FreeBSD: releng/10.1/lib/msun/src/s_isnan.c 242879 2012-11-10 21:22:10Z dim $
  */
 
 #include <math.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/arm/freescale/imx/std.imx51 266110 2014-05-15 02:41:23Z ian $
+# $FreeBSD: releng/10.1/sys/arm/freescale/imx/std.imx51 266110 2014-05-15 02:41:23Z ian $
 machine		arm	armv6
 cpu 		CPU_CORTEXA
 makeoptions	ARM_LITTLE_ENDIAN

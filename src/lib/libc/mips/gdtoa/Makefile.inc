@@ -1,4 +1,4 @@
 #	$NetBSD: Makefile.inc,v 1.1 2006/03/15 17:35:18 kleink Exp $
-# $FreeBSD: stable/10/lib/libc/mips/gdtoa/Makefile.inc 178580 2008-04-26 12:08:02Z imp $
+# $FreeBSD: releng/10.1/lib/libc/mips/gdtoa/Makefile.inc 178580 2008-04-26 12:08:02Z imp $
 
 SRCS+=	strtof.c

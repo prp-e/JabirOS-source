@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/ifmcstat/ifmcstat.c 245015 2013-01-03 22:27:57Z hrs $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/ifmcstat/ifmcstat.c 245015 2013-01-03 22:27:57Z hrs $");
 
 #include <sys/types.h>
 #include <sys/param.h>

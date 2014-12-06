@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/usb/usb_enum.t 232364 2012-03-01 20:45:17Z hselasky $
+# $FreeBSD: releng/10.1/tools/regression/usb/usb_enum.t 232364 2012-03-01 20:45:17Z hselasky $
 
 #
 # About:

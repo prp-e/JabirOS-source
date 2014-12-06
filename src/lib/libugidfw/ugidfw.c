@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libugidfw/ugidfw.c 216953 2011-01-04 13:02:52Z emaste $
+ * $FreeBSD: releng/10.1/lib/libugidfw/ugidfw.c 216953 2011-01-04 13:02:52Z emaste $
  */
 #include <sys/param.h>
 #include <sys/errno.h>

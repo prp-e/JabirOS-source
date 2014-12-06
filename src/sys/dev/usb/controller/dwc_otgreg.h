@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/controller/dwc_otgreg.h 266575 2014-05-23 06:20:25Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/controller/dwc_otgreg.h 266575 2014-05-23 06:20:25Z hselasky $ */
 
 /*-
  * Copyright (c) 2010,2011 Aleksandr Rybalko. All rights reserved.

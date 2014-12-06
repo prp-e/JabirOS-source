@@ -3,7 +3,7 @@
 #	All rights reserved.
 # Author: Harti Brandt <brandt@fokus.gmd.de>
 #
-# $FreeBSD: stable/10/sbin/atm/atmconfig/Makefile 270824 2014-08-29 18:26:55Z ngie $
+# $FreeBSD: releng/10.1/sbin/atm/atmconfig/Makefile 270824 2014-08-29 18:26:55Z ngie $
 
 .include <bsd.own.mk>
 

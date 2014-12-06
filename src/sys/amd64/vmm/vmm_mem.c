@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/vmm/vmm_mem.c 256072 2013-10-05 21:22:35Z neel $
+ * $FreeBSD: releng/10.1/sys/amd64/vmm/vmm_mem.c 256072 2013-10-05 21:22:35Z neel $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/amd64/vmm/vmm_mem.c 256072 2013-10-05 21:22:35Z neel $");
+__FBSDID("$FreeBSD: releng/10.1/sys/amd64/vmm/vmm_mem.c 256072 2013-10-05 21:22:35Z neel $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

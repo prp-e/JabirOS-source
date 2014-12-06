@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/tools/net80211/wesside/dics/dics.c 237546 2012-06-25 05:41:16Z kevlo $
+ * $FreeBSD: releng/10.1/tools/tools/net80211/wesside/dics/dics.c 237546 2012-06-25 05:41:16Z kevlo $
  */
 #include <sys/types.h>
 #include <sys/socket.h>

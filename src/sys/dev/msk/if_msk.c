@@ -99,7 +99,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/msk/if_msk.c 262524 2014-02-26 06:25:36Z yongari $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/msk/if_msk.c 262524 2014-02-26 06:25:36Z yongari $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

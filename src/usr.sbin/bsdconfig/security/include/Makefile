@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/bsdconfig/security/include/Makefile 241899 2012-10-22 18:01:38Z dteske $
+# $FreeBSD: releng/10.1/usr.sbin/bsdconfig/security/include/Makefile 241899 2012-10-22 18:01:38Z dteske $
 
 NO_OBJ=
 

@@ -6,7 +6,7 @@
  * this stuff is worth it, you can buy me a beer in return.   Poul-Henning Kamp
  * ----------------------------------------------------------------------------
  *
- * $FreeBSD: stable/10/sys/sys/smp.h 265606 2014-05-07 20:28:27Z scottl $
+ * $FreeBSD: releng/10.1/sys/sys/smp.h 265606 2014-05-07 20:28:27Z scottl $
  */
 
 #ifndef _SYS_SMP_H_

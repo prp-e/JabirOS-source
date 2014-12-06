@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/mpc85xx/isa.c 221526 2011-05-06 13:48:53Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/mpc85xx/isa.c 221526 2011-05-06 13:48:53Z jhb $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

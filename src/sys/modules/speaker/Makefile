@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/speaker/Makefile 152306 2005-11-11 09:57:32Z ru $
+# $FreeBSD: releng/10.1/sys/modules/speaker/Makefile 152306 2005-11-11 09:57:32Z ru $
 
 .PATH: ${.CURDIR}/../../dev/speaker
 

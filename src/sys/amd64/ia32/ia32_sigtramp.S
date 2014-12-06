@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/ia32/ia32_sigtramp.S 239251 2012-08-14 12:13:27Z kib $
+ * $FreeBSD: releng/10.1/sys/amd64/ia32/ia32_sigtramp.S 239251 2012-08-14 12:13:27Z kib $
  */
 
 #include "opt_compat.h"

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libefi/efi_nextvarname.c 203181 2010-01-30 04:24:03Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libefi/efi_nextvarname.c 203181 2010-01-30 04:24:03Z marcel $");
 
 #include <libefi.h>
 #include <stdlib.h>

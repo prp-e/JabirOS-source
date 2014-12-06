@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/sparc64/sparc64/genassym.c 254065 2013-08-07 16:36:38Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/sparc64/sparc64/genassym.c 254065 2013-08-07 16:36:38Z kib $");
 
 #include "opt_kstack_pages.h"
 

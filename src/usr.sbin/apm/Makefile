@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/apm/Makefile 211725 2010-08-23 22:24:11Z imp $
+# $FreeBSD: releng/10.1/usr.sbin/apm/Makefile 211725 2010-08-23 22:24:11Z imp $
 
 PROG=	apm
 MAN=	apm.8

@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/uipc_mbuf.c 258483 2013-11-22 19:27:17Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/uipc_mbuf.c 258483 2013-11-22 19:27:17Z glebius $");
 
 #include "opt_param.h"
 #include "opt_mbuf_stress_test.h"

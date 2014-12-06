@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/secure/lib/libcrypt/crypt-blowfish.c 266816 2014-05-28 18:51:49Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/secure/lib/libcrypt/crypt-blowfish.c 266816 2014-05-28 18:51:49Z delphij $");
 
 /* This password hashing algorithm was designed by David Mazieres
  * <dm@lcs.mit.edu> and works as follows:

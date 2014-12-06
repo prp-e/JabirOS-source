@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/4/93
-# $FreeBSD: stable/10/libexec/talkd/Makefile 202210 2010-01-13 18:28:58Z ed $
+# $FreeBSD: releng/10.1/libexec/talkd/Makefile 202210 2010-01-13 18:28:58Z ed $
 
 PROG=	ntalkd
 SRCS=	talkd.c announce.c process.c table.c print.c ttymsg.c

@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet6/scope6.c 271185 2014-09-06 04:39:26Z markj $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet6/scope6.c 271185 2014-09-06 04:39:26Z markj $");
 
 #include <sys/param.h>
 #include <sys/malloc.h>

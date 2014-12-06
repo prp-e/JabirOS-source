@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/controller/ehcireg.h 214349 2010-10-25 15:51:43Z nwhitehorn $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/controller/ehcireg.h 214349 2010-10-25 15:51:43Z nwhitehorn $ */
 /*-
  * Copyright (c) 2001 The NetBSD Foundation, Inc.
  * All rights reserved.

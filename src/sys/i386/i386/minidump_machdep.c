@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/i386/i386/minidump_machdep.c 236503 2012-06-03 08:01:12Z avg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/i386/i386/minidump_machdep.c 236503 2012-06-03 08:01:12Z avg $");
 
 #include "opt_watchdog.h"
 

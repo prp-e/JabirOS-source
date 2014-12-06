@@ -31,7 +31,7 @@
  *          Ken Merry           (Spectra Logic Corporation)
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/xen/blkback/blkback.c 260817 2014-01-17 10:58:59Z avg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/xen/blkback/blkback.c 260817 2014-01-17 10:58:59Z avg $");
 
 /**
  * \file blkback.c

@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/mge/if_mgevar.h 261455 2014-02-04 03:36:42Z eadler $
+ * $FreeBSD: releng/10.1/sys/dev/mge/if_mgevar.h 261455 2014-02-04 03:36:42Z eadler $
  */
 
 #ifndef __IF_MGE_H__

@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/amd64/vmm/io/vatpit.c 268891 2014-07-19 22:06:46Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/amd64/vmm/io/vatpit.c 268891 2014-07-19 22:06:46Z jhb $");
 
 #include <sys/param.h>
 #include <sys/types.h>

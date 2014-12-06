@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/include/vmparam.h 266362 2014-05-17 21:46:25Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/include/vmparam.h 266362 2014-05-17 21:46:25Z ian $
  */
 
 #ifndef	_MACHINE_VMPARAM_H_

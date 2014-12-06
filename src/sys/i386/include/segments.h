@@ -31,7 +31,7 @@
  * SUCH DAMAGE.
  *
  *	from: @(#)segments.h	7.1 (Berkeley) 5/9/91
- * $FreeBSD: stable/10/sys/i386/include/segments.h 233203 2012-03-19 21:24:50Z tijl $
+ * $FreeBSD: releng/10.1/sys/i386/include/segments.h 233203 2012-03-19 21:24:50Z tijl $
  */
 
 #ifndef _MACHINE_SEGMENTS_H_

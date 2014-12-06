@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/kbdmap/kbdmap.c 270309 2014-08-21 21:57:18Z se $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/kbdmap/kbdmap.c 270309 2014-08-21 21:57:18Z se $");
 
 #include <sys/types.h>
 #include <sys/queue.h>

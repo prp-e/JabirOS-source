@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/genericize/Makefile 137330 2004-11-07 11:09:44Z des $
+# $FreeBSD: releng/10.1/tools/tools/genericize/Makefile 137330 2004-11-07 11:09:44Z des $
 
 SCRIPTS=	genericize.pl
 BINDIR?=	/usr/local/bin

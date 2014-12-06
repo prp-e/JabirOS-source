@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_sysctl.c 262734 2014-03-04 14:01:12Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_sysctl.c 262734 2014-03-04 14:01:12Z glebius $");
 
 #include "opt_capsicum.h"
 #include "opt_compat.h"

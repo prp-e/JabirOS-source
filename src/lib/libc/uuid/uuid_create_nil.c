@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/uuid/uuid_create_nil.c 118670 2003-08-08 19:18:43Z marcel $
+ * $FreeBSD: releng/10.1/lib/libc/uuid/uuid_create_nil.c 118670 2003-08-08 19:18:43Z marcel $
  */
 
 #include <strings.h>

@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	from: @(#)gettytab.h	8.2 (Berkeley) 3/30/94
- * $FreeBSD: stable/10/libexec/getty/gettytab.h 262435 2014-02-24 08:21:49Z brueffer $
+ * $FreeBSD: releng/10.1/libexec/getty/gettytab.h 262435 2014-02-24 08:21:49Z brueffer $
  */
 
 /*

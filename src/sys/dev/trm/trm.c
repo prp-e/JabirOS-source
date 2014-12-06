@@ -11,7 +11,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/trm/trm.c 246713 2013-02-12 16:57:20Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/trm/trm.c 246713 2013-02-12 16:57:20Z kib $");
 
 /*
  *	HISTORY:					

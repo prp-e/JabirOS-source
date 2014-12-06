@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/dev/ral/rt2661.c 262007 2014-02-17 01:36:53Z kevlo $	*/
+/*	$FreeBSD: releng/10.1/sys/dev/ral/rt2661.c 262007 2014-02-17 01:36:53Z kevlo $	*/
 
 /*-
  * Copyright (c) 2006
@@ -18,7 +18,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ral/rt2661.c 262007 2014-02-17 01:36:53Z kevlo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ral/rt2661.c 262007 2014-02-17 01:36:53Z kevlo $");
 
 /*-
  * Ralink Technology RT2561, RT2561S and RT2661 chipset driver

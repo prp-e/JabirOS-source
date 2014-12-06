@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/rl/Makefile 184559 2008-11-02 16:50:57Z imp $
+# $FreeBSD: releng/10.1/sys/modules/rl/Makefile 184559 2008-11-02 16:50:57Z imp $
 
 .PATH: ${.CURDIR}/../../pci
 

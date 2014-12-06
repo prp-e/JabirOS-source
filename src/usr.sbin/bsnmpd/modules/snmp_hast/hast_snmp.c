@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/bsnmpd/modules/snmp_hast/hast_snmp.c 260412 2014-01-07 21:23:41Z trociny $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/bsnmpd/modules/snmp_hast/hast_snmp.c 260412 2014-01-07 21:23:41Z trociny $");
 
 #include <sys/param.h>
 #include <sys/queue.h>

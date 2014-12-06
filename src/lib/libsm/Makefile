@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libsm/Makefile 261364 2014-02-01 22:29:04Z gshapiro $
+# $FreeBSD: releng/10.1/lib/libsm/Makefile 261364 2014-02-01 22:29:04Z gshapiro $
 
 .include <bsd.own.mk>
 

@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libstand/bootparam.c 84221 2001-09-30 22:28:01Z dillon $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libstand/bootparam.c 84221 2001-09-30 22:28:01Z dillon $");
 
 /*
  * RPC/bootparams

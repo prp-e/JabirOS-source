@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/amd64/acpica/acpi_machdep.c 246855 2013-02-15 22:43:08Z jkim $");
+__FBSDID("$FreeBSD: releng/10.1/sys/amd64/acpica/acpi_machdep.c 246855 2013-02-15 22:43:08Z jkim $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

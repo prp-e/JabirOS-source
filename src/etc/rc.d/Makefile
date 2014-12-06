@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/etc/rc.d/Makefile 270892 2014-08-31 21:18:23Z trasz $
+# $FreeBSD: releng/10.1/etc/rc.d/Makefile 273188 2014-10-16 22:00:24Z hrs $
 
 .include <bsd.own.mk>
 
@@ -64,13 +64,15 @@ FILES=	DAEMON \
 	ipfw \
 	ipmon \
 	ipnat \
+	ipropd_master \
+	ipropd_slave \
 	ipsec \
 	${_ipxrouted} \
 	iscsictl \
 	iscsid \
 	jail \
 	kadmind \
-	kerberos \
+	kdc \
 	keyserv \
 	kfd \
 	kld \

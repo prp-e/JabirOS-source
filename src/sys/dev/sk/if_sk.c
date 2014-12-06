@@ -48,7 +48,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/sk/if_sk.c 266921 2014-05-31 11:08:22Z brueffer $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/sk/if_sk.c 266921 2014-05-31 11:08:22Z brueffer $");
 
 /*
  * SysKonnect SK-NET gigabit ethernet driver for FreeBSD. Supports

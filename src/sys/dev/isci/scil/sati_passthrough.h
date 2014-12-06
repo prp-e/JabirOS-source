@@ -49,7 +49,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/isci/scil/sati_passthrough.h 231136 2012-02-07 17:43:58Z jimharris $
+ * $FreeBSD: releng/10.1/sys/dev/isci/scil/sati_passthrough.h 231136 2012-02-07 17:43:58Z jimharris $
  */
 #ifndef _SATI_PASSTHROUGH_H_
 #define _SATI_PASSTHROUGH_H_

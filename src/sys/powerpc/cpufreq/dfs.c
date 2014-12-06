@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/cpufreq/dfs.c 217065 2011-01-06 20:19:01Z andreast $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/cpufreq/dfs.c 217065 2011-01-06 20:19:01Z andreast $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

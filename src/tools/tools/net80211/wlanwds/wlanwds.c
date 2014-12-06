@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: stable/10/tools/tools/net80211/wlanwds/wlanwds.c 191247 2009-04-18 16:14:03Z sam $
+ * $FreeBSD: releng/10.1/tools/tools/net80211/wlanwds/wlanwds.c 191247 2009-04-18 16:14:03Z sam $
  */
 
 /*

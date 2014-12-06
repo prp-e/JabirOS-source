@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/rc.d/rpcbind 258121 2013-11-14 09:14:33Z glebius $
+# $FreeBSD: releng/10.1/etc/rc.d/rpcbind 258121 2013-11-14 09:14:33Z glebius $
 #
 
 # PROVIDE: rpcbind

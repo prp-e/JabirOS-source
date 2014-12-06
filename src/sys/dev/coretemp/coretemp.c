@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/coretemp/coretemp.c 246951 2013-02-18 22:47:16Z markj $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/coretemp/coretemp.c 246951 2013-02-18 22:47:16Z markj $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

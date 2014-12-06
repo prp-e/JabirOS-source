@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)tftp.h	8.1 (Berkeley) 6/2/93
- * $FreeBSD: stable/10/include/arpa/tftp.h 250887 2013-05-21 21:20:10Z ed $
+ * $FreeBSD: releng/10.1/include/arpa/tftp.h 250887 2013-05-21 21:20:10Z ed $
  */
 
 #ifndef _ARPA_TFTP_H_

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libc/posix1e/Makefile.inc 209147 2010-06-14 02:26:13Z kientzle $
+# $FreeBSD: releng/10.1/lib/libc/posix1e/Makefile.inc 209147 2010-06-14 02:26:13Z kientzle $
 
 .PATH: ${.CURDIR}/posix1e
 

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/conf/kern.pre.mk 260495 2014-01-09 22:40:51Z dim $
+# $FreeBSD: releng/10.1/sys/conf/kern.pre.mk 260495 2014-01-09 22:40:51Z dim $
 
 # Part of a unified Makefile for building kernels.  This part contains all
 # of the definitions that need to be before %BEFORE_DEPEND.

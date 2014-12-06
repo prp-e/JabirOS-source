@@ -1,4 +1,4 @@
-#	$FreeBSD: stable/10/sbin/ipf/Makefile.inc 269696 2014-08-08 00:58:24Z cy $
+#	$FreeBSD: releng/10.1/sbin/ipf/Makefile.inc 269696 2014-08-08 00:58:24Z cy $
 
 .include <bsd.own.mk>
 

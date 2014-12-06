@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/etc/rc.bsdextended 157957 2006-04-22 11:02:44Z trhodes $
+# $FreeBSD: releng/10.1/etc/rc.bsdextended 157957 2006-04-22 11:02:44Z trhodes $
 #
 
 ####

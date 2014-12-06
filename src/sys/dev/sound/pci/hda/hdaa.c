@@ -45,7 +45,7 @@
 
 #include "mixer_if.h"
 
-SND_DECLARE_FILE("$FreeBSD: stable/10/sys/dev/sound/pci/hda/hdaa.c 264961 2014-04-26 01:00:28Z marius $");
+SND_DECLARE_FILE("$FreeBSD: releng/10.1/sys/dev/sound/pci/hda/hdaa.c 264961 2014-04-26 01:00:28Z marius $");
 
 #define hdaa_lock(devinfo)	snd_mtxlock((devinfo)->lock)
 #define hdaa_unlock(devinfo)	snd_mtxunlock((devinfo)->lock)

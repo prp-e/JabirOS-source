@@ -20,7 +20,7 @@
  *
  * Portions Copyright 2006-2008 John Birrell jb@freebsd.org
  *
- * $FreeBSD: stable/10/sys/cddl/dev/sdt/sdt.c 269545 2014-08-05 00:25:46Z markj $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/sdt/sdt.c 269545 2014-08-05 00:25:46Z markj $
  *
  */
 

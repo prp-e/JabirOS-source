@@ -18,7 +18,7 @@
  *
  * From: Version 2.4, Thu Apr 30 17:17:21 MSD 1997
  *
- * $FreeBSD: stable/10/sys/net/if_spppsubr.c 269046 2014-07-24 06:02:03Z kevlo $
+ * $FreeBSD: releng/10.1/sys/net/if_spppsubr.c 269046 2014-07-24 06:02:03Z kevlo $
  */
 
 #include <sys/param.h>

@@ -1,5 +1,5 @@
 #	$NetBSD: Makefile,v 1.1 2002/03/01 11:21:58 ad Exp $
-# $FreeBSD: stable/10/bin/pkill/Makefile 264996 2014-04-27 01:15:10Z jmmv $
+# $FreeBSD: releng/10.1/bin/pkill/Makefile 264996 2014-04-27 01:15:10Z jmmv $
 
 .include <bsd.own.mk>
 

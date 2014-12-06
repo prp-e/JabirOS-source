@@ -33,7 +33,7 @@
  *
  *      @(#)bpfdesc.h	8.1 (Berkeley) 6/10/93
  *
- * $FreeBSD: stable/10/sys/net/bpfdesc.h 244090 2012-12-10 16:14:44Z ghelmer $
+ * $FreeBSD: releng/10.1/sys/net/bpfdesc.h 244090 2012-12-10 16:14:44Z ghelmer $
  */
 
 #ifndef _NET_BPFDESC_H_

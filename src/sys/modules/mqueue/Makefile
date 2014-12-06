@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/mqueue/Makefile 247719 2013-03-03 16:17:09Z uqs $
+# $FreeBSD: releng/10.1/sys/modules/mqueue/Makefile 247719 2013-03-03 16:17:09Z uqs $
 
 .PATH: ${.CURDIR}/../../kern
 

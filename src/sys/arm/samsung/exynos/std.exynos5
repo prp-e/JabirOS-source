@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/arm/samsung/exynos/std.exynos5 266110 2014-05-15 02:41:23Z ian $
+# $FreeBSD: releng/10.1/sys/arm/samsung/exynos/std.exynos5 266110 2014-05-15 02:41:23Z ian $
 
 makeoption	ARM_LITTLE_ENDIAN
 

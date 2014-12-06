@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/uart/uart_dev_imx.h 266372 2014-05-17 22:31:40Z ian $
+ * $FreeBSD: releng/10.1/sys/dev/uart/uart_dev_imx.h 266372 2014-05-17 22:31:40Z ian $
  */
 
 #ifndef	_UART_DEV_IMX5XX_H

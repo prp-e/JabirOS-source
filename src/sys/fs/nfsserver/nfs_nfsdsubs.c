@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/fs/nfsserver/nfs_nfsdsubs.c 269398 2014-08-01 21:10:41Z rmacklem $");
+__FBSDID("$FreeBSD: releng/10.1/sys/fs/nfsserver/nfs_nfsdsubs.c 269398 2014-08-01 21:10:41Z rmacklem $");
 
 #ifndef APPLEKEXT
 /*

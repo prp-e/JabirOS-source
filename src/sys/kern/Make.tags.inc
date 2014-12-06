@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/kern/Make.tags.inc 252356 2013-06-28 21:00:08Z davide $
+# $FreeBSD: releng/10.1/sys/kern/Make.tags.inc 252356 2013-06-28 21:00:08Z davide $
 #	@(#)Make.tags.inc	8.1 (Berkeley) 6/11/93
 
 SYS?=	${.CURDIR}/..

@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/dev/ipw/if_ipw.c 262007 2014-02-17 01:36:53Z kevlo $	*/
+/*	$FreeBSD: releng/10.1/sys/dev/ipw/if_ipw.c 262007 2014-02-17 01:36:53Z kevlo $	*/
 
 /*-
  * Copyright (c) 2004-2006
@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ipw/if_ipw.c 262007 2014-02-17 01:36:53Z kevlo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ipw/if_ipw.c 262007 2014-02-17 01:36:53Z kevlo $");
 
 /*-
  * Intel(R) PRO/Wireless 2100 MiniPCI driver

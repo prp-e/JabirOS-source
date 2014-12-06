@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libipx/ipx_ntoa.c 165906 2007-01-09 01:02:06Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libipx/ipx_ntoa.c 165906 2007-01-09 01:02:06Z imp $");
 
 #if defined(LIBC_SCCS) && !defined(lint)
 static char sccsid[] = "@(#)ipx_ntoa.c";

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/rc.d/rctl 262384 2014-02-23 20:04:29Z bdrewery $
+# $FreeBSD: releng/10.1/etc/rc.d/rctl 262384 2014-02-23 20:04:29Z bdrewery $
 #
 
 # PROVIDE: rctl

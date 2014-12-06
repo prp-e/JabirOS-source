@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/tools/build/mk/OptionalObsoleteFiles.inc 272152 2014-09-26 03:03:58Z gjb $
+# $FreeBSD: releng/10.1/tools/build/mk/OptionalObsoleteFiles.inc 272322 2014-09-30 17:54:57Z delphij $
 #
 # This file add support for the WITHOUT_* and WITH_* knobs in src.conf(5) to
 # the check-old and delete-old* targets.
@@ -4669,4 +4669,12 @@ OLD_FILES+=usr/bin/svnrdump
 OLD_FILES+=usr/bin/svnserve
 OLD_FILES+=usr/bin/svnsync
 OLD_FILES+=usr/bin/svnversion
+.endif
+
+.if ${MK_HYPERV} == no
+OLD_FILES+=etc/devd/hyperv.conf
+OLD_FILES+=usr/libexec/hyperv/hv_set_ifconfig
+OLD_FILES+=usr/libexec/hyperv/hv_get_dns_info
+OLD_FILES+=usr/libexec/hyperv/hv_get_dhcp_info
+OLD_FILES+=usr/sbin/hv_kvpd
 .endif

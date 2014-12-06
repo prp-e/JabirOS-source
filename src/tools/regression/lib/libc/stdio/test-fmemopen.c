@@ -29,7 +29,7 @@ SUCH DAMAGE.
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/regression/lib/libc/stdio/test-fmemopen.c 246206 2013-02-01 13:04:06Z gahr $");
+__FBSDID("$FreeBSD: releng/10.1/tools/regression/lib/libc/stdio/test-fmemopen.c 246206 2013-02-01 13:04:06Z gahr $");
 
 #include <assert.h>
 #include <errno.h>

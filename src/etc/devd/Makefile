@@ -1,4 +1,6 @@
-# $FreeBSD: stable/10/etc/devd/Makefile 272152 2014-09-26 03:03:58Z gjb $
+# $FreeBSD: releng/10.1/etc/devd/Makefile 272322 2014-09-30 17:54:57Z delphij $
+
+.include <bsd.own.mk>
 
 FILES=	uath.conf usb.conf
 
@@ -8,6 +10,10 @@ FILES+=	apple.conf
 
 .if ${MACHINE} == "amd64" || ${MACHINE} == "i386"
 FILES+=	asus.conf
+.endif
+
+.if ${MK_HYPERV} != "no"
+FILES+=	hyperv.conf
 .endif
 
 NO_OBJ=

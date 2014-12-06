@@ -1,5 +1,5 @@
 # Makefile.mips
-# $FreeBSD: stable/10/sys/conf/Makefile.mips 232998 2012-03-15 05:29:51Z gonzo $
+# $FreeBSD: releng/10.1/sys/conf/Makefile.mips 232998 2012-03-15 05:29:51Z gonzo $
 #
 # Makefile for FreeBSD
 #

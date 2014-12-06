@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/mii/smcphy.c 239275 2012-08-15 04:03:55Z gonzo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/mii/smcphy.c 239275 2012-08-15 04:03:55Z gonzo $");
 
 /*
  * Driver for the SEEQ 80220 and 84220.

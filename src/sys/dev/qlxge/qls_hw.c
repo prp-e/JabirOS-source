@@ -31,7 +31,7 @@
  * Content: Contains Hardware dependant functions
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/qlxge/qls_hw.c 252206 2013-06-25 17:50:22Z davidcs $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/qlxge/qls_hw.c 252206 2013-06-25 17:50:22Z davidcs $");
 
 
 

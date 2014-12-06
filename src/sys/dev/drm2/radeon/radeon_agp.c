@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/radeon_agp.c 259234 2013-12-11 22:26:09Z dumbbell $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/radeon/radeon_agp.c 259234 2013-12-11 22:26:09Z dumbbell $");
 
 #include <dev/drm2/drmP.h>
 #include "radeon.h"

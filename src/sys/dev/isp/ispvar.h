@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/isp/ispvar.h 260341 2014-01-05 22:38:44Z mav $ */
+/* $FreeBSD: releng/10.1/sys/dev/isp/ispvar.h 260341 2014-01-05 22:38:44Z mav $ */
 /*-
  *  Copyright (c) 1997-2009 by Matthew Jacob
  *  All rights reserved.

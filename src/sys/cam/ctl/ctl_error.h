@@ -28,7 +28,7 @@
  * POSSIBILITY OF SUCH DAMAGES.
  *
  * $Id: //depot/users/kenm/FreeBSD-test2/sys/cam/ctl/ctl_error.h#1 $
- * $FreeBSD: stable/10/sys/cam/ctl/ctl_error.h 268697 2014-07-15 17:18:50Z mav $
+ * $FreeBSD: releng/10.1/sys/cam/ctl/ctl_error.h 272203 2014-09-27 08:14:15Z mav $
  */
 /*
  * Function definitions for various error reporting routines used both
@@ -55,7 +55,7 @@ void ctl_sense_to_desc(struct scsi_sense_data_fixed *sense_src,
 void ctl_sense_to_fixed(struct scsi_sense_data_desc *sense_src,
 			struct scsi_sense_data_fixed *sense_dest);
 void ctl_set_ua(struct ctl_scsiio *ctsio, int asc, int ascq);
-ctl_ua_type ctl_build_ua(ctl_ua_type ua_type, struct scsi_sense_data *sense,
+ctl_ua_type ctl_build_ua(ctl_ua_type *ua_type, struct scsi_sense_data *sense,
 			 scsi_sense_data_type sense_format);
 void ctl_set_overlapped_cmd(struct ctl_scsiio *ctsio);
 void ctl_set_overlapped_tag(struct ctl_scsiio *ctsio, uint8_t tag);

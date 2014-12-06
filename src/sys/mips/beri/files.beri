@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/mips/beri/files.beri 270061 2014-08-16 14:30:46Z bz $
+# $FreeBSD: releng/10.1/sys/mips/beri/files.beri 270061 2014-08-16 14:30:46Z bz $
 dev/altera/atse/if_atse.c		optional altera_atse
 dev/altera/atse/if_atse_fdt.c		optional altera_atse fdt
 dev/altera/atse/if_atse_nexus.c		optional altera_atse

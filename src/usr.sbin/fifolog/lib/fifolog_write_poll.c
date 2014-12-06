@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/fifolog/lib/fifolog_write_poll.c 219123 2011-03-01 08:52:10Z phk $
+ * $FreeBSD: releng/10.1/usr.sbin/fifolog/lib/fifolog_write_poll.c 219123 2011-03-01 08:52:10Z phk $
  */
 
 #include <assert.h>

@@ -40,7 +40,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/make/dir.c 201526 2010-01-04 18:57:22Z obrien $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/make/dir.c 201526 2010-01-04 18:57:22Z obrien $");
 
 /*-
  * dir.c --

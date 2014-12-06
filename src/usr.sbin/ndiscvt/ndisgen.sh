@@ -30,7 +30,7 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
 # THE POSSIBILITY OF SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/usr.sbin/ndiscvt/ndisgen.sh 261021 2014-01-22 10:35:30Z glebius $
+# $FreeBSD: releng/10.1/usr.sbin/ndiscvt/ndisgen.sh 261021 2014-01-22 10:35:30Z glebius $
 #
 
 header () {

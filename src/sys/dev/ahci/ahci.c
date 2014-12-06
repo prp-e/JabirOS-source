@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ahci/ahci.c 271709 2014-09-17 14:17:39Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ahci/ahci.c 271709 2014-09-17 14:17:39Z mav $");
 
 #include <sys/param.h>
 #include <sys/module.h>

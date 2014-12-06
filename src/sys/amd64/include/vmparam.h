@@ -38,7 +38,7 @@
  * SUCH DAMAGE.
  *
  *	from: @(#)vmparam.h	5.9 (Berkeley) 5/12/91
- * $FreeBSD: stable/10/sys/amd64/include/vmparam.h 270693 2014-08-27 01:34:33Z kib $
+ * $FreeBSD: releng/10.1/sys/amd64/include/vmparam.h 270693 2014-08-27 01:34:33Z kib $
  */
 
 

@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/jexec/jexec.c 194869 2009-06-24 18:18:35Z jamie $
+ * $FreeBSD: releng/10.1/usr.sbin/jexec/jexec.c 194869 2009-06-24 18:18:35Z jamie $
  */
 
 #include <sys/param.h>

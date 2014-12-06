@@ -13,7 +13,7 @@
 # purpose.
 #
 
-# $FreeBSD: stable/10/sys/boot/i386/btx/lib/btxv86.s 50477 1999-08-28 01:08:13Z peter $
+# $FreeBSD: releng/10.1/sys/boot/i386/btx/lib/btxv86.s 50477 1999-08-28 01:08:13Z peter $
 
 #
 # BTX V86 interface.

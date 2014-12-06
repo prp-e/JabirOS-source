@@ -21,7 +21,7 @@
  *	netatalk@itd.umich.edu
  */
 
-/* $FreeBSD: stable/10/sys/netatalk/ddp_output.c 263478 2014-03-21 15:15:30Z glebius $ */
+/* $FreeBSD: releng/10.1/sys/netatalk/ddp_output.c 263478 2014-03-21 15:15:30Z glebius $ */
 
 #include <sys/param.h>
 #include <sys/systm.h>

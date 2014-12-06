@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/bin/getfacl/Makefile 87323 2001-12-04 01:57:47Z obrien $
+# $FreeBSD: releng/10.1/bin/getfacl/Makefile 87323 2001-12-04 01:57:47Z obrien $
 
 PROG=	getfacl
 

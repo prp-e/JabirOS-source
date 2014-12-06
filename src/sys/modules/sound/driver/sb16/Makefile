@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/sound/driver/sb16/Makefile 70711 2001-01-06 14:00:42Z obrien $
+# $FreeBSD: releng/10.1/sys/modules/sound/driver/sb16/Makefile 70711 2001-01-06 14:00:42Z obrien $
 
 .PATH: ${.CURDIR}/../../../../dev/sound/isa
 

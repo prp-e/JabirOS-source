@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/fs/devfs/devfs_int.h 240539 2012-09-15 19:28:54Z ed $
+ * $FreeBSD: releng/10.1/sys/fs/devfs/devfs_int.h 240539 2012-09-15 19:28:54Z ed $
  */
 
 /*

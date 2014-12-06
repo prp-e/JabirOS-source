@@ -21,7 +21,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/snapinfo/snapinfo.c 241015 2012-09-27 23:31:19Z mdf $
+ * $FreeBSD: releng/10.1/usr.sbin/snapinfo/snapinfo.c 241015 2012-09-27 23:31:19Z mdf $
  *
  */
 

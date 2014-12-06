@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/boot/fdt/dts/arm/rpi.dts 266340 2014-05-17 19:16:45Z loos $
+ * $FreeBSD: releng/10.1/sys/boot/fdt/dts/arm/rpi.dts 266340 2014-05-17 19:16:45Z loos $
  */
 /dts-v1/;
 

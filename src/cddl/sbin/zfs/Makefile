@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/cddl/sbin/zfs/Makefile 248571 2013-03-21 08:38:03Z mm $
+# $FreeBSD: releng/10.1/cddl/sbin/zfs/Makefile 248571 2013-03-21 08:38:03Z mm $
 
 .PATH: ${.CURDIR}/../../../cddl/contrib/opensolaris/cmd/zfs
 

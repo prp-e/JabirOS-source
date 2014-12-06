@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/tty_outq.c 223575 2011-06-26 18:26:20Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/tty_outq.c 223575 2011-06-26 18:26:20Z ed $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

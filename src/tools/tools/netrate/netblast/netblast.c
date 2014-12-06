@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/tools/netrate/netblast/netblast.c 227345 2011-11-08 17:23:43Z cognet $
+ * $FreeBSD: releng/10.1/tools/tools/netrate/netblast/netblast.c 227345 2011-11-08 17:23:43Z cognet $
  */
 
 #include <sys/endian.h>

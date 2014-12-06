@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/mps/mps_table.h 212420 2010-09-10 15:03:56Z ken $
+ * $FreeBSD: releng/10.1/sys/dev/mps/mps_table.h 212420 2010-09-10 15:03:56Z ken $
  */
 
 #ifndef _MPS_TABLE_H

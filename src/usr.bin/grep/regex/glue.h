@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/usr.bin/grep/regex/glue.h 226035 2011-10-05 09:56:43Z gabor $ */
+/* $FreeBSD: releng/10.1/usr.bin/grep/regex/glue.h 226035 2011-10-05 09:56:43Z gabor $ */
 
 #ifndef GLUE_H
 #define GLUE_H

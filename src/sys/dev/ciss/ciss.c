@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: stable/10/sys/dev/ciss/ciss.c 268955 2014-07-21 20:08:53Z sbruno $
+ *	$FreeBSD: releng/10.1/sys/dev/ciss/ciss.c 268955 2014-07-21 20:08:53Z sbruno $
  */
 
 /*

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/usb/atp/Makefile 199086 2009-11-09 15:59:09Z rpaulo $
+# $FreeBSD: releng/10.1/sys/modules/usb/atp/Makefile 199086 2009-11-09 15:59:09Z rpaulo $
 
 S=     ${.CURDIR}/../../..
 

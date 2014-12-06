@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libc/iconv/bsd_iconv.c 267665 2014-06-20 07:32:03Z tijl $ */
+/* $FreeBSD: releng/10.1/lib/libc/iconv/bsd_iconv.c 267665 2014-06-20 07:32:03Z tijl $ */
 /* $NetBSD: iconv.c,v 1.11 2009/03/03 16:22:33 explorer Exp $ */
 
 /*-

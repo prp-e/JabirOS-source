@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/boot/uboot/lib/libuboot.h 265071 2014-04-29 00:45:42Z ian $
+ * $FreeBSD: releng/10.1/sys/boot/uboot/lib/libuboot.h 265071 2014-04-29 00:45:42Z ian $
  */
 
 struct uboot_devdesc

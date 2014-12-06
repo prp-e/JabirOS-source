@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/4/93
-# $FreeBSD: stable/10/lib/libkvm/Makefile 253167 2013-07-10 19:44:43Z trociny $
+# $FreeBSD: releng/10.1/lib/libkvm/Makefile 253167 2013-07-10 19:44:43Z trociny $
 
 LIB=	kvm
 SHLIBDIR?= /lib

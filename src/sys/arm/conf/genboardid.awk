@@ -1,5 +1,5 @@
 #!/bin/awk
-# $FreeBSD: stable/10/sys/arm/conf/genboardid.awk 235234 2012-05-10 18:06:00Z imp $
+# $FreeBSD: releng/10.1/sys/arm/conf/genboardid.awk 235234 2012-05-10 18:06:00Z imp $
 
 #-
 # Copyright (c) 2012 M. Warner Losh.  All Rights Reserved.

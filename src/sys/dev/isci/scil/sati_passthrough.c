@@ -51,7 +51,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/isci/scil/sati_passthrough.c 265570 2014-05-07 16:56:20Z jimharris $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/isci/scil/sati_passthrough.c 265570 2014-05-07 16:56:20Z jimharris $");
 
 /**
  * @file

@@ -30,7 +30,7 @@
   POSSIBILITY OF SUCH DAMAGE.
 
 ******************************************************************************/
-/*$FreeBSD: stable/10/sys/dev/ixgbe/ixgbe_x540.c 251964 2013-06-18 21:28:19Z jfv $*/
+/*$FreeBSD: releng/10.1/sys/dev/ixgbe/ixgbe_x540.c 251964 2013-06-18 21:28:19Z jfv $*/
 
 #include "ixgbe_x540.h"
 #include "ixgbe_type.h"

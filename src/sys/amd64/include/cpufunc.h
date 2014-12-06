@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/include/cpufunc.h 255331 2013-09-06 22:17:02Z gibbs $
+ * $FreeBSD: releng/10.1/sys/amd64/include/cpufunc.h 255331 2013-09-06 22:17:02Z gibbs $
  */
 
 /*

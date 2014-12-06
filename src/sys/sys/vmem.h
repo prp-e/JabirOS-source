@@ -25,7 +25,7 @@
  */
 /* From	$NetBSD: vmem.h,v 1.20 2013/01/29 21:26:24 para Exp $	*/
 
-/* $FreeBSD: stable/10/sys/sys/vmem.h 252330 2013-06-28 03:51:20Z jeff $ */
+/* $FreeBSD: releng/10.1/sys/sys/vmem.h 252330 2013-06-28 03:51:20Z jeff $ */
 
 #ifndef _SYS_VMEM_H_
 #define	_SYS_VMEM_H_

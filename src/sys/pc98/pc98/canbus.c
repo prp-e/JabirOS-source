@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/pc98/pc98/canbus.c 249586 2013-04-17 11:47:32Z gabor $
+ * $FreeBSD: releng/10.1/sys/pc98/pc98/canbus.c 249586 2013-04-17 11:47:32Z gabor $
  */
 
 #include <sys/param.h>

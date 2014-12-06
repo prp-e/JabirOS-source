@@ -1,6 +1,6 @@
 FAT template boot filesystem created by generate-fat.sh
 DO NOT EDIT
-$FreeBSD: stable/10/sys/boot/amd64/boot1.efi/fat.tmpl.bz2.uu 271136 2014-09-04 21:05:04Z emaste $
+$FreeBSD: releng/10.1/sys/boot/amd64/boot1.efi/fat.tmpl.bz2.uu 271136 2014-09-04 21:05:04Z emaste $
 begin 644 fat.tmpl.bz2
 M0EIH.3%!62936?1V`!$`&J7____[ZZKJJ_^N_ZO^Z_^[ON_\`4`00!0$#$$"
 M0D)$6&(<P`(Y=SNY1(2DHTC":::-`!H`&@-````#)IH#3(&@:`!IIDT--,@E

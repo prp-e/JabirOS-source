@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/fs/pseudofs/pseudofs_vnops.c 259506 2013-12-17 13:10:28Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/fs/pseudofs/pseudofs_vnops.c 259506 2013-12-17 13:10:28Z kib $");
 
 #include "opt_pseudofs.h"
 

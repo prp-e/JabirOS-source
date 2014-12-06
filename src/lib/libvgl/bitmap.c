@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libvgl/bitmap.c 229784 2012-01-07 16:13:56Z uqs $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libvgl/bitmap.c 229784 2012-01-07 16:13:56Z uqs $");
 
 #include <sys/types.h>
 #include <signal.h>

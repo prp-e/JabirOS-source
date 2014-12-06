@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/siba/sibareg.h 203944 2010-02-16 01:22:33Z weongyo $
+ * $FreeBSD: releng/10.1/sys/dev/siba/sibareg.h 203944 2010-02-16 01:22:33Z weongyo $
  */
 
 /*

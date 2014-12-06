@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/locale/xlocale.c 232498 2012-03-04 15:31:13Z theraven $
+ * $FreeBSD: releng/10.1/lib/libc/locale/xlocale.c 232498 2012-03-04 15:31:13Z theraven $
  */
 
 #include <pthread.h>

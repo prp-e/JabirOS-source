@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/tzsetup/Makefile 262643 2014-03-01 03:09:16Z brooks $
+# $FreeBSD: releng/10.1/usr.sbin/tzsetup/Makefile 262643 2014-03-01 03:09:16Z brooks $
 
 PROG=	tzsetup
 MAN=	tzsetup.8

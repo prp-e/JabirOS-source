@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/ppp/cbcp.c 228990 2011-12-30 10:58:14Z uqs $
+ * $FreeBSD: releng/10.1/usr.sbin/ppp/cbcp.c 228990 2011-12-30 10:58:14Z uqs $
  */
 
 #include <sys/param.h>

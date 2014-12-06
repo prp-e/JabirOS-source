@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/siis/siis.h 220830 2011-04-19 10:57:40Z mav $
+ * $FreeBSD: releng/10.1/sys/dev/siis/siis.h 220830 2011-04-19 10:57:40Z mav $
  */
 
 /* ATA register defines */

@@ -1,5 +1,5 @@
 # $Id: Makefile,v 1.6 2003/08/14 20:06:24 max Exp $
-# $FreeBSD: stable/10/usr.sbin/bluetooth/l2ping/Makefile 140941 2005-01-28 16:08:11Z ru $
+# $FreeBSD: releng/10.1/usr.sbin/bluetooth/l2ping/Makefile 140941 2005-01-28 16:08:11Z ru $
 
 PROG=		l2ping
 MAN=		l2ping.8

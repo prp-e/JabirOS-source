@@ -30,7 +30,7 @@
  *
  * Author: Julian Elischer <julian@freebsd.org>
  *
- * $FreeBSD: stable/10/sys/netgraph/ng_etf.c 220768 2011-04-18 09:12:27Z glebius $
+ * $FreeBSD: releng/10.1/sys/netgraph/ng_etf.c 220768 2011-04-18 09:12:27Z glebius $
  */
 
 #include <sys/param.h>

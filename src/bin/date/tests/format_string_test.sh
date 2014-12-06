@@ -3,7 +3,7 @@
 #
 # Submitted by Edwin Groothuis <edwin@FreeBSD.org>
 #
-# $FreeBSD: stable/10/bin/date/tests/format_string_test.sh 270779 2014-08-29 02:21:02Z ngie $
+# $FreeBSD: releng/10.1/bin/date/tests/format_string_test.sh 270779 2014-08-29 02:21:02Z ngie $
 #
 
 #

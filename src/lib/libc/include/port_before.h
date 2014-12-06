@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libc/include/port_before.h 270838 2014-08-30 10:16:25Z ume $ */
+/* $FreeBSD: releng/10.1/lib/libc/include/port_before.h 270838 2014-08-30 10:16:25Z ume $ */
 
 #ifndef _PORT_BEFORE_H_
 #define _PORT_BEFORE_H_

@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/uart/uart_cpu_sparc64.c 229272 2012-01-02 12:12:10Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/uart/uart_cpu_sparc64.c 229272 2012-01-02 12:12:10Z ed $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

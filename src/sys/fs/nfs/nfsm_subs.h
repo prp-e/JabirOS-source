@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/fs/nfs/nfsm_subs.h 249592 2013-04-17 21:00:22Z ken $
+ * $FreeBSD: releng/10.1/sys/fs/nfs/nfsm_subs.h 249592 2013-04-17 21:00:22Z ken $
  */
 
 #ifndef _NFS_NFSM_SUBS_H_

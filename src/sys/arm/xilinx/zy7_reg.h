@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/xilinx/zy7_reg.h 266379 2014-05-17 23:25:20Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/xilinx/zy7_reg.h 266379 2014-05-17 23:25:20Z ian $
  */
 
 /*

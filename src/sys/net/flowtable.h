@@ -25,7 +25,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/net/flowtable.h 262743 2014-03-04 15:14:47Z glebius $
+ * $FreeBSD: releng/10.1/sys/net/flowtable.h 262743 2014-03-04 15:14:47Z glebius $
  *
  */
 

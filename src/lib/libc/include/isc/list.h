@@ -15,7 +15,7 @@
  * OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-/* $FreeBSD: stable/10/lib/libc/include/isc/list.h 270838 2014-08-30 10:16:25Z ume $ */
+/* $FreeBSD: releng/10.1/lib/libc/include/isc/list.h 270838 2014-08-30 10:16:25Z ume $ */
 
 #ifndef LIST_H
 #define LIST_H 1

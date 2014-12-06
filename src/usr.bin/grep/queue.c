@@ -1,5 +1,5 @@
 /*	$NetBSD: queue.c,v 1.5 2011/08/31 16:24:57 plunky Exp $	*/
-/*	$FreeBSD: stable/10/usr.bin/grep/queue.c 268966 2014-07-21 22:59:40Z pfg $	*/
+/*	$FreeBSD: releng/10.1/usr.bin/grep/queue.c 268966 2014-07-21 22:59:40Z pfg $	*/
 
 /*-
  * Copyright (c) 1999 James Howard and Dag-Erling Coïdan Smørgrav
@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/grep/queue.c 268966 2014-07-21 22:59:40Z pfg $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/grep/queue.c 268966 2014-07-21 22:59:40Z pfg $");
 
 #include <sys/param.h>
 #include <sys/queue.h>

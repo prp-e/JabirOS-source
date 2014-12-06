@@ -41,7 +41,7 @@
 #include <dev/sound/midi/mpu401.h>
 #include "mpufoi_if.h"
 
-SND_DECLARE_FILE("$FreeBSD: stable/10/sys/dev/sound/pci/emu10k1.c 267043 2014-06-04 09:54:01Z marius $");
+SND_DECLARE_FILE("$FreeBSD: releng/10.1/sys/dev/sound/pci/emu10k1.c 267043 2014-06-04 09:54:01Z marius $");
 
 /* -------------------------------------------------------------------- */
 

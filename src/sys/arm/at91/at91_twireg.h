@@ -23,7 +23,7 @@
  * SUCH DAMAGE.
  */
 
-/* $FreeBSD: stable/10/sys/arm/at91/at91_twireg.h 234291 2012-04-14 17:09:38Z marius $ */
+/* $FreeBSD: releng/10.1/sys/arm/at91/at91_twireg.h 234291 2012-04-14 17:09:38Z marius $ */
 
 #ifndef ARM_AT91_AT91_TWIREG_H
 #define	ARM_AT91_AT91_TWIREG_H

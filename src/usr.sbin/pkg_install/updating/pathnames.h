@@ -6,7 +6,7 @@
  * this stuff is worth it, you can buy me a beer in return.          Beat Gätzi
  * ----------------------------------------------------------------------------
  *
- * $FreeBSD: stable/10/usr.sbin/pkg_install/updating/pathnames.h 228976 2011-12-30 00:59:08Z uqs $
+ * $FreeBSD: releng/10.1/usr.sbin/pkg_install/updating/pathnames.h 228976 2011-12-30 00:59:08Z uqs $
  *
  */
 

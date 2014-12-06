@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/dtc/dtc.cc 254522 2013-08-19 12:37:13Z theraven $
+ * $FreeBSD: releng/10.1/usr.bin/dtc/dtc.cc 254522 2013-08-19 12:37:13Z theraven $
  */
 
 #include <sys/resource.h>

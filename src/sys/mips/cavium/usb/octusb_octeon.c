@@ -1,5 +1,5 @@
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/cavium/usb/octusb_octeon.c 232812 2012-03-11 06:17:49Z jmallett $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/cavium/usb/octusb_octeon.c 232812 2012-03-11 06:17:49Z jmallett $");
 
 /*-
  * Copyright (c) 2007-2008 Hans Petter Selasky. All rights reserved.

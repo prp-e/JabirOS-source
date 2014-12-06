@@ -40,7 +40,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/dhclient/dispatch.c 195805 2009-07-21 15:06:10Z sam $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/dhclient/dispatch.c 195805 2009-07-21 15:06:10Z sam $");
 
 #include "dhcpd.h"
 

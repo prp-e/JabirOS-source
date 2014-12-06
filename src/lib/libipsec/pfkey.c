@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libipsec/pfkey.c 231532 2012-02-11 20:43:01Z bz $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libipsec/pfkey.c 231532 2012-02-11 20:43:01Z bz $");
 
 #include <sys/types.h>
 #include <sys/param.h>

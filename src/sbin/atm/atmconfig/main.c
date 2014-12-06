@@ -27,7 +27,7 @@
  * Author: Hartmut Brandt <harti@freebsd.org>
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/atm/atmconfig/main.c 270824 2014-08-29 18:26:55Z ngie $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/atm/atmconfig/main.c 270824 2014-08-29 18:26:55Z ngie $");
 
 #include <sys/types.h>
 #include <sys/sysctl.h>

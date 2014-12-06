@@ -25,7 +25,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/compat/linux/linux_sysproto.h 143197 2005-03-07 00:18:06Z sobomax $
+ * $FreeBSD: releng/10.1/sys/compat/linux/linux_sysproto.h 143197 2005-03-07 00:18:06Z sobomax $
  */
 
 #ifndef LINUX_SYSPROTO

@@ -28,7 +28,7 @@
 
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/ti/aintc.c 266755 2014-05-27 16:17:25Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/ti/aintc.c 266755 2014-05-27 16:17:25Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -28,7 +28,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/powerpc64/gen/fpgetsticky.c 251091 2013-05-29 01:54:10Z emaste $
+ * $FreeBSD: releng/10.1/lib/libc/powerpc64/gen/fpgetsticky.c 251091 2013-05-29 01:54:10Z emaste $
  */
 
 #include <sys/cdefs.h>

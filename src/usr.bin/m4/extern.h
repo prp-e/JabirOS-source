@@ -33,7 +33,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)extern.h	8.1 (Berkeley) 6/6/93
- * $FreeBSD: stable/10/usr.bin/m4/extern.h 250226 2013-05-03 23:29:38Z jkim $
+ * $FreeBSD: releng/10.1/usr.bin/m4/extern.h 250226 2013-05-03 23:29:38Z jkim $
  */
 
 /* eval.c */

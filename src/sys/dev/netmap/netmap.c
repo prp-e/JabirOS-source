@@ -25,7 +25,7 @@
 
 
 /*
- * $FreeBSD: stable/10/sys/dev/netmap/netmap.c 270252 2014-08-20 23:34:36Z luigi $
+ * $FreeBSD: releng/10.1/sys/dev/netmap/netmap.c 270252 2014-08-20 23:34:36Z luigi $
  *
  * This module supports memory mapped access to network devices,
  * see netmap(4).

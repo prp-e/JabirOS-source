@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/Makefile.sparc64 252356 2013-06-28 21:00:08Z davide $
+# $FreeBSD: releng/10.1/usr.sbin/Makefile.sparc64 252356 2013-06-28 21:00:08Z davide $
 
 SUBDIR+=	eeprom
 SUBDIR+=	mount_smbfs

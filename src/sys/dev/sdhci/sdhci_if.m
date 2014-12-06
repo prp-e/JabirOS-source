@@ -50,7 +50,7 @@
 # or the SD Card Association to disclose or distribute any technical
 # information, know-how or other confidential information to any third party.
 #
-# $FreeBSD: stable/10/sys/dev/sdhci/sdhci_if.m 271051 2014-09-03 20:07:26Z marius $
+# $FreeBSD: releng/10.1/sys/dev/sdhci/sdhci_if.m 271051 2014-09-03 20:07:26Z marius $
 #
 
 #

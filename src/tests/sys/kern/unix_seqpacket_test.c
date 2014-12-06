@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tests/sys/kern/unix_seqpacket_test.c 264607 2014-04-17 13:11:56Z jmmv $");
+__FBSDID("$FreeBSD: releng/10.1/tests/sys/kern/unix_seqpacket_test.c 264607 2014-04-17 13:11:56Z jmmv $");
 
 #include <errno.h>
 #include <fcntl.h>

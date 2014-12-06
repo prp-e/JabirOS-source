@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/aic7xxx/ahc_isa.c 249574 2013-04-17 02:33:56Z neel $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/aic7xxx/ahc_isa.c 249574 2013-04-17 02:33:56Z neel $");
 
 #include <dev/aic7xxx/aic7xxx_osm.h>
 

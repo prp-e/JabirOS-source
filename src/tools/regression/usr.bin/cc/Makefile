@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/regression/usr.bin/cc/Makefile 230368 2012-01-20 06:57:21Z das $
+# $FreeBSD: releng/10.1/tools/regression/usr.bin/cc/Makefile 230368 2012-01-20 06:57:21Z das $
 
 TESTS=	float
 CFLAGS+=-lm

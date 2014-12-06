@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/lib/libgcc/Makefile 271125 2014-09-04 20:02:28Z ngie $
+# $FreeBSD: releng/10.1/gnu/lib/libgcc/Makefile 271125 2014-09-04 20:02:28Z ngie $
 
 GCCDIR=	${.CURDIR}/../../../contrib/gcc
 GCCLIB=	${.CURDIR}/../../../contrib/gcclibs

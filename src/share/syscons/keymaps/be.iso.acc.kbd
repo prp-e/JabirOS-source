@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/syscons/keymaps/be.iso.acc.kbd 270307 2014-08-21 21:48:33Z se $
+# $FreeBSD: releng/10.1/share/syscons/keymaps/be.iso.acc.kbd 270307 2014-08-21 21:48:33Z se $
 #                                                         alt
 # scan                       cntrl          alt    alt   cntrl lock
 # code  base   shift  cntrl  shift  alt    shift  cntrl  shift state

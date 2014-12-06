@@ -27,7 +27,7 @@
 #include "opt_geom.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/geom/part/g_part_ebr.c 265912 2014-05-12 12:04:44Z ae $");
+__FBSDID("$FreeBSD: releng/10.1/sys/geom/part/g_part_ebr.c 265912 2014-05-12 12:04:44Z ae $");
 
 #include <sys/param.h>
 #include <sys/bio.h>

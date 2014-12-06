@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/rc.d/devd 263963 2014-03-31 02:53:15Z mjg $
+# $FreeBSD: releng/10.1/etc/rc.d/devd 263963 2014-03-31 02:53:15Z mjg $
 #
 
 # PROVIDE: devd

@@ -28,7 +28,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/net80211/tkip/test_tkip.c 241394 2012-10-10 08:36:38Z kevlo $
+ * $FreeBSD: releng/10.1/tools/regression/net80211/tkip/test_tkip.c 241394 2012-10-10 08:36:38Z kevlo $
  */
 
 /*

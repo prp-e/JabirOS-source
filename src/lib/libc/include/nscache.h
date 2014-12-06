@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/include/nscache.h 158115 2006-04-28 12:03:38Z ume $
+ * $FreeBSD: releng/10.1/lib/libc/include/nscache.h 158115 2006-04-28 12:03:38Z ume $
  */
 
 #ifndef __NS_CACHE_H__

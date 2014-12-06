@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libc/capability/Makefile.inc 257771 2013-11-06 23:59:19Z pjd $
+# $FreeBSD: releng/10.1/lib/libc/capability/Makefile.inc 257771 2013-11-06 23:59:19Z pjd $
 
 # capability sources
 .PATH: ${.CURDIR}/../../sys/kern ${.CURDIR}/capability

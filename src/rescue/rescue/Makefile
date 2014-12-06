@@ -1,4 +1,4 @@
-#$FreeBSD: stable/10/rescue/rescue/Makefile 270997 2014-09-03 08:03:26Z delphij $
+#$FreeBSD: releng/10.1/rescue/rescue/Makefile 270997 2014-09-03 08:03:26Z delphij $
 #	@(#)Makefile	8.1 (Berkeley) 6/2/93
 
 NO_MAN=

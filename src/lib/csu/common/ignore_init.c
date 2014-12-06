@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/csu/common/ignore_init.c 245133 2013-01-07 17:58:27Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/lib/csu/common/ignore_init.c 245133 2013-01-07 17:58:27Z kib $");
 
 #include "notes.h"
 

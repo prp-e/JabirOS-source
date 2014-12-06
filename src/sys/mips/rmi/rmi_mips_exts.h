@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  * RMI_BSD
- * $FreeBSD: stable/10/sys/mips/rmi/rmi_mips_exts.h 213441 2010-10-05 05:49:38Z jchandra $
+ * $FreeBSD: releng/10.1/sys/mips/rmi/rmi_mips_exts.h 213441 2010-10-05 05:49:38Z jchandra $
  */
 #ifndef __MIPS_EXTS_H__
 #define	__MIPS_EXTS_H__

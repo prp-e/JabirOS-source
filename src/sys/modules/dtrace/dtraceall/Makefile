@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/dtrace/dtraceall/Makefile 253996 2013-08-06 15:51:56Z avg $
+# $FreeBSD: releng/10.1/sys/modules/dtrace/dtraceall/Makefile 253996 2013-08-06 15:51:56Z avg $
 
 KMOD=		dtraceall
 SRCS=		dtraceall.c opt_compat.h opt_nfs.h

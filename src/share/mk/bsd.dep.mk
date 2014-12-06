@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/mk/bsd.dep.mk 270408 2014-08-23 14:42:49Z des $
+# $FreeBSD: releng/10.1/share/mk/bsd.dep.mk 270408 2014-08-23 14:42:49Z des $
 #
 # The include file <bsd.dep.mk> handles Makefile dependencies.
 #

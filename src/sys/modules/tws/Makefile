@@ -1,5 +1,5 @@
 # Makefile for tws (LSI 3ware 9750 SAS2/SATA-II RAID PCIe) driver
-# $FreeBSD: stable/10/sys/modules/tws/Makefile 226026 2011-10-04 21:40:25Z delphij $
+# $FreeBSD: releng/10.1/sys/modules/tws/Makefile 226026 2011-10-04 21:40:25Z delphij $
 
 KMOD=	tws
 .PATH:	${.CURDIR}/../../dev/${KMOD}

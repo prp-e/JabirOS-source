@@ -33,7 +33,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)mdef.h	8.1 (Berkeley) 6/6/93
- * $FreeBSD: stable/10/usr.bin/m4/mdef.h 228063 2011-11-28 13:32:39Z bapt $
+ * $FreeBSD: releng/10.1/usr.bin/m4/mdef.h 228063 2011-11-28 13:32:39Z bapt $
  */
 
 #ifdef __GNUC__

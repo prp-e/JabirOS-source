@@ -1,6 +1,6 @@
 #!/bin/sh
 # This file is in the public domain
-# $FreeBSD: stable/10/tools/tools/build_option_survey/mkhtml.sh 157132 2006-03-25 21:51:46Z phk $
+# $FreeBSD: releng/10.1/tools/tools/build_option_survey/mkhtml.sh 157132 2006-03-25 21:51:46Z phk $
 
 set -e
 

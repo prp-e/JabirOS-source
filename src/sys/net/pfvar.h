@@ -27,7 +27,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  *	$OpenBSD: pfvar.h,v 1.282 2009/01/29 15:12:28 pyr Exp $
- *	$FreeBSD: stable/10/sys/net/pfvar.h 270574 2014-08-25 15:40:37Z glebius $
+ *	$FreeBSD: releng/10.1/sys/net/pfvar.h 270574 2014-08-25 15:40:37Z glebius $
  */
 
 #ifndef _NET_PFVAR_H_

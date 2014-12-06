@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/sys/modules/cxgbe/t5_firmware/Makefile 270297 2014-08-21 19:54:02Z np $
+# $FreeBSD: releng/10.1/sys/modules/cxgbe/t5_firmware/Makefile 270297 2014-08-21 19:54:02Z np $
 #
 
 T5FW=	${.CURDIR}/../../../dev/cxgbe/firmware

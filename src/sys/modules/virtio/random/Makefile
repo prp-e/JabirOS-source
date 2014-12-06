@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/sys/modules/virtio/random/Makefile 260847 2014-01-18 06:14:38Z bryanv $
+# $FreeBSD: releng/10.1/sys/modules/virtio/random/Makefile 260847 2014-01-18 06:14:38Z bryanv $
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions

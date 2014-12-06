@@ -41,7 +41,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/vfs_vnops.c 269171 2014-07-28 01:11:29Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/vfs_vnops.c 272187 2014-09-26 20:05:28Z mjg $");
 
 #include <sys/param.h>
 #include <sys/systm.h>
@@ -438,7 +438,8 @@ static int
 sequential_heuristic(struct uio *uio, struct file *fp)
 {
 
-	if (atomic_load_acq_int(&(fp->f_flag)) & FRDAHEAD)
+	ASSERT_VOP_LOCKED(fp->f_vnode, __func__);
+	if (fp->f_flag & FRDAHEAD)
 		return (fp->f_seqcount << IO_SEQSHIFT);
 
 	/*

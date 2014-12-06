@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/autofs/autounmountd.c 270897 2014-08-31 21:48:12Z trasz $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/autofs/autounmountd.c 270897 2014-08-31 21:48:12Z trasz $");
 
 #include <sys/types.h>
 #include <sys/event.h>

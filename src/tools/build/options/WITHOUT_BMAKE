@@ -1,4 +1,4 @@
-.\" $FreeBSD: stable/10/tools/build/options/WITHOUT_BMAKE 264572 2014-04-16 23:12:35Z jmmv $
+.\" $FreeBSD: releng/10.1/tools/build/options/WITHOUT_BMAKE 264572 2014-04-16 23:12:35Z jmmv $
 Set to not build and install the portable BSD make (bmake) as
 .Xr make 1
 instead of the traditional FreeBSD make.

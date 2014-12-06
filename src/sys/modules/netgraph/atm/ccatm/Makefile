@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/netgraph/atm/ccatm/Makefile 220712 2011-04-16 11:15:57Z brucec $
+# $FreeBSD: releng/10.1/sys/modules/netgraph/atm/ccatm/Makefile 220712 2011-04-16 11:15:57Z brucec $
 #
 # Author: Harti Brandt <harti@freebsd.org>
 #

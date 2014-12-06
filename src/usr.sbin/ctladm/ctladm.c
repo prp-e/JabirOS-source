@@ -41,7 +41,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/ctladm/ctladm.c 269070 2014-07-24 15:48:18Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/ctladm/ctladm.c 269070 2014-07-24 15:48:18Z mav $");
 
 #include <sys/ioctl.h>
 #include <sys/types.h>

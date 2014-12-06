@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/cddl/usr.bin/zinject/Makefile 268649 2014-07-15 04:53:34Z delphij $
+# $FreeBSD: releng/10.1/cddl/usr.bin/zinject/Makefile 268649 2014-07-15 04:53:34Z delphij $
 
 .PATH: ${.CURDIR}/../../contrib/opensolaris/cmd/zinject
 

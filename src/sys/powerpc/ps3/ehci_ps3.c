@@ -22,11 +22,11 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/ps3/ehci_ps3.c 228483 2011-12-14 00:28:54Z hselasky $
+ * $FreeBSD: releng/10.1/sys/powerpc/ps3/ehci_ps3.c 228483 2011-12-14 00:28:54Z hselasky $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/ps3/ehci_ps3.c 228483 2011-12-14 00:28:54Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/ps3/ehci_ps3.c 228483 2011-12-14 00:28:54Z hselasky $");
 
 #include <sys/stdint.h>
 #include <sys/stddef.h>

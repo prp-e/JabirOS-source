@@ -3,7 +3,7 @@
 # RISC Implementation) FPGA soft core, as configured in its NetFPGA reference
 # configuration.
 #
-# $FreeBSD: stable/10/sys/mips/conf/BERI_NETFPGA_MDROOT 270061 2014-08-16 14:30:46Z bz $
+# $FreeBSD: releng/10.1/sys/mips/conf/BERI_NETFPGA_MDROOT 270061 2014-08-16 14:30:46Z bz $
 #
 
 include "BERI_TEMPLATE"

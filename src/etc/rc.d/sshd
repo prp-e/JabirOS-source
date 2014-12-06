@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/rc.d/sshd 262566 2014-02-27 17:29:02Z des $
+# $FreeBSD: releng/10.1/etc/rc.d/sshd 262566 2014-02-27 17:29:02Z des $
 #
 
 # PROVIDE: sshd

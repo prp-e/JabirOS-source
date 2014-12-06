@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/contrib/less/forwback.c 238730 2012-07-24 01:09:11Z delphij $ */
+/* $FreeBSD: releng/10.1/contrib/less/forwback.c 238730 2012-07-24 01:09:11Z delphij $ */
 /*
  * Copyright (C) 1984-2012  Mark Nudelman
  *

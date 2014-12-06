@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libmp/Makefile 270285 2014-08-21 17:32:38Z ngie $
+# $FreeBSD: releng/10.1/lib/libmp/Makefile 270285 2014-08-21 17:32:38Z ngie $
 
 .include <bsd.own.mk>
 

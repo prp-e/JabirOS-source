@@ -1,5 +1,5 @@
 #	From: @(#)Makefile	5.20 (Berkeley) 6/12/93
-# $FreeBSD: stable/10/usr.sbin/Makefile 270892 2014-08-31 21:18:23Z trasz $
+# $FreeBSD: releng/10.1/usr.sbin/Makefile 270892 2014-08-31 21:18:23Z trasz $
 
 .include <bsd.own.mk>
 

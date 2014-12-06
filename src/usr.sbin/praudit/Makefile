@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/usr.sbin/praudit/Makefile 201390 2010-01-02 11:07:44Z ed $
+# $FreeBSD: releng/10.1/usr.sbin/praudit/Makefile 201390 2010-01-02 11:07:44Z ed $
 #
 
 OPENBSMDIR=${.CURDIR}/../../contrib/openbsm

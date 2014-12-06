@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/etherswitch/rtl8366/rtl8366rbvar.h 235288 2012-05-11 20:53:20Z adrian $
+ * $FreeBSD: releng/10.1/sys/dev/etherswitch/rtl8366/rtl8366rbvar.h 235288 2012-05-11 20:53:20Z adrian $
  */
 
 #ifndef _DEV_ETHERSWITCH_RTL8366RBVAR_H_

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/usr.bin/grep/Makefile 270776 2014-08-29 01:20:31Z gjb $
+# $FreeBSD: releng/10.1/gnu/usr.bin/grep/Makefile 270776 2014-08-29 01:20:31Z gjb $
 
 .include <bsd.own.mk>
 

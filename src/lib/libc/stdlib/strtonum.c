@@ -18,7 +18,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/stdlib/strtonum.c 270033 2014-08-16 01:03:51Z pfg $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/stdlib/strtonum.c 270033 2014-08-16 01:03:51Z pfg $");
 
 #include <errno.h>
 #include <limits.h>

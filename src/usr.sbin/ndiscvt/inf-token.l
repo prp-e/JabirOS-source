@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/ndiscvt/inf-token.l 250227 2013-05-03 23:51:32Z jkim $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/ndiscvt/inf-token.l 250227 2013-05-03 23:51:32Z jkim $");
 
 #include <regex.h>
 #include <ctype.h>

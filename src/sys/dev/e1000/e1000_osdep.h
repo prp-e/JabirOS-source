@@ -30,7 +30,7 @@
   POSSIBILITY OF SUCH DAMAGE.
 
 ******************************************************************************/
-/*$FreeBSD: stable/10/sys/dev/e1000/e1000_osdep.h 269196 2014-07-28 21:11:18Z jfv $*/
+/*$FreeBSD: releng/10.1/sys/dev/e1000/e1000_osdep.h 269196 2014-07-28 21:11:18Z jfv $*/
 
 
 #ifndef _FREEBSD_OS_H_

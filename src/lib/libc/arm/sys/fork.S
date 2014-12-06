@@ -32,7 +32,7 @@
  */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/arm/sys/fork.S 137464 2004-11-09 16:49:14Z cognet $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/arm/sys/fork.S 137464 2004-11-09 16:49:14Z cognet $");
 #include "SYS.h"
 
 /*

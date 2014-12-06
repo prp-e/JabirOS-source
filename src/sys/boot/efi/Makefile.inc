@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/efi/Makefile.inc 271135 2014-09-04 21:01:10Z emaste $
+# $FreeBSD: releng/10.1/sys/boot/efi/Makefile.inc 271135 2014-09-04 21:01:10Z emaste $
 
 BINDIR?=	/boot
 

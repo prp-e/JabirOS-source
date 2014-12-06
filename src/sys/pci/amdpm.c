@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/pci/amdpm.c 179622 2008-06-06 18:29:56Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/pci/amdpm.c 179622 2008-06-06 18:29:56Z jhb $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

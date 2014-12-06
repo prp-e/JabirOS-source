@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libthr/thread/thr_cancel.c 251985 2013-06-19 04:47:41Z kib $
+ * $FreeBSD: releng/10.1/lib/libthr/thread/thr_cancel.c 251985 2013-06-19 04:47:41Z kib $
  *
  */
 

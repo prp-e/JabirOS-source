@@ -41,7 +41,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/security/mac/mac_audit.c 191731 2009-05-01 21:05:40Z rwatson $");
+__FBSDID("$FreeBSD: releng/10.1/sys/security/mac/mac_audit.c 191731 2009-05-01 21:05:40Z rwatson $");
 
 #include "opt_kdtrace.h"
 

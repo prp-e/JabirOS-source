@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/include/iconv.h 258750 2013-11-29 19:44:30Z gjb $	*/
+/*	$FreeBSD: releng/10.1/include/iconv.h 258750 2013-11-29 19:44:30Z gjb $	*/
 /*	$NetBSD: iconv.h,v 1.6 2005/02/03 04:39:32 perry Exp $	*/
 
 /*-

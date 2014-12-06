@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/chmod/00.t 211336 2010-08-15 14:44:48Z pjd $
+# $FreeBSD: releng/10.1/tools/regression/pjdfstest/tests/chmod/00.t 211336 2010-08-15 14:44:48Z pjd $
 
 desc="chmod changes permission"
 

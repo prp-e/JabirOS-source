@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/powermac/platform_powermac.c 266020 2014-05-14 14:17:51Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/powermac/platform_powermac.c 266020 2014-05-14 14:17:51Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

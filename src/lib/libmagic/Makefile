@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libmagic/Makefile 268515 2014-07-11 00:00:00Z delphij $
+# $FreeBSD: releng/10.1/lib/libmagic/Makefile 268515 2014-07-11 00:00:00Z delphij $
 # Copyright (c) David E. O'Brien, 2000-2004, 2006, 2009
 
 CONTRDIR=	${.CURDIR}/../../contrib/file

@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/sio/sio_puc.c 185059 2008-11-18 21:01:54Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/sio/sio_puc.c 185059 2008-11-18 21:01:54Z jhb $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

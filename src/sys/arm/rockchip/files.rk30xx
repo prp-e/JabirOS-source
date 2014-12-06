@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/arm/rockchip/files.rk30xx 266397 2014-05-18 13:05:07Z ian $
+# $FreeBSD: releng/10.1/sys/arm/rockchip/files.rk30xx 266397 2014-05-18 13:05:07Z ian $
 kern/kern_clocksource.c			standard
 
 arm/arm/bus_space_asm_generic.S		standard

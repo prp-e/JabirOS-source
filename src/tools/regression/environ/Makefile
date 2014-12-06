@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/tools/regression/environ/Makefile 171195 2007-07-04 00:00:41Z scf $
+# $FreeBSD: releng/10.1/tools/regression/environ/Makefile 171195 2007-07-04 00:00:41Z scf $
 #
 PROGS=	envctl retention timings
 

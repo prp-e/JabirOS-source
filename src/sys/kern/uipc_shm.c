@@ -42,7 +42,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/uipc_shm.c 271399 2014-09-10 15:45:18Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/uipc_shm.c 271399 2014-09-10 15:45:18Z jhb $");
 
 #include "opt_capsicum.h"
 #include "opt_ktrace.h"

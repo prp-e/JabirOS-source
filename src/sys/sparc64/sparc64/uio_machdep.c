@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/sparc64/sparc64/uio_machdep.c 266312 2014-05-17 13:59:11Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/sparc64/sparc64/uio_machdep.c 266312 2014-05-17 13:59:11Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

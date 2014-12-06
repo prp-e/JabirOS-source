@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/cam/scsi/scsi_da.c 271748 2014-09-18 09:21:29Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/cam/scsi/scsi_da.c 271748 2014-09-18 09:21:29Z mav $");
 
 #include <sys/param.h>
 

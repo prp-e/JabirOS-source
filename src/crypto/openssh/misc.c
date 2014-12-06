@@ -1,5 +1,5 @@
 /* $OpenBSD: misc.c,v 1.92 2013/10/14 23:28:23 djm Exp $ */
-/* $FreeBSD: stable/10/crypto/openssh/misc.c 262566 2014-02-27 17:29:02Z des $ */
+/* $FreeBSD: releng/10.1/crypto/openssh/misc.c 262566 2014-02-27 17:29:02Z des $ */
 /*
  * Copyright (c) 2000 Markus Friedl.  All rights reserved.
  * Copyright (c) 2005,2006 Damien Miller.  All rights reserved.

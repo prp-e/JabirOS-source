@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/ed/if_ed_cbus.c 191299 2009-04-20 01:19:59Z imp $
+ * $FreeBSD: releng/10.1/sys/dev/ed/if_ed_cbus.c 191299 2009-04-20 01:19:59Z imp $
  */
 
 #include <sys/param.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/arm/samsung/exynos/files.exynos5 266341 2014-05-17 19:37:04Z ian $
+# $FreeBSD: releng/10.1/sys/arm/samsung/exynos/files.exynos5 266341 2014-05-17 19:37:04Z ian $
 
 kern/kern_clocksource.c				standard
 

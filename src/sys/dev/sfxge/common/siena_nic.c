@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/sfxge/common/siena_nic.c 228078 2011-11-28 17:19:05Z philip $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/sfxge/common/siena_nic.c 228078 2011-11-28 17:19:05Z philip $");
 
 #include "efsys.h"
 #include "efx.h"

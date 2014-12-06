@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/svn/lib/libserf/Makefile 253895 2013-08-02 19:21:46Z peter $
+# $FreeBSD: releng/10.1/usr.bin/svn/lib/libserf/Makefile 253895 2013-08-02 19:21:46Z peter $
 
 .include "${.CURDIR}/../Makefile.inc"
 

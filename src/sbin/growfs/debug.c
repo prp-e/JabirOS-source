@@ -41,7 +41,7 @@
 
 #ifndef lint
 static const char rcsid[] =
-  "$FreeBSD: stable/10/sbin/growfs/debug.c 259223 2013-12-11 19:25:17Z pfg $";
+  "$FreeBSD: releng/10.1/sbin/growfs/debug.c 259223 2013-12-11 19:25:17Z pfg $";
 #endif /* not lint */
 
 #include <sys/param.h>

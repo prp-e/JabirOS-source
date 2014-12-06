@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/vmm/io/vlapic_priv.h 267447 2014-06-13 19:10:40Z jhb $
+ * $FreeBSD: releng/10.1/sys/amd64/vmm/io/vlapic_priv.h 267447 2014-06-13 19:10:40Z jhb $
  */
 
 #ifndef _VLAPIC_PRIV_H_

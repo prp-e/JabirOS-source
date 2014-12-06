@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/tip/tip/tip.c 230654 2012-01-28 20:45:47Z phk $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/tip/tip/tip.c 230654 2012-01-28 20:45:47Z phk $");
 
 #ifndef lint
 static const char copyright[] =

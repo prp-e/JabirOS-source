@@ -46,7 +46,7 @@ static char sccsid[] = "@(#)rcp.c	8.2 (Berkeley) 4/2/94";
 #endif /* not lint */
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/bin/rcp/rcp.c 241720 2012-10-19 05:43:38Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/bin/rcp/rcp.c 241720 2012-10-19 05:43:38Z ed $");
 
 #include <sys/param.h>
 #include <sys/stat.h>

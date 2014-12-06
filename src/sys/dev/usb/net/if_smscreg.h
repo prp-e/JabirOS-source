@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/usb/net/if_smscreg.h 239275 2012-08-15 04:03:55Z gonzo $
+ * $FreeBSD: releng/10.1/sys/dev/usb/net/if_smscreg.h 239275 2012-08-15 04:03:55Z gonzo $
  */
 #ifndef _IF_SMSCREG_H_
 #define _IF_SMSCREG_H_

@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/ufs/ufs/ufs_lookup.c 264490 2014-04-15 07:50:18Z scottl $");
+__FBSDID("$FreeBSD: releng/10.1/sys/ufs/ufs/ufs_lookup.c 264490 2014-04-15 07:50:18Z scottl $");
 
 #include "opt_ufs.h"
 #include "opt_quota.h"

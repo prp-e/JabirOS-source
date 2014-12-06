@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/growfs/tests/legacy_test.pl 263220 2014-03-16 02:07:08Z jmmv $
+# $FreeBSD: releng/10.1/sbin/growfs/tests/legacy_test.pl 263220 2014-03-16 02:07:08Z jmmv $
 
 use strict;
 use warnings;

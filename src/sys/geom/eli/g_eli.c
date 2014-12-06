@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/geom/eli/g_eli.c 272006 2014-09-23 00:43:18Z cperciva $");
+__FBSDID("$FreeBSD: releng/10.1/sys/geom/eli/g_eli.c 272006 2014-09-23 00:43:18Z cperciva $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

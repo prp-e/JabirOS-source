@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: stable/10/lib/libgssapi/gss_seal.c 153838 2005-12-29 14:40:22Z dfr $
+ *	$FreeBSD: releng/10.1/lib/libgssapi/gss_seal.c 153838 2005-12-29 14:40:22Z dfr $
  */
 
 #include <gssapi/gssapi.h>

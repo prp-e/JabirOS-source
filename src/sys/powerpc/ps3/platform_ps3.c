@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/ps3/platform_ps3.c 271114 2014-09-04 18:28:30Z nwhitehorn $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/ps3/platform_ps3.c 271114 2014-09-04 18:28:30Z nwhitehorn $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/usr.sbin/mailwrapper/pathnames.h 55705 2000-01-10 03:20:13Z imp $ */
+/* $FreeBSD: releng/10.1/usr.sbin/mailwrapper/pathnames.h 55705 2000-01-10 03:20:13Z imp $ */
 
 /*
  * Copyright (c) 1998

@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/opencrypto/cryptosoft.c 215295 2010-11-14 13:09:32Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/opencrypto/cryptosoft.c 215295 2010-11-14 13:09:32Z marius $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

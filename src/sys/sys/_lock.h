@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/_lock.h 179025 2008-05-15 20:10:06Z attilio $
+ * $FreeBSD: releng/10.1/sys/sys/_lock.h 179025 2008-05-15 20:10:06Z attilio $
  */
 
 #ifndef _SYS__LOCK_H_

@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm/drm_memory.c 215367 2010-11-16 03:43:06Z nwhitehorn $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm/drm_memory.c 215367 2010-11-16 03:43:06Z nwhitehorn $");
 
 /** @file drm_memory.c
  * Wrappers for kernel memory allocation routines, and MTRR management support.

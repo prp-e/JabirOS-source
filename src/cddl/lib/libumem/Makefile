@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/cddl/lib/libumem/Makefile 204597 2010-03-02 19:04:07Z uqs $
+# $FreeBSD: releng/10.1/cddl/lib/libumem/Makefile 204597 2010-03-02 19:04:07Z uqs $
 
 .PATH: ${.CURDIR}/../../../cddl/compat/opensolaris/lib/libumem
 

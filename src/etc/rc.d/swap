@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/rc.d/swap 252310 2013-06-27 18:28:45Z hrs $
+# $FreeBSD: releng/10.1/etc/rc.d/swap 252310 2013-06-27 18:28:45Z hrs $
 #
 
 # PROVIDE: swap

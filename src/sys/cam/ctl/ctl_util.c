@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/cam/ctl/ctl_util.c 270107 2014-08-17 18:23:43Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/cam/ctl/ctl_util.c 270107 2014-08-17 18:23:43Z mav $");
 
 #ifdef _KERNEL
 #include <sys/param.h>

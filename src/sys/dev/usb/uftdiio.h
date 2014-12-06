@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *  $FreeBSD: stable/10/sys/dev/usb/uftdiio.h 265047 2014-04-28 12:46:23Z ian $ 
+ *  $FreeBSD: releng/10.1/sys/dev/usb/uftdiio.h 265047 2014-04-28 12:46:23Z ian $ 
  */
 
 /*

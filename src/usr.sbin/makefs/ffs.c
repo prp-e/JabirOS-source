@@ -66,7 +66,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/makefs/ffs.c 239562 2012-08-22 06:37:30Z hrs $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/makefs/ffs.c 239562 2012-08-22 06:37:30Z hrs $");
 
 #include <sys/param.h>
 

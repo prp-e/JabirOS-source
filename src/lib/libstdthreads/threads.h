@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libstdthreads/threads.h 228904 2011-12-26 21:51:53Z ed $
+ * $FreeBSD: releng/10.1/lib/libstdthreads/threads.h 228904 2011-12-26 21:51:53Z ed $
  */
 
 #ifndef _THREADS_H_

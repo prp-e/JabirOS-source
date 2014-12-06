@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/broadcom/bcm2835/bcm2835_dma.h 247496 2013-02-28 19:48:19Z gonzo $
+ * $FreeBSD: releng/10.1/sys/arm/broadcom/bcm2835/bcm2835_dma.h 247496 2013-02-28 19:48:19Z gonzo $
  */
 
 #ifndef	_BCM2835_DMA_H_

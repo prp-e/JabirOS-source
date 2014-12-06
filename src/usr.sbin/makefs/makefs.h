@@ -34,7 +34,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/makefs/makefs.h 250407 2013-05-09 14:43:36Z brooks $
+ * $FreeBSD: releng/10.1/usr.sbin/makefs/makefs.h 250407 2013-05-09 14:43:36Z brooks $
  */
 
 #ifndef	_MAKEFS_H

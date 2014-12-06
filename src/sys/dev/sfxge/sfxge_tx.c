@@ -43,7 +43,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/sfxge/sfxge_tx.c 265884 2014-05-11 17:18:09Z gnn $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/sfxge/sfxge_tx.c 265884 2014-05-11 17:18:09Z gnn $");
 
 #include <sys/types.h>
 #include <sys/mbuf.h>

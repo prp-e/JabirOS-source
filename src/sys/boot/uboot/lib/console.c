@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/uboot/lib/console.c 182723 2008-09-03 15:39:50Z raj $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/uboot/lib/console.c 182723 2008-09-03 15:39:50Z raj $");
 
 #include <stand.h>
 #include "bootstrap.h"

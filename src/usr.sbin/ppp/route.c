@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/ppp/route.c 264299 2014-04-09 11:15:50Z glebius $
+ * $FreeBSD: releng/10.1/usr.sbin/ppp/route.c 264299 2014-04-09 11:15:50Z glebius $
  */
 
 #include <sys/param.h>

@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libthr/thread/thr_resume_np.c 239718 2012-08-27 03:09:39Z davidxu $
+ * $FreeBSD: releng/10.1/lib/libthr/thread/thr_resume_np.c 239718 2012-08-27 03:09:39Z davidxu $
  */
 
 #include "namespace.h"

@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/stdio/fmemopen.c 246206 2013-02-01 13:04:06Z gahr $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/stdio/fmemopen.c 246206 2013-02-01 13:04:06Z gahr $");
 
 #include <fcntl.h>
 #include <stdbool.h>

@@ -41,7 +41,7 @@
 ** SUCH DAMAGE.
 */
 
-/* $FreeBSD: stable/10/sys/boot/ficl/prefix.c 102657 2002-08-31 01:04:53Z scottl $ */
+/* $FreeBSD: releng/10.1/sys/boot/ficl/prefix.c 102657 2002-08-31 01:04:53Z scottl $ */
 
 #include <string.h>
 #include <ctype.h>

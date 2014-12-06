@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libblocksruntime/config.h 215125 2010-11-11 15:13:11Z ed $ */
+/* $FreeBSD: releng/10.1/lib/libblocksruntime/config.h 215125 2010-11-11 15:13:11Z ed $ */
 
 /* #undef HAVE_SYS_BYTEORDER_H */
 /* #undef HAVE_AVAILABILITY_MACROS_H */

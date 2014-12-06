@@ -16,7 +16,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/tools/ath/athalq/tdma.c 246935 2013-02-18 04:20:43Z adrian $");
+__FBSDID("$FreeBSD: releng/10.1/tools/tools/ath/athalq/tdma.c 246935 2013-02-18 04:20:43Z adrian $");
 
 #include <stdio.h>
 #include <stdlib.h>

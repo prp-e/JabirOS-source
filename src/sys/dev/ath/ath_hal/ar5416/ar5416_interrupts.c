@@ -14,7 +14,7 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * $FreeBSD: stable/10/sys/dev/ath/ath_hal/ar5416/ar5416_interrupts.c 247030 2013-02-20 11:24:11Z adrian $
+ * $FreeBSD: releng/10.1/sys/dev/ath/ath_hal/ar5416/ar5416_interrupts.c 247030 2013-02-20 11:24:11Z adrian $
  */
 #include "opt_ah.h"
 

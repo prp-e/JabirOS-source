@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/radeon_bios.c 255587 2013-09-15 07:48:42Z dumbbell $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/radeon/radeon_bios.c 255587 2013-09-15 07:48:42Z dumbbell $");
 
 #include <dev/drm2/drmP.h>
 #include "radeon_reg.h"

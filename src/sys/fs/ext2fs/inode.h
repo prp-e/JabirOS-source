@@ -32,7 +32,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)inode.h	8.9 (Berkeley) 5/14/95
- * $FreeBSD: stable/10/sys/fs/ext2fs/inode.h 262723 2014-03-04 03:10:31Z pfg $
+ * $FreeBSD: releng/10.1/sys/fs/ext2fs/inode.h 262723 2014-03-04 03:10:31Z pfg $
  */
 
 #ifndef _FS_EXT2FS_INODE_H_

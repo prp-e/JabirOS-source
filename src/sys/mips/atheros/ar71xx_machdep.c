@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/atheros/ar71xx_machdep.c 248865 2013-03-29 06:31:31Z adrian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/atheros/ar71xx_machdep.c 248865 2013-03-29 06:31:31Z adrian $");
 
 #include "opt_ddb.h"
 #include "opt_ar71xx.h"

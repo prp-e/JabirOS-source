@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ata/ata-dma.c 249083 2013-04-04 07:12:24Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ata/ata-dma.c 249083 2013-04-04 07:12:24Z mav $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

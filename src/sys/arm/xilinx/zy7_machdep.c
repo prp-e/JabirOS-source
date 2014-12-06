@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/xilinx/zy7_machdep.c 266379 2014-05-17 23:25:20Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/xilinx/zy7_machdep.c 266379 2014-05-17 23:25:20Z ian $
  */
 
 /*
@@ -36,7 +36,7 @@
 #include "opt_global.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/xilinx/zy7_machdep.c 266379 2014-05-17 23:25:20Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/xilinx/zy7_machdep.c 266379 2014-05-17 23:25:20Z ian $");
 
 #define _ARM32_BUS_DMA_PRIVATE
 #include <sys/param.h>

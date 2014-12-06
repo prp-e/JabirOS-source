@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/sys/modules/usb/urndis/Makefile 261541 2014-02-06 08:47:14Z hselasky $
+# $FreeBSD: releng/10.1/sys/modules/usb/urndis/Makefile 261541 2014-02-06 08:47:14Z hselasky $
 #
 # Copyright (c) 2014 Hans Petter Selasky. All rights reserved.
 #

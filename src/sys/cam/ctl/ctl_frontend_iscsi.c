@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/cam/ctl/ctl_frontend_iscsi.c 272101 2014-09-25 09:12:11Z mav $
+ * $FreeBSD: releng/10.1/sys/cam/ctl/ctl_frontend_iscsi.c 272101 2014-09-25 09:12:11Z mav $
  */
 
 /*
@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/cam/ctl/ctl_frontend_iscsi.c 272101 2014-09-25 09:12:11Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/cam/ctl/ctl_frontend_iscsi.c 272101 2014-09-25 09:12:11Z mav $");
 
 #include <sys/param.h>
 #include <sys/capability.h>

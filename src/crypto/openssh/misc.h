@@ -1,5 +1,5 @@
 /* $OpenBSD: misc.h,v 1.50 2013/10/14 23:28:23 djm Exp $ */
-/* $FreeBSD: stable/10/crypto/openssh/misc.h 262566 2014-02-27 17:29:02Z des $ */
+/* $FreeBSD: releng/10.1/crypto/openssh/misc.h 262566 2014-02-27 17:29:02Z des $ */
 
 /*
  * Author: Tatu Ylonen <ylo@cs.hut.fi>

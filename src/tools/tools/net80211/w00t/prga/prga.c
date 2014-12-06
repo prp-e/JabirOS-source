@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/tools/net80211/w00t/prga/prga.c 262007 2014-02-17 01:36:53Z kevlo $
+ * $FreeBSD: releng/10.1/tools/tools/net80211/w00t/prga/prga.c 262007 2014-02-17 01:36:53Z kevlo $
  */
 #include <sys/endian.h>
 #include <sys/time.h>

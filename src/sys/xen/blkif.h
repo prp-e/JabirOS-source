@@ -17,7 +17,7 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
  * DEALINGS IN THE SOFTWARE.
  *
- * $FreeBSD: stable/10/sys/xen/blkif.h 214077 2010-10-19 20:53:30Z gibbs $
+ * $FreeBSD: releng/10.1/sys/xen/blkif.h 214077 2010-10-19 20:53:30Z gibbs $
  */
 
 #ifndef __XEN_BLKIF_H__

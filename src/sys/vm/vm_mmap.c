@@ -41,7 +41,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/vm/vm_mmap.c 267901 2014-06-26 08:30:08Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/vm/vm_mmap.c 267901 2014-06-26 08:30:08Z kib $");
 
 #include "opt_compat.h"
 #include "opt_hwpmc_hooks.h"

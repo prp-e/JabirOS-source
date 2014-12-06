@@ -22,7 +22,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/powermac/viareg.h 260674 2014-01-15 06:17:15Z jhibbits $
+ * $FreeBSD: releng/10.1/sys/powerpc/powermac/viareg.h 260674 2014-01-15 06:17:15Z jhibbits $
  */
 
 #ifndef	_POWERPC_VIAREG_H_

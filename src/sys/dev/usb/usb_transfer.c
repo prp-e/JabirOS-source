@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/usb_transfer.c 263643 2014-03-22 17:18:44Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/usb_transfer.c 263643 2014-03-22 17:18:44Z hselasky $ */
 /*-
  * Copyright (c) 2008 Hans Petter Selasky. All rights reserved.
  *

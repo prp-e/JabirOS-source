@@ -1,5 +1,5 @@
 /* $OpenBSD: session.c,v 1.270 2014/01/31 16:39:19 tedu Exp $ */
-/* $FreeBSD: stable/10/crypto/openssh/session.c 264377 2014-04-12 20:22:59Z des $ */
+/* $FreeBSD: releng/10.1/crypto/openssh/session.c 264377 2014-04-12 20:22:59Z des $ */
 /*
  * Copyright (c) 1995 Tatu Ylonen <ylo@cs.hut.fi>, Espoo, Finland
  *                    All rights reserved
@@ -35,7 +35,7 @@
  */
 
 #include "includes.h"
-__RCSID("$FreeBSD: stable/10/crypto/openssh/session.c 264377 2014-04-12 20:22:59Z des $");
+__RCSID("$FreeBSD: releng/10.1/crypto/openssh/session.c 264377 2014-04-12 20:22:59Z des $");
 
 #include <sys/types.h>
 #include <sys/param.h>

@@ -53,7 +53,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/freescale/imx/imx51_ipuv3reg.h 266365 2014-05-17 22:00:10Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/freescale/imx/imx51_ipuv3reg.h 266365 2014-05-17 22:00:10Z ian $
  */
 
 #ifndef _ARM_IMX_IMX51_IPUV3REG_H

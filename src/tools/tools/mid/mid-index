@@ -2,7 +2,7 @@
 #
 # create message-id / in-reply-to database
 #
-# $FreeBSD: stable/10/tools/tools/mid/mid-index 50477 1999-08-28 01:08:13Z peter $
+# $FreeBSD: releng/10.1/tools/tools/mid/mid-index 50477 1999-08-28 01:08:13Z peter $
 
 sub usage { die "usage: mid-index name < filelist"; }
 

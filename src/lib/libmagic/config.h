@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libmagic/config.h 268515 2014-07-11 00:00:00Z delphij $ */
+/* $FreeBSD: releng/10.1/lib/libmagic/config.h 268515 2014-07-11 00:00:00Z delphij $ */
 
 /* config.h.  Generated from config.h.in by configure.  */
 /* config.h.in.  Generated from configure.ac by autoheader.  */

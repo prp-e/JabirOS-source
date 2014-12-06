@@ -21,7 +21,7 @@
  * Portions Copyright 2006-2008 John Birrell jb@freebsd.org
  * Portions Copyright 2013 Justin Hibbits jhibbits@freebsd.org
  *
- * $FreeBSD: stable/10/sys/cddl/dev/fbt/fbt_powerpc.c 260670 2014-01-15 05:19:37Z jhibbits $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/fbt/fbt_powerpc.c 260670 2014-01-15 05:19:37Z jhibbits $
  *
  */
 

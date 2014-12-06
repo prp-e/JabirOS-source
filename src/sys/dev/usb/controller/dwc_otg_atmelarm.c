@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/controller/dwc_otg_atmelarm.c 266575 2014-05-23 06:20:25Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/controller/dwc_otg_atmelarm.c 266575 2014-05-23 06:20:25Z hselasky $");
 
 #include <sys/stdint.h>
 #include <sys/stddef.h>

@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/elf_common.h 270969 2014-09-02 15:49:33Z emaste $
+ * $FreeBSD: releng/10.1/sys/sys/elf_common.h 270969 2014-09-02 15:49:33Z emaste $
  */
 
 #ifndef _SYS_ELF_COMMON_H_

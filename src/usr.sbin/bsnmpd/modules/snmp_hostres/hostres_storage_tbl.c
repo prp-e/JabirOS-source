@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bsnmpd/modules/snmp_hostres/hostres_storage_tbl.c 248707 2013-03-25 19:12:36Z trociny $
+ * $FreeBSD: releng/10.1/usr.sbin/bsnmpd/modules/snmp_hostres/hostres_storage_tbl.c 248707 2013-03-25 19:12:36Z trociny $
  */
 
 /*

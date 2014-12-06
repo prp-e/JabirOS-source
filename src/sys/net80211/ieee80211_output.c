@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/net80211/ieee80211_output.c 262007 2014-02-17 01:36:53Z kevlo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/net80211/ieee80211_output.c 262007 2014-02-17 01:36:53Z kevlo $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"

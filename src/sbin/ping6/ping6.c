@@ -76,7 +76,7 @@ static char sccsid[] = "@(#)ping.c	8.1 (Berkeley) 6/5/93";
 #endif /* not lint */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/ping6/ping6.c 269800 2014-08-11 06:54:07Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/ping6/ping6.c 273188 2014-10-16 22:00:24Z hrs $");
 
 /*
  * Using the InterNet Control Message Protocol (ICMP) "ECHO" facility,
@@ -1090,14 +1090,8 @@ main(int argc, char *argv[])
 		/* signal handling */
 		if (seenalrm) {
 			/* last packet sent, timeout reached? */
-			if (npackets && ntransmitted >= npackets) {
-				struct timeval zerotime = {0, 0};
-				itimer.it_value = zerotime;
-				itimer.it_interval = zerotime;
-				(void)setitimer(ITIMER_REAL, &itimer, NULL);
-				seenalrm = 0;   /* clear flag */
-				continue;
-			}
+			if (npackets && ntransmitted >= npackets)
+				break;
 			retransmit();
 			seenalrm = 0;
 			continue;

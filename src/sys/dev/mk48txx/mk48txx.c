@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/mk48txx/mk48txx.c 263763 2014-03-26 07:31:57Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/mk48txx/mk48txx.c 263763 2014-03-26 07:31:57Z dim $");
 
 /*
  * Mostek MK48T02, MK48T08, MK48T18, MK48T37 and MK48T59 time-of-day chip

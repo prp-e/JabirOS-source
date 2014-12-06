@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/ypserv/yp_server.c 200100 2009-12-04 14:12:37Z kuriyama $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/ypserv/yp_server.c 200100 2009-12-04 14:12:37Z kuriyama $");
 
 #include "yp.h"
 #include "yp_extern.h"

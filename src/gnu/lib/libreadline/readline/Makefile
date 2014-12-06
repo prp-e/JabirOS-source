@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/lib/libreadline/readline/Makefile 136658 2004-10-18 08:36:40Z ache $
+# $FreeBSD: releng/10.1/gnu/lib/libreadline/readline/Makefile 136658 2004-10-18 08:36:40Z ache $
 
 SUBDIR= doc
 

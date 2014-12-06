@@ -25,7 +25,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/pci/pci_private.h 257495 2013-11-01 06:33:17Z kib $
+ * $FreeBSD: releng/10.1/sys/dev/pci/pci_private.h 257495 2013-11-01 06:33:17Z kib $
  *
  */
 

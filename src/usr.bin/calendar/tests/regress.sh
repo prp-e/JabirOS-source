@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/calendar/tests/regress.sh 263227 2014-03-16 08:04:06Z jmmv $
+# $FreeBSD: releng/10.1/usr.bin/calendar/tests/regress.sh 263227 2014-03-16 08:04:06Z jmmv $
 
 CALENDAR_FILE="-f ${SRCDIR}/calendar.calibrate"
 CALENDAR_BIN="calendar"

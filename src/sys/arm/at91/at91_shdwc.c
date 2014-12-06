@@ -26,7 +26,7 @@
 #include "opt_platform.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/at91/at91_shdwc.c 266217 2014-05-16 12:43:45Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/at91/at91_shdwc.c 266217 2014-05-16 12:43:45Z ian $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

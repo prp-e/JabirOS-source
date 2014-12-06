@@ -24,7 +24,7 @@ if [ ! "$_GEOM_SUBR" ]; then _GEOM_SUBR=1
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/usr.sbin/bsdconfig/share/geom.subr 266290 2014-05-17 03:28:43Z dteske $
+# $FreeBSD: releng/10.1/usr.sbin/bsdconfig/share/geom.subr 266290 2014-05-17 03:28:43Z dteske $
 #
 ############################################################ INCLUDES
 

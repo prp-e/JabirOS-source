@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/ia64/acpica/OsdEnvironment.c 270296 2014-08-21 19:51:07Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/sys/ia64/acpica/OsdEnvironment.c 270296 2014-08-21 19:51:07Z emaste $");
 
 #include <sys/types.h>
 #include <sys/efi.h>

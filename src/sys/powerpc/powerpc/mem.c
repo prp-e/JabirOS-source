@@ -37,7 +37,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/powerpc/mem.c 271113 2014-09-04 18:24:47Z nwhitehorn $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/powerpc/mem.c 271113 2014-09-04 18:24:47Z nwhitehorn $");
 
 /*
  * Memory special file

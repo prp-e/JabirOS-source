@@ -37,7 +37,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/locale/gbk.c 227753 2011-11-20 14:45:42Z theraven $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/locale/gbk.c 227753 2011-11-20 14:45:42Z theraven $");
 
 #include <sys/types.h>
 #include <errno.h>

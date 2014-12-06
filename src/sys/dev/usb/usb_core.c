@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/usb_core.c 246123 2013-01-30 15:46:26Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/usb_core.c 246123 2013-01-30 15:46:26Z hselasky $ */
 /*-
  * Copyright (c) 2008 Hans Petter Selasky. All rights reserved.
  *

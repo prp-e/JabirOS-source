@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/doc/IPv6/Makefile 139103 2004-12-21 08:47:35Z ru $
+# $FreeBSD: releng/10.1/share/doc/IPv6/Makefile 139103 2004-12-21 08:47:35Z ru $
 
 NO_OBJ=
 FILES=		IMPLEMENTATION

@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/fstat/fstat.c 250223 2013-05-03 21:11:57Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/fstat/fstat.c 250223 2013-05-03 21:11:57Z jhb $");
 
 #include <sys/param.h>
 #include <sys/user.h>

@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/sys/boot/usb/Makefile 269922 2014-08-13 08:21:52Z hselasky $
+# $FreeBSD: releng/10.1/sys/boot/usb/Makefile 269922 2014-08-13 08:21:52Z hselasky $
 #
 # Copyright (c) 2013 Hans Petter Selasky. All rights reserved.
 #

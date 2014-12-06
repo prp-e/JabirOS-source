@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/bsdconfig/usermgmt/include/Makefile 242123 2012-10-26 03:20:04Z dteske $
+# $FreeBSD: releng/10.1/usr.sbin/bsdconfig/usermgmt/include/Makefile 242123 2012-10-26 03:20:04Z dteske $
 
 NO_OBJ=
 

@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_clock.c 260817 2014-01-17 10:58:59Z avg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_clock.c 260817 2014-01-17 10:58:59Z avg $");
 
 #include "opt_kdb.h"
 #include "opt_device_polling.h"

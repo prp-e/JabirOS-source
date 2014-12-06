@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/yp_mkdb/yp_mkdb.c 228722 2011-12-19 20:44:44Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/yp_mkdb/yp_mkdb.c 228722 2011-12-19 20:44:44Z dim $");
 
 #include <err.h>
 #include <fcntl.h>

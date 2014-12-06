@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/i386/xen/xen_machdep.c 271132 2014-09-04 20:47:14Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/sys/i386/xen/xen_machdep.c 271132 2014-09-04 20:47:14Z emaste $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

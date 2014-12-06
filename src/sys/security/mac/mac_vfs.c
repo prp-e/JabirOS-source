@@ -43,7 +43,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/security/mac/mac_vfs.c 255971 2013-10-01 15:40:27Z markj $");
+__FBSDID("$FreeBSD: releng/10.1/sys/security/mac/mac_vfs.c 255971 2013-10-01 15:40:27Z markj $");
 
 #include "opt_kdtrace.h"
 #include "opt_mac.h"

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libproc/proc_create.c 270731 2014-08-27 19:51:42Z markj $
+ * $FreeBSD: releng/10.1/lib/libproc/proc_create.c 270731 2014-08-27 19:51:42Z markj $
  */
 
 #include <sys/types.h>

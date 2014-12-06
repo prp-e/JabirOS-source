@@ -42,7 +42,7 @@
 static char sccsid[] = "@(#)regcomp.c	8.5 (Berkeley) 3/20/94";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/regex/regcomp.c 269484 2014-08-03 18:39:11Z pfg $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/regex/regcomp.c 269484 2014-08-03 18:39:11Z pfg $");
 
 #include <sys/types.h>
 #include <stdio.h>

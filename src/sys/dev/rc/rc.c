@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/rc/rc.c 166901 2007-02-23 12:19:07Z piso $
+ * $FreeBSD: releng/10.1/sys/dev/rc/rc.c 166901 2007-02-23 12:19:07Z piso $
  */
 
 /*

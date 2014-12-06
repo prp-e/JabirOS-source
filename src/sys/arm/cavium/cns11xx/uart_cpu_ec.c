@@ -29,7 +29,7 @@
 #include "opt_uart.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/cavium/cns11xx/uart_cpu_ec.c 264219 2014-04-07 05:33:30Z rpaulo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/cavium/cns11xx/uart_cpu_ec.c 264219 2014-04-07 05:33:30Z rpaulo $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

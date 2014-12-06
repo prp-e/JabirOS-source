@@ -39,7 +39,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/net/if_vlan.c 270136 2014-08-18 15:54:35Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/net/if_vlan.c 270136 2014-08-18 15:54:35Z mav $");
 
 #include "opt_inet.h"
 #include "opt_vlan.h"

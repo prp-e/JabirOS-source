@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/devicestat.h 260385 2014-01-07 01:32:23Z scottl $
+ * $FreeBSD: releng/10.1/sys/sys/devicestat.h 260385 2014-01-07 01:32:23Z scottl $
  */
 
 #ifndef _DEVICESTAT_H

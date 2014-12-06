@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libkvm/kvm_minidump_amd64.c 269013 2014-07-23 14:29:28Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libkvm/kvm_minidump_amd64.c 269013 2014-07-23 14:29:28Z emaste $");
 
 /*
  * AMD64 machine dependent routines for kvm and minidumps. 

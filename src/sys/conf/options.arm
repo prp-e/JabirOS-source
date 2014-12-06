@@ -1,4 +1,4 @@
-#$FreeBSD: stable/10/sys/conf/options.arm 270075 2014-08-17 01:28:03Z ian $
+#$FreeBSD: releng/10.1/sys/conf/options.arm 270075 2014-08-17 01:28:03Z ian $
 ARM9_CACHE_WRITE_THROUGH	opt_global.h
 ARM_CACHE_LOCK_ENABLE	opt_global.h
 ARM_DEVICE_MULTIPASS	opt_global.h

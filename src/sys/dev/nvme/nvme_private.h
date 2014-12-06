@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/nvme/nvme_private.h 265577 2014-05-07 17:20:15Z jimharris $
+ * $FreeBSD: releng/10.1/sys/dev/nvme/nvme_private.h 265577 2014-05-07 17:20:15Z jimharris $
  */
 
 #ifndef __NVME_PRIVATE_H__

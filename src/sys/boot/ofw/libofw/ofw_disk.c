@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/ofw/libofw/ofw_disk.c 236579 2012-06-04 20:45:33Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/ofw/libofw/ofw_disk.c 236579 2012-06-04 20:45:33Z marius $");
 
 /*
  * Disk I/O routines using Open Firmware

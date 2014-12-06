@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tests/sys/kern/Makefile 264483 2014-04-14 23:51:57Z jmmv $
+# $FreeBSD: releng/10.1/tests/sys/kern/Makefile 264483 2014-04-14 23:51:57Z jmmv $
 
 TESTSDIR=	${TESTSBASE}/sys/kern
 

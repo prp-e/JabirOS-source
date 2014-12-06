@@ -29,7 +29,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-/* $FreeBSD: stable/10/sys/dev/esp/am53c974reg.h 227006 2011-11-01 21:26:57Z marius $ */
+/* $FreeBSD: releng/10.1/sys/dev/esp/am53c974reg.h 227006 2011-11-01 21:26:57Z marius $ */
 
 #ifndef _AM53C974_H_
 #define	_AM53C974_H_

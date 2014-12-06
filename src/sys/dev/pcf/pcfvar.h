@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/pcf/pcfvar.h 194026 2009-06-11 17:15:44Z avg $
+ * $FreeBSD: releng/10.1/sys/dev/pcf/pcfvar.h 194026 2009-06-11 17:15:44Z avg $
  */
 
 #ifndef __PCFVAR_H__

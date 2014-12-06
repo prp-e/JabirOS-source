@@ -31,7 +31,7 @@
  *
  *	@(#)fdesc_vnops.c	8.9 (Berkeley) 1/21/94
  *
- * $FreeBSD: stable/10/sys/fs/fdescfs/fdesc_vnops.c 255240 2013-09-05 11:58:12Z pjd $
+ * $FreeBSD: releng/10.1/sys/fs/fdescfs/fdesc_vnops.c 255240 2013-09-05 11:58:12Z pjd $
  */
 
 /*

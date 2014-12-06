@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/security/cap_test/cap_test.h 224989 2011-08-18 23:15:04Z jonathan $
+ * $FreeBSD: releng/10.1/tools/regression/security/cap_test/cap_test.h 224989 2011-08-18 23:15:04Z jonathan $
  */
 
 #ifndef CAP_TEST_H

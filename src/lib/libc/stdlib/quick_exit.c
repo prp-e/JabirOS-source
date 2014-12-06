@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/stdlib/quick_exit.c 228528 2011-12-15 11:16:41Z theraven $
+ * $FreeBSD: releng/10.1/lib/libc/stdlib/quick_exit.c 228528 2011-12-15 11:16:41Z theraven $
  */
 
 #include <stdlib.h>

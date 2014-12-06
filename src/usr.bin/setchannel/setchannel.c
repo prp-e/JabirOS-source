@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *  $FreeBSD: stable/10/usr.bin/setchannel/setchannel.c 214886 2010-11-06 15:04:56Z uqs $
+ *  $FreeBSD: releng/10.1/usr.bin/setchannel/setchannel.c 214886 2010-11-06 15:04:56Z uqs $
  */
 
 /* Set the channel of the tuner card. */

@@ -30,7 +30,7 @@
 
 #ifndef lint
 static const char rcsid[] =
-  "$FreeBSD: stable/10/sbin/fsdb/fsdbutil.c 247234 2013-02-24 19:32:43Z pluknet $";
+  "$FreeBSD: releng/10.1/sbin/fsdb/fsdbutil.c 247234 2013-02-24 19:32:43Z pluknet $";
 #endif /* not lint */
 
 #include <sys/param.h>

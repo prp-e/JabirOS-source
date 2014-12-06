@@ -31,7 +31,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/wi/if_wivar.h 194023 2009-06-11 17:14:28Z avg $
+ * $FreeBSD: releng/10.1/sys/dev/wi/if_wivar.h 194023 2009-06-11 17:14:28Z avg $
  */
 
 /*

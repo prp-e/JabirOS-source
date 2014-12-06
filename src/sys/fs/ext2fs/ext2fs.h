@@ -4,7 +4,7 @@
  *  Aug 1995, Godmar Back (gback@cs.utah.edu)
  *  University of Utah, Department of Computer Science
  *
- * $FreeBSD: stable/10/sys/fs/ext2fs/ext2fs.h 262723 2014-03-04 03:10:31Z pfg $
+ * $FreeBSD: releng/10.1/sys/fs/ext2fs/ext2fs.h 262723 2014-03-04 03:10:31Z pfg $
  */
 /*-
  * Copyright (c) 2009 Aditya Sarawgi

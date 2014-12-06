@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/systat/ifstat.c 247037 2013-02-20 14:19:09Z melifaro $
+ * $FreeBSD: releng/10.1/usr.bin/systat/ifstat.c 247037 2013-02-20 14:19:09Z melifaro $
  */
 
 #include <sys/types.h>

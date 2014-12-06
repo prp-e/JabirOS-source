@@ -34,7 +34,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/include/cache_mipsNN.h 210311 2010-07-20 19:25:11Z jmallett $
+ * $FreeBSD: releng/10.1/sys/mips/include/cache_mipsNN.h 210311 2010-07-20 19:25:11Z jmallett $
  */
 #ifndef	_MACHINE_CACHE_MIPSNN_H_
 #define	_MACHINE_CACHE_MIPSNN_H_

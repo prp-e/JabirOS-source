@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/usr.sbin/rtadvd/timer_subr.h 253970 2013-08-05 20:13:02Z hrs $	*/
+/*	$FreeBSD: releng/10.1/usr.sbin/rtadvd/timer_subr.h 253970 2013-08-05 20:13:02Z hrs $	*/
 /*	$KAME: timer.h,v 1.5 2002/05/31 13:30:38 jinmei Exp $	*/
 
 /*

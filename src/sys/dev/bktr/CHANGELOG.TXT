@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/bktr/CHANGELOG.TXT 249585 2013-04-17 11:45:15Z gabor $ */
+/* $FreeBSD: releng/10.1/sys/dev/bktr/CHANGELOG.TXT 249585 2013-04-17 11:45:15Z gabor $ */
 
 /*
  * This is part of the Driver for Video Capture Cards (Frame grabbers)

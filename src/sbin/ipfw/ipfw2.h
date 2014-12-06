@@ -17,7 +17,7 @@
  *
  * NEW command line interface for IP firewall facility
  *
- * $FreeBSD: stable/10/sbin/ipfw/ipfw2.h 265700 2014-05-08 19:11:41Z melifaro $
+ * $FreeBSD: releng/10.1/sbin/ipfw/ipfw2.h 265700 2014-05-08 19:11:41Z melifaro $
  */
 
 /*

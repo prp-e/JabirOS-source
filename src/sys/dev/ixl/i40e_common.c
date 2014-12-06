@@ -30,7 +30,7 @@
   POSSIBILITY OF SUCH DAMAGE.
 
 ******************************************************************************/
-/*$FreeBSD: stable/10/sys/dev/ixl/i40e_common.c 270919 2014-09-01 07:54:30Z jfv $*/
+/*$FreeBSD: releng/10.1/sys/dev/ixl/i40e_common.c 272313 2014-09-30 16:55:19Z bz $*/
 
 #include "i40e_type.h"
 #include "i40e_adminq.h"
@@ -4375,8 +4375,8 @@ enum i40e_status_code i40e_aq_alternate_write_indirect(struct i40e_hw *hw,
 
 	cmd_resp->address = CPU_TO_LE32(addr);
 	cmd_resp->length = CPU_TO_LE32(dw_count);
-	cmd_resp->addr_high = CPU_TO_LE32(I40E_HI_WORD((u64)(uintptr_t)buffer));
-	cmd_resp->addr_low = CPU_TO_LE32(I40E_LO_DWORD((u64)(uintptr_t)buffer));
+	cmd_resp->addr_high = CPU_TO_LE32(I40E_HI_WORD((u64)buffer));
+	cmd_resp->addr_low = CPU_TO_LE32(I40E_LO_DWORD((u64)buffer));
 
 	status = i40e_asq_send_command(hw, &desc, buffer,
 				       I40E_LO_DWORD(4*dw_count), NULL);
@@ -4458,8 +4458,8 @@ enum i40e_status_code i40e_aq_alternate_read_indirect(struct i40e_hw *hw,
 
 	cmd_resp->address = CPU_TO_LE32(addr);
 	cmd_resp->length = CPU_TO_LE32(dw_count);
-	cmd_resp->addr_high = CPU_TO_LE32(I40E_HI_DWORD((u64)(uintptr_t)buffer));
-	cmd_resp->addr_low = CPU_TO_LE32(I40E_LO_DWORD((u64)(uintptr_t)buffer));
+	cmd_resp->addr_high = CPU_TO_LE32(I40E_HI_DWORD((u64)buffer));
+	cmd_resp->addr_low = CPU_TO_LE32(I40E_LO_DWORD((u64)buffer));
 
 	status = i40e_asq_send_command(hw, &desc, buffer,
 				       I40E_LO_DWORD(4*dw_count), NULL);

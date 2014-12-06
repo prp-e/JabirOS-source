@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/ia64/pci/pci_cfgreg.c 253560 2013-07-23 03:03:17Z marcel $
+ * $FreeBSD: releng/10.1/sys/ia64/pci/pci_cfgreg.c 253560 2013-07-23 03:03:17Z marcel $
  */
 
 #include <sys/param.h>

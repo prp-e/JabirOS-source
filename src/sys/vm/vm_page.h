@@ -57,7 +57,7 @@
  * any improvements or extensions that they make and grant Carnegie the
  * rights to redistribute these changes.
  *
- * $FreeBSD: stable/10/sys/vm/vm_page.h 270440 2014-08-24 07:57:50Z kib $
+ * $FreeBSD: releng/10.1/sys/vm/vm_page.h 270440 2014-08-24 07:57:50Z kib $
  */
 
 /*

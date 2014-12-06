@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/pamtest/Makefile 236109 2012-05-26 17:10:16Z des $
+# $FreeBSD: releng/10.1/usr.bin/pamtest/Makefile 236109 2012-05-26 17:10:16Z des $
 
 OPENPAM=	${.CURDIR}/../../contrib/openpam
 .PATH: ${OPENPAM}/include ${OPENPAM}/bin/pamtest

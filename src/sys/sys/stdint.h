@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/stdint.h 237517 2012-06-24 04:15:58Z andrew $
+ * $FreeBSD: releng/10.1/sys/sys/stdint.h 237517 2012-06-24 04:15:58Z andrew $
  */
 
 #ifndef _SYS_STDINT_H_

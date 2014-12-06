@@ -38,7 +38,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/pc98/pc98/machdep.c 267964 2014-06-27 17:22:18Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/pc98/pc98/machdep.c 267964 2014-06-27 17:22:18Z jhb $");
 
 #include "opt_apic.h"
 #include "opt_atalk.h"

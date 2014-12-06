@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/gpio/gpiobus.c 266135 2014-05-15 15:15:23Z loos $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/gpio/gpiobus.c 266135 2014-05-15 15:15:23Z loos $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -1,3 +1,3 @@
-# $FreeBSD: stable/10/sys/modules/sound/Makefile.inc 62598 2000-07-04 23:32:15Z cg $
+# $FreeBSD: releng/10.1/sys/modules/sound/Makefile.inc 62598 2000-07-04 23:32:15Z cg $
 
 .include "../Makefile.inc"

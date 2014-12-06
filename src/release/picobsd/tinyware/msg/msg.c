@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/release/picobsd/tinyware/msg/msg.c 173926 2007-11-26 05:03:55Z sam $
+ * $FreeBSD: releng/10.1/release/picobsd/tinyware/msg/msg.c 173926 2007-11-26 05:03:55Z sam $
  */
 
 /*

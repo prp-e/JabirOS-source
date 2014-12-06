@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/subr_firmware.c 237546 2012-06-25 05:41:16Z kevlo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/subr_firmware.c 237546 2012-06-25 05:41:16Z kevlo $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

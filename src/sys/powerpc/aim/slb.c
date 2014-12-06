@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/aim/slb.c 243040 2012-11-14 20:01:40Z kib $
+ * $FreeBSD: releng/10.1/sys/powerpc/aim/slb.c 243040 2012-11-14 20:01:40Z kib $
  */
 
 #include <sys/param.h>

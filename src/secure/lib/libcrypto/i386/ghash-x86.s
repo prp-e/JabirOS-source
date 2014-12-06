@@ -1,4 +1,4 @@
-	# $FreeBSD: stable/10/secure/lib/libcrypto/i386/ghash-x86.s 238405 2012-07-12 19:30:53Z jkim $
+	# $FreeBSD: releng/10.1/secure/lib/libcrypto/i386/ghash-x86.s 238405 2012-07-12 19:30:53Z jkim $
 .file	"ghash-x86.s"
 .text
 .globl	gcm_gmult_4bit_x86

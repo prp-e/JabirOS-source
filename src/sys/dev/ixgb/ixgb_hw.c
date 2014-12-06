@@ -31,7 +31,7 @@
 
 *******************************************************************************/
 
-/*$FreeBSD: stable/10/sys/dev/ixgb/ixgb_hw.c 129794 2004-05-28 00:23:00Z tackerman $*/
+/*$FreeBSD: releng/10.1/sys/dev/ixgb/ixgb_hw.c 129794 2004-05-28 00:23:00Z tackerman $*/
 
 /* ixgb_hw.c
  * Shared functions for accessing and configuring the adapter

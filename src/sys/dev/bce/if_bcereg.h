@@ -22,7 +22,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/bce/if_bcereg.h 265917 2014-05-12 15:52:49Z davidcs $
+ * $FreeBSD: releng/10.1/sys/dev/bce/if_bcereg.h 265917 2014-05-12 15:52:49Z davidcs $
  */
 
 #ifndef	_BCEREG_H_DEFINED

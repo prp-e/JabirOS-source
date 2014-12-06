@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/gen/getutxent.c 257320 2013-10-29 09:23:51Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/gen/getutxent.c 257320 2013-10-29 09:23:51Z glebius $");
 
 #include "namespace.h"
 #include <sys/endian.h>

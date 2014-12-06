@@ -1,5 +1,5 @@
 /* $OpenBSD: buffer.h,v 1.23 2014/01/12 08:13:13 djm Exp $ */
-/* $FreeBSD: stable/10/crypto/openssh/buffer.h 262566 2014-02-27 17:29:02Z des $ */
+/* $FreeBSD: releng/10.1/crypto/openssh/buffer.h 262566 2014-02-27 17:29:02Z des $ */
 
 /*
  * Author: Tatu Ylonen <ylo@cs.hut.fi>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/etherswitch/arswitch/arswitch_reg.h 253572 2013-07-23 14:24:22Z loos $
+ * $FreeBSD: releng/10.1/sys/dev/etherswitch/arswitch/arswitch_reg.h 253572 2013-07-23 14:24:22Z loos $
  */
 #ifndef	__ARSWITCH_REG_H__
 #define	__ARSWITCH_REG_H__

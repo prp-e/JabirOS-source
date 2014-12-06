@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_kthread.c 254457 2013-08-17 17:02:43Z bryanv $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_kthread.c 254457 2013-08-17 17:02:43Z bryanv $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

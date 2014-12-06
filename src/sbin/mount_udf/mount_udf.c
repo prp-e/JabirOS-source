@@ -32,7 +32,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/mount_udf/mount_udf.c 261741 2014-02-11 08:20:45Z brueffer $
+ * $FreeBSD: releng/10.1/sbin/mount_udf/mount_udf.c 261741 2014-02-11 08:20:45Z brueffer $
  */
 
 /*

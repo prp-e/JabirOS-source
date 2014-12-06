@@ -1,4 +1,4 @@
-	# $FreeBSD: stable/10/secure/lib/libcrypto/amd64/aes-x86_64.S 238405 2012-07-12 19:30:53Z jkim $
+	# $FreeBSD: releng/10.1/secure/lib/libcrypto/amd64/aes-x86_64.S 238405 2012-07-12 19:30:53Z jkim $
 .text	
 .type	_x86_64_AES_encrypt,@function
 .align	16

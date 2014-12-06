@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/iicbus/iiconf.c 228257 2011-12-04 11:55:33Z adrian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/iicbus/iiconf.c 228257 2011-12-04 11:55:33Z adrian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

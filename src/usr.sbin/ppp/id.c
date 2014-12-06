@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/ppp/id.c 202192 2010-01-13 17:54:32Z ed $
+ * $FreeBSD: releng/10.1/usr.sbin/ppp/id.c 202192 2010-01-13 17:54:32Z ed $
  */
 
 #include <sys/param.h>

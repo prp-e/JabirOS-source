@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/sys/modules/netfpga10g/Makefile 264601 2014-04-17 12:33:26Z bz $
+# $FreeBSD: releng/10.1/sys/modules/netfpga10g/Makefile 264601 2014-04-17 12:33:26Z bz $
 #
 
 SUBDIR=

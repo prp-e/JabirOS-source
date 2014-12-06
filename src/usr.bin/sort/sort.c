@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/sort/sort.c 251245 2013-06-02 09:43:48Z gabor $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/sort/sort.c 272611 2014-10-06 12:08:14Z bapt $");
 
 #include <sys/stat.h>
 #include <sys/sysctl.h>
@@ -897,7 +897,7 @@ fix_obsolete_keys(int *argc, char **argv)
 						}
 					}
 				}
-				sprintf(sopt, "-k%d.%d", f1, c1);
+				sprintf(sopt, "-k%d.%d%s", f1, c1, sopts1);
 				argv[i] = sort_strdup(sopt);
 			}
 		}

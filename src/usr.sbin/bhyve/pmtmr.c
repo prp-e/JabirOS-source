@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bhyve/pmtmr.c 261090 2014-01-23 20:35:32Z jhb $
+ * $FreeBSD: releng/10.1/usr.sbin/bhyve/pmtmr.c 261090 2014-01-23 20:35:32Z jhb $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/bhyve/pmtmr.c 261090 2014-01-23 20:35:32Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/bhyve/pmtmr.c 261090 2014-01-23 20:35:32Z jhb $");
 
 #include <sys/types.h>
 #include <sys/sysctl.h>

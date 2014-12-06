@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/netpfil/ipfw/ip_fw_private.h 265700 2014-05-08 19:11:41Z melifaro $
+ * $FreeBSD: releng/10.1/sys/netpfil/ipfw/ip_fw_private.h 265700 2014-05-08 19:11:41Z melifaro $
  */
 
 #ifndef _IPFW2_PRIVATE_H

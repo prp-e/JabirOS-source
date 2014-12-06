@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/powermac/pmu.c 262675 2014-03-02 02:35:46Z jhibbits $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/powermac/pmu.c 262675 2014-03-02 02:35:46Z jhibbits $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

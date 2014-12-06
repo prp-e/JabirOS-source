@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/pmcstat/pmcpl_annotate_cg.c 265604 2014-05-07 20:20:52Z scottl $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/pmcstat/pmcpl_annotate_cg.c 265604 2014-05-07 20:20:52Z scottl $");
 
 #include <sys/param.h>
 #include <sys/endian.h>

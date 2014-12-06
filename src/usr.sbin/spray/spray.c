@@ -30,7 +30,7 @@
 
 #ifndef lint
 static const char rcsid[] =
-  "$FreeBSD: stable/10/usr.sbin/spray/spray.c 227261 2011-11-06 19:02:49Z ed $";
+  "$FreeBSD: releng/10.1/usr.sbin/spray/spray.c 227261 2011-11-06 19:02:49Z ed $";
 #endif /* not lint */
 
 #include <err.h>

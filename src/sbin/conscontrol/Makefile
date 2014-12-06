@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/conscontrol/Makefile 198236 2009-10-19 16:00:24Z ru $
+# $FreeBSD: releng/10.1/sbin/conscontrol/Makefile 198236 2009-10-19 16:00:24Z ru $
 
 PROG=	conscontrol
 MAN=	conscontrol.8

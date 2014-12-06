@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)pathnames.h	8.1 (Berkeley) 5/31/93
- *	$FreeBSD: stable/10/games/fortune/fortune/pathnames.h 269933 2014-08-13 12:36:59Z gavin $
+ *	$FreeBSD: releng/10.1/games/fortune/fortune/pathnames.h 269933 2014-08-13 12:36:59Z gavin $
  */
 
 #define	FORTDIR		"/usr/share/games/fortune:" \

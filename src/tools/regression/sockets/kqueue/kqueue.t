@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/sockets/kqueue/kqueue.t 137587 2004-11-11 19:47:55Z nik $
+# $FreeBSD: releng/10.1/tools/regression/sockets/kqueue/kqueue.t 137587 2004-11-11 19:47:55Z nik $
 
 cd `dirname $0`
 

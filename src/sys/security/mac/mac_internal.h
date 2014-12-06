@@ -45,7 +45,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/security/mac/mac_internal.h 260817 2014-01-17 10:58:59Z avg $
+ * $FreeBSD: releng/10.1/sys/security/mac/mac_internal.h 260817 2014-01-17 10:58:59Z avg $
  */
 
 #ifndef _SECURITY_MAC_MAC_INTERNAL_H_

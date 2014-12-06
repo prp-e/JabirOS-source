@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/fs/udf/udf_vnops.c 248282 2013-03-14 20:28:26Z kib $
+ * $FreeBSD: releng/10.1/sys/fs/udf/udf_vnops.c 248282 2013-03-14 20:28:26Z kib $
  */
 
 /* udf_vnops.c */

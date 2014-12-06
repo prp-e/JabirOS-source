@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/serial/umcs.h 252123 2013-06-23 20:19:51Z thomas $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/serial/umcs.h 252123 2013-06-23 20:19:51Z thomas $ */
 /*-
  * Copyright (c) 2010 Lev Serebryakov <lev@FreeBSD.org>.
  * All rights reserved.

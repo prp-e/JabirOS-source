@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/tty.h 271773 2014-09-18 14:44:47Z grehan $
+ * $FreeBSD: releng/10.1/sys/sys/tty.h 271773 2014-09-18 14:44:47Z grehan $
  */
 
 #ifndef _SYS_TTY_H_

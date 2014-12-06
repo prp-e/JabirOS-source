@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/fdt/fdt_slicer.c 261077 2014-01-23 12:02:04Z loos $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/fdt/fdt_slicer.c 261077 2014-01-23 12:02:04Z loos $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

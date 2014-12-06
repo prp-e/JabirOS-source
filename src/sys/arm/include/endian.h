@@ -27,7 +27,7 @@
  *
  *	@(#)endian.h	8.1 (Berkeley) 6/10/93
  * $NetBSD: endian.h,v 1.7 1999/08/21 05:53:51 simonb Exp $
- * $FreeBSD: stable/10/sys/arm/include/endian.h 236992 2012-06-13 05:02:51Z imp $
+ * $FreeBSD: releng/10.1/sys/arm/include/endian.h 236992 2012-06-13 05:02:51Z imp $
  */
 
 #ifndef _ENDIAN_H_

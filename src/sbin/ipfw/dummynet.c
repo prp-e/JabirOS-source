@@ -10,7 +10,7 @@
  *
  * This software is provided ``AS IS'' without any warranties of any kind.
  *
- * $FreeBSD: stable/10/sbin/ipfw/dummynet.c 238900 2012-07-30 10:55:23Z luigi $
+ * $FreeBSD: releng/10.1/sbin/ipfw/dummynet.c 238900 2012-07-30 10:55:23Z luigi $
  *
  * dummynet support
  */

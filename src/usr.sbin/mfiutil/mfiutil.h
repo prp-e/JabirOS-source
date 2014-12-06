@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/mfiutil/mfiutil.h 251516 2013-06-08 02:54:59Z sbruno $
+ * $FreeBSD: releng/10.1/usr.sbin/mfiutil/mfiutil.h 251516 2013-06-08 02:54:59Z sbruno $
  */
 
 #ifndef __MFIUTIL_H__

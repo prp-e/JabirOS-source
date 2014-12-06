@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/nvd/nvd.c 256151 2013-10-08 15:44:04Z jimharris $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/nvd/nvd.c 256151 2013-10-08 15:44:04Z jimharris $");
 
 #include <sys/param.h>
 #include <sys/bio.h>

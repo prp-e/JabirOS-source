@@ -20,7 +20,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/si/si_isa.c 166914 2007-02-23 19:34:52Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/si/si_isa.c 166914 2007-02-23 19:34:52Z imp $");
 
 #include "opt_debug_si.h"
 

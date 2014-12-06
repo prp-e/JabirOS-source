@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/nand/nfc_fsl.c 238046 2012-07-03 01:00:29Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/nand/nfc_fsl.c 238046 2012-07-03 01:00:29Z marcel $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

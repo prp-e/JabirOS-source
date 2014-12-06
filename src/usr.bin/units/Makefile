@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/units/Makefile 88064 2001-12-17 16:02:15Z ru $
+# $FreeBSD: releng/10.1/usr.bin/units/Makefile 88064 2001-12-17 16:02:15Z ru $
 
 PROG=	units
 FILES=	units.lib

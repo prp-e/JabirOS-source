@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/usr.sbin/pmcstat/Makefile 265604 2014-05-07 20:20:52Z scottl $
+# $FreeBSD: releng/10.1/usr.sbin/pmcstat/Makefile 265604 2014-05-07 20:20:52Z scottl $
 #
 
 PROG=	pmcstat

@@ -23,7 +23,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/usb/net/if_axgereg.h 266991 2014-06-03 01:39:55Z kevlo $
+ * $FreeBSD: releng/10.1/sys/dev/usb/net/if_axgereg.h 266991 2014-06-03 01:39:55Z kevlo $
  */
 
 #define	AXGE_ACCESS_MAC			0x01

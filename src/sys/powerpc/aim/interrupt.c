@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/aim/interrupt.c 260667 2014-01-15 04:16:45Z jhibbits $
+ * $FreeBSD: releng/10.1/sys/powerpc/aim/interrupt.c 260667 2014-01-15 04:16:45Z jhibbits $
  */
 
 /*

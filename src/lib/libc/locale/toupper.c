@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/locale/toupper.c 235239 2012-05-10 20:03:34Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/locale/toupper.c 235239 2012-05-10 20:03:34Z dim $");
 
 #include <ctype.h>
 #include <stdio.h>

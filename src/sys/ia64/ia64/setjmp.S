@@ -1,4 +1,4 @@
-// $FreeBSD: stable/10/sys/ia64/ia64/setjmp.S 139790 2005-01-06 22:18:23Z imp $
+// $FreeBSD: releng/10.1/sys/ia64/ia64/setjmp.S 139790 2005-01-06 22:18:23Z imp $
 
 //-
 // Copyright (c) 1999, 2000

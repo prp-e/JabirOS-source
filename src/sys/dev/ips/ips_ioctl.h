@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/ips/ips_ioctl.h 154006 2006-01-03 23:03:39Z scottl $
+ * $FreeBSD: releng/10.1/sys/dev/ips/ips_ioctl.h 154006 2006-01-03 23:03:39Z scottl $
  */
 
 #ifndef _IPS_IOCTL_H

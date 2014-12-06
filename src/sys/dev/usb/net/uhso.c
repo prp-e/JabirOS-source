@@ -24,7 +24,7 @@
  *
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/net/uhso.c 268206 2014-07-03 06:44:55Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/net/uhso.c 268206 2014-07-03 06:44:55Z hselasky $");
 
 #include <sys/param.h>
 #include <sys/types.h>

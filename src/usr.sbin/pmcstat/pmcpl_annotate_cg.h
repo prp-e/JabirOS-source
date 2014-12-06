@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/pmcstat/pmcpl_annotate_cg.h 265604 2014-05-07 20:20:52Z scottl $
+ * $FreeBSD: releng/10.1/usr.sbin/pmcstat/pmcpl_annotate_cg.h 265604 2014-05-07 20:20:52Z scottl $
  */
 
 #ifndef	_PMCSTAT_PL_ANNOTATE_CG_H_

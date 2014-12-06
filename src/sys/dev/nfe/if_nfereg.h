@@ -15,7 +15,7 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * $FreeBSD: stable/10/sys/dev/nfe/if_nfereg.h 264442 2014-04-14 04:51:59Z yongari $
+ * $FreeBSD: releng/10.1/sys/dev/nfe/if_nfereg.h 264442 2014-04-14 04:51:59Z yongari $
  */
 
 #define	NFE_RX_RING_COUNT	256

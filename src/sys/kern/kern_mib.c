@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_mib.c 269446 2014-08-02 20:58:46Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_mib.c 269446 2014-08-02 20:58:46Z hselasky $");
 
 #include "opt_compat.h"
 #include "opt_posix.h"

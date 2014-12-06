@@ -1,6 +1,6 @@
 /*-
  * This file is in the public domain.
  */
-/* $FreeBSD: stable/10/sys/i386/include/reg.h 233124 2012-03-18 19:06:38Z tijl $ */
+/* $FreeBSD: releng/10.1/sys/i386/include/reg.h 233124 2012-03-18 19:06:38Z tijl $ */
 
 #include <x86/reg.h>

@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/usr.sbin/rtadvd/rtadvd.h 253970 2013-08-05 20:13:02Z hrs $	*/
+/*	$FreeBSD: releng/10.1/usr.sbin/rtadvd/rtadvd.h 253970 2013-08-05 20:13:02Z hrs $	*/
 /*	$KAME: rtadvd.h,v 1.26 2003/08/05 12:34:23 itojun Exp $	*/
 
 /*

@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/sort/mem.c 251245 2013-06-02 09:43:48Z gabor $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/sort/mem.c 251245 2013-06-02 09:43:48Z gabor $");
 
 #include <err.h>
 #include <stdint.h>

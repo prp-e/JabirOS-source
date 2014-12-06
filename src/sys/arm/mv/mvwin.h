@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/mv/mvwin.h 250295 2013-05-06 14:54:17Z gber $
+ * $FreeBSD: releng/10.1/sys/arm/mv/mvwin.h 250295 2013-05-06 14:54:17Z gber $
  */
 
 #ifndef _MVWIN_H_

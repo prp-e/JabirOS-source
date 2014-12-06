@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/net/zlib.h 245102 2013-01-06 14:59:59Z peter $	*/
+/* $FreeBSD: releng/10.1/sys/net/zlib.h 245102 2013-01-06 14:59:59Z peter $	*/
 
 /*
  * This file is derived from zlib.h and zconf.h from the zlib-1.0.4

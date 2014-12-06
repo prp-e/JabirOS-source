@@ -35,7 +35,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)ctype.h	8.4 (Berkeley) 1/21/94
- *      $FreeBSD: stable/10/include/ctype.h 233600 2012-03-28 12:11:54Z theraven $
+ *      $FreeBSD: releng/10.1/include/ctype.h 233600 2012-03-28 12:11:54Z theraven $
  */
 
 #ifndef _CTYPE_H_

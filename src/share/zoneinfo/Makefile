@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/zoneinfo/Makefile 271275 2014-09-08 15:40:55Z emaste $
+# $FreeBSD: releng/10.1/share/zoneinfo/Makefile 271275 2014-09-08 15:40:55Z emaste $
 
 #
 # HOW TO UPDATE THE ZONEINFO DATA

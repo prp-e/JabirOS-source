@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/secure/lib/libcrypto/opensslconf-sparc64.h 238405 2012-07-12 19:30:53Z jkim $ */
+/* $FreeBSD: releng/10.1/secure/lib/libcrypto/opensslconf-sparc64.h 238405 2012-07-12 19:30:53Z jkim $ */
 /* opensslconf.h */
 /* WARNING: Generated automatically from opensslconf.h.in by Configure. */
 

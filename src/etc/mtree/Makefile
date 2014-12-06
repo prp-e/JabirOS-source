@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/etc/mtree/Makefile 260013 2013-12-28 20:05:31Z jmmv $
+# $FreeBSD: releng/10.1/etc/mtree/Makefile 260013 2013-12-28 20:05:31Z jmmv $
 
 .include <bsd.own.mk>
 

@@ -1,5 +1,5 @@
 
-# $FreeBSD: stable/10/sys/modules/aic7xxx/ahc/ahc_isa/Makefile 270284 2014-08-21 17:18:21Z ian $
+# $FreeBSD: releng/10.1/sys/modules/aic7xxx/ahc/ahc_isa/Makefile 270284 2014-08-21 17:18:21Z ian $
 
 .PATH:	${.CURDIR}/../../../../dev/aic7xxx
 KMOD=		ahc_isa

@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/ti/twl/twl_vreg.h 239281 2012-08-15 06:31:32Z gonzo $
+ * $FreeBSD: releng/10.1/sys/arm/ti/twl/twl_vreg.h 239281 2012-08-15 06:31:32Z gonzo $
  */
 #ifndef _TWL_VREG_H_
 #define _TWL_VREG_H_

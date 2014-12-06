@@ -29,7 +29,7 @@
 
 #include <sys/cdefs.h>
 
-__FBSDID("$FreeBSD: stable/10/usr.bin/systat/netstat.c 231011 2012-02-05 09:17:49Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/systat/netstat.c 231011 2012-02-05 09:17:49Z ed $");
 
 #ifdef lint
 static const char sccsid[] = "@(#)netstat.c	8.1 (Berkeley) 6/6/93";

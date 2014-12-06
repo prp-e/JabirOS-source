@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libelf/libelf_align.c 210332 2010-07-21 09:56:42Z kaiw $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libelf/libelf_align.c 210332 2010-07-21 09:56:42Z kaiw $");
 
 #include <sys/types.h>
 

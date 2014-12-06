@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/ksyms/ksyms.c 239303 2012-08-15 16:19:39Z hselasky $
+ * $FreeBSD: releng/10.1/sys/dev/ksyms/ksyms.c 239303 2012-08-15 16:19:39Z hselasky $
  */
 
 #include <sys/param.h>

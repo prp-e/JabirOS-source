@@ -1,6 +1,6 @@
 # Common defines for all of /sys/boot/pc98/
 #
-# $FreeBSD: stable/10/sys/boot/pc98/Makefile.inc 260096 2013-12-30 20:15:46Z dim $
+# $FreeBSD: releng/10.1/sys/boot/pc98/Makefile.inc 260096 2013-12-30 20:15:46Z dim $
 
 BINDIR?=	/boot
 

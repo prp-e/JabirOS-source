@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/boot/fdt/dts/arm/rk3188-radxa.dts 266337 2014-05-17 18:53:36Z ian $
+ * $FreeBSD: releng/10.1/sys/boot/fdt/dts/arm/rk3188-radxa.dts 266337 2014-05-17 18:53:36Z ian $
  */
 
 /dts-v1/;

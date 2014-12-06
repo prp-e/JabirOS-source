@@ -35,7 +35,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/include/bootconfig.h 167752 2007-03-21 03:28:16Z kevlo $
+ * $FreeBSD: releng/10.1/sys/arm/include/bootconfig.h 167752 2007-03-21 03:28:16Z kevlo $
  */
 
 #ifndef _MACHINE_BOOTCONFIG_H_

@@ -51,7 +51,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/mmc/mmc.c 269795 2014-08-11 01:22:10Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/mmc/mmc.c 269795 2014-08-11 01:22:10Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bsdinstall/partedit/partedit_x86.c 271637 2014-09-15 17:56:55Z emaste $
+ * $FreeBSD: releng/10.1/usr.sbin/bsdinstall/partedit/partedit_x86.c 271637 2014-09-15 17:56:55Z emaste $
  */
 
 #include <sys/types.h>

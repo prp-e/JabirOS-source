@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/i386/kgzldr/Makefile 139112 2004-12-21 09:59:45Z ru $
+# $FreeBSD: releng/10.1/sys/boot/i386/kgzldr/Makefile 139112 2004-12-21 09:59:45Z ru $
 
 PROG=	kgzldr.o
 STRIP=

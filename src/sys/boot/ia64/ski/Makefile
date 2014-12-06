@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/ia64/ski/Makefile 211680 2010-08-23 01:50:34Z imp $
+# $FreeBSD: releng/10.1/sys/boot/ia64/ski/Makefile 211680 2010-08-23 01:50:34Z imp $
 
 NO_MAN=
 

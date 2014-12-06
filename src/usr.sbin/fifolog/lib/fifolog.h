@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/fifolog/lib/fifolog.h 219027 2011-02-25 09:40:17Z phk $
+ * $FreeBSD: releng/10.1/usr.sbin/fifolog/lib/fifolog.h 219027 2011-02-25 09:40:17Z phk $
  */
 
 #ifndef __LOCAL_FIFOLOG_H_

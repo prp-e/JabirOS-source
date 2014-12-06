@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/nxge/Makefile 173139 2007-10-29 14:19:32Z rwatson $
+# $FreeBSD: releng/10.1/tools/tools/nxge/Makefile 173139 2007-10-29 14:19:32Z rwatson $
 
 PROG=   xgeinfo
 SRCS= xge_info.c xge_log.c

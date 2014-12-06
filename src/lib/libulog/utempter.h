@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libulog/utempter.h 200185 2009-12-06 20:30:21Z ed $
+ * $FreeBSD: releng/10.1/lib/libulog/utempter.h 200185 2009-12-06 20:30:21Z ed $
  */
 
 #ifndef _UTEMPTER_H_

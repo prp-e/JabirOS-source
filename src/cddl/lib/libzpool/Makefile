@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/cddl/lib/libzpool/Makefile 254949 2013-08-27 04:01:31Z will $
+# $FreeBSD: releng/10.1/cddl/lib/libzpool/Makefile 254949 2013-08-27 04:01:31Z will $
 
 .include "${.CURDIR}/../../../sys/cddl/contrib/opensolaris/uts/common/Makefile.files"
 

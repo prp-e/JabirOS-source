@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/etc/login.access 130151 2004-06-06 11:46:29Z schweikh $
+# $FreeBSD: releng/10.1/etc/login.access 130151 2004-06-06 11:46:29Z schweikh $
 #
 # Login access control table.
 #

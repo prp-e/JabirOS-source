@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/getent/getent.c 250942 2013-05-23 20:52:30Z ghelmer $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/getent/getent.c 250942 2013-05-23 20:52:30Z ghelmer $");
 
 #include <sys/socket.h>
 #include <sys/param.h>

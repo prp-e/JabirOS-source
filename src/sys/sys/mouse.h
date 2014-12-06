@@ -20,7 +20,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/mouse.h 255154 2013-09-02 19:49:18Z dumbbell $
+ * $FreeBSD: releng/10.1/sys/sys/mouse.h 255154 2013-09-02 19:49:18Z dumbbell $
  */
 
 #ifndef _SYS_MOUSE_H_

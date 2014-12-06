@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/inetd/builtins.c 239991 2012-09-01 14:45:15Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/inetd/builtins.c 239991 2012-09-01 14:45:15Z ed $");
 
 #include <sys/filio.h>
 #include <sys/ioccom.h>

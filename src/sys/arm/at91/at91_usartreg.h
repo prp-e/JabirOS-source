@@ -23,7 +23,7 @@
  * SUCH DAMAGE.
  */
 
-/* $FreeBSD: stable/10/sys/arm/at91/at91_usartreg.h 185265 2008-11-25 00:13:26Z imp $ */
+/* $FreeBSD: releng/10.1/sys/arm/at91/at91_usartreg.h 185265 2008-11-25 00:13:26Z imp $ */
 
 #ifndef AT91USARTREG_H_
 #define AT91USARTREG_H_

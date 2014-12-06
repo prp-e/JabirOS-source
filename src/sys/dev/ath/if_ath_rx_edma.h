@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: stable/10/sys/dev/ath/if_ath_rx_edma.h 238055 2012-07-03 06:59:12Z adrian $
+ * $FreeBSD: releng/10.1/sys/dev/ath/if_ath_rx_edma.h 238055 2012-07-03 06:59:12Z adrian $
  */
 #ifndef	__IF_ATH_RX_EDMA_H__
 #define	__IF_ATH_RX_EDMA_H__

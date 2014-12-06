@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/fs/msdosfs/direntry.h 203827 2010-02-13 12:41:07Z kib $ */
+/* $FreeBSD: releng/10.1/sys/fs/msdosfs/direntry.h 203827 2010-02-13 12:41:07Z kib $ */
 /*	$NetBSD: direntry.h,v 1.14 1997/11/17 15:36:32 ws Exp $	*/
 
 /*-

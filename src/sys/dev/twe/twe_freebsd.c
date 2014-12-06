@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/twe/twe_freebsd.c 240209 2012-09-07 18:41:19Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/twe/twe_freebsd.c 240209 2012-09-07 18:41:19Z jhb $");
 
 /*
  * FreeBSD-specific code.

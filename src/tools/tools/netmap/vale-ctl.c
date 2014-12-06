@@ -23,7 +23,7 @@
  * SUCH DAMAGE.
  */
 
-/* $FreeBSD: stable/10/tools/tools/netmap/vale-ctl.c 270252 2014-08-20 23:34:36Z luigi $ */
+/* $FreeBSD: releng/10.1/tools/tools/netmap/vale-ctl.c 270252 2014-08-20 23:34:36Z luigi $ */
 
 #include <errno.h>
 #include <stdio.h>

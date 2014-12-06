@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/dev/usb/wlan/if_rumreg.h 261455 2014-02-04 03:36:42Z eadler $	*/
+/*	$FreeBSD: releng/10.1/sys/dev/usb/wlan/if_rumreg.h 261455 2014-02-04 03:36:42Z eadler $	*/
 
 /*-
  * Copyright (c) 2005, 2006 Damien Bergamini <damien.bergamini@free.fr>

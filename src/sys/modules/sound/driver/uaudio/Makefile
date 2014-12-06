@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/sound/driver/uaudio/Makefile 266485 2014-05-21 06:29:52Z hselasky $
+# $FreeBSD: releng/10.1/sys/modules/sound/driver/uaudio/Makefile 266485 2014-05-21 06:29:52Z hselasky $
 
 S=	${.CURDIR}/../../../..
 

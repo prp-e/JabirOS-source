@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/imgact_elf.c 267561 2014-06-17 05:21:48Z dchagin $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/imgact_elf.c 267561 2014-06-17 05:21:48Z dchagin $");
 
 #include "opt_capsicum.h"
 #include "opt_compat.h"

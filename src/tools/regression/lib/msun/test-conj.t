@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/lib/msun/test-conj.t 196696 2009-08-31 13:23:55Z jhb $
+# $FreeBSD: releng/10.1/tools/regression/lib/msun/test-conj.t 196696 2009-08-31 13:23:55Z jhb $
 
 cd `dirname $0`
 

@@ -1,4 +1,4 @@
-	# $FreeBSD: stable/10/secure/lib/libcrypto/i386/aesni-x86.s 238405 2012-07-12 19:30:53Z jkim $
+	# $FreeBSD: releng/10.1/secure/lib/libcrypto/i386/aesni-x86.s 238405 2012-07-12 19:30:53Z jkim $
 .file	"aesni-x86.s"
 .text
 .globl	aesni_encrypt

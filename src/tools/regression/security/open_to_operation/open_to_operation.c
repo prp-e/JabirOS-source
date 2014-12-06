@@ -90,7 +90,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/regression/security/open_to_operation/open_to_operation.c 228975 2011-12-30 00:04:11Z uqs $");
+__FBSDID("$FreeBSD: releng/10.1/tools/regression/security/open_to_operation/open_to_operation.c 228975 2011-12-30 00:04:11Z uqs $");
 
 #include <sys/param.h>
 #include <sys/mman.h>

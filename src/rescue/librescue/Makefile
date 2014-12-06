@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/rescue/librescue/Makefile 188895 2009-02-21 15:04:31Z ru $
+# $FreeBSD: releng/10.1/rescue/librescue/Makefile 188895 2009-02-21 15:04:31Z ru $
 #
 
 .include <bsd.own.mk>

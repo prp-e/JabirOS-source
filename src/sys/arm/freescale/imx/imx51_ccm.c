@@ -59,7 +59,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/freescale/imx/imx51_ccm.c 266371 2014-05-17 22:29:24Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/freescale/imx/imx51_ccm.c 266371 2014-05-17 22:29:24Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

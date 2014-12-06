@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/wlan/Makefile 262126 2014-02-17 20:19:34Z dim $
+# $FreeBSD: releng/10.1/sys/modules/wlan/Makefile 262126 2014-02-17 20:19:34Z dim $
 
 .PATH: ${.CURDIR}/../../net80211
 

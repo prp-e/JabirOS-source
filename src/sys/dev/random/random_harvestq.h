@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/random/random_harvestq.h 256381 2013-10-12 15:31:36Z markm $
+ * $FreeBSD: releng/10.1/sys/dev/random/random_harvestq.h 256381 2013-10-12 15:31:36Z markm $
  */
 
 #ifndef SYS_DEV_RANDOM_RANDOM_HARVESTQ_H_INCLUDED

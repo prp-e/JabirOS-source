@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/mpc85xx/mpc85xx.c 265996 2014-05-14 00:51:26Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/mpc85xx/mpc85xx.c 265996 2014-05-14 00:51:26Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -1,5 +1,5 @@
 /*	$NetBSD: ucomvar.h,v 1.9 2001/01/23 21:56:17 augustss Exp $	*/
-/*	$FreeBSD: stable/10/sys/dev/usb/serial/usb_serial.h 268206 2014-07-03 06:44:55Z hselasky $	*/
+/*	$FreeBSD: releng/10.1/sys/dev/usb/serial/usb_serial.h 268206 2014-07-03 06:44:55Z hselasky $	*/
 
 /*-
  * Copyright (c) 2001-2002, Shunsuke Akiyama <akiyama@jp.FreeBSD.org>.

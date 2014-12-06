@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/psim/iobus.c 266160 2014-05-15 17:30:16Z ian $
+ * $FreeBSD: releng/10.1/sys/powerpc/psim/iobus.c 266160 2014-05-15 17:30:16Z ian $
  */
 
 /*

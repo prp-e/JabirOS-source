@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libcrypt/tests/Makefile 270386 2014-08-23 02:24:47Z ngie $
+# $FreeBSD: releng/10.1/lib/libcrypt/tests/Makefile 270386 2014-08-23 02:24:47Z ngie $
 
 # exercise libcrypt
 

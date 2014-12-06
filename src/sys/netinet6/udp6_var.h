@@ -57,7 +57,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)udp_var.h	8.1 (Berkeley) 6/10/93
- * $FreeBSD: stable/10/sys/netinet6/udp6_var.h 265946 2014-05-13 06:05:53Z kevlo $
+ * $FreeBSD: releng/10.1/sys/netinet6/udp6_var.h 265946 2014-05-13 06:05:53Z kevlo $
  */
 
 #ifndef _NETINET6_UDP6_VAR_H_

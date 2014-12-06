@@ -41,7 +41,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/dhclient/bpf.c 261828 2014-02-13 09:24:46Z brueffer $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/dhclient/bpf.c 261828 2014-02-13 09:24:46Z brueffer $");
 
 #include <sys/capability.h>
 

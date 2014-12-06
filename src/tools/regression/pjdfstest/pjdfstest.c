@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/pjdfstest/pjdfstest.c 249594 2013-04-17 21:08:18Z pjd $
+ * $FreeBSD: releng/10.1/tools/regression/pjdfstest/pjdfstest.c 249594 2013-04-17 21:08:18Z pjd $
  */
 
 #include <sys/param.h>

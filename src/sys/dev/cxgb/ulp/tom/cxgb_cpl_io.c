@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/cxgb/ulp/tom/cxgb_cpl_io.c 259993 2013-12-28 02:15:30Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/cxgb/ulp/tom/cxgb_cpl_io.c 259993 2013-12-28 02:15:30Z dim $");
 
 #include "opt_inet.h"
 

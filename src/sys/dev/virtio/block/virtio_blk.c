@@ -27,7 +27,7 @@
 /* Driver for VirtIO block devices. */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/virtio/block/virtio_blk.c 267562 2014-06-17 05:24:45Z bryanv $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/virtio/block/virtio_blk.c 267562 2014-06-17 05:24:45Z bryanv $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

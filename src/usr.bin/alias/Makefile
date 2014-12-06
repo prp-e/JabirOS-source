@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/alias/Makefile 207196 2010-04-25 17:38:53Z jilles $
+# $FreeBSD: releng/10.1/usr.bin/alias/Makefile 207196 2010-04-25 17:38:53Z jilles $
 
 SCRIPTS=generic.sh
 SCRIPTSNAME=alias

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/csu/powerpc/Makefile 234596 2012-04-23 06:33:27Z dim $
+# $FreeBSD: releng/10.1/lib/csu/powerpc/Makefile 234596 2012-04-23 06:33:27Z dim $
 
 .PATH: ${.CURDIR}/../common
 

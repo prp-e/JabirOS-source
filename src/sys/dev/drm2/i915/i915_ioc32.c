@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/i915/i915_ioc32.c 239375 2012-08-18 18:26:25Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/i915/i915_ioc32.c 239375 2012-08-18 18:26:25Z kib $");
 
 #include "opt_compat.h"
 

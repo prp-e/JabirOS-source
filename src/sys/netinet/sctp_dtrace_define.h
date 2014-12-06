@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/sctp_dtrace_define.h 260817 2014-01-17 10:58:59Z avg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/sctp_dtrace_define.h 260817 2014-01-17 10:58:59Z avg $");
 
 #ifndef _NETINET_SCTP_DTRACE_DEFINE_H_
 #define _NETINET_SCTP_DTRACE_DEFINE_H_

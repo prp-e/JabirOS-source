@@ -14,7 +14,7 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * $FreeBSD: stable/10/sys/dev/vmware/vmxnet3/if_vmxvar.h 268011 2014-06-29 00:50:56Z bryanv $
+ * $FreeBSD: releng/10.1/sys/dev/vmware/vmxnet3/if_vmxvar.h 268011 2014-06-29 00:50:56Z bryanv $
  */
 
 #ifndef _IF_VMXVAR_H

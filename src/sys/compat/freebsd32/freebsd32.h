@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/compat/freebsd32/freebsd32.h 258885 2013-12-03 19:40:32Z kib $
+ * $FreeBSD: releng/10.1/sys/compat/freebsd32/freebsd32.h 258885 2013-12-03 19:40:32Z kib $
  */
 
 #ifndef _COMPAT_FREEBSD32_FREEBSD32_H_

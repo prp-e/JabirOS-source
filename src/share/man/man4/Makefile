@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/18/93
-# $FreeBSD: stable/10/share/man/man4/Makefile 271734 2014-09-18 03:02:00Z allanjude $
+# $FreeBSD: releng/10.1/share/man/man4/Makefile 272327 2014-09-30 20:32:27Z brooks $
 
 .include <bsd.own.mk>
 
@@ -36,6 +36,7 @@ MAN=	aac.4 \
 	alc.4 \
 	ale.4 \
 	alpm.4 \
+	altera_atse.4 \
 	altera_avgen.4 \
 	altera_jtag_uart.4 \
 	altera_sdcard.4 \

@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/hptnr/himfuncs.h 252867 2013-07-06 07:49:41Z delphij $
+ * $FreeBSD: releng/10.1/sys/dev/hptnr/himfuncs.h 252867 2013-07-06 07:49:41Z delphij $
  */
 /*
  * define _HIM_INTERFACE before include this file, and

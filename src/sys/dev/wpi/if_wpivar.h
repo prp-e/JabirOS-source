@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/dev/wpi/if_wpivar.h 264956 2014-04-25 22:23:38Z marius $	*/
+/*	$FreeBSD: releng/10.1/sys/dev/wpi/if_wpivar.h 264956 2014-04-25 22:23:38Z marius $	*/
 
 /*-
  * Copyright (c) 2006,2007

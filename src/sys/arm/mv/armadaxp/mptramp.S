@@ -27,7 +27,7 @@
 #include <machine/asm.h>
 #include <machine/armreg.h>
 
-__FBSDID("$FreeBSD: stable/10/sys/arm/mv/armadaxp/mptramp.S 266385 2014-05-18 00:30:04Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/mv/armadaxp/mptramp.S 266385 2014-05-18 00:30:04Z ian $");
 
 ASENTRY_NP(mptramp)
 	mov	r0, #0

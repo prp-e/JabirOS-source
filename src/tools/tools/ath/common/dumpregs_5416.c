@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: stable/10/tools/tools/ath/common/dumpregs_5416.c 237830 2012-06-30 01:40:29Z adrian $
+ * $FreeBSD: releng/10.1/tools/tools/ath/common/dumpregs_5416.c 237830 2012-06-30 01:40:29Z adrian $
  */
 #include "diag.h"
 

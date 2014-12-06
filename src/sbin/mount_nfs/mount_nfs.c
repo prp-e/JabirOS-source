@@ -42,7 +42,7 @@ static char sccsid[] = "@(#)mount_nfs.c	8.11 (Berkeley) 5/4/95";
 #endif /* not lint */
 #endif
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/mount_nfs/mount_nfs.c 270043 2014-08-16 13:06:11Z bz $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/mount_nfs/mount_nfs.c 270043 2014-08-16 13:06:11Z bz $");
 
 #include <sys/param.h>
 #include <sys/linker.h>

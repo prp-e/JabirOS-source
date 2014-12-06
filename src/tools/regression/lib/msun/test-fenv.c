@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/regression/lib/msun/test-fenv.c 143710 2005-03-16 19:04:45Z das $");
+__FBSDID("$FreeBSD: releng/10.1/tools/regression/lib/msun/test-fenv.c 143710 2005-03-16 19:04:45Z das $");
 
 #include <sys/types.h>
 #include <sys/wait.h>

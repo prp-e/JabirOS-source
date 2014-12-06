@@ -26,7 +26,7 @@
  * THE POSSIBILITY OF SUCH DAMAGE.
  *
  * NETLOGIC_BSD
- * $FreeBSD: stable/10/sys/mips/nlm/hal/fmn.h 227783 2011-11-21 08:12:36Z jchandra $
+ * $FreeBSD: releng/10.1/sys/mips/nlm/hal/fmn.h 227783 2011-11-21 08:12:36Z jchandra $
  */
 
 #ifndef __NLM_FMNV2_H__

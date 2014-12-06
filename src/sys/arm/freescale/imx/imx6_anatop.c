@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/freescale/imx/imx6_anatop.c 271330 2014-09-09 19:47:35Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/freescale/imx/imx6_anatop.c 271330 2014-09-09 19:47:35Z ian $");
 
 /*
  * Analog PLL and power regulator driver for Freescale i.MX6 family of SoCs.

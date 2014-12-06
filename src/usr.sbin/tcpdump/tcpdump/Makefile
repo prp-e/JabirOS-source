@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/tcpdump/tcpdump/Makefile 263086 2014-03-12 10:45:58Z glebius $
+# $FreeBSD: releng/10.1/usr.sbin/tcpdump/tcpdump/Makefile 263086 2014-03-12 10:45:58Z glebius $
 
 .include <bsd.own.mk>
 

@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/drm2/drm_gem_names.h 271816 2014-09-18 20:32:40Z dumbbell $
+ * $FreeBSD: releng/10.1/sys/dev/drm2/drm_gem_names.h 271816 2014-09-18 20:32:40Z dumbbell $
  *
  */
 

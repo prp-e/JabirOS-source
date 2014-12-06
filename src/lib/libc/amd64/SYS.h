@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)SYS.h	5.5 (Berkeley) 5/7/91
- * $FreeBSD: stable/10/lib/libc/amd64/SYS.h 240178 2012-09-06 20:59:49Z jilles $
+ * $FreeBSD: releng/10.1/lib/libc/amd64/SYS.h 240178 2012-09-06 20:59:49Z jilles $
  */
 
 #include <sys/syscall.h>

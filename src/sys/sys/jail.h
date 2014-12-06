@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/jail.h 254741 2013-08-23 22:52:20Z delphij $
+ * $FreeBSD: releng/10.1/sys/sys/jail.h 254741 2013-08-23 22:52:20Z delphij $
  */
 
 #ifndef _SYS_JAIL_H_

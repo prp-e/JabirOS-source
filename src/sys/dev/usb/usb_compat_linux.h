@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/usb_compat_linux.h 198776 2009-11-01 21:48:18Z thompsa $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/usb_compat_linux.h 198776 2009-11-01 21:48:18Z thompsa $ */
 /*-
  * Copyright (c) 2007 Luigi Rizzo - Universita` di Pisa. All rights reserved.
  * Copyright (c) 2007 Hans Petter Selasky. All rights reserved.

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/vmm/vmm_msr.h 262350 2014-02-23 00:46:05Z jhb $
+ * $FreeBSD: releng/10.1/sys/amd64/vmm/vmm_msr.h 262350 2014-02-23 00:46:05Z jhb $
  */
 
 #ifndef	_VMM_MSR_H_

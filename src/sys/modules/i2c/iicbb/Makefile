@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/i2c/iicbb/Makefile 266105 2014-05-15 01:27:53Z loos $
+# $FreeBSD: releng/10.1/sys/modules/i2c/iicbb/Makefile 266105 2014-05-15 01:27:53Z loos $
 
 .PATH:		${.CURDIR}/../../../dev/iicbus
 KMOD		= iicbb

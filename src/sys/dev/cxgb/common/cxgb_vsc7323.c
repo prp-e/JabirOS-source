@@ -29,7 +29,7 @@ POSSIBILITY OF SUCH DAMAGE.
 ***************************************************************************/
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/cxgb/common/cxgb_vsc7323.c 183292 2008-09-23 03:16:54Z kmacy $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/cxgb/common/cxgb_vsc7323.c 183292 2008-09-23 03:16:54Z kmacy $");
 
 #include <common/cxgb_common.h>
 

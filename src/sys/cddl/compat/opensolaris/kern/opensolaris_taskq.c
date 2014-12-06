@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/cddl/compat/opensolaris/kern/opensolaris_taskq.c 262070 2014-02-17 15:38:10Z avg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/cddl/compat/opensolaris/kern/opensolaris_taskq.c 262070 2014-02-17 15:38:10Z avg $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

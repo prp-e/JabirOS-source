@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/fs/autofs/autofs_vnops.c 272116 2014-09-25 17:28:29Z trasz $");
+__FBSDID("$FreeBSD: releng/10.1/sys/fs/autofs/autofs_vnops.c 272116 2014-09-25 17:28:29Z trasz $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

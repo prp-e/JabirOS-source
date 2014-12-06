@@ -2,7 +2,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/scd/scd_isa.c 146734 2005-05-29 04:42:30Z nyan $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/scd/scd_isa.c 146734 2005-05-29 04:42:30Z nyan $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/usr.sbin/timed/timedc/extern.h 216372 2010-12-11 09:38:12Z joel $	*/
+/*	$FreeBSD: releng/10.1/usr.sbin/timed/timedc/extern.h 216372 2010-12-11 09:38:12Z joel $	*/
 
 /*-
  * Copyright (c) 1993

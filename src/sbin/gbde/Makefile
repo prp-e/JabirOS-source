@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/gbde/Makefile 249657 2013-04-19 19:45:00Z ed $
+# $FreeBSD: releng/10.1/sbin/gbde/Makefile 249657 2013-04-19 19:45:00Z ed $
 
 PROG=	gbde
 SRCS=	gbde.c template.c

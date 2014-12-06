@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/csup/diff.c 225844 2011-09-28 17:03:49Z crees $
+ * $FreeBSD: releng/10.1/usr.bin/csup/diff.c 225844 2011-09-28 17:03:49Z crees $
  */
 
 #include <assert.h>

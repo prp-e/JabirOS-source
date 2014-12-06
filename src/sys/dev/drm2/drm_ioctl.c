@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm_ioctl.c 258706 2013-11-28 09:30:05Z dumbbell $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/drm_ioctl.c 258706 2013-11-28 09:30:05Z dumbbell $");
 
 /** @file drm_ioctl.c
  * Varios minor DRM ioctls not applicable to other files, such as versioning

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/cxgbetool/Makefile 259142 2013-12-09 22:40:22Z np $
+# $FreeBSD: releng/10.1/tools/tools/cxgbetool/Makefile 259142 2013-12-09 22:40:22Z np $
 
 PROG=	cxgbetool
 SRCS=	cxgbetool.c

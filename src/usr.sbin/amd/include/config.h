@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/usr.sbin/amd/include/config.h 194880 2009-06-24 18:42:21Z dfr $
+ * $FreeBSD: releng/10.1/usr.sbin/amd/include/config.h 194880 2009-06-24 18:42:21Z dfr $
  *
  * portions derived from
  *      $NetBSD: config.h,v 1.11 1998/08/08 22:33:37 christos Exp $

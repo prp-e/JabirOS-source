@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/regression/posixsem2/Makefile 201575 2010-01-05 12:34:13Z davidxu $
+# $FreeBSD: releng/10.1/tools/regression/posixsem2/Makefile 201575 2010-01-05 12:34:13Z davidxu $
 
 PROG=	semtest
 SRCS=	semtest.c

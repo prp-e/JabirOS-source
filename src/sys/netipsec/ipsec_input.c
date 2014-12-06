@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/netipsec/ipsec_input.c 259385 2013-12-14 04:24:32Z ae $	*/
+/*	$FreeBSD: releng/10.1/sys/netipsec/ipsec_input.c 259385 2013-12-14 04:24:32Z ae $	*/
 /*	$OpenBSD: ipsec_input.c,v 1.63 2003/02/20 18:35:43 deraadt Exp $	*/
 /*-
  * The authors of this code are John Ioannidis (ji@tla.org),

@@ -31,7 +31,7 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  * 
- * $FreeBSD: stable/10/sys/dev/firewire/sbp.c 266921 2014-05-31 11:08:22Z brueffer $
+ * $FreeBSD: releng/10.1/sys/dev/firewire/sbp.c 266921 2014-05-31 11:08:22Z brueffer $
  *
  */
 

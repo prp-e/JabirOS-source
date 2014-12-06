@@ -33,7 +33,7 @@ static char sccsid[] = "@(#)parse.c	8.1 (Berkeley) 6/6/93";
 #endif
 #endif /* not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/hexdump/parse.c 262926 2014-03-08 12:24:47Z brueffer $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/hexdump/parse.c 262926 2014-03-08 12:24:47Z brueffer $");
 
 #include <sys/types.h>
 

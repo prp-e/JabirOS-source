@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/file/fcntlflags/fcntlflags.c 254888 2013-08-25 21:52:04Z jilles $
+ * $FreeBSD: releng/10.1/tools/regression/file/fcntlflags/fcntlflags.c 254888 2013-08-25 21:52:04Z jilles $
  */
 
 #include <sys/cdefs.h>

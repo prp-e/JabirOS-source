@@ -33,7 +33,7 @@
 
 #include <sys/cdefs.h>
 
-__FBSDID("$FreeBSD: stable/10/usr.bin/rusers/rusers.c 227179 2011-11-06 08:16:47Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/rusers/rusers.c 227179 2011-11-06 08:16:47Z ed $");
 
 #include <sys/types.h>
 #include <sys/socket.h>

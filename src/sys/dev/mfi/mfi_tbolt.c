@@ -31,7 +31,7 @@
 
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/mfi/mfi_tbolt.c 262967 2014-03-10 02:31:50Z markj $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/mfi/mfi_tbolt.c 262967 2014-03-10 02:31:50Z markj $");
 
 #include "opt_mfi.h"
 

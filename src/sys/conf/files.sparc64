@@ -1,7 +1,7 @@
 # This file tells config what files go into building a kernel,
 # files marked standard are always included.
 #
-# $FreeBSD: stable/10/sys/conf/files.sparc64 271112 2014-09-04 18:18:29Z emaste $
+# $FreeBSD: releng/10.1/sys/conf/files.sparc64 271112 2014-09-04 18:18:29Z emaste $
 #
 # The long compile-with and dependency lines are required because of
 # limitations in config: backslash-newline doesn't work in strings, and

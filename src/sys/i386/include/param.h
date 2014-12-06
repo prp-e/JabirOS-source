@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  *
  *	from: @(#)param.h	5.8 (Berkeley) 6/28/91
- * $FreeBSD: stable/10/sys/i386/include/param.h 250338 2013-05-07 22:46:24Z attilio $
+ * $FreeBSD: releng/10.1/sys/i386/include/param.h 250338 2013-05-07 22:46:24Z attilio $
  */
 
 

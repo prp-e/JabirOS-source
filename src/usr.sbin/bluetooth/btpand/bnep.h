@@ -25,7 +25,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-/* $FreeBSD: stable/10/usr.sbin/bluetooth/btpand/bnep.h 187938 2009-01-30 22:23:21Z emax $ */
+/* $FreeBSD: releng/10.1/usr.sbin/bluetooth/btpand/bnep.h 187938 2009-01-30 22:23:21Z emax $ */
 
 /*
  * Constants defined in the Bluetooth Network Encapsulation

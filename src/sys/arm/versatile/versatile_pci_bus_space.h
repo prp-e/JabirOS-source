@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/versatile/versatile_pci_bus_space.h 244197 2012-12-13 23:19:13Z gonzo $
+ * $FreeBSD: releng/10.1/sys/arm/versatile/versatile_pci_bus_space.h 244197 2012-12-13 23:19:13Z gonzo $
  */
 
 #ifndef __VERSATILE_PCI_BUS_SPACEH__

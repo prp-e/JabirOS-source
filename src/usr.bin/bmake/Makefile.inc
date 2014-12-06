@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/bmake/Makefile.inc 250755 2013-05-17 22:18:27Z sjg $ 
+# $FreeBSD: releng/10.1/usr.bin/bmake/Makefile.inc 250755 2013-05-17 22:18:27Z sjg $ 
 
 .include "bsd.own.mk"
 

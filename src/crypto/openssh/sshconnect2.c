@@ -1,5 +1,5 @@
 /* $OpenBSD: sshconnect2.c,v 1.204 2014/02/02 03:44:32 djm Exp $ */
-/* $FreeBSD: stable/10/crypto/openssh/sshconnect2.c 264692 2014-04-20 12:46:18Z des $ */
+/* $FreeBSD: releng/10.1/crypto/openssh/sshconnect2.c 264692 2014-04-20 12:46:18Z des $ */
 /*
  * Copyright (c) 2000 Markus Friedl.  All rights reserved.
  * Copyright (c) 2008 Damien Miller.  All rights reserved.

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/x86/x86/busdma_bounce.c 268076 2014-07-01 06:50:35Z scottl $");
+__FBSDID("$FreeBSD: releng/10.1/sys/x86/x86/busdma_bounce.c 268076 2014-07-01 06:50:35Z scottl $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/procdesc.h 269619 2014-08-06 00:35:32Z emaste $
+ * $FreeBSD: releng/10.1/sys/sys/procdesc.h 269619 2014-08-06 00:35:32Z emaste $
  */
 
 #ifndef _SYS_PROCDESC_H_

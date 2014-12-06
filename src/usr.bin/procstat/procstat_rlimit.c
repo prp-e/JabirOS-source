@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/procstat/procstat_rlimit.c 249675 2013-04-20 08:01:00Z trociny $
+ * $FreeBSD: releng/10.1/usr.bin/procstat/procstat_rlimit.c 249675 2013-04-20 08:01:00Z trociny $
  */
 
 #include <sys/param.h>

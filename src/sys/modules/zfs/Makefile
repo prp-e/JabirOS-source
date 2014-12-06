@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/zfs/Makefile 262058 2014-02-17 14:47:52Z avg $
+# $FreeBSD: releng/10.1/sys/modules/zfs/Makefile 262058 2014-02-17 14:47:52Z avg $
 
 KMOD=	zfs
 

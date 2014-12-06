@@ -90,7 +90,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/sys_pipe.c 268335 2014-07-06 22:47:18Z mjg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/sys_pipe.c 268335 2014-07-06 22:47:18Z mjg $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

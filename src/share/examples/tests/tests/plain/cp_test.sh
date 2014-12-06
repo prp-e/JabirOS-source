@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/examples/tests/tests/plain/cp_test.sh 260037 2013-12-29 12:30:06Z jmmv $
+# $FreeBSD: releng/10.1/share/examples/tests/tests/plain/cp_test.sh 260037 2013-12-29 12:30:06Z jmmv $
 #
 # Copyright 2013 Google Inc.
 # All rights reserved.

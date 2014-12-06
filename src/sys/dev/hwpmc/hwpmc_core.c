@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/hwpmc/hwpmc_core.c 267602 2014-06-18 05:35:09Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/hwpmc/hwpmc_core.c 272981 2014-10-12 10:39:59Z bz $");
 
 #include <sys/param.h>
 #include <sys/bus.h>
@@ -1796,7 +1796,7 @@ iap_is_event_architectural(enum pmc_event pe, enum pmc_event *map)
 	switch (pe) {
 	case PMC_EV_IAP_ARCH_UNH_COR_CYC:
 		ae = CORE_AE_UNHALTED_CORE_CYCLES;
-		*map = PMC_EV_IAP_EVENT_C4H_00H;
+		*map = PMC_EV_IAP_EVENT_3CH_00H;
 		break;
 	case PMC_EV_IAP_ARCH_INS_RET:
 		ae = CORE_AE_INSTRUCTION_RETIRED;

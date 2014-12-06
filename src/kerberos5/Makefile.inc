@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/kerberos5/Makefile.inc 255455 2013-09-10 18:40:43Z des $
+# $FreeBSD: releng/10.1/kerberos5/Makefile.inc 255455 2013-09-10 18:40:43Z des $
 
 NO_LINT=
 

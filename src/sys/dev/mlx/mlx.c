@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	$FreeBSD: stable/10/sys/dev/mlx/mlx.c 240963 2012-09-26 14:17:14Z jhb $
+ *	$FreeBSD: releng/10.1/sys/dev/mlx/mlx.c 240963 2012-09-26 14:17:14Z jhb $
  */
 
 /*

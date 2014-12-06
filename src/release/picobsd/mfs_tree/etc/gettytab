@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/release/picobsd/mfs_tree/etc/gettytab 75900 2001-04-24 07:46:35Z joe $
+# $FreeBSD: releng/10.1/release/picobsd/mfs_tree/etc/gettytab 75900 2001-04-24 07:46:35Z joe $
 #	from: @(#)gettytab	5.14 (Berkeley) 3/27/91
 #
 default:\

@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netpfil/ipfw/ip_fw_dynamic.c 262210 2014-02-19 07:51:58Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netpfil/ipfw/ip_fw_dynamic.c 262210 2014-02-19 07:51:58Z dim $");
 
 #define        DEB(x)
 #define        DDB(x) x

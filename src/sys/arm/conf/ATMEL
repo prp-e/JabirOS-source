@@ -2,7 +2,7 @@
 # configuration.  This kernel will not (presently) boot.  Do not copy
 # it to create your own custom config file.
 #
-# $FreeBSD: stable/10/sys/arm/conf/ATMEL 266331 2014-05-17 17:34:37Z ian $
+# $FreeBSD: releng/10.1/sys/arm/conf/ATMEL 266331 2014-05-17 17:34:37Z ian $
 
 ident		ATMEL
 

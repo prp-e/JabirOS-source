@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_context.c 225617 2011-09-16 13:58:51Z kmacy $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_context.c 225617 2011-09-16 13:58:51Z kmacy $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

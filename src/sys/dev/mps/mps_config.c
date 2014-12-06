@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/mps/mps_config.c 253550 2013-07-22 18:41:53Z ken $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/mps/mps_config.c 253550 2013-07-22 18:41:53Z ken $");
 
 /* TODO Move headers to mpsvar */
 #include <sys/types.h>

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/fb/creator_vt.c 271128 2014-09-04 20:18:08Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/fb/creator_vt.c 271128 2014-09-04 20:18:08Z emaste $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

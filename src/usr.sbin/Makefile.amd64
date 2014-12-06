@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/Makefile.amd64 272152 2014-09-26 03:03:58Z gjb $
+# $FreeBSD: releng/10.1/usr.sbin/Makefile.amd64 272322 2014-09-30 17:54:57Z delphij $
 
 # kgzip: builds, but missing support files
 # mptable: broken (not 64 bit clean)
@@ -18,6 +18,9 @@ SUBDIR+=	boot0cfg
 SUBDIR+=	btxld
 .endif
 SUBDIR+=	cpucontrol
+.if ${MK_HYPERV} != "no"
+SUBDIR+=	hyperv
+.endif
 SUBDIR+=	kgmon
 SUBDIR+=	lptcontrol
 SUBDIR+=	mount_smbfs

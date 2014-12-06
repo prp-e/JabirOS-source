@@ -24,7 +24,7 @@
  *  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  *  POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/qlxgb/qla_os.h 250340 2013-05-07 22:58:42Z davidcs $
+ * $FreeBSD: releng/10.1/sys/dev/qlxgb/qla_os.h 250340 2013-05-07 22:58:42Z davidcs $
  */
 /*
  * File: qla_os.h

@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/usr.sbin/usbconfig/usbconfig.c 248236 2013-03-13 12:23:14Z hselasky $ */
+/* $FreeBSD: releng/10.1/usr.sbin/usbconfig/usbconfig.c 248236 2013-03-13 12:23:14Z hselasky $ */
 /*-
  * Copyright (c) 2008-2009 Hans Petter Selasky. All rights reserved.
  *

@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/etc/rc.d/mdconfig2 264438 2014-04-14 01:44:56Z dteske $
+# $FreeBSD: releng/10.1/etc/rc.d/mdconfig2 264438 2014-04-14 01:44:56Z dteske $
 #
 
 # PROVIDE: mdconfig2

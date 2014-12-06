@@ -1,5 +1,5 @@
 #	@(#)Makefile	5.4 (Berkeley) 6/5/91
-# $FreeBSD: stable/10/sbin/etherswitchcfg/Makefile 235289 2012-05-11 20:56:04Z adrian $
+# $FreeBSD: releng/10.1/sbin/etherswitchcfg/Makefile 235289 2012-05-11 20:56:04Z adrian $
 
 PROG=	etherswitchcfg
 MAN=	etherswitchcfg.8

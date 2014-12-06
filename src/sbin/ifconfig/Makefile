@@ -1,5 +1,5 @@
 #	From: @(#)Makefile	8.1 (Berkeley) 6/5/93
-# $FreeBSD: stable/10/sbin/ifconfig/Makefile 263086 2014-03-12 10:45:58Z glebius $
+# $FreeBSD: releng/10.1/sbin/ifconfig/Makefile 263086 2014-03-12 10:45:58Z glebius $
 
 .include <bsd.own.mk>
 

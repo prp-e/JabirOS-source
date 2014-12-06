@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/mthca/Makefile 260495 2014-01-09 22:40:51Z dim $
+# $FreeBSD: releng/10.1/sys/modules/mthca/Makefile 260495 2014-01-09 22:40:51Z dim $
 
 .PATH:  ${.CURDIR}/../../ofed/drivers/infiniband/hw/mthca
 

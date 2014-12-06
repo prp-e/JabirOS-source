@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/tools/regression/netinet/rawconnect/Makefile 158577 2006-05-14 22:03:00Z maxim $
+# $FreeBSD: releng/10.1/tools/regression/netinet/rawconnect/Makefile 158577 2006-05-14 22:03:00Z maxim $
 #
 
 PROG=	rawconnect

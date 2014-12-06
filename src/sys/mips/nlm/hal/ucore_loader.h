@@ -25,7 +25,7 @@
  * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
  * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/nlm/hal/ucore_loader.h 245884 2013-01-24 15:49:47Z jchandra $
+ * $FreeBSD: releng/10.1/sys/mips/nlm/hal/ucore_loader.h 245884 2013-01-24 15:49:47Z jchandra $
  */
 
 #ifndef __NLM_UCORE_LOADER_H__

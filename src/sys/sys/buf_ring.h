@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/buf_ring.h 246482 2013-02-07 15:20:54Z rrs $
+ * $FreeBSD: releng/10.1/sys/sys/buf_ring.h 246482 2013-02-07 15:20:54Z rrs $
  *
  */
 

@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
  * DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/lockmgr.h 271161 2014-09-05 13:22:28Z kib $
+ * $FreeBSD: releng/10.1/sys/sys/lockmgr.h 271161 2014-09-05 13:22:28Z kib $
  */
 
 #ifndef	_SYS_LOCKMGR_H_

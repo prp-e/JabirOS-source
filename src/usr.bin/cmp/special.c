@@ -34,7 +34,7 @@ static char sccsid[] = "@(#)special.c	8.3 (Berkeley) 4/2/94";
 #endif
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/cmp/special.c 223376 2011-06-21 20:44:06Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/cmp/special.c 223376 2011-06-21 20:44:06Z delphij $");
 
 #include <sys/types.h>
 

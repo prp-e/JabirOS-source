@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/powerd/powerd.c 262474 2014-02-25 07:55:03Z brueffer $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/powerd/powerd.c 262474 2014-02-25 07:55:03Z brueffer $");
 
 #include <sys/param.h>
 #include <sys/ioctl.h>

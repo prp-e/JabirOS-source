@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/tools/vimage/vimage.c 196421 2009-08-21 11:13:56Z zec $
+ * $FreeBSD: releng/10.1/tools/tools/vimage/vimage.c 196421 2009-08-21 11:13:56Z zec $
  */
 
 #include <sys/param.h>

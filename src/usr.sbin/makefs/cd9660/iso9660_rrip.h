@@ -31,7 +31,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
  * OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/makefs/cd9660/iso9660_rrip.h 264936 2014-04-25 21:20:22Z marius $
+ * $FreeBSD: releng/10.1/usr.sbin/makefs/cd9660/iso9660_rrip.h 264936 2014-04-25 21:20:22Z marius $
  */
 #ifndef __ISO9660_RRIP_H__
 #define __ISO9660_RRIP_H__

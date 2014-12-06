@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/include/un-namespace.h 242960 2012-11-13 12:55:52Z kib $
+ * $FreeBSD: releng/10.1/lib/libc/include/un-namespace.h 242960 2012-11-13 12:55:52Z kib $
  */
 
 #ifndef _UN_NAMESPACE_H_

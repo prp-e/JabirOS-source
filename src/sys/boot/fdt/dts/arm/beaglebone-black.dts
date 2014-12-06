@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  * 
- * $FreeBSD: stable/10/sys/boot/fdt/dts/arm/beaglebone-black.dts 270243 2014-08-20 19:37:05Z loos $
+ * $FreeBSD: releng/10.1/sys/boot/fdt/dts/arm/beaglebone-black.dts 270243 2014-08-20 19:37:05Z loos $
  */
 
 /dts-v1/;

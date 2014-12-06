@@ -28,7 +28,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/ip6addrctl/ip6addrctl.c 241737 2012-10-19 14:49:42Z ed $
+ * $FreeBSD: releng/10.1/usr.sbin/ip6addrctl/ip6addrctl.c 241737 2012-10-19 14:49:42Z ed $
  */
 
 #include <sys/types.h>

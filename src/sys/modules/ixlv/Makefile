@@ -1,4 +1,4 @@
-#$FreeBSD: stable/10/sys/modules/ixlv/Makefile 270631 2014-08-25 22:04:29Z jfv $
+#$FreeBSD: releng/10.1/sys/modules/ixlv/Makefile 274367 2014-11-11 05:00:51Z jfv $
 
 .include <bsd.own.mk>
 
@@ -10,7 +10,7 @@ SRCS    += opt_inet.h opt_inet6.h
 SRCS    += if_ixlv.c ixlvc.c ixl_txrx.c i40e_osdep.c
 
 # Shared source
-SRCS    += i40e_common.c i40e_adminq.c i40e_lan_hmc.c i40e_hmc.c
+SRCS    += i40e_common.c i40e_nvm.c i40e_adminq.c i40e_lan_hmc.c i40e_hmc.c
 
 CFLAGS	+= -DSMP
 

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/cardbus/cardbusreg.h 184584 2008-11-03 06:37:59Z imp $
+ * $FreeBSD: releng/10.1/sys/dev/cardbus/cardbusreg.h 184584 2008-11-03 06:37:59Z imp $
  */
 
 /*

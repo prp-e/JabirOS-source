@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/s3c2xx0/s3c2440reg.h 236990 2012-06-13 04:59:00Z imp $
+ * $FreeBSD: releng/10.1/sys/arm/s3c2xx0/s3c2440reg.h 236990 2012-06-13 04:59:00Z imp $
  */
 
 /*

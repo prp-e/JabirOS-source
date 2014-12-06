@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bhyve/ioapic.h 267393 2014-06-12 13:13:15Z jhb $
+ * $FreeBSD: releng/10.1/usr.sbin/bhyve/ioapic.h 267393 2014-06-12 13:13:15Z jhb $
  */
 
 #ifndef _IOAPIC_H_

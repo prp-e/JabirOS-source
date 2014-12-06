@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/sf_buf.h 255786 2013-09-22 13:36:52Z glebius $
+ * $FreeBSD: releng/10.1/sys/sys/sf_buf.h 255786 2013-09-22 13:36:52Z glebius $
  */
 
 #ifndef _SYS_SF_BUF_H_

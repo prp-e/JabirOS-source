@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/altera/jtag_uart/altera_jtag_uart.h 250113 2013-04-30 18:29:05Z brooks $
+ * $FreeBSD: releng/10.1/sys/dev/altera/jtag_uart/altera_jtag_uart.h 250113 2013-04-30 18:29:05Z brooks $
  */
 
 #ifndef _DEV_ALTERA_JTAG_UART_H_

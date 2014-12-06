@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netpfil/pf/pf_lb.c 270577 2014-08-25 15:51:07Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netpfil/pf/pf_lb.c 270577 2014-08-25 15:51:07Z glebius $");
 
 #include "opt_pf.h"
 #include "opt_inet.h"

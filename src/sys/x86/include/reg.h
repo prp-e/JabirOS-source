@@ -31,7 +31,7 @@
  * SUCH DAMAGE.
  *
  *	from: @(#)reg.h	5.5 (Berkeley) 1/18/91
- * $FreeBSD: stable/10/sys/x86/include/reg.h 233125 2012-03-18 19:12:11Z tijl $
+ * $FreeBSD: releng/10.1/sys/x86/include/reg.h 233125 2012-03-18 19:12:11Z tijl $
  */
 
 #ifndef _MACHINE_REG_H_

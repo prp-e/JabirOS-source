@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/vte/Makefile 216829 2010-12-31 00:21:41Z yongari $
+# $FreeBSD: releng/10.1/sys/modules/vte/Makefile 216829 2010-12-31 00:21:41Z yongari $
 
 .PATH: ${.CURDIR}/../../dev/vte
 

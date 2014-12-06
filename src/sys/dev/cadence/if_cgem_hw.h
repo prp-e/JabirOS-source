@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/cadence/if_cgem_hw.h 250015 2013-04-28 07:00:36Z wkoszek $
+ * $FreeBSD: releng/10.1/sys/dev/cadence/if_cgem_hw.h 250015 2013-04-28 07:00:36Z wkoszek $
  */
 
 /*

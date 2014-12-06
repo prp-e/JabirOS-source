@@ -1,7 +1,7 @@
 #
 # Custom kernel for Marvell Armada XP
 #
-# $FreeBSD: stable/10/sys/arm/conf/ARMADAXP 266331 2014-05-17 17:34:37Z ian $
+# $FreeBSD: releng/10.1/sys/arm/conf/ARMADAXP 266331 2014-05-17 17:34:37Z ian $
 #
 
 ident		MV-88F78XX0

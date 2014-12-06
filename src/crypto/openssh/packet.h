@@ -1,5 +1,5 @@
 /* $OpenBSD: packet.h,v 1.59 2013/07/12 00:19:59 djm Exp $ */
-/* $FreeBSD: stable/10/crypto/openssh/packet.h 255767 2013-09-21 21:36:09Z des $ */
+/* $FreeBSD: releng/10.1/crypto/openssh/packet.h 255767 2013-09-21 21:36:09Z des $ */
 
 /*
  * Author: Tatu Ylonen <ylo@cs.hut.fi>

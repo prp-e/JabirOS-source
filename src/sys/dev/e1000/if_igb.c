@@ -30,7 +30,7 @@
   POSSIBILITY OF SUCH DAMAGE.
 
 ******************************************************************************/
-/*$FreeBSD: stable/10/sys/dev/e1000/if_igb.c 270252 2014-08-20 23:34:36Z luigi $*/
+/*$FreeBSD: releng/10.1/sys/dev/e1000/if_igb.c 270252 2014-08-20 23:34:36Z luigi $*/
 
 
 #include "opt_inet.h"

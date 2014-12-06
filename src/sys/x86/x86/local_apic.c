@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/x86/x86/local_apic.c 262141 2014-02-18 01:15:32Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/x86/x86/local_apic.c 262141 2014-02-18 01:15:32Z jhb $");
 
 #include "opt_atpic.h"
 #include "opt_hwpmc_hooks.h"

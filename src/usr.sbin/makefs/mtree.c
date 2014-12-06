@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/makefs/mtree.c 250605 2013-05-13 18:34:33Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/makefs/mtree.c 250605 2013-05-13 18:34:33Z marcel $");
 
 #include <sys/param.h>
 #include <sys/queue.h>

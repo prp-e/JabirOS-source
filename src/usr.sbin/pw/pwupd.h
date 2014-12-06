@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/pw/pwupd.h 242349 2012-10-30 08:00:53Z bapt $
+ * $FreeBSD: releng/10.1/usr.sbin/pw/pwupd.h 242349 2012-10-30 08:00:53Z bapt $
  */
 
 #ifndef _PWUPD_H_

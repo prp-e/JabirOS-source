@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/cfi/cfi_bus_nexus.c 265959 2014-05-13 17:12:07Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/cfi/cfi_bus_nexus.c 265959 2014-05-13 17:12:07Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

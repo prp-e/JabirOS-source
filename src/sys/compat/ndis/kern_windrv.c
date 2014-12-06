@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/compat/ndis/kern_windrv.c 215708 2010-11-22 20:46:38Z bschmidt $");
+__FBSDID("$FreeBSD: releng/10.1/sys/compat/ndis/kern_windrv.c 215708 2010-11-22 20:46:38Z bschmidt $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

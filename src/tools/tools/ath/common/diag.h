@@ -28,7 +28,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: stable/10/tools/tools/ath/common/diag.h 238651 2012-07-20 07:49:26Z adrian $
+ * $FreeBSD: releng/10.1/tools/tools/ath/common/diag.h 238651 2012-07-20 07:49:26Z adrian $
  */
 #include <sys/types.h>
 #include <sys/file.h>

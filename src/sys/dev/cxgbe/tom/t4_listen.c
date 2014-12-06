@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/cxgbe/tom/t4_listen.c 270051 2014-08-16 13:50:15Z bz $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/cxgbe/tom/t4_listen.c 270051 2014-08-16 13:50:15Z bz $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"

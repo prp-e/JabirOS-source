@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/geom/geom_zero/Makefile 148382 2005-07-25 10:03:16Z pjd $
+# $FreeBSD: releng/10.1/sys/modules/geom/geom_zero/Makefile 148382 2005-07-25 10:03:16Z pjd $
 
 .PATH: ${.CURDIR}/../../../geom/zero
 

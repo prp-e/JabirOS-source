@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/geom/geom_pc98.c 254015 2013-08-07 00:00:48Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/sys/geom/geom_pc98.c 254015 2013-08-07 00:00:48Z marcel $");
 
 #include <sys/param.h>
 #include <sys/endian.h>

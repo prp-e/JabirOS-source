@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/posix1e/acl_perm.c 208437 2010-05-23 08:12:36Z trasz $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/posix1e/acl_perm.c 208437 2010-05-23 08:12:36Z trasz $");
 
 #include <sys/types.h>
 #include "namespace.h"

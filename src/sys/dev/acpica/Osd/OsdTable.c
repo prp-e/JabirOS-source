@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/acpica/Osd/OsdTable.c 250838 2013-05-20 23:52:49Z jkim $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/acpica/Osd/OsdTable.c 250838 2013-05-20 23:52:49Z jkim $");
 
 #include <sys/param.h>
 #include <sys/endian.h>

@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/iicbus/adt746x.c 263197 2014-03-15 00:23:35Z jhibbits $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/iicbus/adt746x.c 263197 2014-03-15 00:23:35Z jhibbits $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

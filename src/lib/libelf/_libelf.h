@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libelf/_libelf.h 210348 2010-07-21 12:54:34Z kaiw $
+ * $FreeBSD: releng/10.1/lib/libelf/_libelf.h 210348 2010-07-21 12:54:34Z kaiw $
  */
 
 #ifndef	__LIBELF_H_

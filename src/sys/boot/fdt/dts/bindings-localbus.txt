@@ -1,4 +1,4 @@
-$FreeBSD: stable/10/sys/boot/fdt/dts/bindings-localbus.txt 235609 2012-05-18 14:41:14Z gber $
+$FreeBSD: releng/10.1/sys/boot/fdt/dts/bindings-localbus.txt 235609 2012-05-18 14:41:14Z gber $
 
 Marvell Device bus (localbus) configuration.
 ============================================

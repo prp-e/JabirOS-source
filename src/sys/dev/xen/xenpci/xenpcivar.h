@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/xen/xenpci/xenpcivar.h 255040 2013-08-29 19:52:18Z gibbs $
+ * $FreeBSD: releng/10.1/sys/dev/xen/xenpci/xenpcivar.h 255040 2013-08-29 19:52:18Z gibbs $
  */
 
 /*

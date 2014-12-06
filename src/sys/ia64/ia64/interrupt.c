@@ -28,7 +28,7 @@
 #include "opt_xtrace.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/ia64/ia64/interrupt.c 268200 2014-07-02 23:47:43Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/sys/ia64/ia64/interrupt.c 268200 2014-07-02 23:47:43Z marcel $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/pc98/cbus/pcrtc.c 178315 2008-04-19 08:18:47Z nyan $");
+__FBSDID("$FreeBSD: releng/10.1/sys/pc98/cbus/pcrtc.c 178315 2008-04-19 08:18:47Z nyan $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

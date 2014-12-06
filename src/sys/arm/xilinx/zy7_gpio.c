@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/xilinx/zy7_gpio.c 266152 2014-05-15 16:11:06Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/xilinx/zy7_gpio.c 266152 2014-05-15 16:11:06Z ian $
  */
 
 /*
@@ -44,7 +44,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/xilinx/zy7_gpio.c 266152 2014-05-15 16:11:06Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/xilinx/zy7_gpio.c 266152 2014-05-15 16:11:06Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

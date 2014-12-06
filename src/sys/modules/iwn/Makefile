@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/iwn/Makefile 253911 2013-08-03 08:21:35Z uqs $
+# $FreeBSD: releng/10.1/sys/modules/iwn/Makefile 253911 2013-08-03 08:21:35Z uqs $
 
 .PATH:  ${.CURDIR}/../../dev/iwn
 

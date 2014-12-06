@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF 
  * SUCH DAMAGE. 
  *
- * $FreeBSD: stable/10/cddl/lib/libdtrace/libproc_compat.h 268578 2014-07-12 22:56:41Z rpaulo $
+ * $FreeBSD: releng/10.1/cddl/lib/libdtrace/libproc_compat.h 268578 2014-07-12 22:56:41Z rpaulo $
  */
 
 /*

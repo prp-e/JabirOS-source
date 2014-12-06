@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/include/langinfo.h 233600 2012-03-28 12:11:54Z theraven $
+ * $FreeBSD: releng/10.1/include/langinfo.h 233600 2012-03-28 12:11:54Z theraven $
  */
 
 #ifndef _LANGINFO_H_

@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/ppp/auth.c 231994 2012-02-22 06:27:20Z kevlo $
+ * $FreeBSD: releng/10.1/usr.sbin/ppp/auth.c 231994 2012-02-22 06:27:20Z kevlo $
  */
 
 #include <sys/param.h>

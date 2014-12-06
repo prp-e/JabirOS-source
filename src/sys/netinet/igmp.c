@@ -48,7 +48,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/igmp.c 254804 2013-08-24 19:51:18Z andre $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/igmp.c 254804 2013-08-24 19:51:18Z andre $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

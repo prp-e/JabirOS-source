@@ -60,7 +60,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/include/bus_dma.h 203974 2010-02-16 21:59:17Z imp $
+ * $FreeBSD: releng/10.1/sys/arm/include/bus_dma.h 203974 2010-02-16 21:59:17Z imp $
  */
 
 #ifndef _ARM_BUS_DMA_H

@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/posix1e/acl_to_text.c 200142 2009-12-05 19:04:21Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/posix1e/acl_to_text.c 200142 2009-12-05 19:04:21Z ed $");
 
 #include <sys/types.h>
 #include "namespace.h"

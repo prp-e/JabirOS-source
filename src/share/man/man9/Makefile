@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/man/man9/Makefile 270920 2014-09-01 07:58:15Z kib $
+# $FreeBSD: releng/10.1/share/man/man9/Makefile 270920 2014-09-01 07:58:15Z kib $
 
 MAN=	accept_filter.9 \
 	accf_data.9 \

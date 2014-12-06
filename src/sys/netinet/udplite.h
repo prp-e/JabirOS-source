@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/netinet/udplite.h 265946 2014-05-13 06:05:53Z kevlo $
+ * $FreeBSD: releng/10.1/sys/netinet/udplite.h 265946 2014-05-13 06:05:53Z kevlo $
  */
 
 #ifndef _NETINET_UDPLITE_H_

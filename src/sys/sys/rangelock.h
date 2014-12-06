@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/rangelock.h 254380 2013-08-15 20:19:17Z cperciva $
+ * $FreeBSD: releng/10.1/sys/sys/rangelock.h 254380 2013-08-15 20:19:17Z cperciva $
  */
 
 #ifndef	_SYS_RANGELOCK_H

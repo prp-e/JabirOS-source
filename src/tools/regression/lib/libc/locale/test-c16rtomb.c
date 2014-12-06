@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/regression/lib/libc/locale/test-c16rtomb.c 251314 2013-06-03 17:17:56Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/tools/regression/lib/libc/locale/test-c16rtomb.c 251314 2013-06-03 17:17:56Z ed $");
 
 #include <assert.h>
 #include <errno.h>

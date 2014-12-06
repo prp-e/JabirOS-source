@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/ctld/ctld.c 271929 2014-09-21 13:09:05Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/ctld/ctld.c 271929 2014-09-21 13:09:05Z mav $");
 
 #include <sys/types.h>
 #include <sys/time.h>

@@ -51,7 +51,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/isci/scil/scif_sas_remote_device.c 231137 2012-02-07 17:45:11Z jimharris $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/isci/scil/scif_sas_remote_device.c 231137 2012-02-07 17:45:11Z jimharris $");
 
 /**
  * @file

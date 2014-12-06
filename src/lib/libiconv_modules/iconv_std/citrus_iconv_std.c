@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libiconv_modules/iconv_std/citrus_iconv_std.c 264497 2014-04-15 09:49:44Z tijl $ */
+/* $FreeBSD: releng/10.1/lib/libiconv_modules/iconv_std/citrus_iconv_std.c 264497 2014-04-15 09:49:44Z tijl $ */
 /*	$NetBSD: citrus_iconv_std.c,v 1.16 2012/02/12 13:51:29 wiz Exp $	*/
 
 /*-

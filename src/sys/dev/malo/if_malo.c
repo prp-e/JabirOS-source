@@ -31,7 +31,7 @@
 
 #include <sys/cdefs.h>
 #ifdef __FreeBSD__
-__FBSDID("$FreeBSD: stable/10/sys/dev/malo/if_malo.c 262007 2014-02-17 01:36:53Z kevlo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/malo/if_malo.c 262007 2014-02-17 01:36:53Z kevlo $");
 #endif
 
 #include "opt_malo.h"

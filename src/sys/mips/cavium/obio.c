@@ -41,7 +41,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/cavium/obio.c 232812 2012-03-11 06:17:49Z jmallett $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/cavium/obio.c 232812 2012-03-11 06:17:49Z jmallett $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

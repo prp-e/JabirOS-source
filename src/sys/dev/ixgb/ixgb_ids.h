@@ -31,7 +31,7 @@
 
 *******************************************************************************/
 
-/*$FreeBSD: stable/10/sys/dev/ixgb/ixgb_ids.h 253102 2013-07-09 18:15:59Z jkim $*/
+/*$FreeBSD: releng/10.1/sys/dev/ixgb/ixgb_ids.h 253102 2013-07-09 18:15:59Z jkim $*/
 
 #ifndef _IXGB_IDS_H_
 #define _IXGB_IDS_H_

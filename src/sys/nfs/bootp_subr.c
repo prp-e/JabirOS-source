@@ -41,7 +41,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/nfs/bootp_subr.c 263478 2014-03-21 15:15:30Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/nfs/bootp_subr.c 263478 2014-03-21 15:15:30Z glebius $");
 
 #include "opt_bootp.h"
 #include "opt_nfs.h"

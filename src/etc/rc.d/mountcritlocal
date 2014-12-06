@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/rc.d/mountcritlocal 215824 2010-11-25 18:20:28Z dougb $
+# $FreeBSD: releng/10.1/etc/rc.d/mountcritlocal 215824 2010-11-25 18:20:28Z dougb $
 #
 
 # PROVIDE: mountcritlocal

@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/sdt.h 262058 2014-02-17 14:47:52Z avg $
+ * $FreeBSD: releng/10.1/sys/sys/sdt.h 262058 2014-02-17 14:47:52Z avg $
  *
  * Statically Defined Tracing (SDT) definitions.
  *

@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/altera/atse/a_api.h 271969 2014-09-22 15:32:31Z bz $
+ * $FreeBSD: releng/10.1/sys/dev/altera/atse/a_api.h 271969 2014-09-22 15:32:31Z bz $
  */
 /*
  * Altera, Embedded Peripherals IP, User Guide, v. 11.0, June 2011.

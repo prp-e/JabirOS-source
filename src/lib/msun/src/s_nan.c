@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/msun/src/s_nan.c 174759 2007-12-18 23:46:32Z das $
+ * $FreeBSD: releng/10.1/lib/msun/src/s_nan.c 174759 2007-12-18 23:46:32Z das $
  */
 
 #include <sys/endian.h>

@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/pfctl/pfctl.c 263029 2014-03-11 15:43:06Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/pfctl/pfctl.c 263029 2014-03-11 15:43:06Z glebius $");
 
 #include <sys/types.h>
 #include <sys/ioctl.h>

@@ -25,7 +25,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/sbin/setkey/Makefile 245492 2013-01-16 05:03:46Z eadler $
+# $FreeBSD: releng/10.1/sbin/setkey/Makefile 245492 2013-01-16 05:03:46Z eadler $
 
 .include <bsd.own.mk>
 

@@ -26,7 +26,7 @@
 /*      $NetBSD: sigsetjmp.S,v 1.4 1998/10/03 12:30:38 tsubai Exp $     */
 
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/powerpc64/gen/sigsetjmp.S 234115 2012-04-11 00:00:40Z nwhitehorn $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/powerpc64/gen/sigsetjmp.S 234115 2012-04-11 00:00:40Z nwhitehorn $");
 
 /*
  * C library -- sigsetjmp, siglongjmp

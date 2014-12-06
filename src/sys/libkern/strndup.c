@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/libkern/strndup.c 270892 2014-08-31 21:18:23Z trasz $");
+__FBSDID("$FreeBSD: releng/10.1/sys/libkern/strndup.c 270892 2014-08-31 21:18:23Z trasz $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

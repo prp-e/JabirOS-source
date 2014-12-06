@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ipmi/ipmi_isa.c 253813 2013-07-30 18:54:24Z sbruno $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ipmi/ipmi_isa.c 253813 2013-07-30 18:54:24Z sbruno $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

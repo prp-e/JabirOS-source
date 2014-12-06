@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/net/rcmdsh.c 111618 2003-02-27 13:40:01Z nectar $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/net/rcmdsh.c 111618 2003-02-27 13:40:01Z nectar $");
 
 #include <sys/types.h>
 #include <sys/socket.h>

@@ -57,7 +57,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/vm/vm_glue.c 270205 2014-08-20 08:24:37Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/vm/vm_glue.c 270205 2014-08-20 08:24:37Z kib $");
 
 #include "opt_vm.h"
 #include "opt_kstack_pages.h"

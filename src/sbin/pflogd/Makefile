@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/pflogd/Makefile 244929 2013-01-01 18:28:21Z antoine $
+# $FreeBSD: releng/10.1/sbin/pflogd/Makefile 244929 2013-01-01 18:28:21Z antoine $
 
 .PATH:	${.CURDIR}/../../contrib/pf/pflogd
 

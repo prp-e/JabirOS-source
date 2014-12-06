@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/pmcstat/pmcstat_log.c 266590 2014-05-23 17:46:00Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/pmcstat/pmcstat_log.c 266590 2014-05-23 17:46:00Z emaste $");
 
 #include <sys/param.h>
 #include <sys/endian.h>

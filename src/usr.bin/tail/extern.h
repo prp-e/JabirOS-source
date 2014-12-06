@@ -28,7 +28,7 @@
  *
  *	@(#)extern.h	8.1 (Berkeley) 6/6/93
  *
- * $FreeBSD: stable/10/usr.bin/tail/extern.h 251565 2013-06-09 08:06:26Z jh $
+ * $FreeBSD: releng/10.1/usr.bin/tail/extern.h 251565 2013-06-09 08:06:26Z jh $
  */
 
 #define	WR(p, size) do { \

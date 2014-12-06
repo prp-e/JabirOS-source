@@ -1,6 +1,6 @@
 .\" NOTE:  changes to the manual page for "top" should be made in the
 .\"        file "top.X" and NOT in the file "top.1".
-.\" $FreeBSD: stable/10/contrib/top/top.X 266280 2014-05-17 02:39:20Z bdrewery $
+.\" $FreeBSD: releng/10.1/contrib/top/top.X 266280 2014-05-17 02:39:20Z bdrewery $
 .nr N %topn%
 .nr D %delay%
 .TH TOP 1 Local

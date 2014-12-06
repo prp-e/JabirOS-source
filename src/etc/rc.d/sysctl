@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/etc/rc.d/sysctl 261153 2014-01-25 10:43:47Z demon $
+# $FreeBSD: releng/10.1/etc/rc.d/sysctl 261153 2014-01-25 10:43:47Z demon $
 #
 
 # PROVIDE: sysctl

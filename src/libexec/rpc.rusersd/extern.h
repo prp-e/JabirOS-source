@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/libexec/rpc.rusersd/extern.h 262435 2014-02-24 08:21:49Z brueffer $
+ * $FreeBSD: releng/10.1/libexec/rpc.rusersd/extern.h 262435 2014-02-24 08:21:49Z brueffer $
  */
 
 extern int from_inetd;

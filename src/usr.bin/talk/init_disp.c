@@ -29,7 +29,7 @@
 
 #include <sys/cdefs.h>
 
-__FBSDID("$FreeBSD: stable/10/usr.bin/talk/init_disp.c 227185 2011-11-06 08:17:23Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/talk/init_disp.c 227185 2011-11-06 08:17:23Z ed $");
 
 #ifndef lint
 static const char sccsid[] = "@(#)init_disp.c	8.2 (Berkeley) 2/16/94";

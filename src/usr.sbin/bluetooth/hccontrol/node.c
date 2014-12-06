@@ -26,7 +26,7 @@
  * SUCH DAMAGE.
  *
  * $Id: node.c,v 1.6 2003/07/22 21:14:02 max Exp $
- * $FreeBSD: stable/10/usr.sbin/bluetooth/hccontrol/node.c 158834 2006-05-22 17:58:09Z markus $
+ * $FreeBSD: releng/10.1/usr.sbin/bluetooth/hccontrol/node.c 158834 2006-05-22 17:58:09Z markus $
  */
 
 #include <sys/ioctl.h>

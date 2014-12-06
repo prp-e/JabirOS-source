@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bhyve/virtio.h 271685 2014-09-16 19:08:54Z grehan $
+ * $FreeBSD: releng/10.1/usr.sbin/bhyve/virtio.h 271685 2014-09-16 19:08:54Z grehan $
  */
 
 #ifndef	_VIRTIO_H_

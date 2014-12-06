@@ -63,7 +63,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/vm/vm_kern.c 270439 2014-08-24 07:53:15Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/vm/vm_kern.c 270439 2014-08-24 07:53:15Z kib $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

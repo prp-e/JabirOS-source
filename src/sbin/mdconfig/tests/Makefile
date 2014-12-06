@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/mdconfig/tests/Makefile 264996 2014-04-27 01:15:10Z jmmv $
+# $FreeBSD: releng/10.1/sbin/mdconfig/tests/Makefile 264996 2014-04-27 01:15:10Z jmmv $
 
 TESTSDIR=	${TESTSBASE}/sbin/mdconfig
 

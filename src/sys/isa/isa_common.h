@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/isa/isa_common.h 221526 2011-05-06 13:48:53Z jhb $
+ * $FreeBSD: releng/10.1/sys/isa/isa_common.h 221526 2011-05-06 13:48:53Z jhb $
  */
 
 /*

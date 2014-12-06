@@ -27,7 +27,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  *	$NetBSD: filecomplete.h,v 1.8 2009/02/16 00:15:45 christos Exp $
- * $FreeBSD: stable/10/lib/libedit/filecomplete.h 268782 2014-07-17 02:14:25Z pfg $
+ * $FreeBSD: releng/10.1/lib/libedit/filecomplete.h 268782 2014-07-17 02:14:25Z pfg $
  */
 #ifndef _FILECOMPLETE_H_
 #define _FILECOMPLETE_H_

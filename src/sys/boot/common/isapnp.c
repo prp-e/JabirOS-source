@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/common/isapnp.c 119483 2003-08-25 23:30:41Z obrien $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/common/isapnp.c 119483 2003-08-25 23:30:41Z obrien $");
 
 /*
  * Machine-independant ISA PnP enumerator implementing a subset of the

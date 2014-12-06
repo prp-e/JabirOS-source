@@ -36,7 +36,7 @@
  * 
  * Author: Archie Cobbs <archie@freebsd.org>
  *
- * $FreeBSD: stable/10/sys/netgraph/ng_l2tp.c 261009 2014-01-22 09:22:39Z glebius $
+ * $FreeBSD: releng/10.1/sys/netgraph/ng_l2tp.c 261009 2014-01-22 09:22:39Z glebius $
  */
 
 /*

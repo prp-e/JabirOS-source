@@ -59,7 +59,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-/* $FreeBSD: stable/10/sys/dev/esp/ncr53c9xvar.h 263687 2014-03-24 13:48:04Z emaste $ */
+/* $FreeBSD: releng/10.1/sys/dev/esp/ncr53c9xvar.h 263687 2014-03-24 13:48:04Z emaste $ */
 
 #ifndef _NCR53C9XVAR_H_
 #define	_NCR53C9XVAR_H_

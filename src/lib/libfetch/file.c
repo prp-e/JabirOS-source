@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libfetch/file.c 240495 2012-09-14 12:15:13Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libfetch/file.c 240495 2012-09-14 12:15:13Z eadler $");
 
 #include <sys/param.h>
 #include <sys/stat.h>

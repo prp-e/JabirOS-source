@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/hwpmc/hwpmc_uncore.c 249069 2013-04-03 21:34:35Z sbruno $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/hwpmc/hwpmc_uncore.c 249069 2013-04-03 21:34:35Z sbruno $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

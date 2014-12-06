@@ -1,4 +1,4 @@
-#	$FreeBSD: stable/10/sbin/ipf/iptest/Makefile 145524 2005-04-25 18:55:52Z darrenr $
+#	$FreeBSD: releng/10.1/sbin/ipf/iptest/Makefile 145524 2005-04-25 18:55:52Z darrenr $
 
 .include <bsd.own.mk>
 

@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/cs/if_cs_isa.c 179618 2008-06-06 16:10:10Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/cs/if_cs_isa.c 179618 2008-06-06 16:10:10Z imp $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

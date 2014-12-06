@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/build/make_check/Makefile 245171 2013-01-08 18:37:12Z obrien $
+# $FreeBSD: releng/10.1/tools/build/make_check/Makefile 245171 2013-01-08 18:37:12Z obrien $
 
 .MAKE.MODE=	normal
 

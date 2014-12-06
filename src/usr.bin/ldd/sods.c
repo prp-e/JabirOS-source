@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/ldd/sods.c 264785 2014-04-22 21:25:03Z brueffer $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/ldd/sods.c 264785 2014-04-22 21:25:03Z brueffer $");
 
 #include <sys/types.h>
 #include <sys/mman.h>

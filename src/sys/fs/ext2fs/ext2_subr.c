@@ -33,7 +33,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)ffs_subr.c	8.2 (Berkeley) 9/21/93
- * $FreeBSD: stable/10/sys/fs/ext2fs/ext2_subr.c 261311 2014-01-31 03:58:36Z pfg $
+ * $FreeBSD: releng/10.1/sys/fs/ext2fs/ext2_subr.c 261311 2014-01-31 03:58:36Z pfg $
  */
 
 #include <sys/param.h>

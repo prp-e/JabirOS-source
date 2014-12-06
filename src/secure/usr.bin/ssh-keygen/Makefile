@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/secure/usr.bin/ssh-keygen/Makefile 255460 2013-09-10 22:26:11Z des $
+# $FreeBSD: releng/10.1/secure/usr.bin/ssh-keygen/Makefile 255460 2013-09-10 22:26:11Z des $
 
 .include <bsd.own.mk>
 

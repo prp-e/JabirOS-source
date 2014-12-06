@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libthr/thread/thr_rwlock.c 232209 2012-02-27 13:38:52Z davidxu $
+ * $FreeBSD: releng/10.1/lib/libthr/thread/thr_rwlock.c 232209 2012-02-27 13:38:52Z davidxu $
  */
 
 #include <errno.h>

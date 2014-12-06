@@ -23,7 +23,7 @@
  * SUCH DAMAGE.
  */
 
-/* $FreeBSD: stable/10/sys/arm/at91/at91soc.h 238376 2012-07-11 20:17:14Z imp $ */
+/* $FreeBSD: releng/10.1/sys/arm/at91/at91soc.h 238376 2012-07-11 20:17:14Z imp $ */
 
 #ifndef _ARM_AT91_AT91SOC_H_
 #define _ARM_AT91_AT91SOC_H_

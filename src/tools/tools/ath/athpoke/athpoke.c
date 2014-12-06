@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGES.
  *
- * $FreeBSD: stable/10/tools/tools/ath/athpoke/athpoke.c 196599 2009-08-27 17:32:58Z sam $
+ * $FreeBSD: releng/10.1/tools/tools/ath/athpoke/athpoke.c 196599 2009-08-27 17:32:58Z sam $
  */
 #include "diag.h"
 

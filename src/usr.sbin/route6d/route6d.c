@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/usr.sbin/route6d/route6d.c 264299 2014-04-09 11:15:50Z glebius $	*/
+/*	$FreeBSD: releng/10.1/usr.sbin/route6d/route6d.c 273188 2014-10-16 22:00:24Z hrs $	*/
 /*	$KAME: route6d.c,v 1.104 2003/10/31 00:30:20 itojun Exp $	*/
 
 /*
@@ -2838,6 +2838,8 @@ addroute(struct riprt *rrt,
 	sin6->sin6_len = sizeof(struct sockaddr_in6);
 	sin6->sin6_family = AF_INET6;
 	sin6->sin6_addr = *gw;
+	if (IN6_IS_ADDR_LINKLOCAL(&sin6->sin6_addr))
+		sin6->sin6_scope_id = ifcp->ifc_index;
 	sin6 = (struct sockaddr_in6 *)((char *)sin6 + ROUNDUP(sin6->sin6_len));
 	/* Netmask */
 	sin6->sin6_len = sizeof(struct sockaddr_in6);

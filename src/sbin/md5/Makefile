@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/9/93
-# $FreeBSD: stable/10/sbin/md5/Makefile 249657 2013-04-19 19:45:00Z ed $
+# $FreeBSD: releng/10.1/sbin/md5/Makefile 249657 2013-04-19 19:45:00Z ed $
 
 PROG=	md5
 

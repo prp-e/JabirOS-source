@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/bxe/Makefile 271988 2014-09-22 19:00:30Z davidcs $
+# $FreeBSD: releng/10.1/sys/modules/bxe/Makefile 271988 2014-09-22 19:00:30Z davidcs $
 BXE	= ${.CURDIR}/../../dev/bxe
 .PATH:	${BXE}
 

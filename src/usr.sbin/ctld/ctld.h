@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/ctld/ctld.h 270137 2014-08-18 16:06:04Z mav $
+ * $FreeBSD: releng/10.1/usr.sbin/ctld/ctld.h 270137 2014-08-18 16:06:04Z mav $
  */
 
 #ifndef CTLD_H

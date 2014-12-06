@@ -5,7 +5,7 @@
 # such as options or devices that are not specified in any NOTES files
 # or MI devices specified in MD NOTES files.
 #
-# $FreeBSD: stable/10/tools/tools/notescheck/notescheck.py 249587 2013-04-17 11:48:46Z gabor $
+# $FreeBSD: releng/10.1/tools/tools/notescheck/notescheck.py 249587 2013-04-17 11:48:46Z gabor $
 
 from __future__ import print_function
 

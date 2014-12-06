@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/i2c/smb/Makefile 93023 2002-03-23 15:49:15Z nsouch $
+# $FreeBSD: releng/10.1/sys/modules/i2c/smb/Makefile 93023 2002-03-23 15:49:15Z nsouch $
 
 .PATH:		${.CURDIR}/../../../dev/smbus
 KMOD		= smb

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/syscons/beastie/Makefile 206380 2010-04-07 18:42:21Z jkim $
+# $FreeBSD: releng/10.1/sys/modules/syscons/beastie/Makefile 206380 2010-04-07 18:42:21Z jkim $
 
 .PATH:	${.CURDIR}/../../../dev/syscons/logo
 

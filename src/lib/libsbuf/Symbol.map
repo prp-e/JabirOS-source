@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/lib/libsbuf/Symbol.map 249378 2013-04-11 19:50:10Z trociny $
+ * $FreeBSD: releng/10.1/lib/libsbuf/Symbol.map 249378 2013-04-11 19:50:10Z trociny $
  */
 
 FBSD_1.2 {

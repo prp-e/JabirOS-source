@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/hastd/pjdlog.h 242593 2012-11-05 00:38:14Z pjd $
+ * $FreeBSD: releng/10.1/sbin/hastd/pjdlog.h 242593 2012-11-05 00:38:14Z pjd $
  */
 
 #ifndef	_PJDLOG_H_

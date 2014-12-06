@@ -59,7 +59,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/ar/ar.c 232153 2012-02-25 10:58:02Z mm $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/ar/ar.c 232153 2012-02-25 10:58:02Z mm $");
 
 #include <sys/queue.h>
 #include <sys/types.h>

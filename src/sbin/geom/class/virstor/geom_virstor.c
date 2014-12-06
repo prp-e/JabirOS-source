@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/geom/class/virstor/geom_virstor.c 215704 2010-11-22 20:10:48Z brucec $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/geom/class/virstor/geom_virstor.c 215704 2010-11-22 20:10:48Z brucec $");
 
 #include <sys/param.h>
 #include <errno.h>

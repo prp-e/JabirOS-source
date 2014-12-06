@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/cddl/usr.bin/zstreamdump/Makefile 227793 2011-11-21 14:50:17Z mm $
+# $FreeBSD: releng/10.1/cddl/usr.bin/zstreamdump/Makefile 227793 2011-11-21 14:50:17Z mm $
 
 .PATH: ${.CURDIR}/../..//contrib/opensolaris/cmd/zstreamdump
 

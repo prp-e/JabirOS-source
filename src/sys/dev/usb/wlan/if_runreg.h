@@ -16,7 +16,7 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * $FreeBSD: stable/10/sys/dev/usb/wlan/if_runreg.h 261868 2014-02-14 03:45:49Z kevlo $
+ * $FreeBSD: releng/10.1/sys/dev/usb/wlan/if_runreg.h 261868 2014-02-14 03:45:49Z kevlo $
  */
 
 #ifndef _IF_RUNREG_H_

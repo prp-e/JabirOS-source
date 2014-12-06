@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/etc/netstart 262557 2014-02-27 13:19:17Z des $
+# $FreeBSD: releng/10.1/etc/netstart 262557 2014-02-27 13:19:17Z des $
 #	From: @(#)netstart	5.9 (Berkeley) 3/30/91
 #
 

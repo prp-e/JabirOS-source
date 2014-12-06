@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/rpc/auth_time.c 172259 2007-09-20 22:35:24Z matteo $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/rpc/auth_time.c 172259 2007-09-20 22:35:24Z matteo $");
 
 #include "namespace.h"
 #include <stdio.h>

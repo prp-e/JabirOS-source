@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libopie/config.h 229831 2012-01-09 00:48:19Z eadler $ */
+/* $FreeBSD: releng/10.1/lib/libopie/config.h 229831 2012-01-09 00:48:19Z eadler $ */
 /* config.h.  Generated automatically by configure.  */
 /* config.h.in.  Generated automatically from configure.in by autoheader.  */
 

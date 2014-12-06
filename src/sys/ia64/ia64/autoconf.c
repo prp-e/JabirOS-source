@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/ia64/ia64/autoconf.c 219756 2011-03-18 22:33:19Z marcel $
+ * $FreeBSD: releng/10.1/sys/ia64/ia64/autoconf.c 219756 2011-03-18 22:33:19Z marcel $
  */
 
 #include "opt_isa.h"

@@ -74,7 +74,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/s3c2xx0/s3c2xx0_space.c 259363 2013-12-13 23:07:22Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/s3c2xx0/s3c2xx0_space.c 259363 2013-12-13 23:07:22Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

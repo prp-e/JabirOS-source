@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/netfpga10g/nf10bmac/Makefile 264601 2014-04-17 12:33:26Z bz $
+# $FreeBSD: releng/10.1/sys/modules/netfpga10g/nf10bmac/Makefile 264601 2014-04-17 12:33:26Z bz $
 
 .PATH: ${.CURDIR}/../../../dev/netfpga10g/nf10bmac
 

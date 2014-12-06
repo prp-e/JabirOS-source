@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libutil/tests/grp_test.c 269904 2014-08-13 04:56:27Z ngie $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libutil/tests/grp_test.c 269904 2014-08-13 04:56:27Z ngie $");
 
 #include <sys/types.h>
 #include <errno.h>

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libutil/gr_util.c 248102 2013-03-09 13:30:06Z db $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libutil/gr_util.c 248102 2013-03-09 13:30:06Z db $");
 
 #include <sys/param.h>
 #include <sys/errno.h>

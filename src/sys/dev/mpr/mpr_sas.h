@@ -25,7 +25,7 @@
  *
  * LSI MPT-Fusion Host Adapter FreeBSD
  *
- * $FreeBSD: stable/10/sys/dev/mpr/mpr_sas.h 265236 2014-05-02 20:25:09Z ken $
+ * $FreeBSD: releng/10.1/sys/dev/mpr/mpr_sas.h 265236 2014-05-02 20:25:09Z ken $
  */
 
 struct mpr_fw_event_work;

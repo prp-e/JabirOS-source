@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 # 
-# $FreeBSD: stable/10/tools/tools/termcap/termcap.pl 199141 2009-11-10 14:32:09Z jhb $
+# $FreeBSD: releng/10.1/tools/tools/termcap/termcap.pl 199141 2009-11-10 14:32:09Z jhb $
 #
 
 use strict;

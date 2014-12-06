@@ -27,7 +27,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/priv/main.c 264457 2014-04-14 13:30:08Z jmmv $
+ * $FreeBSD: releng/10.1/tools/regression/priv/main.c 264457 2014-04-14 13:30:08Z jmmv $
  */
 
 /*

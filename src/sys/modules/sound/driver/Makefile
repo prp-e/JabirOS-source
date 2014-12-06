@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/sound/driver/Makefile 232337 2012-03-01 13:10:18Z mav $
+# $FreeBSD: releng/10.1/sys/modules/sound/driver/Makefile 232337 2012-03-01 13:10:18Z mav $
 
 .include <bsd.own.mk>
 

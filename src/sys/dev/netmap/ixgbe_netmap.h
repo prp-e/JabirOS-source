@@ -24,7 +24,7 @@
  */
 
 /*
- * $FreeBSD: stable/10/sys/dev/netmap/ixgbe_netmap.h 270252 2014-08-20 23:34:36Z luigi $
+ * $FreeBSD: releng/10.1/sys/dev/netmap/ixgbe_netmap.h 270252 2014-08-20 23:34:36Z luigi $
  *
  * netmap support for: ixgbe
  *

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/uart/uart_tty.c 259759 2013-12-23 01:24:32Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/uart/uart_tty.c 259759 2013-12-23 01:24:32Z imp $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

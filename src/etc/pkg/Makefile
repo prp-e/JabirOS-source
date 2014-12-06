@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/etc/pkg/Makefile 257145 2013-10-26 03:31:05Z bdrewery $
+# $FreeBSD: releng/10.1/etc/pkg/Makefile 257145 2013-10-26 03:31:05Z bdrewery $
 
 NO_OBJ=
 

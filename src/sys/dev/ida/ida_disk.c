@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/ida/ida_disk.c 239740 2012-08-27 17:24:07Z jhb $
+ * $FreeBSD: releng/10.1/sys/dev/ida/ida_disk.c 239740 2012-08-27 17:24:07Z jhb $
  */
 
 /*

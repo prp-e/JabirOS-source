@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/bce/if_bce.c 265917 2014-05-12 15:52:49Z davidcs $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/bce/if_bce.c 265917 2014-05-12 15:52:49Z davidcs $");
 
 /*
  * The following controllers are supported by this driver:

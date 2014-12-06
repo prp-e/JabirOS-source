@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/procstat/procstat.c 267979 2014-06-27 20:34:22Z jhb $
+ * $FreeBSD: releng/10.1/usr.bin/procstat/procstat.c 267979 2014-06-27 20:34:22Z jhb $
  */
 
 #include <sys/param.h>

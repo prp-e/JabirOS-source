@@ -1,5 +1,5 @@
 # Omap4430 generic configuration
-#$FreeBSD: stable/10/sys/arm/ti/omap4/std.omap4 266110 2014-05-15 02:41:23Z ian $
+#$FreeBSD: releng/10.1/sys/arm/ti/omap4/std.omap4 266110 2014-05-15 02:41:23Z ian $
 files		"../ti/omap4/files.omap4"
 include		"../ti/std.ti"
 makeoption	ARM_LITTLE_ENDIAN

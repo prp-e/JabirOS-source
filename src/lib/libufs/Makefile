@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libufs/Makefile 225227 2011-08-28 09:26:48Z kib $
+# $FreeBSD: releng/10.1/lib/libufs/Makefile 225227 2011-08-28 09:26:48Z kib $
 
 LIB=	ufs
 SHLIBDIR?= /lib

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/netgraph/nat/Makefile 145937 2005-05-05 23:41:21Z glebius $
+# $FreeBSD: releng/10.1/sys/modules/netgraph/nat/Makefile 145937 2005-05-05 23:41:21Z glebius $
 
 KMOD=	ng_nat
 SRCS= 	ng_nat.c

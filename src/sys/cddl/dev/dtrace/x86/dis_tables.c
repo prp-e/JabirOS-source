@@ -33,7 +33,7 @@
 /*	  All Rights Reserved  	*/
 
 /*
- * $FreeBSD: stable/10/sys/cddl/dev/dtrace/x86/dis_tables.c 270186 2014-08-19 23:15:47Z grehan $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/dtrace/x86/dis_tables.c 270186 2014-08-19 23:15:47Z grehan $
  */
 
 #include	"dis_tables.h"

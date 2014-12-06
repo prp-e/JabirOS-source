@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/gen/lockf.c 189328 2009-03-04 01:01:26Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/gen/lockf.c 189328 2009-03-04 01:01:26Z delphij $");
 
 #include "namespace.h"
 #include <errno.h>

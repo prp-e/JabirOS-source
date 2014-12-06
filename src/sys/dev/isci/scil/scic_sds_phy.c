@@ -51,7 +51,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/isci/scil/scic_sds_phy.c 249586 2013-04-17 11:47:32Z gabor $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/isci/scil/scic_sds_phy.c 249586 2013-04-17 11:47:32Z gabor $");
 
 /**
  * @file

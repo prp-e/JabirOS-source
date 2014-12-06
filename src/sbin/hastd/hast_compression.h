@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/hastd/hast_compression.h 219354 2011-03-06 23:09:33Z pjd $
+ * $FreeBSD: releng/10.1/sbin/hastd/hast_compression.h 219354 2011-03-06 23:09:33Z pjd $
  */
 
 #ifndef	_HAST_COMPRESSION_H_

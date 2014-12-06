@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/vt/logo/logo_freebsd.c 271952 2014-09-22 10:21:08Z ray $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/vt/logo/logo_freebsd.c 271952 2014-09-22 10:21:08Z ray $");
 
 unsigned int vt_logo_width = 257;
 unsigned int vt_logo_height = 219;

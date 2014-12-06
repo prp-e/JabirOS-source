@@ -1,4 +1,4 @@
-#	$FreeBSD: stable/10/usr.sbin/nmtree/Makefile 270442 2014-08-24 08:03:59Z ngie $
+#	$FreeBSD: releng/10.1/usr.sbin/nmtree/Makefile 270442 2014-08-24 08:03:59Z ngie $
 
 .include <bsd.own.mk>
 

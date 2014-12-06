@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libprocstat/libprocstat_internal.h 249679 2013-04-20 08:07:04Z trociny $
+ * $FreeBSD: releng/10.1/lib/libprocstat/libprocstat_internal.h 249679 2013-04-20 08:07:04Z trociny $
  */
 
 #ifndef _LIBPROCSTAT_INTERNAL_H_

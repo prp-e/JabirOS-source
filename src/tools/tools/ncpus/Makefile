@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/ncpus/Makefile 156362 2006-03-06 21:51:27Z sam $
+# $FreeBSD: releng/10.1/tools/tools/ncpus/Makefile 156362 2006-03-06 21:51:27Z sam $
 
 PROG=	ncpus
 NO_MAN=

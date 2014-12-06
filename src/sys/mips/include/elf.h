@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/include/elf.h 253103 2013-07-09 19:01:38Z imp $
+ * $FreeBSD: releng/10.1/sys/mips/include/elf.h 253103 2013-07-09 19:01:38Z imp $
  */
 
 /*-

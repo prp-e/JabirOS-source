@@ -30,7 +30,7 @@
  *	from: @(#)auth.h 1.17 88/02/08 SMI
  *	from: @(#)auth.h	2.3 88/08/07 4.0 RPCSRC
  *	from: @(#)auth.h	1.43 	98/02/02 SMI
- * $FreeBSD: stable/10/sys/rpc/auth.h 261046 2014-01-22 23:45:27Z mav $
+ * $FreeBSD: releng/10.1/sys/rpc/auth.h 261046 2014-01-22 23:45:27Z mav $
  */
 
 /*

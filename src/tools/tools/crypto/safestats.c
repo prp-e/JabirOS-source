@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/tools/crypto/safestats.c 117852 2003-07-21 21:58:04Z sam $
+ * $FreeBSD: releng/10.1/tools/tools/crypto/safestats.c 117852 2003-07-21 21:58:04Z sam $
  */
 #include <stdio.h>
 #include <sys/types.h>

@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/x86/acpica/srat.c 254065 2013-08-07 16:36:38Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/x86/acpica/srat.c 254065 2013-08-07 16:36:38Z kib $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

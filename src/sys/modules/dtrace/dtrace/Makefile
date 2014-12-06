@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/dtrace/dtrace/Makefile 268578 2014-07-12 22:56:41Z rpaulo $
+# $FreeBSD: releng/10.1/sys/modules/dtrace/dtrace/Makefile 268578 2014-07-12 22:56:41Z rpaulo $
 
 ARCHDIR=	${MACHINE_CPUARCH}
 

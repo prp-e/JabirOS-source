@@ -39,7 +39,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/subr_vmem.c 260299 2014-01-04 23:31:34Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/subr_vmem.c 260299 2014-01-04 23:31:34Z mav $");
 
 #include "opt_ddb.h"
 

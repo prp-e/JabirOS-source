@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/clang/liblldbPluginProcessFreeBSD/Makefile 263368 2014-03-19 13:19:56Z emaste $
+# $FreeBSD: releng/10.1/lib/clang/liblldbPluginProcessFreeBSD/Makefile 263368 2014-03-19 13:19:56Z emaste $
 
 .include <bsd.own.mk>
 

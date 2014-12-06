@@ -37,7 +37,7 @@
 	.asciz "$Id: sigsetjmp.S,v 1.1 1993/12/05 13:01:05 ats Exp $"
 #endif /* LIBC_SCCS and not lint */
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/i386/gen/sigsetjmp.S 227024 2011-11-02 18:08:30Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/i386/gen/sigsetjmp.S 227024 2011-11-02 18:08:30Z kib $");
 
 #include "SYS.h"
 

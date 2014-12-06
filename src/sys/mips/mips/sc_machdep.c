@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/mips/sc_machdep.c 239670 2012-08-25 08:09:37Z rwatson $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/mips/sc_machdep.c 239670 2012-08-25 08:09:37Z rwatson $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

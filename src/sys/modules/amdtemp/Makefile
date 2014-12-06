@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/amdtemp/Makefile 189768 2009-03-13 16:08:08Z rpaulo $
+# $FreeBSD: releng/10.1/sys/modules/amdtemp/Makefile 189768 2009-03-13 16:08:08Z rpaulo $
 
 .PATH:	${.CURDIR}/../../dev/amdtemp
 

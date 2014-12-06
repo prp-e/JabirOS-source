@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/nanobsd/dhcpd/common 265166 2014-05-01 00:31:19Z imp $
+# $FreeBSD: releng/10.1/tools/tools/nanobsd/dhcpd/common 265166 2014-05-01 00:31:19Z imp $
 
 #-
 # Copyright (c) 2014 Warner Losh. All Rights Reserved.

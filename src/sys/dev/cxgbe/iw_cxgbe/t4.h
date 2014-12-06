@@ -28,7 +28,7 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * $FreeBSD: stable/10/sys/dev/cxgbe/iw_cxgbe/t4.h 256694 2013-10-17 18:37:25Z np $
+ * $FreeBSD: releng/10.1/sys/dev/cxgbe/iw_cxgbe/t4.h 256694 2013-10-17 18:37:25Z np $
  */
 #ifndef __T4_H__
 #define __T4_H__

@@ -16,7 +16,7 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/wlan/if_rsu.c 267349 2014-06-11 05:50:04Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/wlan/if_rsu.c 267349 2014-06-11 05:50:04Z hselasky $");
 
 /*
  * Driver for Realtek RTL8188SU/RTL8191SU/RTL8192SU.

@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/uboot/lib/copy.c 246948 2013-02-18 20:11:20Z kientzle $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/uboot/lib/copy.c 246948 2013-02-18 20:11:20Z kientzle $");
 
 #include <stand.h>
 #include <stdint.h>

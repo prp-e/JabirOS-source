@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/mv/armadaxp/armadaxp_mp.c 266203 2014-05-16 00:14:50Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/mv/armadaxp/armadaxp_mp.c 266203 2014-05-16 00:14:50Z ian $
  */
 
 #include <sys/param.h>

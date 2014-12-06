@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/mksnap_ffs/Makefile 271075 2014-09-04 01:38:31Z neel $
+# $FreeBSD: releng/10.1/sbin/mksnap_ffs/Makefile 271075 2014-09-04 01:38:31Z neel $
 
 .PATH:	${.CURDIR}/../mount
 

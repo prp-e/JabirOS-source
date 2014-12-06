@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_rmlock.c 255745 2013-09-20 23:06:21Z davide $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_rmlock.c 255745 2013-09-20 23:06:21Z davide $");
 
 #include "opt_ddb.h"
 #include "opt_kdtrace.h"

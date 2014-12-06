@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/misc/ufm.c 246128 2013-01-30 18:01:20Z sbz $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/misc/ufm.c 246128 2013-01-30 18:01:20Z sbz $");
 
 
 #include <sys/stdint.h>

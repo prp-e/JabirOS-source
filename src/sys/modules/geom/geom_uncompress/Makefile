@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/geom/geom_uncompress/Makefile 266220 2014-05-16 14:28:55Z loos $
+# $FreeBSD: releng/10.1/sys/modules/geom/geom_uncompress/Makefile 266220 2014-05-16 14:28:55Z loos $
 
 .PATH: ${.CURDIR}/../../../geom/uncompress \
     ${.CURDIR}/../../../contrib/xz-embedded/freebsd/ \

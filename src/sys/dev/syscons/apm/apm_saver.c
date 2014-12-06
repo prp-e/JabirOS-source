@@ -25,7 +25,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/syscons/apm/apm_saver.c 158922 2006-05-25 23:06:38Z imp $
+ * $FreeBSD: releng/10.1/sys/dev/syscons/apm/apm_saver.c 158922 2006-05-25 23:06:38Z imp $
  */
 
 #include <sys/param.h>

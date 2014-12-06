@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/bsdinstall/Makefile 222998 2011-06-11 21:44:07Z nwhitehorn $
+# $FreeBSD: releng/10.1/usr.sbin/bsdinstall/Makefile 222998 2011-06-11 21:44:07Z nwhitehorn $
 
 SUBDIR= distextract distfetch partedit scripts
 SCRIPTS= bsdinstall

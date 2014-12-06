@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/hwpmc/hwpmc_mod.c 255746 2013-09-20 23:10:52Z davide $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/hwpmc/hwpmc_mod.c 255746 2013-09-20 23:10:52Z davide $");
 
 #include <sys/param.h>
 #include <sys/eventhandler.h>

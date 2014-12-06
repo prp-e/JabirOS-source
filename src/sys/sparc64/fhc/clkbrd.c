@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/sparc64/fhc/clkbrd.c 157225 2006-03-28 19:46:48Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/sparc64/fhc/clkbrd.c 157225 2006-03-28 19:46:48Z marius $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

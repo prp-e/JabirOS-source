@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/toecore/Makefile 237560 2012-06-25 09:46:06Z uqs $
+# $FreeBSD: releng/10.1/sys/modules/toecore/Makefile 237560 2012-06-25 09:46:06Z uqs $
 
 .PATH: ${.CURDIR}/../../netinet
 

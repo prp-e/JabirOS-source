@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ata/ata-card.c 256326 2013-10-11 18:27:12Z grehan $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ata/ata-card.c 256326 2013-10-11 18:27:12Z grehan $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

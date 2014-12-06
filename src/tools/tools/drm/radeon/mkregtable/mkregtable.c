@@ -10,7 +10,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/tools/drm/radeon/mkregtable/mkregtable.c 254885 2013-08-25 19:37:15Z dumbbell $");
+__FBSDID("$FreeBSD: releng/10.1/tools/tools/drm/radeon/mkregtable/mkregtable.c 254885 2013-08-25 19:37:15Z dumbbell $");
 
 #include <sys/types.h>
 #include <stdlib.h>

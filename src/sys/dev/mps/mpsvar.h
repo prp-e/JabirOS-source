@@ -26,7 +26,7 @@
  *
  * LSI MPT-Fusion Host Adapter FreeBSD
  *
- * $FreeBSD: stable/10/sys/dev/mps/mpsvar.h 270250 2014-08-20 23:09:27Z slm $
+ * $FreeBSD: releng/10.1/sys/dev/mps/mpsvar.h 270250 2014-08-20 23:09:27Z slm $
  */
 
 #ifndef _MPSVAR_H

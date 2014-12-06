@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/mpc85xx/fsl_sdhc.c 261077 2014-01-23 12:02:04Z loos $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/mpc85xx/fsl_sdhc.c 261077 2014-01-23 12:02:04Z loos $");
 
 #include <sys/param.h>
 #include <sys/bus.h>

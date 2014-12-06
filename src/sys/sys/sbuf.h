@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *      $FreeBSD: stable/10/sys/sys/sbuf.h 249377 2013-04-11 19:49:18Z trociny $
+ *      $FreeBSD: releng/10.1/sys/sys/sbuf.h 249377 2013-04-11 19:49:18Z trociny $
  */
 
 #ifndef _SYS_SBUF_H_

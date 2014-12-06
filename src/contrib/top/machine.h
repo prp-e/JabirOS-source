@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/contrib/top/machine.h 266280 2014-05-17 02:39:20Z bdrewery $
+ * $FreeBSD: releng/10.1/contrib/top/machine.h 266280 2014-05-17 02:39:20Z bdrewery $
  */
 
 /*

@@ -22,7 +22,7 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
  * IN THE SOFTWARE.
  *
- * $FreeBSD: stable/10/sys/dev/drm2/i915/intel_drv.h 254797 2013-08-24 16:50:47Z dumbbell $
+ * $FreeBSD: releng/10.1/sys/dev/drm2/i915/intel_drv.h 254797 2013-08-24 16:50:47Z dumbbell $
  */
 
 #ifndef DRM_INTEL_DRV_H

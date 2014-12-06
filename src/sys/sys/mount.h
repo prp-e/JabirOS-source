@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)mount.h	8.21 (Berkeley) 5/20/95
- * $FreeBSD: stable/10/sys/sys/mount.h 270892 2014-08-31 21:18:23Z trasz $
+ * $FreeBSD: releng/10.1/sys/sys/mount.h 270892 2014-08-31 21:18:23Z trasz $
  */
 
 #ifndef _SYS_MOUNT_H_

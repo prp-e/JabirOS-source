@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/arm/busdma_machdep-v6.c 269794 2014-08-11 01:10:15Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/arm/busdma_machdep-v6.c 269794 2014-08-11 01:10:15Z ian $");
 
 #define _ARM32_BUS_DMA_PRIVATE
 #include <sys/param.h>

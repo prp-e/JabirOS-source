@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ida/ida_eisa.c 239740 2012-08-27 17:24:07Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ida/ida_eisa.c 239740 2012-08-27 17:24:07Z jhb $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

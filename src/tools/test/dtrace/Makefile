@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/test/dtrace/Makefile 268622 2014-07-14 15:54:50Z pfg $
+# $FreeBSD: releng/10.1/tools/test/dtrace/Makefile 268622 2014-07-14 15:54:50Z pfg $
 
 TESTSRCDIR=	${.CURDIR}/../../../cddl/contrib/opensolaris/cmd/dtrace/test
 CFLAGS+=	-w

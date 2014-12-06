@@ -1,7 +1,7 @@
 /*	$NetBSD: uplcom.c,v 1.21 2001/11/13 06:24:56 lukem Exp $	*/
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/serial/uplcom.c 263687 2014-03-24 13:48:04Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/serial/uplcom.c 263687 2014-03-24 13:48:04Z emaste $");
 
 /*-
  * Copyright (c) 2001-2003, 2005 Shunsuke Akiyama <akiyama@jp.FreeBSD.org>.

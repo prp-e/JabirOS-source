@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/doc/llvm/clang/Makefile 225880 2011-09-29 18:12:40Z dim $
+# $FreeBSD: releng/10.1/share/doc/llvm/clang/Makefile 225880 2011-09-29 18:12:40Z dim $
 
 SRCDIR=		${.CURDIR}/../../../../contrib/llvm/tools/clang
 

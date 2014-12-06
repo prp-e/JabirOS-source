@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/quirk/usb_quirk.h 243435 2012-11-23 08:22:06Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/quirk/usb_quirk.h 243435 2012-11-23 08:22:06Z hselasky $ */
 /*-
  * Copyright (c) 2008 Hans Petter Selasky. All rights reserved.
  *

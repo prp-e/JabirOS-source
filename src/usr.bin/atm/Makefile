@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/atm/Makefile 121666 2003-10-29 10:30:54Z harti $
+# $FreeBSD: releng/10.1/usr.bin/atm/Makefile 121666 2003-10-29 10:30:54Z harti $
 
 SUBDIR=	sscop
 

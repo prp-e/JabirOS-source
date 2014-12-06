@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/powerpc/ofw/Makefile 271130 2014-09-04 20:35:53Z emaste $
+# $FreeBSD: releng/10.1/sys/boot/powerpc/ofw/Makefile 271130 2014-09-04 20:35:53Z emaste $
 
 .include <bsd.own.mk>
 MK_SSP=		no

@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/aio/kqueue/aio_kqueue.c 218938 2011-02-22 05:13:26Z miwi $
+ * $FreeBSD: releng/10.1/tools/regression/aio/kqueue/aio_kqueue.c 218938 2011-02-22 05:13:26Z miwi $
  */
 
 /* 

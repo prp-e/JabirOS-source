@@ -35,7 +35,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libpam/modules/pam_login_access/pam_login_access.c 271766 2014-09-18 14:27:37Z des $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libpam/modules/pam_login_access/pam_login_access.c 272351 2014-10-01 10:26:43Z des $");
 
 #define _BSD_SOURCE
 
@@ -85,17 +85,21 @@ pam_sm_acct_mgmt(pam_handle_t *pamh, int flags __unused,
 		if (login_access(user, rhost) != 0)
 			return (PAM_SUCCESS);
 		PAM_VERBOSE_ERROR("%s is not allowed to log in from %s",
-		    user, rhost);
+		    (const char *)user, (const char *)rhost);
 	} else if (tty != NULL && *(const char *)tty != '\0') {
 		PAM_LOG("Checking login.access for user %s on tty %s",
 		    (const char *)user, (const char *)tty);
 		if (login_access(user, tty) != 0)
 			return (PAM_SUCCESS);
 		PAM_VERBOSE_ERROR("%s is not allowed to log in on %s",
-		    user, tty);
+		    (const char *)user, (const char *)tty);
 	} else {
-		PAM_VERBOSE_ERROR("PAM_RHOST or PAM_TTY required");
-		return (PAM_AUTHINFO_UNAVAIL);
+		PAM_LOG("Checking login.access for user %s",
+		    (const char *)user);
+		if (login_access(user, "***unknown***") != 0)
+			return (PAM_SUCCESS);
+		PAM_VERBOSE_ERROR("%s is not allowed to log in",
+		    (const char *)user);
 	}
 
 	return (PAM_AUTH_ERR);

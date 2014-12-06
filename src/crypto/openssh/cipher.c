@@ -1,5 +1,5 @@
 /* $OpenBSD: cipher.c,v 1.97 2014/02/07 06:55:54 djm Exp $ */
-/* $FreeBSD: stable/10/crypto/openssh/cipher.c 264377 2014-04-12 20:22:59Z des $ */
+/* $FreeBSD: releng/10.1/crypto/openssh/cipher.c 264377 2014-04-12 20:22:59Z des $ */
 /*
  * Author: Tatu Ylonen <ylo@cs.hut.fi>
  * Copyright (c) 1995 Tatu Ylonen <ylo@cs.hut.fi>, Espoo, Finland

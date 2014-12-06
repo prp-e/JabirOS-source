@@ -71,7 +71,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/tcp_sack.c 220105 2011-03-28 19:03:56Z weongyo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/tcp_sack.c 220105 2011-03-28 19:03:56Z weongyo $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"

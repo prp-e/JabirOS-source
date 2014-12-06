@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/lmc/Makefile 150967 2005-10-05 10:07:27Z glebius $
+# $FreeBSD: releng/10.1/sys/modules/lmc/Makefile 150967 2005-10-05 10:07:27Z glebius $
 
 KMOD  = if_lmc
 .PATH: ${.CURDIR}/../../dev/lmc

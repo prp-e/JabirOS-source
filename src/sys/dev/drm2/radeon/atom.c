@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/atom.c 254894 2013-08-26 06:31:57Z dumbbell $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/radeon/atom.c 254894 2013-08-26 06:31:57Z dumbbell $");
 
 #define ATOM_DEBUG
 

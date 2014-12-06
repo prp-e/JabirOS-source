@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/truncate/Makefile 204654 2010-03-03 19:25:28Z sobomax $
+# $FreeBSD: releng/10.1/usr.bin/truncate/Makefile 204654 2010-03-03 19:25:28Z sobomax $
 
 PROG=		truncate
 DPADD=		${LIBUTIL}

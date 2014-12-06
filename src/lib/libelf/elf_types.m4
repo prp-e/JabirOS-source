@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libelf/elf_types.m4 210341 2010-07-21 10:57:22Z kaiw $
+ * $FreeBSD: releng/10.1/lib/libelf/elf_types.m4 210341 2010-07-21 10:57:22Z kaiw $
  */
 
 /*

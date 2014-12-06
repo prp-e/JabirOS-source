@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/tools/regression/sockets/kqueue/Makefile 139103 2004-12-21 08:47:35Z ru $
+# $FreeBSD: releng/10.1/tools/regression/sockets/kqueue/Makefile 139103 2004-12-21 08:47:35Z ru $
 #
 
 PROG=	kqueue

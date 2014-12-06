@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sbin/setkey/setkey.c 173412 2007-11-07 10:53:41Z kevlo $	*/
+/*	$FreeBSD: releng/10.1/sbin/setkey/setkey.c 173412 2007-11-07 10:53:41Z kevlo $	*/
 /*	$KAME: setkey.c,v 1.28 2003/06/27 07:15:45 itojun Exp $	*/
 
 /*

@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/usr.bin/svn/svn_private_config.h 269847 2014-08-12 01:40:11Z peter $ */
+/* $FreeBSD: releng/10.1/usr.bin/svn/svn_private_config.h 269847 2014-08-12 01:40:11Z peter $ */
 
 /* subversion/svn_private_config.h.tmp.  Generated from svn_private_config.h.in by configure.  */
 /* subversion/svn_private_config.h.in.  Generated from configure.ac by autoheader.  */

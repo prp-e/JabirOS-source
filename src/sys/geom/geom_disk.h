@@ -31,7 +31,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/geom/geom_disk.h 271238 2014-09-07 21:30:47Z smh $
+ * $FreeBSD: releng/10.1/sys/geom/geom_disk.h 271238 2014-09-07 21:30:47Z smh $
  */
 
 #ifndef _GEOM_GEOM_DISK_H_

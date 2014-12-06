@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libjail/jail.h 195870 2009-07-25 14:48:57Z jamie $
+ * $FreeBSD: releng/10.1/lib/libjail/jail.h 195870 2009-07-25 14:48:57Z jamie $
  */
 
 #ifndef _JAIL_H

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/arm/cavium/cns11xx/files.econa 264219 2014-04-07 05:33:30Z rpaulo $
+# $FreeBSD: releng/10.1/sys/arm/cavium/cns11xx/files.econa 264219 2014-04-07 05:33:30Z rpaulo $
 arm/arm/cpufunc_asm_fa526.S	standard
 arm/cavium/cns11xx/econa_machdep.c		standard
 arm/cavium/cns11xx/econa.c			standard

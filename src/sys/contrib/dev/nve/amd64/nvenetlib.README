@@ -1,4 +1,4 @@
-$FreeBSD: stable/10/sys/contrib/dev/nve/amd64/nvenetlib.README 230135 2012-01-15 13:23:54Z uqs $
+$FreeBSD: releng/10.1/sys/contrib/dev/nve/amd64/nvenetlib.README 230135 2012-01-15 13:23:54Z uqs $
 
 The installation and use of this software is subject to the following license terms and conditions:
 

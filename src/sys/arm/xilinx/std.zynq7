@@ -1,7 +1,7 @@
 #
 # std.zynq7		- Generic configuration for Xilinx Zynq-7000 PS.
 #
-# $FreeBSD: stable/10/sys/arm/xilinx/std.zynq7 266379 2014-05-17 23:25:20Z ian $
+# $FreeBSD: releng/10.1/sys/arm/xilinx/std.zynq7 266379 2014-05-17 23:25:20Z ian $
 
 cpu		CPU_CORTEXA
 machine		arm	armv6

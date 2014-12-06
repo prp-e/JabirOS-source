@@ -24,7 +24,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/net/getnetbynis.c 229403 2012-01-03 18:51:58Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/net/getnetbynis.c 229403 2012-01-03 18:51:58Z ed $");
 
 #include <sys/param.h>
 #include <sys/socket.h>

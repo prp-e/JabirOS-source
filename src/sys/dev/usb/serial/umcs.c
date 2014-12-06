@@ -38,7 +38,7 @@
  *
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/serial/umcs.c 269718 2014-08-08 14:48:26Z joerg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/serial/umcs.c 269718 2014-08-08 14:48:26Z joerg $");
 
 #include <sys/stdint.h>
 #include <sys/stddef.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/portsnap/make_index/Makefile 201390 2010-01-02 11:07:44Z ed $
+# $FreeBSD: releng/10.1/usr.sbin/portsnap/make_index/Makefile 201390 2010-01-02 11:07:44Z ed $
 
 PROG=	make_index
 NO_MAN=

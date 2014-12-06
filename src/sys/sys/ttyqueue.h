@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/ttyqueue.h 198223 2009-10-19 07:17:37Z ed $
+ * $FreeBSD: releng/10.1/sys/sys/ttyqueue.h 198223 2009-10-19 07:17:37Z ed $
  */
 
 #ifndef _SYS_TTYQUEUE_H_

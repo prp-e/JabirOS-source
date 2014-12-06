@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/libalias/alias_util.c 174348 2007-12-06 09:31:13Z des $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/libalias/alias_util.c 174348 2007-12-06 09:31:13Z des $");
 
 
 /*

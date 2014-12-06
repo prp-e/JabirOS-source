@@ -22,7 +22,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/wii/locore.S 244179 2012-12-13 06:42:44Z rpaulo $
+ * $FreeBSD: releng/10.1/sys/powerpc/wii/locore.S 244179 2012-12-13 06:42:44Z rpaulo $
  */
 
 #include <machine/bat.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/ggate/ggatec/Makefile 168422 2007-04-06 11:19:48Z pjd $
+# $FreeBSD: releng/10.1/sbin/ggate/ggatec/Makefile 168422 2007-04-06 11:19:48Z pjd $
 
 .PATH: ${.CURDIR}/../shared
 

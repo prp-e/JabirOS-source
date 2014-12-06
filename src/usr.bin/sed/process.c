@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/sed/process.c 269837 2014-08-11 20:38:52Z jlh $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/sed/process.c 269837 2014-08-11 20:38:52Z jlh $");
 
 #ifndef lint
 static const char sccsid[] = "@(#)process.c	8.6 (Berkeley) 4/20/94";

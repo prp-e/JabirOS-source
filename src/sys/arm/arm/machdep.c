@@ -49,7 +49,7 @@
 #include "opt_timer.h"
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/arm/machdep.c 270077 2014-08-17 01:48:12Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/arm/machdep.c 270077 2014-08-17 01:48:12Z ian $");
 
 #include <sys/param.h>
 #include <sys/proc.h>

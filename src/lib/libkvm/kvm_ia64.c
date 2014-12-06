@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libkvm/kvm_ia64.c 269449 2014-08-02 22:25:24Z marcel $ */
+/* $FreeBSD: releng/10.1/lib/libkvm/kvm_ia64.c 269449 2014-08-02 22:25:24Z marcel $ */
 /*	$NetBSD: kvm_alpha.c,v 1.7.2.1 1997/11/02 20:34:26 mellon Exp $	*/
 
 /*

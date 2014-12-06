@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bhyve/rtc.h 253181 2013-07-11 03:54:35Z grehan $
+ * $FreeBSD: releng/10.1/usr.sbin/bhyve/rtc.h 253181 2013-07-11 03:54:35Z grehan $
  */
 
 #ifndef _RTC_H_

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/imgact_shell.c 219352 2011-03-06 22:59:30Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/imgact_shell.c 272450 2014-10-02 21:19:13Z sbruno $");
 
 #include <sys/param.h>
 #include <sys/vnode.h>
@@ -115,10 +115,10 @@ exec_shell_imgact(imgp)
 	 * Don't allow a shell script to be the shell for a shell
 	 *	script. :-)
 	 */
-	if (imgp->interpreted)
+	if (imgp->interpreted & IMGACT_SHELL)
 		return (ENOEXEC);
 
-	imgp->interpreted = 1;
+	imgp->interpreted |= IMGACT_SHELL;
 
 	/*
 	 * At this point we have the first page of the file mapped.

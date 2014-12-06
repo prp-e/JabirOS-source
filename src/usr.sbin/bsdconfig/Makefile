@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/bsdconfig/Makefile 260675 2014-01-15 07:36:34Z dteske $
+# $FreeBSD: releng/10.1/usr.sbin/bsdconfig/Makefile 260675 2014-01-15 07:36:34Z dteske $
 
 SUBDIR=	console \
 	diskmgmt \

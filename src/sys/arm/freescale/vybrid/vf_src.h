@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/freescale/vybrid/vf_src.h 258057 2013-11-12 18:02:56Z br $
+ * $FreeBSD: releng/10.1/sys/arm/freescale/vybrid/vf_src.h 258057 2013-11-12 18:02:56Z br $
  */
 
 #define	SW_RST	(1 << 12)	/* Software reset */

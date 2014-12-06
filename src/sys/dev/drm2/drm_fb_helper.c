@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/drm_fb_helper.c 272104 2014-09-25 13:08:31Z ray $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/drm_fb_helper.c 272104 2014-09-25 13:08:31Z ray $");
 
 #include <dev/drm2/drmP.h>
 #include <dev/drm2/drm_crtc.h>

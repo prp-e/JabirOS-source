@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/cron/crontab/Makefile 185040 2008-11-18 00:12:15Z matteo $
+# $FreeBSD: releng/10.1/usr.sbin/cron/crontab/Makefile 185040 2008-11-18 00:12:15Z matteo $
 
 BINDIR=	/usr/bin
 

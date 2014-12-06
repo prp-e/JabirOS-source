@@ -26,7 +26,7 @@
  * THE POSSIBILITY OF SUCH DAMAGE.
  *
  * NETLOGIC_BSD
- * $FreeBSD: stable/10/sys/mips/nlm/hal/haldefs.h 227722 2011-11-19 14:06:15Z jchandra $
+ * $FreeBSD: releng/10.1/sys/mips/nlm/hal/haldefs.h 227722 2011-11-19 14:06:15Z jchandra $
  */
 
 #ifndef __NLM_HAL_MMIO_H__

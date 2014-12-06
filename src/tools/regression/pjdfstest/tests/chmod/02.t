@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/chmod/02.t 211178 2010-08-11 16:33:17Z pjd $
+# $FreeBSD: releng/10.1/tools/regression/pjdfstest/tests/chmod/02.t 211178 2010-08-11 16:33:17Z pjd $
 
 desc="chmod returns ENAMETOOLONG if a component of a pathname exceeded {NAME_MAX} characters"
 

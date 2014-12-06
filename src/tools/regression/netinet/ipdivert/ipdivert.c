@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/regression/netinet/ipdivert/ipdivert.c 222689 2011-06-04 16:25:12Z rwatson $
+ * $FreeBSD: releng/10.1/tools/regression/netinet/ipdivert/ipdivert.c 222689 2011-06-04 16:25:12Z rwatson $
  */
 
 /*

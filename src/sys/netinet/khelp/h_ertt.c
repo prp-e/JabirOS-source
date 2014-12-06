@@ -37,7 +37,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/khelp/h_ertt.c 239346 2012-08-17 01:49:51Z lstewart $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/khelp/h_ertt.c 239346 2012-08-17 01:49:51Z lstewart $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

@@ -30,7 +30,7 @@
  */
 
 #include <sys/param.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/gadget/g_modem.c 253618 2013-07-24 18:32:15Z obrien $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/gadget/g_modem.c 253618 2013-07-24 18:32:15Z obrien $");
 
 #include <sys/stdint.h>
 #include <sys/stddef.h>

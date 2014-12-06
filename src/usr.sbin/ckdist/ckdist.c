@@ -27,7 +27,7 @@
 
 #ifndef lint
 static const char rcsid[] =
-  "$FreeBSD: stable/10/usr.sbin/ckdist/ckdist.c 185073 2008-11-19 00:09:01Z delphij $";
+  "$FreeBSD: releng/10.1/usr.sbin/ckdist/ckdist.c 185073 2008-11-19 00:09:01Z delphij $";
 #endif /* not lint */
 
 #include <sys/types.h>

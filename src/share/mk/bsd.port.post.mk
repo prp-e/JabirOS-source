@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/mk/bsd.port.post.mk 95028 2002-04-19 07:42:41Z ru $
+# $FreeBSD: releng/10.1/share/mk/bsd.port.post.mk 95028 2002-04-19 07:42:41Z ru $
 
 AFTERPORTMK=	yes
 

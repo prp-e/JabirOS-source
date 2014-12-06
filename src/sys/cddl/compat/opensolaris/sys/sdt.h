@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/cddl/compat/opensolaris/sys/sdt.h 262058 2014-02-17 14:47:52Z avg $
+ * $FreeBSD: releng/10.1/sys/cddl/compat/opensolaris/sys/sdt.h 262058 2014-02-17 14:47:52Z avg $
  */
 
 #ifndef _OPENSOLARIS_SYS_SDT_H_

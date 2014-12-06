@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/nanobsd/pcengines/Files/root/.cshrc 229831 2012-01-09 00:48:19Z eadler $
+# $FreeBSD: releng/10.1/tools/tools/nanobsd/pcengines/Files/root/.cshrc 229831 2012-01-09 00:48:19Z eadler $
 #
 # .cshrc - csh resource script, read at beginning of execution by each shell
 #

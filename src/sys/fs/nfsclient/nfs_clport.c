@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/fs/nfsclient/nfs_clport.c 255219 2013-09-05 00:09:56Z pjd $");
+__FBSDID("$FreeBSD: releng/10.1/sys/fs/nfsclient/nfs_clport.c 255219 2013-09-05 00:09:56Z pjd $");
 
 #include "opt_inet6.h"
 #include "opt_kdtrace.h"

@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/brandelf/brandelf.c 229908 2012-01-10 02:58:29Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/brandelf/brandelf.c 229908 2012-01-10 02:58:29Z eadler $");
 
 #include <sys/types.h>
 #include <sys/elf_common.h>

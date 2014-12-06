@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/ufm_ioctl.h 246115 2013-01-30 10:59:42Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/ufm_ioctl.h 246115 2013-01-30 10:59:42Z hselasky $ */
 /*-
  * Copyright (c) 2001 M. Warner Losh
  * All rights reserved.

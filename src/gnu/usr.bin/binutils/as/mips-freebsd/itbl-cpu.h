@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/gnu/usr.bin/binutils/as/mips-freebsd/itbl-cpu.h 233388 2012-03-23 19:37:45Z gonzo $ */
+/* $FreeBSD: releng/10.1/gnu/usr.bin/binutils/as/mips-freebsd/itbl-cpu.h 233388 2012-03-23 19:37:45Z gonzo $ */
 
 #include "itbl-mips.h"
 

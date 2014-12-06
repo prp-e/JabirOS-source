@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/samsung/exynos/uart.c 252391 2013-06-29 23:39:05Z ray $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/samsung/exynos/uart.c 252391 2013-06-29 23:39:05Z ray $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

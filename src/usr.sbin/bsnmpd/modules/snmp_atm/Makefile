@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/bsnmpd/modules/snmp_atm/Makefile 152269 2005-11-10 10:14:57Z harti $
+# $FreeBSD: releng/10.1/usr.sbin/bsnmpd/modules/snmp_atm/Makefile 152269 2005-11-10 10:14:57Z harti $
 #
 # Author: Harti Brandt <harti@freebsd.org>
 

@@ -24,7 +24,7 @@ this code that are retained.
 */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/test/testfloat/random.c 207151 2010-04-24 12:11:41Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/tools/test/testfloat/random.c 207151 2010-04-24 12:11:41Z marius $");
 
 #include <stdlib.h>
 #include "milieu.h"

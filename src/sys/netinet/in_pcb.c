@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/in_pcb.c 266718 2014-05-26 22:54:15Z smh $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/in_pcb.c 266718 2014-05-26 22:54:15Z smh $");
 
 #include "opt_ddb.h"
 #include "opt_ipsec.h"

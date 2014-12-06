@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/powerpc/uboot/conf.c 204315 2010-02-25 15:21:37Z raj $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/powerpc/uboot/conf.c 204315 2010-02-25 15:21:37Z raj $");
 
 #include <stand.h>
 #include "bootstrap.h"

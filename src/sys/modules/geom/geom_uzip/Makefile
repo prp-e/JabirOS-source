@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/geom/geom_uzip/Makefile 150706 2005-09-29 11:56:16Z fjoe $
+# $FreeBSD: releng/10.1/sys/modules/geom/geom_uzip/Makefile 150706 2005-09-29 11:56:16Z fjoe $
 
 .PATH: ${.CURDIR}/../../../geom/uzip ${.CURDIR}/../../../net
 

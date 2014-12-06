@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/share/examples/kld/syscall/module/syscall.c 193374 2009-06-03 09:28:58Z pjd $
+ * $FreeBSD: releng/10.1/share/examples/kld/syscall/module/syscall.c 193374 2009-06-03 09:28:58Z pjd $
  */
 
 #include <sys/param.h>

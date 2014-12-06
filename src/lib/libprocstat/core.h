@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libprocstat/core.h 249681 2013-04-20 08:10:47Z trociny $
+ * $FreeBSD: releng/10.1/lib/libprocstat/core.h 249681 2013-04-20 08:10:47Z trociny $
  */
 
 #ifndef _CORE_H

@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm/mga_warp.c 207066 2010-04-22 18:21:25Z rnoland $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm/mga_warp.c 207066 2010-04-22 18:21:25Z rnoland $");
 
 #include "dev/drm/drmP.h"
 #include "dev/drm/drm.h"

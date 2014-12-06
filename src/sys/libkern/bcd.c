@@ -4,7 +4,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/libkern/bcd.c 139815 2005-01-07 00:24:33Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/libkern/bcd.c 139815 2005-01-07 00:24:33Z imp $");
 
 #include <sys/libkern.h>
 

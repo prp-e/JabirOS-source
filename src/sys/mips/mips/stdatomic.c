@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/mips/stdatomic.c 251781 2013-06-15 08:15:22Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/mips/stdatomic.c 251781 2013-06-15 08:15:22Z ed $");
 
 #include <sys/stdatomic.h>
 #include <sys/types.h>

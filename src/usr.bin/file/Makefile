@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/file/Makefile 268515 2014-07-11 00:00:00Z delphij $
+# $FreeBSD: releng/10.1/usr.bin/file/Makefile 268515 2014-07-11 00:00:00Z delphij $
 # Makefile for file(1) cmd.
 # Copyright (c) David E. O'Brien, 2000-2004, 2009
 # Copyright (c) Ian F. Darwin 86/09/01 - see LEGAL.NOTICE.

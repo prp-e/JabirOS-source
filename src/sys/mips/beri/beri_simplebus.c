@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/beri/beri_simplebus.c 266160 2014-05-15 17:30:16Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/beri/beri_simplebus.c 266160 2014-05-15 17:30:16Z ian $");
 
 #include "opt_platform.h"
 #include <sys/param.h>

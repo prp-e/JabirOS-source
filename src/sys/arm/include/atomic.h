@@ -33,7 +33,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/include/atomic.h 269798 2014-08-11 02:20:24Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/include/atomic.h 269798 2014-08-11 02:20:24Z ian $
  */
 
 #ifndef	_MACHINE_ATOMIC_H_

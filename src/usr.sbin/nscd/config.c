@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/nscd/config.c 238094 2012-07-04 09:02:12Z se $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/nscd/config.c 238094 2012-07-04 09:02:12Z se $");
 
 #include <sys/stat.h>
 #include <sys/time.h>

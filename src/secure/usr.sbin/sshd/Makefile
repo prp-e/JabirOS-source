@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/secure/usr.sbin/sshd/Makefile 265313 2014-05-04 07:28:26Z kib $
+# $FreeBSD: releng/10.1/secure/usr.sbin/sshd/Makefile 265313 2014-05-04 07:28:26Z kib $
 
 .include <bsd.own.mk>
 

@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/sctp_output.h 246595 2013-02-09 17:26:14Z tuexen $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/sctp_output.h 273106 2014-10-14 19:38:31Z tuexen $");
 
 #ifndef _NETINET_SCTP_OUTPUT_H_
 #define _NETINET_SCTP_OUTPUT_H_
@@ -181,8 +181,8 @@ sctp_add_stream_reset_result_tsn(struct sctp_tmit_chunk *,
     uint32_t, uint32_t, uint32_t, uint32_t);
 
 int
-sctp_send_str_reset_req(struct sctp_tcb *, int, uint16_t *, uint8_t, uint8_t,
-    uint8_t, uint8_t, uint16_t, uint16_t, uint8_t);
+sctp_send_str_reset_req(struct sctp_tcb *, uint16_t, uint16_t *, uint8_t,
+    uint8_t, uint8_t, uint8_t, uint16_t, uint16_t, uint8_t);
 
 void
 sctp_send_abort(struct mbuf *, int, struct sockaddr *, struct sockaddr *,

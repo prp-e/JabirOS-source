@@ -24,7 +24,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/usr.sbin/unbound/local-setup/local-unbound-setup.sh 271760 2014-09-18 13:53:39Z des $
+# $FreeBSD: releng/10.1/usr.sbin/unbound/local-setup/local-unbound-setup.sh 271760 2014-09-18 13:53:39Z des $
 #
 
 #

@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/uart/uart_bus_isa.c 246243 2013-02-02 11:38:26Z avg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/uart/uart_bus_isa.c 246243 2013-02-02 11:38:26Z avg $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -23,7 +23,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/libexec/atf/atf-sh/Makefile 271298 2014-09-09 04:00:30Z ngie $
+# $FreeBSD: releng/10.1/libexec/atf/atf-sh/Makefile 271298 2014-09-09 04:00:30Z ngie $
 
 .include <bsd.init.mk>
 

@@ -30,7 +30,7 @@
 #
 #	@(#)sed.test	8.1 (Berkeley) 6/6/93
 #
-#	$FreeBSD: stable/10/usr.bin/sed/tests/multi_test.sh 263227 2014-03-16 08:04:06Z jmmv $
+#	$FreeBSD: releng/10.1/usr.bin/sed/tests/multi_test.sh 263227 2014-03-16 08:04:06Z jmmv $
 #
 
 # sed Regression Tests

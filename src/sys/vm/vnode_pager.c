@@ -51,7 +51,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/vm/vnode_pager.c 271925 2014-09-21 09:09:37Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/vm/vnode_pager.c 271925 2014-09-21 09:09:37Z kib $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

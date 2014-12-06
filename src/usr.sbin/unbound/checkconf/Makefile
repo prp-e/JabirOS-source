@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/unbound/checkconf/Makefile 255597 2013-09-15 14:51:23Z des $
+# $FreeBSD: releng/10.1/usr.sbin/unbound/checkconf/Makefile 255597 2013-09-15 14:51:23Z des $
 
 # Vendor sources and generated files
 LDNSDIR= ${.CURDIR}/../../../contrib/ldns

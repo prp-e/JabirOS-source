@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/atheros/ar933x_uart.h 248866 2013-03-29 06:32:02Z adrian $
+ * $FreeBSD: releng/10.1/sys/mips/atheros/ar933x_uart.h 248866 2013-03-29 06:32:02Z adrian $
  */
 
 /*

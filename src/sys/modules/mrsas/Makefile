@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/mrsas/Makefile 265555 2014-05-07 16:16:49Z ambrisko $
+# $FreeBSD: releng/10.1/sys/modules/mrsas/Makefile 265555 2014-05-07 16:16:49Z ambrisko $
 
 .PATH:	${.CURDIR}/../../dev/mrsas
 

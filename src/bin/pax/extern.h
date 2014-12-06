@@ -31,7 +31,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)extern.h	8.2 (Berkeley) 4/18/94
- * $FreeBSD: stable/10/bin/pax/extern.h 241720 2012-10-19 05:43:38Z ed $
+ * $FreeBSD: releng/10.1/bin/pax/extern.h 241720 2012-10-19 05:43:38Z ed $
  */
 
 /*

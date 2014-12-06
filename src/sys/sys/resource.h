@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)resource.h	8.4 (Berkeley) 1/9/95
- * $FreeBSD: stable/10/sys/sys/resource.h 242958 2012-11-13 12:52:31Z kib $
+ * $FreeBSD: releng/10.1/sys/sys/resource.h 242958 2012-11-13 12:52:31Z kib $
  */
 
 #ifndef _SYS_RESOURCE_H_

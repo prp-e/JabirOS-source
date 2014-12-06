@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/security/audit/audit_bsm.c 255219 2013-09-05 00:09:56Z pjd $");
+__FBSDID("$FreeBSD: releng/10.1/sys/security/audit/audit_bsm.c 255219 2013-09-05 00:09:56Z pjd $");
 
 #include <sys/param.h>
 #include <sys/vnode.h>

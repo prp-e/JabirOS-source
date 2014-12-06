@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libcxxrt/Version.map 261644 2014-02-09 00:34:21Z dim $
+# $FreeBSD: releng/10.1/lib/libcxxrt/Version.map 261644 2014-02-09 00:34:21Z dim $
 # Define the same version as the libsupc++ from gcc 4.2.1 so that we can use
 # libcxxrt as a drop-in replacement.
 

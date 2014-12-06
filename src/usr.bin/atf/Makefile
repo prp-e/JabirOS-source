@@ -23,7 +23,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/usr.bin/atf/Makefile 260024 2013-12-28 23:08:58Z jmmv $
+# $FreeBSD: releng/10.1/usr.bin/atf/Makefile 260024 2013-12-28 23:08:58Z jmmv $
 
 SUBDIR=	atf-sh tests
 

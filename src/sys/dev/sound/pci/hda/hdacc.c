@@ -41,7 +41,7 @@
 #include <dev/sound/pci/hda/hda_reg.h>
 #include <dev/sound/pci/hda/hdac.h>
 
-SND_DECLARE_FILE("$FreeBSD: stable/10/sys/dev/sound/pci/hda/hdacc.c 264961 2014-04-26 01:00:28Z marius $");
+SND_DECLARE_FILE("$FreeBSD: releng/10.1/sys/dev/sound/pci/hda/hdacc.c 264961 2014-04-26 01:00:28Z marius $");
 
 struct hdacc_fg {
 	device_t	dev;

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/mk/bsd.port.mk 226162 2011-10-08 18:25:01Z crees $
+# $FreeBSD: releng/10.1/share/mk/bsd.port.mk 226162 2011-10-08 18:25:01Z crees $
 
 PORTSDIR?=	/usr/ports
 BSDPORTMK?=	${PORTSDIR}/Mk/bsd.port.mk

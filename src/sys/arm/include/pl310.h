@@ -24,7 +24,7 @@
 
 
 /*
- * $FreeBSD: stable/10/sys/arm/include/pl310.h 270075 2014-08-17 01:28:03Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/include/pl310.h 270075 2014-08-17 01:28:03Z ian $
  */
 
 #ifndef PL310_H_

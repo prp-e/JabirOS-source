@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/virtio/virtqueue.c 270270 2014-08-21 13:27:05Z bryanv $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/virtio/virtqueue.c 270270 2014-08-21 13:27:05Z bryanv $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

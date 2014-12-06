@@ -37,7 +37,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)ipc.h	8.4 (Berkeley) 2/19/95
- * $FreeBSD: stable/10/sys/sys/ipc.h 241837 2012-10-22 02:59:55Z eadler $
+ * $FreeBSD: releng/10.1/sys/sys/ipc.h 241837 2012-10-22 02:59:55Z eadler $
  */
 
 /*

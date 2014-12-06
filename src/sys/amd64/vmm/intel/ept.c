@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/vmm/intel/ept.c 266339 2014-05-17 19:11:08Z jhb $
+ * $FreeBSD: releng/10.1/sys/amd64/vmm/intel/ept.c 266339 2014-05-17 19:11:08Z jhb $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/amd64/vmm/intel/ept.c 266339 2014-05-17 19:11:08Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/amd64/vmm/intel/ept.c 266339 2014-05-17 19:11:08Z jhb $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

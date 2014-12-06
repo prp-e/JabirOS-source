@@ -30,7 +30,7 @@
 .\" SUCH DAMAGE.
 .\"
 .\"	@(#)1.2.t	8.1 (Berkeley) 6/8/93
-.\" $FreeBSD: stable/10/share/doc/psd/05.sysman/1.2.t 50476 1999-08-28 00:22:10Z peter $
+.\" $FreeBSD: releng/10.1/share/doc/psd/05.sysman/1.2.t 50476 1999-08-28 00:22:10Z peter $
 .\"
 .sh "Memory management\(dg
 .NH 3

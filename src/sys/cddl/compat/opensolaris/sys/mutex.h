@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/cddl/compat/opensolaris/sys/mutex.h 253996 2013-08-06 15:51:56Z avg $
+ * $FreeBSD: releng/10.1/sys/cddl/compat/opensolaris/sys/mutex.h 253996 2013-08-06 15:51:56Z avg $
  */
 
 #ifndef _OPENSOLARIS_SYS_MUTEX_H_

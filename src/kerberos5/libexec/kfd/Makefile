@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/kerberos5/libexec/kfd/Makefile 236337 2012-05-30 22:21:25Z obrien $
+# $FreeBSD: releng/10.1/kerberos5/libexec/kfd/Makefile 236337 2012-05-30 22:21:25Z obrien $
 
 PROG=	kfd
 MAN=	kfd.8

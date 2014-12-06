@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/cfictl.h 188156 2009-02-05 18:12:07Z sam $
+ * $FreeBSD: releng/10.1/sys/sys/cfictl.h 188156 2009-02-05 18:12:07Z sam $
  */
 
 #ifndef _SYS_CFICTL_H_

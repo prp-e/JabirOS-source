@@ -23,11 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libvmmapi/vmmapi_freebsd.c 267399 2014-06-12 15:20:59Z jhb $
+ * $FreeBSD: releng/10.1/lib/libvmmapi/vmmapi_freebsd.c 267399 2014-06-12 15:20:59Z jhb $
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libvmmapi/vmmapi_freebsd.c 267399 2014-06-12 15:20:59Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libvmmapi/vmmapi_freebsd.c 267399 2014-06-12 15:20:59Z jhb $");
 
 #include <sys/types.h>
 

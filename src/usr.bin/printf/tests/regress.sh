@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/printf/tests/regress.sh 262954 2014-03-09 19:37:01Z jmmv $
+# $FreeBSD: releng/10.1/usr.bin/printf/tests/regress.sh 262954 2014-03-09 19:37:01Z jmmv $
 
 REGRESSION_START($1)
 

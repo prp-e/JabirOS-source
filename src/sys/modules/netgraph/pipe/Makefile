@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/netgraph/pipe/Makefile 194683 2009-06-23 06:11:04Z zec $
+# $FreeBSD: releng/10.1/sys/modules/netgraph/pipe/Makefile 194683 2009-06-23 06:11:04Z zec $
 
 KMOD=	ng_pipe
 SRCS= 	ng_pipe.c

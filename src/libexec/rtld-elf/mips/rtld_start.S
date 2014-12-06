@@ -27,7 +27,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/libexec/rtld-elf/mips/rtld_start.S 233378 2012-03-23 17:54:06Z gonzo $
+ * $FreeBSD: releng/10.1/libexec/rtld-elf/mips/rtld_start.S 233378 2012-03-23 17:54:06Z gonzo $
  */
 
 #include <machine/asm.h>

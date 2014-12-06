@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libcrypt/crypt.c 267111 2014-06-05 15:16:44Z ume $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libcrypt/crypt.c 273187 2014-10-16 21:39:04Z des $");
 
 #include <sys/types.h>
 
@@ -37,24 +37,26 @@ __FBSDID("$FreeBSD: stable/10/lib/libcrypt/crypt.c 267111 2014-06-05 15:16:44Z u
 #include "crypt.h"
 
 /*
- * List of supported crypt(3) formats.  The first element in the list will
- * be the default.
+ * List of supported crypt(3) formats.
+ *
+ * The default algorithm is the last entry in the list (second-to-last
+ * array element since the last is a sentinel).  The reason for placing
+ * the default last rather than first is that DES needs to be at the
+ * bottom for the algorithm guessing logic in crypt(3) to work correctly,
+ * and it needs to be the default for backward compatibility.
  */
 static const struct crypt_format {
 	const char *const name;
 	char *(*const func)(const char *, const char *);
 	const char *const magic;
 } crypt_formats[] = {
-	/* default format */
-	{ "sha512",	crypt_sha512,		"$6$"	},
-
-	/* other supported formats */
 	{ "md5",	crypt_md5,		"$1$"	},
 #ifdef HAS_BLOWFISH
 	{ "blf",	crypt_blowfish,		"$2"	},
 #endif
 	{ "nth",	crypt_nthash,		"$3$"	},
 	{ "sha256",	crypt_sha256,		"$5$"	},
+	{ "sha512",	crypt_sha512,		"$6$"	},
 #ifdef HAS_DES
 	{ "des",	crypt_des,		"_"	},
 #endif
@@ -63,7 +65,8 @@ static const struct crypt_format {
 	{ NULL,		NULL,			NULL	}
 };
 
-static const struct crypt_format *crypt_format = &crypt_formats[0];
+static const struct crypt_format *crypt_format =
+    &crypt_formats[(sizeof crypt_formats / sizeof *crypt_formats) - 2];
 
 #define DES_SALT_ALPHABET \
 	"./0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"

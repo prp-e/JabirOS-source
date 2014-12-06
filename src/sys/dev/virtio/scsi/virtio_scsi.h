@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/virtio/scsi/virtio_scsi.h 241470 2012-10-11 23:41:18Z grehan $
+ * $FreeBSD: releng/10.1/sys/dev/virtio/scsi/virtio_scsi.h 241470 2012-10-11 23:41:18Z grehan $
  */
 
 #ifndef _VIRTIO_SCSI_H

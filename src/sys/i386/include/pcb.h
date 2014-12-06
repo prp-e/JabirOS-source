@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  *
  *	from: @(#)pcb.h	5.10 (Berkeley) 5/12/91
- * $FreeBSD: stable/10/sys/i386/include/pcb.h 271999 2014-09-22 20:34:36Z jhb $
+ * $FreeBSD: releng/10.1/sys/i386/include/pcb.h 271999 2014-09-22 20:34:36Z jhb $
  */
 
 #ifndef _I386_PCB_H_

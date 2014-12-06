@@ -1,4 +1,4 @@
-#	$FreeBSD: stable/10/usr.sbin/makefs/ffs/Makefile.inc 214921 2010-11-07 16:05:04Z cognet $
+#	$FreeBSD: releng/10.1/usr.sbin/makefs/ffs/Makefile.inc 214921 2010-11-07 16:05:04Z cognet $
 #
 
 .PATH:	${.CURDIR}/ffs ${.CURDIR}/../../sys/ufs/ffs

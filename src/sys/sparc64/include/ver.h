@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sparc64/include/ver.h 205263 2010-03-17 21:00:39Z marius $
+ * $FreeBSD: releng/10.1/sys/sparc64/include/ver.h 205263 2010-03-17 21:00:39Z marius $
  */
 
 #ifndef	_MACHINE_VER_H_

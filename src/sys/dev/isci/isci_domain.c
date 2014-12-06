@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/isci/isci_domain.c 249468 2013-04-14 09:55:48Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/isci/isci_domain.c 249468 2013-04-14 09:55:48Z mav $");
 
 #include <dev/isci/isci.h>
 

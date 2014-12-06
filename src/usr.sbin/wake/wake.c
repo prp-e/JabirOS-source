@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/wake/wake.c 232102 2012-02-24 07:54:08Z jh $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/wake/wake.c 232102 2012-02-24 07:54:08Z jh $");
 
 #include <sys/ioctl.h>
 #include <sys/socket.h>

@@ -42,7 +42,7 @@
 #include "assym.s"
 #include <machine/asm.h>
 #include <machine/armreg.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/arm/copystr.S 266311 2014-05-17 13:53:38Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/arm/copystr.S 266311 2014-05-17 13:53:38Z ian $");
 
 #include <sys/errno.h>
 

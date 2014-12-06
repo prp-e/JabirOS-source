@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/geom_gate/test-3.t 137587 2004-11-11 19:47:55Z nik $
+# $FreeBSD: releng/10.1/tools/regression/geom_gate/test-3.t 137587 2004-11-11 19:47:55Z nik $
 
 base=`basename $0`
 us=45

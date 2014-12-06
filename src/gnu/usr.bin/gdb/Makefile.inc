@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/usr.bin/gdb/Makefile.inc 251512 2013-06-07 21:40:02Z emaste $
+# $FreeBSD: releng/10.1/gnu/usr.bin/gdb/Makefile.inc 251512 2013-06-07 21:40:02Z emaste $
 
 VERSION= "6.1.1 [FreeBSD]"
 VENDOR= marcel

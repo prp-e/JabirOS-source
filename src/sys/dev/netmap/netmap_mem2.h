@@ -24,7 +24,7 @@
  */
 
 /*
- * $FreeBSD: stable/10/sys/dev/netmap/netmap_mem2.h 270252 2014-08-20 23:34:36Z luigi $
+ * $FreeBSD: releng/10.1/sys/dev/netmap/netmap_mem2.h 270252 2014-08-20 23:34:36Z luigi $
  *
  * (New) memory allocator for netmap
  */

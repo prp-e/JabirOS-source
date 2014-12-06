@@ -31,7 +31,7 @@
 static char sccsid[] = "@(#)sysctl.c	8.2 (Berkeley) 1/4/94";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/gen/sysctl.c 240176 2012-09-06 20:15:44Z trhodes $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/gen/sysctl.c 240176 2012-09-06 20:15:44Z trhodes $");
 
 #include <sys/param.h>
 #include <sys/sysctl.h>

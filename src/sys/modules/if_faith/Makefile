@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/if_faith/Makefile 151350 2005-10-14 23:30:17Z yar $
+# $FreeBSD: releng/10.1/sys/modules/if_faith/Makefile 151350 2005-10-14 23:30:17Z yar $
 
 .PATH: ${.CURDIR}/../../net
 

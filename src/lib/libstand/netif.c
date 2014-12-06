@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libstand/netif.c 92913 2002-03-21 23:39:28Z obrien $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libstand/netif.c 92913 2002-03-21 23:39:28Z obrien $");
 
 #include <sys/param.h>
 #include <sys/types.h>

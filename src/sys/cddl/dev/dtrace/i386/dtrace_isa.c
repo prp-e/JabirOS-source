@@ -19,7 +19,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: stable/10/sys/cddl/dev/dtrace/i386/dtrace_isa.c 269557 2014-08-05 01:53:15Z markj $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/dtrace/i386/dtrace_isa.c 269557 2014-08-05 01:53:15Z markj $
  */
 /*
  * Copyright 2005 Sun Microsystems, Inc.  All rights reserved.

@@ -52,7 +52,7 @@
 __RCSID("$NetBSD: hcreate.c,v 1.6 2008/07/21 12:05:43 lukem Exp $");
 #endif /* LIBC_SCCS and not lint */
 #endif
-__FBSDID("$FreeBSD: stable/10/lib/libc/stdlib/hcreate.c 269491 2014-08-04 00:51:57Z pfg $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/stdlib/hcreate.c 269491 2014-08-04 00:51:57Z pfg $");
 
 #include <sys/types.h>
 #include <sys/queue.h>

@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/serial/usb_serial.c 268206 2014-07-03 06:44:55Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/serial/usb_serial.c 268206 2014-07-03 06:44:55Z hselasky $");
 
 /*-
  * Copyright (c) 1998, 2000 The NetBSD Foundation, Inc.

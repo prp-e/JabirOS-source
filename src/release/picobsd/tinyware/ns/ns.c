@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/release/picobsd/tinyware/ns/ns.c 191565 2009-04-27 16:57:19Z luigi $
+ * $FreeBSD: releng/10.1/release/picobsd/tinyware/ns/ns.c 191565 2009-04-27 16:57:19Z luigi $
  */
 
 

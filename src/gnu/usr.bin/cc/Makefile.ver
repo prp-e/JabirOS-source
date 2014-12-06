@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/usr.bin/cc/Makefile.ver 226702 2011-10-24 20:52:41Z obrien $
+# $FreeBSD: releng/10.1/gnu/usr.bin/cc/Makefile.ver 226702 2011-10-24 20:52:41Z obrien $
 
 BASEVER!=	cat ${GCCDIR}/BASE-VER
 DATESTAMP!=	cat ${GCCDIR}/DATESTAMP

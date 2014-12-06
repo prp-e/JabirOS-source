@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm/via_dmablit.c 242825 2012-11-09 14:46:23Z rdivacky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm/via_dmablit.c 242825 2012-11-09 14:46:23Z rdivacky $");
 
 /*
  * Unmaps the DMA mappings.

@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/cam/cam_debug.h 265632 2014-05-08 06:55:48Z mav $
+ * $FreeBSD: releng/10.1/sys/cam/cam_debug.h 265632 2014-05-08 06:55:48Z mav $
  */
 #ifndef	_CAM_CAM_DEBUG_H
 #define _CAM_CAM_DEBUG_H 1

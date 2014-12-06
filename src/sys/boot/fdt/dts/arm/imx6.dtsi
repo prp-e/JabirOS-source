@@ -29,7 +29,7 @@
  * flavors of this SoC that eventually we will need a finer-grained breakdown
  * of some of this stuff.  For now this file works for all of them.  I think.
  *
- * $FreeBSD: stable/10/sys/boot/fdt/dts/arm/imx6.dtsi 266348 2014-05-17 20:22:22Z ian $
+ * $FreeBSD: releng/10.1/sys/boot/fdt/dts/arm/imx6.dtsi 266348 2014-05-17 20:22:22Z ian $
  */
 
 / {

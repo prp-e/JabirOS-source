@@ -19,7 +19,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/pkg_install/lib/exec.c 252363 2013-06-29 00:37:49Z obrien $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/pkg_install/lib/exec.c 252363 2013-06-29 00:37:49Z obrien $");
 
 #include "lib.h"
 #include <err.h>

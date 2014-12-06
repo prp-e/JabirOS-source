@@ -94,7 +94,7 @@
  * OWNER OR CONTRIBUTOR IS ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/mpt/mpt_cam.c 267950 2014-06-27 05:37:00Z hiren $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/mpt/mpt_cam.c 267950 2014-06-27 05:37:00Z hiren $");
 
 #include <dev/mpt/mpt.h>
 #include <dev/mpt/mpt_cam.h>

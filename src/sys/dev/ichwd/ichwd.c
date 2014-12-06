@@ -56,7 +56,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ichwd/ichwd.c 253475 2013-07-19 21:37:40Z jfv $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ichwd/ichwd.c 253475 2013-07-19 21:37:40Z jfv $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/minigzip/Makefile 237410 2012-06-21 21:47:08Z delphij $
+# $FreeBSD: releng/10.1/usr.bin/minigzip/Makefile 237410 2012-06-21 21:47:08Z delphij $
 
 SRCDIR=	${.CURDIR}/../../lib/libz/test
 .PATH:	${SRCDIR}

@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/vmm/io/vioapic.h 261088 2014-01-23 20:21:39Z jhb $
+ * $FreeBSD: releng/10.1/sys/amd64/vmm/io/vioapic.h 261088 2014-01-23 20:21:39Z jhb $
  */
 
 #ifndef _VIOAPIC_H_

@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/amd64/amd64/sys_machdep.c 267598 2014-06-17 21:49:03Z neel $");
+__FBSDID("$FreeBSD: releng/10.1/sys/amd64/amd64/sys_machdep.c 267598 2014-06-17 21:49:03Z neel $");
 
 #include "opt_capsicum.h"
 

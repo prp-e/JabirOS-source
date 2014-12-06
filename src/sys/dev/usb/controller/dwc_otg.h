@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/controller/dwc_otg.h 267242 2014-06-08 20:39:39Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/controller/dwc_otg.h 267242 2014-06-08 20:39:39Z hselasky $ */
 /*-
  * Copyright (c) 2012 Hans Petter Selasky. All rights reserved.
  *

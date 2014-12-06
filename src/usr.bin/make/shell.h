@@ -36,7 +36,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/make/shell.h 146572 2005-05-24 15:30:03Z harti $
+ * $FreeBSD: releng/10.1/usr.bin/make/shell.h 146572 2005-05-24 15:30:03Z harti $
  */
 
 #ifndef shell_h_6002e3b8

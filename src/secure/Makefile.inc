@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/secure/Makefile.inc 249971 2013-04-27 05:44:39Z ed $
+# $FreeBSD: releng/10.1/secure/Makefile.inc 249971 2013-04-27 05:44:39Z ed $
 
 .include <bsd.own.mk>
 

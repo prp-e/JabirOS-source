@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/send-pr/Makefile 267577 2014-06-17 12:59:03Z gavin $
+# $FreeBSD: releng/10.1/usr.bin/send-pr/Makefile 267577 2014-06-17 12:59:03Z gavin $
 
 SCRIPTS= send-pr.sh
 

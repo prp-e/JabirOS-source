@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/radeon_fence.c 259742 2013-12-22 21:18:21Z dumbbell $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/radeon/radeon_fence.c 259742 2013-12-22 21:18:21Z dumbbell $");
 
 #include <dev/drm2/drmP.h>
 #include "radeon_reg.h"

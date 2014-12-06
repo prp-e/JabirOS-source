@@ -22,7 +22,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/sbin/mdconfig/tests/mdconfig.test 230591 2012-01-26 18:16:16Z trasz $
+# $FreeBSD: releng/10.1/sbin/mdconfig/tests/mdconfig.test 230591 2012-01-26 18:16:16Z trasz $
 #
 
 # This is a test for mdconfig(8) functionality.  Run it as root:

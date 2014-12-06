@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/tinybsd/CHANGES 162485 2006-09-20 22:24:20Z julian $
+# $FreeBSD: releng/10.1/tools/tools/tinybsd/CHANGES 162485 2006-09-20 22:24:20Z julian $
 
 0.9:
 - Added function personal_directories, you can create on conf dir your custom 

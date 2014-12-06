@@ -12,7 +12,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/msun/src/e_sinhl.c 271779 2014-09-18 15:10:22Z tijl $");
+__FBSDID("$FreeBSD: releng/10.1/lib/msun/src/e_sinhl.c 271779 2014-09-18 15:10:22Z tijl $");
 
 /*
  * See e_sinh.c for complete comments.

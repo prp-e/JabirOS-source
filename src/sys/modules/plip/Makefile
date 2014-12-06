@@ -1,5 +1,5 @@
 
-# $FreeBSD: stable/10/sys/modules/plip/Makefile 89260 2002-01-11 15:49:02Z ru $
+# $FreeBSD: releng/10.1/sys/modules/plip/Makefile 89260 2002-01-11 15:49:02Z ru $
 
 .PATH:	${.CURDIR}/../../dev/ppbus
 KMOD=	plip

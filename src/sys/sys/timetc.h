@@ -6,7 +6,7 @@
  * this stuff is worth it, you can buy me a beer in return.   Poul-Henning Kamp
  * ----------------------------------------------------------------------------
  *
- * $FreeBSD: stable/10/sys/sys/timetc.h 255726 2013-09-20 05:06:03Z gibbs $
+ * $FreeBSD: releng/10.1/sys/sys/timetc.h 255726 2013-09-20 05:06:03Z gibbs $
  */
 
 #ifndef _SYS_TIMETC_H_

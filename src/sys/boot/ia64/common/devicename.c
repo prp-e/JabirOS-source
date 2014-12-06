@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/ia64/common/devicename.c 164010 2006-11-05 22:03:04Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/ia64/common/devicename.c 164010 2006-11-05 22:03:04Z marcel $");
 
 #include <stand.h>
 #include <string.h>

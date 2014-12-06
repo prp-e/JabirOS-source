@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/cfi/Makefile 229032 2011-12-30 21:22:10Z marius $
+# $FreeBSD: releng/10.1/sys/modules/cfi/Makefile 229032 2011-12-30 21:22:10Z marius $
 
 .PATH: ${.CURDIR}/../../dev/cfi
 

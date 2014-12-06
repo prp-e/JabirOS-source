@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/sys/modules/usb/smsc/Makefile 246585 2013-02-09 06:31:22Z delphij $
+# $FreeBSD: releng/10.1/sys/modules/usb/smsc/Makefile 246585 2013-02-09 06:31:22Z delphij $
 #
 # Copyright (c) 2011 Ben Gray. All rights reserved.
 #

@@ -1,7 +1,7 @@
 /*-
  * Test 0001:	Catch illegal instruction.
  *
- * $FreeBSD: stable/10/tools/regression/bpf/bpf_filter/tests/test0001.h 182415 2008-08-28 22:19:57Z jkim $
+ * $FreeBSD: releng/10.1/tools/regression/bpf/bpf_filter/tests/test0001.h 182415 2008-08-28 22:19:57Z jkim $
  */
 
 /* BPF program */

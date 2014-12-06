@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/kern_time.c 270042 2014-08-16 12:59:47Z bz $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/kern_time.c 270042 2014-08-16 12:59:47Z bz $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

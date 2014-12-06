@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- $FreeBSD: stable/10/release/doc/share/xml/release.xsl 271471 2014-09-12 17:01:14Z gjb $ -->
+<!-- $FreeBSD: releng/10.1/release/doc/share/xml/release.xsl 271471 2014-09-12 17:01:14Z gjb $ -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 version='1.0'
                 xmlns="http://www.w3.org/TR/xhtml1/transitional"

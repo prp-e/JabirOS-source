@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/x86/include/fdt.h 266084 2014-05-14 19:18:58Z ian $
+ * $FreeBSD: releng/10.1/sys/x86/include/fdt.h 266084 2014-05-14 19:18:58Z ian $
  */
 
 #ifndef _MACHINE_FDT_H_

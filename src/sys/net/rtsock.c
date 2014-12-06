@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)rtsock.c	8.7 (Berkeley) 10/12/95
- * $FreeBSD: stable/10/sys/net/rtsock.c 265717 2014-05-08 21:03:31Z melifaro $
+ * $FreeBSD: releng/10.1/sys/net/rtsock.c 265717 2014-05-08 21:03:31Z melifaro $
  */
 #include "opt_compat.h"
 #include "opt_mpath.h"

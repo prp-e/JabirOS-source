@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/rdma/krping/Makefile 237560 2012-06-25 09:46:06Z uqs $
+# $FreeBSD: releng/10.1/sys/modules/rdma/krping/Makefile 237560 2012-06-25 09:46:06Z uqs $
 
 RDMA= ${.CURDIR}/../../../contrib/rdma/krping
 .PATH: ${RDMA}

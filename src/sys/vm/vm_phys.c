@@ -37,7 +37,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/vm/vm_phys.c 265435 2014-05-06 12:20:07Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/vm/vm_phys.c 265435 2014-05-06 12:20:07Z kib $");
 
 #include "opt_ddb.h"
 #include "opt_vm.h"

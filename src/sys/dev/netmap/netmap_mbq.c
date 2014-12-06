@@ -24,7 +24,7 @@
  */
 
 /*
- * $FreeBSD: stable/10/sys/dev/netmap/netmap_mbq.c 267282 2014-06-09 15:24:45Z luigi $
+ * $FreeBSD: releng/10.1/sys/dev/netmap/netmap_mbq.c 267282 2014-06-09 15:24:45Z luigi $
  */
 
 

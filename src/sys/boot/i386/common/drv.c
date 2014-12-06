@@ -15,7 +15,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/i386/common/drv.c 226748 2011-10-25 19:54:06Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/i386/common/drv.c 226748 2011-10-25 19:54:06Z jhb $");
 
 #include <sys/param.h>
 

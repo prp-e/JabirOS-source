@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/fs/msdosfs/msdosfs_lookup.c 269165 2014-07-28 00:53:26Z kib $ */
+/* $FreeBSD: releng/10.1/sys/fs/msdosfs/msdosfs_lookup.c 269165 2014-07-28 00:53:26Z kib $ */
 /*	$NetBSD: msdosfs_lookup.c,v 1.37 1997/11/17 15:36:54 ws Exp $	*/
 
 /*-

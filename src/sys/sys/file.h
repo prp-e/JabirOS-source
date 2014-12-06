@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)file.h	8.3 (Berkeley) 1/9/95
- * $FreeBSD: stable/10/sys/sys/file.h 255675 2013-09-18 18:48:33Z rdivacky $
+ * $FreeBSD: releng/10.1/sys/sys/file.h 272187 2014-09-26 20:05:28Z mjg $
  */
 
 #ifndef _SYS_FILE_H_
@@ -139,6 +139,7 @@ struct fileops {
  *
  * Below is the list of locks that protects members in struct file.
  *
+ * (a) f_vnode lock required (shared allows both reads and writes)
  * (f) protected with mtx_lock(mtx_pool_find(fp))
  * (d) cdevpriv_mtx
  * none	not locked
@@ -164,7 +165,7 @@ struct file {
 	/*
 	 *  DTYPE_VNODE specific fields.
 	 */
-	int		f_seqcount;	/* Count of sequential accesses. */
+	int		f_seqcount;	/* (a) Count of sequential accesses. */
 	off_t		f_nextoff;	/* next expected read/write offset. */
 	union {
 		struct cdev_privdata *fvn_cdevpriv;

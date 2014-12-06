@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/usr.bin/texinfo/doc/Makefile 56168 2000-01-17 10:59:30Z ru $
+# $FreeBSD: releng/10.1/gnu/usr.bin/texinfo/doc/Makefile 56168 2000-01-17 10:59:30Z ru $
 
 INFO=	info info-stnd texinfo
 SRCDIR=	${TXIDIR}/doc

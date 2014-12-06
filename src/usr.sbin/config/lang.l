@@ -28,7 +28,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)lang.l	8.1 (Berkeley) 6/6/93
- * $FreeBSD: stable/10/usr.sbin/config/lang.l 264325 2014-04-10 19:51:33Z asomers $
+ * $FreeBSD: releng/10.1/usr.sbin/config/lang.l 264325 2014-04-10 19:51:33Z asomers $
  */
 
 #include <assert.h>

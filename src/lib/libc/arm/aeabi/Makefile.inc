@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libc/arm/aeabi/Makefile.inc 269792 2014-08-10 22:26:29Z ian $
+# $FreeBSD: releng/10.1/lib/libc/arm/aeabi/Makefile.inc 269792 2014-08-10 22:26:29Z ian $
 
 .PATH: ${.CURDIR}/arm/aeabi
 

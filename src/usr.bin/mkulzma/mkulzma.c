@@ -8,7 +8,7 @@
  * this stuff is worth it, you can buy me a beer in return.       Maxim Sobolev
  * ----------------------------------------------------------------------------
  *
- * $FreeBSD: stable/10/usr.bin/mkulzma/mkulzma.c 229538 2012-01-04 23:45:10Z ray $
+ * $FreeBSD: releng/10.1/usr.bin/mkulzma/mkulzma.c 229538 2012-01-04 23:45:10Z ray $
  *
  */
 

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/zlib/Makefile 130799 2004-06-20 17:42:35Z markm $
+# $FreeBSD: releng/10.1/sys/modules/zlib/Makefile 130799 2004-06-20 17:42:35Z markm $
 
 .PATH: ${.CURDIR}/../../net
 

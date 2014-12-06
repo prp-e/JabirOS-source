@@ -18,7 +18,7 @@
  * WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
  * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
  *
- * $FreeBSD: stable/10/contrib/tcpdump/print-ip.c 263086 2014-03-12 10:45:58Z glebius $
+ * $FreeBSD: releng/10.1/contrib/tcpdump/print-ip.c 263086 2014-03-12 10:45:58Z glebius $
  */
 
 #ifndef lint

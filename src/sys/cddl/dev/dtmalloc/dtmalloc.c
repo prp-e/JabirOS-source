@@ -20,7 +20,7 @@
  *
  * Portions Copyright 2006-2008 John Birrell jb@freebsd.org
  *
- * $FreeBSD: stable/10/sys/cddl/dev/dtmalloc/dtmalloc.c 252325 2013-06-28 03:14:40Z markj $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/dtmalloc/dtmalloc.c 252325 2013-06-28 03:14:40Z markj $
  *
  */
 

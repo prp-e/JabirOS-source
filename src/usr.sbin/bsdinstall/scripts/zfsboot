@@ -25,7 +25,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/usr.sbin/bsdinstall/scripts/zfsboot 271790 2014-09-18 17:03:52Z allanjude $
+# $FreeBSD: releng/10.1/usr.sbin/bsdinstall/scripts/zfsboot 272424 2014-10-02 17:19:32Z allanjude $
 #
 ############################################################ INCLUDES
 
@@ -156,7 +156,7 @@ f_isset ZFSBOOT_DATASETS || ZFSBOOT_DATASETS="
 	/usr/src
 
 	# Create /var and friends
-	/var		mountpoint=/var
+	/var		mountpoint=/var,canmount=off
 	/var/crash	exec=off,setuid=off
 	/var/log	exec=off,setuid=off
 	/var/mail	atime=on

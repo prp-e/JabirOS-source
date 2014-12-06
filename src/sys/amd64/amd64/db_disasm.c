@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/amd64/amd64/db_disasm.c 255192 2013-09-03 21:21:47Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/amd64/amd64/db_disasm.c 255192 2013-09-03 21:21:47Z jhb $");
 
 /*
  * Instruction disassembler.

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/release/picobsd/tinyware/sps/sps.c 92071 2002-03-11 08:03:50Z luigi $
+ * $FreeBSD: releng/10.1/release/picobsd/tinyware/sps/sps.c 92071 2002-03-11 08:03:50Z luigi $
  */
 
 /*

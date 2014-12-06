@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/mailwrapper/Makefile 213749 2010-10-12 21:01:26Z markm $
+# $FreeBSD: releng/10.1/usr.sbin/mailwrapper/Makefile 213749 2010-10-12 21:01:26Z markm $
 
 .include <bsd.own.mk>
 

@@ -43,7 +43,7 @@ static char sccsid[] = "@(#)mountd.c	8.15 (Berkeley) 5/1/95";
 #endif
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/mountd/mountd.c 247034 2013-02-20 12:40:26Z pluknet $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/mountd/mountd.c 272428 2014-10-02 17:58:47Z bdrewery $");
 
 #include <sys/param.h>
 #include <sys/fcntl.h>
@@ -1744,6 +1744,7 @@ get_exportlist(void)
 		iov[3].iov_len = strlen(fsp->f_mntonname) + 1;
 		iov[5].iov_base = fsp->f_mntfromname;
 		iov[5].iov_len = strlen(fsp->f_mntfromname) + 1;
+		errmsg[0] = '\0';
 
 		if (nmount(iov, iovlen, fsp->f_flags) < 0 &&
 		    errno != ENOENT && errno != ENOTSUP) {
@@ -2501,6 +2502,7 @@ do_mount(struct exportlist *ep, struct grouplist *grp, int exflags,
 			iov[3].iov_len = strlen(fsb->f_mntonname) + 1;
 			iov[5].iov_base = fsb->f_mntfromname; /* "from" */
 			iov[5].iov_len = strlen(fsb->f_mntfromname) + 1;
+			errmsg[0] = '\0';
 	
 			while (nmount(iov, iovlen, fsb->f_flags) < 0) {
 				if (cp)

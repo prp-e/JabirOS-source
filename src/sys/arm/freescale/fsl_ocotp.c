@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/freescale/fsl_ocotp.c 266200 2014-05-15 22:35:04Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/freescale/fsl_ocotp.c 266200 2014-05-15 22:35:04Z ian $");
 
 /*
  * Access to the Freescale i.MX6 On-Chip One-Time-Programmable Memory

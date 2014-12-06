@@ -51,7 +51,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ie/if_ie.c 270048 2014-08-16 13:23:23Z bz $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ie/if_ie.c 270048 2014-08-16 13:23:23Z bz $");
 
 /*
  * Intel 82586 Ethernet chip

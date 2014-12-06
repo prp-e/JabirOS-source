@@ -25,7 +25,7 @@
  *
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/freescale/imx/imx_sdhci.c 271051 2014-09-03 20:07:26Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/freescale/imx/imx_sdhci.c 271051 2014-09-03 20:07:26Z marius $");
 
 /*
  * SDHCI driver glue for Freescale i.MX SoC family.

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/ipfw/Makefile 240494 2012-09-14 11:51:49Z glebius $
+# $FreeBSD: releng/10.1/sys/modules/ipfw/Makefile 240494 2012-09-14 11:51:49Z glebius $
 
 .include <bsd.own.mk>
 

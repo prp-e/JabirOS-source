@@ -9,7 +9,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/led/led.c 247008 2013-02-19 19:25:50Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/led/led.c 247008 2013-02-19 19:25:50Z mav $");
 
 #include <sys/param.h>
 #include <sys/conf.h>

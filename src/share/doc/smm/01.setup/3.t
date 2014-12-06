@@ -29,7 +29,7 @@
 .\" OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 .\" SUCH DAMAGE.
 .\"
-.\" $FreeBSD: stable/10/share/doc/smm/01.setup/3.t 241606 2012-10-16 09:59:10Z attilio $
+.\" $FreeBSD: releng/10.1/share/doc/smm/01.setup/3.t 241606 2012-10-16 09:59:10Z attilio $
 .\"	@(#)3.t	8.1 (Berkeley) 7/27/93
 .\"
 .ds lq ``

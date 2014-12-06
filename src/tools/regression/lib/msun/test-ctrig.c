@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/regression/lib/msun/test-ctrig.c 251598 2013-06-10 06:03:03Z das $");
+__FBSDID("$FreeBSD: releng/10.1/tools/regression/lib/msun/test-ctrig.c 251598 2013-06-10 06:03:03Z das $");
 
 #include <assert.h>
 #include <complex.h>

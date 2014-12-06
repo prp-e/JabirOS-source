@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/sglist.h 260856 2014-01-18 18:36:41Z bryanv $
+ * $FreeBSD: releng/10.1/sys/sys/sglist.h 260856 2014-01-18 18:36:41Z bryanv $
  */
 
 /*

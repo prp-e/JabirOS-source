@@ -34,7 +34,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/iscsi/icl.c 270891 2014-08-31 20:47:10Z trasz $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/iscsi/icl.c 270891 2014-08-31 20:47:10Z trasz $");
 
 #include <sys/param.h>
 #include <sys/capability.h>

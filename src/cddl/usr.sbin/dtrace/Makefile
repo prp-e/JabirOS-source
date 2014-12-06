@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/cddl/usr.sbin/dtrace/Makefile 210691 2010-07-31 17:09:37Z rpaulo $
+# $FreeBSD: releng/10.1/cddl/usr.sbin/dtrace/Makefile 210691 2010-07-31 17:09:37Z rpaulo $
 
 .PATH: ${.CURDIR}/../../../cddl/contrib/opensolaris/cmd/dtrace
 

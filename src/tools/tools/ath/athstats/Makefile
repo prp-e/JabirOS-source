@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/ath/athstats/Makefile 260096 2013-12-30 20:15:46Z dim $
+# $FreeBSD: releng/10.1/tools/tools/ath/athstats/Makefile 260096 2013-12-30 20:15:46Z dim $
 
 NO_MAN=1
 

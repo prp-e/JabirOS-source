@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/subr_smp.c 265606 2014-05-07 20:28:27Z scottl $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/subr_smp.c 265606 2014-05-07 20:28:27Z scottl $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

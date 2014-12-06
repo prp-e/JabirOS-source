@@ -31,7 +31,7 @@
  */
 
 /*
- * $FreeBSD: stable/10/sys/net/if_tap.c 257285 2013-10-28 22:41:36Z grehan $
+ * $FreeBSD: releng/10.1/sys/net/if_tap.c 257285 2013-10-28 22:41:36Z grehan $
  * $Id: if_tap.c,v 0.21 2000/07/23 21:46:02 max Exp $
  */
 

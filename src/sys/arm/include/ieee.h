@@ -39,7 +39,7 @@
  *
  *	@(#)ieee.h	8.1 (Berkeley) 6/11/93
  *
- * $FreeBSD: stable/10/sys/arm/include/ieee.h 255361 2013-09-07 14:04:10Z andrew $
+ * $FreeBSD: releng/10.1/sys/arm/include/ieee.h 255361 2013-09-07 14:04:10Z andrew $
  *
  */
 

@@ -23,7 +23,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/usr.sbin/pc-sysinstall/backend/functions-mountdisk.sh 247735 2013-03-03 23:07:27Z jpaetzel $
+# $FreeBSD: releng/10.1/usr.sbin/pc-sysinstall/backend/functions-mountdisk.sh 247735 2013-03-03 23:07:27Z jpaetzel $
 
 # Functions related mounting the newly formatted disk partitions
 

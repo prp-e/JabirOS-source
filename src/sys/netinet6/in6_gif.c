@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet6/in6_gif.c 249294 2013-04-09 07:11:22Z ae $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet6/in6_gif.c 273188 2014-10-16 22:00:24Z hrs $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"
@@ -174,6 +174,7 @@ in6_gif_output(struct ifnet *ifp,
 			return ENOBUFS;
 		bcopy(&eiphdr, mtod(m, struct etherip_header *),
 		    sizeof(struct etherip_header));
+		itos = 0;
 		break;
 
 	default:
@@ -264,6 +265,7 @@ in6_gif_output(struct ifnet *ifp,
 #endif
 	}
 
+	m->m_flags &= ~(M_BCAST|M_MCAST);
 #ifdef IPV6_MINMTU
 	/*
 	 * force fragmentation to minimum MTU, to avoid path MTU discovery.

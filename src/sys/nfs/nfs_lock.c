@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/nfs/nfs_lock.c 227293 2011-11-07 06:44:47Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/sys/nfs/nfs_lock.c 227293 2011-11-07 06:44:47Z ed $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

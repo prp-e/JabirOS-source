@@ -31,7 +31,7 @@
  *
  *	@(#)el.h	8.1 (Berkeley) 6/4/93
  *	$NetBSD: el.h,v 1.17 2006/12/15 22:13:33 christos Exp $
- * $FreeBSD: stable/10/lib/libedit/el.h 238378 2012-07-11 22:20:19Z pfg $
+ * $FreeBSD: releng/10.1/lib/libedit/el.h 238378 2012-07-11 22:20:19Z pfg $
  */
 
 /*

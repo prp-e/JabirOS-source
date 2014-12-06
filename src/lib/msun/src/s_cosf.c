@@ -15,7 +15,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/msun/src/s_cosf.c 176569 2008-02-25 22:19:17Z bde $");
+__FBSDID("$FreeBSD: releng/10.1/lib/msun/src/s_cosf.c 176569 2008-02-25 22:19:17Z bde $");
 
 #include <float.h>
 

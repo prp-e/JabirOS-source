@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/regression/sockets/unix_sendtorace/Makefile 164298 2006-11-15 12:43:45Z rwatson $
+# $FreeBSD: releng/10.1/tools/regression/sockets/unix_sendtorace/Makefile 164298 2006-11-15 12:43:45Z rwatson $
 
 PROG=	unix_sendtorace
 NO_MAN=

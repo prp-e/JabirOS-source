@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/mfi/mfip/Makefile 169609 2007-05-16 17:19:47Z scottl $
+# $FreeBSD: releng/10.1/sys/modules/mfi/mfip/Makefile 169609 2007-05-16 17:19:47Z scottl $
 
 .PATH: ${.CURDIR}/../../../dev/mfi
 

@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/mv/armadaxp/armadaxp.c 250293 2013-05-06 14:12:36Z gber $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/mv/armadaxp/armadaxp.c 250293 2013-05-06 14:12:36Z gber $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

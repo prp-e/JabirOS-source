@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/whereintheworld/Makefile 109006 2003-01-09 12:23:29Z des $
+# $FreeBSD: releng/10.1/tools/tools/whereintheworld/Makefile 109006 2003-01-09 12:23:29Z des $
 
 SCRIPTS=	whereintheworld.pl
 

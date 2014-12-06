@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/controller/uss820dci.h 228483 2011-12-14 00:28:54Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/controller/uss820dci.h 228483 2011-12-14 00:28:54Z hselasky $ */
 /*-
  * Copyright (c) 2007 Hans Petter Selasky <hselasky@FreeBSD.org>
  * All rights reserved.

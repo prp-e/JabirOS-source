@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/dtc/input_buffer.cc 254327 2013-08-14 14:34:02Z theraven $
+ * $FreeBSD: releng/10.1/usr.bin/dtc/input_buffer.cc 254327 2013-08-14 14:34:02Z theraven $
  */
 
 #include "input_buffer.hh"

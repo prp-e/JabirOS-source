@@ -39,7 +39,7 @@
  * From: Utah Hdr: rmp.h 3.1 92/07/06
  * Author: Jeff Forys, University of Utah CSS
  *
- * $FreeBSD: stable/10/libexec/rbootd/rmp.h 262435 2014-02-24 08:21:49Z brueffer $
+ * $FreeBSD: releng/10.1/libexec/rbootd/rmp.h 262435 2014-02-24 08:21:49Z brueffer $
  */
 
 /*

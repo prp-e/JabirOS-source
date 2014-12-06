@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/fuse/Makefile 241519 2012-10-13 23:54:26Z attilio $
+# $FreeBSD: releng/10.1/sys/modules/fuse/Makefile 241519 2012-10-13 23:54:26Z attilio $
 
 .PATH: ${.CURDIR}/../../fs/fuse
 

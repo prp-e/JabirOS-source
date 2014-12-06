@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/i386/efi/elf32_freebsd.c 206376 2010-04-07 18:16:05Z rpaulo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/i386/efi/elf32_freebsd.c 206376 2010-04-07 18:16:05Z rpaulo $");
 
 #include <sys/param.h>
 #include <sys/exec.h>

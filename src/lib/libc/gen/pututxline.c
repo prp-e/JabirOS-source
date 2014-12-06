@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/gen/pututxline.c 249593 2013-04-17 21:08:15Z jilles $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/gen/pututxline.c 249593 2013-04-17 21:08:15Z jilles $");
 
 #include "namespace.h"
 #include <sys/endian.h>

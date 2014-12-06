@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libc++/Makefile 262801 2014-03-05 19:30:36Z dim $
+# $FreeBSD: releng/10.1/lib/libc++/Makefile 262801 2014-03-05 19:30:36Z dim $
 
 LIBCXXRTDIR=	${.CURDIR}/../../contrib/libcxxrt
 HDRDIR=		${.CURDIR}/../../contrib/libc++/include

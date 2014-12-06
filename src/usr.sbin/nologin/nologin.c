@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/nologin/nologin.c 139685 2005-01-04 20:07:12Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/nologin/nologin.c 139685 2005-01-04 20:07:12Z delphij $");
 
 #include <stdio.h>
 #include <syslog.h>

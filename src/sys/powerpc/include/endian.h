@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)endian.h	8.1 (Berkeley) 6/10/93
- * $FreeBSD: stable/10/sys/powerpc/include/endian.h 232745 2012-03-09 20:34:31Z dim $
+ * $FreeBSD: releng/10.1/sys/powerpc/include/endian.h 232745 2012-03-09 20:34:31Z dim $
  */
 
 #ifndef _MACHINE_ENDIAN_H_

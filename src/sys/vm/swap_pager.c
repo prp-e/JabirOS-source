@@ -67,7 +67,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/vm/swap_pager.c 265932 2014-05-12 20:48:04Z des $");
+__FBSDID("$FreeBSD: releng/10.1/sys/vm/swap_pager.c 265932 2014-05-12 20:48:04Z des $");
 
 #include "opt_swap.h"
 #include "opt_vm.h"

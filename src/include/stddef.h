@@ -28,7 +28,7 @@
  *
  *	@(#)stddef.h	8.1 (Berkeley) 6/2/93
  *
- * $FreeBSD: stable/10/include/stddef.h 264496 2014-04-15 09:41:52Z tijl $
+ * $FreeBSD: releng/10.1/include/stddef.h 264496 2014-04-15 09:41:52Z tijl $
  */
 
 #ifndef _STDDEF_H_

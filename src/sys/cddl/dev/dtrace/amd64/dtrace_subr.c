@@ -19,7 +19,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: stable/10/sys/cddl/dev/dtrace/amd64/dtrace_subr.c 262042 2014-02-17 12:57:13Z avg $
+ * $FreeBSD: releng/10.1/sys/cddl/dev/dtrace/amd64/dtrace_subr.c 262042 2014-02-17 12:57:13Z avg $
  *
  */
 /*

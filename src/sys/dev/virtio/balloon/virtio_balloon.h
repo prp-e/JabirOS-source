@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/virtio/balloon/virtio_balloon.h 238072 2012-07-03 15:15:41Z obrien $
+ * $FreeBSD: releng/10.1/sys/dev/virtio/balloon/virtio_balloon.h 238072 2012-07-03 15:15:41Z obrien $
  */
 
 #ifndef _VIRTIO_BALLOON_H

@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/net/if_usie.c 255471 2013-09-11 09:19:44Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/net/if_usie.c 255471 2013-09-11 09:19:44Z glebius $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

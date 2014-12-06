@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/find-sb/Makefile 162720 2006-09-28 12:33:36Z ru $
+# $FreeBSD: releng/10.1/tools/tools/find-sb/Makefile 162720 2006-09-28 12:33:36Z ru $
 
 PROG=	find-sb
 NO_MAN=

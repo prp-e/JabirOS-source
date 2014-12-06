@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/boot/amd64/efi/ldscript.amd64 264095 2014-04-04 00:16:46Z emaste $ */
+/* $FreeBSD: releng/10.1/sys/boot/amd64/efi/ldscript.amd64 264095 2014-04-04 00:16:46Z emaste $ */
 OUTPUT_FORMAT("elf64-x86-64-freebsd", "elf64-x86-64-freebsd", "elf64-x86-64-freebsd")
 OUTPUT_ARCH(i386:x86-64)
 ENTRY(_start)

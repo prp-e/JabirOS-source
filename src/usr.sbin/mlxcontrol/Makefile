@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/mlxcontrol/Makefile 201390 2010-01-02 11:07:44Z ed $
+# $FreeBSD: releng/10.1/usr.sbin/mlxcontrol/Makefile 201390 2010-01-02 11:07:44Z ed $
 
 PROG=	mlxcontrol
 MAN=	mlxcontrol.8

@@ -29,7 +29,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/ti/usb/omap_usb.h 239281 2012-08-15 06:31:32Z gonzo $
+ * $FreeBSD: releng/10.1/sys/arm/ti/usb/omap_usb.h 239281 2012-08-15 06:31:32Z gonzo $
  */
 
 #ifndef _OMAP_USB_H_

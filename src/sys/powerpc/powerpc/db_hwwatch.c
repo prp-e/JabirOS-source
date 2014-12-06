@@ -22,7 +22,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/powerpc/db_hwwatch.c 149925 2005-09-10 03:01:25Z marcel $
+ * $FreeBSD: releng/10.1/sys/powerpc/powerpc/db_hwwatch.c 149925 2005-09-10 03:01:25Z marcel $
  */
 #include <sys/param.h>
 

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/elf2aout/elf2aout.c 203799 2010-02-12 15:07:24Z ru $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/elf2aout/elf2aout.c 203799 2010-02-12 15:07:24Z ru $");
 
 #include <sys/types.h>
 #include <sys/elf64.h>

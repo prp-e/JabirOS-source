@@ -36,7 +36,7 @@
 static char sccsid[] = "@(#)vi.c	8.1 (Berkeley) 6/4/93";
 #endif /* not lint && not SCCSID */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libedit/vi.c 237448 2012-06-22 18:01:22Z pfg $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libedit/vi.c 237448 2012-06-22 18:01:22Z pfg $");
 
 /*
  * vi.c: Vi mode commands.

@@ -27,7 +27,7 @@
  * SUCH DAMAGE. 
  */ 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/librtld_db/rtld_db.c 269720 2014-08-08 14:53:01Z markj $");
+__FBSDID("$FreeBSD: releng/10.1/lib/librtld_db/rtld_db.c 269720 2014-08-08 14:53:01Z markj $");
 
 #include <machine/_inttypes.h>
 #include <sys/types.h>

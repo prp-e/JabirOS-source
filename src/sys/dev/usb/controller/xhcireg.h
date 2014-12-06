@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/controller/xhcireg.h 268604 2014-07-14 07:30:04Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/controller/xhcireg.h 268604 2014-07-14 07:30:04Z hselasky $ */
 
 /*-
  * Copyright (c) 2010 Hans Petter Selasky. All rights reserved.

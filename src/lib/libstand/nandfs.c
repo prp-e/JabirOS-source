@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libstand/nandfs.c 247613 2013-03-02 05:28:55Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libstand/nandfs.c 247613 2013-03-02 05:28:55Z marcel $");
 
 #include <sys/param.h>
 #include <sys/queue.h>

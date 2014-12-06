@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/broadcom/bcm2835/bcm2835_gpio.h 255370 2013-09-07 18:48:15Z loos $
+ * $FreeBSD: releng/10.1/sys/arm/broadcom/bcm2835/bcm2835_gpio.h 255370 2013-09-07 18:48:15Z loos $
  */
 
 #ifndef	_BCM2835_GPIO_H_

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm/sis_drm.h 152909 2005-11-28 23:13:57Z anholt $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm/sis_drm.h 152909 2005-11-28 23:13:57Z anholt $");
 
 #ifndef __SIS_DRM_H__
 #define __SIS_DRM_H__

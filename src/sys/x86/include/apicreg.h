@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/x86/include/apicreg.h 262141 2014-02-18 01:15:32Z jhb $
+ * $FreeBSD: releng/10.1/sys/x86/include/apicreg.h 262141 2014-02-18 01:15:32Z jhb $
  */
 
 #ifndef _X86_APICREG_H_

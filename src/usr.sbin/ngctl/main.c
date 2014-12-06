@@ -38,7 +38,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/ngctl/main.c 216588 2010-12-20 09:36:54Z charnier $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/ngctl/main.c 216588 2010-12-20 09:36:54Z charnier $");
 
 #include <sys/param.h>
 #include <sys/socket.h>

@@ -1,5 +1,5 @@
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/tools/vt/setfont/setfont.c 262861 2014-03-06 18:30:56Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/tools/tools/vt/setfont/setfont.c 262861 2014-03-06 18:30:56Z jhb $");
 
 #include <sys/consio.h>
 #include <sys/endian.h>

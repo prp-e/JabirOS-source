@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/include/sf_buf.h 266175 2014-05-15 19:09:31Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/include/sf_buf.h 266175 2014-05-15 19:09:31Z ian $
  */
 
 #ifndef _MACHINE_SF_BUF_H_

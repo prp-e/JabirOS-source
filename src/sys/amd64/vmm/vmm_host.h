@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/vmm/vmm_host.h 267427 2014-06-12 19:58:12Z jhb $
+ * $FreeBSD: releng/10.1/sys/amd64/vmm/vmm_host.h 267427 2014-06-12 19:58:12Z jhb $
  */
 
 #ifndef	_VMM_HOST_H_

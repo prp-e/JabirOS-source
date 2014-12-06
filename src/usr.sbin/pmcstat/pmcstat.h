@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/pmcstat/pmcstat.h 267143 2014-06-06 01:35:52Z emaste $
+ * $FreeBSD: releng/10.1/usr.sbin/pmcstat/pmcstat.h 267143 2014-06-06 01:35:52Z emaste $
  */
 
 #ifndef	_PMCSTAT_H_

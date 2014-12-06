@@ -22,7 +22,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/adb/adb_mouse.c 262668 2014-03-01 21:50:23Z jhibbits $
+ * $FreeBSD: releng/10.1/sys/dev/adb/adb_mouse.c 262668 2014-03-01 21:50:23Z jhibbits $
  */
 
 #include <sys/cdefs.h>

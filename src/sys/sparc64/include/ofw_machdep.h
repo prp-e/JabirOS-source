@@ -22,7 +22,7 @@
  * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
  * USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sparc64/include/ofw_machdep.h 230632 2012-01-27 22:35:53Z marius $
+ * $FreeBSD: releng/10.1/sys/sparc64/include/ofw_machdep.h 230632 2012-01-27 22:35:53Z marius $
  */
 
 #ifndef _MACHINE_OFW_MACHDEP_H_

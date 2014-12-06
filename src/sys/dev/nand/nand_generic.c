@@ -27,7 +27,7 @@
 /* Generic NAND driver */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/nand/nand_generic.c 259371 2013-12-14 00:54:05Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/nand/nand_generic.c 259371 2013-12-14 00:54:05Z ian $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

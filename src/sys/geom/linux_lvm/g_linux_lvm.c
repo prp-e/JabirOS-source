@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/geom/linux_lvm/g_linux_lvm.c 219029 2011-02-25 10:24:35Z netchild $");
+__FBSDID("$FreeBSD: releng/10.1/sys/geom/linux_lvm/g_linux_lvm.c 219029 2011-02-25 10:24:35Z netchild $");
 
 #include <sys/ctype.h>
 #include <sys/param.h>

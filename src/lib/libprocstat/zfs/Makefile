@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libprocstat/zfs/Makefile 263397 2014-03-19 23:55:03Z delphij $
+# $FreeBSD: releng/10.1/lib/libprocstat/zfs/Makefile 263397 2014-03-19 23:55:03Z delphij $
 
 .PATH: ${.CURDIR}/..
 

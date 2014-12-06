@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/i386/efi/bootinfo.c 271132 2014-09-04 20:47:14Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/i386/efi/bootinfo.c 271132 2014-09-04 20:47:14Z emaste $");
 
 #include <stand.h>
 #include <string.h>

@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/amd64/ia32/ia32_syscall.c 239251 2012-08-14 12:13:27Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/amd64/ia32/ia32_syscall.c 239251 2012-08-14 12:13:27Z kib $");
 
 /*
  * 386 Trap and System call handling

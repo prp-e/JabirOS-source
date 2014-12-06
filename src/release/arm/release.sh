@@ -27,7 +27,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/release/arm/release.sh 271791 2014-09-18 17:15:38Z gjb $
+# $FreeBSD: releng/10.1/release/arm/release.sh 271791 2014-09-18 17:15:38Z gjb $
 #
 
 # This script is intended to be called by release/release.sh to build ARM

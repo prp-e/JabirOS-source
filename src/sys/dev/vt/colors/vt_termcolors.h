@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/vt/colors/vt_termcolors.h 270262 2014-08-21 10:18:42Z dumbbell $
+ * $FreeBSD: releng/10.1/sys/dev/vt/colors/vt_termcolors.h 270262 2014-08-21 10:18:42Z dumbbell $
  */
 
 enum vt_color_format {

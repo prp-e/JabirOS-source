@@ -22,7 +22,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/netinet/ip_fw.h 248552 2013-03-20 10:35:33Z melifaro $
+ * $FreeBSD: releng/10.1/sys/netinet/ip_fw.h 248552 2013-03-20 10:35:33Z melifaro $
  */
 
 #ifndef _IPFW2_H

@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libstand/zalloc_defs.h 269101 2014-07-25 23:12:22Z ian $
+ * $FreeBSD: releng/10.1/lib/libstand/zalloc_defs.h 269101 2014-07-25 23:12:22Z ian $
  */
 
 /*

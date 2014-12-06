@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/kbdmap/kbdmap.h 270309 2014-08-21 21:57:18Z se $
+ * $FreeBSD: releng/10.1/usr.sbin/kbdmap/kbdmap.h 270309 2014-08-21 21:57:18Z se $
  */
 
 

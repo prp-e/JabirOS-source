@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/digi/digi.c 162711 2006-09-27 19:57:02Z ru $
+ * $FreeBSD: releng/10.1/sys/dev/digi/digi.c 162711 2006-09-27 19:57:02Z ru $
  */
 
 /*-

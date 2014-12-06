@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  *
  *	from: @(#)genassym.c	5.11 (Berkeley) 5/10/91
- * $FreeBSD: stable/10/sys/powerpc/powerpc/genassym.c 266003 2014-05-14 04:14:58Z ian $
+ * $FreeBSD: releng/10.1/sys/powerpc/powerpc/genassym.c 266003 2014-05-14 04:14:58Z ian $
  */
 
 #include <sys/param.h>

@@ -20,7 +20,7 @@
  *          Wolfram Schneider <wosch@FreeBSD.org>
  *          Thomas Moestl <tmoestl@gmx.net>
  *
- * $FreeBSD: stable/10/usr.bin/top/machine.c 266282 2014-05-17 02:45:59Z bdrewery $
+ * $FreeBSD: releng/10.1/usr.bin/top/machine.c 266282 2014-05-17 02:45:59Z bdrewery $
  */
 
 #include <sys/param.h>

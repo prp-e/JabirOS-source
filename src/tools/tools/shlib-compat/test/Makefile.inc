@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/tools/tools/shlib-compat/test/Makefile.inc 248693 2013-03-25 00:31:14Z gleb $
+# $FreeBSD: releng/10.1/tools/tools/shlib-compat/test/Makefile.inc 248693 2013-03-25 00:31:14Z gleb $
 
 LIB=		test${TESTNUM}
 SHLIB_MAJOR=	0

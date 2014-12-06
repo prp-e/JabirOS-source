@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/netgraph/atm/sscop/Makefile 121462 2003-10-24 07:42:08Z harti $
+# $FreeBSD: releng/10.1/sys/modules/netgraph/atm/sscop/Makefile 121462 2003-10-24 07:42:08Z harti $
 #
 # Author: Harti Brandt <harti@freebsd.org>
 

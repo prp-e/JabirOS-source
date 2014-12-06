@@ -28,7 +28,7 @@
  * NETLOGIC_BSD */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/mips/nlm/cms.c 233534 2012-03-27 07:47:13Z jchandra $");
+__FBSDID("$FreeBSD: releng/10.1/sys/mips/nlm/cms.c 233534 2012-03-27 07:47:13Z jchandra $");
 #include <sys/types.h>
 #include <sys/systm.h>
 #include <sys/param.h>

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/examples/Makefile 269928 2014-08-13 12:32:52Z gavin $
+# $FreeBSD: releng/10.1/share/examples/Makefile 269928 2014-08-13 12:32:52Z gavin $
 #
 # Doing a make install builds /usr/share/examples
 

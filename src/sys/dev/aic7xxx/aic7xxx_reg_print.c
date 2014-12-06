@@ -7,7 +7,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/aic7xxx/aic7xxx_reg_print.c 270284 2014-08-21 17:18:21Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/aic7xxx/aic7xxx_reg_print.c 270284 2014-08-21 17:18:21Z ian $");
 #include <dev/aic7xxx/aic7xxx_osm.h>
 
 static ahc_reg_parse_entry_t SCSISEQ_parse_table[] = {

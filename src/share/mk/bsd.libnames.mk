@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/mk/bsd.libnames.mk 270905 2014-08-31 23:09:23Z ngie $
+# $FreeBSD: releng/10.1/share/mk/bsd.libnames.mk 270905 2014-08-31 23:09:23Z ngie $
 
 # The include file <bsd.libnames.mk> define library names.
 # Other include files (e.g. bsd.prog.mk, bsd.lib.mk) include this

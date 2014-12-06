@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/zfs/devicename_stubs.c 235329 2012-05-12 09:03:30Z avg $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/zfs/devicename_stubs.c 235329 2012-05-12 09:03:30Z avg $");
 
 #include <stand.h>
 #include "libzfs.h"

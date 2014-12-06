@@ -30,7 +30,7 @@
  * SOFTWARE.
  */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/cxgbe/iw_cxgbe/provider.c 262132 2014-02-17 20:45:39Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/cxgbe/iw_cxgbe/provider.c 262132 2014-02-17 20:45:39Z dim $");
 
 #include "opt_inet.h"
 

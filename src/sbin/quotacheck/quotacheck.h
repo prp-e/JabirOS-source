@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/quotacheck/quotacheck.h 207736 2010-05-07 00:41:12Z mckusick $
+ * $FreeBSD: releng/10.1/sbin/quotacheck/quotacheck.h 207736 2010-05-07 00:41:12Z mckusick $
  */
 
 extern char *blockcheck(char *);

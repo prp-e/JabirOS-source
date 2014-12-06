@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sbin/pfctl/Makefile 270047 2014-08-16 13:20:44Z bz $
+# $FreeBSD: releng/10.1/sbin/pfctl/Makefile 270047 2014-08-16 13:20:44Z bz $
 
 .include <bsd.own.mk>
 

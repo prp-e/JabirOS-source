@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.3 (Berkeley) 5/8/95
-# $FreeBSD: stable/10/bin/df/Makefile 129678 2004-05-24 22:22:29Z pjd $
+# $FreeBSD: releng/10.1/bin/df/Makefile 129678 2004-05-24 22:22:29Z pjd $
 
 MOUNT=	${.CURDIR}/../../sbin/mount
 .PATH: ${MOUNT}

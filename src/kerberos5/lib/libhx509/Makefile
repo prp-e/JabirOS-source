@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/kerberos5/lib/libhx509/Makefile 262254 2014-02-20 20:51:27Z peter $
+# $FreeBSD: releng/10.1/kerberos5/lib/libhx509/Makefile 262254 2014-02-20 20:51:27Z peter $
 
 LIB=	hx509
 LDFLAGS=	-Wl,--no-undefined

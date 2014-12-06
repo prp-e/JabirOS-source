@@ -1,5 +1,5 @@
 /* $OpenBSD: readconf.h,v 1.101 2014/02/23 20:11:36 djm Exp $ */
-/* $FreeBSD: stable/10/crypto/openssh/readconf.h 264377 2014-04-12 20:22:59Z des $ */
+/* $FreeBSD: releng/10.1/crypto/openssh/readconf.h 264377 2014-04-12 20:22:59Z des $ */
 
 /*
  * Author: Tatu Ylonen <ylo@cs.hut.fi>

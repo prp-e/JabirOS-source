@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/freescale/vybrid/vf_port.h 266274 2014-05-16 23:27:18Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/freescale/vybrid/vf_port.h 266274 2014-05-16 23:27:18Z ian $
  */
 
 #define	NPORTS		5

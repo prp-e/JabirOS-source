@@ -22,7 +22,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/drm2/radeon/radeon_pm.c 262861 2014-03-06 18:30:56Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/drm2/radeon/radeon_pm.c 262861 2014-03-06 18:30:56Z jhb $");
 
 #include <dev/drm2/drmP.h>
 #include "radeon.h"

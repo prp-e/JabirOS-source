@@ -46,7 +46,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/advansys/adv_isa.c 241492 2012-10-12 21:31:44Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/advansys/adv_isa.c 241492 2012-10-12 21:31:44Z jhb $");
 
 #include <sys/param.h>
 #include <sys/systm.h> 

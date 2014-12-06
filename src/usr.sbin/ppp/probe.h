@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/ppp/probe.h 81697 2001-08-15 13:53:38Z brian $
+ * $FreeBSD: releng/10.1/usr.sbin/ppp/probe.h 81697 2001-08-15 13:53:38Z brian $
  */
 
 struct probe {

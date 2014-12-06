@@ -25,7 +25,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/syscons/green/green_saver.c 230132 2012-01-15 13:23:18Z uqs $
+ * $FreeBSD: releng/10.1/sys/dev/syscons/green/green_saver.c 230132 2012-01-15 13:23:18Z uqs $
  */
 
 #include <sys/param.h>

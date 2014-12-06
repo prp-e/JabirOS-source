@@ -13,7 +13,7 @@
 # purpose.
 #
 
-# $FreeBSD: stable/10/sys/boot/pc98/btx/lib/btxcsu.S 239064 2012-08-05 14:11:07Z nyan $
+# $FreeBSD: releng/10.1/sys/boot/pc98/btx/lib/btxcsu.S 239064 2012-08-05 14:11:07Z nyan $
 
 #include <bootargs.h>
 

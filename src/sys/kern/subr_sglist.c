@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/subr_sglist.c 260856 2014-01-18 18:36:41Z bryanv $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/subr_sglist.c 260856 2014-01-18 18:36:41Z bryanv $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

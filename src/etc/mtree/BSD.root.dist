@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/etc/mtree/BSD.root.dist 271260 2014-09-08 11:18:27Z des $
+# $FreeBSD: releng/10.1/etc/mtree/BSD.root.dist 271260 2014-09-08 11:18:27Z des $
 #
 # Please see the file src/etc/mtree/README before making changes to this file.
 #

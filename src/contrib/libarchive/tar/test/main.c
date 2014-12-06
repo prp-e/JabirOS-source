@@ -60,7 +60,7 @@
  * TODO: Move this into a separate configuration header, have all test
  * suites share one copy of this file.
  */
-__FBSDID("$FreeBSD: stable/10/contrib/libarchive/tar/test/main.c 248616 2013-03-22 13:36:03Z mm $");
+__FBSDID("$FreeBSD: releng/10.1/contrib/libarchive/tar/test/main.c 248616 2013-03-22 13:36:03Z mm $");
 #define KNOWNREF	"test_patterns_2.tar.uu"
 #define ENVBASE "BSDTAR"  /* Prefix for environment variables. */
 #define	PROGRAM "bsdtar"  /* Name of program being tested. */

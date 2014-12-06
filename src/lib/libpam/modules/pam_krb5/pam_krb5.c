@@ -48,7 +48,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libpam/modules/pam_krb5/pam_krb5.c 241844 2012-10-22 03:00:37Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libpam/modules/pam_krb5/pam_krb5.c 241844 2012-10-22 03:00:37Z eadler $");
 
 #include <sys/types.h>
 #include <sys/stat.h>

@@ -36,7 +36,7 @@
  *
  *	@(#)table.h	8.1 (Berkeley) 6/5/93
  *
- * $FreeBSD: stable/10/usr.sbin/IPXrouted/table.h 264298 2014-04-09 11:10:44Z glebius $
+ * $FreeBSD: releng/10.1/usr.sbin/IPXrouted/table.h 264298 2014-04-09 11:10:44Z glebius $
  */
 
 /*

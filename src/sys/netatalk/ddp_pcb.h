@@ -47,7 +47,7 @@
  *	+1-313-764-2278
  *	netatalk@umich.edu
  *
- * $FreeBSD: stable/10/sys/netatalk/ddp_pcb.h 165974 2007-01-12 15:07:51Z rwatson $
+ * $FreeBSD: releng/10.1/sys/netatalk/ddp_pcb.h 165974 2007-01-12 15:07:51Z rwatson $
  */
 
 #ifndef _NETATALK_DDP_PCB_H_

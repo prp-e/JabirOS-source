@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/fs/nfsclient/nfs_clkdtrace.c 244042 2012-12-08 22:52:39Z rmacklem $");
+__FBSDID("$FreeBSD: releng/10.1/sys/fs/nfsclient/nfs_clkdtrace.c 244042 2012-12-08 22:52:39Z rmacklem $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

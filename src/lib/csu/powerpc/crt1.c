@@ -40,7 +40,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/csu/powerpc/crt1.c 245133 2013-01-07 17:58:27Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/lib/csu/powerpc/crt1.c 245133 2013-01-07 17:58:27Z kib $");
 
 #ifndef lint
 #ifndef __GNUC__

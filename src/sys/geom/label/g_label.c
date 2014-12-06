@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/geom/label/g_label.c 259328 2013-12-13 20:33:59Z trasz $");
+__FBSDID("$FreeBSD: releng/10.1/sys/geom/label/g_label.c 259328 2013-12-13 20:33:59Z trasz $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

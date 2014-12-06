@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ppc/ppc.c 247094 2013-02-21 12:40:52Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ppc/ppc.c 247094 2013-02-21 12:40:52Z glebius $");
 
 #include "opt_ppc.h"
 

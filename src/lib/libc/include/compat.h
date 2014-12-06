@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/include/compat.h 255219 2013-09-05 00:09:56Z pjd $
+ * $FreeBSD: releng/10.1/lib/libc/include/compat.h 255219 2013-09-05 00:09:56Z pjd $
  */
 
 /*

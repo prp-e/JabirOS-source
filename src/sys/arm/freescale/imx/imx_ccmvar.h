@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/freescale/imx/imx_ccmvar.h 266371 2014-05-17 22:29:24Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/freescale/imx/imx_ccmvar.h 266371 2014-05-17 22:29:24Z ian $
  */
 
 #ifndef	IMX_CCMVAR_H

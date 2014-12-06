@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/sys/contrib/ipfilter/netinet/ip_nat.h 255332 2013-09-06 23:11:19Z cy $	*/
+/*	$FreeBSD: releng/10.1/sys/contrib/ipfilter/netinet/ip_nat.h 255332 2013-09-06 23:11:19Z cy $	*/
 
 /*
  * Copyright (C) 2012 by Darren Reed.
@@ -6,7 +6,7 @@
  * See the IPFILTER.LICENCE file for details on licencing.
  *
  * @(#)ip_nat.h	1.5 2/4/96
- * $FreeBSD: stable/10/sys/contrib/ipfilter/netinet/ip_nat.h 255332 2013-09-06 23:11:19Z cy $
+ * $FreeBSD: releng/10.1/sys/contrib/ipfilter/netinet/ip_nat.h 255332 2013-09-06 23:11:19Z cy $
  * Id: ip_nat.h,v 2.90.2.20 2007/09/25 08:27:32 darrenr Exp $
  */
 

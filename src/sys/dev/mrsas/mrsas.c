@@ -42,7 +42,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/mrsas/mrsas.c 265555 2014-05-07 16:16:49Z ambrisko $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/mrsas/mrsas.c 265555 2014-05-07 16:16:49Z ambrisko $");
 
 #include <dev/mrsas/mrsas.h>
 #include <dev/mrsas/mrsas_ioctl.h>

@@ -37,7 +37,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/wds/wd7000.c 246713 2013-02-12 16:57:20Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/wds/wd7000.c 246713 2013-02-12 16:57:20Z kib $");
 
 /* All bugs are subject to removal without further notice */
 

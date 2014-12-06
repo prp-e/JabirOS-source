@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/vt/vt_sysmouse.c 271022 2014-09-03 13:40:02Z emaste $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/vt/vt_sysmouse.c 271022 2014-09-03 13:40:02Z emaste $");
 
 #include <sys/param.h>
 #include <sys/condvar.h>

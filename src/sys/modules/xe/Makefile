@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/xe/Makefile 129740 2004-05-26 00:53:10Z imp $
+# $FreeBSD: releng/10.1/sys/modules/xe/Makefile 129740 2004-05-26 00:53:10Z imp $
 
 .PATH: ${.CURDIR}/../../dev/xe
 

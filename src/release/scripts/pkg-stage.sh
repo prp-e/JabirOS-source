@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/release/scripts/pkg-stage.sh 271943 2014-09-22 05:00:55Z gjb $
+# $FreeBSD: releng/10.1/release/scripts/pkg-stage.sh 271943 2014-09-22 05:00:55Z gjb $
 #
 
 set -e

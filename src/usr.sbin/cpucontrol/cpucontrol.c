@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/cpucontrol/cpucontrol.c 268157 2014-07-02 13:09:26Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/cpucontrol/cpucontrol.c 268157 2014-07-02 13:09:26Z kib $");
 
 #include <assert.h>
 #include <stdio.h>

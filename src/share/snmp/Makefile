@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/snmp/Makefile 128612 2004-04-24 19:54:55Z phk $
+# $FreeBSD: releng/10.1/share/snmp/Makefile 128612 2004-04-24 19:54:55Z phk $
 
 SUBDIR= mibs
 

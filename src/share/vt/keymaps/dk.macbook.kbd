@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/vt/keymaps/dk.macbook.kbd 270310 2014-08-21 22:04:17Z se $
+# $FreeBSD: releng/10.1/share/vt/keymaps/dk.macbook.kbd 270310 2014-08-21 22:04:17Z se $
 # Danish keyboard layout for Apple MacBook keyboards. Not all
 # key combinations are available in this character set yet.
 # by Erik Cederstrand <erik@cederstrand.dk>

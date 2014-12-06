@@ -22,7 +22,7 @@
  * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
  * USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/powerpc/include/ofw_machdep.h 266020 2014-05-14 14:17:51Z ian $
+ * $FreeBSD: releng/10.1/sys/powerpc/include/ofw_machdep.h 266020 2014-05-14 14:17:51Z ian $
  */
 
 #ifndef _MACHINE_OFW_MACHDEP_H_

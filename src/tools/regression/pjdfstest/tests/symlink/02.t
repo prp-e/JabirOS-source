@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/tools/regression/pjdfstest/tests/symlink/02.t 211178 2010-08-11 16:33:17Z pjd $
+# $FreeBSD: releng/10.1/tools/regression/pjdfstest/tests/symlink/02.t 211178 2010-08-11 16:33:17Z pjd $
 
 desc="symlink returns ENAMETOOLONG if a component of the name2 pathname exceeded {NAME_MAX} characters"
 

@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/controller/ehci.h 261455 2014-02-04 03:36:42Z eadler $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/controller/ehci.h 261455 2014-02-04 03:36:42Z eadler $ */
 /*-
  * Copyright (c) 2001 The NetBSD Foundation, Inc.
  * All rights reserved.

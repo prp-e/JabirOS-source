@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/misc/udbp.c 249039 2013-04-03 06:45:21Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/misc/udbp.c 249039 2013-04-03 06:45:21Z hselasky $");
 
 /* Driver for arbitrary double bulk pipe devices.
  * The driver assumes that there will be the same driver on the other side.

@@ -33,7 +33,7 @@
 static char sccsid[] = "@(#)getopt.c	8.3 (Berkeley) 4/27/95";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/stdlib/getopt.c 268352 2014-07-07 02:47:41Z pfg $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/stdlib/getopt.c 268352 2014-07-07 02:47:41Z pfg $");
 
 #include "namespace.h"
 #include <stdio.h>

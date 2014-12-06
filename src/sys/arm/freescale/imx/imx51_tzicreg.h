@@ -53,7 +53,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/freescale/imx/imx51_tzicreg.h 263455 2014-03-20 23:48:18Z dim $
+ * $FreeBSD: releng/10.1/sys/arm/freescale/imx/imx51_tzicreg.h 263455 2014-03-20 23:48:18Z dim $
  */
 
 #ifndef _IMX51_TZICREG_H_

@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/kern/subr_devstat.c 264546 2014-04-16 17:57:08Z emax $");
+__FBSDID("$FreeBSD: releng/10.1/sys/kern/subr_devstat.c 264546 2014-04-16 17:57:08Z emax $");
 
 #include "opt_kdtrace.h"
 

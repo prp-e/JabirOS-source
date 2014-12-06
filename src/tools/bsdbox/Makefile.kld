@@ -1,6 +1,6 @@
 #
 # This builds the kld related programs.
 #
-# $FreeBSD: stable/10/tools/bsdbox/Makefile.kld 229675 2012-01-06 00:56:31Z adrian $
+# $FreeBSD: releng/10.1/tools/bsdbox/Makefile.kld 229675 2012-01-06 00:56:31Z adrian $
 #
 CRUNCH_PROGS_sbin+=	kldload kldunload kldstat

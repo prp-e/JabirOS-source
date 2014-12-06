@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/_ffcounter.h 227723 2011-11-19 14:10:16Z lstewart $
+ * $FreeBSD: releng/10.1/sys/sys/_ffcounter.h 227723 2011-11-19 14:10:16Z lstewart $
  */
 
 #ifndef _SYS__FFCOUNTER_H_

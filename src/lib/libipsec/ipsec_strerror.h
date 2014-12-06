@@ -1,4 +1,4 @@
-/*	$FreeBSD: stable/10/lib/libipsec/ipsec_strerror.h 92917 2002-03-21 23:54:04Z obrien $	*/
+/*	$FreeBSD: releng/10.1/lib/libipsec/ipsec_strerror.h 92917 2002-03-21 23:54:04Z obrien $	*/
 /*	$KAME: ipsec_strerror.h,v 1.8 2000/07/30 00:45:12 itojun Exp $	*/
 
 /*

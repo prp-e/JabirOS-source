@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/pc-sysinstall/conf/Makefile 209514 2010-06-24 22:29:36Z imp $
+# $FreeBSD: releng/10.1/usr.sbin/pc-sysinstall/conf/Makefile 209514 2010-06-24 22:29:36Z imp $
 
 NO_OBJ=
 

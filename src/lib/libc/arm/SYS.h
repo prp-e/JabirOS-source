@@ -32,7 +32,7 @@
  * SUCH DAMAGE.
  *
  *	from: @(#)SYS.h	5.5 (Berkeley) 5/7/91
- * $FreeBSD: stable/10/lib/libc/arm/SYS.h 245650 2013-01-19 04:03:18Z andrew $
+ * $FreeBSD: releng/10.1/lib/libc/arm/SYS.h 245650 2013-01-19 04:03:18Z andrew $
  */
 
 #include <machine/asm.h>

@@ -24,7 +24,7 @@
  * SUCH DAMAGE.
  *
  *
- * $FreeBSD: stable/10/usr.sbin/mfiutil/mfi_properties.c 272041 2014-09-23 21:38:05Z smh $
+ * $FreeBSD: releng/10.1/usr.sbin/mfiutil/mfi_properties.c 272041 2014-09-23 21:38:05Z smh $
  */
 
 #include <sys/errno.h>

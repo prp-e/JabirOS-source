@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libdwarf/dwarf_dump.c 239872 2012-08-29 18:49:41Z dim $
+ * $FreeBSD: releng/10.1/lib/libdwarf/dwarf_dump.c 239872 2012-08-29 18:49:41Z dim $
  */
 
 #include <stdlib.h>

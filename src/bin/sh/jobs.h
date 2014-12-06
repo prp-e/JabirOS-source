@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)jobs.h	8.2 (Berkeley) 5/4/95
- * $FreeBSD: stable/10/bin/sh/jobs.h 255157 2013-09-02 21:57:46Z jilles $
+ * $FreeBSD: releng/10.1/bin/sh/jobs.h 255157 2013-09-02 21:57:46Z jilles $
  */
 
 /* Mode argument to forkshell.  Don't change FORK_FG or FORK_BG. */

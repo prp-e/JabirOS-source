@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/input/wsp.c 263208 2014-03-15 18:19:09Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/input/wsp.c 263208 2014-03-15 18:19:09Z hselasky $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

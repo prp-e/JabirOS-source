@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/arm/freescale/imx/files.imx6 266348 2014-05-17 20:22:22Z ian $
+# $FreeBSD: releng/10.1/sys/arm/freescale/imx/files.imx6 266348 2014-05-17 20:22:22Z ian $
 
 #
 # Standard ARM support.

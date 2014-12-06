@@ -98,7 +98,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/esp/ncr53c9x.c 239089 2012-08-06 08:58:54Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/esp/ncr53c9x.c 239089 2012-08-06 08:58:54Z marius $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

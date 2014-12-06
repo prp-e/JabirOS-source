@@ -31,7 +31,7 @@
 .\" SUCH DAMAGE.
 .\"
 .\"	@(#)1.t	1.2 (Berkeley) 11/8/90
-.\" $FreeBSD: stable/10/share/doc/papers/kerntune/1.t 50476 1999-08-28 00:22:10Z peter $
+.\" $FreeBSD: releng/10.1/share/doc/papers/kerntune/1.t 50476 1999-08-28 00:22:10Z peter $
 .\"
 .ds RH Introduction
 .NH 1

@@ -28,7 +28,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/sparc64/isa/isa.c 263763 2014-03-26 07:31:57Z dim $");
+__FBSDID("$FreeBSD: releng/10.1/sys/sparc64/isa/isa.c 263763 2014-03-26 07:31:57Z dim $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

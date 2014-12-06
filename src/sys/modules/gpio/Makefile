@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/sys/modules/gpio/Makefile 230150 2012-01-15 19:40:59Z adrian $
+# $FreeBSD: releng/10.1/sys/modules/gpio/Makefile 230150 2012-01-15 19:40:59Z adrian $
 #
 # Copyright (c) 2011 Adrian Chadd.  All rights reserved.
 #

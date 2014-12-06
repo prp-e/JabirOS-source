@@ -8,7 +8,7 @@
  * A list of symbols which need munging is obtained as follows:
  *
  * nm libssh.a | awk '/[0-9a-z] [A-Z] / && $3 !~ /^ssh_/ { printf("#define %-39s ssh_%s\n", $3, $3) }' | unexpand -a | sort -u
- * $FreeBSD: stable/10/crypto/openssh/ssh_namespace.h 264377 2014-04-12 20:22:59Z des $
+ * $FreeBSD: releng/10.1/crypto/openssh/ssh_namespace.h 264377 2014-04-12 20:22:59Z des $
  */
 
 #define Blowfish_decipher			ssh_Blowfish_decipher

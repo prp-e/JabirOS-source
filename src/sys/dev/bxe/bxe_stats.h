@@ -28,7 +28,7 @@
 #define BXE_STATS_H
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/bxe/bxe_stats.h 265797 2014-05-10 02:10:32Z davidcs $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/bxe/bxe_stats.h 265797 2014-05-10 02:10:32Z davidcs $");
 
 #include <sys/types.h>
 

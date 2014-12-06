@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/cddl/compat/opensolaris/include/fsshare.h 177698 2008-03-28 22:16:18Z jb $
+ * $FreeBSD: releng/10.1/cddl/compat/opensolaris/include/fsshare.h 177698 2008-03-28 22:16:18Z jb $
  */
 
 #ifndef _OPENSOLARIS_FSSHARE_H_

@@ -44,7 +44,7 @@
  *      from: @(#)pmap.h        7.4 (Berkeley) 5/12/91
  * 	from: FreeBSD: src/sys/i386/include/pmap.h,v 1.70 2000/11/30
  *
- * $FreeBSD: stable/10/sys/arm/include/pmap.h 266337 2014-05-17 18:53:36Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/include/pmap.h 266337 2014-05-17 18:53:36Z ian $
  */
 
 #ifndef _MACHINE_PMAP_H_

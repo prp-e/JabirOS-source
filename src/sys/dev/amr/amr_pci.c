@@ -55,7 +55,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/amr/amr_pci.c 254263 2013-08-12 23:30:01Z scottl $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/amr/amr_pci.c 254263 2013-08-12 23:30:01Z scottl $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

@@ -1,5 +1,5 @@
 # Makefile for simple caller of syscall
-# $FreeBSD: stable/10/share/examples/kld/syscall/test/Makefile 203349 2010-02-01 16:13:56Z wkoszek $
+# $FreeBSD: releng/10.1/share/examples/kld/syscall/test/Makefile 203349 2010-02-01 16:13:56Z wkoszek $
 
 PROG=	call
 NO_MAN=

@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/amd64/amd64/fpu.c 271999 2014-09-22 20:34:36Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/amd64/amd64/fpu.c 271999 2014-09-22 20:34:36Z jhb $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

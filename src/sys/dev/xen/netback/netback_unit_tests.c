@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/xen/netback/netback_unit_tests.c 259541 2013-12-18 05:20:53Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/xen/netback/netback_unit_tests.c 259541 2013-12-18 05:20:53Z glebius $");
 
 /**
  * \file netback_unit_tests.c

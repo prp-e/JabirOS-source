@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/dev/usb/controller/xhci.h 269447 2014-08-02 21:01:58Z hselasky $ */
+/* $FreeBSD: releng/10.1/sys/dev/usb/controller/xhci.h 272608 2014-10-06 11:05:56Z hselasky $ */
 
 /*-
  * Copyright (c) 2010 Hans Petter Selasky. All rights reserved.
@@ -493,7 +493,8 @@ struct xhci_softc {
 	uint8_t			sc_noscratch;
 	/* root HUB device configuration */
 	uint8_t			sc_conf;
-	uint8_t			sc_hub_idata[2];
+	/* root HUB port event bitmap, max 256 ports */
+	uint8_t			sc_hub_idata[32];
 
 	/* size of context */
 	uint8_t			sc_ctx_is_64_byte;

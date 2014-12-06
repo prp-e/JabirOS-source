@@ -23,7 +23,7 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/ti/ti_mbox.h 266098 2014-05-14 23:57:07Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/ti/ti_mbox.h 266098 2014-05-14 23:57:07Z ian $
  */
 
 #ifndef _TI_MBOX_H_

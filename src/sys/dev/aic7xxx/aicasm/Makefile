@@ -1,7 +1,7 @@
 #
 # $Id: //depot/aic7xxx/freebsd/dev/aic7xxx/aicasm/Makefile#2 $
 #
-# $FreeBSD: stable/10/sys/dev/aic7xxx/aicasm/Makefile 270274 2014-08-21 14:56:57Z ian $
+# $FreeBSD: releng/10.1/sys/dev/aic7xxx/aicasm/Makefile 270274 2014-08-21 14:56:57Z ian $
 
 PROG=	aicasm
 

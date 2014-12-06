@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/ata/chipsets/ata-ati.c 268250 2014-07-04 13:57:58Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/ata/chipsets/ata-ati.c 268250 2014-07-04 13:57:58Z marius $");
 
 #include <sys/param.h>
 #include <sys/module.h>

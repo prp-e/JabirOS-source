@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/bhyve/virtio.c 271685 2014-09-16 19:08:54Z grehan $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/bhyve/virtio.c 271685 2014-09-16 19:08:54Z grehan $");
 
 #include <sys/param.h>
 #include <sys/uio.h>

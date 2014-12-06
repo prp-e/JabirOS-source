@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/sound/driver/ess/Makefile 158491 2006-05-12 18:05:35Z ariff $
+# $FreeBSD: releng/10.1/sys/modules/sound/driver/ess/Makefile 158491 2006-05-12 18:05:35Z ariff $
 
 .PATH: ${.CURDIR}/../../../../dev/sound/isa
 

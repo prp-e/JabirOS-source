@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/include/_bus.h 176589 2008-02-26 11:45:32Z rwatson $
+ * $FreeBSD: releng/10.1/sys/arm/include/_bus.h 176589 2008-02-26 11:45:32Z rwatson $
  */
 
 #ifndef ARM_INCLUDE__BUS_H

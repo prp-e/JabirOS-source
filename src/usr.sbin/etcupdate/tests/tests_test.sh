@@ -25,7 +25,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/usr.sbin/etcupdate/tests/tests_test.sh 263226 2014-03-16 04:09:22Z jmmv $
+# $FreeBSD: releng/10.1/usr.sbin/etcupdate/tests/tests_test.sh 263226 2014-03-16 04:09:22Z jmmv $
 
 # Various regression tests to run for the 'update' command.
 

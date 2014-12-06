@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet/tcp_subr.c 265471 2014-05-06 22:04:50Z rmacklem $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet/tcp_subr.c 265471 2014-05-06 22:04:50Z rmacklem $");
 
 #include "opt_compat.h"
 #include "opt_inet.h"

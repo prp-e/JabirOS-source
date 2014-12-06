@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/cam/ata/ata_da.c 271238 2014-09-07 21:30:47Z smh $");
+__FBSDID("$FreeBSD: releng/10.1/sys/cam/ata/ata_da.c 273818 2014-10-29 11:11:54Z smh $");
 
 #include "opt_ada.h"
 
@@ -1467,8 +1467,14 @@ ada_dsmtrim(struct ada_softc *softc, struct bio *bp, struct ccb_ataio *ataio)
 static void
 ada_cfaerase(struct ada_softc *softc, struct bio *bp, struct ccb_ataio *ataio)
 {
+	struct trim_request *req = &softc->trim_req;
 	uint64_t lba = bp->bio_pblkno;
 	uint16_t count = bp->bio_bcount / softc->params.secsize;
+
+	bzero(req, sizeof(*req));
+	TAILQ_INIT(&req->bps);
+	bioq_remove(&softc->trim_queue, bp);
+	TAILQ_INSERT_TAIL(&req->bps, bp, bio_queue);
 
 	cam_fill_ataio(ataio,
 	    ada_retry_count,

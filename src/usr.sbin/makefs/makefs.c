@@ -36,7 +36,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/makefs/makefs.c 254397 2013-08-16 05:30:13Z gjb $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/makefs/makefs.c 254397 2013-08-16 05:30:13Z gjb $");
 
 #include <sys/types.h>
 #include <sys/stat.h>

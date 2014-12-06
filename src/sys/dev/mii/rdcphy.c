@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/mii/rdcphy.c 227848 2011-11-22 21:55:40Z marius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/mii/rdcphy.c 227848 2011-11-22 21:55:40Z marius $");
 
 /*
  * Driver for the RDC Semiconductor R6040 10/100 PHY.

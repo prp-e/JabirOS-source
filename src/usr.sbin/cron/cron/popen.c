@@ -28,7 +28,7 @@
 static char sccsid[] = "@(#)popen.c	5.7 (Berkeley) 2/14/89";
 #endif
 static const char rcsid[] =
-  "$FreeBSD: stable/10/usr.sbin/cron/cron/popen.c 159527 2006-06-11 21:13:49Z maxim $";
+  "$FreeBSD: releng/10.1/usr.sbin/cron/cron/popen.c 159527 2006-06-11 21:13:49Z maxim $";
 #endif /* not lint */
 
 #include "cron.h"

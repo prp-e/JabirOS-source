@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/calendar/tests/Makefile 263227 2014-03-16 08:04:06Z jmmv $
+# $FreeBSD: releng/10.1/usr.bin/calendar/tests/Makefile 263227 2014-03-16 08:04:06Z jmmv $
 
 TESTSDIR=	${TESTSBASE}/usr.bin/calendar
 

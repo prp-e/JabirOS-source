@@ -32,7 +32,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/include/intr.h 266755 2014-05-27 16:17:25Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/include/intr.h 266755 2014-05-27 16:17:25Z ian $
  *
  */
 

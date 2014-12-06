@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/netgraph/ng_pipe.c 222257 2011-05-24 14:36:32Z zec $
+ * $FreeBSD: releng/10.1/sys/netgraph/ng_pipe.c 222257 2011-05-24 14:36:32Z zec $
  */
 
 /*

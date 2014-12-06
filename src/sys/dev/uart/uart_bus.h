@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/uart/uart_bus.h 246243 2013-02-02 11:38:26Z avg $
+ * $FreeBSD: releng/10.1/sys/dev/uart/uart_bus.h 246243 2013-02-02 11:38:26Z avg $
  */
 
 #ifndef _DEV_UART_BUS_H_

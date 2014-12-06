@@ -29,7 +29,7 @@
 */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/contrib/bzip2/bzlib.c 215041 2010-11-09 18:32:57Z obrien $");
+__FBSDID("$FreeBSD: releng/10.1/contrib/bzip2/bzlib.c 215041 2010-11-09 18:32:57Z obrien $");
 
 #include "bzlib_private.h"
 

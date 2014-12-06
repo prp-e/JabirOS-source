@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/amd64/amd64/db_trace.c 250851 2013-05-21 11:24:32Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/amd64/amd64/db_trace.c 250851 2013-05-21 11:24:32Z kib $");
 
 #include "opt_compat.h"
 

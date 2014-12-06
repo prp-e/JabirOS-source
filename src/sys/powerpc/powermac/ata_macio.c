@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/powermac/ata_macio.c 256857 2013-10-21 19:11:15Z andreast $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/powermac/ata_macio.c 256857 2013-10-21 19:11:15Z andreast $");
 
 /*
  * Mac-io ATA controller

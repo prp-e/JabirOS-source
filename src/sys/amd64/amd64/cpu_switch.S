@@ -30,7 +30,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/amd64/amd64/cpu_switch.S 271999 2014-09-22 20:34:36Z jhb $
+ * $FreeBSD: releng/10.1/sys/amd64/amd64/cpu_switch.S 271999 2014-09-22 20:34:36Z jhb $
  */
 
 #include <machine/asmacros.h>

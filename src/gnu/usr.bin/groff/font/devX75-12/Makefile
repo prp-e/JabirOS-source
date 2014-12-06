@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/gnu/usr.bin/groff/font/devX75-12/Makefile 139103 2004-12-21 08:47:35Z ru $
+# $FreeBSD: releng/10.1/gnu/usr.bin/groff/font/devX75-12/Makefile 139103 2004-12-21 08:47:35Z ru $
 
 NO_OBJ=
 

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/iscsi_initiator/iscsivar.h 234233 2012-04-13 18:21:56Z jpaetzel $
+ * $FreeBSD: releng/10.1/sys/dev/iscsi_initiator/iscsivar.h 234233 2012-04-13 18:21:56Z jpaetzel $
  */
 
 /*

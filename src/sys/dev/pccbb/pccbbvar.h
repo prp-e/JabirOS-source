@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/pccbb/pccbbvar.h 188701 2009-02-17 02:14:04Z imp $
+ * $FreeBSD: releng/10.1/sys/dev/pccbb/pccbbvar.h 188701 2009-02-17 02:14:04Z imp $
  */
 
 /*

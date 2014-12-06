@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: stable/10/tools/tools/sysdoc/sysdoc.sh 254073 2013-08-07 20:35:26Z obrien $
+# $FreeBSD: releng/10.1/tools/tools/sysdoc/sysdoc.sh 254073 2013-08-07 20:35:26Z obrien $
 #
 #################################################################
 # Missing Features:

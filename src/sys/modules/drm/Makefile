@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/drm/Makefile 230972 2012-02-04 00:54:43Z rmh $
+# $FreeBSD: releng/10.1/sys/modules/drm/Makefile 230972 2012-02-04 00:54:43Z rmh $
 
 .include <bsd.own.mk>
 

@@ -29,7 +29,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/tools/regression/posixsem/test.c 180059 2008-06-27 05:39:04Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/tools/regression/posixsem/test.c 180059 2008-06-27 05:39:04Z jhb $");
 
 #include <stdarg.h>
 #include <stdio.h>

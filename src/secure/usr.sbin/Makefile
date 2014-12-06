@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/secure/usr.sbin/Makefile 265037 2014-04-28 04:20:14Z jmmv $
+# $FreeBSD: releng/10.1/secure/usr.sbin/Makefile 265037 2014-04-28 04:20:14Z jmmv $
 
 .include <bsd.own.mk>
 

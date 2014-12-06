@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/net/sctp_sys_calls.c 270363 2014-08-22 20:26:20Z tuexen $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/net/sctp_sys_calls.c 270363 2014-08-22 20:26:20Z tuexen $");
 
 #include <stdio.h>
 #include <string.h>

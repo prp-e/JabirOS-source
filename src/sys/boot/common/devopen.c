@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/common/devopen.c 182731 2008-09-03 17:41:44Z raj $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/common/devopen.c 182731 2008-09-03 17:41:44Z raj $");
 
 #include <stand.h>
 #include <string.h>

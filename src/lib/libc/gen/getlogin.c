@@ -31,7 +31,7 @@
 static char sccsid[] = "@(#)getlogin.c	8.1 (Berkeley) 6/4/93";
 #endif /* LIBC_SCCS and not lint */
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/gen/getlogin.c 269453 2014-08-03 01:51:48Z marcel $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/gen/getlogin.c 269453 2014-08-03 01:51:48Z marcel $");
 
 #include <sys/param.h>
 #include <errno.h>

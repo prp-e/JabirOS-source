@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/pci/intpmreg.h 197128 2009-09-12 18:24:31Z avg $
+ * $FreeBSD: releng/10.1/sys/pci/intpmreg.h 197128 2009-09-12 18:24:31Z avg $
  */
 
 #ifndef __INTPMREG_H__

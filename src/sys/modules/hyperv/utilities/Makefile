@@ -1,9 +1,9 @@
-# $FreeBSD: stable/10/sys/modules/hyperv/utilities/Makefile 272152 2014-09-26 03:03:58Z gjb $
+# $FreeBSD: releng/10.1/sys/modules/hyperv/utilities/Makefile 272322 2014-09-30 17:54:57Z delphij $
 
 .PATH:	${.CURDIR}/../../../dev/hyperv/utilities
 
 KMOD=	hv_utils
-SRCS=	hv_util.c
+SRCS=	hv_util.c hv_kvp.c
 SRCS+=	bus_if.h device_if.h
 
 CFLAGS+= -I${.CURDIR}/../../../dev/hyperv/include \

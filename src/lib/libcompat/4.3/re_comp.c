@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libcompat/4.3/re_comp.c 205146 2010-03-14 10:18:58Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libcompat/4.3/re_comp.c 205146 2010-03-14 10:18:58Z ed $");
 
 /*
  * Compatibility routines that implement the old re_comp/re_exec interface in

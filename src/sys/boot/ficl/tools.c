@@ -54,7 +54,7 @@
 ** Specify breakpoint default action
 */
 
-/* $FreeBSD: stable/10/sys/boot/ficl/tools.c 271135 2014-09-04 21:01:10Z emaste $ */
+/* $FreeBSD: releng/10.1/sys/boot/ficl/tools.c 271135 2014-09-04 21:01:10Z emaste $ */
 
 #ifdef TESTMAIN
 #include <stdlib.h>

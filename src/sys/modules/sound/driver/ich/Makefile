@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/sound/driver/ich/Makefile 245952 2013-01-26 22:08:21Z pfg $
+# $FreeBSD: releng/10.1/sys/modules/sound/driver/ich/Makefile 245952 2013-01-26 22:08:21Z pfg $
 
 .PATH:		${.CURDIR}/../../../../dev/sound/pci
 KMOD		= snd_ich

@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libmemstat/memstat_all.c 148789 2005-08-06 13:54:03Z rwatson $
+ * $FreeBSD: releng/10.1/lib/libmemstat/memstat_all.c 148789 2005-08-06 13:54:03Z rwatson $
  */
 
 #include <sys/types.h>

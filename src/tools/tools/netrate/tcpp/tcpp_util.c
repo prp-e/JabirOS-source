@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/tools/netrate/tcpp/tcpp_util.c 189623 2009-03-10 14:52:17Z rwatson $
+ * $FreeBSD: releng/10.1/tools/tools/netrate/tcpp/tcpp_util.c 189623 2009-03-10 14:52:17Z rwatson $
  */
 
 #include <sys/types.h>

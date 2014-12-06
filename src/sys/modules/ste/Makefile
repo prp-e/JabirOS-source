@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/ste/Makefile 181739 2008-08-14 20:09:58Z imp $
+# $FreeBSD: releng/10.1/sys/modules/ste/Makefile 181739 2008-08-14 20:09:58Z imp $
 
 .PATH: ${.CURDIR}/../../dev/ste
 

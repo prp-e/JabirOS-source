@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/camcontrol/camcontrol.c 268700 2014-07-15 17:26:43Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/camcontrol/camcontrol.c 268700 2014-07-15 17:26:43Z mav $");
 
 #include <sys/ioctl.h>
 #include <sys/stdint.h>

@@ -61,7 +61,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/savecore/savecore.c 265075 2014-04-29 03:49:40Z markj $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/savecore/savecore.c 272434 2014-10-02 18:11:13Z bdrewery $");
 
 #include <sys/param.h>
 #include <sys/disk.h>
@@ -151,7 +151,10 @@ getbounds(void) {
 	}
 
 	if (fgets(buf, sizeof buf, fp) == NULL) {
-		syslog(LOG_WARNING, "unable to read from bounds, using 0");
+		if (feof(fp))
+			syslog(LOG_WARNING, "bounds file is empty, using 0");
+		else
+			syslog(LOG_WARNING, "bounds file: %s", strerror(errno));
 		fclose(fp);
 		return (ret);
 	}
@@ -160,6 +163,7 @@ getbounds(void) {
 	ret = (int)strtol(buf, NULL, 10);
 	if (ret == 0 && (errno == EINVAL || errno == ERANGE))
 		syslog(LOG_WARNING, "invalid value found in bounds, using 0");
+	fclose(fp);
 	return (ret);
 }
 

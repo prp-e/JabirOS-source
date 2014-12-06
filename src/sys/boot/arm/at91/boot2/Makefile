@@ -1,4 +1,4 @@
-#  $FreeBSD: stable/10/sys/boot/arm/at91/boot2/Makefile 251250 2013-06-02 11:44:23Z tijl $
+#  $FreeBSD: releng/10.1/sys/boot/arm/at91/boot2/Makefile 251250 2013-06-02 11:44:23Z tijl $
 
 .PATH: ${.CURDIR}/../libat91 ${.CURDIR}/../bootspi
 

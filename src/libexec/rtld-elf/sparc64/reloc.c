@@ -31,7 +31,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/libexec/rtld-elf/sparc64/reloc.c 271469 2014-09-12 16:22:01Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/libexec/rtld-elf/sparc64/reloc.c 271469 2014-09-12 16:22:01Z kib $");
 
 #include <sys/param.h>
 #include <sys/mman.h>

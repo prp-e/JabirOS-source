@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/lib/libc/inet/Symbol.map 170548 2007-06-11 07:21:21Z delphij $
+ * $FreeBSD: releng/10.1/lib/libc/inet/Symbol.map 170548 2007-06-11 07:21:21Z delphij $
  */
 
 FBSD_1.0 {

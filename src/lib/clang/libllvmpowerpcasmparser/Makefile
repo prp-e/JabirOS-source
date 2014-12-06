@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/clang/libllvmpowerpcasmparser/Makefile 259473 2013-12-16 18:45:21Z dim $
+# $FreeBSD: releng/10.1/lib/clang/libllvmpowerpcasmparser/Makefile 259473 2013-12-16 18:45:21Z dim $
 
 .include <bsd.own.mk>
 

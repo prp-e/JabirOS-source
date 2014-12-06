@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/dtc/fdt.cc 266313 2014-05-17 14:03:46Z ian $
+ * $FreeBSD: releng/10.1/usr.bin/dtc/fdt.cc 266313 2014-05-17 14:03:46Z ian $
  */
 
 #define __STDC_LIMIT_MACROS 1

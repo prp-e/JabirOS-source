@@ -18,7 +18,7 @@
 #
 # For hardware specific information check HARDWARE.TXT
 #
-# $FreeBSD: stable/10/sys/ia64/conf/GENERIC 268813 2014-07-17 22:31:46Z imp $
+# $FreeBSD: releng/10.1/sys/ia64/conf/GENERIC 268813 2014-07-17 22:31:46Z imp $
 
 cpu		ITANIUM2
 ident		GENERIC

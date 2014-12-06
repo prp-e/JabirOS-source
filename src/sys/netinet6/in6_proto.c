@@ -61,7 +61,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/netinet6/in6_proto.c 265946 2014-05-13 06:05:53Z kevlo $");
+__FBSDID("$FreeBSD: releng/10.1/sys/netinet6/in6_proto.c 265946 2014-05-13 06:05:53Z kevlo $");
 
 #include "opt_inet.h"
 #include "opt_inet6.h"

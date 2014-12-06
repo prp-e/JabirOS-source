@@ -32,7 +32,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)exec.h	8.3 (Berkeley) 1/21/94
- * $FreeBSD: stable/10/sys/sys/exec.h 270670 2014-08-26 19:58:48Z wblock $
+ * $FreeBSD: releng/10.1/sys/sys/exec.h 270670 2014-08-26 19:58:48Z wblock $
  */
 
 #ifndef _SYS_EXEC_H_

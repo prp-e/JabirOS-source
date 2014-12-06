@@ -48,7 +48,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/net/if_epair.c 241677 2012-10-18 09:57:56Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/net/if_epair.c 241677 2012-10-18 09:57:56Z glebius $");
 
 #include <sys/param.h>
 #include <sys/kernel.h>

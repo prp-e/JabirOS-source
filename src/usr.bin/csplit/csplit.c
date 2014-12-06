@@ -43,7 +43,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/csplit/csplit.c 227161 2011-11-06 08:14:45Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/csplit/csplit.c 227161 2011-11-06 08:14:45Z ed $");
 
 #include <sys/types.h>
 

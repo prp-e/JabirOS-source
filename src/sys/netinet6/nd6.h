@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	$KAME: nd6.h,v 1.76 2001/12/18 02:10:31 itojun Exp $
- * $FreeBSD: stable/10/sys/netinet6/nd6.h 249925 2013-04-26 12:50:32Z glebius $
+ * $FreeBSD: releng/10.1/sys/netinet6/nd6.h 249925 2013-04-26 12:50:32Z glebius $
  */
 
 #ifndef _NETINET6_ND6_H_

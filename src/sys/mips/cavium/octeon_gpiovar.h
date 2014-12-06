@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/mips/cavium/octeon_gpiovar.h 228925 2011-12-28 05:57:03Z gonzo $
+ * $FreeBSD: releng/10.1/sys/mips/cavium/octeon_gpiovar.h 228925 2011-12-28 05:57:03Z gonzo $
  *
  */
 

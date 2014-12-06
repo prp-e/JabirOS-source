@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/libexec/ypxfr/Makefile 231118 2012-02-07 09:27:07Z dim $
+# $FreeBSD: releng/10.1/libexec/ypxfr/Makefile 231118 2012-02-07 09:27:07Z dim $
 
 PROG=	ypxfr
 SRCS=	yp_dblookup.c yp_dbwrite.c yp_error.c \

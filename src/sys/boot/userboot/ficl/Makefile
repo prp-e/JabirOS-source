@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/userboot/ficl/Makefile 260096 2013-12-30 20:15:46Z dim $
+# $FreeBSD: releng/10.1/sys/boot/userboot/ficl/Makefile 260096 2013-12-30 20:15:46Z dim $
 #
 .include <bsd.own.mk>
 MK_SSP=		no

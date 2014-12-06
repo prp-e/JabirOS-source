@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/amd64/boot1.efi/Makefile 271136 2014-09-04 21:05:04Z emaste $
+# $FreeBSD: releng/10.1/sys/boot/amd64/boot1.efi/Makefile 271136 2014-09-04 21:05:04Z emaste $
 
 NO_MAN=
 

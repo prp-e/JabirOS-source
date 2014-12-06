@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.bin/clang/llvm-rtdyld/Makefile 263763 2014-03-26 07:31:57Z dim $
+# $FreeBSD: releng/10.1/usr.bin/clang/llvm-rtdyld/Makefile 263763 2014-03-26 07:31:57Z dim $
 
 NO_MAN=
 .include <bsd.own.mk>

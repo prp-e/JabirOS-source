@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/mii/tlphyreg.h 213188 2010-09-26 22:11:41Z marius $
+ * $FreeBSD: releng/10.1/sys/dev/mii/tlphyreg.h 213188 2010-09-26 22:11:41Z marius $
  */
 
 #ifndef _DEV_MII_TLPHYREG_H_

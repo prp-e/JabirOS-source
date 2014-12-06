@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/ufs/ffs/ffs_vfsops.c 270694 2014-08-27 01:37:22Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/ufs/ffs/ffs_vfsops.c 270694 2014-08-27 01:37:22Z kib $");
 
 #include "opt_quota.h"
 #include "opt_ufs.h"

@@ -32,7 +32,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/net/vnet.h 262735 2014-03-04 14:05:37Z glebius $
+ * $FreeBSD: releng/10.1/sys/net/vnet.h 262735 2014-03-04 14:05:37Z glebius $
  */
 
 /*-

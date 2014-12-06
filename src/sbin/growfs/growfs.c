@@ -51,7 +51,7 @@ All rights reserved.\n";
 #endif /* not lint */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/growfs/growfs.c 261963 2014-02-16 10:16:07Z brueffer $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/growfs/growfs.c 261963 2014-02-16 10:16:07Z brueffer $");
 
 #include <sys/param.h>
 #include <sys/ioctl.h>

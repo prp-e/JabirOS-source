@@ -22,7 +22,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/ae/if_aereg.h 253406 2013-07-17 01:34:25Z yongari $
+ * $FreeBSD: releng/10.1/sys/dev/ae/if_aereg.h 253406 2013-07-17 01:34:25Z yongari $
  */
 
 /*

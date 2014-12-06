@@ -26,7 +26,7 @@
  * OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/rman.h 269383 2014-08-01 15:04:46Z truckman $
+ * $FreeBSD: releng/10.1/sys/sys/rman.h 269383 2014-08-01 15:04:46Z truckman $
  */
 
 #ifndef _SYS_RMAN_H_

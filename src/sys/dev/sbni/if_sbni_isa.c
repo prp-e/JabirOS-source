@@ -27,7 +27,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/sbni/if_sbni_isa.c 180263 2008-07-04 20:53:41Z jhb $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/sbni/if_sbni_isa.c 180263 2008-07-04 20:53:41Z jhb $");
 
 
 #include <sys/param.h>

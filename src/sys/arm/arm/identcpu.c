@@ -42,7 +42,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/arm/identcpu.c 266341 2014-05-17 19:37:04Z ian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/arm/identcpu.c 266341 2014-05-17 19:37:04Z ian $");
 #include <sys/systm.h>
 #include <sys/param.h>
 #include <sys/malloc.h>

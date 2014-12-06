@@ -54,7 +54,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/fs/fuse/fuse_vfsops.c 255219 2013-09-05 00:09:56Z pjd $");
+__FBSDID("$FreeBSD: releng/10.1/sys/fs/fuse/fuse_vfsops.c 255219 2013-09-05 00:09:56Z pjd $");
 
 #include <sys/types.h>
 #include <sys/module.h>

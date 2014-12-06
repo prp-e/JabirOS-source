@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/share/examples/tests/tests/atf/cp_test.sh 264603 2014-04-17 12:42:41Z jmmv $
+# $FreeBSD: releng/10.1/share/examples/tests/tests/atf/cp_test.sh 264603 2014-04-17 12:42:41Z jmmv $
 #
 # Copyright 2013 Google Inc.
 # All rights reserved.

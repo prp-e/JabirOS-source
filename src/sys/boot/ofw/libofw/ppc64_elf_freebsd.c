@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/boot/ofw/libofw/ppc64_elf_freebsd.c 209920 2010-07-12 00:49:22Z nwhitehorn $");
+__FBSDID("$FreeBSD: releng/10.1/sys/boot/ofw/libofw/ppc64_elf_freebsd.c 209920 2010-07-12 00:49:22Z nwhitehorn $");
 
 #define __ELF_WORD_SIZE 64
 

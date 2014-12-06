@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/fs/devfs/devfs_rule.c 253677 2013-07-26 14:25:58Z avg $
+ * $FreeBSD: releng/10.1/sys/fs/devfs/devfs_rule.c 253677 2013-07-26 14:25:58Z avg $
  */
 
 /*

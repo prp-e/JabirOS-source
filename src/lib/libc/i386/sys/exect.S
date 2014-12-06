@@ -34,7 +34,7 @@
 	.asciz "@(#)exect.s	5.1 (Berkeley) 4/23/90"
 #endif /* SYSLIBC_SCCS and not lint */
 #include <machine/asm.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/i386/sys/exect.S 240152 2012-09-05 21:41:05Z jilles $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/i386/sys/exect.S 240152 2012-09-05 21:41:05Z jilles $");
 
 #include "SYS.h"
 #include <machine/psl.h>

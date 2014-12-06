@@ -1,5 +1,5 @@
 #	from: @(#)bsd.prog.mk	5.26 (Berkeley) 6/25/91
-# $FreeBSD: stable/10/share/mk/bsd.prog.mk 271274 2014-09-08 15:28:17Z emaste $
+# $FreeBSD: releng/10.1/share/mk/bsd.prog.mk 271274 2014-09-08 15:28:17Z emaste $
 
 .include <bsd.init.mk>
 

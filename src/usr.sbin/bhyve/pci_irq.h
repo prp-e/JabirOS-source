@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/bhyve/pci_irq.h 268972 2014-07-22 03:14:37Z jhb $
+ * $FreeBSD: releng/10.1/usr.sbin/bhyve/pci_irq.h 268972 2014-07-22 03:14:37Z jhb $
  */
 
 #ifndef __PCI_IRQ_H__

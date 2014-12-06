@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/etc/periodic/weekly/Makefile 254974 2013-08-27 21:20:28Z jlh $
+# $FreeBSD: releng/10.1/etc/periodic/weekly/Makefile 254974 2013-08-27 21:20:28Z jlh $
 
 .include <bsd.own.mk>
 

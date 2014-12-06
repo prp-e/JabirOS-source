@@ -23,7 +23,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# $FreeBSD: stable/10/usr.sbin/pc-sysinstall/backend-query/xkeyboard-layouts.sh 218803 2011-02-18 15:52:57Z jpaetzel $
+# $FreeBSD: releng/10.1/usr.sbin/pc-sysinstall/backend-query/xkeyboard-layouts.sh 218803 2011-02-18 15:52:57Z jpaetzel $
 
 FOUND="0"
 TMPLIST="/tmp/.xkeyList.$$"

@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/netinet/libalias/alias.h 223080 2011-06-14 13:35:24Z ae $
+ * $FreeBSD: releng/10.1/sys/netinet/libalias/alias.h 223080 2011-06-14 13:35:24Z ae $
  */
 
 /*

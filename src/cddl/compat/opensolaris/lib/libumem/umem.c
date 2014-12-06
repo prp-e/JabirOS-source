@@ -18,7 +18,7 @@
  *
  * CDDL HEADER END
  *
- * $FreeBSD: stable/10/cddl/compat/opensolaris/lib/libumem/umem.c 178414 2008-04-22 07:43:00Z jb $
+ * $FreeBSD: releng/10.1/cddl/compat/opensolaris/lib/libumem/umem.c 178414 2008-04-22 07:43:00Z jb $
  */
 /*
  * Copyright 2006 Ricardo Correia.  All rights reserved.

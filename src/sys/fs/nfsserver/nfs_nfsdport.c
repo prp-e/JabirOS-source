@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/fs/nfsserver/nfs_nfsdport.c 269655 2014-08-07 03:50:30Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/sys/fs/nfsserver/nfs_nfsdport.c 269655 2014-08-07 03:50:30Z kib $");
 
 #include <sys/capability.h>
 

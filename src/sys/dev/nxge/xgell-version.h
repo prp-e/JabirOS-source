@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/nxge/xgell-version.h 173139 2007-10-29 14:19:32Z rwatson $
+ * $FreeBSD: releng/10.1/sys/dev/nxge/xgell-version.h 173139 2007-10-29 14:19:32Z rwatson $
  */
 
 #ifndef XGELL_VERSION_H

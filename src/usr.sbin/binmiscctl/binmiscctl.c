@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/binmiscctl/binmiscctl.c 264269 2014-04-08 20:10:22Z sbruno $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/binmiscctl/binmiscctl.c 264269 2014-04-08 20:10:22Z sbruno $");
 
 #include <ctype.h>
 #include <errno.h>

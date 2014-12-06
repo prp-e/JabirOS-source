@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libnetbsd/util.c 244557 2012-12-21 20:37:38Z brooks $
+ * $FreeBSD: releng/10.1/lib/libnetbsd/util.c 244557 2012-12-21 20:37:38Z brooks $
  */
 
 #include <sys/cdefs.h>

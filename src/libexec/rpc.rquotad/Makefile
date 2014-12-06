@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/libexec/rpc.rquotad/Makefile 207736 2010-05-07 00:41:12Z mckusick $
+# $FreeBSD: releng/10.1/libexec/rpc.rquotad/Makefile 207736 2010-05-07 00:41:12Z mckusick $
 
 PROG =	rpc.rquotad
 SRCS =	rquotad.c

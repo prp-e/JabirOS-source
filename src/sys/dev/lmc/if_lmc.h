@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/sys/dev/lmc/if_lmc.h 249925 2013-04-26 12:50:32Z glebius $
+ * $FreeBSD: releng/10.1/sys/dev/lmc/if_lmc.h 249925 2013-04-26 12:50:32Z glebius $
  *
  * Copyright (c) 2002-2004 David Boggs. (boggs@boggs.palo-alto.ca.us)
  * All rights reserved.

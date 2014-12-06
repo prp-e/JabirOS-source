@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.sbin/mfiutil/mfi_evt.c 266400 2014-05-18 15:28:25Z jhb $
+ * $FreeBSD: releng/10.1/usr.sbin/mfiutil/mfi_evt.c 266400 2014-05-18 15:28:25Z jhb $
  */
 
 #include <sys/types.h>

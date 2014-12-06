@@ -1,5 +1,5 @@
 /*
- * $FreeBSD: stable/10/lib/libc/stdlib/jemalloc/Symbol.map 250991 2013-05-25 18:59:11Z marcel $
+ * $FreeBSD: releng/10.1/lib/libc/stdlib/jemalloc/Symbol.map 250991 2013-05-25 18:59:11Z marcel $
  */
 
 FBSD_1.0 {

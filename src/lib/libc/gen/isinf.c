@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libc/gen/isinf.c 131898 2004-07-10 15:52:26Z marcel $
+ * $FreeBSD: releng/10.1/lib/libc/gen/isinf.c 131898 2004-07-10 15:52:26Z marcel $
  */
 
 #include <math.h>

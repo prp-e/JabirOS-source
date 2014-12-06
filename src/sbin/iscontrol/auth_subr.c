@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sbin/iscontrol/auth_subr.c 254657 2013-08-22 14:02:34Z trasz $");
+__FBSDID("$FreeBSD: releng/10.1/sbin/iscontrol/auth_subr.c 254657 2013-08-22 14:02:34Z trasz $");
 
 #include <sys/param.h>
 #include <sys/types.h>

@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/libkern/strvalid.c 140960 2005-01-29 13:34:22Z rwatson $");
+__FBSDID("$FreeBSD: releng/10.1/sys/libkern/strvalid.c 140960 2005-01-29 13:34:22Z rwatson $");
 
 #include <sys/types.h>
 #include <sys/libkern.h>

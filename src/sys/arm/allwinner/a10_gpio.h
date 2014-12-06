@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/arm/allwinner/a10_gpio.h 266337 2014-05-17 18:53:36Z ian $
+ * $FreeBSD: releng/10.1/sys/arm/allwinner/a10_gpio.h 266337 2014-05-17 18:53:36Z ian $
  */
 
 #ifndef	_A10_GPIO_H_

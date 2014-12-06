@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/auxio/Makefile 142435 2005-02-25 06:59:56Z yongari $
+# $FreeBSD: releng/10.1/sys/modules/auxio/Makefile 142435 2005-02-25 06:59:56Z yongari $
 
 .PATH: ${.CURDIR}/../../dev/auxio
 

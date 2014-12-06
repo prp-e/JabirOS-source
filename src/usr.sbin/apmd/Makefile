@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/apmd/Makefile 208289 2010-05-19 08:52:51Z uqs $
+# $FreeBSD: releng/10.1/usr.sbin/apmd/Makefile 208289 2010-05-19 08:52:51Z uqs $
 
 PROG=	apmd
 MAN=	apmd.8

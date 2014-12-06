@@ -23,7 +23,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/arm/xscale/i80321/i80321_dma.c 236987 2012-06-13 04:38:09Z imp $");
+__FBSDID("$FreeBSD: releng/10.1/sys/arm/xscale/i80321/i80321_dma.c 236987 2012-06-13 04:38:09Z imp $");
 #include <sys/param.h>
 #include <sys/systm.h>
 #include <sys/bus.h>

@@ -19,7 +19,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/net80211/ieee80211_amrr.c 252736 2013-07-05 00:03:53Z adrian $");
+__FBSDID("$FreeBSD: releng/10.1/sys/net80211/ieee80211_amrr.c 252736 2013-07-05 00:03:53Z adrian $");
 
 /*-
  * Naive implementation of the Adaptive Multi Rate Retry algorithm:

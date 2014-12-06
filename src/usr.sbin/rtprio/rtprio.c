@@ -33,7 +33,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/rtprio/rtprio.c 235293 2012-05-11 21:52:05Z delphij $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/rtprio/rtprio.c 235293 2012-05-11 21:52:05Z delphij $");
 
 #include <sys/param.h>
 #include <sys/rtprio.h>

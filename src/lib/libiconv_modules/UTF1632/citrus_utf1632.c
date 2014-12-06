@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/lib/libiconv_modules/UTF1632/citrus_utf1632.c 252583 2013-07-03 18:27:45Z peter $ */
+/* $FreeBSD: releng/10.1/lib/libiconv_modules/UTF1632/citrus_utf1632.c 252583 2013-07-03 18:27:45Z peter $ */
 /*	$NetBSD: citrus_utf1632.c,v 1.9 2008/06/14 16:01:08 tnozaki Exp $	*/
 
 /*-

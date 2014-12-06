@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/lib/libthr/arch/arm/arm/pthread_md.c 231619 2012-02-14 00:17:43Z gonzo $
+ * $FreeBSD: releng/10.1/lib/libthr/arch/arm/arm/pthread_md.c 231619 2012-02-14 00:17:43Z gonzo $
  */
 
 #include <stdlib.h>

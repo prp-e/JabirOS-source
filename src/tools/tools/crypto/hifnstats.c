@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/tools/tools/crypto/hifnstats.c 112394 2003-03-19 01:53:55Z sam $
+ * $FreeBSD: releng/10.1/tools/tools/crypto/hifnstats.c 112394 2003-03-19 01:53:55Z sam $
  */
 #include <stdio.h>
 #include <sys/types.h>

@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.sbin/i2c/i2c.c 230356 2012-01-20 01:38:44Z eadler $");
+__FBSDID("$FreeBSD: releng/10.1/usr.sbin/i2c/i2c.c 230356 2012-01-20 01:38:44Z eadler $");
 
 #include <err.h>
 #include <errno.h>

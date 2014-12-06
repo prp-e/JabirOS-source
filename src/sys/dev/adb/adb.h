@@ -22,7 +22,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/adb/adb.h 199888 2009-11-28 17:48:25Z nwhitehorn $
+ * $FreeBSD: releng/10.1/sys/dev/adb/adb.h 199888 2009-11-28 17:48:25Z nwhitehorn $
  */
 
 #ifndef	_POWERPC_ADB_H_

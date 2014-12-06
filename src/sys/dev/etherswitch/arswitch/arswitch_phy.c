@@ -24,7 +24,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/etherswitch/arswitch/arswitch_phy.c 253570 2013-07-23 14:02:38Z loos $
+ * $FreeBSD: releng/10.1/sys/dev/etherswitch/arswitch/arswitch_phy.c 253570 2013-07-23 14:02:38Z loos $
  */
 
 #include <sys/param.h>

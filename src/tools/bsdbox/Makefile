@@ -1,4 +1,4 @@
-#$FreeBSD: stable/10/tools/bsdbox/Makefile 239885 2012-08-29 22:54:27Z adrian $
+#$FreeBSD: releng/10.1/tools/bsdbox/Makefile 239885 2012-08-29 22:54:27Z adrian $
 #	@(#)Makefile	8.1 (Berkeley) 6/2/93
 
 NO_MAN=

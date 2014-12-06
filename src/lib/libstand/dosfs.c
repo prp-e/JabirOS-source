@@ -26,7 +26,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libstand/dosfs.c 221365 2011-05-03 07:43:47Z rodrigc $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libstand/dosfs.c 221365 2011-05-03 07:43:47Z rodrigc $");
 
 /*
  * Readonly filesystem for Microsoft FAT12/FAT16/FAT32 filesystems,

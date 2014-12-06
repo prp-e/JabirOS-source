@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/usr.bin/iscsictl/token.l 270907 2014-09-01 01:39:20Z ngie $
+ * $FreeBSD: releng/10.1/usr.bin/iscsictl/token.l 270907 2014-09-01 01:39:20Z ngie $
  */
 
 #include <stdio.h>

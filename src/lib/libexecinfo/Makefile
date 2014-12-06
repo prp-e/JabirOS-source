@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/lib/libexecinfo/Makefile 255175 2013-09-03 13:31:43Z emaste $
+# $FreeBSD: releng/10.1/lib/libexecinfo/Makefile 255175 2013-09-03 13:31:43Z emaste $
 
 LIBEXECINFO=	${.CURDIR}/../../contrib/libexecinfo
 

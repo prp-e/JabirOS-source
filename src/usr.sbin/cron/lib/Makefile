@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/cron/lib/Makefile 185042 2008-11-18 00:59:26Z matteo $
+# $FreeBSD: releng/10.1/usr.sbin/cron/lib/Makefile 185042 2008-11-18 00:59:26Z matteo $
 
 LIB=	cron
 INTERNALLIB=

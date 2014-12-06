@@ -25,7 +25,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sbin/camcontrol/camcontrol.h 268700 2014-07-15 17:26:43Z mav $
+ * $FreeBSD: releng/10.1/sbin/camcontrol/camcontrol.h 268700 2014-07-15 17:26:43Z mav $
  */
 
 #ifndef _CAMCONTROL_H

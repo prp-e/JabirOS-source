@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/ia64/ia64/mca.c 253559 2013-07-23 02:38:23Z marcel $
+ * $FreeBSD: releng/10.1/sys/ia64/ia64/mca.c 253559 2013-07-23 02:38:23Z marcel $
  */
 
 #include <sys/param.h>

@@ -46,7 +46,7 @@
 #include "aicasm/aicasm_insformat.h"
 #else
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/aic7xxx/aic7xxx.c 260342 2014-01-05 22:40:28Z mav $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/aic7xxx/aic7xxx.c 260342 2014-01-05 22:40:28Z mav $");
 #include <dev/aic7xxx/aic7xxx_osm.h>
 #include <dev/aic7xxx/aic7xxx_inline.h>
 #include <dev/aic7xxx/aicasm/aicasm_insformat.h>

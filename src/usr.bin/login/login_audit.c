@@ -32,7 +32,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/usr.bin/login/login_audit.c 191297 2009-04-19 23:34:22Z rwatson $");
+__FBSDID("$FreeBSD: releng/10.1/usr.bin/login/login_audit.c 191297 2009-04-19 23:34:22Z rwatson $");
 
 #include <sys/types.h>
 

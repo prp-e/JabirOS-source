@@ -27,7 +27,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/sys/pmc.h 267602 2014-06-18 05:35:09Z kib $
+ * $FreeBSD: releng/10.1/sys/sys/pmc.h 267602 2014-06-18 05:35:09Z kib $
  */
 
 #ifndef _SYS_PMC_H_

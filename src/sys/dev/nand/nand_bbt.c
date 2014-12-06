@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/dev/nand/nand_bbt.c 235537 2012-05-17 10:11:18Z gber $
+ * $FreeBSD: releng/10.1/sys/dev/nand/nand_bbt.c 235537 2012-05-17 10:11:18Z gber $
  */
 
 #include <sys/cdefs.h>

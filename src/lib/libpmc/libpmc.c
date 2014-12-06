@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libpmc/libpmc.c 267602 2014-06-18 05:35:09Z kib $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libpmc/libpmc.c 267602 2014-06-18 05:35:09Z kib $");
 
 #include <sys/types.h>
 #include <sys/param.h>

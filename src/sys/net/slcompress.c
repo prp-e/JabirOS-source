@@ -27,7 +27,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)slcompress.c	8.2 (Berkeley) 4/16/94
- * $FreeBSD: stable/10/sys/net/slcompress.c 128019 2004-04-07 20:46:16Z imp $
+ * $FreeBSD: releng/10.1/sys/net/slcompress.c 128019 2004-04-07 20:46:16Z imp $
  */
 
 /*

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/sysvipc/sysvsem/Makefile 213781 2010-10-13 14:44:38Z rpaulo $
+# $FreeBSD: releng/10.1/sys/modules/sysvipc/sysvsem/Makefile 213781 2010-10-13 14:44:38Z rpaulo $
 
 .PATH: ${.CURDIR}/../../../kern
 

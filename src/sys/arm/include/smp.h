@@ -1,4 +1,4 @@
-/* $FreeBSD: stable/10/sys/arm/include/smp.h 266374 2014-05-17 23:03:04Z ian $ */
+/* $FreeBSD: releng/10.1/sys/arm/include/smp.h 266374 2014-05-17 23:03:04Z ian $ */
 
 #ifndef _MACHINE_SMP_H_
 #define _MACHINE_SMP_H_

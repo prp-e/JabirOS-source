@@ -1,5 +1,5 @@
 #	@(#)Makefile	8.1 (Berkeley) 6/4/93
-# $FreeBSD: stable/10/libexec/Makefile 272152 2014-09-26 03:03:58Z gjb $
+# $FreeBSD: releng/10.1/libexec/Makefile 272322 2014-09-30 17:54:57Z delphij $
 
 .include <bsd.own.mk>
 
@@ -10,6 +10,7 @@ SUBDIR=	${_atf} \
 	fingerd \
 	ftpd \
 	getty \
+	${_hyperv} \
 	${_mail.local} \
 	${_mknetid} \
 	${_pppoed} \
@@ -40,6 +41,10 @@ _atrun=		atrun
 
 .if ${MK_MAIL} != "no"
 _comsat=	comsat
+.endif
+
+.if ${MK_HYPERV} != "no"
+_hyperv=	hyperv
 .endif
 
 .if ${MK_NIS} != "no"

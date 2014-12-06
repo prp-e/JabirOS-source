@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/kerberos5/usr.bin/string2key/Makefile 236337 2012-05-30 22:21:25Z obrien $
+# $FreeBSD: releng/10.1/kerberos5/usr.bin/string2key/Makefile 236337 2012-05-30 22:21:25Z obrien $
 
 PROG=	string2key
 MAN=	string2key.8

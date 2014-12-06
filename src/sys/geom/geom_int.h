@@ -32,7 +32,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/geom/geom_int.h 260479 2014-01-09 11:13:03Z mav $
+ * $FreeBSD: releng/10.1/sys/geom/geom_int.h 260479 2014-01-09 11:13:03Z mav $
  */
 
 LIST_HEAD(class_list_head, g_class);

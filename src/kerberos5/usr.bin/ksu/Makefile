@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/kerberos5/usr.bin/ksu/Makefile 178828 2008-05-07 13:53:12Z dfr $
+# $FreeBSD: releng/10.1/kerberos5/usr.bin/ksu/Makefile 178828 2008-05-07 13:53:12Z dfr $
 
 PROG=	ksu
 .if defined(ENABLE_SUID_K5SU)

@@ -63,7 +63,7 @@
  *	@(#)if_lereg.h	8.1 (Berkeley) 6/10/93
  */
 
-/* $FreeBSD: stable/10/sys/dev/le/am7990reg.h 263687 2014-03-24 13:48:04Z emaste $ */
+/* $FreeBSD: releng/10.1/sys/dev/le/am7990reg.h 263687 2014-03-24 13:48:04Z emaste $ */
 
 #ifndef _DEV_LE_AM7990REG_H_
 #define	_DEV_LE_AM7990REG_H_

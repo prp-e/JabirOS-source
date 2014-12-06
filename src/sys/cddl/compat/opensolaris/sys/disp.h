@@ -23,7 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $FreeBSD: stable/10/sys/cddl/compat/opensolaris/sys/disp.h 260763 2014-01-16 15:57:39Z avg $
+ * $FreeBSD: releng/10.1/sys/cddl/compat/opensolaris/sys/disp.h 260763 2014-01-16 15:57:39Z avg $
  */
 
 #ifndef _OPENSOLARIS_SYS_DISP_H_

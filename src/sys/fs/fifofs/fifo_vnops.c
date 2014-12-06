@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)fifo_vnops.c	8.10 (Berkeley) 5/27/95
- * $FreeBSD: stable/10/sys/fs/fifofs/fifo_vnops.c 268335 2014-07-06 22:47:18Z mjg $
+ * $FreeBSD: releng/10.1/sys/fs/fifofs/fifo_vnops.c 268335 2014-07-06 22:47:18Z mjg $
  */
 
 #include <sys/param.h>

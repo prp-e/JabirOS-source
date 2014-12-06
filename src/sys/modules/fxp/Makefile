@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/fxp/Makefile 226154 2011-10-08 12:33:10Z marius $
+# $FreeBSD: releng/10.1/sys/modules/fxp/Makefile 226154 2011-10-08 12:33:10Z marius $
 
 .PATH: ${.CURDIR}/../../dev/fxp
 

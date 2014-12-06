@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD: stable/10/sbin/newfs/runtest00.sh 92722 2002-03-19 21:05:29Z phk $
+# $FreeBSD: releng/10.1/sbin/newfs/runtest00.sh 92722 2002-03-19 21:05:29Z phk $
 
 set -e
 

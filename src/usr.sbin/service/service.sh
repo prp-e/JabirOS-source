@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# $FreeBSD: stable/10/usr.sbin/service/service.sh 268098 2014-07-01 15:50:34Z delphij $
+# $FreeBSD: releng/10.1/usr.sbin/service/service.sh 268098 2014-07-01 15:50:34Z delphij $
 
 #  Copyright (c) 2009 Douglas Barton
 #  All rights reserved.

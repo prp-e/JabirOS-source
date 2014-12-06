@@ -28,7 +28,7 @@
  *
  *	@(#)socketvar.h	8.3 (Berkeley) 2/19/95
  *
- * $FreeBSD: stable/10/sys/sys/sockbuf.h 264080 2014-04-03 16:57:16Z asomers $
+ * $FreeBSD: releng/10.1/sys/sys/sockbuf.h 264080 2014-04-03 16:57:16Z asomers $
  */
 #ifndef _SYS_SOCKBUF_H_
 #define _SYS_SOCKBUF_H_

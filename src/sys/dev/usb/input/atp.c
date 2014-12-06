@@ -57,7 +57,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/usb/input/atp.c 263063 2014-03-12 07:15:41Z hselasky $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/usb/input/atp.c 263063 2014-03-12 07:15:41Z hselasky $");
 
 #include <sys/stdint.h>
 #include <sys/stddef.h>

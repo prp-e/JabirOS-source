@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/bxe/ecore_sp.h 272004 2014-09-22 21:12:30Z davidcs $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/bxe/ecore_sp.h 272004 2014-09-22 21:12:30Z davidcs $");
 
 #ifndef ECORE_SP_H
 #define ECORE_SP_H

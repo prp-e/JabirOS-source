@@ -1,5 +1,5 @@
 #
-# $FreeBSD: stable/10/sys/modules/hwpmc/Makefile 263132 2014-03-14 02:37:07Z jhibbits $
+# $FreeBSD: releng/10.1/sys/modules/hwpmc/Makefile 263132 2014-03-14 02:37:07Z jhibbits $
 #
 
 .PATH: ${.CURDIR}/../../dev/hwpmc

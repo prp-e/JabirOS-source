@@ -30,7 +30,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libipsec/test-policy.c 248314 2013-03-15 09:19:19Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libipsec/test-policy.c 248314 2013-03-15 09:19:19Z glebius $");
 
 #include <sys/types.h>
 #include <sys/param.h>

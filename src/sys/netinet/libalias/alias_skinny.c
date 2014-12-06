@@ -27,7 +27,7 @@
  *
  * Author: Joe Marcus Clarke <marcus@FreeBSD.org>
  *
- * $FreeBSD: stable/10/sys/netinet/libalias/alias_skinny.c 240725 2012-09-20 03:29:43Z kevlo $
+ * $FreeBSD: releng/10.1/sys/netinet/libalias/alias_skinny.c 240725 2012-09-20 03:29:43Z kevlo $
  */
 
 #ifdef _KERNEL

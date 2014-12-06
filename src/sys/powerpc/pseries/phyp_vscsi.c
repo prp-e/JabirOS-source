@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/powerpc/pseries/phyp_vscsi.c 259204 2013-12-10 22:55:22Z nwhitehorn $");
+__FBSDID("$FreeBSD: releng/10.1/sys/powerpc/pseries/phyp_vscsi.c 259204 2013-12-10 22:55:22Z nwhitehorn $");
 
 #include <sys/param.h>
 #include <sys/systm.h>

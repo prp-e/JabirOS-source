@@ -25,7 +25,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/lib/libc/gen/sysctlnametomib.c 204170 2010-02-21 13:57:02Z ed $");
+__FBSDID("$FreeBSD: releng/10.1/lib/libc/gen/sysctlnametomib.c 204170 2010-02-21 13:57:02Z ed $");
 
 #include <sys/types.h>
 #include <sys/sysctl.h>

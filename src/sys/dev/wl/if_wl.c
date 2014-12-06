@@ -173,7 +173,7 @@ WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: stable/10/sys/dev/wl/if_wl.c 243857 2012-12-04 09:32:43Z glebius $");
+__FBSDID("$FreeBSD: releng/10.1/sys/dev/wl/if_wl.c 243857 2012-12-04 09:32:43Z glebius $");
 
 /*
  * NOTE:

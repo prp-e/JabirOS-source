@@ -32,7 +32,7 @@
  * SUCH DAMAGE.
  *
  *	@(#)proc.h	8.15 (Berkeley) 5/19/95
- * $FreeBSD: stable/10/sys/sys/proc.h 271372 2014-09-10 09:47:16Z kib $
+ * $FreeBSD: releng/10.1/sys/sys/proc.h 271372 2014-09-10 09:47:16Z kib $
  */
 
 #ifndef _SYS_PROC_H_

@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/modules/ct/Makefile 240170 2012-09-06 18:02:32Z jhb $
+# $FreeBSD: releng/10.1/sys/modules/ct/Makefile 240170 2012-09-06 18:02:32Z jhb $
 
 .PATH: ${.CURDIR}/../../dev/ct
 

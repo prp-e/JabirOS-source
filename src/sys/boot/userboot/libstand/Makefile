@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/sys/boot/userboot/libstand/Makefile 260096 2013-12-30 20:15:46Z dim $
+# $FreeBSD: releng/10.1/sys/boot/userboot/libstand/Makefile 260096 2013-12-30 20:15:46Z dim $
 # Originally from	$NetBSD: Makefile,v 1.21 1997/10/26 22:08:38 lukem Exp $
 #
 # Notes:

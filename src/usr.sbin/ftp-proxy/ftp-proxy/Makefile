@@ -1,4 +1,4 @@
-# $FreeBSD: stable/10/usr.sbin/ftp-proxy/ftp-proxy/Makefile 240494 2012-09-14 11:51:49Z glebius $
+# $FreeBSD: releng/10.1/usr.sbin/ftp-proxy/ftp-proxy/Makefile 240494 2012-09-14 11:51:49Z glebius $
 
 .PATH:	${.CURDIR}/../../../contrib/pf/ftp-proxy
 
